@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+
+:root {
+    --main-dark-color: #2a382b;
+    --main-dark-color-fade: #3e5840;
+    --main-grey-color: #707a71;
+    --main-selected-color: rgb(246, 255, 246);
+}
+
+@font-face {
+    font-family: 'Germania One', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    color: var(--main-dark-color);
+}
+
+/**
+ * Layout
+ */
+
+
+ body {
+    background-image: url(images/spots.png);
+    background-repeat: repeat;
+    
+    font-family: Alegreya, serif;
+    font-size: 14pt;
+    color: var(--main-dark-color-fade);
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-family: 'Germania One', cursive;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    border: var(--main-dark-color);
+    background-image: url(images/ornament1.png);
+    background-repeat: repeat;
+    clear: left;
+}
+
+h2 {
+    font-size: 1.9em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h3.big, h2.big {
+    font-size: 3em;
+    text-align: center;
+    background-image: url(images/ornament1.png);
+    background-repeat: repeat;
+    clear: both;
+    column-span: all;
+}
+
+h4.block, h3.block, h2.block {
+    background: var(--main-dark-color);
+    color: #fff;
+    font-weight: normal;
+    background-image: url(images/ornament-white.png);
+    background-repeat: repeat;
+    margin-top: -.7em;
+    margin-left: -.7em;
+    margin-right: -.7em;
+    margin-bottom: .4em;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+section.block {
+    border: solid var(--main-dark-color) 2px;
+    border-radius: 10px;
+    margin: .7em;
+    padding: .7em;
+    background-color: #cad6cb;
+    background-image: url(images/ornament-white.png);
+    display: table;
+    width: -webkit-fill-available;
+    ;
+}
+
+img {
+    width: 100%;
+}
+
+/* Anchors in headers */
+
+a.headerlink {
+    font-size: 0.8em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    padding-left: .3em;
+}
+
+a.headerlink:hover {
+    color: #888;
+}
+
+table {
+    display: table;
+    overflow: visible;
+    word-break: normal;
+    word-break: keep-all;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th {
+    background: var(--main-dark-color);
+    color: #fff;
+    font-weight: normal;
+    background-image: url(images/ornament-white.png);
+    background-repeat: repeat;
+}
+
+table th, table td {
+    padding: 6px 6px;
+    font-size: 1.1em;
+    /* border: 1px solid #ddd; */
+}
+
+table tr {
+    background-color: rgb(233, 240, 233);
+    font-size: 0.9em;
+}
+
+table tr:nth-child(2n) {
+    background-color: #b6c9b6;
+}
+
+table td:last-child {
+    border-style: none;
+}
+
+table td {
+    border-right: #b6c9b6 dotted 1px;
+}
+
+table tr:nth-child(2n)>td {
+    border-right: rgb(233, 240, 233) dotted 1px;
+}
+
+th em {
+    font-family: Alegreya, serif;
+}
+
+table caption {
+    font-family: 'Germania One', cursive;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+blockquote {
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 4px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    color: var(--main-grey-color);
+}
+
+blockquote>p {
+    margin-bottom: 0;
+}
+
+p, ul, ol, dl, table, pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+a {
+    color: var(--main-dark-color);
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: var(--main-dark-color);
+    color: var(--main-selected-color);
+}
+
+footer {
+    font-size: small;
+    border-top: 1px solid #444;
+}
+
+.monster {
+    border: solid var(--main-dark-color) 2px;
+    border-radius: 10px;
+    margin: .7em;
+    padding: .7em;
+    background-color: #cad6cb;
+    background-image: url(images/ornament-white.png);
+    display: table;
+    width: -webkit-fill-available;
+}
+
+.monster p {
+    margin-bottom: 0;
+}
+
+.monster-header {
+    background: var(--main-dark-color);
+    color: #fff;
+    font-weight: normal;
+    background-image: url(images/ornament-white.png);
+    background-repeat: repeat;
+    margin-top: -14px;
+    margin-left: -14px;
+    margin-right: -14px;
+    margin-bottom: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Germania One', cursive;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.monster-special {
+    font-style: italic;
+    text-align: center;
+}
+
+.monster-attributes {
+    background: var(--main-grey-color);
+    color: #fff;
+    font-family: 'Germania One', cursive;
+    font-weight: normal;
+    background-image: url(images/ornament-white.png);
+    background-repeat: repeat;
+    margin-top: -20px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    margin-left: -13px;
+    margin-right: -13px;
+    margin-bottom: 4px;
+    text-align: center;
+    position: relative;
+}
+
+.tip, .m {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted black;
+    cursor: context-menu;
+    font-weight: bold;
+}
+
+.tooltip_monster.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip_monster {
+    visibility: hidden;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    opacity: 0%;
+    transition: opacity 0.3s;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.alert {
+    color: brown;
+    font-weight: bold;
+}
+
+.tip .tooltip {
+    opacity: 0%;
+    position: absolute;
+    margin-left: -220%;
+    max-height: 400px;
+    width: max-content;
+    height: min-content;
+
+    max-width: 400px;
+    visibility: hidden;
+    bottom: 105%;
+    border: var(--main-dark-color) solid 2px;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--main-selected-color);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 15px;
+    box-sizing: border-box;
+
+    font-weight: normal;
+}
+
+.tip .tooltip p{
+    margin: 0;
+}
+
+.tip .tooltip::after {
+    content: "";
+    position: absolute;
+    /* position tooltip correctly */
+    left: 100%;
+    margin-left: -5px;
+    /* vertically center */
+    top: 50%;
+    transform: translateY(-50%);
+    /* the arrow */
+    border: 10px solid #000;
+    border-color: transparent black transparent transparent;
+    display: none;
+}
+
+.tip:hover .tooltip {
+    visibility: visible;
+    opacity: 100%;
+    transition: opacity 0.3s;
+}
