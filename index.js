@@ -15,6 +15,7 @@ const data_monsters = getSheet(data, "monsters");
 const data_actions = getSheet(data, "actions");
 
 const { makeMonsterTable } = require('./util/tables.js');
+const { title } = require('process');
 
 var md = require('markdown-it')({ html: true, breaks: true });
 
@@ -22,7 +23,8 @@ md.use(require("markdown-it-anchor"));
 md.use(require("markdown-it-toc-done-right"));
 md.use(require("markdown-it-attrs"));
 md.use(require('markdown-it-header-sections'))
-md.use(require('./util/markdown-it-print.js'))
+md.use(require('markdown-it-meta'))
+// md.use(require('./util/markdown-it-print.js'))
 
 var pageCount = -1;
 
@@ -44,53 +46,84 @@ var shortcodes = {
 
 md.use(require('markdown-it-shortcode-tag'), shortcodes);
 
+const publicPath = 'public/';
 const sourcePath = 'source/';
 const dataPath = 'data/';
 
 // Start the server for testing
 const PORT = process.env.PORT || 3000;
 const server = http.createServer(app)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, publicPath)));
 server.listen(PORT, () => console.log(`======== Server started [${moment().format('h:mm a')}] ========`));
-processMarkDown('bestiary.md');
+processSourcesFolder();
 
 var lastProcessedTime = Date.now();
 chokidar.watch(sourcePath).on('all', (event, path) => {
-    if (Date.now() - lastProcessedTime > 500) {
-        console.log(`-> Source updated (${event}, ${path})`);
-        lastProcessedTime = Date.now();
-        processMarkDown('bestiary.md');
-    }
+    processSourcesFolder();
 });
 
 chokidar.watch(dataPath).on('all', (event, path) => {
-    if (Date.now() - lastProcessedTime > 500) {
-        console.log(`-> Data updated (${event}, ${path})`);
-        lastProcessedTime = Date.now();
-        processMarkDown('bestiary.md');
-    }
+    processSourcesFolder();
 });
+
+function processSourcesFolder() {
+    if (Date.now() - lastProcessedTime < 4000) return;
+    lastProcessedTime = Date.now();
+
+    console.log("======== updating sources folder ========")
+
+    fs.readdir(sourcePath, (err, files) => {
+        const renderedFiles = [];
+        files.forEach(file => {
+            if (path.extname(file) == ".md") {
+                const fileName = file.substr(0, file.lastIndexOf("."));
+                processMarkDown(fileName);
+                renderedFiles.push(fileName);
+            }
+        });
+
+        fs.readdir(publicPath, (err, files) => {
+            files.forEach(file => {
+                if (path.extname(file) == ".html") {
+                    const fileName = file.substr(0, file.lastIndexOf("."));
+                    if (renderedFiles.findIndex(f => f == fileName) >= 0) return;
+
+                    fs.unlinkSync(path.join(publicPath, file));
+                    console.log("removed " + file);
+                }
+            });
+            console.log("======== job done ========")
+        });
+    });
+}
 
 
 function processMarkDown(file) {
-    var raw = readFile(path.join(sourcePath, file));
+    var raw = readFile(path.join(sourcePath, file + ".md"));
     console.assert(raw, "Couldn't find markdown source");
 
     var template = readFile(sourcePath + 'template.html');
     console.assert(raw, "Couldn't find template source");
 
     var result = md.render(raw);
-
+    
     const dom = new JSDOM(template);
-    dom.window.document.getElementById("main-document").innerHTML = result;
+    const document = dom.window.document;
+    
+    document.title = md.meta.title;
+    const title = document.createElement('h1');
+    title.innerHTML = md.meta.title;
+    document.getElementById("main-document").append(title);
 
-    saveFile(dom.serialize());
+    document.getElementById("main-document").innerHTML += result;
 
-    console.log("======== Render done");
+    saveFile(dom.serialize(), file);
+
+    console.log("Rendered " + file);
 }
 
-function saveFile(html) {
-    var fileName = 'public/index.html';
+function saveFile(html, path) {
+    var fileName = `public/${path}.html`;
     var stream = fs.createWriteStream(fileName);
     stream.once('open', function (fd) {
         stream.end(html);
