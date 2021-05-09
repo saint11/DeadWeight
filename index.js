@@ -54,14 +54,21 @@ app.use(express.static(path.join(__dirname, 'public')));
 server.listen(PORT, () => console.log(`======== Server started [${moment().format('h:mm a')}] ========`));
 processMarkDown('bestiary.md');
 
+var lastProcessedTime = Date.now();
 chokidar.watch(sourcePath).on('all', (event, path) => {
-    console.log(`-> Source updated (${event}, ${path})`);
-    processMarkDown('bestiary.md');
+    if (Date.now() - lastProcessedTime > 500) {
+        console.log(`-> Source updated (${event}, ${path})`);
+        lastProcessedTime = Date.now();
+        processMarkDown('bestiary.md');
+    }
 });
 
 chokidar.watch(dataPath).on('all', (event, path) => {
-    console.log(`-> Data updated (${event}, ${path})`);
-    processMarkDown('bestiary.md');
+    if (Date.now() - lastProcessedTime > 500) {
+        console.log(`-> Data updated (${event}, ${path})`);
+        lastProcessedTime = Date.now();
+        processMarkDown('bestiary.md');
+    }
 });
 
 
