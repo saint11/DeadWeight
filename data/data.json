@@ -154,15 +154,16 @@
 					"id": "sack_man",
 					"Name": "Sack Man",
 					"Level": 5,
-					"Wounds": 0,
-					"Resistance": 0,
+					"Wounds": 7,
+					"Resistance": 1,
 					"Special": [],
 					"Common Actions": [
 						{
 							"Action": "Unnatural_Regeneration"
 						}
 					],
-					"Armor": 0
+					"Armor": 2,
+					"Actions": []
 				},
 				{
 					"id": "Lesser_Demon",

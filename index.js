@@ -5,7 +5,7 @@ const path = require('path');
 const http = require('http');
 const express = require('express');
 const app = express();
-var fs = require('fs');
+const fs = require('fs-extra')
 const chokidar = require('chokidar');
 
 const { getFromId, getSheet } = require('./util/data.js');
@@ -17,14 +17,30 @@ const data_actions = getSheet(data, "actions");
 const { makeMonsterTable } = require('./util/tables.js');
 const { title } = require('process');
 
-var md = require('markdown-it')({ html: true, breaks: true });
+var mdWeb = require('markdown-it')({ html: true, breaks: true });
+const toc_options = {
+    level: 1,
+    listType: 'ul'
+};
+mdWeb.use(require("markdown-it-attrs"));
+mdWeb.use(require('markdown-it-container-pandoc'))
+mdWeb.use(require("markdown-it-anchor"));
+mdWeb.use(require("./util/markdown-it-external-toc.js"), toc_options);
+mdWeb.use(require('markdown-it-header-sections'))
+mdWeb.use(require('markdown-it-bracketed-spans'))
+mdWeb.use(require('markdown-it-meta'))
+mdWeb.use(require('markdown-it-shortcode-tag'), shortcodes);
 
-md.use(require("markdown-it-anchor"));
-md.use(require("markdown-it-toc-done-right"));
-md.use(require("markdown-it-attrs"));
-md.use(require('markdown-it-header-sections'))
-md.use(require('markdown-it-meta'))
-// md.use(require('./util/markdown-it-print.js'))
+var mdPrint = require('markdown-it')({ html: true, breaks: true });
+mdPrint.use(require("markdown-it-attrs"));
+mdPrint.use(require('markdown-it-container-pandoc'))
+mdPrint.use(require("markdown-it-anchor"));
+mdPrint.use(require("markdown-it-toc-done-right"));
+mdPrint.use(require('markdown-it-header-sections'))
+mdPrint.use(require('markdown-it-bracketed-spans'))
+mdPrint.use(require('markdown-it-meta'))
+mdPrint.use(require('./util/markdown-it-print.js'))
+mdWeb.use(require('markdown-it-shortcode-tag'), shortcodes);
 
 var pageCount = -1;
 
@@ -44,9 +60,9 @@ var shortcodes = {
 }
 
 
-md.use(require('markdown-it-shortcode-tag'), shortcodes);
 
 const publicPath = 'public/';
+const outputPath = 'output/';
 const sourcePath = 'source/';
 const dataPath = 'data/';
 
@@ -92,7 +108,7 @@ function processSourcesFolder() {
                     console.log("removed " + file);
                 }
             });
-            console.log("======== job done ========")
+            console.log("========      job done      ========")
         });
     });
 }
@@ -102,28 +118,48 @@ function processMarkDown(file) {
     var raw = readFile(path.join(sourcePath, file + ".md"));
     console.assert(raw, "Couldn't find markdown source");
 
-    var template = readFile(sourcePath + 'template.html');
-    console.assert(raw, "Couldn't find template source");
+    var { dom, linkElement } = getHtmlFromMarkdown(raw, mdWeb);
+    var document = dom.window.document;
 
-    var result = md.render(raw);
-    
-    const dom = new JSDOM(template);
-    const document = dom.window.document;
-    
-    document.title = md.meta.title;
-    const title = document.createElement('h1');
-    title.innerHTML = md.meta.title;
-    document.getElementById("main-document").append(title);
+    // Make draft file
+    linkElement.setAttribute('href', 'draft.css');
+    saveFile(dom.serialize(), path.join(publicPath, file));
 
-    document.getElementById("main-document").innerHTML += result;
+    // Let's make the output now!
+    fs.emptyDir(outputPath, err => {
+        if (err) return console.error(err);
 
-    saveFile(dom.serialize(), file);
+        // Make web file
+        linkElement.setAttribute('href', 'publish.css');
+        saveFile(dom.serialize(), path.join(outputPath, file));
 
-    console.log("Rendered " + file);
+        var print = getHtmlFromMarkdown(raw, mdPrint);
+        document = print.dom.window.document;
+        // Make print A4 file
+        print.linkElement.setAttribute('href', 'print-a4.css');
+        saveFile(print.dom.serialize(), path.join(outputPath, file + "-a4"));
+
+        print.linkElement.setAttribute('href', 'print-letter.css');
+        saveFile(print.dom.serialize(), path.join(outputPath, file + "-letter"));
+
+        // Copy all images to the output folder
+        fs.copySync(path.join(publicPath, "images/"), path.join(outputPath, "images/"));
+
+        // Copy all css to the output folder
+        fs.readdir(publicPath, (err, files) => {
+            files.forEach(file => {
+                if (path.extname(file) != ".html") {
+                    fs.copySync(path.join(publicPath, file), path.join(outputPath, file))
+                }
+            });
+        });
+
+        console.log("Rendered " + file);
+    });
 }
 
 function saveFile(html, path) {
-    var fileName = `public/${path}.html`;
+    var fileName = `${path}.html`;
     var stream = fs.createWriteStream(fileName);
     stream.once('open', function (fd) {
         stream.end(html);
@@ -139,17 +175,39 @@ function readFile(file_path) {
     }
 }
 
-// Set static folder
+function getHtmlFromMarkdown(str, strategy) {
+    var result = strategy.render(str);
+    var template = readFile(sourcePath + 'template.html');
+    console.assert(template, "Couldn't find template source");
+
+    const dom = new JSDOM(template);
+    const document = dom.window.document;
+
+    if (strategy.meta.title) {
+        document.title = strategy.meta.title;
+        if (!strategy.meta["hide-title"]) {
+            const title = document.createElement('h1');
+            title.innerHTML = strategy.meta.title;
+            document.getElementById("main-document").append(title);
+        }
+    }
 
 
-function buildHtml() {
-    var header = '';
-    var body = '';
+    const toc = document.getElementById("toc");
+    if (strategy.meta["toc-title"]) {
+        const title = document.createElement('h2');
+        title.innerHTML = strategy.meta.title;
+        title.id = "toc-title"
+        toc.append(title)
+    }
 
-    // concatenate header string
-    // concatenate body string
+    toc.innerHTML += strategy.tocBody;
+    document.getElementById("main-document").innerHTML += result;
 
-    return '<!DOCTYPE html>'
-        + '<html><head>' + header + '</head><body>' + body + '</body></html>';
-};
+    var linkElement = document.createElement('link');
+    linkElement.setAttribute('rel', 'stylesheet');
+    linkElement.setAttribute('type', 'text/css');
+    document.head.append(linkElement);
 
+    return { dom, linkElement };
+}

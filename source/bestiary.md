@@ -1,5 +1,3 @@
-[[toc]]
-
 ### The Child-Stealers {.big}
 The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. Most of them worship **Goshkalon**, the god of laughter.
 

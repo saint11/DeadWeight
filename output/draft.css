@@ -1,0 +1,16 @@
+@import "web.css";
+
+
+.draft {
+    background-color: rgb(255, 244, 244);
+    color:rgb(95, 34, 34)
+}
+
+
+.draft table tr  {
+    background-color: rgb(248, 214, 214);
+  }
+
+.draft table tr:nth-child(2n)  {
+    background-color: rgb(233, 166, 166);
+  }

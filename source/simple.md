@@ -50,7 +50,7 @@ You arrived in the island hoping to find something, maybe treasure, maybe some l
 
 **Dead Weight** is designed with both online and offline play in mind. This rule book has links and a structure optimized for reading online and on mobile, so it's easily accessible to all players. This game is best played with at least 4 players and no more than 6, including the game master.
 
-::: {.web}
+::: web
 If you never played a tabletop RPG before [here](https://wiki.roll20.net/Introduction_To_Tabletop_RPGs) is a good introduction of what it is.
 
 **For online play you will need:**
@@ -77,7 +77,7 @@ If you never played a tabletop RPG before [here](https://wiki.roll20.net/Introdu
 ## Game Master {.unlisted}
 One of the players is the **game master**, in this book we will also abbreviate that to **GM**. The *GM* is like a narrator and plays with all the non-player characters, guides the outcomes of the player actions and creates the details of the world.
 
-::: {.draft}
+::: draft
 The game master has [game master sheet](DeadWeight-master-sheet.pdf), just like the players.
 :::
 
@@ -100,7 +100,7 @@ First, decide who will be the **game master** and who are going to be the **play
 
 Then each player should create a **character**, follow the [Character Creation](#character-creation) chapter for more information.
 
-::: {.draft}
+::: draft
 The **GM** should also fill the [game master sheet](DeadWeight-master-sheet.pdf) to set the tone of the world.
 In the end of this book there's a sample dungeon to help the **GM** get started. The **players** should **not** read that section.
 :::
@@ -886,7 +886,7 @@ Check *Receiving Help* for more information.
 
 Delving into dungeons and tombs will often leave the adventurers **wounded** and **exhausted**, pressing on without resting is not possible. Sooner or later the adventurers must slow down, eat, sleep and tend their wounds.
 
-:::{.web}
+::: web
 ![](images/fire.png "A fireplace"){.left} 
 :::
 
@@ -957,7 +957,7 @@ Roll all those dice, if a **6** is rolled a combat happens, if more than one **6
 ### Break Camp 
 The **adventurers** snuff out any fire they had going gather their things and press on. Return to the [exploration](#exploration).
 
-:::{.print}
+::: print
 ![](images/fire_smaller.png "A fireplace") 
 :::
 
@@ -1091,13 +1091,82 @@ Enemies also do not have **afflictions**, but they can bleed. If they are bleedi
 
 For more information on how fighting works, check the [combat](#combat) section.
 
-A list of monsters and enemies can be found in the [bestiary book](bestiary.html)
-
 ## Taking damage
 
 When an enemy takes damage they will always resist wounds using their **armor**. Enemies armor can break and can't be repaired. Check [receiving wounds](#receiving-wounds) for a full explanation on how **armor** works. After the rolling the **armor test** if the enemy has any **resistance** points, reduce the wound by that number.
 
 **Armor** and **resistance** can reduce the damage to 0, but anything less than 0 is ignored.
+
+<pagebreak>
+
+## Bestiary
+
+### The Child-Stealers {.big}
+The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. Most of them worship **Goshkalon**, the whisperer, a god that 
+
+ Goblins, hobgoblins, boggarts and sack-men roam in the night
+
+[]{.monster #gremlin}
+[]{.monster #goblin_scrapper}
+[]{.monster #boggart}
+[]{.monster #bloodshot_goblin}
+[]{.monster #hobgoblin}
+[]{.monster #sack_man}
+
+<pagebreak>
+
+### Demons
+All magic com from the void realm, a nightmare plane where all demons come from.
+
+[]{.monster #lesser_demon}
+[]{.monster #void_demon}
+
+### Dungeon Scavengers  {.big}
+The dungeon ruins have corpses and rotting things all around. While humans avoid those places, they might just be what some creatures are looking for.
+
+![](images/Zombie%20Rat.png "Plagued rat"){.left}
+
+[]{.monster #plagued_rat}
+[]{.monster #rat_king}
+[]{.monster #giant_rat}
+[]{.monster #bloated_plague_rat}
+
+![](images/rotworm.png "Rot worms"){.right}
+
+[]{.monster #rotworm_swarm}
+Common on places where too many creatures have died.
+
+[]{.monster #Ectoplasmic_Worm}
+Rot worms eats dead bodies, while the ectoplasmic worms eat lost souls.
+
+[]{.monster #vault_weaver}
+
+<pagebreak>
+
+### Shore Creatures {.big}
+
+Blacksalt isle sea is full of terrible creatures, some end up walking on the land and taking refuge in abandoned ruins.
+
+![](images/Giant%20Crab.png "Giant enemy crab"){.right}
+
+[]{.monster #giant_leech}
+[]{.monster #giant_frog}
+[]{.monster #giant_crab}
+
+<pagebreak>
+
+### The Undead {.big}
+Once human bodies now brought back through necromantic incantations.
+
+![](images/zombie_1.png "a roting zombie"){.left}
+
+[]{.monster #reanimated_husk}
+[]{.monster #slumbering_corpse}
+[]{.monster #freshly_risen_corpse}
+[]{.monster #starved_cadaver}
+[]{.monster #Unsatiable_Dead}
+[]{.monster #rotting_sailor}
+[]{.monster #bloated_screamer}
 
 # Sample Dungeon
 Here's a sample dungeon for the players to delve into. **Only the *GM* should read this section**, so it's on a separate page, follow this [link](dungeon/dungeon_level_1.html) to access it.
