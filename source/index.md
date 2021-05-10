@@ -3,9 +3,8 @@ title: Dead Weight
 author: Pedro Medeiros
 date: 2021-04-21
 
+toc: true
 toc-title: Dead Weight
-toc-depth: 1
-# toc-desc: In the terrible Blacksalt island, only the 
 hide-title: true
 ---
 
@@ -1059,7 +1058,7 @@ All weapons can be used with one hand, unless stated otherwise.
 
 Enemies do not have a complete character sheet, instead they have a simplified one, let's look at an example:
 
-[]{.m #freshly_risen_corpse}
+<monster id="freshly_risen_corpse">
 
 Let's break it down. First the name of the enemy, [Freshly Risen Corpse]{.m}, then it's level, this one is **level 2**. The level will help the **GM** to quickly know how powerful this monster is.
 

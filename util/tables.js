@@ -1,7 +1,7 @@
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 let { document } = (new JSDOM(`...`)).window;
-let { getFromId, getSheet } = require('../../util/data.js');
+let { getFromId, getSheet } = require('./data.js');
 
 var md = require('markdown-it')({ html: true, breaks: true });
 

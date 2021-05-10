@@ -14,8 +14,22 @@ const data = JSON.parse(fs.readFileSync('data/data.json', 'utf8'));
 const data_monsters = getSheet(data, "monsters");
 const data_actions = getSheet(data, "actions");
 
-const { makeMonsterTable } = require('./public/scripts/tables.js');
+const { makeMonsterTable } = require('./util/tables.js');
 const { title } = require('process');
+var shortcodes = {
+    monster: {
+        render: function (attrs, env) {
+            const monster = getFromId(data_monsters, attrs.id);
+            return makeMonsterTable(monster, data_actions);
+        }
+    },
+    pagebreak: {
+        render: function (attrs, env) {
+            pageCount++;
+            return '';
+        }
+    }
+}
 
 var mdWeb = require('markdown-it')({ html: true, breaks: true });
 const toc_options = {
@@ -44,20 +58,6 @@ mdWeb.use(require('markdown-it-shortcode-tag'), shortcodes);
 
 var pageCount = -1;
 
-var shortcodes = {
-    monster: {
-        render: function (attrs, env) {
-            const monster = getFromId(data_monsters, attrs.id);
-            return makeMonsterTable(monster, data_actions);
-        }
-    },
-    pagebreak: {
-        render: function (attrs, env) {
-            pageCount++;
-            return '';
-        }
-    }
-}
 
 
 
@@ -149,7 +149,7 @@ function processMarkDown(file) {
         fs.copySync(staticPath, outputPath);
 
         // Copy all images to the output folder
-        fs.copySync(path.join(publicPath, "images/"), path.join(outputPath, "images/"));
+        // fs.copy(path.join(publicPath, "images/"), path.join(outputPath, "images/"));
 
         // Copy all css to the output folder
         fs.readdir(publicPath, (err, files) => {
@@ -198,16 +198,20 @@ function getHtmlFromMarkdown(str, strategy) {
         }
     }
 
-
     const toc = document.getElementById("toc");
-    if (strategy.meta["toc-title"]) {
-        const title = document.createElement('h2');
-        title.innerHTML = strategy.meta.title;
-        title.id = "toc-title"
-        toc.append(title)
+    if (strategy.meta["toc"]) {
+        if (strategy.meta["toc-title"]) {
+            const title = document.createElement('h2');
+            title.innerHTML = strategy.meta.title;
+            title.id = "toc-title"
+            toc.append(title)
+        }
+        toc.innerHTML += strategy.tocBody;
+    }
+    else {
+        toc.parentElement.remove();
     }
 
-    toc.innerHTML += strategy.tocBody;
     document.getElementById("main-document").innerHTML += result;
 
     var linkElement = document.createElement('link');
