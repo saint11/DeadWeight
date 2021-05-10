@@ -1,0 +1,1310 @@
+{
+	"sheets": [
+		{
+			"name": "Monsters",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id"
+				},
+				{
+					"typeStr": "1",
+					"name": "Name",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "Level",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "Wounds"
+				},
+				{
+					"typeStr": "3",
+					"name": "Armor"
+				},
+				{
+					"typeStr": "3",
+					"name": "Resistance"
+				},
+				{
+					"typeStr": "8",
+					"name": "Special"
+				},
+				{
+					"typeStr": "8",
+					"name": "Actions",
+					"opt": true,
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "Common Actions"
+				}
+			],
+			"lines": [
+				{
+					"id": "gremlin",
+					"Name": "Gremlin",
+					"Wounds": 3,
+					"Level": 2,
+					"Armor": 0,
+					"Actions": [
+						{
+							"Name": "Chew armor",
+							"Description": "Always destroys 1 armor point.",
+							"Check": "STR 1"
+						}
+					],
+					"Resistance": 0,
+					"Special": [],
+					"Common Actions": []
+				},
+				{
+					"id": "goblin_scrapper",
+					"Name": "Goblin Scrapper",
+					"Level": 2,
+					"Wounds": 3,
+					"Resistance": 0,
+					"Armor": 1,
+					"Special": [],
+					"Common Actions": [
+						{
+							"Action": "Knife_in_the_Gut"
+						}
+					]
+				},
+				{
+					"id": "boggart",
+					"Name": "Boggart",
+					"Level": 3,
+					"Wounds": 3,
+					"Resistance": 0,
+					"Armor": 2,
+					"Actions": [
+						{
+							"Name": "Serrated blade",
+							"Description": "",
+							"Check": "STR 2+1"
+						},
+						{
+							"Name": "Black shield",
+							"Description": "Add 1 shield token, may move **Close**",
+							"Check": ""
+						}
+					],
+					"Special": [],
+					"Common Actions": []
+				},
+				{
+					"id": "bloodshot_goblin",
+					"Name": "Bloodshot Goblin",
+					"Level": 4,
+					"Wounds": 4,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Frenzied! Has 3 actions per turn."
+						},
+						{
+							"Description": "Wall climber, can walk on walls and ceiling."
+						}
+					],
+					"Armor": 1,
+					"Actions": [
+						{
+							"Name": "Serrated teeth",
+							"Description": "",
+							"Check": "STR 2+1"
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Knife_in_the_Gut"
+						},
+						{
+							"Action": "Unnatural_Regeneration"
+						}
+					]
+				},
+				{
+					"id": "hobgoblin",
+					"Name": "Hobgoblin",
+					"Level": 4,
+					"Wounds": 6,
+					"Resistance": 1,
+					"Special": [],
+					"Armor": 2,
+					"Actions": [
+						{
+							"Name": "Crude falchion",
+							"Description": "",
+							"Check": "STR 2+1B"
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Cracked_Shield"
+						}
+					]
+				},
+				{
+					"id": "sack_man",
+					"Name": "Sack Man",
+					"Level": 5,
+					"Wounds": 7,
+					"Resistance": 1,
+					"Special": [],
+					"Common Actions": [
+						{
+							"Action": "Unnatural_Regeneration"
+						}
+					],
+					"Armor": 2,
+					"Actions": []
+				},
+				{
+					"id": "Lesser_Demon",
+					"Name": "Lesser Demon",
+					"Level": 4,
+					"Wounds": 4,
+					"Resistance": 1,
+					"Common Actions": [
+						{
+							"Action": "Bite"
+						}
+					],
+					"Special": [
+						{
+							"Description": "Small and  fast, add 1 difficulty to hit"
+						}
+					],
+					"Armor": 2
+				},
+				{
+					"id": "Void_Demon",
+					"Name": "Void Demon",
+					"Level": 7,
+					"Wounds": 4,
+					"Resistance": 1,
+					"Common Actions": [
+						{
+							"Action": "Phase_out"
+						}
+					],
+					"Special": [
+						{
+							"Description": "Terrifying! Cause terrified on hit."
+						},
+						{
+							"Description": "Fly"
+						},
+						{
+							"Description": "Incorporeal, can phase trough things, like iron bars"
+						}
+					],
+					"Armor": 0,
+					"Actions": [
+						{
+							"Name": "Void whip",
+							"Check": "DEX 2R+1",
+							"Description": "*Binds* on hit, blocking move until a **Recover action**."
+						}
+					]
+				},
+				{
+					"id": "Plagued_Rat",
+					"Name": "Plagued Rat",
+					"Level": 1,
+					"Wounds": 2,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Small and  fast, add 1 difficulty to hit"
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Small_Bite"
+						}
+					]
+				},
+				{
+					"id": "Rat_King",
+					"Name": "Rat King",
+					"Level": 2,
+					"Wounds": 6,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "For we are many, any damage is reduced to 2 wounds"
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Many bites",
+							"Check": "STR 2+1",
+							"Description": ""
+						},
+						{
+							"Name": "The cries of many",
+							"Check": "PER-2 1",
+							"Description": "Hits everyone **Close**"
+						}
+					]
+				},
+				{
+					"id": "Giant_Rat",
+					"Name": "Giant Rat",
+					"Level": 3,
+					"Wounds": 5,
+					"Armor": 2,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Jumpy! If the rat is hit by an attack, it can **Move** immediately."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Bite"
+						}
+					]
+				},
+				{
+					"id": "Bloated_Plague_Rat",
+					"Name": "Bloated Plague Rat",
+					"Level": 4,
+					"Wounds": 4,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Explodes on death! Causing 2 wounds to everyone in the same tile, on a 2d! causes plague."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Venomous Spit",
+							"Check": "DEX 1",
+							"Description": "Causes nausea, adding a stun marker on 1d!"
+						}
+					]
+				},
+				{
+					"id": "Rotworm_Swarm",
+					"Name": "Rotworm Swarm",
+					"Level": 1,
+					"Wounds": 2,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Too many of them, any damage is reduced to 1 wound"
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Infest",
+							"Check": "PRE 1+1?",
+							"Description": "On critical one gets attached to you, causing 1 wound per turn until removed (1 action)"
+						}
+					]
+				},
+				{
+					"id": "Ectoplasmic_Worm",
+					"Name": "Ectoplasmic Worm",
+					"Level": 3,
+					"Wounds": 2,
+					"Armor": 0,
+					"Resistance": 1,
+					"Special": [
+						{
+							"Description": "Immaterial, can move through walls."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Soul nibble",
+							"Check": "INT 2X",
+							"Description": "Cause a **stun marker** on hit."
+						}
+					]
+				},
+				{
+					"id": "Vault_Weaver",
+					"Name": "Vault Weaver",
+					"Level": 2,
+					"Wounds": 3,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Fly"
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Consume a corpse",
+							"Check": "",
+							"Description": "and bloat, becoming a Red Weaver"
+						},
+						{
+							"Name": "Silver tentacles",
+							"Check": "STR 2P",
+							"Description": ""
+						}
+					]
+				},
+				{
+					"id": "giant_leech",
+					"Name": "Giant Leech",
+					"Level": 2,
+					"Wounds": 3,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Surprisingly nutritive! Can be cooked in the camp phase as 1 ration. If you eat it become **Nauseated**."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Bite",
+							"Check": "STR 2",
+							"Description": "If causes a wound *attach* to **adventurer**. Caused **Sleepy**. Causes **Bleeding** until removed"
+						}
+					]
+				},
+				{
+					"id": "Giant_Frog",
+					"Name": "Giant Frog",
+					"Level": 3,
+					"Wounds": 6,
+					"Armor": 2,
+					"Resistance": 0,
+					"Special": [],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Sticky Tongue",
+							"Check": "DEX",
+							"Description": "On 2d! disarms the target **Nearby**."
+						},
+						{
+							"Name": "Tongue Whip",
+							"Check": "STR 2",
+							"Description": ""
+						},
+						{
+							"Name": "Toxic spit",
+							"Check": "DEX 2",
+							"Description": "If caused at least 1 wound cause **intoxicated**."
+						}
+					]
+				},
+				{
+					"id": "Giant_Crab",
+					"Name": "Giant Crab",
+					"Level": 5,
+					"Wounds": 9,
+					"Armor": 4,
+					"Resistance": 1,
+					"Special": [
+						{
+							"Description": "Must spend one action to change facing."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Grab",
+							"Check": "DEX",
+							"Description": "Picks up a player character that can now use all actions to test STR to break free or take 1 wound and be immobilized for this turn."
+						},
+						{
+							"Name": "Eat",
+							"Check": "STR-2 5",
+							"Description": "Can only be used on a grabbed character."
+						},
+						{
+							"Name": "Bash",
+							"Check": "STR-1 2",
+							"Description": "On hit moves the player character to an adjacent tile"
+						}
+					]
+				},
+				{
+					"id": "Reanimated_Husk",
+					"Name": "Reanimated Husk",
+					"Level": 1,
+					"Wounds": 3,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges."
+						},
+						{
+							"Description": "Crawls, uses 2 actions when moving"
+						},
+						{
+							"Description": "No personal space, doesn't block other undead."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Infectious_bite"
+						}
+					]
+				},
+				{
+					"id": "Slumbering_Corpse",
+					"Name": "Slumbering Corpse",
+					"Level": 2,
+					"Wounds": 4,
+					"Armor": 1,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Infectious_bite"
+						}
+					]
+				},
+				{
+					"id": "Freshly_Risen_Corpse",
+					"Name": "Freshly Risen Corpse",
+					"Level": 3,
+					"Wounds": 5,
+					"Armor": 1,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Infectious_bite"
+						},
+						{
+							"Action": "Lunge"
+						}
+					]
+				},
+				{
+					"id": "Starved_Cadaver",
+					"Name": "Starved Cadaver",
+					"Level": 4,
+					"Wounds": 5,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Unnatural_Regeneration"
+						}
+					],
+					"Actions": [
+						{
+							"Name": "Nibble",
+							"Check": "STR 2",
+							"Description": "On a sucessful attack heal 1 wound"
+						},
+						{
+							"Name": "Feast",
+							"Check": "",
+							"Description": "2 actions. Heal all wounds, consumes a corpse and becomes a **Unsatiable Dead**."
+						}
+					]
+				},
+				{
+					"id": "Unsatiable_Dead",
+					"Name": "Unsatiable Dead",
+					"Level": 5,
+					"Wounds": 6,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges."
+						},
+						{
+							"Description": "Fast! Add a dodge token every turn."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Overgrown Claws",
+							"Check": "STR 3+1B",
+							"Description": ""
+						}
+					]
+				},
+				{
+					"id": "Rotting_Sailor",
+					"Name": "Rotting Sailor",
+					"Level": 5,
+					"Wounds": 7,
+					"Armor": 2,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Rusty Sword",
+							"Check": "STR 2",
+							"Description": ""
+						},
+						{
+							"Name": "Cursed Sea shanty",
+							"Check": "",
+							"Description": "2 actions, cause 1 non-lethal PRE wound on everyone."
+						}
+					]
+				},
+				{
+					"id": "Bloated_Screamer",
+					"Name": "Bloated Screamer",
+					"Level": 6,
+					"Wounds": 9,
+					"Armor": 3,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges."
+						},
+						{
+							"Description": "Acid pustules! Every time it takes one or more wounds, attack(STR 1) everyone **Close**."
+						},
+						{
+							"Description": "Heavy, can only move one tile"
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Agony",
+							"Check": "PRE 2",
+							"Description": "Cries with cursed agony, hits everyone alive **Nearby**."
+						}
+					]
+				},
+				{
+					"id": "spiderling",
+					"Name": "Spiderling",
+					"Level": 1,
+					"Wounds": 2,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Hard to hit! Add a **dodge token** every turn."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Poisonous_Bite"
+						}
+					]
+				},
+				{
+					"id": "Giant_Spider",
+					"Name": "Giant Spider",
+					"Level": 7,
+					"Wounds": 8,
+					"Armor": 2,
+					"Resistance": 1,
+					"Special": [
+						{
+							"Description": "Acid blood, ond a !d6 it **ruins** the weapon used to attack this."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Poisonous_Bite"
+						}
+					],
+					"Actions": [
+						{
+							"Name": "Silken bola",
+							"Check": "DEX Nearby",
+							"Description": "Add a stun marker to the target"
+						},
+						{
+							"Name": "Giant claw",
+							"Check": "STR 2",
+							"Description": "Add a stun marker to the target"
+						}
+					]
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "Monsters@Actions",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "Name",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "Check"
+				},
+				{
+					"typeStr": "1",
+					"name": "Description",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "Monsters@Special",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "Description",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "Actions",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id"
+				},
+				{
+					"typeStr": "1",
+					"name": "Name",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "Check",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "Description"
+				}
+			],
+			"lines": [
+				{
+					"Name": "Unnatural regeneration",
+					"Check": "",
+					"id": "Unnatural_Regeneration",
+					"Description": "Heal 1 wound."
+				},
+				{
+					"Name": "Knife in the gut",
+					"Check": "STR 1B+1",
+					"id": "Knife_in_the_Gut",
+					"Description": ""
+				},
+				{
+					"Name": "Cracked shield",
+					"Check": "",
+					"id": "Cracked_Shield",
+					"Description": "Add 2 shield tokens, if tokens are used, the shield is gone."
+				},
+				{
+					"id": "Bite",
+					"Name": "Bite",
+					"Check": "STR 2+1",
+					"Description": ""
+				},
+				{
+					"id": "Small_Bite",
+					"Name": "Small bite",
+					"Check": "STR 2+1",
+					"Description": ""
+				},
+				{
+					"id": "Phase_out",
+					"Name": "Phase out",
+					"Check": "",
+					"Description": "Becomes incorporeal, add 2 dodge tokens"
+				},
+				{
+					"id": "Infectious_bite",
+					"Name": "Infectious bite",
+					"Check": "STR 1+1",
+					"Description": "Causes **Plagued** on **1d!**."
+				},
+				{
+					"id": "Lunge",
+					"Name": "Lunge",
+					"Check": "DEX 2, **Nearby**",
+					"Description": "Moves **Close** to the target and attack"
+				},
+				{
+					"id": "Poisonous_Bite",
+					"Name": "Poisonous Bite",
+					"Check": "STR 1P",
+					"Description": "On hit causes **Nausea**"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "Monsters@Common Actions",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "6:Actions",
+					"name": "Action",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "Definitions",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "Description",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"id": "AP",
+					"Description": "Armor points"
+				},
+				{
+					"id": "disadvantage",
+					"Description": "**Disadvantage** allows the *GM* to choose **one** dice from the test or check to reroll. The *GM* chooses to use old or new value."
+				},
+				{
+					"id": "advantage",
+					"Description": "**Advantage** allows the player to choose **one** dice from the test or check to reroll. The new value must be used."
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "CharacterCreation",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "Step"
+				}
+			],
+			"lines": [
+				{
+					"Step": [
+						{
+							"roll": 2,
+							"name": "Tossed in the Pit",
+							"description": "Rejected by everyone, even by death.",
+							"effect": "%rejected by death,+INS",
+							"choose_effect": [
+								{
+									"effect": ""
+								}
+							]
+						},
+						{
+							"roll": 3,
+							"name": "Feral Kid",
+							"description": "Raised by animals in the forest.",
+							"effect": "+STR,+DEX,$animal affinity",
+							"choose_effect": []
+						},
+						{
+							"roll": 4,
+							"name": "Born in Exile",
+							"description": "Raised far away from civilization.",
+							"effect": "+STR,+INT,$survivalist",
+							"choose_effect": []
+						},
+						{
+							"roll": 5,
+							"name": "Battleborn",
+							"description": "Born in a army during a raging war, forged in violence.",
+							"effect": "+STR,+STR,$fearless",
+							"choose_effect": []
+						},
+						{
+							"roll": 6,
+							"name": "Street Urchin",
+							"description": "Orphan, raised by other kids.",
+							"effect": "+STR,+DEX,$street wise",
+							"choose_effect": []
+						},
+						{
+							"roll": 7,
+							"name": "City Kid",
+							"description": "Grew up amidst the chaos of a big city.",
+							"effect": "+DEX,+PRE,#1d4 silver,+INS",
+							"choose_effect": []
+						},
+						{
+							"roll": 8,
+							"name": "Caravan Child",
+							"description": "Born in a trading caravan, before walking you learned to haggle.",
+							"effect": "+PRE,+PRE,#1d6 silver",
+							"choose_effect": []
+						},
+						{
+							"roll": 9,
+							"name": "Clergy Bastard",
+							"description": "Born by a sinful union, learned guilt and prayer before walking.",
+							"effect": "+DEX,+PRE,$holy rites",
+							"choose_effect": []
+						},
+						{
+							"roll": 10,
+							"name": "Occultist’s Apprentice",
+							"description": "Raised by an occultist and trained in the arcane arts since a kid.",
+							"effect": "+INT,+INT,$occult studies,#1d6 silver",
+							"choose_effect": []
+						},
+						{
+							"roll": 11,
+							"name": "Blue Blood",
+							"description": "Born in a rich family that eventually lost everything.",
+							"effect": "+INT,+PRE,#3d6 silver",
+							"choose_effect": []
+						},
+						{
+							"roll": 12,
+							"name": "Born of a dark prophecy",
+							"description": "No one knows where you came from, only that it's bad.",
+							"effect": "+*p,%bad omens",
+							"choose_effect": []
+						}
+					],
+					"id": "Infancy"
+				},
+				{
+					"id": "Career",
+					"Step": [
+						{
+							"roll": 2,
+							"name": "Deserter Knight",
+							"description": "To die for honor was never something you aspired to.",
+							"effect": "+STR, +STRp,$duelist",
+							"choose_effect": []
+						},
+						{
+							"roll": 3,
+							"name": "Squire",
+							"description": "They said one day you will a a knight. You believed that.",
+							"effect": "+STR,+PRE,$shield master",
+							"choose_effect": []
+						},
+						{
+							"roll": 4,
+							"name": "Physician",
+							"description": "Not many people knows how to actually heal someone, you do.",
+							"effect": "+INT,+DEX,$surgeon",
+							"choose_effect": []
+						},
+						{
+							"roll": 5,
+							"name": "Temple Worker",
+							"description": "You worked hard in the temples, body and mind.",
+							"effect": "+INT,+STR,$holy rites",
+							"choose_effect": []
+						},
+						{
+							"roll": 6,
+							"name": "Charlatan",
+							"description": "Outsmarting and taking advantage was your specialty.",
+							"effect": "+INT,+PRE,#3d6 silver",
+							"choose_effect": []
+						},
+						{
+							"roll": 7,
+							"name": "Brigand",
+							"description": "Joined a gang that robs people on the mountains and forests.",
+							"effect": "+DEX,+STR,$intimidate",
+							"choose_effect": []
+						},
+						{
+							"roll": 8,
+							"name": "Common Thief",
+							"description": "Stealing, lying and hiding.",
+							"effect": "+PRE,+DEX,$pilfer",
+							"choose_effect": []
+						},
+						{
+							"roll": 9,
+							"name": "Craftsman",
+							"description": "You hands know how to hammer an iron and how to sew leather without you even thinking.",
+							"effect": "+DEX,+DEXp,$crafting",
+							"choose_effect": []
+						},
+						{
+							"roll": 10,
+							"name": "Cook",
+							"description": "While there is hungry people you will always have a job.",
+							"effect": "+DEX,+INTp,$cook",
+							"choose_effect": []
+						},
+						{
+							"roll": 11,
+							"name": "Occultist",
+							"description": "One that dares to touch the unknown, a magic user.",
+							"effect": "+INT,INTp,$occult studies",
+							"choose_effect": []
+						},
+						{
+							"roll": 12,
+							"name": "False Prophet",
+							"description": "It's hard not to believe in yourself when so many believe in what you say.",
+							"effect": "+PRE,+PREp,$holy rites",
+							"choose_effect": []
+						}
+					]
+				},
+				{
+					"id": "Tragedy",
+					"Step": [
+						{
+							"roll": 2,
+							"name": "Forced to work on a circus",
+							"description": "The things you've seen behind the curtains changed you forever.",
+							"effect": "+DEXp,-INT",
+							"choose_effect": []
+						},
+						{
+							"roll": 3,
+							"name": "Afflicted by the plague",
+							"description": "You had to resort to treatment many would consider... unnatural.",
+							"effect": "+INTp,-STR",
+							"choose_effect": []
+						},
+						{
+							"roll": 4,
+							"name": "A murderous impulse",
+							"description": "Something was wrong with you, but you are better now. Unlike yor victims.",
+							"effect": "+DEXp,-PRE",
+							"choose_effect": []
+						},
+						{
+							"roll": 5,
+							"name": "In debt with a loan shark",
+							"description": "You got the money that you needed, but it costed more than you expected.",
+							"effect": "+PREp,-STR",
+							"choose_effect": []
+						},
+						{
+							"roll": 6,
+							"name": "Lost to the night pleasures",
+							"description": "One party blended into the next, until the day came and your young years were gone.",
+							"effect": "+PREp,-INT",
+							"choose_effect": []
+						},
+						{
+							"roll": 7,
+							"name": "Enlisted in a war",
+							"description": "Fought in the losing side of a glorious war.",
+							"effect": "+STRp,-INT",
+							"choose_effect": []
+						},
+						{
+							"roll": 8,
+							"name": "Went to jail",
+							"description": "By reasons just or unjust, you ended up locked away.",
+							"effect": "+DEXp,-STR",
+							"choose_effect": []
+						},
+						{
+							"roll": 9,
+							"name": "Enslaved",
+							"description": "Taken by force and worked endlessly until the day you escaped.",
+							"effect": "+STRp,-DEX",
+							"choose_effect": []
+						},
+						{
+							"roll": 10,
+							"name": "Lost everything in a disaster",
+							"description": "Whatever your family had, now lie in ashes.",
+							"effect": "+STRp,-PRE",
+							"choose_effect": []
+						},
+						{
+							"roll": 11,
+							"name": "Lover's revenge",
+							"description": "Too many lovers and no honesty. One way or another, they made you regret it.",
+							"effect": "+PREp,-DEX",
+							"choose_effect": []
+						},
+						{
+							"roll": 12,
+							"name": "Caged by a powerful wizard",
+							"description": "You witnessed both enlightenment and madness.",
+							"effect": "+INTp,-PRE",
+							"choose_effect": []
+						}
+					]
+				},
+				{
+					"id": "Burden",
+					"Step": [
+						{
+							"roll": 2,
+							"name": "Lost everything and everyone",
+							"description": "When you have lost everything, *Blacksalt* can be a fresh start or a quick end.",
+							"effect": "#No starting gold",
+							"choose_effect": []
+						},
+						{
+							"roll": 3,
+							"name": "Plagued loved one",
+							"description": "Rumors of a panacea, a cure for all diseases, lies in *Blacksalt*.",
+							"effect": "#Cursed ring of plague protection",
+							"choose_effect": []
+						},
+						{
+							"roll": 4,
+							"name": "An unexplainable impulse",
+							"description": "Something calls you there, when you sleep you see yourself in *Blacksalt*.",
+							"effect": "#Small golden lantern",
+							"choose_effect": []
+						},
+						{
+							"roll": 5,
+							"name": "Revenge",
+							"description": "You've been terribly wronged. You will never forgive and never forget.",
+							"effect": "#List of names",
+							"choose_effect": []
+						},
+						{
+							"roll": 6,
+							"name": "Fame and riches",
+							"description": "You are destined to great things, at least that's what you believe.",
+							"effect": "#Cape with your coat of arms(+1 AP)",
+							"choose_effect": []
+						},
+						{
+							"roll": 7,
+							"name": "An impossible quest",
+							"description": "Your lord sent you on a quest to find something in *Blacksalt*, you have no chance.",
+							"effect": "#Compass",
+							"choose_effect": []
+						},
+						{
+							"roll": 8,
+							"name": "Redemption",
+							"description": "You can no longer live with the things you've done, maybe you can redeem yourself in *Blacksalt*.",
+							"effect": "#Small container with ashes of insight",
+							"choose_effect": []
+						},
+						{
+							"roll": 9,
+							"name": "Zealous Fury",
+							"description": "*Blacksalt* must be cleansed of any diabolical presence, no matter the cost.",
+							"effect": "#Exorcism book",
+							"choose_effect": []
+						},
+						{
+							"roll": 10,
+							"name": "Amnesia",
+							"description": "You don't know how you got here, you just woke up here one day, now you are searching for the truth.",
+							"effect": "#Book with notes in an unknown language",
+							"choose_effect": []
+						},
+						{
+							"roll": 11,
+							"name": "An Heir",
+							"description": "Your family is waiting for you, you will come back for them. But first you need to score enough money.",
+							"effect": "#A lock of hair",
+							"choose_effect": []
+						},
+						{
+							"roll": 12,
+							"name": "A Soul Sold",
+							"description": "You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.",
+							"effect": "#Living ashes (+1 DMG)",
+							"choose_effect": []
+						}
+					]
+				},
+				{
+					"id": "Class",
+					"Step": [
+						{
+							"roll": 1,
+							"name": "Warrior",
+							"description": "",
+							"effect": "+STRp,%Battle trance,$Bash",
+							"choose_effect": [
+								{
+									"effect": "#Bag, #Falchion (STR 3+1B), #Wooden shield, #Scale armor (3 AP),#2d6 silver coins."
+								},
+								{
+									"effect": "#Backpack, #Spear (STR 3+1B), #Small metal shield, #Padded armor (2 AP), #2d6 silver coins."
+								},
+								{
+									"effect": "#Bag, #Battle Axe (STR 4+2B), #Loincloth, #War paint."
+								}
+							]
+						},
+						{
+							"roll": 2,
+							"name": "Thief",
+							"description": "",
+							"effect": "+DEXp,%Cold blooded,$Infiltration",
+							"choose_effect": [
+								{
+									"effect": "#Bag, #2 short swords (STR 2+1), #Leather armor (1 AP),#Climbing tools, #Stolen golden icon, #1d6 silver coins"
+								},
+								{
+									"effect": "#Backpack, #Dagger (STR 1+3P), #Reinforced hood and vest (1 AP), #Lock-picking tools, #Ud6 sleeping darts, #3d6 counterfeit coins"
+								},
+								{
+									"effect": "#Backpack, #Ud10 throwing hatchets (DEX 1X+1), #Animal bones for crafting, #Ud4 trapping kit, #Cloth tunic, #1d6 silver coins"
+								}
+							]
+						},
+						{
+							"roll": 3,
+							"name": "Wizard",
+							"description": "",
+							"effect": "+INTp,%Magic user,$Lore master",
+							"choose_effect": [
+								{
+									"effect": "#Cane (STR 1+1), #Alchemic tools, #Tattered trench coat, #Old tome (grimoire), #3d6 silver coins, #1 gold coin"
+								},
+								{
+									"effect": "#Sacrificial dagger (STR 1B+1), #Chalk, #Poisonous vials, #Inscribed skull (grimoire), #2d6 silver coins"
+								},
+								{
+									"effect": "#Quarterstaff (STR 1+1), #Ornate garments, #Crystal ball, #Scattered notes (grimoire), #2d6 silver coins"
+								}
+							]
+						},
+						{
+							"roll": 4,
+							"name": "Cleric",
+							"description": "",
+							"effect": "+PREp,%Divine mandate,$Banish undead",
+							"choose_effect": [
+								{
+									"effect": "#Flail (STR 2X+2), #Forbidden scriptures (holy symbol), #Leather trench coat (1 AP), #3d6 silver coins"
+								},
+								{
+									"effect": "#War hammer (STR 1P+3), #Ancient talisman (holy symbol), #Ud6 flasks of holy water, #Thick cloak (1 AP), #3d6 silver coins"
+								},
+								{
+									"effect": "#Notched whip (DEX 1R+2B), #Torture equipment, rope, #Book of sins (holy symbol), #Tattered cloak, #1d6 coins"
+								}
+							]
+						}
+					]
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "CharacterCreation@Step",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "3",
+					"name": "roll",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "description",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "effect",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "choose_effect",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "CharacterCreation@Step@choose_effect",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "effect"
+				}
+			]
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}

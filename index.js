@@ -14,7 +14,7 @@ const data = JSON.parse(fs.readFileSync('data/data.json', 'utf8'));
 const data_monsters = getSheet(data, "monsters");
 const data_actions = getSheet(data, "actions");
 
-const { makeMonsterTable } = require('./util/tables.js');
+const { makeMonsterTable } = require('./public/scripts/tables.js');
 const { title } = require('process');
 
 var mdWeb = require('markdown-it')({ html: true, breaks: true });
