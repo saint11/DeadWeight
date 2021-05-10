@@ -65,6 +65,8 @@ const publicPath = 'public/';
 const outputPath = 'output/';
 const sourcePath = 'source/';
 const dataPath = 'data/';
+const templatesPath = 'templates/';
+const staticPath = 'static/';
 
 // Start the server for testing
 const PORT = process.env.PORT || 3000;
@@ -83,7 +85,7 @@ chokidar.watch(dataPath).on('all', (event, path) => {
 });
 
 function processSourcesFolder() {
-    if (Date.now() - lastProcessedTime < 4000) return;
+    if (Date.now() - lastProcessedTime < 8000) return;
     lastProcessedTime = Date.now();
 
     console.log("======== updating sources folder ========")
@@ -142,6 +144,10 @@ function processMarkDown(file) {
         print.linkElement.setAttribute('href', 'print-letter.css');
         saveFile(print.dom.serialize(), path.join(outputPath, file + "-letter"));
 
+        // Copy static folder
+        fs.copySync(staticPath, publicPath);
+        fs.copySync(staticPath, outputPath);
+
         // Copy all images to the output folder
         fs.copySync(path.join(publicPath, "images/"), path.join(outputPath, "images/"));
 
@@ -177,7 +183,7 @@ function readFile(file_path) {
 
 function getHtmlFromMarkdown(str, strategy) {
     var result = strategy.render(str);
-    var template = readFile(sourcePath + 'template.html');
+    var template = readFile(templatesPath + 'template.html');
     console.assert(template, "Couldn't find template source");
 
     const dom = new JSDOM(template);

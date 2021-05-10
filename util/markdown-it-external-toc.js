@@ -36,7 +36,7 @@ module.exports = function tocPlugin(md, options) {
     listType: 'ol',
     format: undefined,
     callback: undefined,/* function(html, ast) {} */
-    maxDepth: 2
+    maxDepth: 3
   }, options)
 
   let ast
@@ -133,10 +133,7 @@ module.exports = function tocPlugin(md, options) {
       }
       tree.c.forEach(node => {
         if (isLevelSelected(node.l)) {
-          buffer += (`<li${itemClass}><a${linkClass} href="#${unique(options.slugify(node.n))}">
-            ${typeof _options.format === 'function' ? _options.format(node.n, htmlencode) : htmlencode(node.n)}</a>
-            ${ast2html(node, depth + 1)}
-          </li>`)
+          buffer += (`<li${itemClass}><a${linkClass} href="#${unique(options.slugify(node.n))}">${typeof _options.format === 'function' ? _options.format(node.n, htmlencode) : htmlencode(node.n)}</a>${ast2html(node, depth + 1)}</li>`)
         } else {
           buffer += ast2html(node, depth + 1)
         }
@@ -157,6 +154,10 @@ module.exports = function tocPlugin(md, options) {
     for (let i = 0, iK = tokens.length; i < iK; i++) {
       const token = tokens[i]
       if (token.type === 'heading_open') {
+        const classlist = getClass(token);
+        if (classlist.includes('unlisted') || classlist.includes('draft'))
+          continue;
+
         const key = (
           tokens[i + 1]
             .children
@@ -205,4 +206,15 @@ module.exports = function tocPlugin(md, options) {
   md.block.ruler.before('heading', 'toc', toc, {
     alt: ['paragraph', 'reference', 'blockquote']
   })
+}
+
+function getClass(token) {
+  for (let i = 0; i < token.attrs.length; i++) {
+    const attr = token.attrs[i];
+    if (attr[0] == 'class') {
+      return attr[1].split(' ');
+    }
+  }
+
+  return [];
 }
