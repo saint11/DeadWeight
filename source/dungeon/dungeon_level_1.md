@@ -3,6 +3,10 @@ title: Shattered Tomb of Acheron Zul
 subtitle: The Mausoleum
 dungeon-img: images/shattered_tomb_of_acheron_zul_1.png
 dungeon-img-overlay: images/shattered_tomb_of_acheron_zul_1_tokens.png
+css: dungeon.css
+template: dungeon
+toc: true
+hide-title: true
 ---
 
 You can download the map without the number [here](dungeon/shattered_tomb_of_Acheron_Zul_1.png).
@@ -50,7 +54,7 @@ Adventurers may enter through the obvious [tomb entrance](#1-the-tomb-entrance),
 
 There's a passage that goes straight to the tomb, bypassing the mausoleum. Halfway through the pit there's a hole, full os spiderweb, it leads straight to [Guhlat's lair]().
 
-## Doom Tracker
+### Doom Tracker
 Tick a checkbox every time the characters make excessive noise or waste too much time.
 
 - <input type="checkbox" /><input type="checkbox" /> The **Wandering Goblins** show up.

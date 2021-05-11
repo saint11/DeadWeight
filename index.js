@@ -108,68 +108,32 @@ function processSourcesFolder() {
 
     console.log("======== updating sources folder ========")
 
-    var files = throughDirectory(sourcePath);
-
-    const renderedFiles = [];
-    files.forEach(file => {
-        if (path.extname(file) == ".md") {
-            const fileName = file.substr(0, file.lastIndexOf("."));
-            processMarkDown(fileName);
-            renderedFiles.push(fileName);
-        }
-    });
 
     fs.readdir(publicPath, (err, files) => {
         files.forEach(file => {
             if (path.extname(file) == ".html") {
-                const fileName = file.substr(0, file.lastIndexOf("."));
-                if (renderedFiles.findIndex(f => f == fileName) >= 0) return;
-
                 fs.unlinkSync(path.join(publicPath, file));
                 console.log("removed " + file);
             }
         });
-        console.log("========      job done      ========")
-    });
-}
 
-
-function processMarkDown(fileName) {
-    const file = fileName.substr(sourcePath.length);
-    
-    var raw = readFile(path.join(sourcePath, file + ".md"));
-    console.assert(raw, "Couldn't find markdown source");
-
-    var { dom, linkElement } = getHtmlFromMarkdown(raw, mdWeb);
-    var document = dom.window.document;
-
-    // Make draft file
-    linkElement.setAttribute('href', 'draft.css');
-    saveFile(dom.serialize(), path.join(publicPath, file));
-
-    // Let's make the output now!
-    fs.emptyDir(outputPath, err => {
-        if (err) return console.error(err);
-
-        // Make web file
-        linkElement.setAttribute('href', 'publish.css');
-        saveFile(dom.serialize(), path.join(outputPath, file));
-
-        var print = getHtmlFromMarkdown(raw, mdPrint);
-        document = print.dom.window.document;
-        // Make print A4 file
-        print.linkElement.setAttribute('href', 'print-a4.css');
-        saveFile(print.dom.serialize(), path.join(outputPath, file + "-a4"));
-
-        print.linkElement.setAttribute('href', 'print-letter.css');
-        saveFile(print.dom.serialize(), path.join(outputPath, file + "-letter"));
+        var files = throughDirectory(sourcePath);
+        const renderedFiles = [];
+        files.forEach(file => {
+            if (path.extname(file) == ".md") {
+                const fileName = file.substr(0, file.lastIndexOf("."));
+                processMarkDown(fileName);
+                renderedFiles.push(fileName);
+            }
+        });
 
         // Copy static folder
         fs.copySync(staticPath, publicPath);
         fs.copySync(staticPath, outputPath);
 
         // Copy all images to the output folder
-        // fs.copy(path.join(publicPath, "images/"), path.join(outputPath, "images/"));
+        requireDir(path.join(publicPath, "images/"));
+        fs.copySync(path.join(publicPath, "images/"), path.join(outputPath, "images/"));
 
         // Copy all css to the output folder
         fs.readdir(publicPath, (err, files) => {
@@ -180,16 +144,65 @@ function processMarkDown(fileName) {
             });
         });
 
-        console.log("Rendered " + file);
+        console.log("========      job done      ========")
     });
+
+
 }
 
-function saveFile(html, path) {
-    var fileName = `${path}.html`;
-    var stream = fs.createWriteStream(fileName);
-    stream.once('open', function (fd) {
-        stream.end(html);
-    });
+
+function processMarkDown(fileName) {
+    const file = fileName.substr(sourcePath.length);
+
+    const depth = fileName.split(/\/.+?/g).length;
+
+    var raw = readFile(path.join(sourcePath, file + ".md"));
+    console.assert(raw, "Couldn't find markdown source");
+
+    var { dom, linkElement } = getHtmlFromMarkdown(raw, mdWeb);
+    var document = dom.window.document;
+
+    // Make draft file
+    linkElement.setAttribute('href', '../'.repeat(depth) + (mdWeb.meta.css ? mdWeb.meta.css : 'draft.css'));
+    saveFile(dom.serialize(), path.join(publicPath, file));
+
+    // Let's make the output now!
+    fs.emptyDirSync(outputPath);
+
+    // Make web file
+    linkElement.setAttribute('href', '../'.repeat(depth - 1) + (mdWeb.meta.css ? mdWeb.meta.css : 'publish.css'));
+    saveFile(dom.serialize(), path.join(outputPath, file));
+
+    var print = getHtmlFromMarkdown(raw, mdPrint);
+    document = print.dom.window.document;
+
+    // Make print A4 file
+    print.linkElement.setAttribute('href', 'print-a4.css');
+    saveFile(print.dom.serialize(), path.join(outputPath, file + "-a4"));
+
+    // Make print letter file
+    print.linkElement.setAttribute('href', 'print-letter.css');
+    saveFile(print.dom.serialize(), path.join(outputPath, file + "-letter"));
+
+    console.log("Rendered " + file);
+
+}
+
+function saveFile(html, filePath) {
+    var fileName = `${filePath}.html`;
+    // console.log("Writing " + fileName);
+
+    requireDir(fileName);
+
+    fs.writeFileSync(fileName, html, err => {
+        console.log(err);
+    })
+}
+
+function requireDir(filePath) {
+    if (!fs.existsSync(path.dirname(filePath))) {
+        fs.mkdirSync(path.dirname(filePath));
+    }
 }
 
 function readFile(file_path) {
@@ -203,8 +216,14 @@ function readFile(file_path) {
 
 function getHtmlFromMarkdown(str, strategy) {
     var result = strategy.render(str);
-    var template = readFile(templatesPath + 'template.html');
+
+    const templatePath = `${templatesPath}template${strategy.meta.template ? '-' + strategy.meta.template : ''}.html`;
+    var template = readFile(templatePath);
     console.assert(template, "Couldn't find template source");
+
+    Object.entries(strategy.meta).forEach(attr => {
+        template = template.replace("$" + attr[0], attr[1]);
+    });
 
     const dom = new JSDOM(template);
     const document = dom.window.document;

@@ -150,13 +150,29 @@ module.exports = function tocPlugin(md, options) {
   function headings2ast(tokens) {
     const ast = { l: 0, n: '', c: [] }
     const stack = [ast]
+    var unlist = false;
+    var level = 999;
 
     for (let i = 0, iK = tokens.length; i < iK; i++) {
       const token = tokens[i]
       if (token.type === 'heading_open') {
+
         const classlist = getClass(token);
-        if (classlist.includes('unlisted') || classlist.includes('draft'))
+        if (classlist.includes('unlisted') || classlist.includes('draft')) {
+          level = Math.min(token.markup.length, level);
+          unlist = true;
           continue;
+        }
+
+        if (unlist && token.markup.length > level) {
+          continue;
+        }
+        else{
+          level=999;
+          unlist = false;
+        }
+
+
 
         const key = (
           tokens[i + 1]

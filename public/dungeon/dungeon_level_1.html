@@ -2,21 +2,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/nav.js" type="text/javascript"></script>
+    <script src="../scripts/nav.js" type="text/javascript"></script>
     <title>Shattered Tomb of Acheron Zul</title>
-<link rel="stylesheet" type="text/css" href="draft.css"></head>
+<link rel="stylesheet" type="text/css" href="../dungeon.css"></head>
 
 
 <body>
     <header>
-        
+        <div id="menuToggle">
+            <input type="checkbox">
+            <div id="map-btn">map</div>
+            <div id="back-btn">back</div>
+            <nav id="toc" role="doc-toc">
+                <img src="images/shattered_tomb_of_acheron_zul_1.png" alt="Dungeon map" class="map">
+
+                <input type="checkbox" id="tokens">
+                <label for="tokens" id="tokens-checkbox"></label>
+                <img src="images/shattered_tomb_of_acheron_zul_1_tokens.png" alt="Dungeon map" class="map-overlay">
+
+            <ul><li><a href="#1-the-tomb-entrance">1 The Tomb Entrance</a></li><li><a href="#2-fountain-room">2 Fountain Room</a></li><li><a href="#3-small-prayer-room">3 Small Prayer Room</a></li><li><a href="#4-machine-room">4 Machine Room</a></li><li><a href="#5-flooded-embalming-room">5 Flooded Embalming Room</a></li><li><a href="#6-illustrated-vault">6 Illustrated Vault</a></li><li><a href="#7-sealed-sleeping-quarters">7 Sealed Sleeping Quarters</a></li><li><a href="#8-mosaic-corridor">8 Mosaic Corridor</a></li><li><a href="#9-secret-entrance">9 Secret Entrance</a></li><li><a href="#10-tomb-of-the-inner-court">10 Tomb of the Inner court</a></li><li><a href="#11-chapel">11 Chapel</a></li><li><a href="#12-stockroom">12 Stockroom</a></li><li><a href="#13-burial-chamber-entrance">13 Burial Chamber Entrance</a></li><li><a href="#14-acheron-zul-study-room">14 Acheron Zul Study Room</a></li><li><a href="#15-sacrifice-pit">15 Sacrifice Pit</a></li><li><a href="#16-cult-room">16 Cult Room</a></li><li><a href="#17-makeshift-tunnel">17 Makeshift Tunnel</a></li></ul></nav>
+        </div>
     </header>
+
     <div id="main-document">
         <div class="page">
         </div>
 
 
-<h1>Shattered Tomb of Acheron Zul</h1><p>You can download the map without the number <a href="dungeon/shattered_tomb_of_Acheron_Zul_1.png">here</a>.</p>
+<p>You can download the map without the number <a href="dungeon/shattered_tomb_of_Acheron_Zul_1.png">here</a>.</p>
 <p>Acheron Zul is long gone, but his horrible curse afflicted upon the nearby fief of Trinta. The <strong>adventurers</strong> must now enter his tomb to find his remains, but goblins have raided it first, finding things they weren't expecting.</p>
 <section class="unlisted" id="general-information">
 <h2 class="unlisted">General Information</h2>
@@ -98,9 +111,8 @@
 <p>Adventurers may enter through the obvious <a href="#1-the-tomb-entrance">tomb entrance</a>, through the <a href="#9-secret-entrance">secret entrance</a> or they can climb down through <a href="#15-sacrifice-pit">the pit</a>. The only obvious entrance is the main one, the <strong>adventurers</strong> must figure out the other entrances based on the rumors.</p>
 <p>There's a passage that goes straight to the tomb, bypassing the mausoleum. Halfway through the pit there's a hole, full os spiderweb, it leads straight to <a href="">Guhlat's lair</a>.</p>
 </section>
-</section>
 <section id="doom-tracker">
-<h2>Doom Tracker</h2>
+<h3>Doom Tracker</h3>
 <p>Tick a checkbox every time the characters make excessive noise or waste too much time.</p>
 <ul>
 <li><input type="checkbox"><input type="checkbox"> The <strong>Wandering Goblins</strong> show up.</li>
@@ -109,6 +121,7 @@
 <li><input type="checkbox"><input type="checkbox"> The ground shakes and the ceiling starts to fall apart, hitting everyone that doesn't hide under something for (STR 2). Raising a shield should add shield tokens to this check normally.</li>
 <li><input type="checkbox"><input type="checkbox"> <strong>Guhlat</strong>, the <span class="m">giant spider</span> finds the adventurers! During every turn of the combat, a <span class="m">spiderling</span> joins the fight.</li>
 </ul>
+</section>
 <section id="wandering-monsters">
 <h3>Wandering monsters</h3>
 <p>Use them when the adventurers wander too much, feel too safe or if things get a bit boring.</p>

@@ -1,0 +1,441 @@
+@import "style.css";
+
+
+#map-btn {
+    display: none;
+}
+
+#back-btn {
+    display: none;
+}
+
+#menuToggle input
+{
+    display: none;
+}
+
+
+@media screen and (max-width: 900px)
+{
+    #menuToggle
+    {
+    display: block;
+    
+    padding: 20px;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    }
+    
+    #menuToggle a
+    {
+    text-decoration: none;
+    color: #888;
+    font-weight: normal;
+    transition: color 0.3s ease;
+    }
+    
+    #menuToggle input
+    {
+    display: block;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 20; /* and place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+    }
+    
+    #map-btn {
+        border-radius: 40px;
+        background-color: black;
+        padding: 10px;
+        font-family: 'Germania One', cursive;
+        color: blanchedalmond;
+        overflow: hidden;
+        font-size: 1.2em;
+        display: inline-block;
+    }
+
+    #menuToggle input:checked ~ #map-btn {
+        display: none;
+    }
+
+    #back-btn {
+        border-radius: 40px;
+        background-color: black;
+        padding: 10px;
+        font-family: 'Germania One', cursive;
+        color: blanchedalmond;
+        overflow: hidden;
+        font-size: 1.2em;
+        display: none;
+    }
+
+    #menuToggle input:checked ~ #back-btn {
+        display: inline-block;
+    }
+    
+    /*
+    * Make this absolute positioned
+    * at the top left of the screen
+    */
+    #menu
+    {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        
+        background: #ededed;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+    
+    #menu li
+    {
+    padding: 10px 0;
+    font-size: 22px;
+    }
+    
+    /*
+    * And let's slide it in from the left
+    */
+    #menuToggle input:checked ~ ul
+    {
+        transform: none;
+    }
+     
+    #menuToggle input:checked ~ nav{
+        display: block;
+        width: 100%;
+        z-index: -1;
+        overflow-y: scroll;;
+        transition:  left .35s;
+        position: fixed;
+
+        transition: position 0.6s ease;
+    }
+
+}
+
+#menuToggle {
+    height: 100%;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(images/spots.png);
+    background-repeat: repeat;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+header {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 5;
+}
+
+#main-document {
+    display: inline-block;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 55%;
+    height: 100%;
+    overflow-x: overlay;
+    overflow-y: overlay;
+    position: fixed;
+    right: 0;
+}
+
+nav {
+    user-select: none;
+    background-color:  #252525;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    font-size: 1em;
+    line-height: 1.5em;
+    transition: width .35s,opacity .25s;
+    box-shadow: 5px 0 10px rgb(0 0 0 / 15%);
+    
+    background-image: url(images/ornament-white.png);
+    background-repeat:repeat;
+
+    display: block;
+}
+
+.folder {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: -8px;
+    
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    border-left: 1em solid #646464;
+}
+.folder.active {
+    transform: rotate(90deg);
+}
+.active > a {
+    color: white;
+}
+
+@media screen and (max-width: 900px)
+{
+    header {
+        display: inline-block;
+
+        width: auto;
+        height: auto;
+
+        overflow: visible;
+        position: fixed;
+    }
+
+    #main-document{
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: auto;
+        left:0;
+        right: 0;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+    }
+}
+
+nav::-webkit-scrollbar { width: 8px; height: 3px;}
+nav::-webkit-scrollbar-button {  background-color: #666; }
+nav::-webkit-scrollbar-track {  background-color: #646464;}
+nav::-webkit-scrollbar-track-piece { background-color: #333;}
+nav::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+nav::-webkit-scrollbar-corner { background-color: #646464;}
+nav::-webkit-resizer { background-color: #666;}
+
+div::-webkit-scrollbar { width: 8px; height: 3px;}
+div::-webkit-scrollbar-button {  background-color: #666; }
+div::-webkit-scrollbar-track {  background-color: #646464;}
+div::-webkit-scrollbar-track-piece { background-color: #333;}
+div::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+div::-webkit-scrollbar-corner { background-color: #646464;}
+div::-webkit-resizer { background-color: #666;}
+
+#toc-title{
+    color: #fff;
+    margin-top: 0;
+    text-align: center;
+}
+
+#toc-desc{
+    color: #999;
+    font-size: 0.7em;
+    margin-bottom: 1em;
+}
+
+nav ul {
+    display: none;
+    
+}
+
+nav:hover ul {
+    display: block;
+
+    position: absolute;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    right: 1em;
+    bottom: 1em;
+    background-color: whitesmoke;
+    border: solid black 3px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: #888;
+    font-family: 'Germania One', cursive;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav ul ul {
+	padding-left: 1em;
+	margin: 0px;
+	position: relative;
+    max-height: 0px;
+    
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+/* li.active */
+nav li.active > ul {
+    max-height: 1000px;
+	opacity: 1;
+	background-color: #303030;
+}
+
+nav li.active a {
+	background-color: #303030;
+}
+
+@media screen and (max-width: 900px)
+{
+    img.left, img.right {
+        display: none;
+    }
+
+    table {
+        display: table;
+        width: 100%;
+    }
+
+    
+    nav:hover ul {
+        display: none;
+    }
+}
+
+img.left {
+    margin-left: -6em;
+}
+
+img.right {
+    margin-right: -6em;
+}
+
+.print {
+    display: none;
+}
+
+img.left {
+    float: left;
+    clear: left;
+    max-width: 20em;
+    margin: 1em;
+}
+
+img.right {
+    float: right;
+    clear: right;
+    max-width: 20em;
+    margin: 1em;
+}
+
+
+/* Hacks */
+#combat-actions > table, #bestiary > table
+{
+    display: table;
+    width: 100%;
+}
+
+.map, .map-overlay{
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    position: fixed;
+}
+
+input#tokens{
+    display: none;
+}
+
+
+label#tokens-checkbox {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 64px;
+    height: 64px;
+
+    background: url(images/tokens_on_off.png);
+    background-size: cover;
+    cursor: pointer;
+    
+    opacity: 25%;
+
+    z-index: 10;
+}
+
+nav:hover label#tokens-checkbox {
+    opacity: 100%;
+}
+
+input:checked + label#tokens-checkbox {
+    background-position-x: 64px;
+}
+
+input#tokens:checked ~ .map-overlay {
+    visibility: hidden;
+}
+
+.map-overlay {
+    visibility: visible;
+}
+
+
+.horizontal {
+    columns: 2;
+}
+
+.horizontal table {
+    -webkit-column-break-after: always;
+    -webkit-column-break-inside: avoid;
+    display: table;
+    width: 100%;
+}
+
+.subtitle {
+    font-family: 'Germania One', cursive;
+    color:  #707a71;
+    text-align: center;
+    font-size: 2em;
+    margin-top: -30px;
+    padding-bottom: 50px;
+
+    
+    background-image: url(images/divider.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 43px;
+}
