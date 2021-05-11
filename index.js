@@ -43,6 +43,7 @@ mdWeb.use(require("./util/markdown-it-external-toc.js"), toc_options);
 mdWeb.use(require('markdown-it-header-sections'))
 mdWeb.use(require('markdown-it-bracketed-spans'))
 mdWeb.use(require('markdown-it-meta'))
+mdWeb.use(require('markdown-it-multimd-table'))
 mdWeb.use(require('markdown-it-shortcode-tag'), shortcodes);
 
 var mdPrint = require('markdown-it')({ html: true, breaks: true });
@@ -53,6 +54,7 @@ mdPrint.use(require("markdown-it-toc-done-right"));
 mdPrint.use(require('markdown-it-header-sections'))
 mdPrint.use(require('markdown-it-bracketed-spans'))
 mdPrint.use(require('markdown-it-meta'))
+mdWeb.use(require('markdown-it-multimd-table'))
 mdPrint.use(require('./util/markdown-it-print.js'))
 mdWeb.use(require('markdown-it-shortcode-tag'), shortcodes);
 
@@ -84,39 +86,57 @@ chokidar.watch(dataPath).on('all', (event, path) => {
     processSourcesFolder();
 });
 
+
+function throughDirectory(directory) {
+    files = [];
+
+    function cycleDirectory(directory_path) {
+        fs.readdirSync(directory_path).forEach(file => {
+            const absolute = path.join(directory_path, file);
+            if (fs.statSync(absolute).isDirectory()) return cycleDirectory(absolute);
+            else return files.push(absolute);
+        });
+    }
+
+    cycleDirectory(directory);
+    return files;
+}
+
 function processSourcesFolder() {
     if (Date.now() - lastProcessedTime < 8000) return;
     lastProcessedTime = Date.now();
 
     console.log("======== updating sources folder ========")
 
-    fs.readdir(sourcePath, (err, files) => {
-        const renderedFiles = [];
+    var files = throughDirectory(sourcePath);
+
+    const renderedFiles = [];
+    files.forEach(file => {
+        if (path.extname(file) == ".md") {
+            const fileName = file.substr(0, file.lastIndexOf("."));
+            processMarkDown(fileName);
+            renderedFiles.push(fileName);
+        }
+    });
+
+    fs.readdir(publicPath, (err, files) => {
         files.forEach(file => {
-            if (path.extname(file) == ".md") {
+            if (path.extname(file) == ".html") {
                 const fileName = file.substr(0, file.lastIndexOf("."));
-                processMarkDown(fileName);
-                renderedFiles.push(fileName);
+                if (renderedFiles.findIndex(f => f == fileName) >= 0) return;
+
+                fs.unlinkSync(path.join(publicPath, file));
+                console.log("removed " + file);
             }
         });
-
-        fs.readdir(publicPath, (err, files) => {
-            files.forEach(file => {
-                if (path.extname(file) == ".html") {
-                    const fileName = file.substr(0, file.lastIndexOf("."));
-                    if (renderedFiles.findIndex(f => f == fileName) >= 0) return;
-
-                    fs.unlinkSync(path.join(publicPath, file));
-                    console.log("removed " + file);
-                }
-            });
-            console.log("========      job done      ========")
-        });
+        console.log("========      job done      ========")
     });
 }
 
 
-function processMarkDown(file) {
+function processMarkDown(fileName) {
+    const file = fileName.substr(sourcePath.length);
+    
     var raw = readFile(path.join(sourcePath, file + ".md"));
     console.assert(raw, "Couldn't find markdown source");
 

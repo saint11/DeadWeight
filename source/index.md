@@ -466,7 +466,7 @@ While it's not usually it's not necessary to know the exact distance of a charac
 | **Nearby**  |      10m      | 6 squares  |
 | **Faraway** |      20m      | 12 squares |
 | **Distant** | more than 20m | 12 squares |
-:Converting distances
+[Converting distances]
 
 <pagebreak>
 
@@ -585,7 +585,7 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 |        16         | A third eye opens in your forehead, you are now with the **Cursed** affliction.                        |
 |        17         | You quickly teleport to the *void realm* and back, all your equipments and items stay there.           |
 |        18         | Summon a *endless horror* **Nearby**.                                                                  |
-: Spell Mishap
+[ Spell Mishap]
 
 <pagebreak>
 
@@ -623,7 +623,7 @@ Casting a prayer is not guaranteed to always work, since the gods can be cruel s
 |   4   | Cure the one of the following afflictions from you or someone **Nearby**: Hungry, Parched, Bleeding, Nauseated or Cursed.              |
 |   5   | If you are in combat, all monsters try to flee in fear, if not decrease the doom tracker.                                              |
 |   6   | If you are in combat all enemies take 1 wound, if not your group will start the next combat with one shield marker on each adventurer. |
-:Miracles
+[Miracles]
 
 ### Prayers List {.big}
 
@@ -641,6 +641,8 @@ Casting a prayer is not guaranteed to always work, since the gods can be cruel s
 
 
 # Expedition
+
+![](images/barbarian-torch.png)
 
 During the **expedition** the characters venture into the depths of the earth in search of some reward. Raiding in caves and dungeons is not a healthy job, it takes a toll on the player characters. Time passes in a weird way down there, minutes turns into hours, and hunger and thirst are even more deadly than the monsters inside.
 
@@ -661,6 +663,7 @@ Any action any player chooses will spend one or more turns. It doesn't matter wh
 One of the main reason that the **players** shouldn't to waste turns is the **decay tracker**. Every turn the **decay tracker** should advance, meaning that every 5 turns of exploration all player characters roll from the decay table.
 
 <div class="break"></div>
+
 | Roll(2d6) | Effect                          |
 | :-------: | :------------------------------ |
 |     2     | Press on (No effect)            |
@@ -674,7 +677,7 @@ One of the main reason that the **players** shouldn't to waste turns is the **de
 |    10     | Angry                           |
 |    11     | Wound (player choosen location) |
 |    12     | Equipment breaks/lost           |
-: Decay
+[Decay]
 
 If a character would receive an affliction that they already have roll again, the player may choose an affliction, including the ones not on this list.
 
@@ -696,7 +699,7 @@ The **omens tracker** is about the state of the party itself. The omens tracker 
 |   4   | The party must discard d4 rations.                         |
 |   5   | The party must discard d4 torches.                         |
 |   6   | The party must discard one magical item or magical scroll. |
-: Omens
+[Omens]
 
 <pagebreak>
 
@@ -1014,7 +1017,7 @@ There are many possible effects associated with weapons, here is a list of all o
 | **D**  | Ignores **dodge tokens**.                    |
 | **X**  | Ignores **shield tokens**.                   |
 | **?**  | Special effect on the description.           |
-:Weapon Effects
+[Weapon Effects]
 
 Ranged weapons have the range specified, if nothing is written, just assume it hits only targets that are **Close**. Here's a ranged weapon example:
 
@@ -1041,7 +1044,7 @@ All weapons can be used with one hand, unless stated otherwise.
 | Spear              | STR 3+1B   | 2 hands. Can be used with 1 hand, but reduces the attack roll by 1.      |
 | Short sword        | STR 2+1    | If dual wielded becomes 3+1D.                                            |
 | War hammer         | STR 1P + 3 | If you hit roll a d6, on a 6 add a **stun marker** to the enemy.         |
-: Melee Weapons
+[Melee Weapons]
 
 | Weapon           | Stats                | Special rules                                                                                           |
 | ---------------- | -------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -1049,7 +1052,7 @@ All weapons can be used with one hand, unless stated otherwise.
 |                  |                      | You can also use STR to melee with no downsides.                                                        |
 | Short bow        | DEX 2+1E **Faraway** | 2 hands Need arrows.                                                                                    |
 | Crossbow         | DEX 3P+1 **Faraway** | 2 hands. Requires 2 actions to reload.                                                                  |
-: Ranged Weapons
+[Ranged Weapons]
 
 
 <pagebreak>

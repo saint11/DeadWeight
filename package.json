@@ -22,6 +22,7 @@
     "markdown-it-container-pandoc": "^1.0.0",
     "markdown-it-header-sections": "^1.0.0",
     "markdown-it-meta": "0.0.1",
+    "markdown-it-multimd-table": "^4.1.0",
     "markdown-it-shortcode-tag": "^1.1.0",
     "markdown-it-toc-done-right": "^4.2.0",
     "moment": "^2.29.1",
