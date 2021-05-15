@@ -50,7 +50,7 @@ You arrived in the island hoping to find something, maybe treasure, maybe some l
 **Dead Weight** is designed with both online and offline play in mind. This rule book has links and a structure optimized for reading online and on mobile, so it's easily accessible to all players. This game is best played with at least 4 players and no more than 6, including the game master.
 
 ::: {.web}
-If you never played a tabletop RPG before [here](https://wiki.roll20.net/Introduction_To_Tabletop_RPGs) is a good introduction of what it is.
+If you never played a tabletop RPG before, check [this](https://www.youtube.com/watch?v=U_v3vTAEML0) video, for a basic explanation.
 
 **For online play you will need:**
 
@@ -60,7 +60,7 @@ If you never played a tabletop RPG before [here](https://wiki.roll20.net/Introdu
 
 **For playing offline you will need:**
 
-- **You can get a print-optimized version of this page too. We provide in two formats [A4](index-print-a4.html) and [Letter](index-print-letter.html).**
+- **You can get a print-optimized version of this page too. We provide in two formats [A4](index-a4.html) and [Letter](index-letter.html).**
 :::
 - Pen and paper for everyone.
 - A copy of the character sheet for each player, digital or printed, to the player preference.
@@ -266,9 +266,9 @@ Choose one of the following as your starting equipment:
 
 Choose one of the following as your starting equipment:
 
-  - **A:** Cane (STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), 3d6 silver coins, 1 gold coin.
-  - **B:** Sacrificial dagger (STR 1B+1), chalk, poisonous vials, inscribed skull (grimoire), 2d6 silver coins.
-  - **C:** Quarterstaff (STR 1+1), ornate garments, crystal ball, scattered notes (grimoire), 2d6 silver coins.
+  - **A:** Cane (STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), trench coat, 3d6 silver coins, 1 gold coin.
+  - **B:** Sacrificial dagger (STR 1B+1), chalk, poisonous vials, inscribed skull (grimoire), cloak with mask, 2d6 silver coins.
+  - **C:** Quarterstaff (STR 1+1), ornate garments, crystal ball, scattered notes (grimoire), cloak, 2d6 silver coins.
 
 <pagebreak>
 
@@ -428,15 +428,17 @@ After the armor reduces the damage, the attacked character **can** perform a ***
 
 ### Placing wounds {.unlisted}
 
-When assigning **wounds** choose an attribute. If that attribute already have **fatigue** points, you convert those to wounds when placing each point. All wounds must be assigned to the same attribute. The attacked chooses which attribute will suffer the ***wound***.
+When receiving **wounds** you must choose one or more attributes to place them. If that attribute already have **fatigue** points, you convert those to wounds when placing each point. All wounds must be assigned to the same attribute.
 
->Zael now just received **3 damage** from an sword and managed to reduce it to **2 wounds** using **armor** and **toughen up**. After some consideration he decides to that that damage to the **presence** attribute.
+>Zael now just received **3 wounds** from an sword and managed to reduce it to **2 wounds** using **armor** and **toughen up**. After some consideration he decides to that that damage to the **presence** attribute.
 
-Attributes can't hold more wounds than their **value**. If there is no attribute that can hold all the **wounds** fit as many as you can in **one** and **kill** the character if they are not a **player character**. Most wounds are considered **lethal**, but sometimes a character will receive a **non-lethal wound**. When that happens a character will not be mortally wounded when receiving that damage, all excess points will just be discarded.
+Attributes can't hold more wounds than their **score**. If there is no attribute that can hold all the **wounds** fit as many as you can and that **player character** gets **mortally wounded**. Most wounds are considered **lethal**, but sometimes a character will receive a **non-lethal wound**. When that happens a character will not be mortally wounded when receiving that damage, all excess points will just be discarded.
 
-**Player characters** don’t die immediately and are mortally wounded instead, they cannot take any actions and must be **stabilized** by someone after the combat and carried around.
+**Mortally wounded characters** don’t die immediately, they cannot take any actions and must be **stabilized** by someone after the combat. If a mortally wounded character receives any more damage that character will die.
 
-If the received wounds is reduced to zero or less, that character doesn't take any damage.
+**Enemies** don't have attributes, so there's no need to choose where to place the wounds when receiving them. Enemies die when receive more wounds than noted in their enemy sheet.
+
+If the received wounds is reduced to zero or less by armor, toughen up or something else, that character doesn't take any wounds.
 
 <pagebreak>
 
@@ -543,7 +545,7 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 | Bleeding    | Use bandages or other form of first aid.                            | Receive one fatigue point every turn.                                    |
 | Sleepy      | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                     |
 | Angry       | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                                |
-| Shaken      | Resting.                                                            | Can't use the "Catch Breath" action in combat or during exploration.     |
+| Shaken      | Resting in the camp phase.                                          | Can't use the "Catch Breath" action in combat or during exploration.     |
 | Nauseated   | Some potions and tonics. Gets healed during the interlude.          | Check **presence** every combat turn on a fail loose your turn.          |
 | Terrified   | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.             |
 | Hopeless    | Escaping alive from the dungeon or survive a challenging fight.     | Reroll one success every test.                                           |
@@ -628,7 +630,7 @@ Casting a prayer is not guaranteed to always work, since the gods can be cruel s
 ### Prayers List {.big}
 
 #### Level 1 {.block .unlisted}
-- **Cure Light Wounds:** Heal 2 wounds on a **Nearby** target.
+- **Cure Light Wounds:** Heal 2 wounds from a **Nearby** target. Also removes **bleeding**.
 - **Light:** Illuminates the current room.
 - **Detect Evil:** Everything **Nearby** that's evil glows with a green light.
   
@@ -736,9 +738,8 @@ Looking for traps requires the **infiltration** skill. The players may perform a
 
 Finding a trap allows one player to try to disarm it, it requires a **dexterity** test, failing will trigger the trap.
 
-#### Use items (1 turn) {.block}
-Players may rearrange their **adventurer**'s equipment, equipping and un-equipping items.
-Players may also chose to use any items tagged as *quick* or *slow* such as scrolls, oil, ropes and spikes. *Camp* items cannot be used.
+#### Use an item (1 turn) {.block}
+Any item that is tagged as [slow]{.tip} can be used for 1 turn. Items tagged as [camp]{.tip} cannot be used.
 
 #### Cast a spell or prayer (1 turn) {.block}
 Choose an available ***spell*** or ***prayer*** and tests the appropriate ***attribute*** specified in the ***spell*** or ***prayer*** description.
@@ -747,12 +748,20 @@ Execute that spell effect.
 Even if the spell uses 2 actions in combat, it only uses one exploration turn.
 
 #### Freeform (2 turns) {.block}
-This is the more "common" action in most RPG games, it allows the players to do pretty much anything they want and require some improvisation of the *GM*. Freeform actions usually involve interacting with the ambient and solving puzzles.
+It allows the adventurers to do pretty much anything they want and require some improvisation of the *GM*. Freeform actions usually involve interacting with the ambient, creative thinking and solving puzzles.
 
 #### Set up Camp {.block}
 Sooner or later the **adventurers** will need some proper rest, camping will allow them to recover some wounds and afflictions. **Adventurers** can only camp on safe places without any imminent danger. 
 
 Camping starts the [camp](#camp) phase.
+
+#### Take a free action (free) {.block}
+Some actions will not trigger a turn.
+
+- Players may rearrange their adventurer's equipment, equipping and un-equipping items.
+- Adventurers may use any item tagged as [quick]{.tip}.
+- Snuffing out torches or other equally simple action.
+- Talk to each other.
 
 #### Exit the expedition {.block}
 If the **adventurers** are near an exit and there is nothing blocking their path, they can choose to leave the expedition and return to the [interlude](#interlude)
@@ -900,12 +909,14 @@ Camping also is divided in smaller phases:
 - Break camp
 
 ### Camp Setup 
-The players objective on the camp setup is to get as many **action points** they can by using their **adventurers**' resources, skills and traits. If this camp is not the first time the **adventurers** camp, advance the doom tracker.
+The players objective on the camp setup is to get as many **action points** they can by using their **adventurers**' resources, skills and traits. During the setup the players will decide how this camp will be set.
 
-- Add 1 **action point** for each *camping supply* item used.
-- Add 1 **action point** for each **adventurer** with the survivalist skill.
-- Add 1 **action point** the the **players** decide to make a fire.
-- Add 2 **action points** and **advance the doom tracker** if  the players decide to take a long rest.
+- Add 1 **actions** if the adventurers are camping in a dry and stable place.
+- Add 1 **action** for each *camping supply* item used.
+- Add 1 **action** for each **adventurer** with the survivalist skill.
+- Add 1 **action** the the **players** decide to make a fire.
+- Add 2 **actions** and **advance the doom tracker** if  the players decide to take a long rest.
+- Subtract 1 **action** if the location is particularly **filthy** or **unhealthy**. (Cold, flooded, littered with corpses, etc.)
 
 ### Camp Actions
 With all the actions now accounted for, the group decides on how they should spend their actions.
@@ -921,9 +932,9 @@ Removes the **Shaken** affliction.
 Unexhaust all **prayers**.
 
 #### Cook some food (1 action) {.block .break}
-Requires one ration for each **adventurer**. If someone has the **cooking** skill one ration can feed 2 **adventurers**.
+Requires one ration for 2 **adventurers**. If someone has the **cooking** skill one ration can feed 3 **adventurers**.
 
-Removes the **hungry** and **parched** afflictions.
+Removes both the **hungry** and **parched** afflictions.
 
 #### Have some special food (1 action) {.block}
 Requires one special ration for each **adventurer**. If someone has the **cooking** skill one ration can feed 2 **adventurers**.
@@ -957,7 +968,7 @@ Roll all those dice, if a **6** is rolled a combat happens, if more than one **6
 <pagebreak>
 
 ### Break Camp 
-The **adventurers** snuff out any fire they had going gather their things and press on. Return to the [exploration](#exploration).
+The **adventurers** snuff out any fire they had going gather their things and press on. Return to the [exploration](#exploration). The GM should advance the **doom tracker** once, if the **adventurers** had a *long rest* the **doom tracker** advances twice. 
 
 :::{.print}
 ![](images/fire_smaller.png "A fireplace") 
@@ -972,15 +983,47 @@ Unlike most RPG systems the character progression is not always for the better. 
 Retired characters contribute to ***The Guild***, allowing players to start new characters with more bonuses and giving them a long term goal.
 
 
-
-
 # The Game Master {.draft .unlisted}
-
 
 <pagebreak>
 
 # World
-## Equipment
+## Trappings
+**Adventurers** have a number of item slots in their character sheets, most items take up one slot, some may take more than one and some may be stacked.
+
+When items have a characteristic that makes them awkward or hard to carry, write it bellow the item, with the characteristic occupying one extra slot. Examples of characteristics are **oversized**, **fragile** and **unstable**.
+
+Very small items, like chalk, keys or a dice do not occupy any slots, and should be written down in the *notes* section of the character sheet.
+
+All characters have:
+
+- 4 slots in the **torso**, equipped armor also goes here too.
+- 2 slots in each **hand**, equipped weapon or item goes here too. When equipping a weapon or item, the hand may not carry more items. 
+
+Characters may also have certain containers:
+
+- 1 slot in the **belt**, or 2 slots in a **small pouch**.
+- 1 slot in the **canteen**, or 2 slots in a **skin**.
+- 4 slots in a **bag** or satchel carried on the torso, or 7  in a **backpack**.
+- Up to 2 **small bags**, each with 3 **slots**.
+
+You may circle the appropriate container your character has.
+
+### Equipment
+
+There are 5 item categories **common**, **uncommon**, **valuable**, **rare** and **exotic**. The categories set the item price and how hard is to find it during the **interlude**.
+
+Again, if you really like statistics, this is the statistics map of the [possible prices](https://anydice.com/program/222fe).
+
+<itemTable id="0" caption="Common items (1d6 silver)">
+
+<itemTable id="1" caption="Uncommon items (2 + 2d6 silver)">
+
+<itemTable id="2" caption="Valuable items (3 x 2d6 silver)">
+
+<itemTable id="3" caption="Rare items (5 x 3d6 silver)">
+
+<itemTable id="4" caption="Exotic items (10 x 4d6 silver)">
 
 ### Weapons
 
@@ -1039,7 +1082,7 @@ All weapons can be used with one hand, unless stated otherwise.
 | Falchion           | STR 3+1B   |                                                                          |
 | Flail              | STR 2X+2   | If you miss, roll a d6, on a 1 you hit yourself with 1 wound.            |
 | Quarterstaff       | STR 1+1    | If you successfully add a dodge marker, add another one (once per turn). |
-| Sacrificial dagger | 1B+1       | If blocked by a shield roll a d6, on 1 it breaks.                        |
+| Sacrificial dagger | STR 1B+1   | If blocked by a shield roll a d6, on 1 it breaks.                        |
 | Notched whip       | 1E + 2B    | If the enemy has no armor, add a **stun maker** to the enemy.            |
 | Spear              | STR 3+1B   | 2 hands. Can be used with 1 hand, but reduces the attack roll by 1.      |
 | Short sword        | STR 2+1    | If dual wielded becomes 3+1D.                                            |

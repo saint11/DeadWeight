@@ -27,8 +27,10 @@ Goblins, hobgoblins, boggarts and sack-men roam in the night
 
 <pagebreak>
 
-### Demons
+### Demons {.big}
 All magic com from the void realm, a nightmare plane where all demons come from.
+
+![](images/void.png "Plagued rat"){.left}
 
 <monster id="lesser_demon">
 

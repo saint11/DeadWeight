@@ -20,6 +20,7 @@
     "markdown-it-attrs": "^4.0.0",
     "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-container-pandoc": "^1.0.0",
+    "markdown-it-github-headings": "^2.0.0",
     "markdown-it-header-sections": "^1.0.0",
     "markdown-it-meta": "0.0.1",
     "markdown-it-multimd-table": "^4.1.0",

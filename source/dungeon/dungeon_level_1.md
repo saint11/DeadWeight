@@ -3,13 +3,11 @@ title: Shattered Tomb of Acheron Zul
 subtitle: The Mausoleum
 dungeon-img: images/shattered_tomb_of_acheron_zul_1.png
 dungeon-img-overlay: images/shattered_tomb_of_acheron_zul_1_tokens.png
-css: dungeon.css
 template: dungeon
 toc: true
-hide-title: true
 ---
 
-You can download the map without the number [here](dungeon/shattered_tomb_of_Acheron_Zul_1.png).
+You can download the map without the numbers [here](dungeon/shattered_tomb_of_Acheron_Zul_1.png).
 
 Acheron Zul is long gone, but his horrible curse afflicted upon the nearby fief of Trinta. The **adventurers** must now enter his tomb to find his remains, but goblins have raided it first, finding things they weren't expecting.
 
@@ -79,7 +77,7 @@ When dismantling the barricades, a group of 2 [goblin scrappers]{.m} and 1 [hobg
 ## 2 Fountain Room
 A murky fountain bubbling with a strange foam.
 
-If the water is disturbed 3 [giant frogs]{.m}
+If the water is disturbed 3 [giant frogs]{.m}. You may skip this fight if the adventurers have encountered too much trouble already.
 
 - Inside the fountain there's the remains of a human hand, with a golden ring (worth 10 silver).
 

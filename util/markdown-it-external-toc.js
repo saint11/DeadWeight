@@ -167,8 +167,8 @@ module.exports = function tocPlugin(md, options) {
         if (unlist && token.markup.length > level) {
           continue;
         }
-        else{
-          level=999;
+        else {
+          level = 999;
           unlist = false;
         }
 
@@ -225,12 +225,13 @@ module.exports = function tocPlugin(md, options) {
 }
 
 function getClass(token) {
-  for (let i = 0; i < token.attrs.length; i++) {
-    const attr = token.attrs[i];
-    if (attr[0] == 'class') {
-      return attr[1].split(' ');
+  if (token.attrs)
+    for (let i = 0; i < token.attrs.length; i++) {
+      const attr = token.attrs[i];
+      if (attr[0] == 'class') {
+        return attr[1].split(' ');
+      }
     }
-  }
 
   return [];
 }

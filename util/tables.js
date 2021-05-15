@@ -5,6 +5,45 @@ let { getFromId, getSheet } = require('./data.js');
 
 var md = require('markdown-it')({ html: true, breaks: true });
 
+function makeTable(data, options) {
+    var table = document.createElement('table');
+    table.style.width = '100%';
+
+    if (options.caption)
+        table.innerHTML += `<caption>${options.caption}</caption>`
+
+    for (let i = 0; i < data.length; i++) {
+        const element = data[i];
+
+        if (i == 0) {
+            Object.entries(element).forEach(el => {
+                if (options.exclude && options.exclude.includes(el[0])) return;
+                const header = document.createElement('th');
+                header.innerHTML = el[0];
+                table.appendChild(header);
+            });
+        }
+
+        if (options.filter && !options.filter(element)) continue;
+
+        const row = document.createElement('tr');
+
+        const entries = Object.entries(element);
+        for (let col = 0; col < entries.length; col++) {
+            const entry = entries[col];
+            if (options.exclude && options.exclude.includes(entry[0])) continue;
+
+            const cell = document.createElement('td');
+            cell.innerHTML = col == 0 ? `<b>${capitalizeFirstLetter(entry[1])}</b>` : addPeriod(entry[1]);
+            row.appendChild(cell);
+        }
+
+        table.appendChild(row);
+    }
+
+    return table.outerHTML;
+}
+
 function makeMonsterTable(monster, actions) {
     var block = document.createElement('div');
     block.classList.add("monster");
@@ -72,6 +111,10 @@ function addPeriod(string) {
     return string;
 }
 
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 module.exports = {
-    makeMonsterTable
+    makeMonsterTable, makeTable
 }

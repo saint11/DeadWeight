@@ -1,0 +1,60 @@
+
+.tip, .m {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted black;
+    cursor: context-menu;
+    font-weight: bold;
+}
+
+.tooltip_monster.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip_monster {
+    visibility: hidden;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    opacity: 0%;
+    transition: opacity 0.3s;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.tip .tooltip {
+    opacity: 0%;
+    position: absolute;
+    margin-left: -200px;
+    max-height: 400px;
+    width: max-content;
+    height: min-content;
+
+    max-width: 400px;
+    visibility: hidden;
+    bottom: 105%;
+    border: var(--main-dark-color) solid 2px;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--main-selected-color);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 15px;
+    box-sizing: border-box;
+
+    font-weight: normal;
+}
+
+.tip .tooltip p{
+    margin: 0;
+}
+
+.tip:hover .tooltip {
+    visibility: visible;
+    opacity: 100%;
+    transition: opacity 0.3s;
+}

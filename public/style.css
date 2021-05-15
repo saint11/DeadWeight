@@ -75,10 +75,10 @@ h4.block, h3.block, h2.block {
     font-weight: normal;
     background-image: url(images/ornament-white.png);
     background-repeat: repeat;
-    margin-top: -.7em;
-    margin-left: -.7em;
-    margin-right: -.7em;
-    margin-bottom: .4em;
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 10px;
     padding: 0.5em;
     border-radius: 5px;
 }
@@ -86,8 +86,8 @@ h4.block, h3.block, h2.block {
 section.block {
     border: solid var(--main-dark-color) 2px;
     border-radius: 10px;
-    margin: .7em;
-    padding: .7em;
+    margin: 15px;
+    padding: 15px;
     background-color: #cad6cb;
     background-image: url(images/ornament-white.png);
     display: table;
@@ -258,82 +258,7 @@ footer {
     position: relative;
 }
 
-.tip, .m {
-    position: relative;
-    display: inline-block;
-    border-bottom: 2px dotted black;
-    cursor: context-menu;
-    font-weight: bold;
-}
-
-.tooltip_monster.show {
-    visibility: visible;
-    opacity: 1;
-}
-
-.tooltip_monster {
-    visibility: hidden;
-    width: 420px;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    opacity: 0%;
-    transition: opacity 0.3s;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
 .alert {
     color: brown;
     font-weight: bold;
-}
-
-.tip .tooltip {
-    opacity: 0%;
-    position: absolute;
-    margin-left: -220%;
-    max-height: 400px;
-    width: max-content;
-    height: min-content;
-
-    max-width: 400px;
-    visibility: hidden;
-    bottom: 105%;
-    border: var(--main-dark-color) solid 2px;
-    overflow: hidden;
-    text-align: center;
-    background-color: var(--main-selected-color);
-    border-radius: 10px;
-    text-align: center;
-    padding: 5px 15px;
-    box-sizing: border-box;
-
-    font-weight: normal;
-}
-
-.tip .tooltip p{
-    margin: 0;
-}
-
-.tip .tooltip::after {
-    content: "";
-    position: absolute;
-    /* position tooltip correctly */
-    left: 100%;
-    margin-left: -5px;
-    /* vertically center */
-    top: 50%;
-    transform: translateY(-50%);
-    /* the arrow */
-    border: 10px solid #000;
-    border-color: transparent black transparent transparent;
-    display: none;
-}
-
-.tip:hover .tooltip {
-    visibility: visible;
-    opacity: 100%;
-    transition: opacity 0.3s;
 }
