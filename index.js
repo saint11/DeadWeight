@@ -48,7 +48,7 @@ const headingOptions = {
     linkIcon: '<i class="fas fa-link"></i>',
     prefix: ''
 };
-var mdWeb = require('markdown-it')({ html: true, breaks: true });
+var mdWeb = require('markdown-it')({ html: true, breaks: false });
 const toc_options = {
     level: 1,
     listType: 'ul'

@@ -90,7 +90,8 @@ A row of benches, all broken. An amber statue of a saint, barely standing, cover
 There are 5 [slumbering corpses]{.m} praying, to the statue, with a low chant. They are distracted and will not attack if not bothered.
 
 - The amber statue is very valuable (80 silver), but extremely heavy and awkward to carry. Requires 2 **adventurers** to carry it with both hands. Breaking the statue will produce 4 pieces of amber, each **Big** and worth 12 silver.
-- Behind one of the banners there's a [makeshift tunnel](#makeshift-tunnel)
+- Behind one of the banners there's a [makeshift tunnel](#makeshift-tunnel).
+- In the northwest corner there's a burial cart, for carrying corpses, now empty.
 
 > This is not an easy fight, the **adventurers** probably should avoid this one. It's not impossible to win, just mostly a waste of resources, unless they really want that amber statue.
 
@@ -123,7 +124,7 @@ The whole room is flooded with water, around 20cm deep, except for the west side
 
 The walls are filled with illustrations telling the story of Acheron Zul, his rise to power from his poor origins.
 
-A 2 [Giant Leeches]{.m} are sucking a corpse on the east wall.
+A 3 [Giant Leeches]{.m} are sucking a corpse on the east wall.
 
 **Upon further inspection:**
 

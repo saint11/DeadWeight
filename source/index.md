@@ -221,7 +221,6 @@ Classes will give special skills to your character. Choose one and follow the in
 
 Check the **skills** and **traits** section to understand what each of your traits and skills do. Make sure to also check how your **equipment** works on the **equipment and items** section.
 
-
 <pagebreak>
 
 ### Warrior {.big .unlisted}
@@ -234,8 +233,8 @@ Check the **skills** and **traits** section to understand what each of your trai
 
 Choose one of the following as your starting equipment:
 
-  - **A:** Bag, Falchion (STR 3+1B), wooden shield, scale armor (3 [AP]{.tip}), 2d6 silver coins.
-  - **B:** Backpack, Spear (STR 3+1B), small metal shield, padded armor (2 [AP]{.tip}), 2d6 silver coins.
+  - **A:** Bag, Falchion (STR 3+1B), wooden shield(1 shield token), scale armor (3 [AP]{.tip}), 2d6 silver coins.
+  - **B:** Backpack, Spear (STR 3+1B), small metal shield(2 shield tokens), padded armor (2 [AP]{.tip}), 2d6 silver coins.
   - **C:** Bag, Battle Axe (STR 4+2B), loincloth, war paint.
 
 <pagebreak>
@@ -497,6 +496,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 
 - **Animal Affinity:** 1 extra proficiency point for anything that involves fighting, taming, understanding or tracking animals. You have a small pet that follows you around (**weak ally**).
   - **Beastmaster:** 2 extra proficiency points for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
+- **Bash:** You can perform a **bash** combat action, bashing with your shield with an attack (STR 1) and adding a **stun marker** to the enemy.
 - **Cooking:** Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
   - **Master Chef:** Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
 - **Crafting:**  1 extra proficiency point for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
@@ -505,7 +505,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Fearless:** You have 1 extra **Presence** point for **Morale** purposes.
 - **Holy Rites:** 1 extra proficiency point for anything that involves religious rituals, including performing prayers.
 - **Infiltration:** Allows the **search for traps** action during expeditions.
-- **Intimidate:** 1 extra proficiency point for anything that involves intimidation. You may perform an **intimidate** action in combat (2 actions), causing one **Presence** non-lethal wound on all enemies.
+- **Intimidate:** 1 extra proficiency point for anything that involves intimidation. You may perform an **intimidate** action in combat (2 actions), causing one **Presence** non-lethal wound on all enemies. Only one intimidate action can be used per combat.
 - **Loremaster:** Get advantage when testing or checking for anything related to the world lore, ancient languages.
 - **Pilfer:** You earn 1d6 silver coins at the start of the **interlude**.
 - **Occult Studies:** 1 extra proficiency point for anything that involves magic and the occult, including invoking spells.
@@ -526,7 +526,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 
 - **Bad omens**: Every time you have a critical fail on a test, advance the **omens** tracker.
 - **Battle trance**: Every time you kill an enemy you get an extra action.
-- **Cold blood**: You may back-stab enemies, for that you may use **Dexterity** to hit with weapons that would require **Strength**. Enemies can't use **resistance** to reduce your damage.
+- **Cold blood**: You may back-stab enemies, for that you may use **Dexterity** to hit with weapons that would require **Strength**. Enemies can't use **resistance** to reduce your damage and you cause one extra wound.
 - **Divine mandate**: You may cast prayers. You require a holy symbol and to have previously memorized them. Check the [spells](#spells) section for more information.
 - **Magic user**: You may invoke spells. You require a magic **conductor** and to have previously memorized them. Check the [prayers](#prayers) section for more information.
 - **Rejected by death**: When rolling from the **mortally wounded table** roll 2 dice and choose one.
@@ -540,13 +540,13 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 
 | Afflictions | Getting rid of *                                                    | Effect                                                                DD |
 | ----------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Hungry      | Eating food.                                                        | Wounds do not heal by resting.                                           |
-| Parched     | Drinking water.                                                     | Resting does not recover fatigue.                                        |
+| Hungry      | Eating food.                                                        | Wounds do not heal.                                                      |
+| Parched     | Drinking water.                                                     | Cannot recover fatigue.                                                  |
 | Bleeding    | Use bandages or other form of first aid.                            | Receive one fatigue point every turn.                                    |
 | Sleepy      | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                     |
 | Angry       | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                                |
-| Shaken      | Resting in the camp phase.                                          | Can't use the "Catch Breath" action in combat or during exploration.     |
-| Nauseated   | Some potions and tonics. Gets healed during the interlude.          | Check **presence** every combat turn on a fail loose your turn.          |
+| Shaken      | Resting in the camp phase.                                          | Can't use the **Catch Breath** action in combat or during exploration.   |
+| Nauseated   | Some potions and tonics. Gets healed during the interlude.          | ***Check* presence** every combat turn on a fail loose your turn.          |
 | Terrified   | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.             |
 | Hopeless    | Escaping alive from the dungeon or survive a challenging fight.     | Reroll one success every test.                                           |
 | Cursed      | It is said that some artifacts inside the dungeon can help.         | Wounds do not heal by resting. Can see ghosts.                           |

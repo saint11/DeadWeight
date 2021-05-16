@@ -48,9 +48,9 @@
 				{
 					"id": "gremlin",
 					"Name": "Gremlin",
-					"Wounds": 3,
+					"Wounds": 2,
 					"Level": 2,
-					"Armor": 0,
+					"Armor": 1,
 					"Actions": [
 						{
 							"Name": "Chew armor",
@@ -1345,6 +1345,11 @@
 					"rarity": 0
 				},
 				{
+					"name": "bandagem",
+					"description": "A pack of 3 bandages, used to stop bleeding",
+					"rarity": 0
+				},
+				{
 					"name": "drawing tools",
 					"description": "Some papers and drawing tools, can be used to draw maps or write scrolls, Ud8",
 					"rarity": 0
@@ -1370,6 +1375,36 @@
 					"rarity": 0
 				},
 				{
+					"name": "ration",
+					"description": "Removes the *hungry* affliction",
+					"rarity": 0
+				},
+				{
+					"name": "torch",
+					"description": "A pack of 2 torches. Lights the way for Ud8 turns.",
+					"rarity": 0
+				},
+				{
+					"name": "oil",
+					"description": "For refueling the lantern",
+					"rarity": 0
+				},
+				{
+					"name": "rope",
+					"description": "10 meters of rope",
+					"rarity": 0
+				},
+				{
+					"name": "special ration",
+					"description": "Tea, coffee or hot chocolate. Does not remove the *hungry* affliction.",
+					"rarity": 0
+				},
+				{
+					"name": "climbing gear",
+					"description": "15m of rope with a hook, spikes and other safety utensils for Ud6 climbs.",
+					"rarity": 1
+				},
+				{
 					"name": "Waterskin",
 					"description": "A large container for holding water and other liquids.",
 					"rarity": 1
@@ -1382,6 +1417,21 @@
 				{
 					"name": "lockpicking tools",
 					"description": "For opening simple locks. Ud20",
+					"rarity": 1
+				},
+				{
+					"name": "trapping kit",
+					"description": "For making and disarming simple traps. Can build Ud6 traps",
+					"rarity": 1
+				},
+				{
+					"name": "lantern",
+					"description": "Lights the way for Ud12 turns. Uses oil",
+					"rarity": 1
+				},
+				{
+					"name": "first aid kid",
+					"description": "Heals one wound. Ud6",
 					"rarity": 1
 				},
 				{

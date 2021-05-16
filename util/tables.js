@@ -9,6 +9,8 @@ function makeTable(data, options) {
     var table = document.createElement('table');
     table.style.width = '100%';
 
+    var markdown = require('markdown-it')({ html: false, breaks: true });
+
     if (options.caption)
         table.innerHTML += `<caption>${options.caption}</caption>`
 
@@ -34,7 +36,7 @@ function makeTable(data, options) {
             if (options.exclude && options.exclude.includes(entry[0])) continue;
 
             const cell = document.createElement('td');
-            cell.innerHTML = col == 0 ? `<b>${capitalizeFirstLetter(entry[1])}</b>` : addPeriod(entry[1]);
+            cell.innerHTML = col == 0 ? `<b>${markdown.render(capitalizeFirstLetter(entry[1]))}</b>` : markdown.render(addPeriod(entry[1]));
             row.appendChild(cell);
         }
 
