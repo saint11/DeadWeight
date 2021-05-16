@@ -51,16 +51,13 @@
 					"Wounds": 2,
 					"Level": 2,
 					"Armor": 1,
-					"Actions": [
-						{
-							"Name": "Chew armor",
-							"Description": "Always destroys 1 armor point.",
-							"Check": "STR 1"
-						}
-					],
 					"Resistance": 0,
 					"Special": [],
-					"Common Actions": []
+					"Common Actions": [
+						{
+							"Action": "Chew_armor"
+						}
+					]
 				},
 				{
 					"id": "goblin_scrapper",
@@ -164,6 +161,27 @@
 					],
 					"Armor": 2,
 					"Actions": []
+				},
+				{
+					"id": "bugbear",
+					"Name": "Bugbear",
+					"Level": 6,
+					"Wounds": 8,
+					"Armor": 2,
+					"Resistance": 1,
+					"Special": [],
+					"Common Actions": [
+						{
+							"Action": "Chew_armor"
+						}
+					],
+					"Actions": [
+						{
+							"Name": "Rend",
+							"Check": "-STR 2B+2",
+							"Description": ""
+						}
+					]
 				},
 				{
 					"id": "Lesser_Demon",
@@ -348,9 +366,9 @@
 					"id": "Vault_Weaver",
 					"Name": "Vault Weaver",
 					"Level": 2,
-					"Wounds": 3,
+					"Wounds": 4,
 					"Armor": 0,
-					"Resistance": 0,
+					"Resistance": 2,
 					"Special": [
 						{
 							"Description": "Fly"
@@ -367,6 +385,35 @@
 							"Name": "Silver tentacles",
 							"Check": "STR 2P",
 							"Description": ""
+						}
+					]
+				},
+				{
+					"id": "Red_Weaver",
+					"Name": "Red Weaver",
+					"Level": 8,
+					"Wounds": 8,
+					"Armor": 0,
+					"Resistance": 2,
+					"Special": [
+						{
+							"Description": "Fly"
+						},
+						{
+							"Description": "Unnatural presence, everyone nearby is **Nauseated** while around it. Any ration will spoil and water will become tainted."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Silver Tentacles",
+							"Check": "STR 2P",
+							"Description": ""
+						},
+						{
+							"Name": "Pulse",
+							"Check": "",
+							"Description": "A wave of pain, causing 1 Presence wound to everyone *Close*"
 						}
 					]
 				},
@@ -620,6 +667,27 @@
 					]
 				},
 				{
+					"id": "Shadow",
+					"Name": "Shadow",
+					"Level": 4,
+					"Wounds": 3,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ethereal! Can only be hurt by magic, prayers or banish undead."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Rotting touch",
+							"Check": "PRE 2PR",
+							"Description": ""
+						}
+					]
+				},
+				{
 					"id": "spiderling",
 					"Name": "Spiderling",
 					"Level": 1,
@@ -786,6 +854,12 @@
 					"Name": "Poisonous Bite",
 					"Check": "STR 1P",
 					"Description": "On hit causes **Nausea**"
+				},
+				{
+					"id": "Chew_armor",
+					"Name": "Chew Armor",
+					"Check": "STR 1",
+					"Description": "Always destroys 1 armor point."
 				}
 			],
 			"separators": [],
@@ -811,8 +885,7 @@
 			"columns": [
 				{
 					"typeStr": "0",
-					"name": "id",
-					"display": null
+					"name": "id"
 				},
 				{
 					"typeStr": "1",
@@ -844,6 +917,10 @@
 				{
 					"id": "camp",
 					"Description": "**Camp items** may only be used during the camping phase or interlude."
+				},
+				{
+					"id": "dead_vigil",
+					"Description": "An event that happened a century ago in **Blacksalt** isle that causes all the dead to come back to life when not properly burried."
 				}
 			],
 			"separators": [],
@@ -1334,6 +1411,10 @@
 					"name": "description"
 				},
 				{
+					"typeStr": "10:Quick,Slow,Camp,Equipment",
+					"name": "tags"
+				},
+				{
 					"typeStr": "5:common,uncommon,valuable,rare,exotic",
 					"name": "rarity"
 				}
@@ -1342,137 +1423,194 @@
 				{
 					"name": "canvas/cloth",
 					"description": "A piece of cloth, can be used as improvised bandages.",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 2
 				},
 				{
-					"name": "bandagem",
+					"name": "bandages",
 					"description": "A pack of 3 bandages, used to stop bleeding",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 1
 				},
 				{
 					"name": "drawing tools",
 					"description": "Some papers and drawing tools, can be used to draw maps or write scrolls, Ud8",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 0
 				},
 				{
 					"name": "common clothes",
 					"description": "Nothing fancy.",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 8
 				},
 				{
 					"name": "3 meter pole",
 					"description": "Good for looking for traps. (Big)",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 8
 				},
 				{
 					"name": "iron spikes",
 					"description": "For fixing doors open and making sure things stay in place. Ud8",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 2
 				},
 				{
 					"name": "canteen",
 					"description": "For holding water and other liquids.",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 9
 				},
 				{
 					"name": "ration",
-					"description": "Removes the *hungry* affliction",
-					"rarity": 0
+					"description": "Removes the *hungry* affliction. If cooked during camp, can feed 2 (or 3) adventurers (if someone has the *cooking* skill)",
+					"rarity": 0,
+					"tags": 6
 				},
 				{
 					"name": "torch",
 					"description": "A pack of 2 torches. Lights the way for Ud8 turns.",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 2
 				},
 				{
 					"name": "oil",
 					"description": "For refueling the lantern",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 2
 				},
 				{
 					"name": "rope",
 					"description": "10 meters of rope",
-					"rarity": 0
+					"rarity": 0,
+					"tags": 2
 				},
 				{
 					"name": "special ration",
 					"description": "Tea, coffee or hot chocolate. Does not remove the *hungry* affliction.",
+					"rarity": 0,
+					"tags": 4
+				},
+				{
+					"name": "seweing tools",
+					"description": "Repairs one armor point from any cloth armor. Ud8 uses.",
+					"tags": 4,
 					"rarity": 0
 				},
 				{
 					"name": "climbing gear",
 					"description": "15m of rope with a hook, spikes and other safety utensils for Ud6 climbs.",
-					"rarity": 1
+					"rarity": 1,
+					"tags": 2
 				},
 				{
 					"name": "Waterskin",
 					"description": "A large container for holding water and other liquids.",
-					"rarity": 1
+					"rarity": 1,
+					"tags": 10
 				},
 				{
 					"name": "camping supplies",
 					"description": "Basic supplies for making a fire and cooking.",
-					"rarity": 1
+					"rarity": 1,
+					"tags": 4
 				},
 				{
 					"name": "lockpicking tools",
-					"description": "For opening simple locks. Ud20",
-					"rarity": 1
+					"description": "For opening simple locks. Ud20 uses",
+					"rarity": 1,
+					"tags": 2
 				},
 				{
 					"name": "trapping kit",
 					"description": "For making and disarming simple traps. Can build Ud6 traps",
-					"rarity": 1
+					"rarity": 1,
+					"tags": 10
 				},
 				{
 					"name": "lantern",
-					"description": "Lights the way for Ud12 turns. Uses oil",
-					"rarity": 1
+					"description": "Lights the way for Ud12 turns. Uses oil. Quick to light, slow to refuel.",
+					"rarity": 1,
+					"tags": 3
 				},
 				{
 					"name": "first aid kid",
-					"description": "Heals one wound. Ud6",
-					"rarity": 1
+					"description": "Heals one STR or DEX wound. Ud6 uses",
+					"rarity": 1,
+					"tags": 4
+				},
+				{
+					"name": "healing tonic",
+					"description": "Heals one INT or DEX wound. Ud4 uses",
+					"rarity": 1,
+					"tags": 1
+				},
+				{
+					"name": "wine",
+					"description": "Heals one PRE wound and removes *Parched*. Ud4, causes *Nauseated* if you drink too much.",
+					"rarity": 1,
+					"tags": 2
+				},
+				{
+					"name": "leatherworker's toolkit",
+					"description": "Repairs one armor point from any leather or cloth armor. Ud6 uses.",
+					"tags": 4,
+					"rarity": 0
 				},
 				{
 					"name": "mechanics toolkit",
 					"description": "For fixing, assembling and disassembling mechanical devices.",
+					"rarity": 2,
+					"tags": 0
+				},
+				{
+					"name": "armourer supplies",
+					"description": "Repairs one armor point from any armor. Ud6 uses.",
+					"tags": 4,
 					"rarity": 2
 				},
 				{
 					"name": "holy symbol",
 					"description": "Used to perform miracles.",
-					"rarity": 2
+					"rarity": 2,
+					"tags": 0
 				},
 				{
 					"name": "wine of Yoros",
-					"description": "Liquid courage.",
-					"rarity": 2
+					"description": "Liquid courage. Heals one PRE and one INT wound.",
+					"rarity": 2,
+					"tags": 0
 				},
 				{
 					"name": "fine jewellery",
 					"description": "Made of precious materials, not very useful in a dungeon.",
-					"rarity": 3
+					"rarity": 3,
+					"tags": 0
 				},
 				{
 					"name": "alchemic kit",
 					"description": "Can be used for modifying, identifying and making potions ",
-					"rarity": 3
+					"rarity": 3,
+					"tags": 0
 				},
 				{
 					"name": "spell book",
 					"description": "Simple spell book, holds 3 spells",
-					"rarity": 3
+					"rarity": 3,
+					"tags": 0
 				},
 				{
 					"name": "panacea",
-					"description": "Cures any disease or affliction.",
-					"rarity": 4
+					"description": "Cures any disease or affliction. Heals one wound in each attribute.",
+					"rarity": 4,
+					"tags": 0
 				},
 				{
 					"name": "holy relic",
 					"description": "A relic retrieved from the grave of a saint.",
-					"rarity": 4
+					"rarity": 4,
+					"tags": 0
 				}
 			],
 			"separators": [],

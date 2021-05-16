@@ -18,7 +18,7 @@ version 0.1
 
 # Welcome
 
-**Dead Weight** takes place in a low-fantasy world, it's very grim and dark but doesn't take itself too seriously.
+**Dead Weight** takes place in a low-fantasy world, it's very grim and dark but doesn't take itself too seriously. But be advised that **Dead Weight** has strong **horror** elements, and may not be suitable for everyone.
 
 It should be clear that the player characters are no heroes; they are *dead weights*, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, attempting to save enough silver to leave *Blacksalt Island* for solace and better days elsewhere.
 
@@ -546,7 +546,7 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 | Sleepy      | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                     |
 | Angry       | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                                |
 | Shaken      | Resting in the camp phase.                                          | Can't use the **Catch Breath** action in combat or during exploration.   |
-| Nauseated   | Some potions and tonics. Gets healed during the interlude.          | ***Check* presence** every combat turn on a fail loose your turn.          |
+| Nauseated   | Some potions and tonics. Gets healed during the interlude.          | ***Check* presence** every combat turn on a fail loose your turn.        |
 | Terrified   | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.             |
 | Hopeless    | Escaping alive from the dungeon or survive a challenging fight.     | Reroll one success every test.                                           |
 | Cursed      | It is said that some artifacts inside the dungeon can help.         | Wounds do not heal by resting. Can see ghosts.                           |
@@ -931,15 +931,21 @@ Removes the **Shaken** affliction.
 
 Unexhaust all **prayers**.
 
+#### Use items (free) {.block .break}
+**Adventurers** may use as many items tagged as **Slow** or **Quick** as they want.
+
+#### Use camp items (1 action) {.block .break}
+Each **adventurer** can use one item tagged with **Camp** for its effects.
+
 #### Cook some food (1 action) {.block .break}
-Requires one ration for 2 **adventurers**. If someone has the **cooking** skill one ration can feed 3 **adventurers**.
+Cooking, different than other items has an special action, and requires a fire and at least one **camping supplies** to have been used during this camp.
 
-Removes both the **hungry** and **parched** afflictions.
+When cooking one ration can feed 2 **adventurers**. If someone has the **cooking** skill one ration can feed 3 **adventurers**.
 
-#### Have some special food (1 action) {.block}
-Requires one special ration for each **adventurer**. If someone has the **cooking** skill one ration can feed 2 **adventurers**.
+A regular ration will remove both the **hungry** and **parched** afflictions. Regular rations can also be consumed raw, feeding only one **adventurer**, with the **use item** action.
 
-- **Wine** or **beer** removes the *terrified* affliction.
+When using special ration, the ration will not remove the **hungry** affliction, but may cure other affliction instead. Special rations will also remove the **parched** affliction. 
+
 - **Tea** or **hot chocolate** removes teh *angry* affliction.
 - **Coffee** removes the *sleepy* affliction.
 
@@ -988,6 +994,9 @@ Retired characters contribute to ***The Guild***, allowing players to start new 
 <pagebreak>
 
 # World
+
+For more information about the locations and history of the island, check the [Blacksalt book](./blacksalt.html).
+
 ## Trappings
 **Adventurers** have a number of item slots in their character sheets, most items take up one slot, some may take more than one and some may be stacked.
 
@@ -1102,6 +1111,8 @@ All weapons can be used with one hand, unless stated otherwise.
 
 # Enemies in the Dark
 
+A list of monsters and enemies can be found in the [bestiary book](bestiary.html).
+
 Enemies do not have a complete character sheet, instead they have a simplified one, let's look at an example:
 
 <monster id="freshly_risen_corpse">
@@ -1135,8 +1146,6 @@ Enemies don't have attributes so they can't make attribute tests, they make an *
 Enemies also do not have **afflictions**, but they can bleed. If they are bleeding roll a d6 on the start of their turn, if they get a failure (1, 2 or 3) they take one wound.
 
 For more information on how fighting works, check the [combat](#combat) section.
-
-A list of monsters and enemies can be found in the [bestiary book](bestiary.html)
 
 ## Taking damage
 

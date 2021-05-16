@@ -14,16 +14,29 @@ function makeTable(data, options) {
     if (options.caption)
         table.innerHTML += `<caption>${options.caption}</caption>`
 
+    const enums = {};
+    const tags = {};
+
     for (let i = 0; i < data.length; i++) {
         const element = data[i];
 
         if (i == 0) {
-            Object.entries(element).forEach(el => {
-                if (options.exclude && options.exclude.includes(el[0])) return;
+            const columns = Object.entries(element);
+
+            for (let col = 0; col < columns.length; col++) {
+                const el = columns[col];
+                if (options.exclude && options.exclude.includes(el[0])) continue;
                 const header = document.createElement('th');
                 header.innerHTML = el[0];
                 table.appendChild(header);
-            });
+
+                if (options.tags && options.tags[el[0].toLowerCase()]) {
+                    tags[col] = toBitwise(options.tags[el[0].toLowerCase()]);
+                }
+                if (options.enums) {
+                    enums[col] = options.enums[el[0].toLowerCase()];
+                }
+            }
         }
 
         if (options.filter && !options.filter(element)) continue;
@@ -31,12 +44,25 @@ function makeTable(data, options) {
         const row = document.createElement('tr');
 
         const entries = Object.entries(element);
+
         for (let col = 0; col < entries.length; col++) {
             const entry = entries[col];
             if (options.exclude && options.exclude.includes(entry[0])) continue;
 
             const cell = document.createElement('td');
-            cell.innerHTML = col == 0 ? `<b>${markdown.render(capitalizeFirstLetter(entry[1]))}</b>` : markdown.render(addPeriod(entry[1]));
+
+            if (tags[col]) {
+                const text = bitToString(Number.parseInt(entry[1]), tags[col]);
+                cell.innerHTML = text;
+            } else if (enums[col]) {
+                const text = enums[col][Number.parseInt(entry[1])];
+                cell.innerHTML = text;
+            }
+            else {
+                const text = entry[1];
+                cell.innerHTML = col == 0 ? `<b>${markdown.render(capitalizeFirstLetter(text))}</b>` : markdown.render(addPeriod(text));
+            }
+
             row.appendChild(cell);
         }
 
@@ -115,6 +141,27 @@ function addPeriod(string) {
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function toBitwise(array) {
+    var a = {};
+    for (let i = 0; i < array.length; i++) {
+        const el = array[i];
+
+        a[Math.pow(2, i)] = el;
+    };
+    return a;
+}
+
+function bitToString(int, array) {
+    var base2 = (int).toString(2);
+    var result = [];
+    for (let i = 0; i < base2.length; i++) {
+        if (base2[base2.length - i - 1] == 1) {
+            result.push(array[Math.pow(2, i)]);
+        }
+    }
+    return result.join(', ');
 }
 
 module.exports = {

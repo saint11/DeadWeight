@@ -5,15 +5,26 @@ date: 2021-04-21
 
 toc: true
 toc-title: Dead Weight
-hide-title: true
+hide-title: false
 ---
 
 ### The Child-Stealers {.big}
-The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. Most of them worship **Goshkalon**, the god of laughter.
+The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. They are also called the **forest folk** or **goblins** in general.
 
-Goblins, hobgoblins, boggarts and sack-men roam in the night
+They are usually smaller than humans, with white skin covered in bumps and red spots, pointy ears and usually no hair. They have huge mouths with way too many pointy teeth.
+
+They can't speak properly, their mouths are too wide and has no proper lips, they also lack of any social intelligence, but will say a few broken words. They don't talk to each other much, at least not with words, they will secrete some pheromones that will similar to how ants would. They are mostly guided by their instinct to create more goblins and gremlins from human children and to eat meat, including human meat.
+
+Goblin nests are rare and extremely well hidden, but tales are told of them. With their rituals they will turn each human into 6 or even more goblins, with livestock they can make at least 8 gremlins.
+
+Child-stealers will roam in the night since they can see in the dark. They avoid sun light but it won't hurt them.
+
+Most of them worship **Igra**, the god of the woods but a few will workship **Goshkalon**, the god of laughter.
 
 <monster id="gremlin">
+
+*Gremlins are made from captured livestock, like cows or horses. They have wide mouths and are strangely attracted by machinery and will often eat machine parts, which is actually very unhealthy for them.*
+*If they manage to eat fresh human meat, they will turn into a **bugbear***
 
 <monster id="goblin_scrapper">
 
@@ -25,6 +36,10 @@ Goblins, hobgoblins, boggarts and sack-men roam in the night
 
 <monster id="sack_man">
 
+<monster id="bugbear">
+
+*A feral gremlin that ate human flesh, oversized and always hungry. A bugbears are so unstable that event the goblins don't like to have them around.*
+
 <pagebreak>
 
 ### Demons {.big}
@@ -35,6 +50,10 @@ All magic com from the void realm, a nightmare plane where all demons come from.
 <monster id="lesser_demon">
 
 <monster id="void_demon">
+
+<monster id="vault_weaver">
+
+<monster id="red_weaver">
 
 ### Dungeon Scavengers  {.big}
 The dungeon ruins have corpses and rotting things all around. While humans avoid those places, they might just be what some creatures are looking for.
@@ -55,8 +74,6 @@ The dungeon ruins have corpses and rotting things all around. While humans avoid
 
 <monster id="Ectoplasmic_Worm">
 
-<monster id="vault_weaver">
-
 <pagebreak>
 
 ### Shore Creatures {.big}
@@ -74,7 +91,7 @@ Blacksalt isle sea is full of terrible creatures, some end up walking on the lan
 <pagebreak>
 
 ### The Undead {.big}
-Once human bodies now brought back through necromantic incantations.
+Once human bodies now brought back through the [dead vigil]{.tip}.
 
 ![](images/zombie_1.png "a roting zombie"){.left}
 
@@ -91,3 +108,8 @@ Once human bodies now brought back through necromantic incantations.
 <monster id="rotting_sailor">
 
 <monster id="bloated_screamer">
+
+### Ghosts
+The [dead vigil]{.tip} affects even those that have no corpse left.
+
+<monster id="shadow">

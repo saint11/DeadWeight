@@ -28,7 +28,8 @@ Possible ideas for starting out:
 - The **adventurers** came to Trinta trough a trade caravan they were hired to guard.
 - The **adventurers** are under the command of the Lord of Trinta. Going in the tomb might be the safer than confronting him.
 - The caravans leaving the village are all halted because of the curse, the horses hoofs are all infected. Solving this might be the only way out.
-- There is a 100 silver coins bounty on the remains of Acheron Zul
+- The lord is suspicious to the to the adventurers, blaming them for the curse. Finding the corpse for the lord might be safer than trying to run.
+- There is a 100 silver coins bounty on the remains of Acheron Zul.
 
 ### Rumors
 Start by giving each **adventurer** knows a rumor. If an adventurer has 2 or more points in **presence**, they know 2 rumors. Do not repeat rumors between players, roll again on repeats. Ideally this should be passed as a note, so they can speculate between them.
@@ -47,7 +48,25 @@ Start by giving each **adventurer** knows a rumor. If an adventurer has 2 or mor
 |  11   | <input type="checkbox" /> The dungeon is flooded and the water is tainted with dangerous chemicals, that's what caused the bad water in Trinta.       |
 |  12   | <input type="checkbox" /> The soothsayer cannot be trusted, the mummy is actually a very powerful artifact.                                           |
 
+### Dungeon History
+*This is some optional history for this dungeon, if you are in a hurry, feel free to skip this chapter.*
+*This information should not be shared with the players, this is a guide to the GM, so you will know what's actually going on in this tomb.*
+
+As well as being the feudal lord of the fief of Trita, Acheron Zul was a necromancer-priest almost a century ago. As most necromancers-priests of that time, he was desperately trying to stop the [dead vigil],{.tip}. While he started with a good intention, he quickly got obsessed and arranged macabre ceremonies and experiments.
+
+His ever increasing demand for corpses would be satisfied by an old custom of Trinta, every month a sacrifice was made to **Guhlat**, a giant spider that lives on a nearby hill. The spider would leave the Trinta alone as long as she was fed live humans. The peasants would often capture and throw unwary travellers in the [sacrificial pit](#15-sacrifice-pit) for that purpose.
+
+Acheron Zul would then use those the corpses after the spider had sucked them dry, and eventually had a tomb-church built on the spider's hill. There he would perform many experiments, involving demons, undead, anf forgotten religions.
+
+Digging always deeper they found the **primordial cave**, and an ancient temple of a forgotten god. Using the temple, Acheron Zul summoned the **Vault Weavers**, flying demonic spheres that would consume any corpses, leaving no traces behind. The problem was that the weavers presence was highly unnatural, and their feeding would cause terrible effects on Trinta, animals would die, food would spoil and people got horribly sick.
+
+The people of Trinta, scarred, though that Acheron had cursed them. They invaded the tomb, killing Acheron Zul. His son was very young, but succeeded him. His first order was to give Acheron Zul's corpse to the weavers, seal the tomb and the cave. The curse eventually went alway as the **Vault Weavers** consumed all the corpses in their chamber and hibernated.
+
+After many years, the curse returned after a group of expelled goblins stumbled upon the tomb and began living there. They accidentally awakened the weavers. The villagers are now sending mercenaries to the tomb, feeding the weavers even more.
+
 ### Entrances
+The tomb is on top of and old hill, covered in moss, grass and vines.
+
 Adventurers may enter through the obvious [tomb entrance](#1-the-tomb-entrance), through the [secret entrance](#9-secret-entrance) or they can climb down through [the pit](#15-sacrifice-pit). The only obvious entrance is the main one, the **adventurers** must figure out the other entrances based on the rumors.
 
 There's a passage that goes straight to the tomb, bypassing the mausoleum. Halfway through the pit there's a hole, full os spiderweb, it leads straight to [Guhlat's lair]().

@@ -33,7 +33,7 @@
 <p><span class="alert">This is a very very early work in progress, it's playable, but I put it online mostly as a proof of concept and for feedback.</span></p>
 <section>
 <h1><a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><i class="fas fa-link"></i></a>Welcome</h1>
-<p><strong>Dead Weight</strong> takes place in a low-fantasy world, it's very grim and dark but doesn't take itself too seriously.</p>
+<p><strong>Dead Weight</strong> takes place in a low-fantasy world, it's very grim and dark but doesn't take itself too seriously. But be advised that <strong>Dead Weight</strong> has strong <strong>horror</strong> elements, and may not be suitable for everyone.</p>
 <p>It should be clear that the player characters are no heroes; they are <em>dead weights</em>, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, attempting to save enough silver to leave <em>Blacksalt Island</em> for solace and better days elsewhere.</p>
 <p>This system has a strong <strong>structure</strong> to it, and focus heavily on dungeon crawling. While exploring the catacombs and dungeons, the characters must struggle with not only the horrors lurking there, but also their fatigue, stress, and the gradual decay of the valuable resources they bring.</p>
 <p>The goal of <strong>Dead Weight</strong> is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the boardgame), The Black Hack and Torchbearer. Don't forget to check our <a href="license.html">license</a>,you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution.</p>
@@ -1313,15 +1313,20 @@ Check <em>Receiving Help</em> for more information.</p>
 <p>Unexhaust all <strong>prayers</strong>.</p>
 </section>
 <section class="block break">
-<h4 class="block break"><a id="cook-some-food-1-action" class="anchor" href="#cook-some-food-1-action" aria-hidden="true"><i class="fas fa-link"></i></a>Cook some food (1 action)</h4>
-<p>Requires one ration for 2 <strong>adventurers</strong>. If someone has the <strong>cooking</strong> skill one ration can feed 3 <strong>adventurers</strong>.</p>
-<p>Removes both the <strong>hungry</strong> and <strong>parched</strong> afflictions.</p>
+<h4 class="block break"><a id="use-items-free" class="anchor" href="#use-items-free" aria-hidden="true"><i class="fas fa-link"></i></a>Use items (free)</h4>
+<p><strong>Adventurers</strong> may use as many items tagged as <strong>Slow</strong> or <strong>Quick</strong> as they want.</p>
 </section>
-<section class="block">
-<h4 class="block"><a id="have-some-special-food-1-action" class="anchor" href="#have-some-special-food-1-action" aria-hidden="true"><i class="fas fa-link"></i></a>Have some special food (1 action)</h4>
-<p>Requires one special ration for each <strong>adventurer</strong>. If someone has the <strong>cooking</strong> skill one ration can feed 2 <strong>adventurers</strong>.</p>
+<section class="block break">
+<h4 class="block break"><a id="use-camp-items-1-action" class="anchor" href="#use-camp-items-1-action" aria-hidden="true"><i class="fas fa-link"></i></a>Use camp items (1 action)</h4>
+<p>Each <strong>adventurer</strong> can use one item tagged with <strong>Camp</strong> for its effects.</p>
+</section>
+<section class="block break">
+<h4 class="block break"><a id="cook-some-food-1-action" class="anchor" href="#cook-some-food-1-action" aria-hidden="true"><i class="fas fa-link"></i></a>Cook some food (1 action)</h4>
+<p>Cooking, different than other items has an special action, and requires a fire and at least one <strong>camping supplies</strong> to have been used during this camp.</p>
+<p>When cooking one ration can feed 2 <strong>adventurers</strong>. If someone has the <strong>cooking</strong> skill one ration can feed 3 <strong>adventurers</strong>.</p>
+<p>A regular ration will remove both the <strong>hungry</strong> and <strong>parched</strong> afflictions. Regular rations can also be consumed raw, feeding only one <strong>adventurer</strong>, with the <strong>use item</strong> action.</p>
+<p>When using special ration, the ration will not remove the <strong>hungry</strong> affliction, but may cure other affliction instead. Special rations will also remove the <strong>parched</strong> affliction.</p>
 <ul>
-<li><strong>Wine</strong> or <strong>beer</strong> removes the <em>terrified</em> affliction.</li>
 <li><strong>Tea</strong> or <strong>hot chocolate</strong> removes teh <em>angry</em> affliction.</li>
 <li><strong>Coffee</strong> removes the <em>sleepy</em> affliction.</li>
 </ul>
@@ -1373,6 +1378,7 @@ Check <em>Receiving Help</em> for more information.</p>
 </section>
 <section>
 <h1><a id="world" class="anchor" href="#world" aria-hidden="true"><i class="fas fa-link"></i></a>World</h1>
+<p>For more information about the locations and history of the island, check the <a href="./blacksalt.html">Blacksalt book</a>.</p>
 <section>
 <h2><a id="trappings" class="anchor" href="#trappings" aria-hidden="true"><i class="fas fa-link"></i></a>Trappings</h2>
 <p><strong>Adventurers</strong> have a number of item slots in their character sheets, most items take up one slot, some may take more than one and some may be stacked.</p>
@@ -1395,61 +1401,80 @@ Check <em>Receiving Help</em> for more information.</p>
 <h3><a id="equipment" class="anchor" href="#equipment" aria-hidden="true"><i class="fas fa-link"></i></a>Equipment</h3>
 <p>There are 5 item categories <strong>common</strong>, <strong>uncommon</strong>, <strong>valuable</strong>, <strong>rare</strong> and <strong>exotic</strong>. The categories set the item price and how hard is to find it during the <strong>interlude</strong>.</p>
 <p>Again, if you really like statistics, this is the statistics map of the <a href="https://anydice.com/program/222fe">possible prices</a>.</p>
-<table style="width: 100%;"><caption>Common items (1d6 silver)</caption><tbody><tr><th>name</th><th>description</th></tr><tr><td><b><p>Canvas/cloth</p>
+<table style="width: 100%;"><caption>Common items (1d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Canvas/cloth</p>
 </b></td><td><p>A piece of cloth, can be used as improvised bandages.</p>
-</td></tr><tr><td><b><p>Bandagem</p>
+</td><td>Slow</td></tr><tr><td><b><p>Bandages</p>
 </b></td><td><p>A pack of 3 bandages, used to stop bleeding.</p>
-</td></tr><tr><td><b><p>Drawing tools</p>
+</td><td>Quick</td></tr><tr><td><b><p>Drawing tools</p>
 </b></td><td><p>Some papers and drawing tools, can be used to draw maps or write scrolls, Ud8.</p>
-</td></tr><tr><td><b><p>Common clothes</p>
+</td><td></td></tr><tr><td><b><p>Common clothes</p>
 </b></td><td><p>Nothing fancy.</p>
-</td></tr><tr><td><b><p>3 meter pole</p>
+</td><td>Equipment</td></tr><tr><td><b><p>3 meter pole</p>
 </b></td><td><p>Good for looking for traps. (Big).</p>
-</td></tr><tr><td><b><p>Iron spikes</p>
+</td><td>Equipment</td></tr><tr><td><b><p>Iron spikes</p>
 </b></td><td><p>For fixing doors open and making sure things stay in place. Ud8.</p>
-</td></tr><tr><td><b><p>Canteen</p>
+</td><td>Slow</td></tr><tr><td><b><p>Canteen</p>
 </b></td><td><p>For holding water and other liquids.</p>
-</td></tr><tr><td><b><p>Ration</p>
-</b></td><td><p>Removes the <em>hungry</em> affliction.</p>
-</td></tr><tr><td><b><p>Torch</p>
+</td><td>Quick, Equipment</td></tr><tr><td><b><p>Ration</p>
+</b></td><td><p>Removes the <em>hungry</em> affliction. If cooked during camp, can feed 2 (or 3) adventurers (if someone has the <em>cooking</em> skill).</p>
+</td><td>Slow, Camp</td></tr><tr><td><b><p>Torch</p>
 </b></td><td><p>A pack of 2 torches. Lights the way for Ud8 turns.</p>
-</td></tr><tr><td><b><p>Oil</p>
+</td><td>Slow</td></tr><tr><td><b><p>Oil</p>
 </b></td><td><p>For refueling the lantern.</p>
-</td></tr><tr><td><b><p>Rope</p>
+</td><td>Slow</td></tr><tr><td><b><p>Rope</p>
 </b></td><td><p>10 meters of rope.</p>
-</td></tr><tr><td><b><p>Special ration</p>
+</td><td>Slow</td></tr><tr><td><b><p>Special ration</p>
 </b></td><td><p>Tea, coffee or hot chocolate. Does not remove the <em>hungry</em> affliction.</p>
-</td></tr></tbody></table><table style="width: 100%;"><caption>Uncommon items (2 + 2d6 silver)</caption><tbody><tr><th>name</th><th>description</th></tr><tr><td><b><p>Climbing gear</p>
+</td><td>Camp</td></tr><tr><td><b><p>Seweing tools</p>
+</b></td><td><p>Repairs one armor point from any cloth armor. Ud8 uses.</p>
+</td><td><ol start="4">
+<li></li>
+</ol>
+</td></tr><tr><td><b><p>Leatherworker's toolkit</p>
+</b></td><td><p>Repairs one armor point from any leather or cloth armor. Ud6 uses.</p>
+</td><td><ol start="4">
+<li></li>
+</ol>
+</td></tr></tbody></table><table style="width: 100%;"><caption>Uncommon items (2 + 2d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Climbing gear</p>
 </b></td><td><p>15m of rope with a hook, spikes and other safety utensils for Ud6 climbs.</p>
-</td></tr><tr><td><b><p>Waterskin</p>
+</td><td>Slow</td></tr><tr><td><b><p>Waterskin</p>
 </b></td><td><p>A large container for holding water and other liquids.</p>
-</td></tr><tr><td><b><p>Camping supplies</p>
+</td><td>Slow, Equipment</td></tr><tr><td><b><p>Camping supplies</p>
 </b></td><td><p>Basic supplies for making a fire and cooking.</p>
-</td></tr><tr><td><b><p>Lockpicking tools</p>
-</b></td><td><p>For opening simple locks. Ud20.</p>
-</td></tr><tr><td><b><p>Trapping kit</p>
+</td><td>Camp</td></tr><tr><td><b><p>Lockpicking tools</p>
+</b></td><td><p>For opening simple locks. Ud20 uses.</p>
+</td><td>Slow</td></tr><tr><td><b><p>Trapping kit</p>
 </b></td><td><p>For making and disarming simple traps. Can build Ud6 traps.</p>
-</td></tr><tr><td><b><p>Lantern</p>
-</b></td><td><p>Lights the way for Ud12 turns. Uses oil.</p>
-</td></tr><tr><td><b><p>First aid kid</p>
-</b></td><td><p>Heals one wound. Ud6.</p>
-</td></tr></tbody></table><table style="width: 100%;"><caption>Valuable items (3 x 2d6 silver)</caption><tbody><tr><th>name</th><th>description</th></tr><tr><td><b><p>Mechanics toolkit</p>
+</td><td>Slow, Equipment</td></tr><tr><td><b><p>Lantern</p>
+</b></td><td><p>Lights the way for Ud12 turns. Uses oil. Quick to light, slow to refuel.</p>
+</td><td>Quick, Slow</td></tr><tr><td><b><p>First aid kid</p>
+</b></td><td><p>Heals one STR or DEX wound. Ud6 uses.</p>
+</td><td>Camp</td></tr><tr><td><b><p>Healing tonic</p>
+</b></td><td><p>Heals one INT or DEX wound. Ud4 uses.</p>
+</td><td>Quick</td></tr><tr><td><b><p>Wine</p>
+</b></td><td><p>Heals one PRE wound and removes <em>Parched</em>. Ud4, causes <em>Nauseated</em> if you drink too much.</p>
+</td><td>Slow</td></tr></tbody></table><table style="width: 100%;"><caption>Valuable items (3 x 2d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Mechanics toolkit</p>
 </b></td><td><p>For fixing, assembling and disassembling mechanical devices.</p>
+</td><td></td></tr><tr><td><b><p>Armourer supplies</p>
+</b></td><td><p>Repairs one armor point from any armor. Ud6 uses.</p>
+</td><td><ol start="4">
+<li></li>
+</ol>
 </td></tr><tr><td><b><p>Holy symbol</p>
 </b></td><td><p>Used to perform miracles.</p>
-</td></tr><tr><td><b><p>Wine of Yoros</p>
-</b></td><td><p>Liquid courage.</p>
-</td></tr></tbody></table><table style="width: 100%;"><caption>Rare items (5 x 3d6 silver)</caption><tbody><tr><th>name</th><th>description</th></tr><tr><td><b><p>Fine jewellery</p>
+</td><td></td></tr><tr><td><b><p>Wine of Yoros</p>
+</b></td><td><p>Liquid courage. Heals one PRE and one INT wound.</p>
+</td><td></td></tr></tbody></table><table style="width: 100%;"><caption>Rare items (5 x 3d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Fine jewellery</p>
 </b></td><td><p>Made of precious materials, not very useful in a dungeon.</p>
-</td></tr><tr><td><b><p>Alchemic kit</p>
+</td><td></td></tr><tr><td><b><p>Alchemic kit</p>
 </b></td><td><p>Can be used for modifying, identifying and making potions .</p>
-</td></tr><tr><td><b><p>Spell book</p>
+</td><td></td></tr><tr><td><b><p>Spell book</p>
 </b></td><td><p>Simple spell book, holds 3 spells.</p>
-</td></tr></tbody></table><table style="width: 100%;"><caption>Exotic items (10 x 4d6 silver)</caption><tbody><tr><th>name</th><th>description</th></tr><tr><td><b><p>Panacea</p>
-</b></td><td><p>Cures any disease or affliction.</p>
-</td></tr><tr><td><b><p>Holy relic</p>
+</td><td></td></tr></tbody></table><table style="width: 100%;"><caption>Exotic items (10 x 4d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Panacea</p>
+</b></td><td><p>Cures any disease or affliction. Heals one wound in each attribute.</p>
+</td><td></td></tr><tr><td><b><p>Holy relic</p>
 </b></td><td><p>A relic retrieved from the grave of a saint.</p>
-</td></tr></tbody></table></section>
+</td><td></td></tr></tbody></table></section>
 <section>
 <h3><a id="weapons" class="anchor" href="#weapons" aria-hidden="true"><i class="fas fa-link"></i></a>Weapons</h3>
 <p><img src="images/weapons.png" alt="" title="Weapons" class="left"></p>
@@ -1627,6 +1652,7 @@ Check <em>Receiving Help</em> for more information.</p>
 </section>
 <section>
 <h1><a id="enemies-in-the-dark" class="anchor" href="#enemies-in-the-dark" aria-hidden="true"><i class="fas fa-link"></i></a>Enemies in the Dark</h1>
+<p>A list of monsters and enemies can be found in the <a href="bestiary.html">bestiary book</a>.</p>
 <p>Enemies do not have a complete character sheet, instead they have a simplified one, let's look at an example:</p>
 <div class="monster"><div class="monster-header"><p>Freshly Risen Corpse - LVL 3</p>
 </div><div class="monster-attributes"><p>Wounds: 5, Armor: 1</p>
@@ -1653,7 +1679,6 @@ Check <em>Receiving Help</em> for more information.</p>
 <p>Enemies don't have attributes so they can't make attribute tests, they make an <em>enemy test</em>, If an enemy needs to test for anything the <strong>GM</strong> can roll using the monster's <strong>LVL</strong> value, rolling the amount of dice. Although is recommended to avoid making tests  for enemies when possible. Enemies do not take fatigue.</p>
 <p>Enemies also do not have <strong>afflictions</strong>, but they can bleed. If they are bleeding roll a d6 on the start of their turn, if they get a failure (1, 2 or 3) they take one wound.</p>
 <p>For more information on how fighting works, check the <a href="#combat">combat</a> section.</p>
-<p>A list of monsters and enemies can be found in the <a href="bestiary.html">bestiary book</a></p>
 </section>
 <section>
 <h2><a id="taking-damage" class="anchor" href="#taking-damage" aria-hidden="true"><i class="fas fa-link"></i></a>Taking damage</h2>

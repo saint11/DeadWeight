@@ -93,6 +93,7 @@ function makeMonsterTable(id) {
     console.assert(monster, id + " not found!");
 
     var block = document.createElement("div");
+    block.classList.add("monster")
 
     CreateAndPush(monster["Name"] + " - LVL " + monster["Level"], "div", "monster-header", block)
 
@@ -170,7 +171,6 @@ function position_tooltip() {
     if (monster_tooltip == null) {
         monster_tooltip = document.createElement('span');
         monster_tooltip.classList.add("tooltip_monster")
-        monster_tooltip.classList.add("monster")
         document.getElementById("main-document").appendChild(monster_tooltip);
     }
     else {

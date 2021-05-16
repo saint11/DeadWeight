@@ -32,6 +32,7 @@ var shortcodes = {
                 bold: [0],
                 filter: el => el["rarity"] == attrs.id,
                 caption: attrs.caption,
+                tags: { tags: ["Quick", "Slow", "Camp", "Equipment"] }
             };
             return makeTable(data_items, options);
         }
