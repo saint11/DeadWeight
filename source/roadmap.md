@@ -9,18 +9,20 @@ hide-title: true
 print: false
 ---
 
-# Next
+# Working on now
 - [ ] Sample dungeon level 2
-- [ ] Spells and schools of magic
 - [ ] Interlude (City Phase)
+- [ ] Spells and schools of magic
+- [ ] Gods and prayers
 
-# Later
-- [ ] Review the print version
+# Next
 - [ ] World map
 - [ ] Character advancement
 - [ ] Better encumbrance rules
 - [ ] Sample dungeon level 3 (final level)
 
-# Even later
+# Later
+- [ ] Review the print version
 - [ ] List of magic items
 - [ ] Guilds
+- [ ] Player versus player tests

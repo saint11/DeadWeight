@@ -133,7 +133,7 @@ module.exports = function tocPlugin(md, options) {
       }
       tree.c.forEach(node => {
         if (isLevelSelected(node.l)) {
-          buffer += (`<li${itemClass}><a${linkClass} href="#${unique(options.slugify(node.n.replace(',','')))}">${typeof _options.format === 'function' ? _options.format(node.n, htmlencode) : htmlencode(node.n)}</a>${ast2html(node, depth + 1)}</li>`)
+          buffer += (`<li${itemClass}><a${linkClass} href="#${unique(options.slugify(node.n.replace('.','')))}">${typeof _options.format === 'function' ? _options.format(node.n, htmlencode) : htmlencode(node.n)}</a>${ast2html(node, depth + 1)}</li>`)
         } else {
           buffer += ast2html(node, depth + 1)
         }

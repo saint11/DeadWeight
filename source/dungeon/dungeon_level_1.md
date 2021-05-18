@@ -118,7 +118,7 @@ There are 5 [slumbering corpses]{.m} praying, to the statue, with a low chant. T
 ## 4 Machine Room
 A partially flooded and sunk machine room.
 
-An old pump is there, broken beyond repair.
+An old pump is there, hopelessly broken. A wizard can fix it with the **Machine spirit** spell, though. If fixed it will pump out the water from the [flooded embalming room](#5-flooded-embalming-room) and from the [illustrated vault](#6-illustrated-vault).
 
 Searching this room you may find a **mechanic's toolkit**.
 

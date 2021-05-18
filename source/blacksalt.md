@@ -18,6 +18,68 @@ The cause of the **dead vigil** is uncertain, some blame the old king for trying
 
 Any corpse if left undisturbed will come back to life after 1d6 weeks as a [Freshly risen corpse]{.m} or [Reanimated husk]{.m}, depending on the state of the conservation and will start looking for other people to attack. If the corpse is unsuitable it may come back as ghost, like a [shadow]{.m}.
 
+# Schools of Magic
+
+## Time in spell descriptions
+When a spell mention **turns** without specifying if it's an **exploration turn** or **combat turn** it means that the the context should be used. If that spell is cast during combat it will last that many **combat turns** if it's cast during exploration, it will last that many **exploration turns**.
+
+When a spell has a duration that explicitly mentions **exploration turns** it can also be cast in combat, remember that the whole combat lasts only one exploration turn.
+
+When rolling for duration, unless specified otherwise, the roll is made by the **player** as soon as the spell have been cast.
+
+## Necromancers of Yadar
+
+#### Spells {.block .unlisted}
+
+- **Pain**: Add 3 [stun tokens]{.tip} to a **nearby** enemy.
+- **Command undead**: The wizard may issue a simple command to a undead can follow in up to 3 expedition turns. Only works on undead up to level 3.
+- **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} haven't set on yet. Causes 2 wound to everyone **close** that can be reduced by armor and resistances.
+- **Phobia**: The target **nearby** creature gets terrified of a chosen person or object for 1d6 turns.
+- **Black night**: Absolute darkness covers a **nearby** area, anything **close** to that area is engulfed in it and can't see. The wizard can see normally trough the darkness.
+- **Nightmare:** A target **nearby** creatures immediately falls into a restless sleep, having horribles nightmare. The creature will wake up normally if disturbed.
+- **Bonedance**: Bends the bones of a **nearby** creature in an unnatural way for the duration of the combat. All tests made against that creature are made with advantage.
+
+## Alchemists of the Golden Ridge
+
+#### Spells {.block .unlisted}
+
+- **Glue**: Creates a strong adhesive that covers something **nearby**. In combat this locks an enemy in place, they must succeed a **test** and spend one action to get free.
+- **Machine spirit**: Fixes a target machine or metal armor. Doesn't work on machines that are too big.
+- **Smoke form**: The wizard turns into smoke, and can can move around for a few short seconds, or one combat turn (2 actions). The wizard cannot be harmed while in smoke form. If after moving the wizard has no space to turn back into human form the wizard will immediately die, while trying to occupy any available space.
+- **Silver cannon**: The wizard can use silver coins as a ranged weapon attacking with **INT 3P**. The wizard must spend 1 silver for each shot.
+
+## Thaumaturgists of Ravenhome
+
+#### Spells {.block .unlisted}
+
+- **Magic Missile**: During this combat the wizard can use *magic missiles* as a ranged  weapon, attacking with **INT 3** for. 
+- **Arcane prison**: A target person or object gets trapped in an arcane crystal, locked in time and space. They can't act or be interacted with for 1d6 turns.
+- **Magic Shield**: During this combat, the wizard get a [shield token]{.tip} on the start of the wizard's turn.
+- **Arcane Seal**: Protects a **nearby** person or object from spells for 1d6 exploration turns.
+- **Pocket reality**: Creates a bag that looks very small on the outside, but has 3 slots. Anything inside do not count towards encumbrance. It lasts until the end of the expedition.
+
+## Wandering Mystics
+
+#### Spells {.block .unlisted}
+
+- **Magic mouth**: Creates a magic mouth at a **far** location, that mouth will repeat a phrase for the wizard, can be loud or quiet at the wizard's discretion.
+- **Arcane eye**: The wizard can see through a floating glowing eye that can be controlled. The eye can't move the eye more than **far** away from the wizard. If the eye gets damage it disappears and the wizard receives 1 **intelligence** wound.
+- **Knock/Lock**: Locks or opens a door **nearby**. Will unlock any simple mechanical lock.
+- **Mind fog**: A target **close** cannot form memories of the next 1d4 turns. The *GM* should roll the dice in secret.
+- **Weave fate**: Roll up to the wizard's **available intelligence** dice and keep them around. You may use them to replace any dice result **you** roll in the next 2d6 exploration turns. For every dice you don't use after that, receive one intelligence wound. The *GM* should roll the timer and keep it in secret.
+- **Mystic ink**: Creates an glowing colorful ink that only other wizards with the **mystic ink** spell can see. The wizard's hands can be used to paint with this ink.
+
+## The Awakened
+
+#### Spells {.block .unlisted}
+
+- **Light**: Illuminates the current room for 2d6 exploration turns.
+- **Haste**: A **nearby** creature has their movement speed doubled until the end of the combat.
+- **Shackles**: The wizard creates magical shackles that hold a **nearby** creature in place, adding 2 stun markers per turn. It lasts as long as the wizard keeps channeling the spell. The wizard can't move or act while channelling.
+- **Telekinesis**: The wizard may pull or push a **close** object using **intelligence** as **strength**. Or use any weapon with **intelligence** as **strength** for one turn.
+- **Hover**: The wizard can hover one meter above the ground, water or similar. Lasts 1d6 turns.
+- **Nether swap**: Immediately swaps place with a target creature.
+
 # Gods
 
 ## New Gods

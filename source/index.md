@@ -271,13 +271,54 @@ Choose one of the following as your starting equipment:
 - Add the trait **magic user**.
 - Add skill **lore master**.
 
-Choose one of the following as your starting equipment:
+#### School of magic
 
-  - **A:** Cane (STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), trench coat, 3d6 silver coins, 1 gold coin.
-  - **B:** Sacrificial dagger (STR 1B+1), chalk, poisonous vials, inscribed skull (grimoire), cloak with mask, 2d6 silver coins.
-  - **C:** Quarterstaff (STR 1+1), ornate garments, crystal ball, scattered notes (grimoire), cloak, 2d6 silver coins.
+Choose one of the following as your school of magic:
 
-Wizards must choose their school of magic, you can find a list of schools of magic in the [Blacksalt book](./blacksalt.html#schools-of-magic). Wizards mus also choose a number of **spells** equal to their **intelligence score** from the [basic spell list](#spell-list) or from their school of magic. Write them down in your character sheet under the "spells and prayers" section.
+  - **Necromancers of Yadar:**  Sacrificial dagger (STR 1B+1), chalk, poisonous vials, inscribed skull (grimoire and conductor), cloak with mask, 2d6 silver coins.
+  - **Alchemists of the Golden Ridge:** Cane (conductor, STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), trench coat, 3d6 silver coins, 1 gold coin.
+  - **Thaumaturgists of Ravenhome:** Quarterstaff (STR 1+1), ornate garments, crystal ball (conductor), scattered notes (grimoire), cloak, 2d6 silver coins.
+  - **Wandering Mystics**: Backpack, wand(conductor), wine, holy water, healing tonic, heavy cloak (AP 1), 2d6 silver coins.
+  - **The Awakened**: Inscribed gauntlet (conductor, STR 2), ashes of insight, ornate clothes, 1d6 silver coins.
+
+You can choose a different conductor or grimoire, if the *GM* allows it.
+
+#### Spells
+
+Wizards must choose a number of **spells** equal to their **intelligence score** from the spell list from their school of magic, check the [Blacksalt book](./blacksalt.html#schools-of-magic) for that. Write them down in your character sheet under the "spells and prayers" section.
+
+Wizards require a **conductor** to perform their spells, usually a wand, staff or crystal ball. Conductors help them to channel the magic from the *void plane* to the real world. While casting a spell without a conductor is possible, it's extremely dangerous. When casting without a conductor, any **failure** counts as a **critical failure**
+
+Wizards also need a **grimoire** to store their spells, without their grimoire they can't study during the interlude or camping phase to remember forgotten spells. In some cases the grimoire and the conductor are the same.
+
+When the expedition starts the player must choose a which spells the adventurer will have memorized. For each **intelligence** point, one spell can be memorized.
+
+Casting a spell is always guaranteed to work, after the spell effects are resolved the **player** must do an **intelligence** test:
+
+- On a **success** nothing else happens, the spell was cast as intended.
+- On a **failure** the caster forgets the spell.
+- On a **critical failure** roll from the spell mishap table. Keep track of how many mishaps happened during this expedition. Add that number to the dice.
+- On a **great success** you tap into an arcane well. Your next spell will be an automatic success.
+
+| 2d6 + Previous mishaps | Effect                                                                                                 |
+| :--------------------: | :----------------------------------------------------------------------------------------------------- |
+|           3            | Take 1 fatigue point on **intelligence** and get the **Nauseated** affliction.                         |
+|           4            | A loud noise! Advance the doom tracker.                                                                |
+|           5            | Temporary blindness for 6 exploration turns.                                                           |
+|           6            | You see a world without you, it's better. You are now with the **Shaken** affliction.                  |
+|           7            | Summon a *lesser demon* **Close** to you.                                                              |
+|           8            | Everyone **Nearby** get the **Angry** affliction, you get the **Terrified** affliction.                |
+|           9            | Everyone **Nearby** starts crying an get the **Hopeless** affliction.                                  |
+|           10           | You and everyone **Close** have terrible visions and get the **Terrified** affliction.                 |
+|           11           | Summon a *void demon* **Close** to you.                                                                |
+|           12           | You start bleeding from your eyes, take **1 wound** to each attribute and the **Bleeding** affliction. |
+|           13           | You conductor is now destroyed.                                                                        |
+|           14           | You see a giant eye looking at you. Get the **Doomed** affliction.                                     |
+|           15           | Summon a *tormentor demon* **Close** to you.                                                           |
+|           16           | A third eye opens in your forehead, you are now with the **Cursed** affliction.                        |
+|           17           | You quickly teleport to the *void realm* and back, all your equipments and items stay there.           |
+|           18           | Summon a *endless horror* **Nearby**.                                                                  |
+[ Spell Mishap]
 
 <pagebreak>
 
@@ -569,56 +610,6 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 
 <pagebreak>
 
-## Spells
-Wizards require a **conductor** to perform their spells, usually a wand, staff or crystal ball. Conductors help them to channel the magic from the *void plane* to the real world. While casting a spell without a conductor is possible, it's extremely dangerous.
-
-When the expedition starts the player must choose a which spells the adventurer will have memorized. For each **intelligence** point, one spell can be memorized.
-
-Casting a spell is always guaranteed to work, after the spell effects are resolved the **player** must do an **intelligence** test:
-
-- On a **success** nothing else happens, the spell was cast as intended.
-- On a **failure** the caster forgets the spell.
-- On a **critical failure** roll from the spell mishap table adding the spell level to the dice.
-- On a **great success** you tap into an arcane well. Your next spell will be an automatic success.
-
-
-### Spell List
-
-#### Level 1 {.block .unlisted}
-- **Magic Missile:** During this combat you can perform a ranged attack with (INT 3).
-- **Light:** Illuminates the current room.
-- **Magic Mouth:** Creates a magic mouth at a **Faraway** location, that mouth will repeat a phrase for the wizard, can be loud or quiet at the wizard's discretion.
-  
-#### Level 2 {.block .unlisted}
-- **Pain:** Every turn an enemy must do a *test*, if they fail they loose one action.
-- **Knock/Lock:** Locks or opens a door **Nearby**.
-- **Magic Shield:** During this combat, you get a [shield token]{.tip} on the start of your turn, up to 3 tokens at the same time.
-
-<pagebreak class="simple">
-
-| 2d6 + Spell Level | Effect                                                                                                 |
-| :---------------: | :----------------------------------------------------------------------------------------------------- |
-|         3         | Take 1 fatigue point on **intelligence** and get the **Nauseated** affliction.                         |
-|         4         | A loud noise! Advance the doom tracker.                                                                |
-|         5         | Temporary blindness for 6 exploration turns.                                                           |
-|         6         | You see a world without you, it's better. You are now with the **Shaken** affliction.                  |
-|         7         | Summon a *lesser demon* **Close** to you.                                                              |
-|         8         | Everyone **Nearby** get the **Angry** affliction, you get the **Terrified** affliction.                |
-|         9         | Everyone **Nearby** starts crying an get the **Hopeless** affliction.                                  |
-|        10         | You and everyone **Close** have terrible visions and get the **Terrified** affliction.                 |
-|        11         | Summon a *void demon* **Close** to you.                                                                |
-|        12         | You start bleeding from your eyes, take **1 wound** to each attribute and the **Bleeding** affliction. |
-|        13         | Occasionally you see demons where your friends used to be.                                             |
-|        14         | You see a giant eye looking at you. Get the **Doomed** affliction.                                     |
-|        15         | Summon a *tormentor demon* **Close** to you.                                                           |
-|        16         | A third eye opens in your forehead, you are now with the **Cursed** affliction.                        |
-|        17         | You quickly teleport to the *void realm* and back, all your equipments and items stay there.           |
-|        18         | Summon a *endless horror* **Nearby**.                                                                  |
-[ Spell Mishap]
-
-
-<pagebreak>
-
 ## Prayers
 Clerics require a **holy symbol** to cast a prayer, that symbol depends on the god that the cleric follows. Casting a prayer without a holy symbol doesn't work, but they are usually easy to improvise.
 
@@ -669,9 +660,9 @@ The **story** will always be in one of those phases, during each phase the playe
 
 ## Exploration
 
-During the exploration characters can move to another place in the dungeon, fix their equipment, interact with their environment and other various things, but every time a player attempts an action in the dungeon a turn passes. Turns here are a valuable resource that the players must carefully use as a group, since every time a turn passes, different trackers in the *GMs sheet* advance, and they usually cause problems for the **adventurers**.
+During the exploration characters can move to another place in the dungeon, fix their equipment, interact with their environment and other various things, but every time a player attempts an action in the dungeon a turn passes. We measure that using **exploration turns**. Exploration turns are a valuable resource that the players must carefully use as a group, since every time a turn passes, different trackers in the *GMs sheet* advance, and they usually cause problems for the **adventurers**.
 
-Any action any player chooses will spend one or more turns. It doesn't matter which player does the action or if the action is done as a group, the turn is spent anyway. Players should avoid splitting up for that reason, if they are divided, they will spend much more turns. Turns during exploration are **not only a measure of time**, they measure the **stress**, **fatigue** and the **general energy** used by the characters.
+Any action any player chooses will spend one or more turns. It doesn't matter which player does the action or if the action is done as a group, the turn is spent anyway. Players should avoid splitting up for that reason, if they are divided, they will spend much more turns. Turns during exploration are **not only a measure of time**, they measure the **stress**, **fatigue** and the **general energy** used by the characters. That's why if 2 or more characters decide to simultaneously do 2 actions, they would spend 2 turns.
 
 One of the main reason that the **players** shouldn't to waste turns is the **decay tracker**. Every turn the **decay tracker** should advance, meaning that every 5 turns of exploration all player characters roll from the decay table.
 
@@ -691,7 +682,7 @@ One of the main reason that the **players** shouldn't to waste turns is the **de
 |    12     | Equipment breaks/lost           |
 [Decay]
 
-If a character would receive an affliction that they already have roll again, the player may choose an affliction, including the ones not on this list.
+If a character would receive an affliction that they already have roll again. When the player may choose an affliction, including the ones not on this list.
 
 <pagebreak>
 
@@ -750,7 +741,6 @@ Looking for traps requires the **infiltration** skill. The players may perform a
 
 Finding a trap allows one player to try to disarm it, it requires a **dexterity** test, failing will trigger the trap.
 
-
 #### Use an item (1 turn) {.block}
 Any item that is tagged as [slow]{.tip} can be used for 1 turn. Items tagged as [camp]{.tip} cannot be used.
 
@@ -760,16 +750,17 @@ Execute that spell effect.
 
 Even if the spell uses 2 actions in combat, it only uses one exploration turn.
 
-
-#### Freeform (2 turns) {.block}
+#### Freeform (1 or more turns) {.block}
 It allows the adventurers to do pretty much anything they want and require some improvisation of the *GM*. Freeform actions usually involve interacting with the ambient, creative thinking and solving puzzles.
 
 <pagebreak>
 
-#### Set up Camp {.block}
+#### Set up Camp (1 turn) {.block}
 Sooner or later the **adventurers** will need some proper rest, camping will allow them to recover some wounds and afflictions. **Adventurers** can only camp on safe places without any imminent danger. 
 
 Camping starts the [camp](#camp) phase.
+
+The whole camp phase counts as 1 exploration turn.
 
 #### Take a free action (free) {.block}
 Some actions will not trigger a turn.
