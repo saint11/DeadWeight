@@ -1,5 +1,4 @@
 @import "style.css";
-
 .draft {
     display: none;
     visibility: hidden;
@@ -17,34 +16,27 @@
 
 .page {
     border: slategrey 1px;
-
     page-break-before: always;
     page-break-after: always;
-
     box-sizing: border-box;
-    
     overflow: hidden;
-    
     column-fill: auto;
     column-count: 2;
     column-width: 8cm;
-    column-gap: 1cm;
+    column-gap: 0.5cm;
     -webkit-column-count: 2;
     -webkit-column-width: 8cm;
     -webkit-column-gap: 1cm;
-    
     padding: 1cm 1.7cm;
     padding-bottom: 1.5cm;
-
     text-rendering: optimizeLegibility;
-
     background-image: url(images/spots-extra.png);
     background-repeat: repeat;
     background-size: 8cm;
-
     background-color: #fff;
     position: relative;
 }
+
 /* 
 p :not(.page) {
     background-color: tomato;
@@ -91,21 +83,36 @@ table {
     font-size: 1.2em;
 }
 
-.page-number:nth-child(even){
+.page-number:nth-child(even) {
     left: 1cm;
 }
 
 .cover {
-    
     background-color: black;
     background-image: url(images/spots-dark.png);
     background-size: 10cm;
 }
 
-.cover img{
+.cover img {
     filter: invert(100) grayscale(100);
 }
 
 blockquote {
     -webkit-column-break-inside: avoid;
+}
+
+section.block {
+    margin: 0.5cm 0;
+}
+
+section.block ul {
+    padding-inline-start: 1em;
+}
+
+section.block p:last-child {
+    margin-block-end: 0;
+}
+
+td p {
+    margin-block-end: 0;
 }

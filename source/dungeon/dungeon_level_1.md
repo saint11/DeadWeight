@@ -5,6 +5,7 @@ dungeon-img: images/shattered_tomb_of_acheron_zul_1.png
 dungeon-img-overlay: images/shattered_tomb_of_acheron_zul_1_tokens.png
 template: dungeon
 toc: true
+print: true
 ---
 
 You can download the map without the numbers [here](dungeon/shattered_tomb_of_Acheron_Zul_1.png).
@@ -49,8 +50,8 @@ Start by giving each **adventurer** knows a rumor. If an adventurer has 2 or mor
 |  12   | <input type="checkbox" /> The soothsayer cannot be trusted, the mummy is actually a very powerful artifact.                                           |
 
 ### Dungeon History
-*This is some optional history for this dungeon, if you are in a hurry, feel free to skip this chapter.*
-*This information should not be shared with the players, this is a guide to the GM, so you will know what's actually going on in this tomb.*
+> This is some optional history for this dungeon, **if you are in a hurry, feel free to skip this chapter**.
+> This information should not be shared directly with the players, this is a guide to the GM, so you will know what's actually going on in this tomb.
 
 As well as being the feudal lord of the fief of Trita, Acheron Zul was a necromancer-priest almost a century ago. As most necromancers-priests of that time, he was desperately trying to stop the [dead vigil],{.tip}. While he started with a good intention, he quickly got obsessed and arranged macabre ceremonies and experiments.
 
@@ -171,7 +172,7 @@ If the **adventurers** let the door close they will be trapped in there too. The
 - **Scroll** of **curse removal** is on a drawer.
 - Supply room **key** is under one of the beds.
 
-*[These were the sleeping quarters for the artists that made the illustrations and statues in the tomb. They where trapped here after their work was done.]*
+> These were the sleeping quarters for the artists that made the illustrations and statues in the tomb. They where trapped here after their work was done.
 
 ## 8 Mosaic Corridor
 A long twisting corridor, the walls are covered in vines, *at some points you can barely see what's behind*. There's a mosaic telling a story in the walls. Part of it is flooded (check the map) and the deepest part is almost 1m deep.

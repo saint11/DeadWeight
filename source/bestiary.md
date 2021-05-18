@@ -6,6 +6,7 @@ date: 2021-04-21
 toc: true
 toc-title: Dead Weight
 hide-title: false
+print: true
 ---
 
 ### The Child-Stealers {.big}
@@ -19,16 +20,20 @@ Goblin nests are rare and extremely well hidden, but tales are told of them. Wit
 
 Child-stealers will roam in the night since they can see in the dark. They avoid sun light but it won't hurt them.
 
-Most of them worship **Igra**, the god of the woods but a few will workship **Goshkalon**, the god of laughter.
+Most of them worship **Igra**, the god of the woods but a few will workship [Goshkalon](blacksalt.html#goshkalon), the god of laughter.
+
 
 <monster id="gremlin">
 
 *Gremlins are made from captured livestock, like cows or horses. They have wide mouths and are strangely attracted by machinery and will often eat machine parts, which is actually very unhealthy for them.*
 *If they manage to eat fresh human meat, they will turn into a **bugbear***
 
+
 <monster id="goblin_scrapper">
 
 <monster id="boggart">
+
+![](./images/goblin.png){.left}
 
 <monster id="bloodshot_goblin">
 
@@ -96,6 +101,8 @@ Once human bodies now brought back through the [dead vigil]{.tip}.
 ![](images/zombie_1.png "a roting zombie"){.left}
 
 <monster id="reanimated_husk">
+
+<monster id="shrunken_corpse">
 
 <monster id="slumbering_corpse">
 

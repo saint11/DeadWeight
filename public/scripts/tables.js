@@ -13,10 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
             definition_tooltips.forEach(t => {
                 const tooltip = document.createElement("span");
                 tooltip.classList.add("tooltip");
-                const data = getFromId(definitions, remove_spaces(t.innerHTML.trim()));
-
+                var data = getFromId(definitions, remove_spaces(t.innerHTML.trim()));
+                
                 if (!data)
-                    console.error(`No definition for "${t.innerHTML}"`);
+                    data = getFromId(definitions, remove_spaces(t.id));
+                    
+                console.assert(data,`No definition for "${t.innerHTML}"`);
                 const description = data["Description"]
 
                 if (description) {

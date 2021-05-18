@@ -30,6 +30,10 @@
 					"name": "Resistance"
 				},
 				{
+					"typeStr": "3",
+					"name": "Movement"
+				},
+				{
 					"typeStr": "8",
 					"name": "Special"
 				},
@@ -57,7 +61,8 @@
 						{
 							"Action": "Chew_armor"
 						}
-					]
+					],
+					"Movement": 5
 				},
 				{
 					"id": "goblin_scrapper",
@@ -71,7 +76,8 @@
 						{
 							"Action": "Knife_in_the_Gut"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "boggart",
@@ -93,7 +99,8 @@
 						}
 					],
 					"Special": [],
-					"Common Actions": []
+					"Common Actions": [],
+					"Movement": 0
 				},
 				{
 					"id": "bloodshot_goblin",
@@ -124,7 +131,8 @@
 						{
 							"Action": "Unnatural_Regeneration"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "hobgoblin",
@@ -145,7 +153,8 @@
 						{
 							"Action": "Cracked_Shield"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "sack_man",
@@ -160,7 +169,8 @@
 						}
 					],
 					"Armor": 2,
-					"Actions": []
+					"Actions": [],
+					"Movement": 0
 				},
 				{
 					"id": "bugbear",
@@ -181,7 +191,8 @@
 							"Check": "-STR 2B+2",
 							"Description": ""
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Lesser_Demon",
@@ -199,7 +210,8 @@
 							"Description": "Small and  fast, add 1 difficulty to hit"
 						}
 					],
-					"Armor": 2
+					"Armor": 2,
+					"Movement": 0
 				},
 				{
 					"id": "Void_Demon",
@@ -235,7 +247,8 @@
 							"Check": "",
 							"Description": "Add one **shield** and one **dodge** token. Move somewhere **close**."
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Plagued_Rat",
@@ -253,7 +266,8 @@
 						{
 							"Action": "Small_Bite"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Rat_King",
@@ -279,7 +293,8 @@
 							"Check": "PER-2 1",
 							"Description": "Hits everyone **Close**"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Giant_Rat",
@@ -297,7 +312,8 @@
 						{
 							"Action": "Bite"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Bloated_Plague_Rat",
@@ -318,7 +334,8 @@
 							"Check": "DEX 1",
 							"Description": "Causes nausea, adding a stun marker on 1d!"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Rotworm_Swarm",
@@ -339,7 +356,8 @@
 							"Check": "PRE 1+1?",
 							"Description": "On critical one gets attached to you, causing 1 wound per turn until removed (1 action)"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Ectoplasmic_Worm",
@@ -360,7 +378,8 @@
 							"Check": "INT 2X",
 							"Description": "Cause a **stun marker** on hit."
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Vault_Weaver",
@@ -386,7 +405,8 @@
 							"Check": "STR 2P",
 							"Description": ""
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Red_Weaver",
@@ -415,7 +435,8 @@
 							"Check": "",
 							"Description": "A wave of pain, causing 1 Presence wound to everyone *Close*"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "giant_leech",
@@ -436,7 +457,8 @@
 							"Check": "STR 2",
 							"Description": "If causes a wound *attach* to **adventurer**. Caused **Sleepy**. Causes **Bleeding** until removed"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Giant_Frog",
@@ -463,7 +485,8 @@
 							"Check": "DEX 2",
 							"Description": "If caused at least 1 wound cause **intoxicated**."
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Giant_Crab",
@@ -494,7 +517,8 @@
 							"Check": "STR-1 2",
 							"Description": "On hit moves the player character to an adjacent tile"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Reanimated_Husk",
@@ -518,7 +542,8 @@
 						{
 							"Action": "Infectious_bite"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Slumbering_Corpse",
@@ -536,7 +561,8 @@
 						{
 							"Action": "Infectious_bite"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Freshly_Risen_Corpse",
@@ -557,7 +583,8 @@
 						{
 							"Action": "Lunge"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Starved_Cadaver",
@@ -587,7 +614,8 @@
 							"Check": "",
 							"Description": "2 actions. Heal all wounds, consumes a corpse and becomes a **Unsatiable Dead**."
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Unsatiable_Dead",
@@ -611,7 +639,8 @@
 							"Check": "STR 3+1B",
 							"Description": ""
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Rotting_Sailor",
@@ -637,7 +666,8 @@
 							"Check": "",
 							"Description": "2 actions, cause 1 non-lethal PRE wound on everyone."
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Bloated_Screamer",
@@ -664,7 +694,40 @@
 							"Check": "PRE 2",
 							"Description": "Cries with cursed agony, hits everyone alive **Nearby**."
 						}
-					]
+					],
+					"Movement": 0
+				},
+				{
+					"id": "Shrunken_Corpse",
+					"Name": "Shrunken Corpse",
+					"Level": 3,
+					"Wounds": 3,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges."
+						},
+						{
+							"Description": "Hard to hit! All tests to hit this enemy are made with **disadvantage**."
+						},
+						{
+							"Description": "Nimble! Ignores **combat movement penalty**"
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Infectious_bite"
+						}
+					],
+					"Actions": [
+						{
+							"Name": "Throw Shiv",
+							"Check": "DEX 2",
+							"Description": ""
+						}
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Shadow",
@@ -685,7 +748,8 @@
 							"Check": "PRE 2PR",
 							"Description": ""
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "spiderling",
@@ -703,7 +767,8 @@
 						{
 							"Action": "Poisonous_Bite"
 						}
-					]
+					],
+					"Movement": 0
 				},
 				{
 					"id": "Giant_Spider",
@@ -733,7 +798,8 @@
 							"Check": "STR 2",
 							"Description": "Add a stun marker to the target"
 						}
-					]
+					],
+					"Movement": 0
 				}
 			],
 			"separators": [],
@@ -921,6 +987,30 @@
 				{
 					"id": "dead_vigil",
 					"Description": "An event that happened a century ago in **Blacksalt** isle that causes all the dead to come back to life when not properly burried."
+				},
+				{
+					"id": "round",
+					"Description": "A combat round is done when everyone involved had their turn."
+				},
+				{
+					"id": "adventurer",
+					"Description": "The player's character"
+				},
+				{
+					"id": "digital_sheet",
+					"Description": "Save the trees!"
+				},
+				{
+					"id": "stun_token",
+					"Description": "A token to be placed on an **aventurer** or **enemy** that forces spending a **recover action** to remove it"
+				},
+				{
+					"id": "dodge_token",
+					"Description": "A token to be placed on an **aventurer** or **enemy** that allows the owner to spend it to chose and reroll attack dice when defending"
+				},
+				{
+					"id": "shield_token",
+					"Description": "A token to be placed on an **aventurer** or **enemy** that allows the owner to spend it to chose and reroll attack dice when defending"
 				}
 			],
 			"separators": [],
@@ -1499,6 +1589,18 @@
 					"rarity": 0
 				},
 				{
+					"name": "small bag",
+					"description": "For extra inventory space.",
+					"tags": 8,
+					"rarity": 0
+				},
+				{
+					"name": "holy water",
+					"description": "Can be thrown at undead for DEX 2PR, Ud6 uses.",
+					"tags": 8,
+					"rarity": 0
+				},
+				{
 					"name": "climbing gear",
 					"description": "15m of rope with a hook, spikes and other safety utensils for Ud6 climbs.",
 					"rarity": 1,
@@ -1556,13 +1658,43 @@
 					"name": "leatherworker's toolkit",
 					"description": "Repairs one armor point from any leather or cloth armor. Ud6 uses.",
 					"tags": 4,
-					"rarity": 0
+					"rarity": 1
+				},
+				{
+					"name": "compass",
+					"description": "Useful for not getting lost.",
+					"tags": 1,
+					"rarity": 1
+				},
+				{
+					"name": "small pouch",
+					"description": "For extra inventory space.",
+					"tags": 8,
+					"rarity": 1
+				},
+				{
+					"name": "backpack",
+					"description": "For extra inventory space.",
+					"tags": 8,
+					"rarity": 1
+				},
+				{
+					"name": "exorcism book",
+					"description": "One extra dice when *banishing undead*.",
+					"tags": 0,
+					"rarity": 1
 				},
 				{
 					"name": "mechanics toolkit",
 					"description": "For fixing, assembling and disassembling mechanical devices.",
 					"rarity": 2,
 					"tags": 0
+				},
+				{
+					"name": "ashes of insight",
+					"description": "Identify a single magic item (slow) or reveals something invisible (quick)",
+					"tags": 3,
+					"rarity": 2
 				},
 				{
 					"name": "armourer supplies",
@@ -1583,10 +1715,22 @@
 					"tags": 0
 				},
 				{
+					"name": "pack mule",
+					"description": "Useful for carrying items on long journeys. Has 10 inventory spaces, requires 2 rations per day or grass.",
+					"tags": 0,
+					"rarity": 2
+				},
+				{
 					"name": "fine jewellery",
 					"description": "Made of precious materials, not very useful in a dungeon.",
 					"rarity": 3,
 					"tags": 0
+				},
+				{
+					"name": "living ashes",
+					"description": "+1 damage to a weapon during expedition, Ud4 uses",
+					"tags": 1,
+					"rarity": 3
 				},
 				{
 					"name": "alchemic kit",

@@ -6,6 +6,7 @@ date: 2021-04-21
 toc: true
 toc-title: Dead Weight
 hide-title: true
+print: true
 ---
 
 version 0.1
@@ -14,88 +15,96 @@ version 0.1
 
 <pagebreak>
  
-[This is a very very early work in progress, it's playable, but I put it online mostly as a proof of concept and for feedback.]{.alert}
+This is a very early work in progress, it's definitely playable, but there's still some content missing. Check the [roadmap](roadmap.html) for more information. {.alert .web}
 
 # Welcome
 
 **Dead Weight** takes place in a low-fantasy world, it's very grim and dark but doesn't take itself too seriously. But be advised that **Dead Weight** has strong **horror** elements, and may not be suitable for everyone.
 
-It should be clear that the player characters are no heroes; they are *dead weights*, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, attempting to save enough silver to leave *Blacksalt Island* for solace and better days elsewhere.
+It should be clear that the player characters are no heroes; they are *dead weights*, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, attempting to save enough silver to leave *Blacksalt Island* for better days elsewhere.
 
-This system has a strong **structure** to it, and focus heavily on dungeon crawling. While exploring the catacombs and dungeons, the characters must struggle with not only the horrors lurking there, but also their fatigue, stress, and the gradual decay of the valuable resources they bring.
+This system has a strong **structure** to it, its **roleplay light** and focus heavily on dungeon crawling. While exploring the catacombs and dungeons, the characters must struggle with not only the horrors lurking there, but also their fatigue, stress, and the gradual decay of the valuable resources they bring.
 
-The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the boardgame), The Black Hack and Torchbearer. Don't forget to check our [license](license.html),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution.
+The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the boardgame), The Black Hack and Torchbearer.
 
-This game was designed and illustrated by me, [Pedro Medeiros](http://www.saint11.org) and if you like what I'm doing, you can consider supporting me on [Patreon](https://www.patreon.com/saint11).
+This system is released under  [Creative Commons Attribution]([license.html](https://creativecommons.org/licenses/by/4.0/)),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution.
 
+This game was designed and illustrated by me, [Pedro Medeiros](http://www.saint11.org) and if you like what I'm doing, you may consider supporting me on [Patreon](https://www.patreon.com/saint11).
+
+![](images/weaver.png "a knight dying in a dungeon"){.left .print}
 
 ## Blacksalt Island {.unlisted .break}
 
-![](images/weaver.png "a knight dying in a dungeon"){.left}
+![](images/weaver.png "a knight dying in a dungeon"){.left .web}
 
-It's a dreadful place they call **Blacksalt**. A once-great kingdom, **Blacksalt Island** has been ruined by war and plague long, long ago. It was forgotten for many years, but was recently rediscovered. Treasures and arcane relics found in the tombs sparked a "gold rush" of sorts, with people far and wide venturing there to earn some silver.
+It's a dreadful place they call **Blacksalt**. A once-great kingdom, **Blacksalt Island** has been ruined by war and plague long, long ago. When things were already dire, the [dead vigil]{.tip} started, no one knows exactly why, but every single human that dies in the island rises up as a hungry undead. The island was mostly abandoned for many years, but was recently rediscovered. Treasures and arcane relics found in the tombs sparked a "gold rush" of sorts, with people far and wide venturing there to earn some silver.
 
-Now, the island is divided into dungeoneering guilds, each of which owns certain ruins. They allow adventurers to explore them and even assist them with supplies, as long as they receive a cut of any treasure found.
+Now, the island is divided into dungeoneering guilds, each claiming rights to raid certain ruins. They allow adventurers to explore them and even assist them with supplies, as long as they receive a cut of any treasure found.
 
-**Blacksalt island** is a gigantic place, with multiple cities on the shore, hastily built for this exploration venture and a few villages on its core. Of the original inhabitants very little is left, but some very small settlements still date back to the time of the old kings.
+**Blacksalt island** is a big place, with multiple cities on the shore, hastily built for this exploration venture and a few villages on its core. Of the original inhabitants very little is left, but some fief and hamlets still date back to the time of the old kings.
 
-The ruins are filled with the undead, and the newcomers seem to only add to their numbers. Humanoid creatures also live there, mostly hidden in the shadows and in the forests, like the [child stealing](#the-child-stealers) goblins.
+The ruins are filled with the undead, and the newcomers seem to only add to their numbers. Humanoid creatures also live there, mostly hidden in the shadows and in the forests, like the [child stealing](#the-child-stealers) goblins and the grotesque gnolls.
 
 Unlike many fantasy worlds your character is no hero. Quite on the contrary, you are someone at the end of their line. Maybe your days of glory are long gone and mostly likely they never came. In one way or another, you don't have much to lose - and that's what brings most people to **Blacksalt Island**.
 
 You arrived in the island hoping to find something, maybe treasure, maybe some lost artifact, maybe a glorious death.
 
+<pagebreak>
+
 ## What you will need  {.unlisted}
 
-**Dead Weight** is designed with both online and offline play in mind. This rule book has links and a structure optimized for reading online and on mobile, so it's easily accessible to all players. This game is best played with at least 4 players and no more than 6, including the game master.
+**Dead Weight** is designed with both online and offline play in mind. This rule book has links and a structure optimized for reading online and on mobile, so it's easily accessible to all players. This game is best played with 4 players but you can play with more or less depending on your play style. The system is also designed to be **roleplay light**, meaning it will be fun even without heavy roleplaying, but, if you group like to roleplay it also supports that, adding a whole new layer to the game.
 
-::: {.web}
-If you never played a tabletop RPG before, check [this](https://www.youtube.com/watch?v=U_v3vTAEML0) video, for a basic explanation.
+For simplicity the rules are broken up in different books:
+- [Core Rules](./index.html): This book, cover all the important rules and basic information on how to play and create characters.
+- [Bestiary](./bestiary.html): A list of monsters and enemies for the **adventurers** and their respective stats and lore.
+- [Blacksalt](./blacksalt.html): A lore guide about the island and the world of **Blacksalt**, gods, settlements and locations.
+- [Sample Dungeon](./dungeon/dungeon_level_1.html): **Players should NOT read this**, only the **GM**. A sample dungeon for a first adventure.
+
+If you never played a tabletop RPG before, check [this](https://www.youtube.com/watch?v=U_v3vTAEML0) video, for a basic explanation. {.web}
 
 **For online play you will need:**
 
 - Some voice and text chatting software like [Discord](https://discord.com) or similar.
-- A robust online dice rolling software that allows rerolling, like [DeadDice](https://deaddice.page/) a dice rolling app I made just for this system.
+- A robust online dice rolling software that allows rerolling, like [Dead Dice](https://deaddice.page/) a dice rolling app I made just for this system, Dead Dice also automate the player's character sheet.
+- A virtual tabletop, the simpler the better. I highly recommend [Owlbear Rodeo](https://www.owlbear.rodeo/). 
 - A copy of the character sheet for each player, digital or printed, to the player preference.
 
 **For playing offline you will need:**
 
-- **You can get a print-optimized version of this page too. We provide in two formats [A4](index-a4.html) and [Letter](index-letter.html).**
-:::
+- **You can get a print-optimized version of this page too. We provide in two formats [A4](index-a4.html) and [Letter](index-letter.html).** (work in progress) {.web}
 - Pen and paper for everyone.
 - A copy of the character sheet for each player, digital or printed, to the player preference.
-- As many 6-sided dices as you can. Ideally 5 per player. Can be played with fewer dice, but it slows down the game.
-- Coins, beans, anything that can be used as markers. There are 3 types of markers, **stun**, **shield** and **dodge**.
+- As many 6-sided dices as you can. Ideally 5 per player. Can be played with fewer dice, but it slows down the game, alternatively the players may use [Dead Dice](https://deaddice.page/) on their phones or tables for a [digital sheet]{.tip}.
+- Coins, beans, anything that can be used as tokens. There are 3 types of tokens, **stun**, **shield** and **dodge**.
 - Miniatures or some kind of pawns. Each player will require one and the GM will require some for the enemies. They should be easily identifiable.
 
 <pagebreak>
 
 # The Basics
-**Dead Weight** is all about dungeon crawling and delving into dark and terrible places. Let's go over the basics of the system core concepts before anything, after this I recommend that you try to create your first character.
+Let's go over the basics of the system core concepts before anything, after this I recommend that you try to create your first character. 
 
 ## Game Master {.unlisted}
 One of the players is the **game master**, in this book we will also abbreviate that to **GM**. The *GM* is like a narrator and plays with all the non-player characters, guides the outcomes of the player actions and creates the details of the world.
 
-::: {.draft}
-The game master has [game master sheet](DeadWeight-master-sheet.pdf), just like the players.
-:::
+The game master has [game master sheet](DeadWeight-master-sheet.pdf), just like the players. {.draft}
 
 ## Players {.unlisted}
 Every one else is considered a **player**. Players will each have a **character** they will roleplay, they will choose the actions of that character and try to keep them alive and to move towards that characters *objectives*.
 
 ## Adventurers {.unlisted}
-**Characters** in **Dead Weight** are people who either lost everything or didn't ever had anything to begin with. Misfits adventurers willing to risk going into the deep vaults of the **Blacksalt Island** to find precious treasures and artifacts while risking their lives and their sanity.
+**Characters** in **Dead Weight** are people who either lost everything or didn't ever had anything to begin with. Misfits adventurers willing to risk going into the deep vaults of the **Blacksalt Island** to find precious treasures and artifacts while risking their lives and their sanity. There are no heroes in **Blacksalt Island**.
 
-Characters will *level up* between sessions and eventually retire, if everything goes well. Characters can also find an untimely end by something horrible in the depths of the island.
+Characters will *level up* between expeditions and eventually retire, if everything goes well. Characters can also find an untimely end by something horrible in the depths of the island.
 
-In this book we will often say **adventurers** when referring specifically to the player characters.
+In this book we will often say **adventurers** when referring specifically to player characters.
 
 ## Game Session {.unlisted}
 
-This game played in **sessions**, that can last at least one hour and up to 3 hours, ideally. Each game session is structured in 2 distinct states, the **expedition** and the **interlude**,  which is basically delving into a terrible place or recovering and making plans for the next expedition. The players may choose from a list of actions depending on which phase the game currently is.
+This game played in **sessions**, that can last at least one hour and up to 4 hours, it depends on the play style of your group. Each game session is structured in 2 distinct states, the **expedition** and the **interlude**,  which is basically delving into a terrible place or recovering and making plans for the next expedition. The players may choose from a list of actions depending on which phase the game currently is. Depending on how much roleplay your group likes the interlude phase may be simplified or not.
 
 ## Ok, how do I start? {.unlisted}
-First, decide who will be the **game master** and who are going to be the **players**, the game master should ideally read this whole rule book, it is recommended that the players read at least the [Core Mechanics](#core-mechanics) after creating the characters, but it's not required.
+First, decide who will be the **game master** and who are going to be the **players**, the game master should ideally read this whole rule book, including the **sample dungeon** in the end. It is recommended that the players read at least the [Core Mechanics](#core-mechanics) after creating the characters, but it's not required. Players should **not** ready the **sample dungeon** or they will spoil the adventure.
 
 Then each player should create a **character**, follow the [Character Creation](#character-creation) chapter for more information.
 
@@ -104,9 +113,10 @@ The **GM** should also fill the [game master sheet](DeadWeight-master-sheet.pdf)
 In the end of this book there's a sample dungeon to help the **GM** get started. The **players** should **not** read that section.
 :::
 
-After that the adventure starts! It is recommended to start on the **expedition**, with the **adventurers** in the dungeon entrance, entering the first room, taking their first action.
+After that the adventure starts! It is recommended to start on the **expedition**, with the **adventurers** right outside the dungeon entrance, choosing how they will enter. If you want you can also start in a village, or city, that's entirely up to you.
 
 <pagebreak>
+
 
 # Character Creation
 
@@ -114,15 +124,13 @@ After that the adventure starts! It is recommended to start on the **expedition*
 
 Let's start by creating your character, don't worry too much about the rule system for now, just follow the steps from this chapter and choose what you think sounds more exciting. If you really want to know the rules before doing this, you can skip ahead this chapter and come back after you learned the basic rules.
 
-Every character starts the life path with **1 insight point**. **Insight points** can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight. When you complete the last step of your character, you can "move" one attribute score point to another for each insight point you have left.
+Every character starts their life with **1 insight point**. **Insight points** can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight. When you complete the last step of your character, you can "move" one **attribute score point** from your **highest score** to another for each insight point you have left. When playing with a group, if your character has the same **life path** as another character you may, only once, roll again without spending insight.
 
-Each choice will add and remove **attribute points**, **equipment**, and other things to your character. Place them in the appropriate place in your character sheet. 
+Each step will add and remove **attribute points**, **equipment**, and other things to your character. Place them in the appropriate place in your character sheet. 
 
 If you get the same skill twice upgrade it instead. Feel free to jump ahead in to the [skills](#skills), [traits](#special-traits) and [equipment](#equipment) section to understand what they do.
 
-If by the end of your character creation process you have more **items** that you are allowed to carry, choose the ones you want to keep. You can carry **Strength value**x4 + 3 items.
-
-Print a [character sheet](DeadWeight-sheet.pdf) and let's start! Alternatively you can also try the [character generator](chargen.html).
+Print a [character sheet](DeadWeight-sheet.pdf) or use [Dead Dice](https://deaddice.page/) if you want a digital sheet and let's start! Alternatively you can also try the [character generator](chargen.html) for an automatic character.
 
 **Adventurers** have 4 main attributes, they are noted in the [character sheet](DeadWeight-sheet.pdf):
 
@@ -139,7 +147,7 @@ All **attributes scores** start at 1, all **attribute proficiencies** starts at 
 
 **Attribute proficiencies** can **not** go lower than 0 or higher than 2 at any point of the character creation, ignore any excess points.
 
-<pagebreak>{.simple}
+<pagebreak class="simple"> 
 
 ## 1. Roll your infancy
 
@@ -176,7 +184,7 @@ What you did before coming to the **Blacksalt Isle**.
 |  11   | **Occultist:** One that dares to touch the unknown, a magic user.                                     | +1 INT, +1 INT prof, occult studies (skill) |
 |  12   | **False Prophet:** It's hard not to believe in yourself when so many believe in what you say.         | +1 PRE, +1 PRE prof, holy rites (skill)     |
 
-<pagebreak>{.simple}
+<pagebreak class="simple">
 
 ## 3. Roll your tragedy
 No one chooses raid tombs and the unholy places you delve by choice. Tragedy is what forced you into the horrible path of a tomb raider. Once per session you may use your tragedy to make one of your tests with a [disadvantage]{.tip}. If you do so, you get one insight point.
@@ -195,31 +203,31 @@ No one chooses raid tombs and the unholy places you delve by choice. Tragedy is 
 |  11   | **Lover's revenge:** Too many lovers and no honesty. One way or another, they made you regret it.                    | +1 PRE prof, -1 DEX            |
 |  12   | **Caged by a powerful wizard:** You witnessed both enlightenment and madness.                                        | +1 INT prof, -1 PRE            |
 
-<pagebreak>{.simple}
+<pagebreak class="simple">
 
 ## 4. Roll your burden
 No one comes to the *Blacksalt Isle* unburdened. This is why you are here and what do you expect to find. Use this to guide your character's long-term objectives.
 
-|  2d6  | Burden                                                                                                              | Inventory                                    |
-| :---: | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------- |
-|   2   | **Lost everything and everyone:** When you have lost everything, *Blacksalt* can be a fresh start or a quick end.   | No starting gold                             |
-|   3   | **Plagued loved one:** Rumors of a panacea, a cure for all diseases, lies in *Blacksalt*.                           | Cursed ring of plague protection             |
-|   4   | **An unexplainable impulse:** Something calls you there, when you sleep you see yourself in *Blacksalt*.            | A small golden lantern                       |
-|   5   | **Revenge:** You've been terribly wronged. You will never forgive and never forget.                                 | A list of names                              |
-|   6   | **Fame and riches:** You are destined to great things, at least that's what you believe.                            | A cape with your coat of arms(+1 [AP]{.tip}) |
-|   7   | **An impossible quest:** Your lord sent you on a quest to find something in *Blacksalt*, you have no chance.        | A compass                                    |
-|   8   | **Redemption:** You can no longer live with the things you've done, maybe you can redeem yourself in *Blacksalt*.   | A small container with ashes of insight      |
-|   9   | **Zealous Fury:** *Blacksalt* must be cleansed of any diabolical presence, no matter the cost.                      | An exorcism book                             |
-|  10   | **Amnesia:** You don't know how you got here, you just woke up here one day, now you are searching for the truth.   | A book with notes in an unknown language     |
-|  11   | **An Heir:** Your family is waiting for you, you will come back for them. But first you need to score enough money. | A lock of hair                               |
-|  12   | **A Soul Sold:** You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.      | Living ashes (+1 DMG)                        |
+|  2d6  | Burden                                                                                                              | Inventory                                       |
+| :---: | :------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------- |
+|   2   | **Lost everything and everyone:** When you have lost everything, *Blacksalt* can be a fresh start or a quick end.   | No starting gold                                |
+|   3   | **Plagued loved one:** Rumors of a panacea, a cure for all diseases, lies in *Blacksalt*.                           | A cursed ring of plague protection              |
+|   4   | **An unexplainable impulse:** Something calls you there, when you sleep you see yourself in *Blacksalt*.            | A golden lantern                                |
+|   5   | **Revenge:** You've been terribly wronged. You will never forgive and never forget.                                 | A list of names, wine                           |
+|   6   | **Fame and riches:** You are destined to great things, at least that's what you believe.                            | cape with your coat of arms(+1 [AP]{.tip})      |
+|   7   | **An impossible quest:** Your lord sent you on a quest to find something in *Blacksalt*, you have no chance.        | compass and drawing tools                       |
+|   8   | **Redemption:** You can no longer live with the things you've done, maybe you can redeem yourself in *Blacksalt*.   | Small pouch, ashes of insight                   |
+|   9   | **Zealous Fury:** *Blacksalt* must be cleansed of any diabolical presence, no matter the cost.                      | An exorcism book, holy water                    |
+|  10   | **Amnesia:** You don't know how you got here, you just woke up here one day, now you are searching for the truth.   | A journal in an unknown language, healing tonic |
+|  11   | **An Heir:** Your family is waiting for you, you will come back for them. But first you need to score enough money. | A lock of hair, first aid kit                   |
+|  12   | **A Soul Sold:** You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.      | Living ashes                                    |
 
 
 ## 5. Choose your class
 
 Classes will give special skills to your character. Choose one and follow the instructions for each class. After that your character is done!
 
-Check the **skills** and **traits** section to understand what each of your traits and skills do. Make sure to also check how your **equipment** works on the **equipment and items** section.
+Check the **skills** and **traits** section to understand what each of your traits and skills do. Make sure to also check how your **equipment** works on the **equipment and items** section. You may also spend your gold in equipment and items before the mission starts, but you may **not** sell items before the first mission.
 
 <pagebreak>
 
@@ -233,8 +241,8 @@ Check the **skills** and **traits** section to understand what each of your trai
 
 Choose one of the following as your starting equipment:
 
-  - **A:** Bag, Falchion (STR 3+1B), wooden shield(1 shield token), scale armor (3 [AP]{.tip}), 2d6 silver coins.
-  - **B:** Backpack, Spear (STR 3+1B), small metal shield(2 shield tokens), padded armor (2 [AP]{.tip}), 2d6 silver coins.
+  - **A:** Bag, Falchion (STR 3+1B), wooden shield(1 [shield token]{.tip}), scale armor (3 [AP]{.tip}), 2d6 silver coins.
+  - **B:** Backpack, Spear (STR 3+1B), small metal shield(2 [shield tokens]{.tip}), padded armor (2 [AP]{.tip}), 2d6 silver coins.
   - **C:** Bag, Battle Axe (STR 4+2B), loincloth, war paint.
 
 <pagebreak>
@@ -269,6 +277,8 @@ Choose one of the following as your starting equipment:
   - **B:** Sacrificial dagger (STR 1B+1), chalk, poisonous vials, inscribed skull (grimoire), cloak with mask, 2d6 silver coins.
   - **C:** Quarterstaff (STR 1+1), ornate garments, crystal ball, scattered notes (grimoire), cloak, 2d6 silver coins.
 
+Wizards must choose their school of magic, you can find a list of schools of magic in the [Blacksalt book](./blacksalt.html#schools-of-magic). Wizards mus also choose a number of **spells** equal to their **intelligence score** from the [basic spell list](#spell-list) or from their school of magic. Write them down in your character sheet under the "spells and prayers" section.
+
 <pagebreak>
 
 ### Cleric {.big .unlisted .break}
@@ -284,6 +294,8 @@ Choose one of the following as your starting equipment:
   - **A:** Flail (STR 2X+2), forbidden scriptures (holy symbol), leather trench coat (1 [AP]{.tip}), 3d6 silver coins.
   - **B:** War hammer (STR 1P+3), Ancient talisman (holy symbol), Ud6 flasks of holy water, thick cloak (1 [AP]{.tip}), 3d6 silver coins.
   - **C:** Notched whip (DEX 1R+2B), torture equipment, rope, book of sins (holy symbol), tattered cloak, 1d6 coins.
+
+Clerics must choose a god to follow, you can see the list of gods in the [Blacksalt book](./blacksalt.html#gods). Clerics must also choose a number of prayers equal to their **presence score** from the [basic prayers list](#prayers-list) or from their god's prayers. Write them down in your character sheet under the "spells and prayers" section.
 
 <pagebreak>
 
@@ -442,9 +454,9 @@ If the received wounds is reduced to zero or less by armor, toughen up or someth
 <pagebreak>
 
 ## Inventory
-Characters can carry 3 items + 2 items for each point you have in **strength**. Items should be placed in your character sheet in the appropriate slots in the **Trappings** section.
+Characters can carry 3 items + 2 items for each point you have in **strength**. Items should be placed in your character sheet in the appropriate slots in the **Trappings** section. While carrying more items is possible the character will be **encumbered**, all movement is reduced by half and must perform a **strength test** every turn, failing means they drop something.
 
-On top of each list there's a description of what that list is, like **Belt/Small pouch**. Circle the one you have on your character, if you don't have any of those, just make a big X on the whole list.
+On top of each list there's a description of what that list is, like "**Belt/Small pouch**". Circle the one you have on your character, if you don't have any of those, just make a big X on the whole list.
 
 Here's a breakdown of how the **adventurers** can carry their items.
 
@@ -453,11 +465,13 @@ Here's a breakdown of how the **adventurers** can carry their items.
 - A **canteen** can carry **1 liquid item**, a **skin** can carry **2 liquid items**.
 - Each **small bag** can carry **3 items**.
 
+Unless stated otherwise characters start with with a **belt**, **canteen** and a **bag**.
+
 ## Movement & Distance
 Most weapons, skills, spells and items will have a maximum or minimum range to work, to make things simple we can use **abstract distances** instead of exact measurements.
 There are 4 range bands for measuring distance in **Dead Weight**:
 
-**Close**, **Nearby**, **Faraway** and **Distant**.
+**Close**, **Nearby**, **Far** and **Distant**.
 
 While it's not usually it's not necessary to know the exact distance of a character to another, here's a handy chart to convert from our system to other systems.
 
@@ -465,7 +479,7 @@ While it's not usually it's not necessary to know the exact distance of a charac
 | :---------- | :-----------: | :--------: |
 | **Close**   |     1.5m      |  1 square  |
 | **Nearby**  |      10m      | 6 squares  |
-| **Faraway** |      20m      | 12 squares |
+| **Far**     |      20m      | 12 squares |
 | **Distant** | more than 20m | 12 squares |
 [Converting distances]
 
@@ -486,34 +500,32 @@ Attributes have two numbers, the ***value***, that measure your character endura
   
 ## Skills
 
-A character can only have as many skill points as their **Intelligence value** + 2. When learning skills for any reason, if there's no space to fit more skills, you can always choose to forget one.
+Skills mainly give your character extra abilities to use during the **expedition** and **interlude**. But they can also be extremely valuable for gathering information and interacting with the world. With the *loremaster* skill, for example  the *GM* may give you extra information on the dungeon history, or with the *ritualist* skill the *GM* might tell you how remove a curse you got. Skills are a good opportunity for the **GM** and **players** to exercise their creativity well coming up with stories.
 
-Many skills give you proficiency when rolling for certain tests. Treat this as you had one or more extra proficiency point on that roll, depending on the skill.
-
-Some skills can be upgraded, remove the previous skill before learning the advanced one so it only occupies one slot. They are the ones indented and require the previous one to be learned before it.
+Some skills can be upgraded, remove the previous skill before learning the advanced one so it only occupies one slot. They are the ones indented, for clarity. You must always learn the basic skill before the advanced one.
 
 ![](images/crafting.png "Adventurer hammering a nail"){.left}
 
-- **Animal Affinity:** 1 extra proficiency point for anything that involves fighting, taming, understanding or tracking animals. You have a small pet that follows you around (**weak ally**).
-  - **Beastmaster:** 2 extra proficiency points for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
-- **Bash:** You can perform a **bash** combat action, bashing with your shield with an attack (STR 1) and adding a **stun marker** to the enemy.
+- **Animal Affinity:** You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals. You have a small pet that follows you around (**weak ally**).
+  - **Beastmaster:**(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
+- **Bash:** You can perform a **bash** combat action, bashing with your shield or weapon hilt attacking with **STR 1**, add a [stun token]{.tip} to the enemy on a hit.
 - **Cooking:** Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
-  - **Master Chef:** Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
-- **Crafting:**  1 extra proficiency point for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
-- **Duelist:** You may perform a **feint** action in combat (1 action). Discard all shield makers from your enemy.
-  - **Swashbuckler:** If your feint removes a shield marker, your opponent may not attack next turn.
-- **Fearless:** You have 1 extra **Presence** point for **Morale** purposes.
-- **Holy Rites:** 1 extra proficiency point for anything that involves religious rituals, including performing prayers.
-- **Infiltration:** Allows the **search for traps** action during expeditions.
-- **Intimidate:** 1 extra proficiency point for anything that involves intimidation. You may perform an **intimidate** action in combat (2 actions), causing one **Presence** non-lethal wound on all enemies. Only one intimidate action can be used per combat.
-- **Loremaster:** Get advantage when testing or checking for anything related to the world lore, ancient languages.
+  - **Master Chef:**(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
+- **Crafting:**  You have [advantage]{.tip} when testing for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
+- **Duelist:** You may perform a **feint** action in combat (1 action). Discard all [shield]{.tip #shield_token} and [dodge tokens]{.tip} from your enemy.
+  - **Swashbuckler:**(advanced) If your feint removes a [shield token]{.tip}, your opponent may not attack next turn.
+- **Fearless:** Once per combat you may heal one **presence** wound.
+- **Holy Rites:** You have [advantage]{.tip} when testing for anything that involves religious rituals, including performing prayers.
+- **Infiltration:** Allows the **search for traps** action during expeditions and an [advantage]{.tip} when sneaking.
+- **Intimidate:** You may perform an **intimidate** action in combat (2 actions), attacking with **PRE 1N** all **nearby** enemies. Only one intimidate action can be used per combat.
+- **Loremaster:** Get [advantage]{.tip} when testing or checking for anything related to the world lore, ancient languages.
 - **Pilfer:** You earn 1d6 silver coins at the start of the **interlude**.
-- **Occult Studies:** 1 extra proficiency point for anything that involves magic and the occult, including invoking spells.
-- **Ritualist**: During **camp** you can spend 2 actions to reset the **omens tracker**.
-- **Shield master:** Add 1 extra shield marker when defending.
-  - **Aegis:** Add 2 extra shield marker when defending. Allies in the same position may use your shield markers when defending.
+- **Occult Studies:** You have [advantage]{.tip} point for anything that involves magic and the occult, including invoking spells.
+- **Ritualist**: During **camp** you can spend 1 action to remove one point the **omens tracker** or **doom tracker**.
+- **Shield master:** Add 1 extra [shield token]{.tip} when defending.
+  - **Aegis:**(advanced) Add 2 extra [shield token]{.tip} when defending. Allies in the same position may use your [shield tokens]{.tip} when defending.
 - **Stalker:** Before combat, if undetected by an enemy you have a free critical hit.
-- **Street Wise**: You do not get robbed in the **interlude**.
+- **Street Wise**: You do not get robbed in the **interlude**. You may reduce the price of **common** items by 1 silver (to a minimum of 1).
 - **Surgeon:** During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.
 - **Survivalist:** 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
 - **Veteran**: Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
@@ -557,7 +569,7 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 
 <pagebreak>
 
-## Spells {.wide}
+## Spells
 Wizards require a **conductor** to perform their spells, usually a wand, staff or crystal ball. Conductors help them to channel the magic from the *void plane* to the real world. While casting a spell without a conductor is possible, it's extremely dangerous.
 
 When the expedition starts the player must choose a which spells the adventurer will have memorized. For each **intelligence** point, one spell can be memorized.
@@ -568,6 +580,21 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 - On a **failure** the caster forgets the spell.
 - On a **critical failure** roll from the spell mishap table adding the spell level to the dice.
 - On a **great success** you tap into an arcane well. Your next spell will be an automatic success.
+
+
+### Spell List
+
+#### Level 1 {.block .unlisted}
+- **Magic Missile:** During this combat you can perform a ranged attack with (INT 3).
+- **Light:** Illuminates the current room.
+- **Magic Mouth:** Creates a magic mouth at a **Faraway** location, that mouth will repeat a phrase for the wizard, can be loud or quiet at the wizard's discretion.
+  
+#### Level 2 {.block .unlisted}
+- **Pain:** Every turn an enemy must do a *test*, if they fail they loose one action.
+- **Knock/Lock:** Locks or opens a door **Nearby**.
+- **Magic Shield:** During this combat, you get a [shield token]{.tip} on the start of your turn, up to 3 tokens at the same time.
+
+<pagebreak class="simple">
 
 | 2d6 + Spell Level | Effect                                                                                                 |
 | :---------------: | :----------------------------------------------------------------------------------------------------- |
@@ -589,19 +616,6 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 |        18         | Summon a *endless horror* **Nearby**.                                                                  |
 [ Spell Mishap]
 
-<pagebreak>
-
-### Spell List {.big}
-
-#### Level 1 {.block .unlisted}
-- **Magic Missile:** During this combat you can perform a ranged attack with (INT 3).
-- **Light:** Illuminates the current room.
-- **Magic Mouth:** Creates a magic mouth at a **Faraway** location, that mouth will repeat a phrase for the wizard, can be loud or quiet at the wizard's discretion.
-  
-#### Level 2 {.block .unlisted}
-- **Pain:** Every turn an enemy must do a *test*, if they fail they loose one action.
-- **Knock/Lock:** Locks or opens a door **Nearby**.
-- **Magic Shield:** During this combat, you get a shield token on the start of your turn, up to 3 tokens at the same time.
 
 <pagebreak>
 
@@ -617,28 +631,25 @@ Casting a prayer is not guaranteed to always work, since the gods can be cruel s
 - On a **critical failure** you have angered your god, it won't answer any prayers until you make a **sacrifice**.
 - On a **great success** you also receive a miracle, roll from the **miracle table**.
 
-|  1d6  | Effect                                                                                                                                 |
-| :---: | :------------------------------------------------------------------------------------------------------------------------------------- |
-|   1   | You heal 1d6 wounds of you or someone **Nearby**.                                                                                      |
-|   2   | Get 1d6 points of morale in this combat (or next, if out of combat).                                                                   |
-|   3   | **Unexhaust** all prayers.                                                                                                             |
-|   4   | Cure the one of the following afflictions from you or someone **Nearby**: Hungry, Parched, Bleeding, Nauseated or Cursed.              |
-|   5   | If you are in combat, all monsters try to flee in fear, if not decrease the doom tracker.                                              |
-|   6   | If you are in combat all enemies take 1 wound, if not your group will start the next combat with one shield marker on each adventurer. |
+|  1d6  | Effect                                                                                                                                        |
+| :---: | :-------------------------------------------------------------------------------------------------------------------------------------------- |
+|   1   | You heal 1d6 wounds of you or someone **Nearby**.                                                                                             |
+|   2   | Get 1d6 points of morale in this combat (or next, if out of combat).                                                                          |
+|   3   | **Unexhaust** all prayers.                                                                                                                    |
+|   4   | Cure the one of the following afflictions from you or someone **Nearby**: Hungry, Parched, Bleeding, Nauseated or Cursed.                     |
+|   5   | If you are in combat, all monsters try to flee in fear, if not decrease the doom tracker.                                                     |
+|   6   | If you are in combat all enemies take 1 wound, if not your group will start the next combat with one [shield token]{.tip} on each adventurer. |
 [Miracles]
 
-### Prayers List {.big}
+### Prayers List {.break}
 
-#### Level 1 {.block .unlisted}
+Every cleric can choose prayers from the basic prayers and from the prayer list from their god. Check the [gods list](./blacksalt.html#gods) for the prayers of each specific god.
+
+#### Basic prayers {.block .unlisted}
 - **Cure Light Wounds:** Heal 2 wounds from a **Nearby** target. Also removes **bleeding**.
 - **Light:** Illuminates the current room.
-- **Detect Evil:** Everything **Nearby** that's evil glows with a green light.
+- **Create food and water:** Creates 1 unit of ration and water.
   
-#### Level 2 {.block .unlisted}
-- **Create food and water:** Creates 2 units of ration and water.
-- **Hold:** Paralyzes a **Nearby** target for 1d6 turns.
-- **Silence:** A magic absolute silence cover a **Nearby** area.
-
 <pagebreak>
 
 
@@ -664,7 +675,6 @@ Any action any player chooses will spend one or more turns. It doesn't matter wh
 
 One of the main reason that the **players** shouldn't to waste turns is the **decay tracker**. Every turn the **decay tracker** should advance, meaning that every 5 turns of exploration all player characters roll from the decay table.
 
-<div class="break"></div>
 
 | Roll(2d6) | Effect                          |
 | :-------: | :------------------------------ |
@@ -682,6 +692,8 @@ One of the main reason that the **players** shouldn't to waste turns is the **de
 [Decay]
 
 If a character would receive an affliction that they already have roll again, the player may choose an affliction, including the ones not on this list.
+
+<pagebreak>
 
 ### Omens and Doom
 
@@ -730,13 +742,14 @@ If the players have the upper hand and the other side is unaware of their presen
 
 The whole combat only counts as one exploration turn.
 
-#### Catch your breath (1 turn)  {.block}
+#### Catch your breath (1 turn)  {.block .break}
 Like in combat, player can stop for a while and catch their breath, restoring up to one point of **fatigue** for each attribute. Players may also chose to use any items tagged as *quick* too, such as bandages, light torches and drink water.
 
-#### Look for traps (1 turn) {.block .break}
+#### Look for traps (1 turn) {.block}
 Looking for traps requires the **infiltration** skill. The players may perform an **intelligence** test trying to find a trap. On a critical failure they will trigger any traps they find. On a great success they disarm it for free.
 
 Finding a trap allows one player to try to disarm it, it requires a **dexterity** test, failing will trigger the trap.
+
 
 #### Use an item (1 turn) {.block}
 Any item that is tagged as [slow]{.tip} can be used for 1 turn. Items tagged as [camp]{.tip} cannot be used.
@@ -747,8 +760,11 @@ Execute that spell effect.
 
 Even if the spell uses 2 actions in combat, it only uses one exploration turn.
 
+
 #### Freeform (2 turns) {.block}
 It allows the adventurers to do pretty much anything they want and require some improvisation of the *GM*. Freeform actions usually involve interacting with the ambient, creative thinking and solving puzzles.
+
+<pagebreak>
 
 #### Set up Camp {.block}
 Sooner or later the **adventurers** will need some proper rest, camping will allow them to recover some wounds and afflictions. **Adventurers** can only camp on safe places without any imminent danger. 
@@ -818,7 +834,7 @@ Here adventurers that were considered *slow* can act in the order that they want
 
 ### 4. Evaluation and cleanup
 
-Remove any unused **dodge markers** from all characters. **shield makers** stay in place.
+Remove any unused [dodge tokens]{.tip} from all characters. **shield makers** stay in place.
 
 The GM now check the morale tracker, if any side is **broken**, meaning it went lower than  1, the combat now ends with them surrendering. If the other side doesn't accept, the combat continues. If both sides are **broken** the combat also ends, with both sides retreating.
 
@@ -839,12 +855,12 @@ When the **adventurers** are **broken**, all defense **checks** and attack **tes
 
 This is a list of the common combat actions a character can take. Many special abilities and traits will either change how this works limit or expand this list. Players can also take *freeform actions* at the **GM** discretion, the cost of those actions is also decided by the **GM**.
 
-If the player has one or more **stunned marker** they can only do a [recover action](#recover-1-action) until there are no more markers left.
+If the player has one or more **stunned token** they can only do a [recover action](#recover-1-action) until there are no more tokens left.
 
 #### Attack (1 action) {.block}
 Choose a weapon and a target. Read the weapon description for any special rules.                                              
 Test the weapon **attribute** to hit.                                                                                         
-For each ***dodge*** and ***shield marker*** the defender spends, they may choose a dice and force the attacker to reroll it. 
+For each [dodge]{.tip #dodge_token} and [shield token]{.tip} the defender spends, they may choose a dice and force the attacker to reroll it. 
 On success apply the **wounds** specified in the weapon                                                                       
 On a great success, add the **critical wounds** too.
 
@@ -853,14 +869,14 @@ Weapons can only attack units within their range, if a weapon description doesn'
 Check the [taking damage](#taking-damage) on the enemy section to see how enemies receive and reduce wounds.
 
 #### Recover (1 action) {.block}
-You may remove one ***shield marker*** or ***dodge marker***, if you do so, also recover one **fatigue** point from on a chosen attribute. 
-You may remove one ***stunned marker*** from the character.
+You may remove one [shield token]{.tip} or [dodge token]{.tip}, if you do so, also recover one **fatigue** point from on a chosen attribute. 
+You may remove one **stunned token** from the character.
 
 #### Move (1 action) {.block}
-Move to a new position by one unit.                                                                               
-You can test **dexterity** to move that extra position on a **success** or to anywhere on a **great success**. 
-Moving will remove any unused ***shield markers***.                                                               
-If the current battle chart has an **advantage point**, the character can move there by using 2 actions.          
+Move to a new position, the maximum number of tiles is your current number of **dexterity available dices**. Moving will remove any unused [shield tokens]{.tip}.
+
+When moving out of a square adjacent to an enemy a successful **dexterity test** is required, failing will immediately stop the movement.
+
 The character may change their facing after moving.                                                               
 
 #### Catch breath (1 action) {.block .break}
@@ -868,11 +884,11 @@ Recover one **fatigue** point for each **attribute**.
 
 #### Defend (1 action) {.block}
 Requires a shield or something that can be used as a shield. 
-Place a ***shield marker*** on your character.
-Characters can't have more than 5 shield markers at any time.
+Place a [shield token]{.tip} on your character.
+Characters can't have more than 5 [shield tokens]{.tip} at any time.
 
 #### Dodge (2 actions) {.block}
-Make a dexterity test, place one ***dodge marker*** on a success. 
+Make a dexterity test, place one [dodge token]{.tip} on a success. 
 Add another one on a **great success** on your character.      
 
 #### Cast spell or invoke a prayer (1 or 2 actions) {.block}
@@ -934,10 +950,10 @@ Unexhaust all **prayers**.
 #### Use items (free) {.block .break}
 **Adventurers** may use as many items tagged as **Slow** or **Quick** as they want.
 
-#### Use camp items (1 action) {.block .break}
+#### Use camp items (1 action) {.block}
 Each **adventurer** can use one item tagged with **Camp** for its effects.
 
-#### Cook some food (1 action) {.block .break}
+#### Cook some food (1 action) {.block}
 Cooking, different than other items has an special action, and requires a fire and at least one **camping supplies** to have been used during this camp.
 
 When cooking one ration can feed 2 **adventurers**. If someone has the **cooking** skill one ration can feed 3 **adventurers**.
@@ -951,6 +967,8 @@ When using special ration, the ration will not remove the **hungry** affliction,
 
 #### Tend wounds (1 action) {.block}
 Requires one **medical supply** for each wound treated. Can only treat one wound for each attribute.
+
+<pagebreak>
 
 #### Memorize spells and prayers (1 action) {.block}
 **Wizards** and **Clerics** may memorize and forget spells and prayers. 
@@ -970,8 +988,6 @@ Camping in a dungeon is always risky. After resolving the actions the *GM* shoul
 Other things can add more dice, like the **sleep** action or events in the **doom tracker**. Removing dice is also possible, like the **keep a lookout** action.
 
 Roll all those dice, if a **6** is rolled a combat happens, if more than one **6** is rolled, the **adventurers** are surprised. Use the **wandering monsters** from the dungeon.
-
-<pagebreak>
 
 ### Break Camp 
 The **adventurers** snuff out any fire they had going gather their things and press on. Return to the [exploration](#exploration). The GM should advance the **doom tracker** once, if the **adventurers** had a *long rest* the **doom tracker** advances twice. 
@@ -1018,7 +1034,7 @@ Characters may also have certain containers:
 
 You may circle the appropriate container your character has.
 
-### Equipment
+### Equipment {.wide}
 
 There are 5 item categories **common**, **uncommon**, **valuable**, **rare** and **exotic**. The categories set the item price and how hard is to find it during the **interlude**.
 
@@ -1054,21 +1070,22 @@ This means that just like the falchion, you test **strength** to hit, but always
 
 Let's see another example:
 
-> War hammer (STR 1P+3): If you hit roll a d6, on a 6 add a **stun marker** to the enemy.
+> War hammer (STR 1P+3): If you hit roll a d6, on a 6 add a [stun token]{.tip} to the enemy.
 
 The **War hammer** also requires a strength(**STR**) test to hit, causes 1 wound on a regular success and **pierces trough armor**(**P**). On a critical hit it causes wounds(**+3**) and still pierces through armor, effects that happens on regular hits also happen on critical hits. Note that the **war hammer** has a special effect to be applied on hit, always check the weapon text before the attack.
 
 There are many possible effects associated with weapons, here is a list of all of them:
 
-| Symbol | Effect                                       |
-| ------ | -------------------------------------------- |
-| **S**  | Add a **Stun Marker.**                       |
-| **B**  | Causes the **Bleeding** affliction.          |
-| **P**  | Pierces through **Armor**.                   |
-| **R**  | Can't use **Toughen Up** or be **Resisted**. |
-| **D**  | Ignores **dodge tokens**.                    |
-| **X**  | Ignores **shield tokens**.                   |
-| **?**  | Special effect on the description.           |
+| Symbol | Effect                                                                       |
+| ------ | ---------------------------------------------------------------------------- |
+| **B**  | Causes the **Bleeding** affliction.                                          |
+| **D**  | Ignores [dodge tokens]{.tip}.                                                |
+| **N**  | Non-lethal. Ignore any damage that would kill or mortally wound a character. |
+| **P**  | Pierces through **Armor**.                                                   |
+| **R**  | Can't use **Toughen Up** or be **Resisted**.                                 |
+| **S**  | Add a [stun token]{.tip}                                                     |
+| **X**  | Ignores [shield tokens]{.tip}.                                               |
+| **?**  | Special effect on the description.                                           |
 [Weapon Effects]
 
 Ranged weapons have the range specified, if nothing is written, just assume it hits only targets that are **Close**. Here's a ranged weapon example:
@@ -1082,20 +1099,20 @@ All weapons can be used with one hand, unless stated otherwise.
 
 <pagebreak>{.simple}
 
-| Weapon             | Stats      | Special rules                                                            |
-| ------------------ | :--------- | ------------------------------------------------------------------------ |
-| Battle axe         | STR 4+2B   | 2 hands.                                                                 |
-| Cane               | STR 1+1    |                                                                          |
-| Driftwood Club     | STR 2      |                                                                          |
-| Dagger             | STR 1 + 3P |                                                                          |
-| Falchion           | STR 3+1B   |                                                                          |
-| Flail              | STR 2X+2   | If you miss, roll a d6, on a 1 you hit yourself with 1 wound.            |
-| Quarterstaff       | STR 1+1    | If you successfully add a dodge marker, add another one (once per turn). |
-| Sacrificial dagger | STR 1B+1   | If blocked by a shield roll a d6, on 1 it breaks.                        |
-| Notched whip       | 1E + 2B    | If the enemy has no armor, add a **stun maker** to the enemy.            |
-| Spear              | STR 3+1B   | 2 hands. Can be used with 1 hand, but reduces the attack roll by 1.      |
-| Short sword        | STR 2+1    | If dual wielded becomes 3+1D.                                            |
-| War hammer         | STR 1P + 3 | If you hit roll a d6, on a 6 add a **stun marker** to the enemy.         |
+| Weapon             | Stats      | Special rules                                                                     |
+| ------------------ | :--------- | --------------------------------------------------------------------------------- |
+| Battle axe         | STR 4+2B   | 2 hands.                                                                          |
+| Cane               | STR 1+1    |                                                                                   |
+| Driftwood Club     | STR 2      |                                                                                   |
+| Dagger             | STR 1 + 3P |                                                                                   |
+| Falchion           | STR 3+1B   |                                                                                   |
+| Flail              | STR 2X+2   | If you miss, roll a d6, on a 1 you hit yourself with 1 wound.                     |
+| Quarterstaff       | STR 1+1    | If you successfully add one [dodge token]{.tip}, add another one (once per turn). |
+| Sacrificial dagger | STR 1B+1   | If blocked by a shield roll a d6, on 1 it breaks.                                 |
+| Notched whip       | 1E + 2B    | If the enemy has no armor, add a **stun maker** to the enemy.                     |
+| Spear              | STR 3+1B   | 2 hands. Can be used with 1 hand, but reduces the attack roll by 1.               |
+| Short sword        | STR 2+1    | If dual wielded becomes 3+1D.                                                     |
+| War hammer         | STR 1P + 3 | If you hit roll a d6, on a 6 add a [stun token]{.tip} to the enemy.               |
 [Melee Weapons]
 
 | Weapon           | Stats                | Special rules                                                                                           |
@@ -1125,9 +1142,16 @@ For tracking the enemy's armor and wounds, you can print this [enemy page](Monst
 
 ## Enemy attacks and actions
 
-Unlike player characters the enemies can't choose from a big pool of actions, they instead have all the actions listed in their sheet. The only action all enemies can always take is [move](#move-1-action) and [recover](#recover-1-action). If an enemy has one or more **stunned  marker** on it, they must use the [recover action](#recover-1-action) until there are no more tokens left.
+Unlike player characters the enemies can't choose from a big pool of actions, they instead have all the actions listed in their sheet. Besides that, all monsters also have the following actions:
 
-In our example, the [Freshly Risen Corpse]{.m} can only **move** or try the **Infectious bite** action. Let's review it's attack:
+### Move (1 action) {.block .unlisted}
+Moves to another tile, the number of tiles that the enemy can move is written in the enemy sheet as the **movement score**. When moving **out** of a tile adjacent to an [adventurer]{.tip} spend 2 movement points.
+
+### Recover (1 action) {.block .unlisted}
+Remove a [stun token]{.tip} from this enemy. If the enemy has one or more [stun token]{.tip} this is the only the enemy can take.
+
+## Other actions
+In our example, the [Freshly Risen Corpse]{.m} can only **move** or try the **Infectious bite** action. Let's review its attack:
 
 > **Infectious bite** (STR 1+1): Causes **Plagued** on **1d!**.
 
@@ -1135,11 +1159,11 @@ The notation in  front of the action works almost exactly the same as a [weapon 
 
 Some enemy actions will cause a [disadvantage]{.tip} to the attribute check related to them.
 
-> **Eat** (STR-2 3+3): Can only be used on a grabbed character.
+> **Eat** (-STR 3+3): Can only be used on a grabbed character.
 
-This means that the **player**'s **strength** check will have [disadvantage]{.tip} applied **twice**, allowing the *GM* to reroll 2 dice from that roll.
+That **minus symbol** before the attribute means that the **player**'s **strength** check will have [disadvantage]{.tip} applied, allowing the *GM* to reroll one chosen dice from that roll.
 
-If the player character has one or more **shield marker** or **dodge marker** they can spend them to reroll that many dice of their choosing.
+If the **adventurer** has one or more [shield token]{.tip} or [dodge token]{.tip} they can spend them to reroll that many dice of their choosing.
 
 Enemies don't have attributes so they can't make attribute tests, they make an *enemy test*, If an enemy needs to test for anything the **GM** can roll using the monster's **LVL** value, rolling the amount of dice. Although is recommended to avoid making tests  for enemies when possible. Enemies do not take fatigue.
 
@@ -1152,6 +1176,8 @@ For more information on how fighting works, check the [combat](#combat) section.
 When an enemy takes damage they will always resist wounds using their **armor**. Enemies armor can break and can't be repaired. Check [receiving wounds](#receiving-wounds) for a full explanation on how **armor** works. After the rolling the **armor test** if the enemy has any **resistance** points, reduce the wound by that number.
 
 **Armor** and **resistance** can reduce the damage to 0, but anything less than 0 is ignored.
+
+<pagebreak>
 
 # Sample Dungeon
 Here's a sample dungeon for the players to delve into. **Only the *GM* should read this section**, so it's on a separate page, follow this [link](dungeon/dungeon_level_1.html) to access it.

@@ -37,6 +37,11 @@ var shortcodes = {
             return makeTable(data_items, options);
         }
     },
+    break: {
+        render: function (attrs, env) {
+            return `<div style="clear: both;"></div>`;
+        }
+    },
 
     pagebreak: {
         render: function (attrs, env) {
@@ -55,6 +60,7 @@ const toc_options = {
     listType: 'ul'
 };
 mdWeb.use(require("markdown-it-attrs"));
+mdWeb.use(require("markdown-it-task-lists"));
 mdWeb.use(require('markdown-it-container-pandoc'))
 mdWeb.use(require("markdown-it-github-headings"), headingOptions);
 mdWeb.use(require("./util/markdown-it-external-toc.js"), toc_options);
@@ -190,18 +196,23 @@ function processMarkDown(fileName) {
     linkElement.setAttribute('href', '../'.repeat(depth - 1) + (mdWeb.meta.css ? mdWeb.meta.css : 'publish.css'));
     saveFile(dom.serialize(), path.join(outputPath, file));
 
-    var print = getHtmlFromMarkdown(raw, mdPrint);
-    document = print.dom.window.document;
+    if (mdWeb.meta.print) {
+        var print = getHtmlFromMarkdown(raw, mdPrint, 'print');
+        document = print.dom.window.document;
 
-    // Make print A4 file
-    print.linkElement.setAttribute('href', 'print-a4.css');
-    saveFile(print.dom.serialize(), path.join(outputPath, file + "-a4"));
+        // Make print A4 file
+        print.linkElement.setAttribute('href', 'print-a4.css');
+        saveFile(print.dom.serialize(), path.join(publicPath, file + "-a4"));
+        saveFile(print.dom.serialize(), path.join(outputPath, file + "-a4"));
 
-    // Make print letter file
-    print.linkElement.setAttribute('href', 'print-letter.css');
-    saveFile(print.dom.serialize(), path.join(outputPath, file + "-letter"));
+        // Make print letter file
+        print.linkElement.setAttribute('href', 'print-letter.css');
+        saveFile(print.dom.serialize(), path.join(outputPath, file + "-letter"));
 
-    console.log("Rendered " + file);
+        console.log("Rendered " + file);
+    }
+    else
+        console.log("Rendered " + file + " (web only)");
 
 }
 
@@ -231,10 +242,10 @@ function readFile(file_path) {
     }
 }
 
-function getHtmlFromMarkdown(str, strategy) {
+function getHtmlFromMarkdown(str, strategy, templateSuffix) {
     var result = strategy.render(str);
 
-    const templatePath = `${templatesPath}template${strategy.meta.template ? '-' + strategy.meta.template : ''}.html`;
+    const templatePath = `${templatesPath}template${strategy.meta.template ? '-' + strategy.meta.template : ''}${templateSuffix ? '-' + templateSuffix : ''}.html`;
     var template = readFile(templatePath);
     console.assert(template, "Couldn't find template source");
 
@@ -255,17 +266,19 @@ function getHtmlFromMarkdown(str, strategy) {
     }
 
     const toc = document.getElementById("toc");
-    if (strategy.meta["toc"]) {
-        if (strategy.meta["toc-title"]) {
-            const title = document.createElement('h2');
-            title.innerHTML = strategy.meta.title;
-            title.id = "toc-title"
-            toc.append(title)
+    if (toc) {
+        if (strategy.meta["toc"]) {
+            if (strategy.meta["toc-title"]) {
+                const title = document.createElement('h2');
+                title.innerHTML = strategy.meta.title;
+                title.id = "toc-title"
+                toc.append(title)
+            }
+            toc.innerHTML += strategy.tocBody;
         }
-        toc.innerHTML += strategy.tocBody;
-    }
-    else {
-        toc.parentElement.remove();
+        else {
+            toc.parentElement.remove();
+        }
     }
 
     document.getElementById("main-document").innerHTML += result;

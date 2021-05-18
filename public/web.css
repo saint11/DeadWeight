@@ -89,11 +89,15 @@ img.right {
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
     position: relative;
-    margin-right: -15px;
+    margin-right: -25px;
     top: -4px;
     left: -35px;
     font-size: 0.5em;
     border-radius: 50%;
     border: none;
     padding: 4px;
+    opacity: 20%;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+    opacity: 100%;
 }
