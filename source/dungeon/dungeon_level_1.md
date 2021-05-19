@@ -137,7 +137,8 @@ The room was originally an embalming room, and has many chemical flasks floating
 - Some of the chemicals are actually tonics and properly labelled:
   - **Anti-poison tonic**: Cures **Nausea**.
   - **Tonic of Bravery**: Character can't get **terrified** during this expedition.
-  - **Potion of giants**: Restore all strenght 
+  - **Potion of giants**: Restore all strength wounds and fatigue. Ud4 uses. 
+  - **Rot** and **Flame** extracts.
 
 ## 6 Illustrated Vault
 The whole room is flooded with water, around 20cm deep, except for the west side, which is almost 1m deep. This whole room is somewhat tilted and sunk on the ground.
@@ -171,6 +172,7 @@ If the **adventurers** let the door close they will be trapped in there too. The
 - A **sharp chisel and hammer** can be useful.
 - **Scroll** of **curse removal** is on a drawer.
 - Supply room **key** is under one of the beds.
+- **Ether** extract
 
 > These were the sleeping quarters for the artists that made the illustrations and statues in the tomb. They where trapped here after their work was done.
 
@@ -222,6 +224,7 @@ Piles of melted candle wax, brooms and cleaning supplies are in a corner. There'
 - The new shelf is blocking a door to the [cult room](#cult-room).
 - **Chains and shackles**
 - **Scroll of Purify Food**
+- **Smoke** and **Rot** extract
 
 ## 13 Burial Chamber Entrance
 An ornate hall, in the middle of the room two hooded statues frame a stairway going down. The walls are adorned with wooden details. A small red rug is placed near the east wall.

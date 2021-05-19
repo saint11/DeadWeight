@@ -18,6 +18,11 @@
 					"display": null
 				},
 				{
+					"typeStr": "5:flame,water,smoke,necro,rot,ether",
+					"name": "Extract",
+					"opt": true
+				},
+				{
 					"typeStr": "3",
 					"name": "Wounds"
 				},
@@ -62,7 +67,8 @@
 							"Action": "Chew_armor"
 						}
 					],
-					"Movement": 5
+					"Movement": 5,
+					"Extract": 0
 				},
 				{
 					"id": "goblin_scrapper",
@@ -77,7 +83,8 @@
 							"Action": "Knife_in_the_Gut"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 1
 				},
 				{
 					"id": "boggart",
@@ -100,7 +107,8 @@
 					],
 					"Special": [],
 					"Common Actions": [],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 1
 				},
 				{
 					"id": "bloodshot_goblin",
@@ -132,7 +140,8 @@
 							"Action": "Unnatural_Regeneration"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 0
 				},
 				{
 					"id": "hobgoblin",
@@ -154,7 +163,8 @@
 							"Action": "Cracked_Shield"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 1
 				},
 				{
 					"id": "sack_man",
@@ -170,7 +180,8 @@
 					],
 					"Armor": 2,
 					"Actions": [],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 5
 				},
 				{
 					"id": "bugbear",
@@ -192,7 +203,8 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 0
 				},
 				{
 					"id": "Lesser_Demon",
@@ -211,7 +223,8 @@
 						}
 					],
 					"Armor": 2,
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 0
 				},
 				{
 					"id": "Void_Demon",
@@ -248,7 +261,8 @@
 							"Description": "Add one **shield** and one **dodge** token. Move somewhere **close**."
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 0
 				},
 				{
 					"id": "Plagued_Rat",
@@ -267,7 +281,8 @@
 							"Action": "Small_Bite"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 4
 				},
 				{
 					"id": "Rat_King",
@@ -294,7 +309,8 @@
 							"Description": "Hits everyone **Close**"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 4
 				},
 				{
 					"id": "Giant_Rat",
@@ -313,7 +329,8 @@
 							"Action": "Bite"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 4
 				},
 				{
 					"id": "Bloated_Plague_Rat",
@@ -335,7 +352,8 @@
 							"Description": "Causes nausea, adding a stun marker on 1d!"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 4
 				},
 				{
 					"id": "Rotworm_Swarm",
@@ -357,7 +375,8 @@
 							"Description": "On critical one gets attached to you, causing 1 wound per turn until removed (1 action)"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 4
 				},
 				{
 					"id": "Ectoplasmic_Worm",
@@ -379,7 +398,8 @@
 							"Description": "Cause a **stun marker** on hit."
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 5
 				},
 				{
 					"id": "Vault_Weaver",
@@ -406,7 +426,8 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 5
 				},
 				{
 					"id": "Red_Weaver",
@@ -436,7 +457,8 @@
 							"Description": "A wave of pain, causing 1 Presence wound to everyone *Close*"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 5
 				},
 				{
 					"id": "giant_leech",
@@ -458,7 +480,8 @@
 							"Description": "If causes a wound *attach* to **adventurer**. Caused **Sleepy**. Causes **Bleeding** until removed"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 5
 				},
 				{
 					"id": "Giant_Frog",
@@ -486,7 +509,8 @@
 							"Description": "If caused at least 1 wound cause **intoxicated**."
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 1
 				},
 				{
 					"id": "Giant_Crab",
@@ -518,7 +542,8 @@
 							"Description": "On hit moves the player character to an adjacent tile"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 1
 				},
 				{
 					"id": "Reanimated_Husk",
@@ -543,7 +568,8 @@
 							"Action": "Infectious_bite"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 3
 				},
 				{
 					"id": "Slumbering_Corpse",
@@ -562,7 +588,8 @@
 							"Action": "Infectious_bite"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 3
 				},
 				{
 					"id": "Freshly_Risen_Corpse",
@@ -584,7 +611,8 @@
 							"Action": "Lunge"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 3
 				},
 				{
 					"id": "Starved_Cadaver",
@@ -615,7 +643,8 @@
 							"Description": "2 actions. Heal all wounds, consumes a corpse and becomes a **Unsatiable Dead**."
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 3
 				},
 				{
 					"id": "Unsatiable_Dead",
@@ -640,7 +669,8 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 3
 				},
 				{
 					"id": "Rotting_Sailor",
@@ -667,7 +697,8 @@
 							"Description": "2 actions, cause 1 non-lethal PRE wound on everyone."
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 3
 				},
 				{
 					"id": "Bloated_Screamer",
@@ -695,7 +726,8 @@
 							"Description": "Cries with cursed agony, hits everyone alive **Nearby**."
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 4
 				},
 				{
 					"id": "Shrunken_Corpse",
@@ -727,7 +759,8 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 3
 				},
 				{
 					"id": "Shadow",
@@ -749,7 +782,8 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 5
 				},
 				{
 					"id": "spiderling",
@@ -768,7 +802,8 @@
 							"Action": "Poisonous_Bite"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 1
 				},
 				{
 					"id": "Giant_Spider",
@@ -799,7 +834,8 @@
 							"Description": "Add a stun marker to the target"
 						}
 					],
-					"Movement": 0
+					"Movement": 0,
+					"Extract": 1
 				}
 			],
 			"separators": [],

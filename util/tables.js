@@ -120,6 +120,10 @@ function makeMonsterTable(monster, actions) {
         CreateAndPush("<b>" + action["Name"] + "</b>" + check + addPeriod(description), "div", "monster-action", actions_list)
     }
 
+    const extracts = "flame,water,smoke,necro,rot,ether".split(',');
+    CreateAndPush(`<b>Extract:</b> ${extracts[monster["Extract"]]}`, "div", "monster-extract", block)
+
+
     return block.outerHTML;
 }
 

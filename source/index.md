@@ -275,11 +275,11 @@ Choose one of the following as your starting equipment:
 
 Choose one of the following as your school of magic:
 
-  - **Necromancers of Yadar:**  Sacrificial dagger (STR 1B+1), chalk, poisonous vials, inscribed skull (grimoire and conductor), cloak with mask, 2d6 silver coins.
-  - **Alchemists of the Golden Ridge:** Cane (conductor, STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), trench coat, 3d6 silver coins, 1 gold coin.
-  - **Thaumaturgists of Ravenhome:** Quarterstaff (STR 1+1), ornate garments, crystal ball (conductor), scattered notes (grimoire), cloak, 2d6 silver coins.
-  - **Wandering Mystics**: Backpack, wand(conductor), wine, holy water, healing tonic, heavy cloak (AP 1), 2d6 silver coins.
-  - **The Awakened**: Inscribed gauntlet (conductor, STR 2), ashes of insight, ornate clothes, 1d6 silver coins.
+  - [Necromancers of Yadar](./blacksalt.html#necromancers-of-yadar):  Sacrificial dagger (STR 1B+1), chalk, poisonous vials, inscribed skull (grimoire and conductor), cloak with mask, 2d6 silver coins.
+  - [Alchemists of the Golden Ridge](./blacksalt.html#alchemists-of-the-golden-ridge): Cane (conductor, STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), trench coat, 3d6 silver coins, 1 gold coin.
+  - [Thaumaturgists of Ravenhome](./blacksalt.html#thaumaturgists-of-ravenhome): Quarterstaff (STR 1+1), ornate garments, crystal ball (conductor), scattered notes (grimoire), cloak, 2d6 silver coins.
+  - [Wandering Mystics](./blacksalt.html#wandering-mystics): Backpack, wand(conductor), wine, holy water, healing tonic, heavy cloak (AP 1), 2d6 silver coins.
+  - [The Awakened](./blacksalt.html#the-awakened): Inscribed gauntlet (conductor, STR 2), ashes of insight, ornate clothes, 1d6 silver coins.
 
 You can choose a different conductor or grimoire, if the *GM* allows it.
 

@@ -213,6 +213,7 @@ footer {
     background-image: url(images/ornament-white.png);
     display: table;
     width: -webkit-fill-available;
+    overflow: hidden;
 }
 
 .monster p {
@@ -230,7 +231,6 @@ footer {
     margin-right: -14px;
     margin-bottom: 16px;
     padding: 10px;
-    border-radius: 10px;
     font-family: 'Germania One', cursive;
     font-size: 1.2em;
     text-align: center;
@@ -256,6 +256,23 @@ footer {
     margin-bottom: 4px;
     text-align: center;
     position: relative;
+}
+
+.monster-extract {
+    background: var(--main-grey-color);
+    color: #fff;
+    font-weight: normal;
+    background-image: url(images/ornament-white.png);
+    background-repeat: repeat;
+    margin-top: 5px;
+    padding-bottom: 4px;
+    margin-left: -13px;
+    margin-right: -13px;
+    margin-bottom: -13px;
+    text-align: center;
+    position: relative;
+    opacity: 0.5;
+    font-size: 0.9em;
 }
 
 .alert {

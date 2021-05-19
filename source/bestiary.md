@@ -10,7 +10,7 @@ print: true
 ---
 
 ### The Child-Stealers {.big}
-The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. They are also called the **forest folk** or **goblins** in general.
+The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. They are also called the **forest folk**, **goblinfolk** or **goblins** in general.
 
 They are usually smaller than humans, with white skin covered in bumps and red spots, pointy ears and usually no hair. They have huge mouths with way too many pointy teeth.
 

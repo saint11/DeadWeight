@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 const tooltip = document.createElement("span");
                 tooltip.classList.add("tooltip");
                 var data = getFromId(definitions, remove_spaces(t.innerHTML.trim()));
-                
+
                 if (!data)
                     data = getFromId(definitions, remove_spaces(t.id));
-                    
-                console.assert(data,`No definition for "${t.innerHTML}"`);
+
+                console.assert(data, `No definition for "${t.innerHTML}"`);
                 const description = data["Description"]
 
                 if (description) {
@@ -140,6 +140,9 @@ function makeMonsterTable(id) {
 
         CreateAndPush("<b>" + action["Name"] + "</b>" + check + addPeriod(description), "div", "monster-action", actions_list)
     }
+
+    const extracts = "Flame,Water,Smoke,Necro,Rot,Ether".split(',');
+    CreateAndPush(`<b>Extract:</b> ${extracts[monster["Extract"]]}`, "div", "monster-extract", block)
 
     return block;
 }
