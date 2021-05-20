@@ -13,6 +13,10 @@
 					"display": null
 				},
 				{
+					"typeStr": "10:living,undead,ghost,goblin,voidspawn",
+					"name": "Tags"
+				},
+				{
 					"typeStr": "3",
 					"name": "Level",
 					"display": null
@@ -68,6 +72,7 @@
 						}
 					],
 					"Movement": 5,
+					"Tags": 9,
 					"Extract": 0
 				},
 				{
@@ -84,7 +89,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 1
+					"Extract": 1,
+					"Tags": 9
 				},
 				{
 					"id": "boggart",
@@ -108,7 +114,8 @@
 					"Special": [],
 					"Common Actions": [],
 					"Movement": 0,
-					"Extract": 1
+					"Extract": 1,
+					"Tags": 9
 				},
 				{
 					"id": "bloodshot_goblin",
@@ -141,7 +148,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 0
+					"Extract": 0,
+					"Tags": 9
 				},
 				{
 					"id": "hobgoblin",
@@ -164,7 +172,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 1
+					"Extract": 1,
+					"Tags": 9
 				},
 				{
 					"id": "sack_man",
@@ -181,7 +190,8 @@
 					"Armor": 2,
 					"Actions": [],
 					"Movement": 0,
-					"Extract": 5
+					"Extract": 5,
+					"Tags": 9
 				},
 				{
 					"id": "bugbear",
@@ -204,7 +214,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 0
+					"Extract": 0,
+					"Tags": 9
 				},
 				{
 					"id": "goblin_matriarch",
@@ -231,7 +242,8 @@
 							"Check": "INT 0",
 							"Description": "On hit add a stun marker"
 						}
-					]
+					],
+					"Tags": 9
 				},
 				{
 					"id": "Lesser_Demon",
@@ -251,7 +263,8 @@
 					],
 					"Armor": 2,
 					"Movement": 0,
-					"Extract": 0
+					"Extract": 0,
+					"Tags": 16
 				},
 				{
 					"id": "Void_Demon",
@@ -289,7 +302,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 0
+					"Extract": 0,
+					"Tags": 16
 				},
 				{
 					"id": "Plagued_Rat",
@@ -309,7 +323,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 4
+					"Extract": 4,
+					"Tags": 1
 				},
 				{
 					"id": "Rat_King",
@@ -337,7 +352,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 4
+					"Extract": 4,
+					"Tags": 1
 				},
 				{
 					"id": "Giant_Rat",
@@ -357,7 +373,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 4
+					"Extract": 4,
+					"Tags": 1
 				},
 				{
 					"id": "Bloated_Plague_Rat",
@@ -380,7 +397,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 4
+					"Extract": 4,
+					"Tags": 1
 				},
 				{
 					"id": "Rotworm_Swarm",
@@ -403,7 +421,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 4
+					"Extract": 4,
+					"Tags": 1
 				},
 				{
 					"id": "Ectoplasmic_Worm",
@@ -426,7 +445,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 5
+					"Extract": 5,
+					"Tags": 4
 				},
 				{
 					"id": "Swarm_of_Insects",
@@ -455,7 +475,8 @@
 							"Check": "-DEX 1",
 							"Description": ""
 						}
-					]
+					],
+					"Tags": 1
 				},
 				{
 					"id": "Vault_Weaver",
@@ -486,7 +507,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 5
+					"Extract": 5,
+					"Tags": 16
 				},
 				{
 					"id": "Red_Weaver",
@@ -520,7 +542,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 5
+					"Extract": 5,
+					"Tags": 16
 				},
 				{
 					"id": "giant_leech",
@@ -543,7 +566,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 5
+					"Extract": 5,
+					"Tags": 1
 				},
 				{
 					"id": "Giant_Frog",
@@ -572,7 +596,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 1
+					"Extract": 1,
+					"Tags": 1
 				},
 				{
 					"id": "Giant_Crab",
@@ -583,7 +608,7 @@
 					"Resistance": 1,
 					"Special": [
 						{
-							"Description": "Must spend one action to change facing."
+							"Description": "Can't chage direction while moving."
 						}
 					],
 					"Common Actions": [],
@@ -604,8 +629,9 @@
 							"Description": "On hit moves the player character to an adjacent tile"
 						}
 					],
-					"Movement": 0,
-					"Extract": 1
+					"Movement": 8,
+					"Extract": 1,
+					"Tags": 1
 				},
 				{
 					"id": "Reanimated_Husk",
@@ -630,8 +656,9 @@
 							"Action": "Infectious_bite"
 						}
 					],
-					"Movement": 0,
-					"Extract": 3
+					"Movement": 2,
+					"Extract": 3,
+					"Tags": 2
 				},
 				{
 					"id": "Slumbering_Corpse",
@@ -650,8 +677,9 @@
 							"Action": "Infectious_bite"
 						}
 					],
-					"Movement": 0,
-					"Extract": 3
+					"Movement": 3,
+					"Extract": 3,
+					"Tags": 2
 				},
 				{
 					"id": "Freshly_Risen_Corpse",
@@ -673,8 +701,9 @@
 							"Action": "Lunge"
 						}
 					],
-					"Movement": 0,
-					"Extract": 3
+					"Movement": 5,
+					"Extract": 3,
+					"Tags": 2
 				},
 				{
 					"id": "Starved_Cadaver",
@@ -705,8 +734,9 @@
 							"Description": "2 actions. Heal all wounds, consumes a corpse and becomes a **Unsatiable Dead**."
 						}
 					],
-					"Movement": 0,
-					"Extract": 3
+					"Movement": 6,
+					"Extract": 3,
+					"Tags": 2
 				},
 				{
 					"id": "Unsatiable_Dead",
@@ -731,8 +761,9 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0,
-					"Extract": 3
+					"Movement": 4,
+					"Extract": 3,
+					"Tags": 2
 				},
 				{
 					"id": "Rotting_Sailor",
@@ -759,8 +790,9 @@
 							"Description": "2 actions, cause 1 non-lethal PRE wound on everyone."
 						}
 					],
-					"Movement": 0,
-					"Extract": 3
+					"Movement": 4,
+					"Extract": 3,
+					"Tags": 2
 				},
 				{
 					"id": "Bloated_Screamer",
@@ -775,9 +807,6 @@
 						},
 						{
 							"Description": "Acid pustules! Every time it takes one or more wounds, attack(STR 1) everyone **Close**."
-						},
-						{
-							"Description": "Heavy, can only move one tile"
 						}
 					],
 					"Common Actions": [],
@@ -788,8 +817,9 @@
 							"Description": "Cries with cursed agony, hits everyone alive **Nearby**."
 						}
 					],
-					"Movement": 0,
-					"Extract": 4
+					"Movement": 1,
+					"Extract": 4,
+					"Tags": 2
 				},
 				{
 					"id": "Shrunken_Corpse",
@@ -822,7 +852,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 3
+					"Extract": 3,
+					"Tags": 2
 				},
 				{
 					"id": "Shadow",
@@ -844,8 +875,9 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0,
-					"Extract": 5
+					"Movement": 1,
+					"Extract": 5,
+					"Tags": 4
 				},
 				{
 					"id": "spiderling",
@@ -865,7 +897,8 @@
 						}
 					],
 					"Movement": 0,
-					"Extract": 1
+					"Extract": 1,
+					"Tags": 1
 				},
 				{
 					"id": "Dire_Spider",
@@ -895,7 +928,8 @@
 							"Check": "DEX Nearby 1",
 							"Description": "Add a stun marker to the target"
 						}
-					]
+					],
+					"Tags": 1
 				},
 				{
 					"id": "Giant_Spider",
@@ -933,7 +967,8 @@
 						}
 					],
 					"Movement": 6,
-					"Extract": 1
+					"Extract": 1,
+					"Tags": 1
 				}
 			],
 			"separators": [],

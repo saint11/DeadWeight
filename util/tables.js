@@ -5,6 +5,10 @@ let { getFromId, getSheet } = require('./data.js');
 
 var md = require('markdown-it')({ html: true, breaks: true });
 
+const extracts = "Flame,Water,Smoke,Necro,Rot,Ether".split(',');
+const monsterTags = toBitwise("living,undead,ghost,goblin,voidspawn".split(','));
+
+
 function makeTable(data, options) {
     var table = document.createElement('table');
     table.style.width = '100%';
@@ -120,9 +124,14 @@ function makeMonsterTable(monster, actions) {
         CreateAndPush("<b>" + action["Name"] + "</b>" + check + addPeriod(description), "div", "monster-action", actions_list)
     }
 
-    const extracts = "Flame,Water,Smoke,Necro,Rot,Ether".split(',');
-    CreateAndPush(`<b>Extract:</b> ${extracts[monster["Extract"]]}`, "div", "monster-extract", block)
+    var bottomInfo = "";
+    if (monster["Tags"])
+        bottomInfo += `<p><b>Tags:</b> ${bitToString(monster["Tags"] || 0, monsterTags)}</p>`;
 
+    if (monster["Extract"]>=0)
+        bottomInfo += `<p><b>Extract:</b> ${extracts[monster["Extract"]]}</p>`;
+
+    CreateAndPush(bottomInfo, "div", "monster-extract", block)
 
     return block.outerHTML;
 }

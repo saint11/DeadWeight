@@ -1,3 +1,6 @@
+const extracts = "Flame,Water,Smoke,Necro,Rot,Ether".split(',');
+const monsterTags = toBitwise("living,undead,ghost,goblin,voidspawn".split(','));
+
 document.addEventListener('DOMContentLoaded', function () {
     fetch(getMeta("data_path") + "data.json")
         .then(response => response.json())
@@ -140,10 +143,15 @@ function makeMonsterTable(id) {
 
         CreateAndPush("<b>" + action["Name"] + "</b>" + check + addPeriod(description), "div", "monster-action", actions_list)
     }
+    
+    var bottomInfo = "";
+    if (monster["Tags"])
+        bottomInfo += `<p><b>Tags:</b> ${bitToString(monster["Tags"] || 0, monsterTags)}</p>`;
 
-    const extracts = "Flame,Water,Smoke,Necro,Rot,Ether".split(',');
-    CreateAndPush(`<b>Extract:</b> ${extracts[monster["Extract"]]}`, "div", "monster-extract", block)
+    if (monster["Extract"]>=0)
+        bottomInfo += `<p><b>Extract:</b> ${extracts[monster["Extract"]]}</p>`;
 
+    CreateAndPush(bottomInfo, "div", "monster-extract", block)
     return block;
 }
 
@@ -189,6 +197,27 @@ function position_tooltip() {
     monster_tooltip.appendChild(makeMonsterTable(remove_spaces(id)))
     monster_tooltip.classList.add("show");
     monster_tooltip.style.top = (this.offsetTop - monster_tooltip.offsetHeight - 30) + 'px';
+}
+
+function toBitwise(array) {
+    var a = {};
+    for (let i = 0; i < array.length; i++) {
+        const el = array[i];
+
+        a[Math.pow(2, i)] = el;
+    };
+    return a;
+}
+
+function bitToString(int, array) {
+    var base2 = (int).toString(2);
+    var result = [];
+    for (let i = 0; i < base2.length; i++) {
+        if (base2[base2.length - i - 1] == 1) {
+            result.push(array[Math.pow(2, i)]);
+        }
+    }
+    return result.join(', ');
 }
 
 function hide_tooltip() {

@@ -35,7 +35,7 @@ Tales tell that Yadar is a small island, hidden in the black sea, populated only
 
 #### Spells {.block .unlisted}
 
-- **Pain**: Add 3 [stun tokens]{.tip} to a **nearby** enemy.
+- **Pain**: (2 actions) Add 3 [stun tokens]{.tip} to a **nearby** *living* or *undead* enemy. Reduce the number of tokens using the enemy resistance.
 - **Command undead**: The wizard may issue a simple command to a undead can follow in for 1 expedition turns. Only works on undead up to level 3. The command may be "renewed" by casting the spell again.
 - **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} haven't set on yet. Causes 2 wound to everyone **close** that can be reduced by armor and resistances.
 - **Phobia**: The target **nearby** creature gets terrified of a chosen person or object for 1d6 turns.
