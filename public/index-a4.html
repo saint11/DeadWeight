@@ -646,7 +646,7 @@ She rolls <strong>1, 2, 4 and 6</strong>. 4 and 6 gives her <em><strong>2 hits</
 </section>
 <section id="keeping-it-safe">
 <h3>Keeping it Safe</h3>
-<p>If the player doesn't want to risk fatigue they can roll less dice than their current <strong>attribute value</strong> and rolling 1 or 4 will no longer exhaust the attribute, unless the test fails. This must be announced before the dice are rolled.</p>
+<p>If the player doesn't want to risk fatigue they can roll <strong>2 dice less</strong> than their current <strong>attribute value</strong>. Rolling 1 or 4 will no longer exhaust the attribute, unless the test fails. This must be announced before the dice are rolled. You cannot use extra effort when you are keeping it safe.</p>
 <p><img src="images/helper.png" alt="" title="hand grabbing someone else's arm" class="left"></p>
 </section>
 <section id="receiving-help">
@@ -669,9 +669,9 @@ She rolls <strong>1, 2, 4 and 6</strong>. 4 and 6 gives her <em><strong>2 hits</
 <h3>Lessons Learned</h3>
 <p>Every time a test fails the player can mark one of the circles below the attribute. When in the <strong>interlude</strong> that character can use those points to level up that attribute. Read more about it on the <strong>interlude</strong>.</p>
 </section>
-<section id="zero-dice">
-<h3>Zero Dice</h3>
-<p>If you for any reason need to roll zero dice, you roll 2 dice instead and keep the lowest value. Rolling less than zero dice is an automatic failure.</p>
+<section id="zero-dice%3F">
+<h3>Zero Dice?</h3>
+<p>If you for any reason need to roll zero dice, you roll 2 dice instead and keep the lowest value. Rolling less than zero dice is also possible, just keep adding dice, to roll -2 dice just roll 4 dice and choose the worst. I'm pretty sure that test will fail, though, sorry.</p>
 </section>
 <section id="checks-or-tests">
 <h3>Checks or Tests</h3>
@@ -702,7 +702,8 @@ She rolls <strong>1, 2, 4 and 6</strong>. 4 and 6 gives her <em><strong>2 hits</
 </section>
 <section class="unlisted" id="toughen-up!">
 <h3 class="unlisted">Toughen up!</h3>
-<p>After the armor reduces the damage, the attacked character <strong>can</strong> perform a <em><strong>strength test</strong></em> to try resisting the attack, a success will reduce it by <strong>1 wound</strong> and a <strong>great success</strong> will reduce it by <strong>2 wounds</strong>. Careful though, since this is an strength test it can cause fatigue, and in some cases even more wounds.</p>
+<p>After the armor reduces the damage, the attacked character <strong>can</strong> perform a <strong>strength test</strong> to try resisting the attack, a success will reduce it by <strong>1 wound</strong> and a <strong>great success</strong> will reduce it by <strong>2 wounds</strong>. Careful though, since this is an strength test it can cause fatigue, and in some cases even more wounds.</p>
+<p>Any damage received after a <strong>toughen up</strong> test must be assigned to <strong>strength</strong>.</p>
 <blockquote>
 <p>Zael just received <strong>2 wounds</strong> from an arrow but reduced it to <strong>1 wound</strong> with a <strong>reinforced leather armor</strong>. Now he decides to use <strong>toughen up</strong> and roll his <strong>strength</strong> and gets 1, 2 and 6. He immediately suffers one fatigue from that 1, but also gets a success, reducing it to <strong>0 wounds</strong>, leaving nothing but a scratch!</p>
 </blockquote>
@@ -710,6 +711,7 @@ She rolls <strong>1, 2, 4 and 6</strong>. 4 and 6 gives her <em><strong>2 hits</
 <section class="unlisted" id="placing-wounds">
 <h3 class="unlisted">Placing wounds</h3>
 <p>When receiving <strong>wounds</strong> you must choose one or more attributes to place them. If that attribute already have <strong>fatigue</strong> points, you convert those to wounds when placing each point. All wounds must be assigned to the same attribute.</p>
+<p>Sometimes a rule will force the player to place the wounds in a specific attribute. If the specified attribute can't hold that many wounds, ignore the excess and the character will immediately collapse and faint.</p>
 <blockquote>
 <p>Zael now just received <strong>3 wounds</strong> from an sword and managed to reduce it to <strong>2 wounds</strong> using <strong>armor</strong> and <strong>toughen up</strong>. After some consideration he decides to that that damage to the <strong>presence</strong> attribute.</p>
 </blockquote>
@@ -757,8 +759,8 @@ There are 4 range bands for measuring distance in <strong>Dead Weight</strong>:<
 </tr>
 <tr>
 <td style="text-align:left"><strong>Nearby</strong></td>
-<td style="text-align:center">10m</td>
-<td style="text-align:center">6 squares</td>
+<td style="text-align:center">7.5m</td>
+<td style="text-align:center">5 squares</td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>Far</strong></td>
@@ -1186,11 +1188,11 @@ Execute that spell effect.</p>
 <p>During combat the decay tracker should <strong>not</strong> be advanced.</p>
 <p>The distinct phases of the combat happen on a loop, until the fight is resolved, they are:</p>
 <ul>
-<li><a href="#setup">0. Setup</a> (only on the first turn)</li>
-<li><a href="#fast-players-turn">1. Fast players turn</a></li>
-<li><a href="#enemies-turn">2. Enemies turn</a></li>
-<li><a href="#slow-players-turn">3. Slow players turn</a></li>
-<li><a href="#evaluation-and-cleanup">4. Evaluation and cleanup</a></li>
+<li><a href="#0-setup">0. Setup</a> (only on the first turn)</li>
+<li><a href="#1-fast-players-turn">1. Fast players turn</a></li>
+<li><a href="#2-enemies-turn">2. Enemies turn</a></li>
+<li><a href="#3-slow-players-turn">3. Slow players turn</a></li>
+<li><a href="#4-evaluation-and-cleanup">4. Evaluation and cleanup</a></li>
 </ul>
 <section id="0.-setup">
 <h3>0. Setup</h3>
@@ -1216,7 +1218,7 @@ Execute that spell effect.</p>
 </section>
 <section id="3.-slow-players-turn">
 <h3>3. Slow players turn</h3>
-<p>Here adventurers that were considered <em>slow</em> can act in the order that they want. Each one taking 2 actions. Some adventurers may have special rules that allow more actions or limit those actions. Check the <a href="#combat-actions">combat action</a> list for which actions an adventurer can take.</p>
+<p>Here adventurers that were considered <em>slow</em> will act, in a random order. Each can roll a dice each and act the highest number first. Each one can take 2 actions. Some adventurers may have special rules that allow more actions or limit those actions. Check the <a href="#combat-actions">combat action</a> list for which actions an adventurer can take.</p>
 </section>
 <section id="4.-evaluation-and-cleanup">
 <h3>4. Evaluation and cleanup</h3>
@@ -1732,10 +1734,10 @@ Check <em>Receiving Help</em> for more information.</p>
 <p>Enemies do not have a complete character sheet, instead they have a simplified one, let's look at an example:</p>
 <div class="monster"><div class="monster-header"><p>Freshly Risen Corpse - LVL 3</p>
 </div><div class="monster-attributes"><p>Wounds: 5, Armor: 1</p>
-</div><p class="monster-special"></p><p></p><p>Ignores morale, never flees, never dodges.</p>
+</div><p class="monster-special"></p><p></p><p>Ignores morale, never flees, never dodges. Immune to PRE attacks.</p>
 <p></p><p></p><div class="monster-actions"><div class="monster-action"><p><b>Infectious bite</b>(STR 1+1): Causes <strong>Plagued</strong> on <strong>1d!</strong>.</p>
 </div><div class="monster-action"><p><b>Lunge</b>(DEX 2, <strong>Nearby</strong>): Moves <strong>Close</strong> to the target and attack.</p>
-</div></div><div class="monster-extract"><p><b>Extract:</b> necro</p>
+</div></div><div class="monster-extract"><p><b>Extract:</b> Necro</p>
 </div></div><p>Let's break it down. First the name of the enemy, <span class="m">Freshly Risen Corpse</span>, then it's level, this one is <strong>level 2</strong>. The level will help the <strong>GM</strong> to quickly know how powerful this monster is.</p>
 <p>Next is the number of wounds this enemy can resist before being knocked out, 4 in this case. After that we can see how many armor points they have, just 1 here. And finally the enemy resistance, which is the value they will use for reducing any number of wounds they receive.</p>
 <p>For tracking the enemy's armor and wounds, you can print this <a href="MonsterPage.pdf">enemy page</a> and fill them as you need it or just use tokens.</p>

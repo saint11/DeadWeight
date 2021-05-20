@@ -408,7 +408,7 @@ If you choose to reroll a dice you **must** use the new result, even if it's wor
 
 ### Keeping it Safe
 
-If the player doesn't want to risk fatigue they can roll less dice than their current **attribute value** and rolling 1 or 4 will no longer exhaust the attribute, unless the test fails. This must be announced before the dice are rolled.
+If the player doesn't want to risk fatigue they can roll **2 dice less** than their current **attribute value**. Rolling 1 or 4 will no longer exhaust the attribute, unless the test fails. This must be announced before the dice are rolled. You cannot use extra effort when you are keeping it safe.
 
 ![](images/helper.png "hand grabbing someone else's arm"){.left}
 
@@ -438,9 +438,9 @@ Helping characters can also use the ***extra effort*** rule, rolling two dice in
 
 Every time a test fails the player can mark one of the circles below the attribute. When in the **interlude** that character can use those points to level up that attribute. Read more about it on the **interlude**.
 
-### Zero Dice
+### Zero Dice?
 
-If you for any reason need to roll zero dice, you roll 2 dice instead and keep the lowest value. Rolling less than zero dice is an automatic failure.
+If you for any reason need to roll zero dice, you roll 2 dice instead and keep the lowest value. Rolling less than zero dice is also possible, just keep adding dice, to roll -2 dice just roll 4 dice and choose the worst. I'm pretty sure that test will fail, though, sorry.
 
 ### Checks or Tests
 
@@ -473,7 +473,9 @@ Roll one dice per **armor point**, for each **4, 5, 6** reduce the damage by one
 
 ### Toughen up! {.unlisted}
 
-After the armor reduces the damage, the attacked character **can** perform a ***strength test*** to try resisting the attack, a success will reduce it by **1 wound** and a **great success** will reduce it by **2 wounds**. Careful though, since this is an strength test it can cause fatigue, and in some cases even more wounds.
+After the armor reduces the damage, the attacked character **can** perform a **strength test** to try resisting the attack, a success will reduce it by **1 wound** and a **great success** will reduce it by **2 wounds**. Careful though, since this is an strength test it can cause fatigue, and in some cases even more wounds.
+
+Any damage received after a **toughen up** test must be assigned to **strength**.
 
 >Zael just received **2 wounds** from an arrow but reduced it to **1 wound** with a **reinforced leather armor**. Now he decides to use **toughen up** and roll his **strength** and gets 1, 2 and 6. He immediately suffers one fatigue from that 1, but also gets a success, reducing it to **0 wounds**, leaving nothing but a scratch!
 
@@ -482,9 +484,12 @@ After the armor reduces the damage, the attacked character **can** perform a ***
 
 When receiving **wounds** you must choose one or more attributes to place them. If that attribute already have **fatigue** points, you convert those to wounds when placing each point. All wounds must be assigned to the same attribute.
 
+Sometimes a rule will force the player to place the wounds in a specific attribute. If the specified attribute can't hold that many wounds, ignore the excess and the character will immediately collapse and faint.
+
 >Zael now just received **3 wounds** from an sword and managed to reduce it to **2 wounds** using **armor** and **toughen up**. After some consideration he decides to that that damage to the **presence** attribute.
 
 Attributes can't hold more wounds than their **score**. If there is no attribute that can hold all the **wounds** fit as many as you can and that **player character** gets **mortally wounded**. Most wounds are considered **lethal**, but sometimes a character will receive a **non-lethal wound**. When that happens a character will not be mortally wounded when receiving that damage, all excess points will just be discarded.
+
 
 **Mortally wounded characters** don’t die immediately, they cannot take any actions and must be **stabilized** by someone after the combat. If a mortally wounded character receives any more damage that character will die.
 
@@ -519,7 +524,7 @@ While it's not usually it's not necessary to know the exact distance of a charac
 | Distance    |    Meters     |  Squares   |
 | :---------- | :-----------: | :--------: |
 | **Close**   |     1.5m      |  1 square  |
-| **Nearby**  |      10m      | 6 squares  |
+| **Nearby**  |     7.5m      | 5 squares  |
 | **Far**     |      20m      | 12 squares |
 | **Distant** | more than 20m | 12 squares |
 [Converting distances]
@@ -785,11 +790,11 @@ During combat the decay tracker should **not** be advanced.
 
 The distinct phases of the combat happen on a loop, until the fight is resolved, they are:
 
-- [0. Setup](#setup) (only on the first turn)
-- [1. Fast players turn](#fast-players-turn)
-- [2. Enemies turn](#enemies-turn)
-- [3. Slow players turn](#slow-players-turn)
-- [4. Evaluation and cleanup](#evaluation-and-cleanup)
+- [0. Setup](#0-setup) (only on the first turn)
+- [1. Fast players turn](#1-fast-players-turn)
+- [2. Enemies turn](#2-enemies-turn)
+- [3. Slow players turn](#3-slow-players-turn)
+- [4. Evaluation and cleanup](#4-evaluation-and-cleanup)
 
 
 ### 0. Setup
@@ -821,7 +826,7 @@ Enemies also do not roll to hit, but instead players roll a **check** to dodge. 
 
 ### 3. Slow players turn
 
-Here adventurers that were considered *slow* can act in the order that they want. Each one taking 2 actions. Some adventurers may have special rules that allow more actions or limit those actions. Check the [combat action](#combat-actions) list for which actions an adventurer can take.
+Here adventurers that were considered *slow* will act, in a random order. Each can roll a dice each and act the highest number first. Each one can take 2 actions. Some adventurers may have special rules that allow more actions or limit those actions. Check the [combat action](#combat-actions) list for which actions an adventurer can take.
 
 ### 4. Evaluation and cleanup
 

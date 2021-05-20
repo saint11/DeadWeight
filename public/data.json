@@ -207,6 +207,33 @@
 					"Extract": 0
 				},
 				{
+					"id": "goblin_matriarch",
+					"Name": "Goblin Matriarch",
+					"Level": 3,
+					"Wounds": 5,
+					"Armor": 0,
+					"Resistance": 1,
+					"Movement": 1,
+					"Special": [
+						{
+							"Description": "Toxic spores! Every time the matriarch takes a hit she releases spores in the air, that add one stun marker to anyone **close**."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Unnatural_Regeneration"
+						}
+					],
+					"Extract": 5,
+					"Actions": [
+						{
+							"Name": "Controlling Gaze",
+							"Check": "INT 0",
+							"Description": "On hit add a stun marker"
+						}
+					]
+				},
+				{
 					"id": "Lesser_Demon",
 					"Name": "Lesser Demon",
 					"Level": 4,
@@ -402,6 +429,35 @@
 					"Extract": 5
 				},
 				{
+					"id": "Swarm_of_Insects",
+					"Name": "Swarm of Insects",
+					"Level": 2,
+					"Wounds": 3,
+					"Armor": 0,
+					"Resistance": 0,
+					"Movement": 6,
+					"Special": [
+						{
+							"Description": "Fly"
+						},
+						{
+							"Description": "Swarm! Cannoot be harmed by regular weapons, only by fire or spells."
+						},
+						{
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
+						}
+					],
+					"Common Actions": [],
+					"Extract": 4,
+					"Actions": [
+						{
+							"Name": "Drain",
+							"Check": "-DEX 1",
+							"Description": ""
+						}
+					]
+				},
+				{
 					"id": "Vault_Weaver",
 					"Name": "Vault Weaver",
 					"Level": 2,
@@ -411,6 +467,9 @@
 					"Special": [
 						{
 							"Description": "Fly"
+						},
+						{
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						}
 					],
 					"Common Actions": [],
@@ -439,6 +498,9 @@
 					"Special": [
 						{
 							"Description": "Fly"
+						},
+						{
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						},
 						{
 							"Description": "Unnatural presence, everyone nearby is **Nauseated** while around it. Any ration will spoil and water will become tainted."
@@ -554,7 +616,7 @@
 					"Resistance": 0,
 					"Special": [
 						{
-							"Description": "Ignores morale, never flees, never dodges."
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						},
 						{
 							"Description": "Crawls, uses 2 actions when moving"
@@ -580,7 +642,7 @@
 					"Resistance": 0,
 					"Special": [
 						{
-							"Description": "Ignores morale, never flees, never dodges."
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						}
 					],
 					"Common Actions": [
@@ -600,7 +662,7 @@
 					"Resistance": 0,
 					"Special": [
 						{
-							"Description": "Ignores morale, never flees, never dodges."
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						}
 					],
 					"Common Actions": [
@@ -623,7 +685,7 @@
 					"Resistance": 0,
 					"Special": [
 						{
-							"Description": "Ignores morale, never flees, never dodges."
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						}
 					],
 					"Common Actions": [
@@ -655,7 +717,7 @@
 					"Resistance": 0,
 					"Special": [
 						{
-							"Description": "Ignores morale, never flees, never dodges."
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						},
 						{
 							"Description": "Fast! Add a dodge token every turn."
@@ -709,7 +771,7 @@
 					"Resistance": 0,
 					"Special": [
 						{
-							"Description": "Ignores morale, never flees, never dodges."
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						},
 						{
 							"Description": "Acid pustules! Every time it takes one or more wounds, attack(STR 1) everyone **Close**."
@@ -738,7 +800,7 @@
 					"Resistance": 0,
 					"Special": [
 						{
-							"Description": "Ignores morale, never flees, never dodges."
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
 						},
 						{
 							"Description": "Hard to hit! All tests to hit this enemy are made with **disadvantage**."
@@ -806,15 +868,51 @@
 					"Extract": 1
 				},
 				{
+					"id": "Dire_Spider",
+					"Name": "Dire Spider",
+					"Level": 3,
+					"Wounds": 4,
+					"Armor": 2,
+					"Resistance": 0,
+					"Movement": 6,
+					"Special": [
+						{
+							"Description": "Hard to hit! Add a **dodge token** every turn."
+						},
+						{
+							"Description": "Scatter! When hit may move *close*"
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Poisonous_Bite"
+						}
+					],
+					"Extract": 1,
+					"Actions": [
+						{
+							"Name": "Silken bola",
+							"Check": "DEX Nearby 1",
+							"Description": "Add a stun marker to the target"
+						}
+					]
+				},
+				{
 					"id": "Giant_Spider",
 					"Name": "Giant Spider",
 					"Level": 7,
-					"Wounds": 8,
+					"Wounds": 10,
 					"Armor": 2,
 					"Resistance": 1,
 					"Special": [
 						{
 							"Description": "Acid blood, ond a !d6 it **ruins** the weapon used to attack this."
+						},
+						{
+							"Description": "Big, but flexible. Occupies 2x2 tiles, but can fit in a 1x1 tile when it wants to."
+						},
+						{
+							"Description": "Scatter! When hit may move *close*"
 						}
 					],
 					"Common Actions": [
@@ -825,16 +923,16 @@
 					"Actions": [
 						{
 							"Name": "Silken bola",
-							"Check": "DEX Nearby",
+							"Check": "DEX Nearby 1",
 							"Description": "Add a stun marker to the target"
 						},
 						{
 							"Name": "Giant claw",
-							"Check": "STR 2",
+							"Check": "STR 3",
 							"Description": "Add a stun marker to the target"
 						}
 					],
-					"Movement": 0,
+					"Movement": 6,
 					"Extract": 1
 				}
 			],
@@ -1047,6 +1145,10 @@
 				{
 					"id": "shield_token",
 					"Description": "A token to be placed on an **aventurer** or **enemy** that allows the owner to spend it to chose and reroll attack dice when defending"
+				},
+				{
+					"id": "yulak",
+					"Description": "Yulak is the god of purity, fire and punishment"
 				}
 			],
 			"separators": [],

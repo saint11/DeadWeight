@@ -19,6 +19,8 @@ The dungeon has 3 levels. The mausoleum (this floor), the [burial chamber](dunge
 
 This adventure is planed to be played in more than one session, with the adventurers going back and forth from the dungeon and to the nearby village, to rest and restock.
 
+This adventure was heavily inspired by many stories by Clark Ashton Smith, specially [The Weaver In the Vault](http://www.eldritchdark.com/writings/short-stories/241/the-weaver-in-the-vault). It's not a direct adaptation by any stretch, but if you read it you will see the references all over. While reading the short story is not required, it will definitely help to understand the mood of this story.
+
 ### Hook
 Things were already bad at the fief of Trinta, and then the bad omens started happening. Milk turned sour, water became red, tasting iron and chalk, chickens started to eat one another and old people would cough small insects. The lord took action only when his youngest son fell ill.
 
@@ -55,20 +57,22 @@ Start by giving each **adventurer** knows a rumor. If an adventurer has 2 or mor
 
 As well as being the feudal lord of the fief of Trita, Acheron Zul was a necromancer-priest almost a century ago. As most necromancers-priests of that time, he was desperately trying to stop the [dead vigil],{.tip}. While he started with a good intention, he quickly got obsessed and arranged macabre ceremonies and experiments.
 
-His ever increasing demand for corpses would be satisfied by an old custom of Trinta, every month a sacrifice was made to **Guhlat**, a giant spider that lives on a nearby hill. The spider would leave the Trinta alone as long as she was fed live humans. The peasants would often capture and throw unwary travellers in the [sacrificial pit](#15-sacrifice-pit) for that purpose.
+His ever increasing demand for corpses would be satisfied by an old custom of Trinta, every month a sacrifice was made to **Guhlat**, a giant spider that lives on a nearby hill. The spider would leave the Trinta alone as long as she was fed live humans. The peasants would often capture and throw unwary travellers in the [sacrificial pit](#15-sacrificial-pit) for that purpose.
 
 Acheron Zul would then use those the corpses after the spider had sucked them dry, and eventually had a tomb-church built on the spider's hill. There he would perform many experiments, involving demons, undead, anf forgotten religions.
 
 Digging always deeper they found the **primordial cave**, and an ancient temple of a forgotten god. Using the temple, Acheron Zul summoned the **Vault Weavers**, flying demonic spheres that would consume any corpses, leaving no traces behind. The problem was that the weavers presence was highly unnatural, and their feeding would cause terrible effects on Trinta, animals would die, food would spoil and people got horribly sick.
 
-The people of Trinta, scarred, though that Acheron had cursed them. They invaded the tomb, killing Acheron Zul. His son was very young, but succeeded him. His first order was to give Acheron Zul's corpse to the weavers, seal the tomb and the cave. The curse eventually went alway as the **Vault Weavers** consumed all the corpses in their chamber and hibernated.
+The people of Trinta, scarred, thought that Acheron had cursed them. They invaded the tomb, killing Acheron Zul, sealing him inside. The curse eventually went away as the **Vault Weavers** consumed all the corpses in their chamber and hibernated.
 
-After many years, the curse returned after a group of expelled goblins stumbled upon the tomb and began living there. They accidentally awakened the weavers. The villagers are now sending mercenaries to the tomb, feeding the weavers even more.
+After many years, the curse returned after a group of expelled goblins stumbled upon the tomb and began living there. They accidentally trapped their matriarch inside the weaver's vault. Some of the goblins ran away scared, sealing the place. The ones inside started feeding corpses to the weavers so they would spare their matriarch. The disturbing goblins also woke up other creatures in the tomb, including void demons from previous failed experiments.
+
+The villagers are now sending mercenaries to the tomb, feeding the weavers even more.
 
 ### Entrances
 The tomb is on top of and old hill, covered in moss, grass and vines.
 
-Adventurers may enter through the obvious [tomb entrance](#1-the-tomb-entrance), through the [secret entrance](#9-secret-entrance) or they can climb down through [the pit](#15-sacrifice-pit). The only obvious entrance is the main one, the **adventurers** must figure out the other entrances based on the rumors.
+Adventurers may enter through the obvious [tomb entrance](#1-the-tomb-entrance), through the [secret entrance](#9-secret-entrance) or they can climb down through [the pit](#15-sacrificial-pit). The only obvious entrance is the main one, the **adventurers** must figure out the other entrances based on the rumors.
 
 There's a passage that goes straight to the tomb, bypassing the mausoleum. Halfway through the pit there's a hole, full os spiderweb, it leads straight to [Guhlat's lair]().
 
@@ -101,11 +105,11 @@ If the water is disturbed 3 [giant frogs]{.m}. You may skip this fight if the ad
 
 - Inside the fountain there's the remains of a human hand, with a golden ring (worth 10 silver).
 
-- An **iron door** connects north.
+- An **iron door** connects north, it has a small window with a grate.
 - A **wooden ornate door** connects west.
 
 ## 3 Small Prayer Room
-A row of benches, all broken. An amber statue of a saint, barely standing, covered in moss watches over the room. Banners with the symbol of Acheron Zul house decorate the walls.
+A row of benches, all broken. An amber statue of a saint of [Yulak]{.tip}, barely standing, covered in moss watches over the room. Banners with the symbol of Acheron Zul house decorate the walls.
 
 There are 5 [slumbering corpses]{.m} praying, to the statue, with a low chant. They are distracted and will not attack if not bothered.
 
@@ -248,8 +252,8 @@ A very well kept room, dusty but otherwise intact. The floor has a red carpet, m
   - Learning any of the spells in the **Interlude** a **PRE** test, on a fail get a new trauma: **Phobia: Void Demons**
 - **Magi Robe** (1 [AP]{.tip}): When casting spells, you may allocate 1 point of fatigue on **intelligence** wound in the robe. The robe recovers during the **Interlude**.
 
-## 15 Sacrifice Pit
-A pit, with wooden spikes at the bottom, piles of skeletons and broken bones litter the place. Broken spikes and some animal carcasses.
+## 15 Sacrificial Pit
+A pit, with wooden spikes at the bottom, piles of skeletons and broken bones, from human and animals, litter the place. Some of the bones are moving a bit, because of the [dead vigil]{.tip}, but are harmless. 
 
 - The entrance to the tomb is covered in vines.
 - A **sturdy helmet** (1 [AP]{.tip}) is in one of the skeletons.

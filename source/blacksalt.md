@@ -36,12 +36,12 @@ Tales tell that Yadar is a small island, hidden in the black sea, populated only
 #### Spells {.block .unlisted}
 
 - **Pain**: Add 3 [stun tokens]{.tip} to a **nearby** enemy.
-- **Command undead**: The wizard may issue a simple command to a undead can follow in up to 3 expedition turns. Only works on undead up to level 3.
+- **Command undead**: The wizard may issue a simple command to a undead can follow in for 1 expedition turns. Only works on undead up to level 3. The command may be "renewed" by casting the spell again.
 - **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} haven't set on yet. Causes 2 wound to everyone **close** that can be reduced by armor and resistances.
 - **Phobia**: The target **nearby** creature gets terrified of a chosen person or object for 1d6 turns.
 - **Black night**: Absolute darkness covers a **nearby** area, anything **close** to that area is engulfed in it and can't see. The wizard can see normally trough the darkness.
 - **Nightmare:** A target **nearby** creatures immediately falls into a restless sleep, having horribles nightmare. The creature will wake up normally if disturbed.
-- **Bonedance**: Bends the bones of a **nearby** creature in an unnatural way for the duration of the combat. All tests made against that creature are made with advantage.
+- **Bonedance**: Bends the bones of a **nearby** creature in an unnatural way for the duration of the combat. All tests made against that creature are made with advantage. Halves that creature move speed.
 
 ## Alchemists of the Golden Ridge
 
@@ -91,6 +91,7 @@ Castle Ravenhome is a prestigious institution that offers daily classes, teacher
 - **Magic Shield**: During this combat, the wizard get a [shield token]{.tip} on the start of the wizard's turn.
 - **Arcane Seal**: Protects a **nearby** person or object from spells for 1d6 exploration turns.
 - **Pocket reality**: Creates a bag that looks very small on the outside, but has 3 slots. Anything inside do not count towards encumbrance. It lasts until the end of the expedition.
+- **Arcane fire**: Target 2 **nearby** tiles, anything standing in that tile takes 2 wounds per turn, those wounds can be reduced. Lasts until the end of the combat.
 
 ## Wandering Mystics
 Their order is not hierarchical or ordered; rather, they adhere to a strict moral code. They typically select children who are lost as their apprentices. It is common for them not to stay in a place for too long, and they usually share their observations with fellow Wanderers through writing with invisible ink.
@@ -150,7 +151,7 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 - **Dirge**: Place a marker on a **nearby** target that lasts 1d6 turns. If that target dies with the marker, all **nearby** living creatures heal 2 wounds.
 
 ### Yulak {.big}
-**God of purity**, Yulak is not only the god of purity but also the god of fire and punishment. 
+**God of purity**, Yulak is not only the god of purity but also the god of fire and punishment. She is merciless and so are her disciples.
 
 #### Prayers {.block .unlisted}
 - **Detect Evil**: Everything **nearby** that's evil or undead glows with a green light, lasts for 1d6 turns.
@@ -176,6 +177,7 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 #### Prayers {.block .unlisted}
 - **Hold**: (Nearby) Paralyzes target for 1d6 turns, reducing the target's actions to zero.
 - **Silence**: Absolute silence covers a **Nearby** area, no spells may be cast.
+- **Swarm**: Summons a [swarm of insects]{.m} that can be commanded by the cleric.
 
 ## Old Gods {.draft}
 Old gods are the ones that lived before the creation of the current world. Before this world there was another one, and some event caused it to be destroyed and the creation of the current one. These beings are so powerful that they didn't fade when their world god destroyed.
