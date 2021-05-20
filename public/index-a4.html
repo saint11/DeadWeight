@@ -828,7 +828,7 @@ There are 4 range bands for measuring distance in <strong>Dead Weight</strong>:<
 </ul>
 </li>
 <li><strong>Stalker:</strong> Before combat, if undetected by an enemy you have a free critical hit.</li>
-<li><strong>Street Wise</strong>: You do not get robbed in the <strong>interlude</strong>. You may reduce the price of <strong>common</strong> items by 1 silver (to a minimum of 1).</li>
+<li><strong>Street Wise</strong>: You do not get robbed in the <strong>interlude</strong> and you have one extra daily action. You may reduce the price of <strong>common</strong> items by 1 silver (to a minimum of 1).</li>
 <li><strong>Surgeon:</strong> During the <strong>camp phase</strong> you may perform an <strong>Intelligence</strong> test to heal one wound of each character in your group.</li>
 <li><strong>Survivalist:</strong> 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.</li>
 <li><strong>Veteran</strong>: Test <strong>presence</strong>, on a success you will know how much <strong>doom</strong> this location currently has and how much doom is required to trigger the next step.</li>
@@ -842,7 +842,7 @@ There are 4 range bands for measuring distance in <strong>Dead Weight</strong>:<
 <ul>
 <li><strong>Bad omens</strong>: Every time you have a critical fail on a test, advance the <strong>omens</strong> tracker.</li>
 <li><strong>Battle trance</strong>: Every time you kill an enemy you get an extra action.</li>
-<li><strong>Cold blood</strong>: You may back-stab enemies, for that you may use <strong>Dexterity</strong> to hit with weapons that would require <strong>Strength</strong>. Enemies can't use <strong>resistance</strong> to reduce your damage and you cause one extra wound.</li>
+<li><strong>Cold blood</strong>: You may back-stab enemies that are engaged in combat to another character or distracted, for that you may use <strong>Dexterity</strong> to hit with weapons that would require <strong>Strength</strong>. Enemies can't use <strong>resistance</strong> to reduce your damage and you cause one extra wound.</li>
 <li><strong>Divine mandate</strong>: You may cast prayers. You require a holy symbol and to have previously memorized them. Check the <a href="#spells">spells</a> section for more information.</li>
 <li><strong>Magic user</strong>: You may invoke spells. You require a magic <strong>conductor</strong> and to have previously memorized them. Check the <a href="#prayers">prayers</a> section for more information.</li>
 <li><strong>Rejected by death</strong>: When rolling from the <strong>mortally wounded table</strong> roll 2 dice and choose one.</li>
@@ -1001,6 +1001,7 @@ If an <strong>adventurer</strong> would receive an affliction he or she already 
 <li><a href="#camp">Camp</a> when resting and tending wounds.</li>
 </ul>
 <p>The <strong>story</strong> will always be in one of those phases, during each phase the players can choose specific actions.</p>
+<p>During the expedition it's useful to use a map with miniatures, ideally with each tile representing around 1.5m. This map should only include what's currently visible to the players.</p>
 <section id="exploration">
 <h2>Exploration</h2>
 <p>During the exploration characters can move to another place in the dungeon, fix their equipment, interact with their environment and other various things, but every time a player attempts an action in the dungeon a turn passes. We measure that using <strong>exploration turns</strong>. Exploration turns are a valuable resource that the players must carefully use as a group, since every time a turn passes, different trackers in the <em>GMs sheet</em> advance, and they usually cause problems for the <strong>adventurers</strong>.</p>
@@ -1069,6 +1070,7 @@ If an <strong>adventurer</strong> would receive an affliction he or she already 
 <p>The adventure should have a <strong>dungeon tracker</strong> and a <strong>doom tracker</strong>, which are basically counters. Normally, only the <strong>GM</strong> has access to those trackers.</p>
 <p>The adventure should have a list of things that happen when the <strong>doom</strong> or <strong>omens</strong> trackers reaches certain numbers, but they always involve something bad. Raiding dungeons and abandoned places wakes up things better left untouched and reaching the maximum value of the doom tracker means certain death.</p>
 <p>The <strong>doom tracker</strong> represents the <strong>adventurers</strong> meddling in the dungeon, making noise and awaking whatever lies inside. Advancing the doom tracker too much usually results in monsters appearing, rooms collapsing and traps being triggered. The last step on the doom tracker usually involves a very hard fight. The doom tracker is bound to a location, if the adventurers go to a new place, a new tracker should be started, if they re-visit a location, use that location's old tracker.</p>
+<p>Every time the doom tracker reaches an effect, also advance the <strong>omens tracker</strong>.</p>
 <p>The <strong>omens tracker</strong> is about the state of the party itself. The omens tracker has 2d6 steps, every time the omens tracker fills up, roll from the omens table and make a new one, rolling for the size again. Changing locations do not reset the omens tracker. If the party can't fulfill the omen effect completely, discard/break as many items as possible and <strong>one</strong> and only one more time.</p>
 <table>
 <caption id="omens">Omens</caption>
@@ -1114,6 +1116,7 @@ If an <strong>adventurer</strong> would receive an affliction he or she already 
 <h4 class="block">Move (1 turn)</h4>
 <p>Move to a different location, usually to a different room in the dungeon. The <em>GM</em> can ask the players to spend more than one turn if the distances are big enough.<br>
 Moving often lead to combat encounters.</p>
+<p>While moving in the <strong>exploration phase</strong> the players don't need to worry about movement speed and may move their miniatures freely, as long it makes sense for the <em>GM</em> and to the other players.</p>
 </section>
 <section class="block" id="loot-(1-turn)">
 <h4 class="block">Loot (1 turn)</h4>
@@ -1196,8 +1199,8 @@ Execute that spell effect.</p>
 </ul>
 <section id="0.-setup">
 <h3>0. Setup</h3>
-<p>When the combat starts the <strong>GM</strong> places the enemies and player tokens on the <strong>battle chart</strong>. The GM also announces if the the advantage point is available.</p>
-<p>Players must make a <strong>free</strong> dexterity test, adventurers that pass the test are now considered <em>fast</em> and will act before the enemy. Adventurers that fail are considered <em>slow</em> and go after the enemy. Be aware that some enemies abilities may change influence that.</p>
+<p>The <em>GM</em> starts by placing all the visible enemies in the map.</p>
+<p>Players must roll initiative, which is a simple <strong>dexterity check</strong>, adventurers that pass the test are now considered <em>fast</em> and will act before the enemy. Adventurers that fail are considered <em>slow</em> and go after the enemy. Be aware that some enemies abilities may change influence that.</p>
 <p>The <strong>GM</strong> separates 2 d6 for tracking morale, one for the enemies and one for the <strong>adventurers</strong>, that's the <strong>morale tracker</strong>.</p>
 <p>To determine the adventurer's morale:</p>
 <ul>
@@ -1256,8 +1259,8 @@ You may remove one <strong>stunned token</strong> from the character.</p>
 </section>
 <section class="block" id="move-(1-action)">
 <h4 class="block">Move (1 action)</h4>
-<p>Move to a new position, the maximum number of tiles is your current number of <strong>dexterity available dices</strong>. Moving will remove any unused <span class="tip">shield tokens</span>.</p>
-<p>When moving out of a square adjacent to an enemy a successful <strong>dexterity test</strong> is required, failing will immediately stop the movement.</p>
+<p>Move to a new position, the maximum number of tiles is your current number of <strong>dexterity available dices x 2</strong>. Adventurer's <strong>cannot</strong> move diagonally. Moving will remove any unused <span class="tip">shield tokens</span>, but will keep <span class="tip">dodge tokens</span>.</p>
+<p>After moving out of a square adjacent to an <strong>enemy</strong> the <strong>adventurer</strong> must immediately stop the movement.</p>
 <p>The character may change their facing after moving.</p>
 </section>
 <section class="block break" id="catch-breath-(1-action)">
@@ -1392,16 +1395,167 @@ Check <em>Receiving Help</em> for more information.</p>
 
 <section class="draft unlisted" id="interlude">
 <h1 class="draft unlisted">Interlude</h1>
+<p>Interlude is the time between expeditions, it's when the characters rest, tend their wounds and plan their next job. Most <strong>adventurers</strong> do no want to  raid tombs and the horrible places they do, they have no other choice. While resting on the interlude the <strong>adventurers</strong> are actually draining their resources, <strong>Blacksalt</strong> is not a cheap place to live. Also be aware that characters can <strong>die</strong> during the interlude, specially if they are lacking of resources.</p>
+<p>Playing the interlude depends on how much detail you and your group wants, you can play it <strong>unabridged</strong> or <strong>abridged</strong> or even mix both methods and choose what you like from each. If you are unsure, I would recommend trying the <strong>abridged</strong> first, since it's much faster, if you feel it's too simple, try the unabridged next time or even roll back and replay that interlude unabridged.</p>
+<section id="unabridged-interlude">
+<h2>Unabridged Interlude</h2>
+<p>The focus os <strong>Dead Weight</strong> is the expedition, but a lot of cool things may happen during the interlude. Playing it unabridged allows new stories to unfold and character development.</p>
+<p>Some rules change while not on an expedition:</p>
+<ul>
+<li>There is no <em>decay tracker</em>, but the <strong>omens</strong> and <strong>doom tracker</strong> are still there.</li>
+<li>The party doesn't need to act as a group anymore and may act independently.</li>
+<li>Every day the <strong>adventurers</strong> must consume one <em>ration</em> each, or get the <strong>hungry</strong> and <strong>parched</strong> affliction. If they already have the hungry affliction roll from the <a href="#exploration">decay table</a>.</li>
+</ul>
+</section>
+<section id="abridged-interlude">
+<h2>Abridged Interlude</h2>
+<p>The time in the interlude is no longer measured in <em>turns</em>, but in <strong>days</strong> and <strong>weeks</strong>. The adventurers may spend as many days as they want in the interlude, as long as they have the resources to spend.</p>
+<p>Every day has the following steps:</p>
+<ul>
+<li>Blacksalt events</li>
+<li>Player actions</li>
+<li>Hunger Bites</li>
+<li>Sleep</li>
+</ul>
+<p>Expeditions counts as a whole day, so when returning from one, skip to the <strong>sleep phase</strong> immediately.</p>
+<section id="1.-interlude-actions">
+<h3>1. Interlude actions</h3>
+<p>Just like the <em>exploration phase</em> the interlude has a list of <strong>actions</strong> that the <strong>adventurers</strong> can take. Each day the characters may spend <strong>2 actions</strong>.</p>
+</section>
+<section id="2.-blacksalt-events">
+<h3>2. Blacksalt events</h3>
+</section>
+<section id="3.-hunger-bites">
+<h3>3. Hunger Bites</h3>
+<p>Each player must consume one <em>ration</em> each, or get the <strong>hungry</strong> and <strong>parched</strong> affliction. If they already have the <em>hungry affliction</em> roll from the <a href="#exploration">decay table</a>.</p>
+</section>
+<section id="4.-sleep">
+<h3>4. Sleep</h3>
+<p>Depending on where they sleep player will have different bonuses and penalties. Each sleep location has a price in silver or resources associated with it. When you choose a location roll from the appropriate table.</p>
+<p>Also note that not all locations have all options available, a small hamlet might not have an available inn, for example.</p>
+<p>In the interlude, if you were to receive an affliction you already have, you must choose another affliction to receive.</p>
+<table>
+<caption id="onthestreetscityfree">On the streets - city (free)</caption>
+<thead>
+<tr>
+<th style="text-align:center">2d6</th>
+<th style="text-align:left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2-3</td>
+<td style="text-align:left">You get beaten by some nobles, take 2 wounds become <strong>hopeless</strong> or <strong>angry</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">4-5</td>
+<td style="text-align:left">You woke up in the rain, you are now <strong>shaken</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left">You get mugged, pay 2d6 silver or take 2 wounds.</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:left">You have a restless night and are <strong>sleepy</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:left">You get mugged, pay 2d6 silver or take 1 wound.</td>
+</tr>
+<tr>
+<td style="text-align:center">9-10</td>
+<td style="text-align:left">Restore one fatigue and remove <strong>sleepy</strong> or <strong>shaken</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">11-12</td>
+<td style="text-align:left">Restore all fatigue and remove <strong>sleepy</strong> and <strong>shaken</strong>.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption id="onthestreetsvillagefree">On the streets - village (free)</caption>
+<thead>
+<tr>
+<th style="text-align:center">2d6</th>
+<th style="text-align:left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2-3</td>
+<td style="text-align:left">You slept in manure and now smells terrible become <strong>angry</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">4-5</td>
+<td style="text-align:left">You woke up in the rain, you are now <strong>shaken</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left">The locals don't like you here. Advance the <strong>doom tracker</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:left">You have a restless night and are <strong>sleepy</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:left">Someone stole 3d6 silver while you slept!</td>
+</tr>
+<tr>
+<td style="text-align:center">9-10</td>
+<td style="text-align:left">Restore one fatigue and remove <strong>sleepy</strong> or <strong>shaken</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">11-12</td>
+<td style="text-align:left">Restore all fatigue and remove <strong>sleepy</strong> and <strong>shaken</strong>.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption id="inn1silver">Inn (1 silver)</caption>
+<thead>
+<tr>
+<th style="text-align:center">2d6</th>
+<th style="text-align:left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2-3</td>
+<td style="text-align:left">You have a restless night and are <strong>sleepy</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">4-5</td>
+<td style="text-align:left">Remove <strong>sleepy</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left">Restore all fatigue and remove <strong>sleepy</strong> or <strong>shaken</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:left">Restore all fatigue and remove <strong>sleepy</strong> and <strong>shaken</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">8-10</td>
+<td style="text-align:left">Restore all fatigue and remove <strong>sleepy</strong>, <strong>shaken</strong> and <strong>angry</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">11-12</td>
+<td style="text-align:left">Restore all fatigue, heal 1 wound and remove <strong>sleepy</strong>, <strong>shaken</strong> and <strong>angry</strong>.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
 <section id="character-progression">
 <h2>Character Progression</h2>
 <p>Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire grievous wounds, curses and mortal enemies. Characters can level up to level 6, after that they will eventually find their untimely death or will finally <em><strong>retire</strong></em>.</p>
 <p>Retired characters contribute to <em><strong>The Guild</strong></em>, allowing players to start new characters with more bonuses and giving them a long term goal.</p>
-</section>
-</section>
-<section class="draft unlisted" id="the-game-master">
-<h1 class="draft unlisted">The Game Master</h1>
-</section></div>
+</section></section></div>
 <div class="page ">
+
 
 <section id="world">
 <h1>World</h1>
@@ -1745,7 +1899,8 @@ Check <em>Receiving Help</em> for more information.</p>
 <p>Unlike player characters the enemies can't choose from a big pool of actions, they instead have all the actions listed in their sheet. Besides that, all monsters also have the following actions:</p>
 <section class="block unlisted" id="move-(1-action)-1">
 <h3 class="block unlisted">Move (1 action)</h3>
-<p>Moves to another tile, the number of tiles that the enemy can move is written in the enemy sheet as the <strong>movement score</strong>. When moving <strong>out</strong> of a tile adjacent to an <span class="tip">adventurer</span> spend 2 movement points.</p>
+<p>Moves to another tile, the number of tiles that the enemy can move is written in the enemy sheet as the <strong>movement score</strong>. Cannot move diagonally.</p>
+<p>After moving <strong>out</strong> of a tile adjacent to an <span class="tip">adventurer</span> the <strong>enemy</strong> must immediately stop the movement.</p>
 </section>
 <section class="block unlisted" id="recover-(1-action)-1">
 <h3 class="block unlisted">Recover (1 action)</h3>

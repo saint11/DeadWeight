@@ -571,7 +571,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Shield master:** Add 1 extra [shield token]{.tip} when defending.
   - **Aegis:**(advanced) Add 2 extra [shield token]{.tip} when defending. Allies in the same position may use your [shield tokens]{.tip} when defending.
 - **Stalker:** Before combat, if undetected by an enemy you have a free critical hit.
-- **Street Wise**: You do not get robbed in the **interlude**. You may reduce the price of **common** items by 1 silver (to a minimum of 1).
+- **Street Wise**: You do not get robbed in the **interlude** and you have one extra daily action. You may reduce the price of **common** items by 1 silver (to a minimum of 1).
 - **Surgeon:** During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.
 - **Survivalist:** 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
 - **Veteran**: Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
@@ -584,7 +584,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 
 - **Bad omens**: Every time you have a critical fail on a test, advance the **omens** tracker.
 - **Battle trance**: Every time you kill an enemy you get an extra action.
-- **Cold blood**: You may back-stab enemies, for that you may use **Dexterity** to hit with weapons that would require **Strength**. Enemies can't use **resistance** to reduce your damage and you cause one extra wound.
+- **Cold blood**: You may back-stab enemies that are engaged in combat to another character or distracted, for that you may use **Dexterity** to hit with weapons that would require **Strength**. Enemies can't use **resistance** to reduce your damage and you cause one extra wound.
 - **Divine mandate**: You may cast prayers. You require a holy symbol and to have previously memorized them. Check the [spells](#spells) section for more information.
 - **Magic user**: You may invoke spells. You require a magic **conductor** and to have previously memorized them. Check the [prayers](#prayers) section for more information.
 - **Rejected by death**: When rolling from the **mortally wounded table** roll 2 dice and choose one.
@@ -661,7 +661,9 @@ The **expedition** can be broken down in 3 phases:
 - [Combat](#combat) when encountering enemies and resolving conflict.
 - [Camp](#camp) when resting and tending wounds.
 
-The **story** will always be in one of those phases, during each phase the players can choose specific actions.
+The **story** will always be in one of those phases, during each phase the players can choose specific actions. 
+
+During the expedition it's useful to use a map with miniatures, ideally with each tile representing around 1.5m. This map should only include what's currently visible to the players.
 
 ## Exploration
 
@@ -699,6 +701,8 @@ The adventure should have a list of things that happen when the **doom** or **om
 
 The **doom tracker** represents the **adventurers** meddling in the dungeon, making noise and awaking whatever lies inside. Advancing the doom tracker too much usually results in monsters appearing, rooms collapsing and traps being triggered. The last step on the doom tracker usually involves a very hard fight. The doom tracker is bound to a location, if the adventurers go to a new place, a new tracker should be started, if they re-visit a location, use that location's old tracker.
 
+Every time the doom tracker reaches an effect, also advance the **omens tracker**.
+
 The **omens tracker** is about the state of the party itself. The omens tracker has 2d6 steps, every time the omens tracker fills up, roll from the omens table and make a new one, rolling for the size again. Changing locations do not reset the omens tracker. If the party can't fulfill the omen effect completely, discard/break as many items as possible and **one** and only one more time.
 
 |  1d6  | Effect                                                     |
@@ -718,6 +722,8 @@ The **omens tracker** is about the state of the party itself. The omens tracker 
 #### Move (1 turn) {.block}
 Move to a different location, usually to a different room in the dungeon. The *GM* can ask the players to spend more than one turn if the distances are big enough.
 Moving often lead to combat encounters.
+
+While moving in the **exploration phase** the players don't need to worry about movement speed and may move their miniatures freely, as long it makes sense for the *GM* and to the other players.
 
 #### Loot (1 turn) {.block}
 Looting a location does not require a test, the *GM* just lists what they find in that location and the **adventurers** can choose what to pick up. Looting can only be used on a safe location, with no enemies or traps. If the players want to try something riskier, it's a freeform action, and may require a test.
@@ -799,9 +805,9 @@ The distinct phases of the combat happen on a loop, until the fight is resolved,
 
 ### 0. Setup
 
-When the combat starts the **GM** places the enemies and player tokens on the **battle chart**. The GM also announces if the the advantage point is available.
+The *GM* starts by placing all the visible enemies in the map.
 
-Players must make a **free** dexterity test, adventurers that pass the test are now considered *fast* and will act before the enemy. Adventurers that fail are considered *slow* and go after the enemy. Be aware that some enemies abilities may change influence that.
+Players must roll initiative, which is a simple **dexterity check**, adventurers that pass the test are now considered *fast* and will act before the enemy. Adventurers that fail are considered *slow* and go after the enemy. Be aware that some enemies abilities may change influence that.
 
 The **GM** separates 2 d6 for tracking morale, one for the enemies and one for the **adventurers**, that's the **morale tracker**.
 
@@ -869,9 +875,9 @@ You may remove one [shield token]{.tip} or [dodge token]{.tip}, if you do so, al
 You may remove one **stunned token** from the character.
 
 #### Move (1 action) {.block}
-Move to a new position, the maximum number of tiles is your current number of **dexterity available dices**. Moving will remove any unused [shield tokens]{.tip}.
+Move to a new position, the maximum number of tiles is your current number of **dexterity available dices x 2**. Adventurer's **cannot** move diagonally. Moving will remove any unused [shield tokens]{.tip}, but will keep [dodge tokens]{.tip}.
 
-When moving out of a square adjacent to an enemy a successful **dexterity test** is required, failing will immediately stop the movement.
+After moving out of a square adjacent to an **enemy** the **adventurer** must immediately stop the movement.
 
 The character may change their facing after moving.                                                               
 
@@ -994,14 +1000,84 @@ The **adventurers** snuff out any fire they had going gather their things and pr
 
 # Interlude {.draft .unlisted}
 
+Interlude is the time between expeditions, it's when the characters rest, tend their wounds and plan their next job. Most **adventurers** do no want to  raid tombs and the horrible places they do, they have no other choice. While resting on the interlude the **adventurers** are actually draining their resources, **Blacksalt** is not a cheap place to live. Also be aware that characters can **die** during the interlude, specially if they are lacking of resources.
+
+Playing the interlude depends on how much detail you and your group wants, you can play it **unabridged** or **abridged** or even mix both methods and choose what you like from each. If you are unsure, I would recommend trying the **abridged** first, since it's much faster, if you feel it's too simple, try the unabridged next time or even roll back and replay that interlude unabridged.
+
+## Unabridged Interlude
+The focus os **Dead Weight** is the expedition, but a lot of cool things may happen during the interlude. Playing it unabridged allows new stories to unfold and character development.
+
+Some rules change while not on an expedition:
+
+- There is no *decay tracker*, but the **omens** and **doom tracker** are still there.
+- The party doesn't need to act as a group anymore and may act independently.
+- Every day the **adventurers** must consume one *ration* each, or get the **hungry** and **parched** affliction. If they already have the hungry affliction roll from the [decay table](#exploration).
+
+## Abridged Interlude
+The time in the interlude is no longer measured in *turns*, but in **days** and **weeks**. The adventurers may spend as many days as they want in the interlude, as long as they have the resources to spend.
+
+Every day has the following steps:
+- Blacksalt events
+- Player actions
+- Hunger Bites
+- Sleep
+
+Expeditions counts as a whole day, so when returning from one, skip to the **sleep phase** immediately.
+
+### 1. Interlude actions
+Just like the *exploration phase* the interlude has a list of **actions** that the **adventurers** can take. Each day the characters may spend **2 actions**.
+
+### 2. Blacksalt events
+
+### 3. Hunger Bites
+Each player must consume one *ration* each, or get the **hungry** and **parched** affliction. If they already have the *hungry affliction* roll from the [decay table](#exploration).
+
+### 4. Sleep
+Depending on where they sleep player will have different bonuses and penalties. Each sleep location has a price in silver or resources associated with it. When you choose a location roll from the appropriate table.
+
+Also note that not all locations have all options available, a small hamlet might not have an available inn, for example.
+
+In the interlude, if you were to receive an affliction you already have, you must choose another affliction to receive.
+
+|  2d6  | Effect                                                                         |
+| :---: | :----------------------------------------------------------------------------- |
+|  2-3  | You get beaten by some nobles, take 2 wounds become **hopeless** or **angry**. |
+|  4-5  | You woke up in the rain, you are now **shaken**.                               |
+|   6   | You get mugged, pay 2d6 silver or take 2 wounds.                               |
+|   7   | You have a restless night and are **sleepy**.                                  |
+|   8   | You get mugged, pay 2d6 silver or take 1 wound.                                |
+| 9-10  | Restore one fatigue and remove **sleepy** or **shaken**.                       |
+| 11-12 | Restore all fatigue and remove **sleepy** and **shaken**.                      |
+[On the streets - city (free)]
+
+|  2d6  | Effect                                                        |
+| :---: | :------------------------------------------------------------ |
+|  2-3  | You slept in manure and now smells terrible become **angry**. |
+|  4-5  | You woke up in the rain, you are now **shaken**.              |
+|   6   | The locals don't like you here. Advance the **doom tracker**. |
+|   7   | You have a restless night and are **sleepy**.                 |
+|   8   | Someone stole 3d6 silver while you slept!                     |
+| 9-10  | Restore one fatigue and remove **sleepy** or **shaken**.      |
+| 11-12 | Restore all fatigue and remove **sleepy** and **shaken**.     |
+[On the streets - village (free)]
+
+|  2d6  | Effect                                                                             |
+| :---: | :--------------------------------------------------------------------------------- |
+|  2-3  | You have a restless night and are **sleepy**.                                      |
+|  4-5  | Remove **sleepy**.                                                                 |
+|   6   | Restore all fatigue and remove **sleepy** or **shaken**.                           |
+|   7   | Restore all fatigue and remove **sleepy** and **shaken**.                          |
+| 8-10  | Restore all fatigue and remove **sleepy**, **shaken** and **angry**.               |
+| 11-12 | Restore all fatigue, heal 1 wound and remove **sleepy**, **shaken** and **angry**. |
+[Inn (1 silver)]
+
+
 ## Character Progression
 
 Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire grievous wounds, curses and mortal enemies. Characters can level up to level 6, after that they will eventually find their untimely death or will finally ***retire***.
 
 Retired characters contribute to ***The Guild***, allowing players to start new characters with more bonuses and giving them a long term goal.
 
-
-# The Game Master {.draft .unlisted}
 
 <pagebreak>
 
@@ -1141,7 +1217,9 @@ For tracking the enemy's armor and wounds, you can print this [enemy page](Monst
 Unlike player characters the enemies can't choose from a big pool of actions, they instead have all the actions listed in their sheet. Besides that, all monsters also have the following actions:
 
 ### Move (1 action) {.block .unlisted}
-Moves to another tile, the number of tiles that the enemy can move is written in the enemy sheet as the **movement score**. When moving **out** of a tile adjacent to an [adventurer]{.tip} spend 2 movement points.
+Moves to another tile, the number of tiles that the enemy can move is written in the enemy sheet as the **movement score**. Cannot move diagonally.
+
+After moving **out** of a tile adjacent to an [adventurer]{.tip} the **enemy** must immediately stop the movement.
 
 ### Recover (1 action) {.block .unlisted}
 Remove a [stun token]{.tip} from this enemy. If the enemy has one or more [stun token]{.tip} this is the only the enemy can take.

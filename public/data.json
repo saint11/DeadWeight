@@ -837,6 +837,9 @@
 						},
 						{
 							"Description": "Nimble! Ignores **combat movement penalty**"
+						},
+						{
+							"Description": "Tiny, 2 of them can occupy the same tile."
 						}
 					],
 					"Common Actions": [
