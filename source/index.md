@@ -12,7 +12,7 @@ links-title: Books
 links: Core Rules*|index, Bestiary, Blacksalt
 ---
 
-version 0.1
+version 0.2
 
 ![](images/Dead_Weight_Logo.png "Dead Weight logo")
 
