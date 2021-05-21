@@ -57,6 +57,12 @@ var shortcodes = {
         }
     },
 
+    now: {
+        render: function (attrs, enc) {
+            return moment().format('h:mm a, Do MMMM YYYY');
+        }
+    },
+
     pagebreak: {
         render: function (attrs, env) {
             pageCount++;
@@ -297,7 +303,7 @@ function getHtmlFromMarkdown(str, strategy, templateSuffix) {
                 strategy.meta["links"].split(',').forEach((el) => {
                     const split = el.split("\|");
                     if (split[0].endsWith("*")) {
-                        link.innerHTML += `<li class="selected">${split[0].trim().slice(0,-1)}</li>`;
+                        link.innerHTML += `<li class="selected">${split[0].trim().slice(0, -1)}</li>`;
                     }
                     else {
                         link.innerHTML += `<li><a href="./${split[1] ?? split[0].trim().toLowerCase()}.html">${split[0].trim()}</a></li>`;

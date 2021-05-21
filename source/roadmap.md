@@ -9,6 +9,8 @@ hide-title: true
 print: false
 ---
 
+Last update was <now>
+
 ## Done Recently
 - [x] Spells and schools of magic
 - [x] Gods and prayers
