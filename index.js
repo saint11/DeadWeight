@@ -14,10 +14,12 @@ const { getFromId, getSheet } = require('./util/data.js');
 const data = JSON.parse(fs.readFileSync(dataJsonPath, 'utf8'));
 const data_monsters = getSheet(data, "monsters");
 const data_items = getSheet(data, "items");
+const data_weapons = getSheet(data, "weapons");
 const data_actions = getSheet(data, "actions");
 
 const { makeMonsterTable, makeTable } = require('./util/tables.js');
 const { title } = require('process');
+const { SlowBuffer } = require('buffer');
 var shortcodes = {
     monster: {
         render: function (attrs, env) {
@@ -35,6 +37,18 @@ var shortcodes = {
                 tags: { tags: ["Quick", "Slow", "Camp", "Equipment"] }
             };
             return makeTable(data_items, options);
+        }
+    },
+    weaponTable: {
+        render: function (attrs, env) {
+            const options = {
+                exclude: ["rarity"],
+                bold: [0],
+                filter: el => el["rarity"] == attrs.id,
+                caption: attrs.caption,
+                tags: { tags: ["Quick", "Slow", "Camp", "Equipment"] }
+            };
+            return makeTable(data_weapons, options);
         }
     },
     break: {
@@ -58,6 +72,7 @@ var mdWeb = require('markdown-it')({ html: true, breaks: false });
 const toc_options = {
     level: 1,
     listType: 'ul'
+
 };
 mdWeb.use(require("markdown-it-attrs"));
 mdWeb.use(require("markdown-it-task-lists"));
@@ -270,11 +285,27 @@ function getHtmlFromMarkdown(str, strategy, templateSuffix) {
         if (strategy.meta["toc"]) {
             if (strategy.meta["toc-title"]) {
                 const title = document.createElement('h2');
-                title.innerHTML = strategy.meta.title;
+                title.innerHTML = strategy.meta["toc-title"];
                 title.id = "toc-title"
-                toc.append(title)
+                toc.appendChild(title)
             }
             toc.innerHTML += strategy.tocBody;
+
+            if (strategy.meta["links"]) {
+                const link = document.createElement('div');
+                link.innerHTML += `<h2 style="margin-bottom:2px; margin-top:30px">${strategy.meta["links-title"]}</h2><ul>`;
+                strategy.meta["links"].split(',').forEach((el) => {
+                    const split = el.split("\|");
+                    if (split[0].endsWith("*")) {
+                        link.innerHTML += `<li class="selected">${split[0].trim().slice(0,-1)}</li>`;
+                    }
+                    else {
+                        link.innerHTML += `<li><a href="./${split[1] ?? split[0].trim().toLowerCase()}.html">${split[0].trim()}</a></li>`;
+                    }
+                    toc.appendChild(link)
+                })
+                link.innerHTML += `</ul>`;
+            }
         }
         else {
             toc.parentElement.remove();

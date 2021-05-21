@@ -88,7 +88,7 @@
 							"Action": "Knife_in_the_Gut"
 						}
 					],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 1,
 					"Tags": 9
 				},
@@ -113,7 +113,7 @@
 					],
 					"Special": [],
 					"Common Actions": [],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 1,
 					"Tags": 9
 				},
@@ -147,7 +147,7 @@
 							"Action": "Unnatural_Regeneration"
 						}
 					],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 0,
 					"Tags": 9
 				},
@@ -171,7 +171,7 @@
 							"Action": "Cracked_Shield"
 						}
 					],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 1,
 					"Tags": 9
 				},
@@ -189,7 +189,7 @@
 					],
 					"Armor": 2,
 					"Actions": [],
-					"Movement": 0,
+					"Movement": 5,
 					"Extract": 5,
 					"Tags": 9
 				},
@@ -209,11 +209,11 @@
 					"Actions": [
 						{
 							"Name": "Rend",
-							"Check": "-STR 2B+2",
+							"Check": "-STR 2+2B",
 							"Description": ""
 						}
 					],
-					"Movement": 0,
+					"Movement": 5,
 					"Extract": 0,
 					"Tags": 9
 				},
@@ -258,11 +258,11 @@
 					],
 					"Special": [
 						{
-							"Description": "Small and  fast, add 1 difficulty to hit"
+							"Description": "Small and  fast, add disadvantage to hit"
 						}
 					],
 					"Armor": 2,
-					"Movement": 0,
+					"Movement": 6,
 					"Extract": 0,
 					"Tags": 16
 				},
@@ -292,7 +292,7 @@
 					"Actions": [
 						{
 							"Name": "Void whip",
-							"Check": "DEX 2R+1",
+							"Check": "-DEX 2R+1",
 							"Description": "*Binds* on hit, blocking move until a **Recover action**."
 						},
 						{
@@ -301,7 +301,7 @@
 							"Description": "Add one **shield** and one **dodge** token. Move somewhere **close**."
 						}
 					],
-					"Movement": 0,
+					"Movement": 3,
 					"Extract": 0,
 					"Tags": 16
 				},
@@ -322,7 +322,7 @@
 							"Action": "Small_Bite"
 						}
 					],
-					"Movement": 0,
+					"Movement": 5,
 					"Extract": 4,
 					"Tags": 1
 				},
@@ -347,11 +347,11 @@
 						},
 						{
 							"Name": "The cries of many",
-							"Check": "PER-2 1",
-							"Description": "Hits everyone **Close**"
+							"Check": "-PER 1",
+							"Description": "Hits all adventurers **nearby**"
 						}
 					],
-					"Movement": 0,
+					"Movement": 2,
 					"Extract": 4,
 					"Tags": 1
 				},
@@ -372,7 +372,7 @@
 							"Action": "Bite"
 						}
 					],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 4,
 					"Tags": 1
 				},
@@ -396,7 +396,7 @@
 							"Description": "Causes nausea, adding a stun marker on 1d!"
 						}
 					],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 4,
 					"Tags": 1
 				},
@@ -416,11 +416,11 @@
 					"Actions": [
 						{
 							"Name": "Infest",
-							"Check": "PRE 1+1?",
-							"Description": "On critical one gets attached to you, causing 1 wound per turn until removed (1 action)"
+							"Check": "PRE 1+1",
+							"Description": "On critical one gets attached to target, causing 1 wound per turn until removed (1 action)"
 						}
 					],
-					"Movement": 0,
+					"Movement": 3,
 					"Extract": 4,
 					"Tags": 1
 				},
@@ -433,18 +433,18 @@
 					"Resistance": 1,
 					"Special": [
 						{
-							"Description": "Immaterial, can move through walls."
+							"Description": "Immaterial, can move through walls, does not stop when moving out of the **adventurer**'s range, ignores shields."
 						}
 					],
 					"Common Actions": [],
 					"Actions": [
 						{
 							"Name": "Soul nibble",
-							"Check": "INT 2X",
-							"Description": "Cause a **stun marker** on hit."
+							"Check": "INT 2",
+							"Description": "Add a **stun token** on hit."
 						}
 					],
-					"Movement": 0,
+					"Movement": 3,
 					"Extract": 5,
 					"Tags": 4
 				},
@@ -506,7 +506,7 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0,
+					"Movement": 3,
 					"Extract": 5,
 					"Tags": 16
 				},
@@ -541,7 +541,7 @@
 							"Description": "A wave of pain, causing 1 Presence wound to everyone *Close*"
 						}
 					],
-					"Movement": 0,
+					"Movement": 3,
 					"Extract": 5,
 					"Tags": 16
 				},
@@ -565,7 +565,7 @@
 							"Description": "If causes a wound *attach* to **adventurer**. Caused **Sleepy**. Causes **Bleeding** until removed"
 						}
 					],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 5,
 					"Tags": 1
 				},
@@ -595,7 +595,7 @@
 							"Description": "If caused at least 1 wound cause **intoxicated**."
 						}
 					],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 1,
 					"Tags": 1
 				},
@@ -620,12 +620,12 @@
 						},
 						{
 							"Name": "Eat",
-							"Check": "STR-2 5",
+							"Check": "-STR 5",
 							"Description": "Can only be used on a grabbed character."
 						},
 						{
 							"Name": "Bash",
-							"Check": "STR-1 2",
+							"Check": "-STR 2",
 							"Description": "On hit moves the player character to an adjacent tile"
 						}
 					],
@@ -670,6 +670,9 @@
 					"Special": [
 						{
 							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
+						},
+						{
+							"Description": "Pile on! Up to 3 of this type of monster can stack on the same tile."
 						}
 					],
 					"Common Actions": [
@@ -854,7 +857,7 @@
 							"Description": ""
 						}
 					],
-					"Movement": 0,
+					"Movement": 4,
 					"Extract": 3,
 					"Tags": 2
 				},
@@ -899,7 +902,7 @@
 							"Action": "Poisonous_Bite"
 						}
 					],
-					"Movement": 0,
+					"Movement": 5,
 					"Extract": 1,
 					"Tags": 1
 				},
@@ -1687,7 +1690,7 @@
 			],
 			"lines": [
 				{
-					"name": "canvas/cloth",
+					"name": "W",
 					"description": "A piece of cloth, can be used as improvised bandages.",
 					"rarity": 0,
 					"tags": 2
@@ -1931,6 +1934,107 @@
 					"description": "A relic retrieved from the grave of a saint.",
 					"rarity": 4,
 					"tags": 0
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "Weapons",
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "Name"
+				},
+				{
+					"typeStr": "1",
+					"name": "Stats"
+				},
+				{
+					"typeStr": "1",
+					"name": "Special Rules"
+				}
+			],
+			"lines": [
+				{
+					"Name": "Battle axe",
+					"Stats": "STR 4+2B",
+					"Special Rules": "2 hands."
+				},
+				{
+					"Name": "Cane",
+					"Stats": "STR 1+1",
+					"Special Rules": ""
+				},
+				{
+					"Name": "Driftwood Club",
+					"Stats": "STR 2",
+					"Special Rules": ""
+				},
+				{
+					"Name": "Dagger",
+					"Stats": "STR 1 + 3P",
+					"Special Rules": ""
+				},
+				{
+					"Name": "Falchion",
+					"Stats": "STR 3+1B",
+					"Special Rules": ""
+				},
+				{
+					"Name": "Flail",
+					"Stats": "STR 2+2",
+					"Special Rules": "Ignore shield tokens. If you miss, roll a d6, on a 1 you hit yourself with 1 wound."
+				},
+				{
+					"Name": "Quarterstaff",
+					"Stats": "STR 1+1",
+					"Special Rules": "On hit add one [dodge token]{.tip} to the attacker."
+				},
+				{
+					"Name": "Sacrificial dagger",
+					"Stats": "STR 1B+1",
+					"Special Rules": "If all damage is reduced roll a d6, on 1 it breaks."
+				},
+				{
+					"Name": "Notched whip",
+					"Stats": "DEX 1R + 2B",
+					"Special Rules": "If the enemy has no armor, add a **stun maker** to the enemy. Can hit diagonally."
+				},
+				{
+					"Name": "Short Spear",
+					"Stats": "STR 2+1B",
+					"Special Rules": "2 hands. Can be used with 1 hand, but reduces the attack roll by 1 dice. Can hit diagonally."
+				},
+				{
+					"Name": "Long Spear",
+					"Stats": "STR 3+1B",
+					"Special Rules": "**2 tiles**. 2 hands. Can be used with 1 hand, but reduces the attack roll by 1 dice. Can hit diagonally. When hitting tiles close use (-STR 1+1)."
+				},
+				{
+					"Name": "Short sword",
+					"Stats": "STR 2+1 ",
+					"Special Rules": "If dual wielded becomes 3+1."
+				},
+				{
+					"Name": "War hammer",
+					"Stats": "STR 2P + 3",
+					"Special Rules": "If you hit roll a d6, on a 6 add a [stun token]{.tip} to the enemy."
+				},
+				{
+					"Name": "Throwing hatchet",
+					"Stats": "DEX 1+1",
+					"Special Rules": "**Nearby**. You can use STR to hit but if you do, flip a coin, on heads it hits with the handle, causing no damage. Ignores [shield tokens]{.tip}. You can use STR to melee with no downsides."
+				},
+				{
+					"Name": "Short bow",
+					"Stats": "DEX 2+1R",
+					"Special Rules": "**Nearby**. 2 hands Need arrows."
+				},
+				{
+					"Name": "Crossbow",
+					"Stats": "DEX 3P+1R",
+					"Special Rules": "**Nearby**. 2 hands. Requires 2 actions to reload."
 				}
 			],
 			"separators": [],

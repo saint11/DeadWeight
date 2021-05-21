@@ -117,7 +117,7 @@ nav {
     background-color: #252525;
     position: fixed;
     width: 250px;
-    height: 100%;
+    height: -webkit-fill-available;
     padding: 2% 1.5%;
     z-index: 100;
     top: 0;
@@ -189,7 +189,7 @@ nav::-webkit-resizer {
     background-color: #666;
 }
 
-#toc-title {
+nav h1, nav h2,nav h3 {
     color: #fff;
     margin-top: 0;
     text-align: center;
@@ -210,6 +210,14 @@ nav ul {
 nav a {
     background: #252525;
     color: #888;
+    font-family: 'Germania One', cursive;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav li.selected {
+    background: #252525;
+    color: #FFF;
     font-family: 'Germania One', cursive;
     text-decoration: none;
     font-weight: normal;

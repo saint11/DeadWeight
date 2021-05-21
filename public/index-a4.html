@@ -10,7 +10,6 @@
     <title>Dead Weight</title>
 <link rel="stylesheet" type="text/css" href="print-a4.css"><script src="https://kit.fontawesome.com/ba93eb1f54.js" crossorigin="anonymous"></script></head>
 
-
 <body>
     <div id="main-document">
         <div class="page">
@@ -428,6 +427,7 @@ In the end of this book there's a sample dungeon to help the <strong>GM</strong>
 <li>Add 1 proficiency points to <strong>Strength</strong>.</li>
 <li>Add the trait <strong>battle trance</strong>.</li>
 <li>Add the skill <strong>Bash</strong>.</li>
+<li>Add the skill <strong>Weapon master</strong></li>
 </ul>
 <p>Choose one of the following as your starting equipment:</p>
 <ul>
@@ -785,10 +785,10 @@ There are 4 range bands for measuring distance in <strong>Dead Weight</strong>:<
 <p>Character attributes in <strong>Dead Weight</strong> specify how good your character is at something.</p>
 <p>Attributes have two numbers, the <em><strong>value</strong></em>, that measure your character endurance and natural talent with that attribute and the <em><strong>proficiency</strong></em>, measuring how well trained your character is at that. Every character has 4 attributes.</p>
 <ul>
-<li><strong>Strength</strong> is physical strength and constitution of a character. It also influences how many <em><strong>items</strong></em> a character can carry and your resistance to physical damage.</li>
-<li><strong>Dexterity</strong> is how fast and precise a character is. It is used mostly in ranged attacks, initiative, dodging and in a variety of tests.</li>
-<li><strong>Intelligence</strong> is how intelligent and wise a character is. It also influences how many <em><strong>spells and prayers</strong></em> a character can memorize.</li>
-<li><strong>Presence</strong> is how persuasive and strong-willed a character is. It also influences the party's <strong>morale</strong>.</li>
+<li><strong>Strength</strong> (STR) is physical strength and constitution of a character. It also influences how many <em><strong>items</strong></em> a character can carry and your resistance to physical damage.</li>
+<li><strong>Dexterity</strong> (DEX) is how fast and precise a character is. It is used mostly in ranged attacks, initiative, dodging and in a variety of tests.</li>
+<li><strong>Intelligence</strong> (INT) is how intelligent and wise a character is. It also influences how many <em><strong>spells and prayers</strong></em> a character can memorize.</li>
+<li><strong>Presence</strong> (PRE) is how persuasive and strong-willed a character is. It also influences the party's <strong>morale</strong>.</li>
 </ul>
 </section>
 <section id="skills">
@@ -831,7 +831,11 @@ There are 4 range bands for measuring distance in <strong>Dead Weight</strong>:<
 <li><strong>Street Wise</strong>: You do not get robbed in the <strong>interlude</strong> and you have one extra daily action. You may reduce the price of <strong>common</strong> items by 1 silver (to a minimum of 1).</li>
 <li><strong>Surgeon:</strong> During the <strong>camp phase</strong> you may perform an <strong>Intelligence</strong> test to heal one wound of each character in your group.</li>
 <li><strong>Survivalist:</strong> 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.</li>
-<li><strong>Veteran</strong>: Test <strong>presence</strong>, on a success you will know how much <strong>doom</strong> this location currently has and how much doom is required to trigger the next step.</li>
+<li><strong>Veteran</strong>: (1 explorer action) Test <strong>presence</strong>, on a success you will know how much <strong>doom</strong> this location currently has and how much doom is required to trigger the next step.</li>
+</ul>
+<p>Weapon and armor use depends on the character arsenal skill. Using an equipment without the proper skill all tests you make are made with <span class="tip">disadvantage</span>.</p>
+<ul>
+<li><strong>Weapon master</strong>: Can use any weapon.</li>
 </ul>
 </section></section></div>
 <div class="page ">
@@ -925,6 +929,25 @@ If an <strong>adventurer</strong> would receive an affliction he or she already 
 </tbody>
 </table>
 <p>* Not exclusive, always check item descriptions for more ways to remove afflictions.</p>
+</section>
+<section id="trappings">
+<h2>Trappings</h2>
+<p><strong>Adventurers</strong> have a number of item slots in their character sheets, most items take up one slot, some may take more than one and some may be stacked.</p>
+<p>When items have a characteristic that makes them awkward or hard to carry, write it bellow the item, with the characteristic occupying one extra slot. Examples of characteristics are <strong>oversized</strong>, <strong>fragile</strong> and <strong>unstable</strong>.</p>
+<p>Very small items, like chalk, keys or a dice do not occupy any slots, and should be written down in the <em>notes</em> section of the character sheet.</p>
+<p>All characters have:</p>
+<ul>
+<li>4 slots in the <strong>torso</strong>, equipped armor also goes here too.</li>
+<li>2 slots in each <strong>hand</strong>, equipped weapon or item goes here too. When equipping a weapon or item, the hand may not carry more items.</li>
+</ul>
+<p>Characters may also have certain containers:</p>
+<ul>
+<li>1 slot in the <strong>belt</strong>, or 2 slots in a <strong>small pouch</strong>.</li>
+<li>1 slot in the <strong>canteen</strong>, or 2 slots in a <strong>skin</strong>.</li>
+<li>4 slots in a <strong>bag</strong> or satchel carried on the torso, or 7  in a <strong>backpack</strong>.</li>
+<li>Up to 2 <strong>small bags</strong>, each with 3 <strong>slots</strong>.</li>
+</ul>
+<p>You may circle the appropriate container your character has.</p>
 </section></div>
 <div class="page ">
 
@@ -1247,10 +1270,9 @@ Execute that spell effect.</p>
 <p>Choose a weapon and a target. Read the weapon description for any special rules.<br>
 Test the weapon <strong>attribute</strong> to hit.<br>
 For each <span class="tip" id="dodge_token">dodge</span> and <span class="tip">shield token</span> the defender spends, they may choose a dice and force the attacker to reroll it.<br>
-On success apply the <strong>wounds</strong> specified in the weapon<br>
-On a great success, add the <strong>critical wounds</strong> too.</p>
+On success apply the <strong>wounds</strong> specified in the weapon notation. On a great success, it's a <em>critical hit</em>, add the <strong>critical wounds</strong> too.</p>
 <p>Weapons can only attack units within their range, if a weapon description doesn't specify  a range it can only hit targets <strong>Close</strong>.</p>
-<p>Check the <a href="#taking-damage">taking damage</a> on the enemy section to see how enemies receive and reduce wounds.</p>
+<p>Check the <a href="#taking-damage">taking damage</a> on the enemy section to see how enemies receive and reduce wounds. Check the <a href="#attack-notation">attack notation</a> section for how weapons and attacks work.</p>
 </section>
 <section class="block" id="recover-(1-action)">
 <h4 class="block">Recover (1 action)</h4>
@@ -1295,9 +1317,67 @@ Receiving an item doesn't cost an action.</p>
 <h4 class="block">Help another (2 actions)</h4>
 <p>Next turn an ally will receive an extra dice from you in all their actions, can only be used on allies that are on the same or adjacent positions.<br>
 Check <em>Receiving Help</em> for more information.</p>
-</section></section></div>
+</section>
+</section>
+<section id="attack-notation">
+<h3>Attack Notation</h3>
+<p>When we write down an attack or weapon through this book we use an abbreviated notation, to keep things short and simple.<br>
+All attacks specify a test that the <strong>player</strong> must roll, followed by the amount of damage that the attack causes and the critical damage. If the attack has any special rules those are written in full after the notation.</p>
+<p>Let's see a simple example:</p>
+<blockquote>
+<p>Driftwood Club (STR 2)</p>
+</blockquote>
+<p>This one is pretty straightforward, to use a <em>driftwood club</em> the player must roll a <strong>strength</strong> test, on a success, it will be cause 2 wounds on the enemy, that can be reduced by any resistances the enemy has. Since it doesn't specify a range, it can only hit targets that are <strong>close</strong> (1 tile away, not diagonally).</p>
+<p>Some weapons have special effects on a critical hit, let's see another example:</p>
+<blockquote>
+<p>Falchion (STR 3+1B)</p>
+</blockquote>
+<p>To use it the player <strong>test strength</strong>(<strong>STR</strong>), causes 3 wounds on a regular success. The last thing is that "<strong>+1B</strong>", meaning that if the player roll a great success (rolling a couple of 6s) it will cause the bleeding affliction and one extra wound, to a total of <strong>4 wounds</strong>. To understand what all the letters mean, check the <strong>weapon effects table</strong> bellow.</p>
+<p>Ranged weapons and attacks have the range specified in the description, if nothing is written, just assume it hits only targets that are <strong>Close</strong>. Here's a ranged weapon example:</p>
+<blockquote>
+<p>Throwing hatchet (DEX 1+1): Nearby</p>
+</blockquote>
+<p>Meaning that a throwing hatchet can be thrown to any target within 5 tiles. At the <em>GM</em> discretion line of sight can be enforced and penalties for missing ranged weapons, like hitting other adventurers can also happen. Sometimes the range can be notated in <strong>tiles</strong> too, when a more exact measurement is needed.</p>
+<p>Enemy attacks are also notated in the same way, but enemies do not roll dice to attack, since they don't have attributes, this means that the attribute on enemy attacks is for <strong>defending</strong> that attack. Again, it's easier to explain with an example:</p>
+<blockquote>
+<p>Soul nibble (INT 2): Ignore shields. Add a stun token on hit.</p>
+</blockquote>
+<p>This is an interesting one, to defend from this attack the <strong>player</strong> must test <strong>intelligence</strong>. If the test <strong>fails</strong>, the <strong>player</strong> takes 2 wounds. Looking at the description you can see that the player cannot use <span class="tip">shield tokens</span> for defending this attack and if the <strong>adventurer</strong> gets hit, a <span class="tip">stun token</span> should be added.</p>
+<p>Some enemies or weapons can add <span class="tip">advantage</span> or <span class="tip">disadvantage</span> to the <strong>player</strong>'s roll. Those are done by simply adding a plus(+) or minus(-) sign before the notated attribute. And for a last example, let's check en enemy attack with critical hits:</p>
+<blockquote>
+<p>Rend(-STR 2+2B)</p>
+</blockquote>
+<p>In this case, a player must roll a <strong>strength</strong> test with <span class="tip">disadvantage</span> to defend from this attack. Enemies trigger critical hits when the <strong>player</strong> critically fails (rolling a fail with one or more 1s). So if a <strong>player</strong> critically fails a <strong>strength</strong> test against this attack, the <strong>adventurer</strong> would take 4 wounds and the bleeding affliction.</p>
+<p>There are a few possible effects associated with weapons, so here is a list of all of them:</p>
+<table>
+<caption id="weaponeffects">Weapon Effects</caption>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>B</strong></td>
+<td>Causes the <strong>Bleeding</strong> affliction.</td>
+</tr>
+<tr>
+<td><strong>P</strong></td>
+<td>Pierces through <strong>Armor</strong>.</td>
+</tr>
+<tr>
+<td><strong>R</strong></td>
+<td>Can't use <strong>Toughen Up</strong> or be <strong>Resisted</strong>.</td>
+</tr>
+<tr>
+<td><strong>N</strong></td>
+<td>Non-lethal. Ignore any damage that would kill or mortally wound a character.</td>
+</tr>
+</tbody>
+</table>
+</section></div>
 <div class="page ">
-
 
 
 <section class="big" id="camp">
@@ -1424,6 +1504,139 @@ Check <em>Receiving Help</em> for more information.</p>
 </section>
 <section id="2.-blacksalt-events">
 <h3>2. Blacksalt events</h3>
+<p>Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the event table.</p>
+<table>
+<caption id="blacksaltevents">Blacksalt events</caption>
+<thead>
+<tr>
+<th style="text-align:center">1d6</th>
+<th style="text-align:left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:left">Roll from the <strong>bad events</strong> table.</td>
+</tr>
+<tr>
+<td style="text-align:center">2, 3, 4</td>
+<td style="text-align:left">Nothing interesting happens today.</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:left">Roll from the <strong>neutral events</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left">Roll from the <strong>opportunities</strong>.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption id="badevents">Bad events</caption>
+<thead>
+<tr>
+<th style="text-align:center">1d6</th>
+<th style="text-align:left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption id="neutralevents">Neutral events</caption>
+<thead>
+<tr>
+<th style="text-align:center">1d6</th>
+<th style="text-align:left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption id="opportunities">Opportunities</caption>
+<thead>
+<tr>
+<th style="text-align:center">1d6</th>
+<th style="text-align:left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="3.-hunger-bites">
 <h3>3. Hunger Bites</h3>
@@ -1557,337 +1770,12 @@ Check <em>Receiving Help</em> for more information.</p>
 <div class="page ">
 
 
-<section id="world">
-<h1>World</h1>
-<p>For more information about the locations and history of the island, check the <a href="./blacksalt.html">Blacksalt book</a>.</p>
-<section id="trappings">
-<h2>Trappings</h2>
-<p><strong>Adventurers</strong> have a number of item slots in their character sheets, most items take up one slot, some may take more than one and some may be stacked.</p>
-<p>When items have a characteristic that makes them awkward or hard to carry, write it bellow the item, with the characteristic occupying one extra slot. Examples of characteristics are <strong>oversized</strong>, <strong>fragile</strong> and <strong>unstable</strong>.</p>
-<p>Very small items, like chalk, keys or a dice do not occupy any slots, and should be written down in the <em>notes</em> section of the character sheet.</p>
-<p>All characters have:</p>
-<ul>
-<li>4 slots in the <strong>torso</strong>, equipped armor also goes here too.</li>
-<li>2 slots in each <strong>hand</strong>, equipped weapon or item goes here too. When equipping a weapon or item, the hand may not carry more items.</li>
-</ul>
-<p>Characters may also have certain containers:</p>
-<ul>
-<li>1 slot in the <strong>belt</strong>, or 2 slots in a <strong>small pouch</strong>.</li>
-<li>1 slot in the <strong>canteen</strong>, or 2 slots in a <strong>skin</strong>.</li>
-<li>4 slots in a <strong>bag</strong> or satchel carried on the torso, or 7  in a <strong>backpack</strong>.</li>
-<li>Up to 2 <strong>small bags</strong>, each with 3 <strong>slots</strong>.</li>
-</ul>
-<p>You may circle the appropriate container your character has.</p>
-<section class="wide" id="equipment">
-<h3 class="wide">Equipment</h3>
-<p>There are 5 item categories <strong>common</strong>, <strong>uncommon</strong>, <strong>valuable</strong>, <strong>rare</strong> and <strong>exotic</strong>. The categories set the item price and how hard is to find it during the <strong>interlude</strong>.</p>
-<p>Again, if you really like statistics, this is the statistics map of the <a href="https://anydice.com/program/222fe">possible prices</a>.</p>
-<table style="width: 100%;"><caption>Common items (1d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Canvas/cloth</p>
-</b></td><td><p>A piece of cloth, can be used as improvised bandages.</p>
-</td><td>Slow</td></tr><tr><td><b><p>Bandages</p>
-</b></td><td><p>A pack of 3 bandages, used to stop bleeding.</p>
-</td><td>Quick</td></tr><tr><td><b><p>Drawing tools</p>
-</b></td><td><p>Some papers and drawing tools, can be used to draw maps or write scrolls, Ud8.</p>
-</td><td></td></tr><tr><td><b><p>Common clothes</p>
-</b></td><td><p>Nothing fancy.</p>
-</td><td>Equipment</td></tr><tr><td><b><p>3 meter pole</p>
-</b></td><td><p>Good for looking for traps. (Big).</p>
-</td><td>Equipment</td></tr><tr><td><b><p>Iron spikes</p>
-</b></td><td><p>For fixing doors open and making sure things stay in place. Ud8.</p>
-</td><td>Slow</td></tr><tr><td><b><p>Canteen</p>
-</b></td><td><p>For holding water and other liquids.</p>
-</td><td>Quick, Equipment</td></tr><tr><td><b><p>Ration</p>
-</b></td><td><p>Removes the <em>hungry</em> affliction. If cooked during camp, can feed 2 (or 3) adventurers (if someone has the <em>cooking</em> skill).</p>
-</td><td>Slow, Camp</td></tr><tr><td><b><p>Torch</p>
-</b></td><td><p>A pack of 2 torches. Lights the way for Ud8 turns.</p>
-</td><td>Slow</td></tr><tr><td><b><p>Oil</p>
-</b></td><td><p>For refueling the lantern.</p>
-</td><td>Slow</td></tr><tr><td><b><p>Rope</p>
-</b></td><td><p>10 meters of rope.</p>
-</td><td>Slow</td></tr><tr><td><b><p>Special ration</p>
-</b></td><td><p>Tea, coffee or hot chocolate. Does not remove the <em>hungry</em> affliction.</p>
-</td><td>Camp</td></tr><tr><td><b><p>Seweing tools</p>
-</b></td><td><p>Repairs one armor point from any cloth armor. Ud8 uses.</p>
-</td><td><ol start="4">
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Small bag</p>
-</b></td><td><p>For extra inventory space.</p>
-</td><td><ol start="8">
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Holy water</p>
-</b></td><td><p>Can be thrown at undead for DEX 2PR, Ud6 uses.</p>
-</td><td><ol start="8">
-<li></li>
-</ol>
-</td></tr></tbody></table><table style="width: 100%;"><caption>Uncommon items (2 + 2d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Climbing gear</p>
-</b></td><td><p>15m of rope with a hook, spikes and other safety utensils for Ud6 climbs.</p>
-</td><td>Slow</td></tr><tr><td><b><p>Waterskin</p>
-</b></td><td><p>A large container for holding water and other liquids.</p>
-</td><td>Slow, Equipment</td></tr><tr><td><b><p>Camping supplies</p>
-</b></td><td><p>Basic supplies for making a fire and cooking.</p>
-</td><td>Camp</td></tr><tr><td><b><p>Lockpicking tools</p>
-</b></td><td><p>For opening simple locks. Ud20 uses.</p>
-</td><td>Slow</td></tr><tr><td><b><p>Trapping kit</p>
-</b></td><td><p>For making and disarming simple traps. Can build Ud6 traps.</p>
-</td><td>Slow, Equipment</td></tr><tr><td><b><p>Lantern</p>
-</b></td><td><p>Lights the way for Ud12 turns. Uses oil. Quick to light, slow to refuel.</p>
-</td><td>Quick, Slow</td></tr><tr><td><b><p>First aid kid</p>
-</b></td><td><p>Heals one STR or DEX wound. Ud6 uses.</p>
-</td><td>Camp</td></tr><tr><td><b><p>Healing tonic</p>
-</b></td><td><p>Heals one INT or DEX wound. Ud4 uses.</p>
-</td><td>Quick</td></tr><tr><td><b><p>Wine</p>
-</b></td><td><p>Heals one PRE wound and removes <em>Parched</em>. Ud4, causes <em>Nauseated</em> if you drink too much.</p>
-</td><td>Slow</td></tr><tr><td><b><p>Leatherworker's toolkit</p>
-</b></td><td><p>Repairs one armor point from any leather or cloth armor. Ud6 uses.</p>
-</td><td><ol start="4">
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Compass</p>
-</b></td><td><p>Useful for not getting lost.</p>
-</td><td><ol>
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Small pouch</p>
-</b></td><td><p>For extra inventory space.</p>
-</td><td><ol start="8">
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Backpack</p>
-</b></td><td><p>For extra inventory space.</p>
-</td><td><ol start="8">
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Exorcism book</p>
-</b></td><td><p>One extra dice when <em>banishing undead</em>.</p>
-</td><td><ol start="0">
-<li></li>
-</ol>
-</td></tr></tbody></table><table style="width: 100%;"><caption>Valuable items (3 x 2d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Mechanics toolkit</p>
-</b></td><td><p>For fixing, assembling and disassembling mechanical devices.</p>
-</td><td></td></tr><tr><td><b><p>Ashes of insight</p>
-</b></td><td><p>Identify a single magic item (slow) or reveals something invisible (quick).</p>
-</td><td><ol start="3">
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Armourer supplies</p>
-</b></td><td><p>Repairs one armor point from any armor. Ud6 uses.</p>
-</td><td><ol start="4">
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Holy symbol</p>
-</b></td><td><p>Used to perform miracles.</p>
-</td><td></td></tr><tr><td><b><p>Wine of Yoros</p>
-</b></td><td><p>Liquid courage. Heals one PRE and one INT wound.</p>
-</td><td></td></tr><tr><td><b><p>Pack mule</p>
-</b></td><td><p>Useful for carrying items on long journeys. Has 10 inventory spaces, requires 2 rations per day or grass.</p>
-</td><td><ol start="0">
-<li></li>
-</ol>
-</td></tr></tbody></table><table style="width: 100%;"><caption>Rare items (5 x 3d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Fine jewellery</p>
-</b></td><td><p>Made of precious materials, not very useful in a dungeon.</p>
-</td><td></td></tr><tr><td><b><p>Living ashes</p>
-</b></td><td><p>+1 damage to a weapon during expedition, Ud4 uses.</p>
-</td><td><ol>
-<li></li>
-</ol>
-</td></tr><tr><td><b><p>Alchemic kit</p>
-</b></td><td><p>Can be used for modifying, identifying and making potions .</p>
-</td><td></td></tr><tr><td><b><p>Spell book</p>
-</b></td><td><p>Simple spell book, holds 3 spells.</p>
-</td><td></td></tr></tbody></table><table style="width: 100%;"><caption>Exotic items (10 x 4d6 silver)</caption><tbody><tr><th>name</th><th>description</th><th>tags</th></tr><tr><td><b><p>Panacea</p>
-</b></td><td><p>Cures any disease or affliction. Heals one wound in each attribute.</p>
-</td><td></td></tr><tr><td><b><p>Holy relic</p>
-</b></td><td><p>A relic retrieved from the grave of a saint.</p>
-</td><td></td></tr></tbody></table></section>
-<section id="weapons">
-<h3>Weapons</h3>
-<p><img src="images/weapons.png" alt="" title="Weapons" class="left"></p>
-<section id="weapon-notation">
-<h4>Weapon Notation</h4>
-<p>Weapons are notated as following:</p>
-<blockquote>
-<p>Falchion (STR 3+1B)</p>
-</blockquote>
-<p>Let's break down the <strong>Falchion</strong> notated above. To use it you test your strength(<strong>STR</strong>), causes 3 wounds on a regular success and 4 wounds(<strong>+1</strong>) on a great success. The last thing is the "<strong>B</strong>", meaning that on a great success it will cause the bleeding afflictions.</p>
-<p>Some weapons are even simpler:</p>
-<blockquote>
-<p>Driftwood Club (STR 2)</p>
-</blockquote>
-<p>This means that just like the falchion, you test <strong>strength</strong> to hit, but always cause 2 wounds, even on a critical hit.</p>
-<p>Let's see another example:</p>
-<blockquote>
-<p>War hammer (STR 1P+3): If you hit roll a d6, on a 6 add a <span class="tip">stun token</span> to the enemy.</p>
-</blockquote>
-<p>The <strong>War hammer</strong> also requires a strength(<strong>STR</strong>) test to hit, causes 1 wound on a regular success and <strong>pierces trough armor</strong>(<strong>P</strong>). On a critical hit it causes wounds(<strong>+3</strong>) and still pierces through armor, effects that happens on regular hits also happen on critical hits. Note that the <strong>war hammer</strong> has a special effect to be applied on hit, always check the weapon text before the attack.</p>
-<p>There are many possible effects associated with weapons, here is a list of all of them:</p>
-<table>
-<caption id="weaponeffects">Weapon Effects</caption>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Effect</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>B</strong></td>
-<td>Causes the <strong>Bleeding</strong> affliction.</td>
-</tr>
-<tr>
-<td><strong>D</strong></td>
-<td>Ignores <span class="tip">dodge tokens</span>.</td>
-</tr>
-<tr>
-<td><strong>N</strong></td>
-<td>Non-lethal. Ignore any damage that would kill or mortally wound a character.</td>
-</tr>
-<tr>
-<td><strong>P</strong></td>
-<td>Pierces through <strong>Armor</strong>.</td>
-</tr>
-<tr>
-<td><strong>R</strong></td>
-<td>Can't use <strong>Toughen Up</strong> or be <strong>Resisted</strong>.</td>
-</tr>
-<tr>
-<td><strong>S</strong></td>
-<td>Add a <span class="tip">stun token</span></td>
-</tr>
-<tr>
-<td><strong>X</strong></td>
-<td>Ignores <span class="tip">shield tokens</span>.</td>
-</tr>
-<tr>
-<td><strong>?</strong></td>
-<td>Special effect on the description.</td>
-</tr>
-</tbody>
-</table>
-<p>Ranged weapons have the range specified, if nothing is written, just assume it hits only targets that are <strong>Close</strong>. Here's a ranged weapon example:</p>
-<blockquote>
-<p>Throwing hatchet (DEX 1X+1 <strong>Nearby</strong>)</p>
-</blockquote>
-<p>This throwing hatchet can it a target nearby and ignores shields.</p>
-<p>All weapons can be used with one hand, unless stated otherwise.</p>
-<p class="simple"></p>
-<table>
-<caption id="meleeweapons">Melee Weapons</caption>
-<thead>
-<tr>
-<th>Weapon</th>
-<th style="text-align:left">Stats</th>
-<th>Special rules</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Battle axe</td>
-<td style="text-align:left">STR 4+2B</td>
-<td>2 hands.</td>
-</tr>
-<tr>
-<td>Cane</td>
-<td style="text-align:left">STR 1+1</td>
-<td></td>
-</tr>
-<tr>
-<td>Driftwood Club</td>
-<td style="text-align:left">STR 2</td>
-<td></td>
-</tr>
-<tr>
-<td>Dagger</td>
-<td style="text-align:left">STR 1 + 3P</td>
-<td></td>
-</tr>
-<tr>
-<td>Falchion</td>
-<td style="text-align:left">STR 3+1B</td>
-<td></td>
-</tr>
-<tr>
-<td>Flail</td>
-<td style="text-align:left">STR 2X+2</td>
-<td>If you miss, roll a d6, on a 1 you hit yourself with 1 wound.</td>
-</tr>
-<tr>
-<td>Quarterstaff</td>
-<td style="text-align:left">STR 1+1</td>
-<td>If you successfully add one <span class="tip">dodge token</span>, add another one (once per turn).</td>
-</tr>
-<tr>
-<td>Sacrificial dagger</td>
-<td style="text-align:left">STR 1B+1</td>
-<td>If blocked by a shield roll a d6, on 1 it breaks.</td>
-</tr>
-<tr>
-<td>Notched whip</td>
-<td style="text-align:left">1E + 2B</td>
-<td>If the enemy has no armor, add a <strong>stun maker</strong> to the enemy.</td>
-</tr>
-<tr>
-<td>Spear</td>
-<td style="text-align:left">STR 3+1B</td>
-<td>2 hands. Can be used with 1 hand, but reduces the attack roll by 1.</td>
-</tr>
-<tr>
-<td>Short sword</td>
-<td style="text-align:left">STR 2+1</td>
-<td>If dual wielded becomes 3+1D.</td>
-</tr>
-<tr>
-<td>War hammer</td>
-<td style="text-align:left">STR 1P + 3</td>
-<td>If you hit roll a d6, on a 6 add a <span class="tip">stun token</span> to the enemy.</td>
-</tr>
-</tbody>
-</table>
-<table>
-<caption id="rangedweapons">Ranged Weapons</caption>
-<thead>
-<tr>
-<th>Weapon</th>
-<th>Stats</th>
-<th>Special rules</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Throwing hatchet</td>
-<td>DEX 1X+1 <strong>Nearby</strong></td>
-<td>You can use STR to hit but if you do, flip a coin, on heads it hits with the handle, causing no damage.</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>You can also use STR to melee with no downsides.</td>
-</tr>
-<tr>
-<td>Short bow</td>
-<td>DEX 2+1E <strong>Faraway</strong></td>
-<td>2 hands Need arrows.</td>
-</tr>
-<tr>
-<td>Crossbow</td>
-<td>DEX 3P+1 <strong>Faraway</strong></td>
-<td>2 hands. Requires 2 actions to reload.</td>
-</tr>
-</tbody>
-</table>
-</section></section></section></section></div>
-<div class="page ">
-
-
-
-
 <section id="enemies-in-the-dark">
 <h1>Enemies in the Dark</h1>
 <p>A list of monsters and enemies can be found in the <a href="bestiary.html">bestiary book</a>.</p>
 <p>Enemies do not have a complete character sheet, instead they have a simplified one, let's look at an example:</p>
 <div class="monster"><div class="monster-header"><p>Freshly Risen Corpse - LVL 3</p>
-</div><div class="monster-attributes"><p>Wounds: 5, Armor: 1</p>
+</div><div class="monster-attributes"><p>Wounds: 5, Armor: 1, Movement:5</p>
 </div><p class="monster-special"></p><p></p><p>Ignores morale, never flees, never dodges. Immune to PRE attacks.</p>
 <p></p><p></p><div class="monster-actions"><div class="monster-action"><p><b>Infectious bite</b>(STR 1+1): Causes <strong>Plagued</strong> on <strong>1d!</strong>.</p>
 </div><div class="monster-action"><p><b>Lunge</b>(DEX 2, <strong>Nearby</strong>): Moves <strong>Close</strong> to the target and attack.</p>

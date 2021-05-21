@@ -89,6 +89,8 @@ function makeMonsterTable(monster, actions) {
         attributes.push("Armor: " + monster["Armor"]);
     if (monster["Resistance"] > 0)
         attributes.push("Resist:" + monster["Resistance"]);
+    if (monster["Movement"] > 0)
+        attributes.push("Movement:" + monster["Movement"]);
 
     if (attributes.length > 0) {
         CreateAndPush(attributes.join(", "), "div", "monster-attributes", block);
@@ -128,7 +130,7 @@ function makeMonsterTable(monster, actions) {
     if (monster["Tags"])
         bottomInfo += `<p><b>Tags:</b> ${bitToString(monster["Tags"] || 0, monsterTags)}</p>`;
 
-    if (monster["Extract"]>=0)
+    if (monster["Extract"] >= 0)
         bottomInfo += `<p><b>Extract:</b> ${extracts[monster["Extract"]]}</p>`;
 
     CreateAndPush(bottomInfo, "div", "monster-extract", block)
@@ -148,6 +150,7 @@ function CreateAndPush(content, content_type, content_class, pushTo) {
 }
 
 function addPeriod(string) {
+    if (string.length == 0) return '';
     if (!~[".", "!", "?", ";"].indexOf(string[string.length - 1])) string += ".";
     return string;
 }

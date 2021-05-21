@@ -7,9 +7,37 @@ toc: true
 toc-title: Dead Weight
 hide-title: false
 print: true
+
+links-title: Books
+links: Core Rules|index, Bestiary, Blacksalt*
 ---
 
 [This section of the book is still a very early work in progress, more content will come soon!]{.alert}
+
+# Equipment {.wide}
+![](images/weapons.png "Weapons"){.left}
+
+There are 5 item categories **common**, **uncommon**, **valuable**, **rare** and **exotic**. The categories set the item price and how hard is to find it during the **interlude**.
+
+Again, if you really like statistics, this is the statistics map of the [possible prices](https://anydice.com/program/222fe).
+
+<itemTable id="0" caption="Common items (1d6 silver)">
+
+<itemTable id="1" caption="Uncommon items (2 + 2d6 silver)">
+
+<itemTable id="2" caption="Valuable items (3 x 2d6 silver)">
+
+<itemTable id="3" caption="Rare items (5 x 3d6 silver)">
+
+<itemTable id="4" caption="Exotic items (10 x 4d6 silver)">
+
+# Weapons
+
+All weapons can be used with one hand, unless stated otherwise.
+
+<pagebreak>{.simple}
+
+<weaponTable>
 
 # The Dead Vigil
 One of the most notable things about **Blacksalt** is the **dead vigil**. Any creature that dies in **Blacksalt** has a chance to come back to life as an undead, humans will almost always come back, animals and other smaller creatures can come back to life but that's not common. This effect is called the **dead vigil**.

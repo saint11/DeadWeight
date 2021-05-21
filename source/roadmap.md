@@ -12,9 +12,12 @@ print: false
 ## Done Recently
 - [x] Spells and schools of magic
 - [x] Gods and prayers
+- [x] Reordered content
 
 ## Working on now
 - [ ] Sample dungeon level 2
+- [ ] Banish undead skill
+- [ ] Cleric sacrifice
 - [ ] Interlude (City Phase)
 
 ## Next

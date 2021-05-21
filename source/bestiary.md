@@ -1,5 +1,5 @@
 ---
-title: Bestiary - Dead Weight
+title: Bestiary
 author: Pedro Medeiros
 date: 2021-04-21
 
@@ -7,10 +7,13 @@ toc: true
 toc-title: Dead Weight
 hide-title: true
 print: true
+
+links-title: Books
+links: Core Rules|index, Bestiary*, Blacksalt
 ---
 
 ### The Child-Stealers {.big}
-The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. They are also called the **forest folk**, **goblinfolk** or **goblins** in general.
+The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. They are also called the **forest folk**, **goblinfolk** or just **goblins** in general.
 
 They are usually smaller than humans, with white skin covered in bumps and red spots, pointy ears and usually no hair. They have huge mouths with way too many pointy teeth.
 

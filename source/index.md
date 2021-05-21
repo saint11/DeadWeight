@@ -7,6 +7,9 @@ toc: true
 toc-title: Dead Weight
 hide-title: true
 print: true
+
+links-title: Books
+links: Core Rules*|index, Bestiary, Blacksalt
 ---
 
 version 0.1
@@ -238,6 +241,7 @@ Check the **skills** and **traits** section to understand what each of your trai
 - Add 1 proficiency points to **Strength**.
 - Add the trait **battle trance**.
 - Add the skill **Bash**.
+- Add the skill **Weapon master**
 
 Choose one of the following as your starting equipment:
 
@@ -539,10 +543,10 @@ Character attributes in **Dead Weight** specify how good your character is at so
 
 Attributes have two numbers, the ***value***, that measure your character endurance and natural talent with that attribute and the ***proficiency***, measuring how well trained your character is at that. Every character has 4 attributes.
 
-- **Strength** is physical strength and constitution of a character. It also influences how many ***items*** a character can carry and your resistance to physical damage.
-- **Dexterity** is how fast and precise a character is. It is used mostly in ranged attacks, initiative, dodging and in a variety of tests.
-- **Intelligence** is how intelligent and wise a character is. It also influences how many ***spells and prayers*** a character can memorize.
-- **Presence** is how persuasive and strong-willed a character is. It also influences the party's **morale**.
+- **Strength** (STR) is physical strength and constitution of a character. It also influences how many ***items*** a character can carry and your resistance to physical damage.
+- **Dexterity** (DEX) is how fast and precise a character is. It is used mostly in ranged attacks, initiative, dodging and in a variety of tests.
+- **Intelligence** (INT) is how intelligent and wise a character is. It also influences how many ***spells and prayers*** a character can memorize.
+- **Presence** (PRE) is how persuasive and strong-willed a character is. It also influences the party's **morale**.
   
 ## Skills
 
@@ -574,7 +578,11 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Street Wise**: You do not get robbed in the **interlude** and you have one extra daily action. You may reduce the price of **common** items by 1 silver (to a minimum of 1).
 - **Surgeon:** During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.
 - **Survivalist:** 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
-- **Veteran**: Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
+- **Veteran**: (1 explorer action) Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
+
+Weapon and armor use depends on the character arsenal skill. Using an equipment without the proper skill all tests you make are made with [disadvantage]{.tip}.
+
+- **Weapon master**: Can use any weapon.
 
 <pagebreak>
 
@@ -612,6 +620,27 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 | Doomed      | It is said that some artifacts inside the dungeon can help.         | When the doom tracker moves, it moves one extra point.                   |
 
 \* Not exclusive, always check item descriptions for more ways to remove afflictions.
+
+## Trappings
+**Adventurers** have a number of item slots in their character sheets, most items take up one slot, some may take more than one and some may be stacked.
+
+When items have a characteristic that makes them awkward or hard to carry, write it bellow the item, with the characteristic occupying one extra slot. Examples of characteristics are **oversized**, **fragile** and **unstable**.
+
+Very small items, like chalk, keys or a dice do not occupy any slots, and should be written down in the *notes* section of the character sheet.
+
+All characters have:
+
+- 4 slots in the **torso**, equipped armor also goes here too.
+- 2 slots in each **hand**, equipped weapon or item goes here too. When equipping a weapon or item, the hand may not carry more items. 
+
+Characters may also have certain containers:
+
+- 1 slot in the **belt**, or 2 slots in a **small pouch**.
+- 1 slot in the **canteen**, or 2 slots in a **skin**.
+- 4 slots in a **bag** or satchel carried on the torso, or 7  in a **backpack**.
+- Up to 2 **small bags**, each with 3 **slots**.
+
+You may circle the appropriate container your character has.
 
 <pagebreak>
 
@@ -802,7 +831,6 @@ The distinct phases of the combat happen on a loop, until the fight is resolved,
 - [3. Slow players turn](#3-slow-players-turn)
 - [4. Evaluation and cleanup](#4-evaluation-and-cleanup)
 
-
 ### 0. Setup
 
 The *GM* starts by placing all the visible enemies in the map.
@@ -863,12 +891,11 @@ If the player has one or more **stunned token** they can only do a [recover acti
 Choose a weapon and a target. Read the weapon description for any special rules.                                              
 Test the weapon **attribute** to hit.                                                                                         
 For each [dodge]{.tip #dodge_token} and [shield token]{.tip} the defender spends, they may choose a dice and force the attacker to reroll it. 
-On success apply the **wounds** specified in the weapon                                                                       
-On a great success, add the **critical wounds** too.
+On success apply the **wounds** specified in the weapon notation. On a great success, it's a *critical hit*, add the **critical wounds** too.
 
 Weapons can only attack units within their range, if a weapon description doesn't specify  a range it can only hit targets **Close**.
 
-Check the [taking damage](#taking-damage) on the enemy section to see how enemies receive and reduce wounds.
+Check the [taking damage](#taking-damage) on the enemy section to see how enemies receive and reduce wounds. Check the [attack notation](#attack-notation) section for how weapons and attacks work.
 
 #### Recover (1 action) {.block}
 You may remove one [shield token]{.tip} or [dodge token]{.tip}, if you do so, also recover one **fatigue** point from on a chosen attribute. 
@@ -908,6 +935,52 @@ Receiving an item doesn't cost an action.
 #### Help another (2 actions) {.block}
 Next turn an ally will receive an extra dice from you in all their actions, can only be used on allies that are on the same or adjacent positions.
 Check *Receiving Help* for more information.
+
+
+### Attack Notation
+
+When we write down an attack or weapon through this book we use an abbreviated notation, to keep things short and simple.
+All attacks specify a test that the **player** must roll, followed by the amount of damage that the attack causes and the critical damage. If the attack has any special rules those are written in full after the notation.
+
+Let's see a simple example:
+
+> Driftwood Club (STR 2)
+
+This one is pretty straightforward, to use a *driftwood club* the player must roll a **strength** test, on a success, it will be cause 2 wounds on the enemy, that can be reduced by any resistances the enemy has. Since it doesn't specify a range, it can only hit targets that are **close** (1 tile away, not diagonally).
+
+Some weapons have special effects on a critical hit, let's see another example:
+
+> Falchion (STR 3+1B)
+
+To use it the player **test strength**(**STR**), causes 3 wounds on a regular success. The last thing is that "**+1B**", meaning that if the player roll a great success (rolling a couple of 6s) it will cause the bleeding affliction and one extra wound, to a total of **4 wounds**. To understand what all the letters mean, check the **weapon effects table** bellow.
+
+Ranged weapons and attacks have the range specified in the description, if nothing is written, just assume it hits only targets that are **Close**. Here's a ranged weapon example:
+
+> Throwing hatchet (DEX 1+1): Nearby
+
+Meaning that a throwing hatchet can be thrown to any target within 5 tiles. At the *GM* discretion line of sight can be enforced and penalties for missing ranged weapons, like hitting other adventurers can also happen. Sometimes the range can be notated in **tiles** too, when a more exact measurement is needed.
+
+Enemy attacks are also notated in the same way, but enemies do not roll dice to attack, since they don't have attributes, this means that the attribute on enemy attacks is for **defending** that attack. Again, it's easier to explain with an example:
+
+> Soul nibble (INT 2): Ignore shields. Add a stun token on hit.
+
+This is an interesting one, to defend from this attack the **player** must test **intelligence**. If the test **fails**, the **player** takes 2 wounds. Looking at the description you can see that the player cannot use [shield tokens]{.tip} for defending this attack and if the **adventurer** gets hit, a [stun token]{.tip} should be added.
+
+Some enemies or weapons can add [advantage]{.tip} or [disadvantage]{.tip} to the **player**'s roll. Those are done by simply adding a plus(+) or minus(-) sign before the notated attribute. And for a last example, let's check en enemy attack with critical hits:
+
+> Rend(-STR 2+2B)
+
+In this case, a player must roll a **strength** test with [disadvantage]{.tip} to defend from this attack. Enemies trigger critical hits when the **player** critically fails (rolling a fail with one or more 1s). So if a **player** critically fails a **strength** test against this attack, the **adventurer** would take 4 wounds and the bleeding affliction.
+
+There are a few possible effects associated with weapons, so here is a list of all of them:
+
+| Symbol | Effect                                                                       |
+| ------ | ---------------------------------------------------------------------------- |
+| **B**  | Causes the **Bleeding** affliction.                                          |
+| **P**  | Pierces through **Armor**.                                                   |
+| **R**  | Can't use **Toughen Up** or be **Resisted**.                                 |
+| **N**  | Non-lethal. Ignore any damage that would kill or mortally wound a character. |
+[Weapon Effects]
 
 <pagebreak>
 
@@ -1028,6 +1101,46 @@ Expeditions counts as a whole day, so when returning from one, skip to the **sle
 Just like the *exploration phase* the interlude has a list of **actions** that the **adventurers** can take. Each day the characters may spend **2 actions**.
 
 ### 2. Blacksalt events
+Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the event table.
+
+|   1d6   | Effect                              |
+| :-----: | :---------------------------------- |
+|    1    | Roll from the **bad events** table. |
+| 2, 3, 4 | Nothing interesting happens today.  |
+|    5    | Roll from the **neutral events**.   |
+|    6    | Roll from the **opportunities**.    |
+[Blacksalt events]
+
+|  1d6  | Effect |
+| :---: | :----- |
+|   1   |        |
+|   2   |        |
+|   3   |        |
+|   4   |        |
+|   5   |        |
+|   6   |        |
+[Bad events]
+
+|  1d6  | Effect |
+| :---: | :----- |
+|   1   |        |
+|   2   |        |
+|   3   |        |
+|   4   |        |
+|   5   |        |
+|   6   |        |
+[Neutral events]
+
+|  1d6  | Effect |
+| :---: | :----- |
+|   1   |        |
+|   2   |        |
+|   3   |        |
+|   4   |        |
+|   5   |        |
+|   6   |        |
+[Opportunities]
+
 
 ### 3. Hunger Bites
 Each player must consume one *ration* each, or get the **hungry** and **parched** affliction. If they already have the *hungry affliction* roll from the [decay table](#exploration).
@@ -1071,129 +1184,11 @@ In the interlude, if you were to receive an affliction you already have, you mus
 | 11-12 | Restore all fatigue, heal 1 wound and remove **sleepy**, **shaken** and **angry**. |
 [Inn (1 silver)]
 
-
 ## Character Progression
 
 Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire grievous wounds, curses and mortal enemies. Characters can level up to level 6, after that they will eventually find their untimely death or will finally ***retire***.
 
 Retired characters contribute to ***The Guild***, allowing players to start new characters with more bonuses and giving them a long term goal.
-
-
-<pagebreak>
-
-# World
-
-For more information about the locations and history of the island, check the [Blacksalt book](./blacksalt.html).
-
-## Trappings
-**Adventurers** have a number of item slots in their character sheets, most items take up one slot, some may take more than one and some may be stacked.
-
-When items have a characteristic that makes them awkward or hard to carry, write it bellow the item, with the characteristic occupying one extra slot. Examples of characteristics are **oversized**, **fragile** and **unstable**.
-
-Very small items, like chalk, keys or a dice do not occupy any slots, and should be written down in the *notes* section of the character sheet.
-
-All characters have:
-
-- 4 slots in the **torso**, equipped armor also goes here too.
-- 2 slots in each **hand**, equipped weapon or item goes here too. When equipping a weapon or item, the hand may not carry more items. 
-
-Characters may also have certain containers:
-
-- 1 slot in the **belt**, or 2 slots in a **small pouch**.
-- 1 slot in the **canteen**, or 2 slots in a **skin**.
-- 4 slots in a **bag** or satchel carried on the torso, or 7  in a **backpack**.
-- Up to 2 **small bags**, each with 3 **slots**.
-
-You may circle the appropriate container your character has.
-
-### Equipment {.wide}
-
-There are 5 item categories **common**, **uncommon**, **valuable**, **rare** and **exotic**. The categories set the item price and how hard is to find it during the **interlude**.
-
-Again, if you really like statistics, this is the statistics map of the [possible prices](https://anydice.com/program/222fe).
-
-<itemTable id="0" caption="Common items (1d6 silver)">
-
-<itemTable id="1" caption="Uncommon items (2 + 2d6 silver)">
-
-<itemTable id="2" caption="Valuable items (3 x 2d6 silver)">
-
-<itemTable id="3" caption="Rare items (5 x 3d6 silver)">
-
-<itemTable id="4" caption="Exotic items (10 x 4d6 silver)">
-
-### Weapons
-
-![](images/weapons.png "Weapons"){.left}
-
-#### Weapon Notation
-
-Weapons are notated as following:
-
-> Falchion (STR 3+1B)
-
-Let's break down the **Falchion** notated above. To use it you test your strength(**STR**), causes 3 wounds on a regular success and 4 wounds(**+1**) on a great success. The last thing is the "**B**", meaning that on a great success it will cause the bleeding afflictions.
-
-Some weapons are even simpler:
-
-> Driftwood Club (STR 2)
-
-This means that just like the falchion, you test **strength** to hit, but always cause 2 wounds, even on a critical hit.
-
-Let's see another example:
-
-> War hammer (STR 1P+3): If you hit roll a d6, on a 6 add a [stun token]{.tip} to the enemy.
-
-The **War hammer** also requires a strength(**STR**) test to hit, causes 1 wound on a regular success and **pierces trough armor**(**P**). On a critical hit it causes wounds(**+3**) and still pierces through armor, effects that happens on regular hits also happen on critical hits. Note that the **war hammer** has a special effect to be applied on hit, always check the weapon text before the attack.
-
-There are many possible effects associated with weapons, here is a list of all of them:
-
-| Symbol | Effect                                                                       |
-| ------ | ---------------------------------------------------------------------------- |
-| **B**  | Causes the **Bleeding** affliction.                                          |
-| **D**  | Ignores [dodge tokens]{.tip}.                                                |
-| **N**  | Non-lethal. Ignore any damage that would kill or mortally wound a character. |
-| **P**  | Pierces through **Armor**.                                                   |
-| **R**  | Can't use **Toughen Up** or be **Resisted**.                                 |
-| **S**  | Add a [stun token]{.tip}                                                     |
-| **X**  | Ignores [shield tokens]{.tip}.                                               |
-| **?**  | Special effect on the description.                                           |
-[Weapon Effects]
-
-Ranged weapons have the range specified, if nothing is written, just assume it hits only targets that are **Close**. Here's a ranged weapon example:
-
-> Throwing hatchet (DEX 1X+1 **Nearby**)
-
-This throwing hatchet can it a target nearby and ignores shields.
-
-All weapons can be used with one hand, unless stated otherwise.
-
-
-<pagebreak>{.simple}
-
-| Weapon             | Stats      | Special rules                                                                     |
-| ------------------ | :--------- | --------------------------------------------------------------------------------- |
-| Battle axe         | STR 4+2B   | 2 hands.                                                                          |
-| Cane               | STR 1+1    |                                                                                   |
-| Driftwood Club     | STR 2      |                                                                                   |
-| Dagger             | STR 1 + 3P |                                                                                   |
-| Falchion           | STR 3+1B   |                                                                                   |
-| Flail              | STR 2X+2   | If you miss, roll a d6, on a 1 you hit yourself with 1 wound.                     |
-| Quarterstaff       | STR 1+1    | If you successfully add one [dodge token]{.tip}, add another one (once per turn). |
-| Sacrificial dagger | STR 1B+1   | If blocked by a shield roll a d6, on 1 it breaks.                                 |
-| Notched whip       | 1E + 2B    | If the enemy has no armor, add a **stun maker** to the enemy.                     |
-| Spear              | STR 3+1B   | 2 hands. Can be used with 1 hand, but reduces the attack roll by 1.               |
-| Short sword        | STR 2+1    | If dual wielded becomes 3+1D.                                                     |
-| War hammer         | STR 1P + 3 | If you hit roll a d6, on a 6 add a [stun token]{.tip} to the enemy.               |
-[Melee Weapons]
-
-| Weapon           | Stats                | Special rules                                                                                           |
-| ---------------- | -------------------- | ------------------------------------------------------------------------------------------------------- |
-| Throwing hatchet | DEX 1X+1 **Nearby**  | You can use STR to hit but if you do, flip a coin, on heads it hits with the handle, causing no damage. |
-|                  |                      | You can also use STR to melee with no downsides.                                                        |
-| Short bow        | DEX 2+1E **Faraway** | 2 hands Need arrows.                                                                                    |
-| Crossbow         | DEX 3P+1 **Faraway** | 2 hands. Requires 2 actions to reload.                                                                  |
-[Ranged Weapons]
 
 
 <pagebreak>
