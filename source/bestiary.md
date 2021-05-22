@@ -12,6 +12,21 @@ links-title: Books
 links: Core Rules|index, Bestiary*, Blacksalt
 ---
 
+### Demons {.big}
+All magic com from the void realm, a nightmare plane where all demons come from.
+
+![](images/void.png "Plagued rat"){.left}
+
+<monster id="lesser_demon">
+
+<monster id="void_demon">
+
+<monster id="vault_weaver">
+
+<monster id="red_weaver">
+
+*When a red weaver dies it will explode, launching all the corpses it ate all over the place. The corpses are perfectly preserved. The [dead vigil]{.tip} can't set in on a corpse while inside the weaver.*
+
 ### The Child-Stealers {.big}
 The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. They are also called the **forest folk**, **goblinfolk** or just **goblins** in general.
 
@@ -52,21 +67,6 @@ Most of them worship **Igra**, the god of the woods but a few will workship [Gos
 *A very old goblin shaman that has a special fungus growing on her back. Goblins will immobilize their victims and for weeks will force them to breath the spores and eat the fungus, turning them into **goblins** and **gremlins**.*
 
 <pagebreak>
-
-### Demons {.big}
-All magic com from the void realm, a nightmare plane where all demons come from.
-
-![](images/void.png "Plagued rat"){.left}
-
-<monster id="lesser_demon">
-
-<monster id="void_demon">
-
-<monster id="vault_weaver">
-
-<monster id="red_weaver">
-
-*When a red weaver dies it will explode, launching all the corpses it ate all over the place. The corpses are perfectly preserved. The [dead vigil]{.tip} can't set in on a corpse while inside the weaver.*
 
 ### Dungeon Scavengers  {.big}
 The dungeon ruins have corpses and rotting things all around. While humans avoid those places, they might just be what some creatures are looking for.

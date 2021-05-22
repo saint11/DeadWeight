@@ -328,7 +328,7 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 
 ### Cleric {.big .unlisted .break}
 
-![](images/cleric.png "Cleric"){.left}
+![](images/cleric-yulak.png "Cleric"){.left}
 
 - Add 1 proficiency points to **Presence**.
 - Add the trait **divine mandate**.
@@ -559,6 +559,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Animal Affinity:** You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals. You have a small pet that follows you around (**weak ally**).
   - **Beastmaster:**(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
 - **Bash:** You can perform a **bash** combat action, bashing with your shield or weapon hilt attacking with **STR 1**, add a [stun token]{.tip} to the enemy on a hit.
+- **Banish Undead**: Perform a **presence test**, on a success any undead **nearby** that can see you, level 4 or lower must spend one action moving at least 1 step away from you.
 - **Cooking:** Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
   - **Master Chef:**(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
 - **Crafting:**  You have [advantage]{.tip} when testing for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
@@ -1100,45 +1101,37 @@ Expeditions counts as a whole day, so when returning from one, skip to the **sle
 ### 1. Interlude actions
 Just like the *exploration phase* the interlude has a list of **actions** that the **adventurers** can take. Each day the characters may spend **2 actions**.
 
+#### Rest {.block}
+#### Go back to expedition {.block}
+
 ### 2. Blacksalt events
 Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the event table.
 
-|   1d6   | Effect                              |
-| :-----: | :---------------------------------- |
-|    1    | Roll from the **bad events** table. |
-| 2, 3, 4 | Nothing interesting happens today.  |
-|    5    | Roll from the **neutral events**.   |
-|    6    | Roll from the **opportunities**.    |
+|  1d6  | Effect                                 |
+| :---: | :------------------------------------- |
+| 1 - 3 | Roll from the **bad events** table.    |
+| 4 - 5 | Nothing interesting happens today.     |
+|   6   | Roll from the **opportunities** table. |
 [Blacksalt events]
 
-|  1d6  | Effect |
-| :---: | :----- |
-|   1   |        |
-|   2   |        |
-|   3   |        |
-|   4   |        |
-|   5   |        |
-|   6   |        |
+|  1d6  | Effect                                                                              |
+| :---: | :---------------------------------------------------------------------------------- |
+|   1   | Signs of worse things coming. Advance the **doom** and **omens** tracker.           |
+|   2   | Bad harvest. All food-related items prices are doubled for 1d6 days.                |
+|   3   | Attacked by thugs in a dark alley, receive 3 wounds and pay 2d6 silver, as a group. |
+|   4   | The sun didn't rise. Everyone takes **terrified** or **hopeless**.                  |
+|   5   | Overcrowded. All prices of rent and housing related items are doubled for 1d6 days. |
+|   6   | Prosecution. Advance the **doom** tracker.                                          |
 [Bad events]
 
-|  1d6  | Effect |
-| :---: | :----- |
-|   1   |        |
-|   2   |        |
-|   3   |        |
-|   4   |        |
-|   5   |        |
-|   6   |        |
-[Neutral events]
-
-|  1d6  | Effect |
-| :---: | :----- |
-|   1   |        |
-|   2   |        |
-|   3   |        |
-|   4   |        |
-|   5   |        |
-|   6   |        |
+|  1d6  | Effect                                                                                          |
+| :---: | :---------------------------------------------------------------------------------------------- |
+|   1   | Unexpected blessing. Reduce the **doom** tracker.                                               |
+|   2   | Good harvest. All food-related item prices are halved for one day. Stops **Bad harvest** event. |
+|   3   | A naive investor. When selling items get 50% extra silver.                                      |
+|   4   | A calm day. Everyone removes **terrified**, **hopeless** or **Angry**.                          |
+|   5   | Empty streets. Housing prices are halved for today. Stops **Overcrowded** event.                |
+|   6   | Refreshing winds. Everyone removes **angry**, **shaken** or 1 **wound**.                        |
 [Opportunities]
 
 

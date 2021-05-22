@@ -92,7 +92,8 @@ section.block {
     background-image: url(images/ornament-white.png);
     display: table;
     width: -webkit-fill-available;
-    ;
+    clear: both;
+    
 }
 
 img {

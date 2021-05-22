@@ -569,7 +569,7 @@ In the end of this book there's a sample dungeon to help the <strong>GM</strong>
 
 <section class="big unlisted break" id="cleric">
 <h3 class="big unlisted break">Cleric</h3>
-<p><img src="images/cleric.png" alt="" title="Cleric" class="left"></p>
+<p><img src="images/cleric-yulak.png" alt="" title="Cleric" class="left"></p>
 <ul>
 <li>Add 1 proficiency points to <strong>Presence</strong>.</li>
 <li>Add the trait <strong>divine mandate</strong>.</li>
@@ -803,6 +803,7 @@ There are 4 range bands for measuring distance in <strong>Dead Weight</strong>:<
 </ul>
 </li>
 <li><strong>Bash:</strong> You can perform a <strong>bash</strong> combat action, bashing with your shield or weapon hilt attacking with <strong>STR 1</strong>, add a <span class="tip">stun token</span> to the enemy on a hit.</li>
+<li><strong>Banish Undead</strong>: Perform a <strong>presence test</strong>, on a success any undead <strong>nearby</strong> that can see you, level 4 or lower must spend one action moving at least 1 step away from you.</li>
 <li><strong>Cooking:</strong> Each ration can feed an extra <em>adventurer</em> in the camp phase. You get <em>1 free ration</em> at the start of the <strong>interlude</strong>.
 <ul>
 <li><strong>Master Chef:</strong>(advanced) Each ration can feed two extra <em>adventurers</em> in the camp phase. You get <em>3 free ration</em> at the start of the <strong>interlude</strong>.</li>
@@ -1501,6 +1502,12 @@ All attacks specify a test that the <strong>player</strong> must roll, followed 
 <section id="1.-interlude-actions">
 <h3>1. Interlude actions</h3>
 <p>Just like the <em>exploration phase</em> the interlude has a list of <strong>actions</strong> that the <strong>adventurers</strong> can take. Each day the characters may spend <strong>2 actions</strong>.</p>
+<section class="block" id="rest">
+<h4 class="block">Rest</h4>
+</section>
+<section class="block" id="go-back-to-expedition">
+<h4 class="block">Go back to expedition</h4>
+</section>
 </section>
 <section id="2.-blacksalt-events">
 <h3>2. Blacksalt events</h3>
@@ -1515,20 +1522,16 @@ All attacks specify a test that the <strong>player</strong> must roll, followed 
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">1</td>
+<td style="text-align:center">1 - 3</td>
 <td style="text-align:left">Roll from the <strong>bad events</strong> table.</td>
 </tr>
 <tr>
-<td style="text-align:center">2, 3, 4</td>
+<td style="text-align:center">4 - 5</td>
 <td style="text-align:left">Nothing interesting happens today.</td>
 </tr>
 <tr>
-<td style="text-align:center">5</td>
-<td style="text-align:left">Roll from the <strong>neutral events</strong>.</td>
-</tr>
-<tr>
 <td style="text-align:center">6</td>
-<td style="text-align:left">Roll from the <strong>opportunities</strong>.</td>
+<td style="text-align:left">Roll from the <strong>opportunities</strong> table.</td>
 </tr>
 </tbody>
 </table>
@@ -1543,62 +1546,27 @@ All attacks specify a test that the <strong>player</strong> must roll, followed 
 <tbody>
 <tr>
 <td style="text-align:center">1</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Signs of worse things coming. Advance the <strong>doom</strong> and <strong>omens</strong> tracker.</td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Bad harvest. All food-related items prices are doubled for 1d6 days.</td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Attacked by thugs in a dark alley, receive 3 wounds and pay 2d6 silver, as a group.</td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">The sun didn't rise. Everyone takes <strong>terrified</strong> or <strong>hopeless</strong>.</td>
 </tr>
 <tr>
 <td style="text-align:center">5</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Overcrowded. All prices of rent and housing related items are doubled for 1d6 days.</td>
 </tr>
 <tr>
 <td style="text-align:center">6</td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<caption id="neutralevents">Neutral events</caption>
-<thead>
-<tr>
-<th style="text-align:center">1d6</th>
-<th style="text-align:left">Effect</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">1</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:center">2</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:center">3</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:center">4</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:center">5</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:center">6</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Prosecution. Advance the <strong>doom</strong> tracker.</td>
 </tr>
 </tbody>
 </table>
@@ -1613,27 +1581,27 @@ All attacks specify a test that the <strong>player</strong> must roll, followed 
 <tbody>
 <tr>
 <td style="text-align:center">1</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Unexpected blessing. Reduce the <strong>doom</strong> tracker.</td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Good harvest. All food-related item prices are halved for one day. Stops <strong>Bad harvest</strong> event.</td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">A naive investor. When selling items get 50% extra silver.</td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">A calm day. Everyone removes <strong>terrified</strong>, <strong>hopeless</strong> or <strong>Angry</strong>.</td>
 </tr>
 <tr>
 <td style="text-align:center">5</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Empty streets. Housing prices are halved for today. Stops <strong>Overcrowded</strong> event.</td>
 </tr>
 <tr>
 <td style="text-align:center">6</td>
-<td style="text-align:left"></td>
+<td style="text-align:left">Refreshing winds. Everyone removes <strong>angry</strong>, <strong>shaken</strong> or 1 <strong>wound</strong>.</td>
 </tr>
 </tbody>
 </table>

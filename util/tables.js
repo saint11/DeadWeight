@@ -35,10 +35,10 @@ function makeTable(data, options) {
                 table.appendChild(header);
 
                 if (options.tags && options.tags[el[0].toLowerCase()]) {
-                    tags[col] = toBitwise(options.tags[el[0].toLowerCase()]);
+                    tags[el[0].toLowerCase()] = toBitwise(options.tags[el[0].toLowerCase()]);
                 }
                 if (options.enums) {
-                    enums[col] = options.enums[el[0].toLowerCase()];
+                    enums[el[0].toLowerCase()] = options.enums[el[0].toLowerCase()];
                 }
             }
         }
@@ -55,11 +55,11 @@ function makeTable(data, options) {
 
             const cell = document.createElement('td');
 
-            if (tags[col]) {
-                const text = bitToString(Number.parseInt(entry[1]), tags[col]);
+            if (tags[entry[0]]) {
+                const text = bitToString(Number.parseInt(entry[1]), tags[entry[0]]);
                 cell.innerHTML = text;
-            } else if (enums[col]) {
-                const text = enums[col][Number.parseInt(entry[1])];
+            } else if (enums[entry[0]]) {
+                const text = enums[entry[0]][Number.parseInt(entry[1])];
                 cell.innerHTML = text;
             }
             else {
@@ -160,6 +160,8 @@ function capitalizeFirstLetter(string) {
 }
 
 function toBitwise(array) {
+    if (!array) return {};
+
     var a = {};
     for (let i = 0; i < array.length; i++) {
         const el = array[i];

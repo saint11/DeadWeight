@@ -170,6 +170,8 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 ### Cador {.big}
 **God of death**, Cador want order to be brought back to the word. Cador is the great enemy of the undead, his zealots hunt them down and seal their corpses so the [dead vigil]{.tip} doesn't set in.
 
+**Sacrifice**: To please Cador, the cleric must capture, then kill an undead during the sacrifice ritual.
+
 #### Prayers {.block .unlisted}
 - **Mercy**: Immediately kills any creature that would die if received 4 wounds or less.
 - **Seal**: Creates a 3m line that no undead can cross during this expedition.
@@ -181,6 +183,8 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 ### Yulak {.big}
 **God of purity**, Yulak is not only the god of purity but also the god of fire and punishment. She is merciless and so are her disciples.
 
+**Sacrifice**: To please Yulak, the cleric must self-flagellate, causing 2 wounds and bleeding to self.
+
 #### Prayers {.block .unlisted}
 - **Detect Evil**: Everything **nearby** that's evil or undead glows with a green light, lasts for 1d6 turns.
 - **Righteous Fury**: (Close) Target gets **3 extra dice** in the next row and the **angry** affliction. Add one wound to any damage caused by the target in the next row.
@@ -189,7 +193,11 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 - **Purge the filth**: (Nearby) Target gets extremely nauseous, vomiting a black slime and can't act for 2 combat turns or 1 exploration turn. After that the target heals 3 wounds.
 
 ### Akhzu {.big}
+![](images/cleric-akhzu.png "Cleric"){.left}
+
 **God of nature and chimeras**, Akhzu embraces the chaos and the natural flow of the wild.
+
+**Sacrifice**: To pacify Akhzu, the cleric must feed the earth, burring 2 rations.
 
 #### Prayers {.block .unlisted}
 - **Season of changes**: (Nearby ally) You may move any number of **wounds** and **fatigues** from one attribute to another.
@@ -201,6 +209,8 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 
 ### Kaal Rafir {.big}
 **The god plague and diseases**, Kaal Rafir is the first of the new gods, originally he was the god of entropy and cold.
+
+**Sacrifice**: Kaal Rafir doesn't require sacrifices, but just praying for him at the camp will restore the cleric's powers. But when angered the whole party takes 2 non-lethal presence fatigue.
 
 #### Prayers {.block .unlisted}
 - **Hold**: (Nearby) Paralyzes target for 1d6 turns, reducing the target's actions to zero.
