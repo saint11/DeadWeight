@@ -1,3 +1,4 @@
+var uslug = require("uslug");
 const moment = require('moment');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -46,7 +47,7 @@ var shortcodes = {
                 bold: [0],
                 filter: el => el["rarity"] == attrs.id,
                 caption: attrs.caption,
-                tags: { tags: ["Quick", "Slow", "Camp", "Equipment"] }
+                punctuation: { stats: true },
             };
             return makeTable(data_weapons, options);
         }
@@ -77,8 +78,10 @@ const headingOptions = {
 var mdWeb = require('markdown-it')({ html: true, breaks: false });
 const toc_options = {
     level: 1,
-    listType: 'ul'
-
+    listType: 'ul',
+    slugify: s => {
+        return uslug(s);
+    }
 };
 mdWeb.use(require("markdown-it-attrs"));
 mdWeb.use(require("markdown-it-task-lists"));

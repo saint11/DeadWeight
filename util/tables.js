@@ -63,8 +63,9 @@ function makeTable(data, options) {
                 cell.innerHTML = text;
             }
             else {
+                const noPeriod = (options.punctuation ?? {})[entry[0].toLowerCase()];
                 const text = entry[1];
-                cell.innerHTML = col == 0 ? `<b>${markdown.render(capitalizeFirstLetter(text))}</b>` : markdown.render(addPeriod(text));
+                cell.innerHTML = col == 0 ? `<b>${markdown.render(capitalizeFirstLetter(text))}</b>` : markdown.render(noPeriod ? text : addPeriod(text));
             }
 
             row.appendChild(cell);

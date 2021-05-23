@@ -59,8 +59,19 @@ A water pump is here connected to the water source, and it's pumping water upsta
 
 ## 7 Guhlat's Lair
 
-## 8 Mining Supply Room
+This is the nest of the giant spider known as **Guhlat** by the people of Trinta. Is a big cave, but it is clearly not a natural one, but dug out by the spiders, since it's a bit too rounded. The walls and floors are covered in spider web and are filled with small dried animal carcasses and thousands of very little spiders.
 
+- [Guhlat, the giant spider]{.m #giant_spider} is here.
+- 4 [spiderlings]{.m} will protect guhlat, but will run away immediately if she dies.
+
+If the combat is too easy, you can add 1 or 2 [dire spiders]{.m} coming from the outside tunnel.
+
+## 8 Mining Supply Room
+This looks like an old supply room for some kind of mining operation.
+
+- A small cart with rocks, if the rocks are searched, a small [valuable]{.tip} precious stone can be found.
+- Mining tools, a pickaxe (STR 2P) and a shovel.
+- 
 - There is a hydraulic machine here, with a valve. Opening the valve will spill some water and a mechanical noise far away can be heard.
 
 ## 9 Abandoned Vault
@@ -77,8 +88,12 @@ When both valves in the [abandoned vault](#9-abandoned-vault) and in the [mining
 ## 11 Summoning Room
 
 ## 12 Corpse Storage
+Big iron bars and a gate separate this room from the other [summoning room](#11-summoning-room). Here are stored dozen of vases with human corpses inside, all heavily bounded but still moving. If any of those are freed, they will attack anyone near, they are [starved cadavers]{.m}.
+
+The southeast section of this room is partially flooded, and the water is foul, mixed with the corpses fluids.
 
 ## 13 Cave Antechamber
 The [goblin matriarch]{.m} is locked in here, siting in the corner, her fungus now partially attached to the wall. Two [gremlins]{.m} are carrying pieces of corpses to downstairs and running back up, with a terrified look on their faces.
 
 ## 14 Achereon Zul's Vault
+Acheron Zul's rotting corpse walking in circle in his sealed vault, with a silver dagger stuck to his back. Most of his clothes have rotten and fallen to the ground and he's mostly naked. The ground has a small depression in the shape of a circle, where he must have walked wall these years. 

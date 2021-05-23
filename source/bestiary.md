@@ -9,7 +9,7 @@ hide-title: true
 print: true
 
 links-title: Books
-links: Core Rules|index, Bestiary*, Blacksalt
+links:  Core Rules|index, Playing the Game|game, Bestiary*, Blacksalt
 ---
 
 ### Demons {.big}

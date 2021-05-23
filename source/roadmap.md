@@ -12,23 +12,30 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Cleric sacrifice
+- [x] Banish undead skill
+- [x] Reordered content
 - [x] Spells and schools of magic
 - [x] Gods and prayers
-- [x] Reordered content
 
 ## Working on now
 - [ ] Sample dungeon level 2
-- [ ] Banish undead skill
-- [ ] Cleric sacrifice
 - [ ] Interlude (City Phase)
 
 ## Next
+- [ ] Fix broken links everywhere
+- [ ] Warrior Companies
+- [ ] Thief Gangs
 - [ ] World map
+  - [ ] Settlements
 - [ ] Character advancement
 - [ ] Better encumbrance rules
 - [ ] Sample dungeon level 3 (final level)
+- [ ] Better shield rules
+- [ ] Mortal wounds table
 
 ## Later
+- [ ] Make all life paths roll 3d6 instead of 2d6
 - [ ] Review the print version
 - [ ] List of magic items
 - [ ] Guilds

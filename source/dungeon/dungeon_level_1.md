@@ -192,7 +192,7 @@ There's a small mausoleum near the tomb entrance, in the middle of it there's a 
 
 The corridor inside connects to the [mosaic corridor](#mosaic-corridor) trough an old iron grate (that can be broken).
 
-There's a dead goblin on the ground, and 2 [reanimated husks]{.m} feasting on the corpses.
+If the **adventurers** entered through this door there's a dead goblin on the ground, and 2 [reanimated husks]{.m} feasting on the corpses. Otherwise you may leave this corridor empty.
 
 ## 10 Tomb of the Inner court
 There are many rows of stone coffins, each with a statue lying down on it, representing the person buried there. Most of them are opened, though. Corpses are everywhere all of them hacked into pieces, blood splattered everywhere.

@@ -9,7 +9,7 @@ hide-title: false
 print: true
 
 links-title: Books
-links: Core Rules|index, Bestiary, Blacksalt*
+links:  Core Rules|index, Playing the Game|game, Bestiary, Blacksalt*
 ---
 
 [This section of the book is still a very early work in progress, more content will come soon!]{.alert}
@@ -46,6 +46,10 @@ The cause of the **dead vigil** is uncertain, some blame the old king for trying
 
 Any corpse if left undisturbed will come back to life after 1d6 weeks as a [Freshly risen corpse]{.m} or [Reanimated husk]{.m}, depending on the state of the conservation and will start looking for other people to attack. If the corpse is unsuitable it may come back as ghost, like a [shadow]{.m}.
 
+# Military groups {.draft}  
+
+# Gangs {.draft}
+
 # Schools of Magic
 
 ## Time in spell descriptions
@@ -57,7 +61,7 @@ When rolling for duration, unless specified otherwise, the roll is made by the *
 
 ## Necromancers of Yadar
 
-Controlling the dead and the dark forces of the void is the Necromancers of Yaat's specialty, their techniques are strictly forbidden in most places of the world, but in Blacksalt no one cares, they will take whatever works.
+Controlling the dead and the dark forces of the void is the Necromancers of Yadar's specialty, their techniques are strictly forbidden in most places of the world, but in Blacksalt no one cares, they will take whatever works.
 
 Tales tell that Yadar is a small island, hidden in the black sea, populated only by the undead, and ruled by three Necromancers. No one knows exactly where is the island, but Yadar disciples are everywhere, spreading the necromancer's teachings to the rest of the world.
 

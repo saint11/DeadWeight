@@ -163,7 +163,12 @@
 						{
 							"Name": "Crude falchion",
 							"Description": "",
-							"Check": "STR 2+1B"
+							"Check": "-STR 2+1B"
+						},
+						{
+							"Name": "Death dealer",
+							"Check": "STR 2",
+							"Description": "Hits everyone **close**."
 						}
 					],
 					"Common Actions": [
@@ -1190,6 +1195,26 @@
 				{
 					"id": "yulak",
 					"Description": "Yulak is the god of purity, fire and punishment"
+				},
+				{
+					"id": "common",
+					"Description": "Worth meager 1d6 silver coins."
+				},
+				{
+					"id": "uncommon",
+					"Description": "Worth of 2 + 2d6 silver coins"
+				},
+				{
+					"id": "valuable",
+					"Description": "Worth 3 X 2d6 silver coins"
+				},
+				{
+					"id": "rare",
+					"Description": "Worth a lot, 5 X 3d6 silver coins"
+				},
+				{
+					"id": "exotic",
+					"Description": "Very expensive, sells for 10 X 4d6 silver coins"
 				}
 			],
 			"separators": [],
@@ -1684,255 +1709,267 @@
 					"name": "tags"
 				},
 				{
-					"typeStr": "5:common,uncommon,valuable,rare,exotic",
+					"typeStr": "5:free,common,uncommon,valuable,rare,exotic",
 					"name": "rarity"
 				}
 			],
 			"lines": [
 				{
-					"name": "W",
+					"name": "water",
+					"description": "2 units of water can fit one slot",
+					"tags": 1,
+					"rarity": 0
+				},
+				{
+					"name": "cloth",
 					"description": "A piece of cloth, can be used as improvised bandages.",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 2
 				},
 				{
 					"name": "bandages",
 					"description": "A pack of 3 bandages, used to stop bleeding",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 1
 				},
 				{
 					"name": "drawing tools",
 					"description": "Some papers and drawing tools, can be used to draw maps or write scrolls, Ud8",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 0
 				},
 				{
 					"name": "common clothes",
 					"description": "Nothing fancy.",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 8
 				},
 				{
 					"name": "3 meter pole",
 					"description": "Good for looking for traps. (Big)",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 8
 				},
 				{
 					"name": "iron spikes",
 					"description": "For fixing doors open and making sure things stay in place. Ud8",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 2
 				},
 				{
 					"name": "canteen",
 					"description": "For holding water and other liquids.",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 9
 				},
 				{
 					"name": "ration",
 					"description": "Removes the *hungry* affliction. If cooked during camp, can feed 2 (or 3) adventurers (if someone has the *cooking* skill)",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 6
 				},
 				{
 					"name": "torch",
-					"description": "A pack of 2 torches. Lights the way for Ud8 turns.",
-					"rarity": 0,
+					"description": "A pack of 2 torches. Lights the way for Ud6 decays.",
+					"rarity": 1,
 					"tags": 2
 				},
 				{
 					"name": "oil",
 					"description": "For refueling the lantern",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 2
 				},
 				{
 					"name": "rope",
 					"description": "10 meters of rope",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 2
 				},
 				{
 					"name": "special ration",
 					"description": "Tea, coffee or hot chocolate. Does not remove the *hungry* affliction.",
-					"rarity": 0,
+					"rarity": 1,
 					"tags": 4
 				},
 				{
 					"name": "seweing tools",
 					"description": "Repairs one armor point from any cloth armor. Ud8 uses.",
 					"tags": 4,
-					"rarity": 0
+					"rarity": 1
 				},
 				{
 					"name": "small bag",
 					"description": "For extra inventory space.",
 					"tags": 8,
-					"rarity": 0
+					"rarity": 1
 				},
 				{
 					"name": "holy water",
 					"description": "Can be thrown at undead for DEX 2PR, Ud6 uses.",
 					"tags": 8,
-					"rarity": 0
+					"rarity": 1
 				},
 				{
 					"name": "climbing gear",
 					"description": "15m of rope with a hook, spikes and other safety utensils for Ud6 climbs.",
-					"rarity": 1,
+					"rarity": 2,
 					"tags": 2
 				},
 				{
 					"name": "Waterskin",
 					"description": "A large container for holding water and other liquids.",
-					"rarity": 1,
+					"rarity": 2,
 					"tags": 10
 				},
 				{
 					"name": "camping supplies",
 					"description": "Basic supplies for making a fire and cooking.",
-					"rarity": 1,
+					"rarity": 2,
 					"tags": 4
 				},
 				{
 					"name": "lockpicking tools",
 					"description": "For opening simple locks. Ud20 uses",
-					"rarity": 1,
+					"rarity": 2,
 					"tags": 2
 				},
 				{
 					"name": "trapping kit",
 					"description": "For making and disarming simple traps. Can build Ud6 traps",
-					"rarity": 1,
+					"rarity": 2,
 					"tags": 10
 				},
 				{
 					"name": "lantern",
-					"description": "Lights the way for Ud12 turns. Uses oil. Quick to light, slow to refuel.",
-					"rarity": 1,
+					"description": "Lights the way for Ud8 decays. Uses oil. Quick to light, slow to refuel.",
+					"rarity": 2,
 					"tags": 3
 				},
 				{
 					"name": "first aid kid",
 					"description": "Heals one STR or DEX wound. Ud6 uses",
-					"rarity": 1,
+					"rarity": 2,
 					"tags": 4
 				},
 				{
 					"name": "healing tonic",
 					"description": "Heals one INT or DEX wound. Ud4 uses",
-					"rarity": 1,
+					"rarity": 2,
 					"tags": 1
 				},
 				{
 					"name": "wine",
 					"description": "Heals one PRE wound and removes *Parched*. Ud4, causes *Nauseated* if you drink too much.",
-					"rarity": 1,
+					"rarity": 2,
 					"tags": 2
 				},
 				{
 					"name": "leatherworker's toolkit",
 					"description": "Repairs one armor point from any leather or cloth armor. Ud6 uses.",
 					"tags": 4,
-					"rarity": 1
+					"rarity": 2
 				},
 				{
 					"name": "compass",
 					"description": "Useful for not getting lost.",
 					"tags": 1,
-					"rarity": 1
+					"rarity": 2
 				},
 				{
 					"name": "small pouch",
 					"description": "For extra inventory space.",
 					"tags": 8,
-					"rarity": 1
+					"rarity": 2
 				},
 				{
 					"name": "backpack",
 					"description": "For extra inventory space.",
 					"tags": 8,
-					"rarity": 1
+					"rarity": 2
 				},
 				{
 					"name": "exorcism book",
 					"description": "One extra dice when *banishing undead*.",
 					"tags": 0,
+					"rarity": 2
+				},
+				{
+					"name": "shovel or pickaxe",
+					"description": "Good for digging around",
+					"tags": 8,
 					"rarity": 1
 				},
 				{
 					"name": "mechanics toolkit",
 					"description": "For fixing, assembling and disassembling mechanical devices.",
-					"rarity": 2,
+					"rarity": 3,
 					"tags": 0
 				},
 				{
 					"name": "ashes of insight",
 					"description": "Identify a single magic item (slow) or reveals something invisible (quick)",
 					"tags": 3,
-					"rarity": 2
+					"rarity": 3
 				},
 				{
 					"name": "armourer supplies",
 					"description": "Repairs one armor point from any armor. Ud6 uses.",
 					"tags": 4,
-					"rarity": 2
+					"rarity": 3
 				},
 				{
 					"name": "holy symbol",
 					"description": "Used to perform miracles.",
-					"rarity": 2,
+					"rarity": 3,
 					"tags": 0
 				},
 				{
 					"name": "wine of Yoros",
 					"description": "Liquid courage. Heals one PRE and one INT wound.",
-					"rarity": 2,
+					"rarity": 3,
 					"tags": 0
 				},
 				{
 					"name": "pack mule",
 					"description": "Useful for carrying items on long journeys. Has 10 inventory spaces, requires 2 rations per day or grass.",
 					"tags": 0,
-					"rarity": 2
+					"rarity": 3
 				},
 				{
 					"name": "fine jewellery",
 					"description": "Made of precious materials, not very useful in a dungeon.",
-					"rarity": 3,
+					"rarity": 4,
 					"tags": 0
 				},
 				{
 					"name": "living ashes",
 					"description": "+1 damage to a weapon during expedition, Ud4 uses",
 					"tags": 1,
-					"rarity": 3
+					"rarity": 4
 				},
 				{
 					"name": "alchemic kit",
 					"description": "Can be used for modifying, identifying and making potions ",
-					"rarity": 3,
+					"rarity": 4,
 					"tags": 0
 				},
 				{
 					"name": "spell book",
 					"description": "Simple spell book, holds 3 spells",
-					"rarity": 3,
+					"rarity": 4,
 					"tags": 0
 				},
 				{
 					"name": "panacea",
 					"description": "Cures any disease or affliction. Heals one wound in each attribute.",
-					"rarity": 4,
+					"rarity": 5,
 					"tags": 0
 				},
 				{
 					"name": "holy relic",
 					"description": "A relic retrieved from the grave of a saint.",
-					"rarity": 4,
+					"rarity": 5,
 					"tags": 0
 				}
 			],
@@ -2019,12 +2056,12 @@
 				{
 					"Name": "War hammer",
 					"Stats": "STR 2P + 3",
-					"Special Rules": "If you hit roll a d6, on a 6 add a [stun token]{.tip} to the enemy."
+					"Special Rules": "If you hit roll a d6, on a 6 add a **stun token** to the enemy."
 				},
 				{
 					"Name": "Throwing hatchet",
-					"Stats": "DEX 1+1",
-					"Special Rules": "**Nearby**. You can use STR to hit but if you do, flip a coin, on heads it hits with the handle, causing no damage. Ignores [shield tokens]{.tip}. You can use STR to melee with no downsides."
+					"Stats": "DEX 2+1",
+					"Special Rules": "**Nearby**. You can use STR to hit but if you do, flip a coin, on heads it hits with the handle, causing no damage. Ignores **shield tokens**. You can use STR to melee with no downsides."
 				},
 				{
 					"Name": "Short bow",

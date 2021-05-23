@@ -1,6 +1,7 @@
 @import "style.css";
 html {
-    overflow-y: scroll;
+    overflow-y: hidden;
+    height: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     scroll-behavior: smooth;
@@ -48,20 +49,40 @@ img.right {
 body {
     background-image: url(images/spots.png);
     background-repeat: repeat;
-    padding: 1em;
-    margin: auto;
-    max-width: 52em;
+    margin: 0;
+    margin-left: 290px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+@media print {
+    body {
+        margin: 0;
+        margin-left: 0;
+        overflow: visible;
+    }
+    #main-document {
+        width: 100%;
+        margin-left: 0px;
+        overflow: visible;
+    }
 }
 
 #main-document {
-    width: 100% - 250px;
-    margin-left: 270px;
+    padding: 1em;
+    margin: auto;
+    max-width: 42em;
 }
 
 @media screen and (max-width: 900px) {
-    #main-document {
-        width: 100%;
+    body {
+        margin: 0;
         margin-left: 0;
+    }
+    #main-document {
+        width: -webkit-fill-available;
+        margin-left: 0;
+        max-width: unset;
     }
 }
 
@@ -98,6 +119,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
     padding: 4px;
     opacity: 20%;
 }
+
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
     opacity: 100%;
 }

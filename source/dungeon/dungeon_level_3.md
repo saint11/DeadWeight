@@ -8,6 +8,6 @@ print: true
 
 Still working on this...
 
-## Weavers Chamber
-
 ## Goblin Barricade
+
+## Weavers Chamber
