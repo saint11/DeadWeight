@@ -30,7 +30,7 @@ This system has a strong **structure** to it, it's **roleplay light** and focus 
 
 The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the boardgame), Knave, The Black Hack and Torchbearer.
 
-This system is released under  [Creative Commons Attribution]([license.html](https://creativecommons.org/licenses/by/4.0/)),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution.
+This system is released under  [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution.
 
 This game was designed and illustrated by me, [Pedro Medeiros](http://www.saint11.org) and if you like what I'm doing, you may consider supporting me on [Patreon](https://www.patreon.com/saint11).
 
