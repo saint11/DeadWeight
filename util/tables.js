@@ -152,7 +152,7 @@ function CreateAndPush(content, content_type, content_class, pushTo) {
 
 function addPeriod(string) {
     if (string.length == 0) return '';
-    if (!~[".", "!", "?", ";"].indexOf(string[string.length - 1])) string += ".";
+    if (!~[".", "!", "?", ";", ")"].indexOf(string[string.length - 1])) string += ".";
     return string;
 }
 

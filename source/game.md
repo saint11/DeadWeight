@@ -16,7 +16,7 @@ links:  Core Rules|index, Playing the Game*|game, Bestiary, Blacksalt
 
 ![](images/barbarian-torch.png)
 
-During the **expedition** the characters venture into the depths of the earth in search of some reward. Raiding in caves and dungeons is not a healthy job, it takes a toll on the player characters. Time passes in a weird way down there, minutes turns into hours, and hunger and thirst are even more deadly than the monsters inside.
+During the **expedition** the characters venture into the depths of the earth in search of some reward. Raiding in caves and dungeons is not a healthy job, it takes a toll on the player characters. Time passes in a weird way down there, minutes turns into hours, and hunger and thirst are even deadlier than the monsters inside.
 
 The **expedition** can be broken down in 3 phases:
 
@@ -30,29 +30,29 @@ During the expedition it's useful to use a map with miniatures, ideally with eac
 
 ## Exploration
 
-During the exploration characters can move to another place in the dungeon, fix their equipment, interact with their environment and other various things, but every time a player attempts an action in the dungeon a turn passes. We measure that using **exploration turns**. Exploration turns are a valuable resource that the players must carefully use as a group, since every time a turn passes, different trackers in the *GMs sheet* advance, and they usually cause problems for the **adventurers**.
+During the exploration characters can move to another place in the dungeon, fix their equipment, interact with their environment and other various things, but every time a player attempts an action in the dungeon a turn passes. We measure that using **exploration turns**. Exploration turns are a valuable resource that the players must carefully use as a group, since every time a turn passes, some trackers will advance, usually causing problems for the **adventurers**.
 
 Any action any player chooses will spend one or more turns. It doesn't matter which player does the action or if the action is done as a group, the turn is spent anyway. Players should avoid splitting up for that reason, if they are divided, they will spend much more turns. Turns during exploration are **not only a measure of time**, they measure the **stress**, **fatigue** and the **general energy** used by the characters. That's why if 2 or more characters decide to simultaneously do 2 actions, they would spend 2 turns.
 
 One of the main reason that the **players** shouldn't to waste turns is the **decay tracker**. Every turn the **decay tracker** should advance, meaning that every 6 turns of exploration all player characters roll from the decay table. The *GM* may delay the **decay** tracker, if the situation is dire enough.
 
 
-| Roll(2d6) | Effect                          |
-| :-------: | :------------------------------ |
-|     2     | Press on (No effect)            |
-|     3     | Fatigue                         |
-|     4     | Terrified                       |
-|     5     | Sleepy                          |
-|     6     | Parched                         |
-|     7     | Advance the doom tracker        |
-|     8     | Hungry                          |
-|     9     | Hopeless                        |
-|    10     | Angry                           |
-|    11     | Wound (player choosen location) |
-|    12     | Equipment breaks/lost           |
+| Roll(2d6) | Effect                         |
+| :-------: | :----------------------------- |
+|     2     | Press on (No effect)           |
+|     3     | Fatigue                        |
+|     4     | Terrified                      |
+|     5     | Sleepy                         |
+|     6     | Parched                        |
+|     7     | Advance the doom tracker       |
+|     8     | Hungry                         |
+|     9     | Hopeless                       |
+|    10     | Angry                          |
+|    11     | Wound (player choose location) |
+|    12     | Equipment breaks/lost          |
 [Decay]
 
-If a character would receive an affliction that they already have roll again. When the player may choose an affliction, including the ones not on this list.
+If a character would receive an affliction that they already have keep adding 1 to the result, until a valid result have been reached.
 
 <pagebreak>
 

@@ -77,7 +77,7 @@ function getFromId(data, id) {
 }
 
 function addPeriod(string) {
-    if (!~[".", "!", "?", ";"].indexOf(string[string.length - 1])) string += ".";
+    if (!~[".", "!", "?", ";", ")"].indexOf(string[string.length - 1])) string += ".";
     return string;
 }
 
