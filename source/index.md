@@ -369,7 +369,7 @@ Every cleric can choose prayers from the basic prayers and from the prayer list 
 
 #### Basic prayers {.block .unlisted}
 - **Cure Light Wounds:** Heal 2 wounds from a **Nearby** target. Also removes **bleeding**.
-- **Light:** Illuminates the current room.
+- **Light:** Illuminates the current room. 
 - **Create food and water:** Creates 1 unit of ration and water.
   
 <pagebreak>
