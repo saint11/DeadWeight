@@ -672,4 +672,11 @@ When items have a characteristic that makes them awkward or hard to carry, write
 
 Very small items, like chalk, keys or a dice do not occupy any slots, and should be written down in the *notes* section of the character sheet.
 
+Caracters may also carry items in their **torso** and **hands** slots.
+
+- The **torso** has 4 slots.
+- Each **hand** has 2 slots.
+
+Equipped armor and helmet go on the torso slots, wielded items, including torches go on the hands. Unless the player has a really good explanation, a character can only wield one item on each hand, even with 2 slots. For just carrying stuff, carrying 2 items on each hand is fine.
+
 <pagebreak>

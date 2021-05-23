@@ -34,8 +34,11 @@ During the exploration characters can move to another place in the dungeon, fix 
 
 Any action any player chooses will spend one or more turns. It doesn't matter which player does the action or if the action is done as a group, the turn is spent anyway. Players should avoid splitting up for that reason, if they are divided, they will spend much more turns. Turns during exploration are **not only a measure of time**, they measure the **stress**, **fatigue** and the **general energy** used by the characters. That's why if 2 or more characters decide to simultaneously do 2 actions, they would spend 2 turns.
 
-One of the main reason that the **players** shouldn't to waste turns is the **decay tracker**. Every turn the **decay tracker** should advance, meaning that every 6 turns of exploration all player characters roll from the decay table. The *GM* may delay the **decay** tracker, if the situation is dire enough.
+### Decay
 
+The **decay tracker** is one of main the things that will keep the players from stalling in the expeditions. It's a tracker with **6 steps**. Every turn the **decay tracker** should advance, meaning that every 6 turns of exploration all player characters roll from the decay table. The *GM* may delay the **decay** tracker, if the situation is dire enough.
+
+If the **adventurers** are in a safe place, outside of a dungeon and with no immediate danger or pressure the *GM* doesn't advance the tracker. A good practice is to only start the decay tracker when the **adventurers** enter the dungeon, tomb or whatever place they are raiding.
 
 | Roll(2d6) | Effect                         |
 | :-------: | :----------------------------- |
@@ -52,15 +55,13 @@ One of the main reason that the **players** shouldn't to waste turns is the **de
 |    12     | Equipment breaks/lost          |
 [Decay]
 
-If a character would receive an affliction that they already have keep adding 1 to the result, until a valid result have been reached.
+If a character would receive an affliction that they already have keep adding 1 to the result, until a valid result have been reached. After the decay happens the players should also roll the usage dice for any torch, lanterns, etc.
 
 <pagebreak>
 
 ### Omens and Doom
 
-The adventure should have a **dungeon tracker** and a **doom tracker**, which are basically counters. Normally, only the **GM** has access to those trackers.
-
-The adventure should have a list of things that happen when the **doom** or **omens** trackers reaches certain numbers, but they always involve something bad. Raiding dungeons and abandoned places wakes up things better left untouched and reaching the maximum value of the doom tracker means certain death.
+The adventure should have a **doom tracker**, only the **GM** has access to it. The adventure should have a list of things that happen when the **doom** tracker reaches certain number, but they should always involve something bad. Raiding dungeons and abandoned places wakes up things better left untouched and reaching the maximum value of the doom tracker means certain death.
 
 The **doom tracker** represents the **adventurers** meddling in the dungeon, making noise and awaking whatever lies inside. Advancing the doom tracker too much usually results in monsters appearing, rooms collapsing and traps being triggered. The last step on the doom tracker usually involves a very hard fight. The doom tracker is bound to a location, if the adventurers go to a new place, a new tracker should be started, if they re-visit a location, use that location's old tracker.
 
@@ -111,7 +112,7 @@ The whole combat only counts as one exploration turn.
 Like in combat, player can stop for a while and catch their breath, restoring up to one point of **fatigue** for each attribute. Players may also chose to use any items tagged as *quick* too, such as bandages, light torches and drink water.
 
 #### Look for traps (1 turn) {.block}
-Looking for traps requires the **infiltration** skill. The players may perform an **intelligence** test trying to find a trap. On a critical failure they will trigger any traps they find. On a great success they disarm it for free.
+Looking for traps requires the **infiltration** skill, and explanation on how they look or at least some kind of tool, like a pole. The players may roll an **intelligence** test trying to find a trap. On a critical failure they will trigger any traps they find. On a great success they disarm it for free.
 
 Finding a trap allows one player to try to disarm it, it requires a **dexterity** test, failing will trigger the trap.
 
@@ -119,7 +120,7 @@ Finding a trap allows one player to try to disarm it, it requires a **dexterity*
 Any item that is tagged as [slow]{.tip} can be used for 1 turn. Items tagged as [camp]{.tip} cannot be used.
 
 #### Cast a spell or prayer (1 turn) {.block}
-Choose an available ***spell*** or ***prayer*** and tests the appropriate ***attribute*** specified in the ***spell*** or ***prayer*** description.
+Choose an available **spell** or **prayer** and perform the appropriate tests specified in the **spell** or **prayer** description.
 Execute that spell effect.
 
 Even if the spell uses 2 actions in combat, it only uses one exploration turn.
@@ -171,17 +172,6 @@ The *GM* starts by placing all the visible enemies in the map.
 
 Players must roll initiative, which is a simple **dexterity check**, adventurers that pass the test are now considered *fast* and will act before the enemy. Adventurers that fail are considered *slow* and go after the enemy. Be aware that some enemies abilities may change influence that.
 
-The **GM** separates 2 d6 for tracking morale, one for the enemies and one for the **adventurers**, that's the **morale tracker**.
-
-To determine the adventurer's morale:
-
-- Add one point for each player with at least 1 available presence.
-- Add one point for each player with at least 3 available presence;
-
-Enemies start at 1 + the number of enemies. The morale tracker cannot go higher than 6. Some player and enemy abilities may affect the initial state of the **morale tracker**.
-
-Check the [morale](#morale) section for more information on how morale works.
-
 ### 1. Fast players turn
 
 Here adventurers that were considered *fast* can act in the order that they want. Each one taking 2 actions. Some adventurers may have special rules that allow more actions or limit those actions. Check the [combat action](#combat-actions) list for which actions an adventurer can take.
@@ -194,24 +184,13 @@ Enemies also do not roll to hit, but instead players roll a **check** to dodge. 
 
 ### 3. Slow players turn
 
-Here adventurers that were considered *slow* will act, in a random order. Each can roll a dice each and act the highest number first. Each one can take 2 actions. Some adventurers may have special rules that allow more actions or limit those actions. Check the [combat action](#combat-actions) list for which actions an adventurer can take.
+Here adventurers that were considered *slow* will act, in a specific order, determined by the *GM*. That order may change between the turns. Each one can take 2 actions, as usual. Some adventurers may have special rules that allow more actions or limit those actions. Check the [combat action](#combat-actions) list for which actions an adventurer can take.
 
 ### 4. Evaluation and cleanup
 
 Remove any unused [dodge tokens]{.tip} from all characters. **shield makers** stay in place.
 
-The GM now check the morale tracker, if any side is **broken**, meaning it went lower than  1, the combat now ends with them surrendering. If the other side doesn't accept, the combat continues. If both sides are **broken** the combat also ends, with both sides retreating.
-
 If the combat continues, go to [fast players turn](#fast-players-turn) again resuming the combat loop.
-
-### Morale
-The **morale tracker** is created during the [setup](#setup) phase and tacks which side is confident in a combat.
-
-Every time a character dies or gets mortally wounded, remove one morale point from that team. Some abilities may influence the **morale tracker** without mortally wounding characters. Anytime a player character's presence available dice reaches zero, also remove one morale point from that team.
-
-If of the dice should be reduced to lower than 1 that side is considered **broken**, the GM can put that dice away and it cannot be recovered during this combat.
-
-When the **adventurers** are **broken**, all defense **checks** and attack **tests** are done with a [disadvantage]{.tip}. When the enemies team are broken, all defense **checks** and attack **tests** are done with a **advantage**. A broken team will usually flee the combat to recover.
 
 <pagebreak>
 

@@ -19,6 +19,7 @@ Last update was <now>
 - [x] Gods and prayers
 
 ## Working on now
+- [ ] Explain trackers on core rules
 - [ ] Sample dungeon level 2
 - [ ] Interlude (City Phase)
 
@@ -33,6 +34,7 @@ Last update was <now>
 - [ ] Sample dungeon level 3 (final level)
 - [ ] Better shield rules
 - [ ] Mortal wounds table
+- [ ] Doom tracker on **interlude**
 
 ## Later
 - [ ] Make all life paths roll 3d6 instead of 2d6
@@ -42,3 +44,4 @@ Last update was <now>
 - [ ] Player versus player tests
 - [ ] More spells and schools of magic
 - [ ] More gods and prayers
+- [ ] Morale system (for interlude, not battle)
