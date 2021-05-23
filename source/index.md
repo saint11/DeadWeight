@@ -379,15 +379,15 @@ Every cleric can choose prayers from the basic prayers and from the prayer list 
 ## Game Structure
 A game of **Dead Weight** runs a bit differently then most tabletop RPGs, it follows a strong structure, with two main states.
 
-- [Expedition Phase](#expedition-phase)
+- [Expedition](#expedition-phase)
 - [Interlude](#interlude)
 
-The game usually starts on the **Expedition Phase**, with the adventurers raiding a dungeon or some other terrible place in the **Blacksalt Isle**.
+The game usually starts on the **Expedition**, with the adventurers raiding a dungeon or some other terrible place in the **Blacksalt Isle**.
 
 ## Dice Notation
 Like many tabletop RPGs, **Dead Weight** uses dice notation to specify when and how you should roll your dice. Most of dice roll are common six-sided dice, unless specified otherwise.
 
-When you see **d4**, **d6**, **d8**, **d10**, **d12** and **d20** this is referring to a die of that size, d4 is a four-sized dice and d20 is a twenty-sided dice. 
+When you see **d4**, **d6**, **d8**, **d10**, **d12** and **d20** this is referring to a die of that size, d4 is a four-sized dice and d20 is a twenty-sided dice. Let's review all styles of dice notations we will use through this book:
 
 ### Adding dice (2d6) {.unlisted}
 And when you see **3d6** means to roll **three six-sided dice** and add the result.
@@ -400,49 +400,62 @@ Usage dice is a weird but very useful concept. Usage dice are used for tracking 
 If you roll a 1 or 2 on a **d4** that item is gone, you just used the last one.
 
 ### Risk dice (1d!) {.unlisted}
-Rolling a risk dice is usually for checking when if something will happen. Roll the indicated amount of **d6** if any of the dice is 1, that thing happens.
+We don't use this a lot, but when we do is usually for checking when if something unpredictable will happen. Roll the indicated amount of **d6** if any of the dice is 1, that thing happens.
 
-## Attribute Tests & Checks
+## Attribute Tests and Checks
 
 Rolling dice in Dead Weight is a dangerous and strategic activity, in general players want to get away with actions that do **not** involve testing. Testing is usually  **exhausting** for the characters, and in the dungeons, fatigue is deadlier than most blades. The **GM** may ask you to perform a test when you try to perform a test when your character tries to do something something difficult, uncertain and with consequences.
 
 Rolling dice also involves decision making, carefully choosing which dice to reroll is an important part of the game and help your character to take difficult actions with different approaches.
 
-Testing is always done in relation to a character's attribute, for example, trying to break down a door would require a **test of *strength***. To do so players must roll up to the same amount of dice of the value of the tested attribute. A character with ***strength value*** of 3 would have 3 ***available dices*** for a ***strength test***.
+Testing is always done in relation to a character's attribute, for example, trying to break down a door would require a **test of *strength***. To do so players must roll the same amount of dice of the score of the tested attribute. A character with **strength score** of 3 would have 3 ***available dices*** for a ***strength test***. Players may always choose to roll less dice or not to roll at all, failing the test.
 
 The player needs to roll a **4, 5 or 6** in at least one dice to complete the task successfully. If the player rolls more than one **6** on the dice, that's an great success and things go exceptionally well for that character. On the other side, if the player fails and rolls one or more **1** on the dice, that's a critical failure and things go exceptionally bad for that character.
 
+> <d6 v=4> <d6 v=2> <d6 v=1> A successful roll example.
+
+> <d6 v=3> <d6 v=2> A failed roll example.
+
 Beware that if **any** of the rolled dice is **4** or **1** the player will receive one fatigue point to that attribute, and only one, even if the test succeeded.
 
-Rerolling dice is a common thing in **Dead Weight** many things, like character skills and dangerous situations will allow the *players* and the *GM* to reroll certain dice. The order of rerolls is always dynamic, *players* may choose to use their rerolls one by one, react to the *GM* rerolls and vice-versa. **The test is only evaluated when both sides can't or agree not to reroll any more dice.**
+> <d6 v=4> <d6 v=2> A success, but with a fatigue cost.
+
+> <d6 v=6> <d6 v=1> Another success, also with a fatigue cost.
+
+> <d6 v=3> <d6 v=1> A fail roll that also has a fatigue cost.
+
+Rerolling dice is a common thing in **Dead Weight**. Many things, like character skills and dangerous situations will allow the *players* and the *GM* to reroll certain dice. The order of rerolls is always dynamic, *players* may choose to use their rerolls one by one, react to the *GM* rerolls and vice-versa. **The test is only evaluated when both sides can't or agree not to reroll any more dice.**
 
 <pagebreak>
 
 Here is an example of an attribute test:
 
->Amber wants to climb down a rope, so the GM says that she will require a ***dexterity test***. She has 4 points of ***dexterity***, so she decides to roll all 4 dice.
-She rolls **1, 2, 4 and 6**. 4 and 6 gives her ***2 hits***, meaning a success then she manages to climb down the rope safely. Unfortunately for Amber, she also rolled a 1 and a 4, since that happened she should receive one ***fatigue point*** to her ***dexterity***.
+> Amber wants to climb down a rope, so the GM says that she will require a **dexterity test**. She has a **dexterity score** of 4, she decides to roll all 4 dice.
+> 
+> She rolls <d6 v=1><d6 v=2><d6 v=4><d6 v=6>
+> 
+> Since she rolled a 6 the test is a **success**. She manages to climb down the rope safely. Unfortunately for Amber, she also rolled a 1 and a 4, since that happened she should receive one **fatigue point** to her **dexterity**.
 
 If you are really into statistics, you can check the chance of critical failure, failure, success and great success [here](https://anydice.com/program/21d88) and the chance of fatigue [here](https://anydice.com/program/21e52).
 
 ### Wounds and fatigue
 
-Every time a character receives a **fatigue** point apply it to an attribute.
+Every time a character receives **fatigue** points apply it to an attribute.
 
 Each **fatigue** or **wound** point that the character has on that attribute reduces the **available dices** of that attribute by one.
 
-If a character needs to receive a **fatigue** point and that would make the **available dices** of that attribute lower than zero convert convert one *fatigue* into a **wound** to that attribute, that **wound** can **not** be reduced. Read *Receiving Wounds* for more information.
-
+If a character needs to receive a **fatigue** point and that would make the **available dices** of that attribute lower than zero convert convert one *fatigue* into a **wound** to that attribute, that **wound** can **not** be reduced by armor and other resistances. Read *Receiving Wounds* for more information.
 
 ### Proficiency
-
 Players may reroll a number of dice if they have proficiency on that **attribute**. For example a character with 2 points in **intelligence** **proficiency** can reroll 2 dice when testing for **intelligence**. Players may choose to use their proficiency dice one at the time.
 
 If you choose to reroll a dice you **must** use the new result, even if it's worse in any way.
 
+Having a high attribute score is always good, but having proficiency is where things get interesting in **Dead Weight**. The rerolls usually makes for interesting and difficult decisions.
+
 ### Keeping it Safe
 
-If the player doesn't want to risk fatigue they can roll **2 dice less** than their current **attribute value**. Rolling 1 or 4 will no longer exhaust the attribute, unless the test fails. This must be announced before the dice are rolled. You cannot use extra effort when you are keeping it safe.
+If the player doesn't want to risk fatigue they can reduce their roll by **2 dice**. If they do, rolling 1 or 4 will no longer exhaust the attribute, unless the test fails. This must be announced before the dice are rolled. You cannot use extra effort when you are keeping it safe.
 
 ![](images/helper.png "hand grabbing someone else's arm"){.left}
 
@@ -450,7 +463,7 @@ If the player doesn't want to risk fatigue they can roll **2 dice less** than th
 
 Characters can help each other with a task, if they choose to do so. The player must explain how their character is helping the other in a way that makes sense for the action. The **GM** and the rest of the table must agree that the situation is plausible. This must be announced before the dice are rolled.
 
-A character can only receive the help from one other character, unless the **GM** specifies otherwise. The helping character should roll one dice, that dice will contribute the main roll. If the helping character has a **proficiency** on that attribute they can use it to reroll that dice, but the character performing the main roll may not use proficiency on that dice.
+A character can only receive the help from one other character, unless the **GM** specifies otherwise. The helping character should roll one dice, that dice will contribute the main roll. If the helping character has a **proficiency** on that attribute they can use it to reroll that dice. The character performing the main roll may change that dice in any way.
 
 Note that any **fatigue** generated by that dice should be received by the helping character only.
 
@@ -472,22 +485,26 @@ Helping characters can also use the ***extra effort*** rule, rolling two dice in
 
 Every time a test fails the player can mark one of the circles below the attribute. When in the **interlude** that character can use those points to level up that attribute. Read more about it on the **interlude**.
 
+(This mechanic is not done yet, but it's in the roadmap.) {.alert}
+
 ### Zero Dice?
 
-If you for any reason need to roll zero dice, you roll 2 dice instead and keep the lowest value. Rolling less than zero dice is also possible, just keep adding dice, to roll -2 dice just roll 4 dice and choose the worst. I'm pretty sure that test will fail, though, sorry.
+If you for any reason need to roll zero dice, you roll 2 dice instead and keep the lowest number. Rolling less than zero dice is also possible, just keep adding dice, to roll -2 dice just roll 4 dice and choose the worst. I'm pretty sure that test will fail, though, sorry.
+
+For simplicity, the *GM* may declare a -2 or lower roll to be an automatic failure.
 
 ### Checks or Tests
 
 Sometimes a rule will call for a **check**, such as an initiative check. Checks  work exactly like tests, except that rolling 1s and 4s on this test do **not** cause fatigue.
 
-Proficiency can be used both in **tests** and **checks**.
+Proficiency can be used normally in **checks**.
 
 ### Advantage and Disadvantage
 
 When a test describes a especially easy or hard action the **GM** may give players an **advantage** or **disadvantage**. Many combat actions, and enemy abilities will also add an **advantage** or **disadvantage** to tests.
 
 - **Advantage** allows the player to choose **one** dice from the test or check to reroll. The new value must be used.
-- **Disadvantage** allows the *GM* to choose **one** dice from the test or check to reroll. The *GM* chooses to use old or new value.
+- **Disadvantage** allows the *GM* to choose **one** dice from the test or check to reroll. The new value must be used.
 
 The players or *GM* may always choose *not* to reroll a dice for advantage or disadvantage respectively.
 
@@ -497,24 +514,27 @@ The *GM* must announce that the test has **advantage** and **disadvantage** befo
 
 ## Receiving Wounds
 
-Characters will often receive wounds from various sources. Most wounds can be reduced, usually by **armor**. Wounds received by **fatigue** cannot be reduced.
+Characters will often receive wounds from various sources. Most wounds can be reduced, usually by **armor** or some character traits. Wounds received by **fatigue** cannot be reduced.
 
 ### Armor {.unlisted}
 
-Roll one dice per **armor point**, for each **4, 5, 6** reduce the damage by one. If you roll any **1** or **4** that armor is damage and will lose 1 armor point until it's repaired. Players may always choose to not roll armor dice.
+Making an armor roll is a bit different than making a test.
 
->Zael just received  **2 wounds** from an arrow and decides to use his **reinforced leather armor(2 armor points)** to 2 dice. The new results are 1 and 6, which reduces the damage to only **1 wound**, but the armor is damaged and now has only 1 armor point.
+To use armor roll one dice per **armor point**, for each **4, 5, 6** reduce the damage by one. For each **1** or **4** rolled that armor is damage and will lose 1 armor point until it's repaired. Players may always choose to roll less or no armor dice.
+
+>Zael just received  **2 wounds** from an arrow and decides to use his **reinforced leather armor(2 armor points)** to 2 dice. The new results are 1 and 6, which reduces the damage to only **1 wound**, but the armor is damaged and now has only 1 armor point until it's repaired.
 
 ### Placing wounds {.unlisted}
 
-When receiving **wounds** you must choose one or more attributes to place them. If that attribute already have **fatigue** points, you convert those to wounds when placing each point. All wounds must be assigned to the same attribute.
+When receiving **wounds** you must choose one or more attributes to place them. If that attribute already have **fatigue** points, you may convert those to wounds when placing each point.
 
-Sometimes a rule will force the player to place the wounds in a specific attribute. If the specified attribute can't hold that many wounds, ignore the excess and the character will immediately collapse and faint.
+>Zael now just received **3 wounds** from an sword attack and managed to reduce it to **2 wounds** using **armor**. After some consideration he decides to place that damage to the **presence** attribute, which already had 2 fatigue, that fatigue is now converted to wounds.
 
->Zael now just received **3 wounds** from an sword and managed to reduce it to **2 wounds** using **armor**. After some consideration he decides to that that damage to the **presence** attribute.
+Attributes can't hold more wounds than their **score**.
 
-Attributes can't hold more wounds than their **score**. If there is no attribute that can hold all the **wounds** fit as many as you can and that **player character** gets **mortally wounded**. Most wounds are considered **lethal**, but sometimes a character will receive a **non-lethal wound**. When that happens a character will not be mortally wounded when receiving that damage, all excess points will just be discarded.
+Sometimes a rule will force the player to place the wounds in a specific attribute. If the specified attribute can't hold that many wounds, ignore the excess and the character will immediately collapse and faint. A common example for this is when receiving fatigue on an attribute that's already filled with wounds, this would make the character break down from exhaustion.
 
+If no attribute that can hold any more **wounds**, meaning that all available dice have been reduced to zero, and another wound must be placed, that **character** gets **mortally wounded**. Most wounds are considered **lethal**, but sometimes a character will receive a **non-lethal wound**. When that happens a character will not be mortally wounded when receiving that damage, all excess points will just be discarded.
 
 **Mortally wounded characters** don’t die immediately, they cannot take any actions and must be **stabilized** by someone after the combat. If a mortally wounded character receives any more damage that character will die.
 
@@ -524,34 +544,20 @@ If the received wounds is reduced to zero or less by armor or other resistances,
 
 <pagebreak>
 
-## Inventory
-Characters can carry 3 items + 2 items for each point you have in **strength**. Items should be placed in your character sheet in the appropriate slots in the **Trappings** section. While carrying more items is possible the character will be **encumbered**, all movement is reduced by half and must perform a **strength test** every turn, failing means they drop something.
-
-On top of each list there's a description of what that list is, like "**Belt/Small pouch**". Circle the one you have on your character, if you don't have any of those, just make a big X on the whole list.
-
-Here's a breakdown of how the **adventurers** can carry their items.
-
-- A **bag** carried on the back can carry **4 items**, a **backpack** can carry **7 items**.
-- A **belt** can carry **1 item**, a **small pouch** can carry **2 items**.
-- A **canteen** can carry **1 liquid item**, a **skin** can carry **2 liquid items**.
-- Each **small bag** can carry **3 items**.
-
-Unless stated otherwise characters start with with a **belt**, **canteen** and a **bag**.
-
 ## Movement & Distance
-Most weapons, skills, spells and items will have a maximum or minimum range to work, to make things simple we can use **abstract distances** instead of exact measurements.
+Most weapons, skills, spells and items will have a maximum or minimum range to work, to make things simple we can use some abbreviations, instead of listing the numbers every time.
 There are 4 range bands for measuring distance in **Dead Weight**:
 
 **Close**, **Nearby**, **Far** and **Distant**.
 
-While it's not usually it's not necessary to know the exact distance of a character to another, here's a handy chart to convert from our system to other systems.
+When using a grid map, here's how you can convert distances":
 
-| Distance    |    Meters     |  Squares   |
-| :---------- | :-----------: | :--------: |
-| **Close**   |     1.5m      |  1 square  |
-| **Nearby**  |     7.5m      | 5 squares  |
-| **Far**     |      20m      | 12 squares |
-| **Distant** | more than 20m | 12 squares |
+| Distance    |    Meters     |        Squares        |
+| :---------- | :-----------: | :-------------------: |
+| **Close**   |     1.5m      | 1 square, no diagonal |
+| **Nearby**  |     7.5m      |       5 squares       |
+| **Far**     |      20m      |      12 squares       |
+| **Distant** | more than 20m |      12 squares       |
 [Converting distances]
 
 <pagebreak>
@@ -562,12 +568,12 @@ While it's not usually it's not necessary to know the exact distance of a charac
 
 Character attributes in **Dead Weight** specify how good your character is at something.
 
-Attributes have two numbers, the ***value***, that measure your character endurance and natural talent with that attribute and the ***proficiency***, measuring how well trained your character is at that. Every character has 4 attributes.
+Attributes have two numbers, the **score**, that measure your character endurance and natural talent with that attribute and the ***proficiency***, measuring how well trained your character is at that. Every character has 4 attributes.
 
-- **Strength** (STR) is physical strength and constitution of a character. It also influences how many ***items*** a character can carry and your resistance to physical damage.
+- **Strength** (STR) is physical strength and constitution of a character. It also influences how many ***items*** a character can carry.
 - **Dexterity** (DEX) is how fast and precise a character is. It is used mostly in ranged attacks, initiative, dodging and in a variety of tests.
-- **Intelligence** (INT) is how intelligent and wise a character is. It also influences how many ***spells and prayers*** a character can memorize.
-- **Presence** (PRE) is how persuasive and strong-willed a character is. It also influences the party's **morale**.
+- **Intelligence** (INT) is how intelligent and wise a character is. It also influences how many **spells** a character can memorize.
+- **Presence** (PRE) is how persuasive and strong-willed a character is. It also influences how many **prayers** a character can memorize.
   
 ## Skills
 
@@ -614,19 +620,21 @@ Weapon and armor use depends on the character arsenal skill. Using an equipment 
 
 ## Special Traits
 
+Special traits are similar to skills, but usually add or break a rule to your character.
+
 - **Bad omens**: Every time you have a critical fail on a test, advance the **omens** tracker.
 - **Battle trance**: Every time you kill an enemy you get an extra action.
 - **Cold blood**: You may back-stab enemies that are engaged in combat to another character or distracted, for that you may use **Dexterity** to hit with weapons that would require **Strength**. Enemies can't use **resistance** to reduce your damage and you cause one extra wound.
-- **Divine mandate**: You may cast prayers. You require a holy symbol and to have previously memorized them. Check the [spells](#spells) section for more information.
+- **Divine mandate**: You may cast prayers. You require a holy symbol and to have previously memorized them. Check the [prayers](#prayers) section for more information.
 - **Hardened**: When receiving wounds from an attack, you may test **strength**, on a success, resist **1 wound**. On a [great success]{.tip} resist **2 wounds**.
-- **Magic user**: You may invoke spells. You require a magic **conductor** and to have previously memorized them. Check the [prayers](#prayers) section for more information.
-- **Rejected by death**: When rolling from the **mortally wounded table** roll 2 dice and choose one.
+- **Magic user**: You may invoke spells. You require a magic **conductor** and to have previously memorized them. Check the [spells](#spells) section for more information.
+- **Rejected by death**: If your character would get **mortally wounded**, roll 2d!, if triggered, ignore the mortal wound.
 - **Sharp eye**: When you get a **success** on a test, you may roll **2 extra dice** and add them to this test. *This highly increases your great success chance*.
 - **Third eye**: You can see the **omens** tracker.
 
 ## Afflictions {.wide}
 
-Each one of the ***afflictions*** have their own set of rules on how they affect the character and how they are removed.
+Each one of the **afflictions** have their own set of rules on how they affect the character and how they are removed.
 If an **adventurer** would receive an affliction he or she already have, ignore it.
 
 | Afflictions | Getting rid of *                                                    | Effect                                                                DD |
@@ -637,34 +645,31 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 | Sleepy      | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                     |
 | Angry       | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                                |
 | Shaken      | Resting in the camp phase.                                          | Can't use the **Catch Breath** action in combat or during exploration.   |
-| Nauseated   | Some potions and tonics. Gets healed during the interlude.          | ***Check* presence** every combat turn on a fail loose your turn.        |
+| Nauseated   | Some potions and tonics. Gets healed during the interlude.          | During combat you have one less action.                                  |
 | Terrified   | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.             |
-| Hopeless    | Escaping alive from the dungeon or survive a challenging fight.     | Reroll one success every test.                                           |
-| Cursed      | It is said that some artifacts inside the dungeon can help.         | Wounds do not heal by resting. Can see ghosts.                           |
-| Plagued     | It is said that some artifacts inside the dungeon can help.         | Coughs constantly. When receiving fatigue receive a wound instead.       |
-| Doomed      | It is said that some artifacts inside the dungeon can help.         | When the doom tracker moves, it moves one extra point.                   |
+| Hopeless    | Escaping alive from the dungeon or survive a challenging fight.     | Rolling 5 or 6 also causes fatigue.                                      |
+| Cursed      | Only removed by magic or miracles.                                  | Wounds do not heal by resting. Can see ghosts.                           |
+| Plagued     | Only removed by magic or miracles.                                  | Coughs constantly. When receiving fatigue receive a wound instead.       |
+| Doomed      | Only removed by magic or miracles.                                  | When the doom tracker moves, it moves one extra point.                   |
 
 \* Not exclusive, always check item descriptions for more ways to remove afflictions.
 
-## Trappings
-**Adventurers** have a number of item slots in their character sheets, most items take up one slot, some may take more than one and some may be stacked.
+## Inventory
+Characters can carry 5 items + 3 items for each **strength score**. Items should be placed in your character sheet in the appropriate slots in the **Trappings** section. While carrying more items is possible the character will be **encumbered**, all movement is reduced by half and must perform a **strength test** every turn, failing means that something was dropped.
+
+At the trappings table, on top of each list there's a label, something like "**Belt/Small pouch**". Circle the one you have on your character, if your character doesn't have any of those, just make a big X on the whole list.
+
+Here's a breakdown of how the **adventurers** can carry their items.
+
+- A **bag** carried on the back can carry **4 items**, a **backpack** can carry **7 items**.
+- A **belt** can carry **1 item**, a **small pouch** can carry **2 items**.
+- A **canteen** can carry **1 liquid item**, a **skin** can carry **2 liquid items**.
+- Each **small bag** can carry **3 items**.
+
+Unless stated otherwise all characters start with with a **belt**, **canteen** and a **bag**.
 
 When items have a characteristic that makes them awkward or hard to carry, write it bellow the item, with the characteristic occupying one extra slot. Examples of characteristics are **oversized**, **fragile** and **unstable**.
 
 Very small items, like chalk, keys or a dice do not occupy any slots, and should be written down in the *notes* section of the character sheet.
-
-All characters have:
-
-- 4 slots in the **torso**, equipped armor also goes here too.
-- 2 slots in each **hand**, equipped weapon or item goes here too. When equipping a weapon or item, the hand may not carry more items. 
-
-Characters may also have certain containers:
-
-- 1 slot in the **belt**, or 2 slots in a **small pouch**.
-- 1 slot in the **canteen**, or 2 slots in a **skin**.
-- 4 slots in a **bag** or satchel carried on the torso, or 7  in a **backpack**.
-- Up to 2 **small bags**, each with 3 **slots**.
-
-You may circle the appropriate container your character has.
 
 <pagebreak>

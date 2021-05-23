@@ -69,6 +69,12 @@ var shortcodes = {
             pageCount++;
             return '';
         }
+    },
+
+    d6: {
+        render: function (attrs, env) {
+            return `<img src="images/dice-${attrs.v}.svg" class="dice"/>`
+        }
     }
 }
 const headingOptions = {

@@ -1215,6 +1215,10 @@
 				{
 					"id": "exotic",
 					"Description": "Very expensive, sells for 10 X 4d6 silver coins"
+				},
+				{
+					"id": "great_success",
+					"Description": "Rolling 2 or more 6s in a test"
 				}
 			],
 			"separators": [],
