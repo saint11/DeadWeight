@@ -385,7 +385,7 @@ The **adventurers** snuff out any fire they had going gather their things and pr
 
 # Interlude
 
-The interlude rules are still very early and untested {.alert}
+The interlude rules are still untested, some balancing may be needed. {.alert}
 
 Interlude is the time between expeditions, it's when the characters rest, tend their wounds and plan their next job. Most **adventurers** do no want to  raid tombs and the horrible places they do, they have no other choice. While resting on the interlude the **adventurers** are actually draining their resources, **Blacksalt** is not a cheap place to live. Also be aware that characters can **die** during the interlude, specially if they are lacking of resources.
 
@@ -423,7 +423,9 @@ The sizes are:
 5. **City**: A large settlement, with lots of commerce and crime.
 
 ### 1. Interlude actions
-Just like the *exploration phase* the interlude has a list of **actions** that the **adventurers** can take. Each day the characters may do **1 action**. Actions may have different effects depending on the settlement size.
+Just like the *exploration phase* the interlude has a list of **actions** that the **adventurers** can take. Each day the characters may do **1 action**. Actions may have different effects depending on the settlement size. The players should all announce their actions first, then they get resolved in any order, but players can't change their actions after they announced it. Players are encouraged to discuss and plan their actions.
+
+Specific settlements will have extra actions that the players can also choose.
 
 #### Rest {.block}
 Take some time off to blow some steam and rest. Recover 1 fatigue to each attribute.
@@ -432,19 +434,25 @@ You may chose an additional effect:
 
 - **Spend 2 silver**(size 4-5): Get some proper entertainment, remove **angry** and **hopeless**. Recover 1 fatigue to each attribute.
 - **Spend 1 silver**(size 3-5): Get get very drunk, remove **terrified** and **hopeless**, recover all **presence** wounds. On a 2d! you get **nauseated**.
-- **Rest in the nature**(size 1-3): Recover all **intelligence** wounds.
+- **Get some bucolic rest**(size 1-3): Recover all **intelligence** wounds.
 
 #### Tend Wounds {.block}
 Use whatever means you have to heal your wounds. Recover one **strength** or **dexterity** wound. Remove **bleeding**.
 
 You may chose an additional effect:
 
-- **Spend 4 silver**(size 4-5): Visit a surgeon, recover one **strength**, **intelligence** or **dexterity** wound. Test 1d!, on a success remove **plagued**.
-- **Spend 2 silver**(size 2-4): Visit the witch doctor, recover one **strength**, **intelligence** or **dexterity** wound. Test 1d!, on a success remove **cursed**.
-- **Use a first aid kit**: Recover one **strength** or **dexterity** wound.
+- **Spend 4 silver**(size 4-5): Visit a surgeon, recover 2 **strength**, **intelligence** or **dexterity** wounds. Test 1d!, on a success remove **plagued**.
+- **Spend 2 silver**(size 2-4): Visit the witch doctor, recover 2 **strength**, **intelligence** or **dexterity** wounds. Test 1d!, on a success remove **cursed**.
+- **Use a first aid kit**: Recover one **strength** or **dexterity** wound. Roll 3d!, if triggered heal 1 wound.
+- **Time heals all wounds**: Roll 3d!, if triggered heal 1 wound.
+
+#### Sell {.block}
+Getting people to buy things is very hard in Trinta, specially in small settlements. When selling something make a **perception test** if you fail, downgrade the rarity of that item for this transaction, then roll it's value.
 
 #### Go shopping {.block}
-You may buy as many items as you want when shopping. Different settlement sizes will have different items available, to determine if an item is available usually involves rolling [risk dice](#risk-dice-1d)
+You may buy as many items as you want when shopping. Different settlement sizes will have different items available, to determine if an item is available usually involves rolling [risk dice](#risk-dice-1d). For simplicity, the *GM* may just say an item is available or not, without rolling any dice.
+
+When buying an item, the price must be rolled. That item price should be noted somewhere, and that item will have that price for all characters until the next interlude. For simplicity the *GM* may roll once for all common items, once for all uncommon items and so on. If the group don't want to roll for prices, the average price can be used instead.
 
 1. **Small Camp**: Common (2d!), Uncommon(1d!), Valuable(unavailable), Rare(unavailable), Exotic(unavailable)
 2. **Hamlet**: Common (3d!), Uncommon(2d!), Valuable(1d!), Rare(unavailable), Exotic(unavailable)
@@ -454,6 +462,9 @@ You may buy as many items as you want when shopping. Different settlement sizes 
 
 #### Go back to expedition {.block}
 Immediately finish the interlude and get back to the **expedition**.
+
+#### Lay low {.block}
+Adventurers usually call a lot of attention to themselves in the settlements of **Blacksalt island**. Laying low for a while may help to calm things down and redirect the attention to something else. Reduce **this settlement's doom tracker** by one.
 
 ### 2. Blacksalt events
 Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the event table.
@@ -467,17 +478,17 @@ Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the
 
 |  1d6  | Effect                                                                              |
 | :---: | :---------------------------------------------------------------------------------- |
-|   1   | Signs of worse things coming. Advance the **doom** and **omens** tracker.           |
+|   1   | Signs of worse things coming. Advance the **this settlement's doom** and **omens** tracker.           |
 |   2   | Bad harvest. All food-related items prices are doubled for 1d6 days.                |
 |   3   | Attacked by thugs in a dark alley, receive 3 wounds and pay 2d6 silver, as a group. |
 |   4   | The sun didn't rise. Everyone takes **terrified** or **hopeless**.                  |
 |   5   | Overcrowded. All prices of rent and housing related items are doubled for 1d6 days. |
-|   6   | Prosecution. Advance the **doom** tracker.                                          |
+|   6   | Prosecution. Advance the **this settlement's doom** tracker.                                          |
 [Bad events]
 
 |  1d6  | Effect                                                                                          |
 | :---: | :---------------------------------------------------------------------------------------------- |
-|   1   | Unexpected blessing. Reduce the **doom** tracker.                                               |
+|   1   | Unexpected blessing. Reduce the **this settlement's doom** tracker.                                               |
 |   2   | Good harvest. All food-related item prices are halved for one day. Stops **Bad harvest** event. |
 |   3   | A naive investor. When selling items get 50% extra silver.                                      |
 |   4   | A calm day. Everyone removes **terrified**, **hopeless** or **Angry**.                          |
@@ -511,7 +522,7 @@ In the interlude, if you were to receive an affliction you already have, you mus
 | :---: | :------------------------------------------------------------ |
 |  2-3  | You slept in manure and now smells terrible become **angry**. |
 |  4-5  | You woke up in the rain, you are now **shaken**.              |
-|   6   | The locals don't like you here. Advance the **doom tracker**. |
+|   6   | The locals don't like you here. Advance the **this settlement's doom tracker**. |
 |   7   | You have a restless night and are **sleepy**.                 |
 |   8   | Someone stole 3d6 silver while you slept!                     |
 | 9-10  | Restore one fatigue and remove **sleepy** or **shaken**.      |

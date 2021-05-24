@@ -24,7 +24,9 @@ This adventure was heavily inspired by many stories by Clark Ashton Smith, speci
 ### Hook
 Things were already bad at the fief of Trinta, and then the bad omens started happening. Milk turned sour, water became red, tasting iron and chalk, chickens started to eat one another and old people would cough small insects. The lord took action only when his youngest son fell ill.
 
-The lord's soothsayer made it clear, Acheron Zul's curse befell upon the village, and a ritual must be conducted to purge them from that blight. Somebody must venture his tomb, and if there is still a mummy of Acheron Zul, or anything left of him, it must be meticulously fetched and brought to her. 
+The lord's soothsayer made it clear, Acheron Zul's curse befell upon the village, and a ritual must be conducted to purge them from that blight. Somebody must venture his tomb, and if there is still a mummy of Acheron Zul, or anything left of him, it must be meticulously fetched and brought to her.
+
+When the **adventurers** accept the quest, give them a portable coffin and tell them that they will need to place Acheron Zul's corpse in there. The coffin occupies 2 slots.
 
 Possible ideas for starting out:
 
@@ -32,7 +34,7 @@ Possible ideas for starting out:
 - The **adventurers** are under the command of the Lord of Trinta. Going in the tomb might be the safer than confronting him.
 - The caravans leaving the village are all halted because of the curse, the horses hoofs are all infected. Solving this might be the only way out.
 - The lord is suspicious to the to the adventurers, blaming them for the curse. Finding the corpse for the lord might be safer than trying to run.
-- There is a 100 silver coins bounty on the remains of Acheron Zul.
+- The **adventurers** have no job and are getting low on resources when they find out about the 80 silver bounty that the Lord of Trinta has on retrieving Acheron Zul's remains.
 
 ### Rumors
 Start by giving each **adventurer** knows a rumor. If an adventurer has 2 or more points in **presence**, they know 2 rumors. Do not repeat rumors between players, roll again on repeats. Ideally this should be passed as a note, so they can speculate between them.

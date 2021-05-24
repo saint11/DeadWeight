@@ -24,11 +24,11 @@ This is a very early work in progress, it's definitely playable, but there's sti
 
 **Dead Weight** takes place in a low-fantasy world, it's very grim and dark but doesn't take itself too seriously. But be advised that **Dead Weight** has some **horror** elements, and may not be suitable for everyone.
 
-The player characters are no heroes; they are *dead weights*, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, attempting to save enough silver to leave *Blacksalt Island* for better days elsewhere.
+The player characters are no heroes; they are *dead weights*, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, struggling not only with the horrors that lurk in there, but also their fatigue, stress, and the gradual decay of the few resources they bring. All to save enough silver to leave *Blacksalt Island* for better days elsewhere.
 
-This system has a strong **structure** to it, it's **roleplay light** and focus heavily on dungeon crawling. While exploring the catacombs and dungeons, the characters must struggle with not only the horrors lurking there, but also their fatigue, stress, and the gradual decay of the valuable resources they bring. **Roleplay light** doesn't mean there's no support for roleplaying, quite the contrary, just means that the game should fun even if your group doesn't like to roleplay a lot.
+This system has a strong **structure** to it, it's **roleplay light** focusing heavily on dungeon crawl. **Roleplay light** doesn't mean there's no support for it, quite the contrary, just means that the game should fun even if your group doesn't like to roleplay a lot.
 
-The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the boardgame), Knave, The Black Hack and Torchbearer.
+The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Knave, The Black Hack and Torchbearer.
 
 This system is released under  [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution.
 
