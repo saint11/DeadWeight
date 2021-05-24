@@ -112,28 +112,28 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">2</td>
-<td style="text-align:left">The party chooses 1d4 equipped items, they are broken now.</td>
+<td style="text-align:center">1</td>
+<td style="text-align:left">The party chooses 2d4 equipped items, they are broken now.</td>
 </tr>
 <tr>
-<td style="text-align:center">3</td>
+<td style="text-align:center">2</td>
 <td style="text-align:left">The rolls from the decay table, twice.</td>
 </tr>
 <tr>
-<td style="text-align:center">1</td>
-<td style="text-align:left">The party must discard d4 units of water.</td>
+<td style="text-align:center">3</td>
+<td style="text-align:left">The party must discard 2d4 units of water.</td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:left">The party must discard d4 rations.</td>
+<td style="text-align:left">The party must discard 2d4 rations.</td>
 </tr>
 <tr>
 <td style="text-align:center">5</td>
-<td style="text-align:left">The party must discard d4 torches.</td>
+<td style="text-align:left">The party must discard 2d4 torches.</td>
 </tr>
 <tr>
 <td style="text-align:center">6</td>
-<td style="text-align:left">The party must discard one magical item or magical scroll.</td>
+<td style="text-align:left">The party must discard 2d4 magical item or magical scroll.</td>
 </tr>
 </tbody>
 </table>
@@ -797,19 +797,20 @@ All attacks specify a test that the <strong>player</strong> must roll, followed 
 </section>
 <section id="other-actions">
 <h2>Other actions</h2>
-<p>In our example, the <span class="m">Freshly Risen Corpse</span> can only <strong>move</strong> or try the <strong>Infectious bite</strong> action. Let's review its attack:</p>
+<p>In our example, the <span class="m">Freshly Risen Corpse</span> can only <strong>move</strong> or try the <strong>Infectious bite</strong> action. Let's review it:</p>
 <blockquote>
 <p><strong>Infectious bite</strong> (STR 1+1): Causes <strong>Plagued</strong> on <strong>1d!</strong>.</p>
 </blockquote>
-<p>The notation in  front of the action works almost exactly the same as a <a href="#weapon-notation">weapon notation</a>, the only difference is that the attribute listed is the attribute required to <strong>defend</strong> instead the attribute required to <strong>attack</strong>. If our <strong>Freshly Risen Corpse</strong> enemy tries to bite an adventurer this would require a free <strong>strength</strong> test from the <strong>adventurer</strong> to avoid the attack. The enemies cause critical damage when the player character gets a critical failure on their defense. Like most weapons, enemy attacks usually have a special effect described too.</p>
-<p>Some enemy actions will cause a <span class="tip">disadvantage</span> to the attribute check related to them.</p>
+<p>The notation in front of the action means that this action is an <strong>attack</strong>, and it works almost exactly the same as a <a href="#weapon-notation">weapon notation</a>, the only difference is that the attribute listed is the attribute required to <strong>defend</strong> instead the attribute required to <strong>attack</strong>. If our <strong>Freshly Risen Corpse</strong> enemy tries to bite an adventurer this would require a <strong>strength</strong> test from the <strong>adventurer</strong> to avoid the attack. The enemies cause critical damage when the player character gets a critical failure on their defense. Enemy attacks usually have a special effect described too. Player's may always choose to no roll any dice to avoid fatigue, but that will cause the enemy to automatically hit.</p>
+<p>Some enemy actions will cause a <span class="tip">disadvantage</span> to the attribute test related to them.</p>
 <blockquote>
 <p><strong>Eat</strong> (-STR 3+3): Can only be used on a grabbed character.</p>
 </blockquote>
-<p>That <strong>minus symbol</strong> before the attribute means that the <strong>player</strong>'s <strong>strength</strong> check will have <span class="tip">disadvantage</span> applied, allowing the <em>GM</em> to reroll one chosen dice from that roll.</p>
-<p>If the <strong>adventurer</strong> has one or more <span class="tip">shield token</span> or <span class="tip">dodge token</span> they can spend them to reroll that many dice of their choosing.</p>
+<p>That <strong>minus symbol</strong> before the attribute means that the <strong>player</strong>'s <strong>strength</strong> test will have <span class="tip">disadvantage</span> applied, allowing the <em>GM</em> to reroll one chosen dice from that roll.</p>
+<p>If the <strong>adventurer</strong> has one or more <span class="tip">shield token</span> or <span class="tip">dodge token</span> they can spend them to reroll that many dice of their choosing. They can roll first and spend each token, one by one as needed.</p>
 <p>Enemies don't have attributes so they can't make attribute tests, they make an <em>enemy test</em>, If an enemy needs to test for anything the <strong>GM</strong> can roll using the monster's <strong>LVL</strong> value, rolling the amount of dice. Although is recommended to avoid making tests  for enemies when possible. Enemies do not take fatigue.</p>
-<p>Enemies also do not have <strong>afflictions</strong>, but they can bleed. If they are bleeding roll a d6 on the start of their turn, if they get a failure (1, 2 or 3) they take one wound.</p>
+<p>Enemies also do not have <strong>afflictions</strong>, but some of them can bleed. If they are bleeding roll a d6 on the start of their turn, if they get a failure (1, 2 or 3) they take one wound. Only enemies tagged with <strong>living</strong> can bleed.</p>
+<p>When enemies cause wounds to the <strong>adventurers</strong>, the player can decide where to place that wound, unless stated otherwise.</p>
 <p>For more information on how fighting works, check the <a href="#combat">combat</a> section.</p>
 </section>
 <section id="taking-damage">

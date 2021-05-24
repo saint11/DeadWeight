@@ -71,12 +71,12 @@ The **omens tracker** is about the state of the party itself. The omens tracker 
 
 |  1d6  | Effect                                                     |
 | :---: | :--------------------------------------------------------- |
-|   2   | The party chooses 1d4 equipped items, they are broken now. |
-|   3   | The rolls from the decay table, twice.                     |
-|   1   | The party must discard d4 units of water.                  |
-|   4   | The party must discard d4 rations.                         |
-|   5   | The party must discard d4 torches.                         |
-|   6   | The party must discard one magical item or magical scroll. |
+|   1   | The party chooses 2d4 equipped items, they are broken now. |
+|   2   | The rolls from the decay table, twice.                     |
+|   3   | The party must discard 2d4 units of water.                 |
+|   4   | The party must discard 2d4 rations.                        |
+|   5   | The party must discard 2d4 torches.                        |
+|   6   | The party must discard 2d4 magical item or magical scroll. |
 [Omens]
 
 <pagebreak>
@@ -248,7 +248,6 @@ Receiving an item doesn't cost an action.
 #### Help another (2 actions) {.block}
 Next turn an ally will receive an extra dice from you in all their actions, can only be used on allies that are on the same or adjacent positions.
 Check *Receiving Help* for more information.
-
 
 ### Attack Notation
 
@@ -565,23 +564,25 @@ After moving **out** of a tile adjacent to an [adventurer]{.tip} the **enemy** m
 Remove a [stun token]{.tip} from this enemy. If the enemy has one or more [stun token]{.tip} this is the only the enemy can take.
 
 ## Other actions
-In our example, the [Freshly Risen Corpse]{.m} can only **move** or try the **Infectious bite** action. Let's review its attack:
+In our example, the [Freshly Risen Corpse]{.m} can only **move** or try the **Infectious bite** action. Let's review it:
 
 > **Infectious bite** (STR 1+1): Causes **Plagued** on **1d!**.
 
-The notation in  front of the action works almost exactly the same as a [weapon notation](#weapon-notation), the only difference is that the attribute listed is the attribute required to **defend** instead the attribute required to **attack**. If our **Freshly Risen Corpse** enemy tries to bite an adventurer this would require a free **strength** test from the **adventurer** to avoid the attack. The enemies cause critical damage when the player character gets a critical failure on their defense. Like most weapons, enemy attacks usually have a special effect described too.
+The notation in front of the action means that this action is an **attack**, and it works almost exactly the same as a [weapon notation](#weapon-notation), the only difference is that the attribute listed is the attribute required to **defend** instead the attribute required to **attack**. If our **Freshly Risen Corpse** enemy tries to bite an adventurer this would require a **strength** test from the **adventurer** to avoid the attack. The enemies cause critical damage when the player character gets a critical failure on their defense. Enemy attacks usually have a special effect described too. Player's may always choose to no roll any dice to avoid fatigue, but that will cause the enemy to automatically hit.
 
-Some enemy actions will cause a [disadvantage]{.tip} to the attribute check related to them.
+Some enemy actions will cause a [disadvantage]{.tip} to the attribute test related to them.
 
 > **Eat** (-STR 3+3): Can only be used on a grabbed character.
 
-That **minus symbol** before the attribute means that the **player**'s **strength** check will have [disadvantage]{.tip} applied, allowing the *GM* to reroll one chosen dice from that roll.
+That **minus symbol** before the attribute means that the **player**'s **strength** test will have [disadvantage]{.tip} applied, allowing the *GM* to reroll one chosen dice from that roll.
 
-If the **adventurer** has one or more [shield token]{.tip} or [dodge token]{.tip} they can spend them to reroll that many dice of their choosing.
+If the **adventurer** has one or more [shield token]{.tip} or [dodge token]{.tip} they can spend them to reroll that many dice of their choosing. They can roll first and spend each token, one by one as needed.
 
 Enemies don't have attributes so they can't make attribute tests, they make an *enemy test*, If an enemy needs to test for anything the **GM** can roll using the monster's **LVL** value, rolling the amount of dice. Although is recommended to avoid making tests  for enemies when possible. Enemies do not take fatigue.
 
-Enemies also do not have **afflictions**, but they can bleed. If they are bleeding roll a d6 on the start of their turn, if they get a failure (1, 2 or 3) they take one wound.
+Enemies also do not have **afflictions**, but some of them can bleed. If they are bleeding roll a d6 on the start of their turn, if they get a failure (1, 2 or 3) they take one wound. Only enemies tagged with **living** can bleed.
+
+When enemies cause wounds to the **adventurers**, the player can decide where to place that wound, unless stated otherwise.
 
 For more information on how fighting works, check the [combat](#combat) section.
 

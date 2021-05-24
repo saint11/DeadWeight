@@ -235,7 +235,7 @@ Check the **skills** and **traits** section to understand what each of your trai
 
 ### Warrior {.big}
 
-![](images/warrior.png "Warrior"){.left}
+![](images/warrior.png "Warrior")
 
 - Add 1 proficiency points to **Strength**.
 - Add the trait **battle trance** or **hardened**.
@@ -245,7 +245,7 @@ Check the **skills** and **traits** section to understand what each of your trai
 Choose one of the following as your starting equipment:
 
   - **A:** Bag, Falchion (STR 3+1B), wooden shield(1 [shield token]{.tip}), scale armor (3 [AP]{.tip}), 2d6 silver coins.
-  - **B:** Backpack, Spear (STR 3+1B), small metal shield(2 [shield tokens]{.tip}), padded armor (2 [AP]{.tip}), 2d6 silver coins.
+  - **B:** Backpack, Spear (STR 3+1B), metal shield(2 [shield tokens]{.tip}), padded armor (2 [AP]{.tip}), 2d6 silver coins.
   - **C:** Bag, Battle Axe (STR 4+2B), loincloth, war paint.
 
 <pagebreak>
@@ -255,7 +255,7 @@ Choose one of the following as your starting equipment:
 ![](images/thief.png "Thief"){.left}
 
 - Add 1 proficiency points to **Dexterity**.
-- Add the trait **cold blooded** or **sharp eye**.
+- Add the trait **cold blooded** or **dauntless**.
 - add the skill **infiltration**
   
 Choose one of the following as your starting equipment:
@@ -327,7 +327,7 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 
 ### Cleric {.big .break}
 
-![](images/cleric-yulak.png "Cleric"){.left}
+![](images/cleric-yulak.png "Cleric")
 
 - Add 1 proficiency points to **Presence**.
 - Add the trait **divine mandate**.
@@ -339,7 +339,7 @@ Choose one of the following as your starting equipment:
   - **B:** War hammer (STR 1P+3), Ancient talisman (holy symbol), Ud6 flasks of holy water, thick cloak (1 [AP]{.tip}), 3d6 silver coins.
   - **C:** Notched whip (DEX 1R+2B), torture equipment, rope, book of sins (holy symbol), tattered cloak, 1d6 coins.
 
-Clerics must choose a god to follow, you can see the list of gods in the [Blacksalt book](./blacksalt.html#gods). Clerics must also choose a number of prayers equal to their **presence score** from the [basic prayers list](#prayers-list) or from their god's prayers. Write them down in your character sheet under the "spells and prayers" section.
+Clerics must choose a god to follow, you can see the list of gods in the [Blacksalt book](./blacksalt.html#gods). Clerics must also choose a number of prayers equal to their **presence score** from the [basic prayers list](#basic-prayers) or from their god's prayers. Write them down in your character sheet under the "spells and prayers" section.
 
 #### Prayers
 Clerics require a **holy symbol** to cast a prayer, that symbol depends on the god that the cleric follows. Casting a prayer without a holy symbol doesn't work, but they are usually easy to improvise.
@@ -362,8 +362,6 @@ Casting a prayer is not guaranteed to always work, since the gods can be cruel s
 |   5   | If you are in combat, all monsters try to flee in fear, if not decrease the doom tracker.                                                     |
 |   6   | If you are in combat all enemies take 1 wound, if not your group will start the next combat with one [shield token]{.tip} on each adventurer. |
 [Miracles]
-
-#### Prayers List {.break}
 
 Every cleric can choose prayers from the basic prayers and from the prayer list from their god. Check the [gods list](./blacksalt.html#gods) for the prayers of each specific god.
 
@@ -404,7 +402,7 @@ We don't use this a lot, but when we do is usually for checking when if somethin
 
 ## Attribute Tests and Checks
 
-Rolling dice in Dead Weight is a dangerous and strategic activity, in general players want to get away with actions that do **not** involve testing. Testing is usually  **exhausting** for the characters, and in the dungeons, fatigue is deadlier than most blades. The **GM** may ask you to perform a test when you try to perform a test when your character tries to do something something difficult, uncertain and with consequences.
+Rolling dice in Dead Weight is a dangerous and strategic activity, in general players want to get away with actions that do **not** involve testing. Testing is usually  **exhausting** for the characters, and in the dungeons, fatigue is deadlier than most blades. The **GM** may ask you to perform a test when your character tries to do something something difficult, uncertain and with consequences.
 
 Rolling dice also involves decision making, carefully choosing which dice to reroll is an important part of the game and help your character to take difficult actions with different approaches.
 
@@ -560,6 +558,17 @@ When using a grid map, here's how you can convert distances":
 | **Distant** | more than 20m |      12 squares       |
 [Converting distances]
 
+## Trackers {.draft}
+Also known as a *progress clock* in other systems. A **tracker** is just one or more circles divided into segments that the *GM* uses to track the progression of something. Every time a tracker is advanced one segment must be filled. When the circle is completely filled, the tracker is triggered and something happens. There are 3 main trackers that are always in play:
+
+- **Decay tracker**: Represents the toll that dungeon delving takes on the **adventurers**. Causes hunger, exhaustion and other bad things to the players. Advances every turn.
+- **Doom tracker**: There's one for each dungeon, represents the dungeon "waking up" to the **adventurers**' presence and reacting.
+- **Omens tracker**: There's one for the whole campaign. Represents the **adventurers**' terrible luck and their inevitable doom in **Blacksalt island**. Every time it gets completed something really bad happens.
+
+The [Playing the Game book](./game.html) explains in more detail how each of these trackers work, so don't worry about them for now.
+
+The *GM* can also create more trackers at any moment, to represent long challenges, the tide rising, a strong enemy slowly waking up and so on. Trackers can be hidden from the players or fully visible.
+
 <pagebreak>
 
 # The Character
@@ -629,7 +638,7 @@ Special traits are similar to skills, but usually add or break a rule to your ch
 - **Hardened**: When receiving wounds from an attack, you may test **strength**, on a success, resist **1 wound**. On a [great success]{.tip} resist **2 wounds**.
 - **Magic user**: You may invoke spells. You require a magic **conductor** and to have previously memorized them. Check the [spells](#spells) section for more information.
 - **Rejected by death**: If your character would get **mortally wounded**, roll 2d!, if triggered, ignore the mortal wound.
-- **Sharp eye**: When you get a **success** on a test, you may roll **2 extra dice** and add them to this test. *This highly increases your great success chance*.
+- **Dauntless**: When you get a **success** on a test, you may roll **2 extra dice** and add them to this test. *This increases your great success and fatigue chance*.
 - **Third eye**: You can see the **omens** tracker.
 
 ## Afflictions {.wide}

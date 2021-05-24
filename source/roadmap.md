@@ -12,6 +12,7 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Explain trackers on core rules
 - [x] Cleric sacrifice
 - [x] Banish undead skill
 - [x] Reordered content
@@ -19,7 +20,6 @@ Last update was <now>
 - [x] Gods and prayers
 
 ## Working on now
-- [ ] Explain trackers on core rules
 - [ ] Sample dungeon level 2
 - [ ] Interlude (City Phase)
 
@@ -35,6 +35,7 @@ Last update was <now>
 - [ ] Better shield rules
 - [ ] Mortal wounds table
 - [ ] Doom tracker on **interlude**
+- [ ] Quick reference guide with lots of tables
 
 ## Later
 - [ ] Make all life paths roll 3d6 instead of 2d6
