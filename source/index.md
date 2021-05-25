@@ -18,7 +18,7 @@ version 0.2
 
 <pagebreak>
  
-This is a very early work in progress, it's definitely playable, but there's still some content missing. Check the [roadmap](roadmap.html) for more information. If you have questions or any kind of feedback, feel free to also join the [discord channel](https://discord.gg/XbxsKPpS8A). {.alert .web}
+This is a very early work in progress, it's definitely playable, but there's still some content missing. Check the [roadmap](roadmap.html) for more information. If you have questions or any kind of feedback, feel free to also join the [discord channel](https://discord.gg/BJfMxEq52R). {.alert .web}
 
 # Welcome
 
@@ -268,7 +268,7 @@ Choose one of the following as your starting equipment:
 
 ### Wizard {.big}
 
-![](images/wizard.png "Wizard"){.left}
+![](images/wizard.png "Wizard")
 
 - Add 1 proficiency points to **Intelligence**.
 - Add the trait **magic user**.

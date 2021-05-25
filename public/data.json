@@ -867,6 +867,43 @@
 					"Tags": 2
 				},
 				{
+					"id": "Head_spider",
+					"Name": "Head Spider",
+					"Tags": 2,
+					"Level": 4,
+					"Wounds": 4,
+					"Armor": 0,
+					"Resistance": 0,
+					"Movement": 7,
+					"Special": [
+						{
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
+						},
+						{
+							"Description": "Hard to hit! All tests to hit this enemy are made with **disadvantage**."
+						},
+						{
+							"Description": "Nimble! Ignores **combat movement penalty**"
+						},
+						{
+							"Description": "Tiny, 2 of them can occupy the same tile."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Infectious_bite"
+						}
+					],
+					"Extract": 3,
+					"Actions": [
+						{
+							"Name": "Lunge",
+							"Check": "DEX 2",
+							"Description": "3 tiles. Gets attatched on hit, moving with target until hit."
+						}
+					]
+				},
+				{
 					"id": "Shadow",
 					"Name": "Shadow",
 					"Level": 4,

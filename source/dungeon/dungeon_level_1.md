@@ -158,8 +158,8 @@ A 3 [Giant Leeches]{.m} are sucking a corpse on the east wall.
 - The corpse is from a goblin, sucked dry by the leeches and seems quite recent, he has a **Falchion** and some **Rope**.
 - The walls are covered in illustrations, they are in a medieval style with the figures varying in size a lot:
   - **West**: A boy in poverty, begging in the streets, an old man with a staff and carrying books offers help. Some people in green clothes ignore him.
-  - **North**: A teenager performing magic, the old man was pointing to some books, he looks worried.
-  - **East**: A man on top of a hill killing an old man with a knife, down from the hill villagers look at him terrified, bowing. A few villagers refuse to bow, demons are killing those.
+  - **North**: A man performing magic, with the same color as the boy. The old man is pointing at the stars, he looks worried.
+  - **East**: A village. Lots of villagers crying in the middle skeletons rising coming from their graves and coming from the edges. An old man, using the same colors as the boy is hypnotizing some skeletons, that are fighting for him.
   - **South**: An old man, on a throne. Skeletons in green clothes carry his throne. There is a tower in the back with big door painted on it, there is a villager crying on the tower window. > *The door is a secret passage and will open to room 7*
 
 If the players don't pay too much attention to the door illustration you can mention a scraping noise coming from the south.
@@ -244,7 +244,7 @@ A very well kept room, dusty but otherwise intact. The floor has a red carpet, m
 
 - Trying to read the books causes a **fatigue point** and leaves the **adventurer** disoriented for a short while. If they insist they may find out some information.
   - This library contains mostly Acheron Zul journals.
-  - Acheron Zul was searching for how to become immortal, another topic he was researching was on how to transmute humans into void demons.
+  - Acheron Zul was searching for how to stop the [dead vigil]{.tip} and how to become immortal.
   - The journals have a weak curse, making them very hard to read, reading them for too long will make the **adventurers** **Nauseated**.
 - **Acheron Zul Old Grimoire**: Scorched, as someone tried to burn it, some pages are thorn. Has wizard spells:
   - 2 level 1 spells
