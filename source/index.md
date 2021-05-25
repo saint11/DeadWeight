@@ -252,7 +252,7 @@ Choose one of the following as your starting equipment:
 
 ### Thief {.big}
 
-![](images/thief.png "Thief"){.left}
+![](images/thief.png "Thief")
 
 - Add 1 proficiency points to **Dexterity**.
 - Add the trait **cold blooded** or **dauntless**.

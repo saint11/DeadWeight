@@ -24,7 +24,8 @@ Last update was <now>
 - [ ] Interlude (City Phase)
 
 ## Next
-- [ ] Fix broken links everywhere
+- [ ] Thief new art
+- [ ] Wizard new art
 - [ ] Warrior Companies
 - [ ] Thief Gangs
 - [ ] World map
@@ -38,6 +39,7 @@ Last update was <now>
 - [ ] Quick reference guide with lots of tables
 
 ## Later
+- [ ] Fix broken links everywhere
 - [ ] Make all life paths roll 3d6 instead of 2d6
 - [ ] Review the print version
 - [ ] List of magic items
