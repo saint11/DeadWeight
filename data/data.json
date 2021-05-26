@@ -544,8 +544,8 @@
 				{
 					"id": "Vault_Weaver",
 					"Name": "Vault Weaver",
-					"Level": 2,
-					"Wounds": 4,
+					"Level": 8,
+					"Wounds": 5,
 					"Armor": 0,
 					"Resistance": 2,
 					"Special": [
@@ -564,9 +564,14 @@
 							"Description": "and bloat, becoming a Red Weaver"
 						},
 						{
-							"Name": "Silver tentacles",
-							"Check": "STR 2P",
-							"Description": ""
+							"Name": "Cry of hunger",
+							"Check": "-DEX 3",
+							"Description": "(2 actions) Vibrates rapidly causing the ground around to shake. Causes a small earthquake, dropping parts of the ceiling on adventurers."
+						},
+						{
+							"Name": "Piercing light",
+							"Check": "INT 2P",
+							"Description": "(2 actions) Flash of light, burns everyone **nearby**, including other enemies."
 						}
 					],
 					"Movement": 3,
@@ -576,7 +581,7 @@
 				{
 					"id": "Red_Weaver",
 					"Name": "Red Weaver",
-					"Level": 8,
+					"Level": 10,
 					"Wounds": 8,
 					"Armor": 0,
 					"Resistance": 2,
@@ -595,13 +600,23 @@
 					"Actions": [
 						{
 							"Name": "Silver Tentacles",
-							"Check": "STR 2P",
-							"Description": ""
+							"Check": "STR/INT/DEX 2P",
+							"Description": "Nearby"
 						},
 						{
 							"Name": "Pulse",
 							"Check": "",
-							"Description": "A wave of pain, causing 1 Presence wound to everyone *Close*"
+							"Description": "A wave of pain, causing 1 Presence wound to everyone *Close*, including diagonals."
+						},
+						{
+							"Name": "Unblinking Gaze",
+							"Check": "-INT",
+							"Description": "Add 2 stun markers to target nearby"
+						},
+						{
+							"Name": "Piercing red light",
+							"Check": "INT 2P",
+							"Description": "(2 actions) Flash of light, burns everyone **nearby**, including other enemies. Add a stun marker to anyone *close* looking directly at it."
 						}
 					],
 					"Movement": 3,

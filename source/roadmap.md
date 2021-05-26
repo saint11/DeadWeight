@@ -12,6 +12,9 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Sample dungeon level 2
+- [x] Thief new art
+- [x] Wizard new art
 - [x] Explain trackers on core rules
 - [x] Cleric sacrifice
 - [x] Banish undead skill
@@ -20,13 +23,10 @@ Last update was <now>
 - [x] Gods and prayers
 
 ## Working on now
-- [ ] Sample dungeon level 2
 - [ ] Interlude (City Phase)
+- [ ] Warrior Companies
 
 ## Next
-- [ ] Thief new art
-- [ ] Wizard new art
-- [ ] Warrior Companies
 - [ ] Thief Gangs
 - [ ] World map
   - [ ] Settlements

@@ -520,6 +520,8 @@ Making an armor roll is a bit different than making a test.
 
 To use armor roll one dice per **armor point**, for each **4, 5, 6** reduce the damage by one. For each **1** or **4** rolled that armor is damage and will lose 1 armor point until it's repaired. Players may always choose to roll less or no armor dice.
 
+If the **adventurer** is wearing multiple pieces of armor, like a *helmet* and a *vest*, only one piece of armor can be used to defend each attack. The player chooses which piece to use.
+
 >Zael just received  **2 wounds** from an arrow and decides to use his **reinforced leather armor(2 armor points)** to 2 dice. The new results are 1 and 6, which reduces the damage to only **1 wound**, but the armor is damaged and now has only 1 armor point until it's repaired.
 
 ### Placing wounds {.unlisted}

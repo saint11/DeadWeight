@@ -79,7 +79,11 @@ This is the nest of the giant spider known as **Guhlat** by the people of Trinta
 
 If the combat is too easy, you can add 1 or 2 [dire spiders]{.m} coming from the outside tunnel.
 
-- Several corpses tangled in the walls, a few of them moving, but most of them are too destroyed even for the [dead vigil]{.tip}
+- Several corpses tangled in the walls, a few of them moving, but most of them are too destroyed even for the [dead vigil]{.tip}. In the corpses, the adventurers can find:
+  - A **short sword**.
+  - A damaged **scale armor** (AP 3 - 2 damage).
+  - Metal helmet (1 AP).
+  - 3 **torches**.
 
 ## 8 Mining Supply Room
 This looks like an old supply room for some kind of mining operation.
@@ -102,7 +106,6 @@ The room is a foggy with scented vapors coming from the pool in the middle and f
   - When both valves in the [abandoned vault](#9-abandoned-vault) and in the [mining supply room](#8-mining-supply-room) are open this door will open, sliding into the floor.
 - The 4 brasiers were not lit by the goblins, but they are there all these years. Each has a piece of **everlasting ember** a piece of coal that never stops burning. They are small and all of them occupy one slot, but must be placed on some heat resistant container, or they will burn through it. Each ember can be sold as a [valuable]{.tip} item.
 
-
 ## 11 Summoning Room
 
 A big stone room, with a high ceiling, there's a big drawing on the floor with an orb with tentacles and an eye. To the south there's an iron grate, where the [corpse storage](#12-corpse-storage) can be seen. At the north wall there's a bit ornate door covered by many chains and locks. Upon inspection, each lock has a family name written.
@@ -117,6 +120,7 @@ Even when the fight breaks out the goblins sawing the corpses keep doing the job
 - The north wall is covered by chains, one can lock pick each individual lock, taking at least 2 turns, but the chains are rusty, a crowbar or similar tool can break them down faster (1 turn). Alternatively the door itself can be chopped with an axe, since is just old wood, other than holding the door, the chains don't really block the path, they seem more like a symbol then a real security measure.
 - When the big goblins die, the others will surrender and leave, if allowed. They look very distressed and sad (for losing their matriarch) and some will even cry. 
   - If the adventurers free the matriarch they will be **very confused** and a bit jumpy, they don't really know how to react to human kindness. The matriarch will give the adventurers a dry piece of her fungus, with a strange symbol. The symbol is a "friendship symbol" for goblins. Showing it to any goblin will usually cause them to leave the adventurers alone, a big group of goblins will take the symbol before leaving, though.
+- If interrogated the goblins will spill some words about the weavers, saying something like *"corpses! if feed on corpses and makes us feel bad!"* and *"we can't leave mother to die, it wants to eat mother!"*
 
 ## 12 Corpse Storage
 Big iron bars and a gate separate this room from the other [summoning room](#11-summoning-room). Here are stored dozen of vases with human corpses inside, all heavily bounded but still moving. If any of those are freed, they will attack anyone near, they are [starved cadavers]{.m}.
@@ -124,14 +128,16 @@ Big iron bars and a gate separate this room from the other [summoning room](#11-
 The southeast section of this room is partially flooded, and the water is foul, mixed with the corpses fluids.
 
 ## 13 Cave Antechamber
-The [goblin matriarch]{.m} is locked in here, siting in the corner, her fungus now partially attached to the wall. Two [gremlins]{.m} are carrying pieces of corpses to downstairs and running back up, with a terrified look on their faces.
+The [goblin matriarch]{.m} is locked in here, siting in the corner, her fungus now partially attached to the wall. Two [gremlins]{.m} are carrying pieces of corpses to downstairs and running back up, with a terrified look on their faces. The matriarch doesn't want to fight, and it will leave if allowed.
+
+In the corner of the room there's a pile of clothes, shoes, old armor and hats.
 
 - If the adventurers free the matriarch they will be **very confused** and a bit jumpy, they don't really know how to react to human kindness. The matriarch will give the adventurers a dry piece of her fungus, with a strange symbol. The symbol is a "friendship symbol" for goblins. Showing it to any goblin will usually cause them to leave the adventurers alone, a big group of goblins will take the symbol before leaving, though.
 
 Going downstairs will lead to the [primordial cave](./dungeon_level_3.html)
 
 ## 14 Achereon Zul's Vault
-Acheron Zul's rotting corpse walking in circle in his sealed vault, with a silver dagger stuck to his back. Most of his clothes have rotten and fallen to the ground and he's mostly naked. The ground has a small depression in the shape of a circle, where he must have walked wall these years.
+Acheron Zul's rotting corpse walking in circle in his sealed vault, with a silver dagger stuck to his back. Most of his clothes have rotten and fallen to the ground and he's mostly naked. The ground has a small depression in the shape of a circle, where he must have walked wall these years. He keeps mumbling a few words, sometimes in random a order, it's hard to distinguish between them but they sound like "*The weavers, I shouldn't have brought them. The weavers are not the solution, there is no solution. They only spread the curse.*" and variations on that.
 
 Acheron Zul is under a backfired necromantic spell, and will only walk in circles forever. If attacked or held, it will not fight back. His corpse has no special power or anything, though, the *soothsayer* had it wrong, since the real cause of the curse are the *weavers* downstairs.
 
