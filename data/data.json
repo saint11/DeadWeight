@@ -86,6 +86,9 @@
 					"Common Actions": [
 						{
 							"Action": "Knife_in_the_Gut"
+						},
+						{
+							"Action": "Roll"
 						}
 					],
 					"Movement": 4,
@@ -93,10 +96,34 @@
 					"Tags": 9
 				},
 				{
+					"id": "goblin_hunter",
+					"Name": "Goblin Hunter",
+					"Tags": 9,
+					"Level": 3,
+					"Wounds": 3,
+					"Armor": 1,
+					"Resistance": 0,
+					"Movement": 3,
+					"Special": [],
+					"Common Actions": [
+						{
+							"Action": "Knife_in_the_Gut"
+						}
+					],
+					"Extract": 1,
+					"Actions": [
+						{
+							"Name": "Short bow",
+							"Check": "DEX 2+1P",
+							"Description": "Nearby"
+						}
+					]
+				},
+				{
 					"id": "boggart",
 					"Name": "Boggart",
 					"Level": 3,
-					"Wounds": 3,
+					"Wounds": 4,
 					"Resistance": 0,
 					"Armor": 2,
 					"Actions": [
@@ -116,6 +143,31 @@
 					"Movement": 4,
 					"Extract": 1,
 					"Tags": 9
+				},
+				{
+					"id": "Boggart_Sniper",
+					"Name": "Boggart Sniper",
+					"Tags": 9,
+					"Level": 4,
+					"Wounds": 4,
+					"Armor": 2,
+					"Resistance": 0,
+					"Movement": 4,
+					"Special": [],
+					"Common Actions": [],
+					"Extract": 1,
+					"Actions": [
+						{
+							"Name": "Black Crossbow",
+							"Check": "DEX 2P+1",
+							"Description": "Nearby. Requires 2 actions to reload."
+						},
+						{
+							"Name": "Take aim",
+							"Check": "",
+							"Description": "Causes the next attack to have disadvantage to defend."
+						}
+					]
 				},
 				{
 					"id": "bloodshot_goblin",
@@ -193,7 +245,13 @@
 						}
 					],
 					"Armor": 2,
-					"Actions": [],
+					"Actions": [
+						{
+							"Name": "Hook pole",
+							"Check": "STR/DEX 3",
+							"Description": "Hits diagonally. Hooks on a hit. Target can't move, and takes 1 wound per turn until Sack Man is stunned, killed or decides to release the target."
+						}
+					],
 					"Movement": 5,
 					"Extract": 5,
 					"Tags": 9
@@ -637,6 +695,30 @@
 					"Movement": 8,
 					"Extract": 1,
 					"Tags": 1
+				},
+				{
+					"id": "golden_ridge_maneater",
+					"Name": "Golden Ridge Maneater",
+					"Tags": 1,
+					"Level": 6,
+					"Wounds": 8,
+					"Armor": 1,
+					"Resistance": 2,
+					"Movement": 4,
+					"Special": [],
+					"Common Actions": [
+						{
+							"Action": "Ram"
+						}
+					],
+					"Extract": 1,
+					"Actions": [
+						{
+							"Name": "Massive bite",
+							"Check": "-STR 3+3",
+							"Description": ""
+						}
+					]
 				},
 				{
 					"id": "Reanimated_Husk",
@@ -1091,6 +1173,12 @@
 					"Description": "Heal 1 wound."
 				},
 				{
+					"id": "Roll",
+					"Name": "Roll",
+					"Check": "",
+					"Description": "Move *close*, add 2 dodge tokens."
+				},
+				{
 					"Name": "Knife in the gut",
 					"Check": "STR 1B+1",
 					"id": "Knife_in_the_Gut",
@@ -1143,6 +1231,12 @@
 					"Name": "Chew Armor",
 					"Check": "STR 1",
 					"Description": "Always destroys 1 armor point."
+				},
+				{
+					"id": "Ram",
+					"Name": "Ram",
+					"Check": "",
+					"Description": "Moves 3 tiles, pushing whomever is in the way in a straight line. Causes 1 wound if hits a wall."
 				}
 			],
 			"separators": [],

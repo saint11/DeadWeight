@@ -15,7 +15,7 @@ Acheron Zul is long gone, but his horrible curse afflicted upon the nearby fief 
 ## General Information {.unlisted}
 This is the tomb of a once powerful necromancer, called Acheron Zul, who died horribly during one of his rituals. Goblins raided this tomb to scavenge for magical artifacts but ended up waking up Acheron's curse. Now the goblins and the undead roam the chambers, fighting each other.
 
-The dungeon has 3 levels. The mausoleum (this floor), the [burial chamber](dungeon_level_2.html) and the [primordial cave]().
+The dungeon has 3 levels. The mausoleum (this floor), the [burial chamber](dungeon_level_2.html) and the [primordial cave](./dungeon_level_3.html).
 
 This adventure is planed to be played in more than one session, with the adventurers going back and forth from the dungeon and to the nearby village, to rest and restock.
 
@@ -199,7 +199,7 @@ If the **adventurers** entered through this door there's a dead goblin on the gr
 ## 10 Tomb of the Inner court
 There are many rows of stone coffins, each with a statue lying down on it, representing the person buried there. Most of them are opened, though. Corpses are everywhere all of them hacked into pieces, blood splattered everywhere.
 
-There's a goblin camp there, they look injured and tired. They were not expecting the **adventurers** here, so they act surprised. 2 [goblin scrappers]{.m}, 1 [bloodshot goblin]{.m} and 1 [hobgoblin]{.m}. 2 of the *scrappers* are injured, one with 2 wounds, the other with 1 wound.
+There's a goblin camp there, they look injured and tired. They were not expecting the **adventurers** here, so they act surprised. 1[goblin hunter]{.m} 2 [goblin scrappers]{.m}, 1 [bloodshot goblin]{.m} and 1 [hobgoblin]{.m}. 2 of the *scrappers* are injured, with 1 wound.
 
 
 - The door to the west is locked, the key is in the [sealed sleeping quarters](#sealed-sleeping-quarters). Breaking it is possible, but it is reinforced, so it won't be easy.
@@ -221,6 +221,10 @@ A group of goblins is barricaded here. 2 [boggarts]{.m} and 2 [goblin scrappers]
 
 They really don't want to fight and are terrified of whatever is down the tomb. If the **adventurers** tell them it's safe, and their leaders (the goblins on room 10) are dead, they  will gladly leave.
 
+In the altar there's a metal cross with 3 beams across. This is no religious symbol that anyone in the group knows about.
+
+*This metal cross is actually a key to the last room, so it's important. Explain the players how weird that cross is so they remember it later or pick it up.*
+
 ## 12 Stockroom
 Piles of melted candle wax, brooms and cleaning supplies are in a corner. There's a big table in the middle with a lot of rotten food piled up. A drawer is in surprisingly good condition in the south wall, full of scrolls and inks.
 
@@ -238,6 +242,8 @@ An ornate hall, in the middle of the room two hooded statues frame a stairway go
 2 [reanimated husks]{.m} are crawling here, one near the stairs and one near the barricade. From the dark bellow, comes a [void demon]{.m}.
 
 There's a stairway to the [lower levels](dungeon_level_2.html) here, but it's closed with an iron gate.
+
+*There's a secret passage on the east wall. Pushing the wall in the right place will open it.*
 
 ## 14 Acheron Zul Study Room
 A very well kept room, dusty but otherwise intact. The floor has a red carpet, mostly intact. There's a study desk full of books, notes and scrolls. All the walls are covered with dusty tomes with no titles, only numbers on the side, and strange scientific instruments.

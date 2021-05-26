@@ -11,11 +11,21 @@ print: true
 ## About this level {.unlisted}
 The burial chamber is filled with an unnatural darkness, all light sources can light only half the distance (round down, torches only light up to 2 tiles away).
 
-Still working on this... {.alert}
+This level is a less intense the the upper floor, specially because the adventurers will probably be exhausted at this point. The fights here are more dangerous, but there's more breathing room.
+
+If your players managed to get in here without going through the upper floor (probably using the sacrificial room entrance) you can add more wandering monsters to make things a bit harder.
 
 ## 1 Chamber Entrance
 
-Stairs come down from the mausoleum to the burial chamber, the steps look ruined and crumble a bit when stepped on. The south wall is adorned with stone skulls and the door is only half the height of a normal door. Written above it *"All that enter must bow in humbleness to death*.
+Stairs come down from the [mausoleum](./dungeon_level_1.html#13-burial-chamber-entrance) to the burial chamber, the steps look ruined and crumble a bit when stepped on. The south wall is adorned with stone skulls and the door is only half the height of a normal door. Written above it *"All that enter must bow in humbleness to death*.
+
+There's some half-burned firewood in a corner with a few bones. The ceiling is stained black from smoke.
+
+If the adventurers haven't killed them upstairs, 2 [reanimated husks]{.m} are crawling here and a [void demon]{.m}.
+
+Other than that there's nothing important in this room, just just, cracked stones and skull ornaments on the walls.
+
+*The firewood can be used for camping.*
 
 ## 2 Twisting Corridors
 
@@ -23,7 +33,7 @@ The dusty corridor twist in strange ways, the walls made of very large rectangul
 
 There's an iron nail, between the floor and the wall right after the entrance.
 
-*There is a secret passage to the [Corpse-Shrinking Lab](#3-corpse-shrinking-lab). The iron nail is keeping the door closed, but after it's removed that section of the wall can be pulled and it will open.*
+*There is a secret passage to the [Corpse-Shrinking Lab](#3-corpse-shrinking-lab). The iron nail is keeping the door closed, but after it's removed that section of the wall can be pulled and it will snap open.*
 
 ## 3 Corpse-Shrinking Lab
 
@@ -31,7 +41,10 @@ This room's the lab of Acheron Zul, it's filled with failed experiments. Glass t
 
 - When the **adventurer** get in, 4 [shrunken corpses]{.m} attack them. 2 break from their glass tubes, 2 come from under the table.
 - The other corpses inside the tubes twitch and look at the **adventurers** when they move around, but are harmless.
-- The green liquid is highly toxic, any contact with it will cause one wound, and **nauseated** affliction.
+- The green liquid is highly toxic, any contact with it will cause one **intelligence** wound (can't be reduced), and **nauseated** affliction.
+- 2 **ether** and 2 **fire** extract can be found here.
+- an **alchemic kit** is on the table.
+- A bottle of **wine of Yoros**, labeled on the floor.
 
 > At some point Acheron Zul tried a popular technique of that time, to dry and shrink the corpses in an effort to make them harmless. It obviously backfired.
 
@@ -66,12 +79,14 @@ This is the nest of the giant spider known as **Guhlat** by the people of Trinta
 
 If the combat is too easy, you can add 1 or 2 [dire spiders]{.m} coming from the outside tunnel.
 
+- Several corpses tangled in the walls, a few of them moving, but most of them are too destroyed even for the [dead vigil]{.tip}
+
 ## 8 Mining Supply Room
 This looks like an old supply room for some kind of mining operation.
 
-- A small cart with rocks, if the rocks are searched, a small [valuable]{.tip} precious stone can be found.
-- Mining tools, a pickaxe (STR 2P) and a shovel.
-- 
+- A small cart with rocks, if the rocks are searched, a small [valuable]{.tip} **precious stone** can be found.
+- **Mining tools**, a **pickaxe** (STR 2P) and a shovel.
+- **Lantern**
 - There is a hydraulic machine here, with a valve. Opening the valve will spill some water and a mechanical noise far away can be heard.
 
 ## 9 Abandoned Vault
@@ -80,12 +95,28 @@ The entrance to this room is hidden, if someone pushes the wall an audible click
 - There is a hydraulic machine here, with a valve. Opening the valve will spill some water and a mechanical noise far away can be heard.
 
 ## 10 Tainted Shrine
+The room is a foggy with scented vapors coming from the pool in the middle and from 4 brasiers burning around the room. The brasiers are emitting a very soft glow of embers. Stairs lead to an upper area of the room.
 
-A sturdy ornate metal door is at the west, it has no handle. Two pipes are coming out from the door, and down the stairs, one going north and one south, they disappear into the wall.
+- 2 [goblin scrappers]{.m} will try to sneak on the **adventurers** while 2 [boggart snipers]{.m} fire from above.
+- A sturdy ornate metal door is at the west, it has no handle. Two pipes are coming out from the door, and down the stairs, one going north and one south, they disappear into the wall.
+  - When both valves in the [abandoned vault](#9-abandoned-vault) and in the [mining supply room](#8-mining-supply-room) are open this door will open, sliding into the floor.
+- The 4 brasiers were not lit by the goblins, but they are there all these years. Each has a piece of **everlasting ember** a piece of coal that never stops burning. They are small and all of them occupy one slot, but must be placed on some heat resistant container, or they will burn through it. Each ember can be sold as a [valuable]{.tip} item.
 
-When both valves in the [abandoned vault](#9-abandoned-vault) and in the [mining supply room](#8-mining-supply-room) are open this door will open, sliding into the floor.
 
 ## 11 Summoning Room
+
+A big stone room, with a high ceiling, there's a big drawing on the floor with an orb with tentacles and an eye. To the south there's an iron grate, where the [corpse storage](#12-corpse-storage) can be seen. At the north wall there's a bit ornate door covered by many chains and locks. Upon inspection, each lock has a family name written.
+
+A group of goblins is camped here. When the **adventurers** get in they see that one of them is sawing one of the corpses into smaller parts while another is carrying those parts to the west gate. A small [gremlin]{.m} is waiting at the gate. 2 [bugbears]{.m} and 1 [sack men]{.m} are guarding the place. A caged [golden ridge maneater]{.m} is also here, the nearest goblin not on corpse duty will open the cage as soon ass possible.
+
+If you believe this fight is too easy, add a [goblin hunter]{.m} firing arrows from behind the bars. If it's too hard the goblins might have trouble opening the [golden ridge maneater]{.m} cage or on of the corpses wakes up, and start attacking the goblins.
+
+Even when the fight breaks out the goblins sawing the corpses keep doing the job, and will not stop until someone stops them.
+
+- The west gate is disgusting, and everything is covered with years-old corpse fluids. It's locked. There's a huge keyhole (too big to lockpick) on the wall to the right, with a symbol on top, of a cross with tree beams. *The key is the metal cross in the [chapel upstairs](./dungeon_level_1.html#chapel).*
+- The north wall is covered by chains, one can lock pick each individual lock, taking at least 2 turns, but the chains are rusty, a crowbar or similar tool can break them down faster (1 turn). Alternatively the door itself can be chopped with an axe, since is just old wood, other than holding the door, the chains don't really block the path, they seem more like a symbol then a real security measure.
+- When the big goblins die, the others will surrender and leave, if allowed. They look very distressed and sad (for losing their matriarch) and some will even cry. 
+  - If the adventurers free the matriarch they will be **very confused** and a bit jumpy, they don't really know how to react to human kindness. The matriarch will give the adventurers a dry piece of her fungus, with a strange symbol. The symbol is a "friendship symbol" for goblins. Showing it to any goblin will usually cause them to leave the adventurers alone, a big group of goblins will take the symbol before leaving, though.
 
 ## 12 Corpse Storage
 Big iron bars and a gate separate this room from the other [summoning room](#11-summoning-room). Here are stored dozen of vases with human corpses inside, all heavily bounded but still moving. If any of those are freed, they will attack anyone near, they are [starved cadavers]{.m}.
@@ -95,5 +126,15 @@ The southeast section of this room is partially flooded, and the water is foul, 
 ## 13 Cave Antechamber
 The [goblin matriarch]{.m} is locked in here, siting in the corner, her fungus now partially attached to the wall. Two [gremlins]{.m} are carrying pieces of corpses to downstairs and running back up, with a terrified look on their faces.
 
+- If the adventurers free the matriarch they will be **very confused** and a bit jumpy, they don't really know how to react to human kindness. The matriarch will give the adventurers a dry piece of her fungus, with a strange symbol. The symbol is a "friendship symbol" for goblins. Showing it to any goblin will usually cause them to leave the adventurers alone, a big group of goblins will take the symbol before leaving, though.
+
+Going downstairs will lead to the [primordial cave](./dungeon_level_3.html)
+
 ## 14 Achereon Zul's Vault
-Acheron Zul's rotting corpse walking in circle in his sealed vault, with a silver dagger stuck to his back. Most of his clothes have rotten and fallen to the ground and he's mostly naked. The ground has a small depression in the shape of a circle, where he must have walked wall these years. 
+Acheron Zul's rotting corpse walking in circle in his sealed vault, with a silver dagger stuck to his back. Most of his clothes have rotten and fallen to the ground and he's mostly naked. The ground has a small depression in the shape of a circle, where he must have walked wall these years.
+
+Acheron Zul is under a backfired necromantic spell, and will only walk in circles forever. If attacked or held, it will not fight back. His corpse has no special power or anything, though, the *soothsayer* had it wrong, since the real cause of the curse are the *weavers* downstairs.
+
+Returning the corpse to **Trinta** will give the **adventurers** the bounty of 80 silver coins. The soothsayer will perform a very dramatic ritual in the middle of the city with the corpse.
+    - If the weavers are still alive when the corpse is returned, the curse won't be lifted, and the soothsayer will be hanged next night. The lord will then come to the adventurers with his guards and order them to get back there and finish the job. Killing the weavers and lifting the curse will give the **adventurers** another 40 silver bounty.
+    - If the weavers are dead, the soothsayer will claim that the curse is gone because of his ritual. And a small parade in the honor of the **soothsayer** will be held.

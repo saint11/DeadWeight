@@ -25,6 +25,7 @@ var shortcodes = {
     monster: {
         render: function (attrs, env) {
             const monster = getFromId(data_monsters, attrs.id);
+            console.assert(monster, "Cannot find monster " + attrs.id);
             return makeMonsterTable(monster, data_actions);
         }
     },

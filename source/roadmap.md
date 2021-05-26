@@ -40,6 +40,7 @@ Last update was <now>
 
 ## Later
 - [ ] Fix broken links everywhere
+- [ ] Improve intro
 - [ ] Make all life paths roll 3d6 instead of 2d6
 - [ ] Review the print version
 - [ ] List of magic items

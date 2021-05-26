@@ -317,7 +317,7 @@ The players objective on the camp setup is to get as many **action points** they
 - Add 1 **actions** if the adventurers are camping in a dry and stable place.
 - Add 1 **action** for each *camping supply* item used.
 - Add 1 **action** for each **adventurer** with the survivalist skill.
-- Add 1 **action** the the **players** decide to make a fire.
+- Add 1 **action** the the **players** decide to make a fire. It requires *camping supply* or *firewood*.
 - Add 2 **actions** and **advance the doom tracker** if  the players decide to take a long rest.
 - Subtract 1 **action** if the location is particularly **filthy** or **unhealthy**. (Cold, flooded, littered with corpses, etc.)
 

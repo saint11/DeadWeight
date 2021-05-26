@@ -196,7 +196,7 @@ function position_tooltip() {
 
     monster_tooltip.appendChild(makeMonsterTable(remove_spaces(id)))
     monster_tooltip.classList.add("show");
-    monster_tooltip.style.top = (this.offsetTop - monster_tooltip.offsetHeight - 30) + 'px';
+    //monster_tooltip.style.top = (this.offsetTop - monster_tooltip.offsetHeight - 30) + 'px';
 }
 
 function toBitwise(array) {

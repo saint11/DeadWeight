@@ -120,6 +120,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
     opacity: 20%;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+h1 a:hover, h1 a:focus-visible, h2 a:hover, h2 a:focus-visible, h3 a:hover, h3 a:focus-visible, h4 a:hover, h4 a:focus-visible, h5 a:hover, h5 a:focus-visible {
     opacity: 100%;
+    border-radius: 50%;
 }

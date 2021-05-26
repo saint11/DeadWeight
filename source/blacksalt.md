@@ -44,7 +44,9 @@ One of the most notable things about **Blacksalt** is the **dead vigil**. Any cr
 
 The cause of the **dead vigil** is uncertain, some blame the old king for trying to achieve eternal life, others say its because of something buried deep into the island tunnels, but no one knows for sure.
 
-Any corpse if left undisturbed will come back to life after 1d6 weeks as a [Freshly risen corpse]{.m} or [Reanimated husk]{.m}, depending on the state of the conservation and will start looking for other people to attack. If the corpse is unsuitable it may come back as ghost, like a [shadow]{.m}.
+Any corpse if left undisturbed will come back to life after 1d6 weeks as a [Freshly risen corpse]{.m} or [Reanimated husk]{.m}, depending on the state of the conservation and will start looking for other people to attack. If the corpse is too damaged or somehow unsuitable it may come back as ghost, like a [shadow]{.m}, that's rare though, but ghosts are extremely dangerous so people avoid destroying corpses.
+
+The most "elegant" way to dispose of a body is a proper burial ritual, and a coffin with the seal of [Cador](#cador), that will stop the corpse from returning. This is a relatively new technique, during many years people didn't know how to deal with their dead. Different groups of people tried many different rituals and techniques to stop their dead from coming back, most had horrible consequences for them.
 
 # Military groups {.draft}  
 
@@ -241,3 +243,16 @@ Not much is known of them and their worship is strictly forbidden in most cultur
 # History {.draft}
 
 # Geography {.draft}
+
+## Blacksalt
+
+### Yoros
+A major city in **Blacksalt**. Famous for it's high quality wine.
+
+## Other Places
+
+### Golden Ridge
+
+### Island of Yadar
+
+### Ravenhome

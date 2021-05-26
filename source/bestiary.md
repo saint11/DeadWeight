@@ -38,7 +38,7 @@ Goblin nests are rare and extremely well hidden, but tales are told of them. Wit
 
 Child-stealers will roam in the night since they can see in the dark. They avoid sun light but it won't hurt them.
 
-Most of them worship **Igra**, the god of the woods but a few will workship [Goshkalon](blacksalt.html#goshkalon), the god of laughter.
+Most of them worship **Igra**, the god of the woods but a few will workship [Goshkalon](blacksalt.html#goshkalon), the god of laughter. They are not evil, but guided to the instinct to reproduce their kind, and the only way to do it is with human children.
 
 <monster id="gremlin">
 
@@ -48,7 +48,11 @@ Most of them worship **Igra**, the god of the woods but a few will workship [Gos
 
 <monster id="goblin_scrapper">
 
+<monster id="goblin_hunter">
+
 <monster id="boggart">
+
+<monster id="boggart_sniper">
 
 ![](./images/goblin.png){.left}
 
@@ -57,14 +61,17 @@ Most of them worship **Igra**, the god of the woods but a few will workship [Gos
 <monster id="hobgoblin">
 
 <monster id="sack_man">
+A big goblin with a sack on his back and a big pole with hook. The sack contains meat for the matriarch and sometimes living captured people or animals.
 
 <monster id="bugbear">
 
-*A feral gremlin that ate human flesh, oversized and always hungry. A bugbears are so unstable that event the goblins don't like to have them around.*
+A feral gremlin that ate human flesh, oversized and always hungry. A bugbears are so unstable that event the goblins don't like to have them around.
 
 <monster id="goblin_matriarch">
 
-*A very old goblin shaman that has a special fungus growing on her back. Goblins will immobilize their victims and for weeks will force them to breath the spores and eat the fungus, turning them into **goblins** and **gremlins**.*
+A very old goblin shaman that has a special fungus growing on her back. Goblins will immobilize their victims and for weeks will force them to breath the spores and eat the fungus, turning them into **goblins** and **gremlins**. Goblins never mourn or feel sad about the death of other goblins, **except** for the death of a matriarch.
+
+No one knows how a goblin matriarch is made.
 
 <pagebreak>
 
@@ -93,7 +100,7 @@ The dungeon ruins have corpses and rotting things all around. While humans avoid
 
 ### Shore Creatures {.big}
 
-Blacksalt isle sea is full of terrible creatures, some end up walking on the land and taking refuge in abandoned ruins.
+Blacksalt isle shores are full of terrible creatures, some end up venturing deeper into the land and taking refuge in abandoned ruins.
 
 ![](images/Giant%20Crab.png "Giant enemy crab"){.right}
 
@@ -102,6 +109,11 @@ Blacksalt isle sea is full of terrible creatures, some end up walking on the lan
 <monster id="giant_frog">
 
 <monster id="giant_crab">
+
+<monster id="golden_ridge_maneater">
+A big lizard, looks like a fat toothless alligator. Since it's toothless, it swallow its victims whole, using its immense jaw to crush bones with ease.
+
+Not originally from **Blacksalt**, brought by travellers from the **Golden Ridge**, a few got loose and quickly reproduced, disrupting the ecosystem. They seem to hate humans and will attack on sight, but don't seem to mind the goblinfolk. Goblins quickly took notice of this fact, domesticating and using them as guard dogs.
 
 <pagebreak>
 
