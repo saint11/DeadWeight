@@ -24,6 +24,11 @@ html {
     color: white;
 }
 
+img {
+    max-height: 640px;
+    object-fit: contain;
+}
+
 @media screen and (max-width: 900px) {
     img.left, img.right {
         display: none;

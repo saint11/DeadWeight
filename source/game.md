@@ -226,16 +226,16 @@ Recover one **fatigue** point for each **attribute**.
 
 #### Defend (1 action) {.block}
 Requires a shield or something that can be used as a shield. 
-Place a [shield token]{.tip} on your character.
+Place the number of [shield tokens]{.tip} noted in your shield on your character.
 Characters can't have more than 5 [shield tokens]{.tip} at any time.
 
 #### Dodge (2 actions) {.block}
 Make a dexterity test, place one [dodge token]{.tip} on a success. 
 Add another one on a **great success** on your character.      
 
-#### Cast spell or invoke a prayer (1 or 2 actions) {.block}
-Choose an available ***spell*** or ***prayer*** and tests the appropriate ***attribute*** specified in the ***spell*** or ***prayer*** description.
-Execute that spell effect.                                                                                                                           
+#### Cast spell, invoke a prayer or perform a combat manoeuver (1 or 2 actions) {.block}
+Choose an available **spell**, **prayer** or **manoeuver** and tests the appropriate **attribute** specified in the **spell**, **prayer** or **manoeuver** description. Unless specified on the description, this costs **1 action** and have **close** range.
+Execute that effect.
 
 #### Use item or change equipment (1 action) {.block}
 Equip, use an item for it's effect.

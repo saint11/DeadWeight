@@ -15,11 +15,13 @@ links:  Core Rules|index, Playing the Game|game, Bestiary*, Blacksalt
 ### Demons {.big}
 All magic com from the void realm, a nightmare plane where all demons come from.
 
-![](images/void.png "Plagued rat"){.left}
+![](images/void.png "Void demon"){.left}
 
 <monster id="lesser_demon">
 
 <monster id="void_demon">
+
+![](images/weaver-monster.png "Vault weaver"){.right}
 
 <monster id="vault_weaver">
 

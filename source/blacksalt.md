@@ -48,7 +48,43 @@ Any corpse if left undisturbed will come back to life after 1d6 weeks as a [Fres
 
 The most "elegant" way to dispose of a body is a proper burial ritual, and a coffin with the seal of [Cador](#cador), that will stop the corpse from returning. This is a relatively new technique, during many years people didn't know how to deal with their dead. Different groups of people tried many different rituals and techniques to stop their dead from coming back, most had horrible consequences for them.
 
-# Military groups {.draft}  
+# Warrior Background
+Currently workin on this part, while you can use this, some changes and balancing will be made soon. {.alert}
+
+## Footman
+![](images/warrior-footman.png)
+Footmen starts with the **hardened** special trait, allowing them to reduce any damage they receive.
+
+#### Equipment  
+Backpack, Spear (STR 3+1B), metal shield(2 [shield tokens]{.tip}), padded armor (2 [AP]{.tip}), 2d6 silver coins.
+
+#### Manoeuvers {.block}
+- **Turtle:** 2 actions. Raise your shield, get on one knee and brace for impact. Perform a defend action (adding the appropriate number of [shield tokens]{.tip}) and for this turn you can't receive fatigue for defending.
+
+## Gladiator
+![](images/warrior-gladiator.png)
+Gladiators are used to gamble their life away for money. To them, the only difference is that **Blacksalt island** pays better.
+
+They start with the **battle trance** special trait, allowing them to chain attacks, as long as they do the last blow on an enemy. 
+
+#### Equipment 
+Bag, Falchion (STR 3+1B), wooden shield(1 [shield token]{.tip}), gladiator armor (1, 1 [AP]{.tip}), cage helmet(1 [AP]{.tip}), 2d6 silver coins.
+
+#### Manoeuvers {.block}
+- **Bash**: (STR 1) Bash with your shield or weapon hilt, on a hit add a [stun token]{.tip} to target.
+- **Disarm**: (-DEX 1) On hit the target drops the wielded weapon **close**.
+- **Glorious finish**: Perform a regular attack. If the gladiator kills the last enemy in the combat with this attack, the whole party recovers one **presence** fatigue or wound. On a failure the gladiator receives on presence fatigue. If the combat was purposely stalled, target is currently immobilized or harmless in any way, this has no effect, this only work when there's real danger involved.
+
+## Barbarian
+Barbarian have the **berserker** special trait that allows them to keep fighting while ignoring fatigue or wounds.
+
+#### Equipment 
+Bag, Battle Axe (STR 4+2B), loincloth, war paint.
+
+#### Manoeuvers {.block}
+- **Roar**: (PRE) All enemies nearby. The barbarian must perform a **presence** test for each target. receive a stun marker. Can only be performed once per battle. Only works on enemies with the **living** tag.
+- **Charge**: The barbarian charges target forward moving in a straight line, dragging the target. If charge hits a wall place characters as close as possible at the wall, cause 1 wound and one stun marker to target. Uses regular move speed. Does not work on enemies with the **ghost** tag.
+- **Reckless attack**: Perform an attack that will cause 1 extra wound. Your next defense will have disadvantage.
 
 # Gangs {.draft}
 
@@ -62,6 +98,8 @@ When a spell has a duration that explicitly mentions **exploration turns** it ca
 When rolling for duration, unless specified otherwise, the roll is made by the **player** as soon as the spell have been cast.
 
 ## Necromancers of Yadar
+
+![](./images/wizard-necromancer.png){.left}
 
 Controlling the dead and the dark forces of the void is the Necromancers of Yadar's specialty, their techniques are strictly forbidden in most places of the world, but in Blacksalt no one cares, they will take whatever works.
 
@@ -78,6 +116,7 @@ Tales tell that Yadar is a small island, hidden in the black sea, populated only
 - **Bonedance**: Bends the bones of a **nearby** creature in an unnatural way for the duration of the combat. All tests made against that creature are made with advantage. Halves that creature move speed.
 
 ## Alchemists of the Golden Ridge
+![](./images/wizard-alchemist.png)
 
 The secret order of the Golden Ridge is focused in transmuting and creating magic potions and artifacts. For centuries they stayed in the Golden Ridge, extracting and transmuting the local fauna and flora, until they the news of Blacksalt reached them. The amount of supernatural elements in Blacksalt is endlessly valuable for them.
 
@@ -166,7 +205,7 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 
 #### Prayers {.block .unlisted}
 - **Bliss**: (Close) Choose one affliction the target currently has, during this expedition that affliction will have no effect, but can't be removed.
-- **Euphoria**: (Close) During this combat the target can ignore wounds and fatigue when counting available dice. They can still receive wounds and fatigue normally.
+- **Euphoria**: (Close) Target recover 2 fatigue. During this combat the target can ignore wounds and fatigue when counting available dice. They can still receive wounds and fatigue normally.
 - **Ignorance**: (Nearby) The target can't use any INT based attacks for 2d6 [rounds]{.tip #round}.
 - **Numbness**: (Nearby ally) Heal all PRE wounds, but causes one fatigue in STR and DEX.
 - **Hyperfocus**: (Nearby) For the next 1d6 turns of combat the target will have 3 actions, but can only perform the same action. The target can change actions between rounds.
@@ -187,6 +226,8 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 - **Dirge**: Place a marker on a **nearby** target that lasts 1d6 turns. If that target dies with the marker, all **nearby** living creatures heal 2 wounds.
 
 ### Yulak {.big}
+![](./images/cleric-yulak.png)
+
 **God of purity**, Yulak is not only the god of purity but also the god of fire and punishment. She is merciless and so are her disciples.
 
 **Sacrifice**: To please Yulak, the cleric must self-flagellate, causing 2 wounds and bleeding to self.

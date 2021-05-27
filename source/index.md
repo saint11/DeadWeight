@@ -229,24 +229,30 @@ No one comes to the *Blacksalt Isle* unburdened. This is why you are here and wh
 
 Classes will give special skills to your character. Choose one and follow the instructions for each class. After that your character is done!
 
+There are 4 main classes, each class has a specific **background** that you must also choose. They are all in the [Blacksalt book](./blacksalt.html).
+
 Check the **skills** and **traits** section to understand what each of your traits and skills do. Make sure to also check how your **equipment** works on the **equipment and items** section. You may also spend your gold in equipment and items before the mission starts, but you may **not** sell items before the first mission.
 
 <pagebreak>
 
 ### Warrior {.big}
 
-![](images/warrior.png "Warrior")
+![](images/warrior-footman.png "Warrior with the footman background")
+
+Trained in dealing with violence warriors are the first one in a combat and the last ones out. The warriors can use any armor or weapon.
 
 - Add 1 proficiency points to **Strength**.
-- Add the trait **battle trance** or **hardened**.
-- Add the skill **Bash**.
-- Add the skill **Weapon master**.
 
-Choose one of the following as your starting equipment:
+#### Warrior background
 
-  - **A:** Bag, Falchion (STR 3+1B), wooden shield(1 [shield token]{.tip}), scale armor (3 [AP]{.tip}), 2d6 silver coins.
-  - **B:** Backpack, Spear (STR 3+1B), metal shield(2 [shield tokens]{.tip}), padded armor (2 [AP]{.tip}), 2d6 silver coins.
-  - **C:** Bag, Battle Axe (STR 4+2B), loincloth, war paint.
+Warriors can come from different backgrounds, dramatically changing their fighting and living style. For your special trait and equipment, you must choose a [warrior background](./blacksalt.html#warrior-background):
+- [Footman](./blacksalt.html#footman)
+- [Gladiator](./blacksalt.html#footman)
+- [Barbarian](./blacksalt.html#footman)
+
+#### Combat manoeuvers
+Warriors must choose their combat manoeuvers, they can choose 1 from the manoeuver list in their warrior background. During the combat they may use those manoeuvers freely, as many times as they want, as long they have the required actions for them.
+Manoeuvers requires 1 action and hit targets **close**, unless specified in its description.
 
 <pagebreak>
 
@@ -268,7 +274,7 @@ Choose one of the following as your starting equipment:
 
 ### Wizard {.big}
 
-![](images/wizard.png "Wizard")
+![](images/wizard-alchemist.png "Wizard with the alchemist background")
 
 - Add 1 proficiency points to **Intelligence**.
 - Add the trait **magic user**.
@@ -327,7 +333,7 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 
 ### Cleric {.big .break}
 
-![](images/cleric-yulak.png "Cleric")
+![](images/cleric-yulak.png "Cleric of Yulak")
 
 - Add 1 proficiency points to **Presence**.
 - Add the trait **divine mandate**.
@@ -596,7 +602,6 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 
 - **Animal Affinity:** You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals. You have a small pet that follows you around (**weak ally**).
   - **Beastmaster:**(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
-- **Bash:** You can perform a **bash** combat action, bashing with your shield or weapon hilt attacking with **STR 1**, add a [stun token]{.tip} to the enemy on a hit.
 - **Banish Undead**: Perform a **presence test**, on a success any undead **nearby** that can see you, level 4 or lower must spend one action moving at least 1 step away from you.
 - **Cooking:** Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
   - **Master Chef:**(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
@@ -633,6 +638,7 @@ Weapon and armor use depends on the character arsenal skill. Using an equipment 
 
 Special traits are similar to skills, but usually add or break a rule to your character.
 
+- **Berserker**: During combat, ignore **strength** fatigue and wounds when rolling tests. You still take wounds and fatigue normally, and so your character will collapse in exhaustion if your available dices go lower than zero.
 - **Bad omens**: Every time you have a critical fail on a test, advance the **omens** tracker.
 - **Battle trance**: Every time you kill an enemy you get an extra action.
 - **Cold blood**: You may back-stab enemies that are engaged in combat to another character or distracted, for that you may use **Dexterity** to hit with weapons that would require **Strength**. Enemies can't use **resistance** to reduce your damage and you cause one extra wound.

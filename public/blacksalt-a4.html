@@ -162,8 +162,58 @@
 <p>Any corpse if left undisturbed will come back to life after 1d6 weeks as a <span class="m">Freshly risen corpse</span> or <span class="m">Reanimated husk</span>, depending on the state of the conservation and will start looking for other people to attack. If the corpse is too damaged or somehow unsuitable it may come back as ghost, like a <span class="m">shadow</span>, that's rare though, but ghosts are extremely dangerous so people avoid destroying corpses.</p>
 <p>The most "elegant" way to dispose of a body is a proper burial ritual, and a coffin with the seal of <a href="#cador">Cador</a>, that will stop the corpse from returning. This is a relatively new technique, during many years people didn't know how to deal with their dead. Different groups of people tried many different rituals and techniques to stop their dead from coming back, most had horrible consequences for them.</p>
 </section>
-<section class="draft" id="military-groups">
-<h1 class="draft">Military groups</h1>
+<section id="warrior-background">
+<h1>Warrior Background</h1>
+<p class="alert">Currently workin on this part, while you can use this, some changes and balancing will be made soon.</p>
+<section id="footman">
+<h2>Footman</h2>
+<p><img src="images/warrior-footman.png" alt=""><br>
+Footmen starts with the <strong>hardened</strong> special trait, allowing them to reduce any damage they receive.</p>
+<section id="equipment-1">
+<h4>Equipment</h4>
+<p>Backpack, Spear (STR 3+1B), metal shield(2 <span class="tip">shield tokens</span>), padded armor (2 <span class="tip">AP</span>), 2d6 silver coins.</p>
+</section>
+<section class="block" id="manoeuvers">
+<h4 class="block">Manoeuvers</h4>
+<ul>
+<li><strong>Turtle:</strong> 2 actions. Raise your shield, get on one knee and brace for impact. Perform a defend action (adding the appropriate number of <span class="tip">shield tokens</span>) and for this turn you can't receive fatigue for defending.</li>
+</ul>
+</section>
+</section>
+<section id="gladiator">
+<h2>Gladiator</h2>
+<p><img src="images/warrior-gladiator.png" alt=""><br>
+Gladiators are used to gamble their life away for money. To them, the only difference is that <strong>Blacksalt island</strong> pays better.</p>
+<p>They start with the <strong>battle trance</strong> special trait, allowing them to chain attacks, as long as they do the last blow on an enemy.</p>
+<section id="equipment-2">
+<h4>Equipment</h4>
+<p>Bag, Falchion (STR 3+1B), wooden shield(1 <span class="tip">shield token</span>), gladiator armor (1, 1 <span class="tip">AP</span>), cage helmet(1 <span class="tip">AP</span>), 2d6 silver coins.</p>
+</section>
+<section class="block" id="manoeuvers-1">
+<h4 class="block">Manoeuvers</h4>
+<ul>
+<li><strong>Bash</strong>: (STR 1) Bash with your shield or weapon hilt, on a hit add a <span class="tip">stun token</span> to target.</li>
+<li><strong>Disarm</strong>: (-DEX 1) On hit the target drops the wielded weapon <strong>close</strong>.</li>
+<li><strong>Glorious finish</strong>: Perform a regular attack. If the gladiator kills the last enemy in the combat with this attack, the whole party recovers one <strong>presence</strong> fatigue or wound. On a failure the gladiator receives on presence fatigue. If the combat was purposely stalled, target is currently immobilized or harmless in any way, this has no effect, this only work when there's real danger involved.</li>
+</ul>
+</section>
+</section>
+<section id="barbarian">
+<h2>Barbarian</h2>
+<p>Barbarian have the <strong>berserker</strong> special trait that allows them to keep fighting while ignoring fatigue or wounds.</p>
+<section id="equipment-3">
+<h4>Equipment</h4>
+<p>Bag, Battle Axe (STR 4+2B), loincloth, war paint.</p>
+</section>
+<section class="block" id="manoeuvers-2">
+<h4 class="block">Manoeuvers</h4>
+<ul>
+<li><strong>Roar</strong>: (PRE) All enemies nearby. The barbarian must perform a <strong>presence</strong> test for each target. receive a stun marker. Can only be performed once per battle. Only works on enemies with the <strong>living</strong> tag.</li>
+<li><strong>Charge</strong>: The barbarian charges target forward moving in a straight line, dragging the target. If charge hits a wall place characters as close as possible at the wall, cause 1 wound and one stun marker to target. Uses regular move speed. Does not work on enemies with the <strong>ghost</strong> tag.</li>
+<li><strong>Reckless attack</strong>: Perform an attack that will cause 1 extra wound. Your next defense will have disadvantage.</li>
+</ul>
+</section>
+</section>
 </section>
 <section class="draft" id="gangs">
 <h1 class="draft">Gangs</h1>
@@ -178,6 +228,7 @@
 </section>
 <section id="necromancers-of-yadar">
 <h2>Necromancers of Yadar</h2>
+<p><img src="./images/wizard-necromancer.png" alt="" class="left"></p>
 <p>Controlling the dead and the dark forces of the void is the Necromancers of Yadar's specialty, their techniques are strictly forbidden in most places of the world, but in Blacksalt no one cares, they will take whatever works.</p>
 <p>Tales tell that Yadar is a small island, hidden in the black sea, populated only by the undead, and ruled by three Necromancers. No one knows exactly where is the island, but Yadar disciples are everywhere, spreading the necromancer's teachings to the rest of the world.</p>
 <section class="block unlisted" id="spells">
@@ -195,6 +246,7 @@
 </section>
 <section id="alchemists-of-the-golden-ridge">
 <h2>Alchemists of the Golden Ridge</h2>
+<p><img src="./images/wizard-alchemist.png" alt=""></p>
 <p>The secret order of the Golden Ridge is focused in transmuting and creating magic potions and artifacts. For centuries they stayed in the Golden Ridge, extracting and transmuting the local fauna and flora, until they the news of Blacksalt reached them. The amount of supernatural elements in Blacksalt is endlessly valuable for them.</p>
 <section class="block unlisted" id="spells-1">
 <h4 class="block unlisted">Spells</h4>
@@ -325,7 +377,7 @@
 <h4 class="block unlisted">Prayers</h4>
 <ul>
 <li><strong>Bliss</strong>: (Close) Choose one affliction the target currently has, during this expedition that affliction will have no effect, but can't be removed.</li>
-<li><strong>Euphoria</strong>: (Close) During this combat the target can ignore wounds and fatigue when counting available dice. They can still receive wounds and fatigue normally.</li>
+<li><strong>Euphoria</strong>: (Close) Target recover 2 fatigue. During this combat the target can ignore wounds and fatigue when counting available dice. They can still receive wounds and fatigue normally.</li>
 <li><strong>Ignorance</strong>: (Nearby) The target can't use any INT based attacks for 2d6 <span class="tip" id="round">rounds</span>.</li>
 <li><strong>Numbness</strong>: (Nearby ally) Heal all PRE wounds, but causes one fatigue in STR and DEX.</li>
 <li><strong>Hyperfocus</strong>: (Nearby) For the next 1d6 turns of combat the target will have 3 actions, but can only perform the same action. The target can change actions between rounds.</li>
@@ -352,6 +404,7 @@
 </section>
 <section class="big" id="yulak">
 <h3 class="big">Yulak</h3>
+<p><img src="./images/cleric-yulak.png" alt=""></p>
 <p><strong>God of purity</strong>, Yulak is not only the god of purity but also the god of fire and punishment. She is merciless and so are her disciples.</p>
 <p><strong>Sacrifice</strong>: To please Yulak, the cleric must self-flagellate, causing 2 wounds and bleeding to self.</p>
 <section class="block unlisted" id="prayers-2">

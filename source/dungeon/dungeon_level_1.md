@@ -188,6 +188,8 @@ A long twisting corridor, the walls are covered in vines, *at some points you ca
 - There is a grate to the west, where you can see the [secret entrance](#secret-entrance)'s stairs. The grate is old and can be broken.
 - Behind the vines on the wall there's a passage to the [pit](#sacrifice-pit).
 - If the players saw the *red tiles and spikes* in the [machine room](machine-room) describe that a couple of floor tiles are red. *[Those are spike traps]* stepping on those will cause 3 wounds.
+- The left walls have illustrations of many coffins with corpses, some of the coffins have the dead rising and walking. Villagers are crying next to those as some of the dead kill some of the living.
+- The right walls have all coffins empty and red circles on top of them, the villagers are happy.
 
 ## 9 Secret Entrance
 There's a small mausoleum near the tomb entrance, in the middle of it there's a stone coffin. There's no corpse inside the coffing, though, removing the lid shows a set of stairs, down to the main tomb.
@@ -221,9 +223,9 @@ A group of goblins is barricaded here. 2 [boggarts]{.m} and 2 [goblin scrappers]
 
 They really don't want to fight and are terrified of whatever is down the tomb. If the **adventurers** tell them it's safe, and their leaders (the goblins on room 10) are dead, they  will gladly leave.
 
-In the altar there's a metal cross with 3 beams across. This is no religious symbol that anyone in the group knows about.
+- In the altar there's a metal cross with 3 beams across. This is no religious symbol that anyone in the group knows about. *This metal cross is actually a key to the last room, so it's important. Explain the players how weird that cross is so they remember it later or pick it up.*
+- In the altar there's a religious book, a passage that draws the **adventurers**' attention says that the *"Weavers from the void shall take our loved one and back to the void bring them. We come from the void and back to the void we shall go."*
 
-*This metal cross is actually a key to the last room, so it's important. Explain the players how weird that cross is so they remember it later or pick it up.*
 
 ## 12 Stockroom
 Piles of melted candle wax, brooms and cleaning supplies are in a corner. There's a big table in the middle with a lot of rotten food piled up. A drawer is in surprisingly good condition in the south wall, full of scrolls and inks.

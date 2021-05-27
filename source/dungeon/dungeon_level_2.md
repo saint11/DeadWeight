@@ -37,7 +37,7 @@ There's an iron nail, between the floor and the wall right after the entrance.
 
 ## 3 Corpse-Shrinking Lab
 
-This room's the lab of Acheron Zul, it's filled with failed experiments. Glass tubes with a glowing green liquid and corpses inside are all over the place.
+This room's the lab of Acheron Zul, it's filled with failed experiments. Glass tubes with a glowing green liquid and corpses inside are all over the place. *At some point Acheron Zul tried a popular technique of that time, to dry and shrink the corpses in an effort to make them harmless. It obviously backfired.*
 
 - When the **adventurer** get in, 4 [shrunken corpses]{.m} attack them. 2 break from their glass tubes, 2 come from under the table.
 - The other corpses inside the tubes twitch and look at the **adventurers** when they move around, but are harmless.
@@ -45,8 +45,10 @@ This room's the lab of Acheron Zul, it's filled with failed experiments. Glass t
 - 2 **ether** and 2 **fire** extract can be found here.
 - an **alchemic kit** is on the table.
 - A bottle of **wine of Yoros**, labeled on the floor.
+- There's a journal here, the last passage says: 
+  >"By absorbing corpses into the void, the weavers can certainly stop the dead vigil from happening. However, whenever they feed, everyone in the tomb feels sick and dizzy, even food rots and spoil. Worryingly, the area of effect is getting larger and larger with every corpse disposed. The question I have is whether there is a limit."
 
-> At some point Acheron Zul tried a popular technique of that time, to dry and shrink the corpses in an effort to make them harmless. It obviously backfired.
+
 
 ## 4 Flooded Tunnel
 Continuing south the corridor starts to go down and part of it is flooded up to 1 meter deep. Rusty and leaky pipes can be seen running on the ground.
@@ -102,7 +104,7 @@ The entrance to this room is hidden, if someone pushes the wall an audible click
 The room is a foggy with scented vapors coming from the pool in the middle and from 4 brasiers burning around the room. The brasiers are emitting a very soft glow of embers. Stairs lead to an upper area of the room.
 
 - 2 [goblin scrappers]{.m} will try to sneak on the **adventurers** while 2 [boggart snipers]{.m} fire from above.
-- A sturdy ornate metal door is at the west, it has no handle. Two pipes are coming out from the door, and down the stairs, one going north and one south, they disappear into the wall.
+- A sturdy ornate metal door is at the west, it has no handle. A inscription above says *"From the void, to the void"*. Two pipes are coming out from the door, and down the stairs, one going north and one south, they disappear into the wall.
   - When both valves in the [abandoned vault](#9-abandoned-vault) and in the [mining supply room](#8-mining-supply-room) are open this door will open, sliding into the floor.
 - The 4 brasiers were not lit by the goblins, but they are there all these years. Each has a piece of **everlasting ember** a piece of coal that never stops burning. They are small and all of them occupy one slot, but must be placed on some heat resistant container, or they will burn through it. Each ember can be sold as a [valuable]{.tip} item.
 
@@ -137,10 +139,4 @@ In the corner of the room there's a pile of clothes, shoes, old armor and hats.
 Going downstairs will lead to the [primordial cave](./dungeon_level_3.html)
 
 ## 14 Achereon Zul's Vault
-Acheron Zul's rotting corpse walking in circle in his sealed vault, with a silver dagger stuck to his back. Most of his clothes have rotten and fallen to the ground and he's mostly naked. The ground has a small depression in the shape of a circle, where he must have walked wall these years. He keeps mumbling a few words, sometimes in random a order, it's hard to distinguish between them but they sound like "*The weavers, I shouldn't have brought them. The weavers are not the solution, there is no solution. They only spread the curse.*" and variations on that.
-
-Acheron Zul is under a backfired necromantic spell, and will only walk in circles forever. If attacked or held, it will not fight back. His corpse has no special power or anything, though, the *soothsayer* had it wrong, since the real cause of the curse are the *weavers* downstairs.
-
-Returning the corpse to **Trinta** will give the **adventurers** the bounty of 80 silver coins. The soothsayer will perform a very dramatic ritual in the middle of the city with the corpse.
-    - If the weavers are still alive when the corpse is returned, the curse won't be lifted, and the soothsayer will be hanged next night. The lord will then come to the adventurers with his guards and order them to get back there and finish the job. Killing the weavers and lifting the curse will give the **adventurers** another 40 silver bounty.
-    - If the weavers are dead, the soothsayer will claim that the curse is gone because of his ritual. And a small parade in the honor of the **soothsayer** will be held.
+This place is empty, only scattered clothes and a statue of Acheron zul remain. The statue has a distinct symbol in his face.
