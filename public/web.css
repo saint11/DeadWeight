@@ -1,6 +1,7 @@
 @import "style.css";
 html {
-    overflow-y: hidden;
+    overflow-y: auto;
+
     height: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -27,6 +28,10 @@ html {
 img {
     max-height: 640px;
     object-fit: contain;
+}
+
+img.big {
+    max-height: unset;
 }
 
 @media screen and (max-width: 900px) {
@@ -57,7 +62,6 @@ body {
     margin: 0;
     margin-left: 290px;
     overflow-y: auto;
-    height: 100%;
 }
 
 @media print {

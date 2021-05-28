@@ -14,7 +14,7 @@ links:  Core Rules|index, Playing the Game*|game, Bestiary, Blacksalt
 
 # Expedition
 
-![](images/barbarian-torch.png)
+![](images/barbarian-torch.png){.big}
 
 During the **expedition** the characters venture into the depths of the earth in search of some reward. Raiding in caves and dungeons is not a healthy job, it takes a toll on the player characters. Time passes in a weird way down there, minutes turns into hours, and hunger and thirst are even deadlier than the monsters inside.
 
@@ -146,7 +146,7 @@ Some actions will not trigger a turn.
 - Talk to each other.
 
 #### Exit the expedition {.block}
-If the **adventurers** are near an exit and there is nothing blocking their path, they can choose to leave the expedition and return to the [interlude](#interlude)
+If the **adventurers** are near an exit and there is nothing blocking their path, they can choose to leave the expedition and return to the [interlude](#interlude). Leaving the dungeon to the interlude will always advance the *doom tracker*.
 
 <pagebreak>
 
