@@ -247,8 +247,8 @@ Trained in dealing with violence warriors are the first one in a combat and the 
 
 Warriors can come from different backgrounds, dramatically changing their fighting and living style. For your special trait and equipment, you must choose a [warrior background](./blacksalt.html#warrior-background):
 - [Footman](./blacksalt.html#footman)
-- [Gladiator](./blacksalt.html#footman)
-- [Barbarian](./blacksalt.html#footman)
+- [Gladiator](./blacksalt.html#gladiator)
+- [Barbarian](./blacksalt.html#barbarian)
 
 #### Combat manoeuvers
 Warriors must choose their combat manoeuvers, they can choose 1 from the manoeuver list in their warrior background. During the combat they may use those manoeuvers freely, as many times as they want, as long they have the required actions for them.
@@ -258,17 +258,20 @@ Manoeuvers requires 1 action and hit targets **close**, unless specified in its 
 
 ### Thief {.big}
 
-![](images/thief.png "Thief")
+![](images/thief-stalker.png "Thief")
 
 - Add 1 proficiency points to **Dexterity**.
-- Add the trait **cold blooded** or **dauntless**.
-- add the skill **infiltration**
-  
-Choose one of the following as your starting equipment:
 
-  - **A:** Bag, 2 short swords (STR 2+1), leather armor (1 [AP]{.tip}), climbing tools, stolen golden icon, 1d6 silver coins.
-  - **B:** Backpack, dagger (STR 1+3P), reinforced hood and vest (1 [AP]{.tip}), lock-picking tools, Ud6 sleeping darts, 3d6 counterfeit coins. 
-  - **C:** Backpack, Ud10 throwing hatchets (DEX 1X+1), animal bones for crafting, Ud4 trapping kit, cloth tunic, 1d6 silver coins.
+Thieves can come from different backgrounds, dramatically changing their fighting and living style. For your special trait and equipment, you must choose a [thief background](./blacksalt.html#thief-background):
+- [Stalker](./blacksalt.html#stalker)
+- [Lone Rogue](./blacksalt.html#lone-rogue)
+- [Hoodlum](./blacksalt.html#hoodlum)
+- [Moon-curser](./blacksalt.html#moon-curser)
+
+
+#### Combat manoeuvers
+Thieves must choose their combat manoeuvers, they can choose 1 from the manoeuver list in their thief background. During the combat they may use those manoeuvers freely, as many times as they want, as long they have the required actions for them.
+Manoeuvers requires 1 action and hit targets **close**, unless specified in its description.
 
 <pagebreak>
 
@@ -622,6 +625,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Street Wise**: You do not get robbed in the **interlude** and you have one extra daily action. You may reduce the price of **common** items by 1 silver (to a minimum of 1).
 - **Surgeon:** During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.
 - **Survivalist:** 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
+- **Slippery**: You may spend dodge tokens during the enemy turn to move one tile.
 - **Veteran**: (1 explorer action) Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
 
 Weapon and armor use depends on the character arsenal skill. Using an equipment without the proper skill all tests you make are made with [disadvantage]{.tip}.

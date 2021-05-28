@@ -119,7 +119,7 @@ There are 5 [slumbering corpses]{.m} praying, to the statue, with a low chant. T
 - Behind one of the banners there's a [makeshift tunnel](#makeshift-tunnel).
 - In the northwest corner there's a burial cart, for carrying corpses, now empty.
 
-> This is not an easy fight, the **adventurers** probably should avoid this one. It's not impossible to win, just mostly a waste of resources, unless they really want that amber statue.
+> This is not a hard fight, but may look like one. Anyway the **adventurers** probably should avoid this one, since it's just mostly a waste of resources, with very little reward, unless they really want that amber statue.
 
 ## 4 Machine Room
 A partially flooded and sunk machine room.

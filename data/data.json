@@ -2003,6 +2003,12 @@
 					"tags": 4
 				},
 				{
+					"name": "medical supply",
+					"description": "Pack of 2. Used in camp for healing 1 wound.",
+					"tags": 4,
+					"rarity": 2
+				},
+				{
 					"name": "healing tonic",
 					"description": "Heals one INT or DEX wound. Ud4 uses",
 					"rarity": 2,

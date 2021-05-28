@@ -12,6 +12,7 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Warrior Companies
 - [x] Sample dungeon level 2
 - [x] Thief new art
 - [x] Wizard new art
@@ -24,10 +25,9 @@ Last update was <now>
 
 ## Working on now
 - [ ] Interlude (City Phase)
-- [ ] Warrior Companies
+- [ ] Thief Gangs
 
 ## Next
-- [ ] Thief Gangs
 - [ ] World map
   - [ ] Settlements
 - [ ] Character advancement

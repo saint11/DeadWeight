@@ -230,7 +230,7 @@ Place the number of [shield tokens]{.tip} noted in your shield on your character
 Characters can't have more than 5 [shield tokens]{.tip} at any time.
 
 #### Dodge (2 actions) {.block}
-Make a dexterity test, place one [dodge token]{.tip} on a success. 
+Make a dexterity test, place 2 [dodge token]{.tip} on a success. 
 Add another one on a **great success** on your character.      
 
 #### Cast spell, invoke a prayer or perform a combat manoeuver (1 or 2 actions) {.block}
@@ -332,7 +332,7 @@ Recover all fatigue points of the whole party.
 
 Removes the **Shaken** affliction.
 
-Unexhaust all **prayers**.
+Un-exhaust all **prayers**.
 
 #### Use items (free) {.block .break}
 **Adventurers** may use as many items tagged as **Slow** or **Quick** as they want.
@@ -352,16 +352,13 @@ When using special ration, the ration will not remove the **hungry** affliction,
 - **Tea** or **hot chocolate** removes teh *angry* affliction.
 - **Coffee** removes the *sleepy* affliction.
 
-#### Tend wounds (1 action) {.block}
-Requires one **medical supply** for each wound treated. Can only treat one wound for each attribute.
-
 <pagebreak>
 
 #### Memorize spells and prayers (1 action) {.block}
 **Wizards** and **Clerics** may memorize and forget spells and prayers. 
 
 #### Sleep (2 actions) {.block}
-Recover all fatigue points of the whole party. Removes the **Sleepy** and **Shaken** afflictions.
+Recover all fatigue points of the whole party. Removes the **Sleepy** and **Shaken** afflictions. Everyone heals 1 **presence** or **intelligence** wound.
 
 Add 1 ambush dice.
 

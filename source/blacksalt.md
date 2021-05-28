@@ -86,7 +86,46 @@ Bag, Battle Axe (STR 4+2B), loincloth, war paint.
 - **Charge**: The barbarian charges target forward moving in a straight line, dragging the target. If charge hits a wall place characters as close as possible at the wall, cause 1 wound and one stun marker to target. Uses regular move speed. Does not work on enemies with the **ghost** tag.
 - **Reckless attack**: Perform an attack that will cause 1 extra wound. Your next defense will have disadvantage.
 
-# Gangs {.draft}
+# Thief Background
+
+Still working on this {.alert}
+
+## Stalker
+![](images/thief-stalker.png "Thief")
+The stalker start with the trait **dauntless**.
+
+#### Equipment
+Backpack, Ud10 throwing hatchets (DEX 1X+1), animal bones for crafting, Ud4 trapping kit, cloth tunic, 1d6 silver coins.
+
+## Lone Rogue
+![](images/thief-lone.png "Thief")
+
+Too smart or too dumb to hang out with other thieves, the lone rogue is someone who made living by robbing people on the roads. The lone rogue is constantly on the move chasing opportunities and fleeing from previous mistakes.
+
+The lone rogue start with the trait **slippery**, allowing the rogue to spend a dodge token during the enemy turn to move.
+  
+#### Equipment
+Bag, 2 short swords (STR 2+1), leather armor (1 [AP]{.tip}), climbing tools, stolen golden icon, 1d6 silver coins.
+
+#### Manoeuvers {.block}
+- **Wing it**: Throws a melee weapon using **-DEX** instead of **STR** with range of 3 tiles. Use the weapon regular damage.
+- **Outsmart**: Once per combat you may use **presence** or **intelligence** instead of **dexterity** or **strength**.
+
+## Hoodlum
+Gang-member, have a wide net of contacts and are used to violence.
+
+The hoodlum starts with the trait **cold blooded**, allowing them to use **dexterity** instead of **strength** with flanking enemies.
+
+#### Equipment
+Backpack, dagger (STR 1+3P), reinforced hood and vest (1 [AP]{.tip}), lock-picking tools, 2d6 coins. 
+
+## Moon-curser
+Specialized in getting in and out of places unnoticed.
+The moon-curser start with the trait **night-stalker**.
+
+#### Equipment
+Backpack, pack mule, Quarterstaff (STR 1+1), black reinforced hood and vest (1 [AP]{.tip}), Ud6 sleeping darts, 3d6 counterfeit coins. 
+
 
 # Schools of Magic
 
@@ -108,7 +147,7 @@ Tales tell that Yadar is a small island, hidden in the black sea, populated only
 #### Spells {.block .unlisted}
 
 - **Pain**: (2 actions) Add 3 [stun tokens]{.tip} to a **nearby** *living* or *undead* enemy. Reduce the number of tokens using the enemy resistance.
-- **Command undead**: The wizard may issue a simple command to a undead can follow in for 1 expedition turns. Only works on undead up to level 3. The command may be "renewed" by casting the spell again.
+- **Command undead**: The wizard may issue a simple command to a undead can follow in for 2 exploration turns. Only works on undead up to level 3. The command may be "renewed" by casting the spell again.
 - **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} haven't set on yet. Causes 2 wound to everyone **close** that can be reduced by armor and resistances.
 - **Phobia**: The target **nearby** creature gets terrified of a chosen person or object for 1d6 turns.
 - **Black night**: Absolute darkness covers a **nearby** area, anything **close** to that area is engulfed in it and can't see. The wizard can see normally trough the darkness.
@@ -220,7 +259,7 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 #### Prayers {.block .unlisted}
 - **Mercy**: Immediately kills any creature that would die if received 4 wounds or less.
 - **Seal**: Creates a 3m line that no undead can cross during this expedition.
-- **Borrowed Time**: (Close) Target cannot die for the next 2d6 turns. All wounds are placed normally and after the effect is done the target can die again.
+- **Borrowed Time**: Target cannot die for the next 2d6 turns. All wounds are placed normally and after the effect is done the target can die again.
 - **Judgment**: All undead **nearby** receive a stun marker and a wound.
 - **Memento mori**: Target undead start takeing 1 wound per turn. Lasts 2d6 turns.
 - **Dirge**: Place a marker on a **nearby** target that lasts 1d6 turns. If that target dies with the marker, all **nearby** living creatures heal 2 wounds.
