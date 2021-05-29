@@ -217,7 +217,7 @@ There's a goblin camp there, they look injured and tired. They were not expectin
 ## 11 Chapel
 If the adventurers fight in the [inner court tomb](#tomb-of-the-inner-court) the doors are barricaded. They can be broken down or the adventurers can find another way in.
 
-The room is an underground chapel, there are probably hundreds of melted candles everywhere, and an altar to the east. The altar is partially elevated and a huge statue of  is behind the altar. The statue is holding a **red gem**. There's another s
+The room is an underground chapel, there are probably hundreds of melted candles everywhere, and an altar to the east. The altar is partially elevated and a huge statue of  is behind the altar. The statue is holding a **red gem**. There's another statue to the south, a man is pointing the finger to a skeleton, that is crawling back to a coffin.
 
 A group of goblins is barricaded here. 2 [boggarts]{.m} and 2 [goblin scrappers]{.m}.
 

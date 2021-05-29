@@ -204,7 +204,7 @@ If the player has one or more **stunned token** they can only do a [recover acti
 Choose a weapon and a target. Read the weapon description for any special rules.                                              
 Test the weapon **attribute** to hit.                                                                                         
 For each [dodge]{.tip #dodge_token} and [shield token]{.tip} the defender spends, they may choose a dice and force the attacker to reroll it. 
-On success apply the **wounds** specified in the weapon notation. On a great success, it's a *critical hit*, add the **critical wounds** too.
+On success apply the **wounds** specified in the [weapon notation](#attack-notation). On a great success, it's a *critical hit*, add the **critical wounds** too.
 
 Weapons can only attack units within their range, if a weapon description doesn't specify  a range it can only hit targets **Close**.
 
@@ -360,9 +360,11 @@ When using special ration, the ration will not remove the **hungry** affliction,
 #### Sleep (2 actions) {.block}
 Recover all fatigue points of the whole party. Removes the **Sleepy** and **Shaken** afflictions. Everyone heals 1 **presence** or **intelligence** wound.
 
+Un-exhaust all prayers.
+
 Add 1 ambush dice.
 
-### Ambush! {.draft .unlisted}
+### Ambush!
 Camping in a dungeon is always risky. After resolving the actions the *GM* should make an ambush roll. To create a dice poll you should add:
 
 - One dice if the place is particularly exposed.
@@ -606,7 +608,7 @@ In our example, the [Freshly Risen Corpse]{.m} can only **move** or try the **In
 
 > **Infectious bite** (STR 1+1): Causes **Plagued** on **1d!**.
 
-The notation in front of the action means that this action is an **attack**, and it works almost exactly the same as a [weapon notation](#weapon-notation), the only difference is that the attribute listed is the attribute required to **defend** instead the attribute required to **attack**. If our **Freshly Risen Corpse** enemy tries to bite an adventurer this would require a **strength** test from the **adventurer** to avoid the attack. The enemies cause critical damage when the player character gets a critical failure on their defense. Enemy attacks usually have a special effect described too. Player's may always choose to no roll any dice to avoid fatigue, but that will cause the enemy to automatically hit.
+The notation in front of the action means that this action is an **attack**, and it works almost exactly the same as a [weapon notation](#attack-notation), the only difference is that the attribute listed is the attribute required to **defend** instead the attribute required to **attack**. If our **Freshly Risen Corpse** enemy tries to bite an adventurer this would require a **strength** test from the **adventurer** to avoid the attack. The enemies cause critical damage when the player character gets a critical failure on their defense. Enemy attacks usually have a special effect described too. Player's may always choose to no roll any dice to avoid fatigue, but that will cause the enemy to automatically hit.
 
 Some enemy actions will cause a [disadvantage]{.tip} to the attribute test related to them.
 

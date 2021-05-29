@@ -27,7 +27,7 @@ Last update was <now>
 - [x] Gods and prayers
 
 ## Working on now
-- [ ] Doom tracker on **interlude**
+- [ ] Doom tracker during **interlude**
 - [ ] Mortal wounds table
 
 ## Next

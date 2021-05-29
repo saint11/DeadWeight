@@ -625,7 +625,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Occult Studies:** You have [advantage]{.tip} point for anything that involves magic and the occult, including invoking spells.
 - **Ritualist**: During **camp** you can spend 1 action to remove one point the **omens tracker** or **doom tracker**.
 - **Shield master:** Add 1 extra [shield token]{.tip} when defending.
-  - **Aegis:**(advanced) Add 2 extra [shield token]{.tip} when defending. Allies in the same position may use your [shield tokens]{.tip} when defending.
+  - **Aegis:** (advanced) Add 2 extra [shield token]{.tip} when defending. Allies in the same position may use your [shield tokens]{.tip} when defending.
 - **Stalker:** Before combat, if undetected by an enemy you have a free critical hit.
 - **Street Wise**: You do not get robbed in the **interlude** and you have one extra daily action. You may reduce the price of **common** items by 1 silver (to a minimum of 1).
 - **Surgeon:** During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.

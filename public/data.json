@@ -333,7 +333,7 @@
 					"id": "Void_Demon",
 					"Name": "Void Demon",
 					"Level": 7,
-					"Wounds": 6,
+					"Wounds": 9,
 					"Resistance": 1,
 					"Common Actions": [
 						{
@@ -740,7 +740,7 @@
 					"Name": "Reanimated Husk",
 					"Level": 1,
 					"Wounds": 3,
-					"Armor": 0,
+					"Armor": 3,
 					"Resistance": 0,
 					"Special": [
 						{

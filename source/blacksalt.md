@@ -68,7 +68,7 @@ Backpack, Spear (STR 3+1B), metal shield(2 [shield tokens]{.tip}), padded armor 
 
 #### Manoeuvers {.block}
 - **Turtle**: (2 actions) Raise your shield, get on one knee and brace for impact. Perform a defend action (adding the appropriate number of [shield tokens]{.tip}) and for this turn you can't receive fatigue for defending.
-- **Aegis**: During the enemy turn, you may spend a shield token to swap places and receive an attack in place of an adjacent(including diagonals) ally.
+- **Aegis**: During the enemy turn, you may spend a shield token to swap places and receive an attack in place of an adjacent (including diagonals) ally.
 - **Payback**: After spending a shield token for successfully blocking a melee attack you may add a [stun token]{.tip} to the attacking enemy.
 
 ## Gladiator

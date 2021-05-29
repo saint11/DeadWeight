@@ -261,7 +261,7 @@ Execute that spell effect.</p>
 <p>Choose a weapon and a target. Read the weapon description for any special rules.<br>
 Test the weapon <strong>attribute</strong> to hit.<br>
 For each <span class="tip" id="dodge_token">dodge</span> and <span class="tip">shield token</span> the defender spends, they may choose a dice and force the attacker to reroll it.<br>
-On success apply the <strong>wounds</strong> specified in the weapon notation. On a great success, it's a <em>critical hit</em>, add the <strong>critical wounds</strong> too.</p>
+On success apply the <strong>wounds</strong> specified in the <a href="#attack-notation">weapon notation</a>. On a great success, it's a <em>critical hit</em>, add the <strong>critical wounds</strong> too.</p>
 <p>Weapons can only attack units within their range, if a weapon description doesn't specify  a range it can only hit targets <strong>Close</strong>.</p>
 <p>Check the <a href="#taking-damage">taking damage</a> on the enemy section to see how enemies receive and reduce wounds. Check the <a href="#attack-notation">attack notation</a> section for how weapons and attacks work.</p>
 </section>
@@ -437,11 +437,12 @@ All attacks specify a test that the <strong>player</strong> must roll, followed 
 <section class="block" id="sleep-(2-actions)">
 <h4 class="block">Sleep (2 actions)</h4>
 <p>Recover all fatigue points of the whole party. Removes the <strong>Sleepy</strong> and <strong>Shaken</strong> afflictions. Everyone heals 1 <strong>presence</strong> or <strong>intelligence</strong> wound.</p>
+<p>Un-exhaust all prayers.</p>
 <p>Add 1 ambush dice.</p>
 </section>
 
-<section class="draft unlisted" id="ambush!">
-<h3 class="draft unlisted">Ambush!</h3>
+<section id="ambush!">
+<h3>Ambush!</h3>
 <p>Camping in a dungeon is always risky. After resolving the actions the <em>GM</em> should make an ambush roll. To create a dice poll you should add:</p>
 <ul>
 <li>One dice if the place is particularly exposed.</li>
@@ -885,7 +886,7 @@ All attacks specify a test that the <strong>player</strong> must roll, followed 
 <blockquote>
 <p><strong>Infectious bite</strong> (STR 1+1): Causes <strong>Plagued</strong> on <strong>1d!</strong>.</p>
 </blockquote>
-<p>The notation in front of the action means that this action is an <strong>attack</strong>, and it works almost exactly the same as a <a href="#weapon-notation">weapon notation</a>, the only difference is that the attribute listed is the attribute required to <strong>defend</strong> instead the attribute required to <strong>attack</strong>. If our <strong>Freshly Risen Corpse</strong> enemy tries to bite an adventurer this would require a <strong>strength</strong> test from the <strong>adventurer</strong> to avoid the attack. The enemies cause critical damage when the player character gets a critical failure on their defense. Enemy attacks usually have a special effect described too. Player's may always choose to no roll any dice to avoid fatigue, but that will cause the enemy to automatically hit.</p>
+<p>The notation in front of the action means that this action is an <strong>attack</strong>, and it works almost exactly the same as a <a href="#attack-notation">weapon notation</a>, the only difference is that the attribute listed is the attribute required to <strong>defend</strong> instead the attribute required to <strong>attack</strong>. If our <strong>Freshly Risen Corpse</strong> enemy tries to bite an adventurer this would require a <strong>strength</strong> test from the <strong>adventurer</strong> to avoid the attack. The enemies cause critical damage when the player character gets a critical failure on their defense. Enemy attacks usually have a special effect described too. Player's may always choose to no roll any dice to avoid fatigue, but that will cause the enemy to automatically hit.</p>
 <p>Some enemy actions will cause a <span class="tip">disadvantage</span> to the attribute test related to them.</p>
 <blockquote>
 <p><strong>Eat</strong> (-STR 3+3): Can only be used on a grabbed character.</p>
