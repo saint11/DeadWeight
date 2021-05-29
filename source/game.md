@@ -473,19 +473,19 @@ Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the
 |   6   | Roll from the **opportunities** table. |
 [Blacksalt events]
 
-|  1d6  | Effect                                                                              |
-| :---: | :---------------------------------------------------------------------------------- |
-|   1   | Signs of worse things coming. Advance the **this settlement's doom** and **omens** tracker.           |
-|   2   | Bad harvest. All food-related items prices are doubled for 1d6 days.                |
-|   3   | Attacked by thugs in a dark alley, receive 3 wounds and pay 2d6 silver, as a group. |
-|   4   | The sun didn't rise. Everyone takes **terrified** or **hopeless**.                  |
-|   5   | Overcrowded. All prices of rent and housing related items are doubled for 1d6 days. |
-|   6   | Prosecution. Advance the **this settlement's doom** tracker.                                          |
+|  1d6  | Effect                                                                                      |
+| :---: | :------------------------------------------------------------------------------------------ |
+|   1   | Signs of worse things coming. Advance the **this settlement's doom** and **omens** tracker. |
+|   2   | Bad harvest. All food-related items prices are doubled for 1d6 days.                        |
+|   3   | Attacked by thugs in a dark alley, receive 3 wounds and pay 2d6 silver, as a group.         |
+|   4   | The sun didn't rise. Everyone takes **terrified** or **hopeless**.                          |
+|   5   | Overcrowded. All prices of rent and housing related items are doubled for 1d6 days.         |
+|   6   | Prosecution. Advance the **this settlement's doom** tracker.                                |
 [Bad events]
 
 |  1d6  | Effect                                                                                          |
 | :---: | :---------------------------------------------------------------------------------------------- |
-|   1   | Unexpected blessing. Reduce the **this settlement's doom** tracker.                                               |
+|   1   | Unexpected blessing. Reduce the **this settlement's doom** tracker.                             |
 |   2   | Good harvest. All food-related item prices are halved for one day. Stops **Bad harvest** event. |
 |   3   | A naive investor. When selling items get 50% extra silver.                                      |
 |   4   | A calm day. Everyone removes **terrified**, **hopeless** or **Angry**.                          |
@@ -498,11 +498,14 @@ Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the
 Each player must consume one *ration* each, or get the **hungry** and **parched** affliction. If they already have the *hungry affliction* roll from the [decay table](#exploration).
 
 ### 4. Sleep
-Depending on where they sleep player will have different bonuses and penalties. Each sleep location has a price in silver or resources associated with it. When you choose a location roll from the appropriate table.
+Depending on where they sleep player will have different bonuses and penalties. Each sleep location has a price in silver or resources associated with it. When you choose a location roll from the appropriate table. Players may choose any available sleeping location.
 
 Also note that not all locations have all options available, a small hamlet might not have an available inn, for example.
 
 In the interlude, if you were to receive an affliction you already have, you must choose another affliction to receive.
+
+#### On the streets
+Sometimes the streets are the only choice.
 
 |  2d6  | Effect                                                                         |
 | :---: | :----------------------------------------------------------------------------- |
@@ -513,18 +516,34 @@ In the interlude, if you were to receive an affliction you already have, you mus
 |   8   | You get mugged, pay 2d6 silver or take 1 wound.                                |
 | 9-10  | Restore one fatigue and remove **sleepy** or **shaken**.                       |
 | 11-12 | Restore all fatigue and remove **sleepy** and **shaken**.                      |
-[On the streets - size 4-5 (free)]
+[On the streets - size 4-5]
 
-|  2d6  | Effect                                                        |
-| :---: | :------------------------------------------------------------ |
-|  2-3  | You slept in manure and now smells terrible become **angry**. |
-|  4-5  | You woke up in the rain, you are now **shaken**.              |
+|  2d6  | Effect                                                                          |
+| :---: | :------------------------------------------------------------------------------ |
+|  2-3  | You slept in manure and now smells terrible become **angry**.                   |
+|  4-5  | You woke up in the rain, you are now **shaken**.                                |
 |   6   | The locals don't like you here. Advance the **this settlement's doom tracker**. |
-|   7   | You have a restless night and are **sleepy**.                 |
-|   8   | Someone stole 3d6 silver while you slept!                     |
-| 9-10  | Restore one fatigue and remove **sleepy** or **shaken**.      |
-| 11-12 | Restore all fatigue and remove **sleepy** and **shaken**.     |
-[On the streets - size 1-3 (free)]
+|   7   | You have a restless night and are **sleepy**.                                   |
+|   8   | Someone stole 3d6 silver while you slept!                                       |
+| 9-10  | Restore one fatigue and remove **sleepy** or **shaken**.                        |
+| 11-12 | Restore all fatigue and remove **sleepy** and **shaken**.                       |
+[On the streets - size 1-3]
+
+
+#### Camp (require camping supplies)
+Unlike camping on the dungeon, camping during the interlude will not always spend you camping supplies. Regardless, having 1 camping supply for each character is required to camp.
+
+|  2d6  | Effect                                                               |
+| :---: | :------------------------------------------------------------------- |
+|  2-3  | Your camp was attacked by a wild animal! Receive 1 wound.            |
+|  4-5  | Your tent finally broke down. Spend a camping supply.                |
+|   6   | Remove **sleepy**.                                                   |
+|   7   | Restore all fatigue and remove **sleepy** or **shaken**.             |
+| 8-10  | Restore all fatigue and remove **sleepy** and **shaken**.            |
+| 11-12 | Restore all fatigue and remove **sleepy**, **shaken** and **angry**. |
+
+#### Inn (1 silver)
+Size 3 or more. Mostly safe and comfortable.
 
 |  2d6  | Effect                                                                             |
 | :---: | :--------------------------------------------------------------------------------- |
@@ -534,14 +553,25 @@ In the interlude, if you were to receive an affliction you already have, you mus
 |   7   | Restore all fatigue and remove **sleepy** and **shaken**.                          |
 | 8-10  | Restore all fatigue and remove **sleepy**, **shaken** and **angry**.               |
 | 11-12 | Restore all fatigue, heal 1 wound and remove **sleepy**, **shaken** and **angry**. |
-[Inn (1 silver)]
+[Inn]
+
+
+#### Proper accommodation (special)
+Depending on the current story, your character might have a house in this settlement, or maybe someone allowed your character to sleep in a guest room.
+
+|  2d6  | Effect                                                                             |
+| :---: | :--------------------------------------------------------------------------------- |
+|  2-5  | Restore all fatigue and remove **sleepy** or **shaken**.                           |
+|  6-7  | Restore all fatigue and remove **sleepy** and **shaken**.                          |
+|  8-9  | Restore all fatigue and remove **sleepy**, **shaken** and **angry**.               |
+| 10-12 | Restore all fatigue, heal 1 wound and remove **sleepy**, **shaken** and **angry**. |
+[Proper accommodation]
 
 ## Character Progression
 
-Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire grievous wounds, curses and mortal enemies. Characters can level up to level 6, after that they will eventually find their untimely death or will finally ***retire***.
+Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire grievous wounds, curses and mortal enemies. Characters can level up to level 6, after that they will eventually find their untimely death or will finally **retire**.
 
-Retired characters contribute to ***The Guild***, allowing players to start new characters with more bonuses and giving them a long term goal.
-
+Retired characters contribute to **The Guild**, allowing players to start new characters with more bonuses and giving them a long term goal.
 
 <pagebreak>
 

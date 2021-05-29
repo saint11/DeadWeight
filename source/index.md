@@ -18,7 +18,7 @@ version 0.2
 
 <pagebreak>
  
-This is a very early work in progress, it's definitely playable, but there's still some content missing. Check the [roadmap](roadmap.html) for more information. If you have questions or any kind of feedback, feel free to also join the [discord channel](https://discord.gg/BJfMxEq52R). {.alert .web}
+This is still a work in progress, while playable, there's some content missing. Check the [roadmap](roadmap.html) for more information. If you have questions or any kind of feedback, feel free to also join the [discord channel](https://discord.gg/BJfMxEq52R). {.alert .web}
 
 # Welcome
 

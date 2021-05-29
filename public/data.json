@@ -1877,6 +1877,12 @@
 					"tags": 2
 				},
 				{
+					"name": "camping supplies",
+					"description": "Basic supplies for making a fire and cooking.",
+					"rarity": 1,
+					"tags": 4
+				},
+				{
 					"name": "bandages",
 					"description": "A pack of 3 bandages, used to stop bleeding",
 					"rarity": 1,
@@ -1971,12 +1977,6 @@
 					"description": "A large container for holding water and other liquids.",
 					"rarity": 2,
 					"tags": 10
-				},
-				{
-					"name": "camping supplies",
-					"description": "Basic supplies for making a fire and cooking.",
-					"rarity": 2,
-					"tags": 4
 				},
 				{
 					"name": "lockpicking tools",

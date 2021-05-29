@@ -12,6 +12,7 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Interlude (City Phase)
 - [x] Shield and armor
 - [x] Thief Gangs
 - [x] Warrior Companies
@@ -26,7 +27,6 @@ Last update was <now>
 - [x] Gods and prayers
 
 ## Working on now
-- [ ] Interlude (City Phase)
 - [ ] Doom tracker on **interlude**
 - [ ] Mortal wounds table
 
@@ -36,9 +36,9 @@ Last update was <now>
 - [ ] Character advancement
 - [ ] Better encumbrance rules
 - [ ] Sample dungeon level 3 (final level)
-- [ ] Quick reference guide with all the important tables
 - [ ] Improve intro
 - [ ] Better character background descriptions
+- [ ] Quick reference guide with all the important tables
 
 ## Later
 - [ ] Fix broken links everywhere

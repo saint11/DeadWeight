@@ -117,7 +117,7 @@ Backpack, Ud10 throwing hatchets (DEX 1X+1), animal bones for crafting, Ud4 trap
 
 Too smart or too dumb to hang out with other thieves, the lone rogue is someone who made living by robbing people on the roads. The lone rogue is constantly on the move chasing opportunities and fleeing from previous mistakes. Often outnumbered, a lone rogue is specialized in getting in and out of combat quickly.
 
-The lone rogue start with the trait **slippery**, allowing the rogue to spend a dodge token during the enemy turn to move.
+The lone rogue start with the trait **slippery**, allowing the rogue to spend a dodge token during the enemy turn to move 1 tile.
   
 #### Equipment
 Bag, 2 short swords (STR 2+1), leather armor (1 [AP]{.tip}), climbing tools, stolen golden icon, 1d6 silver coins.
@@ -253,7 +253,7 @@ Most Awakened believe themselves to be cursed, they never studied magic but the 
 # Gods
 
 ## New Gods
-The new gods are the gods that appeared after the origin of the new world, the world current one.
+The new gods are the gods that appeared after the origin of the world. They are the ones worshiped by most humans and other intelligent creatures.
 
 ### Goshkalon {.big}
 ![](./images/god_of_laughter.png){.left}
