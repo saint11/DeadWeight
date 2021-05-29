@@ -527,9 +527,13 @@ Characters will often receive wounds from various sources. Most wounds can be re
 
 Making an armor roll is a bit different than making a test.
 
+If your character has armor it will have a number of **armor points**, abbreviated as **AP**.
+
 To use armor roll one dice per **armor point**, for each **4, 5, 6** reduce the damage by one. For each **1** or **4** rolled that armor is damage and will lose 1 armor point until it's repaired. Players may always choose to roll less or no armor dice.
 
 If the **adventurer** is wearing multiple pieces of armor, like a *helmet* and a *vest*, only one piece of armor can be used to defend each attack. The player chooses which piece to use.
+
+Some armors are notated like this `2, 2 AP` with 2 or more numbers. This means that each "part" of the armor should be used individually. In our example armor the player may not roll 4 dice at the same time, only 2. Those parts break individually too.
 
 >Zael just received  **2 wounds** from an arrow and decides to use his **reinforced leather armor(2 armor points)** to 2 dice. The new results are 1 and 6, which reduces the damage to only **1 wound**, but the armor is damaged and now has only 1 armor point until it's repaired.
 
@@ -598,7 +602,6 @@ Attributes have two numbers, the **score**, that measure your character enduranc
 Attributes can also have **fatigue** and **wounds**. A good way to write those down in your sheet is to make a single line for fatigue and an "X" for a wound. During combats your character will probably receive and recover fatigue often, so using small markers like coins, beans or a dice might be easier, you can write down your fatigue after the conflict is resolved.
 
 ## Skills
-
 Skills mainly give your character extra abilities to use during the **expedition** and **interlude**. But they can also be extremely valuable for gathering information and interacting with the world. With the *loremaster* skill, for example  the *GM* may give you extra information on the dungeon history, or with the *ritualist* skill the *GM* might tell you how remove a curse you got. Skills are a good opportunity for the **GM** and **players** to exercise their creativity well coming up with stories.
 
 Some skills can be upgraded, remove the previous skill before learning the advanced one so it only occupies one slot. They are the ones indented, for clarity. You must always learn the basic skill before the advanced one.

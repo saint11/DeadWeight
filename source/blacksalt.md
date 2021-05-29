@@ -35,9 +35,17 @@ Again, if you really like statistics, this is the statistics map of the [possibl
 
 All weapons can be used with one hand, unless stated otherwise.
 
-<pagebreak>{.simple}
-
 <weaponTable>
+
+<pagebreak>
+
+# Shields
+<shieldTable>
+
+# Armor
+<armorTable>
+
+<pagebreak>
 
 # The Dead Vigil
 One of the most notable things about **Blacksalt** is the **dead vigil**. Any creature that dies in **Blacksalt** has a chance to come back to life as an undead, humans will almost always come back, animals and other smaller creatures can come back to life but that's not common. This effect is called the **dead vigil**.
@@ -49,17 +57,19 @@ Any corpse if left undisturbed will come back to life after 1d6 weeks as a [Fres
 The most "elegant" way to dispose of a body is a proper burial ritual, and a coffin with the seal of [Cador](#cador), that will stop the corpse from returning. This is a relatively new technique, during many years people didn't know how to deal with their dead. Different groups of people tried many different rituals and techniques to stop their dead from coming back, most had horrible consequences for them.
 
 # Warrior Background
-Currently workin on this part, while you can use this, some changes and balancing will be made soon. {.alert}
 
 ## Footman
 ![](images/warrior-footman.png)
+Trained to fight in an army, footmen are specialized in fighting as a unit, protecting allies and countering enemy attacks.
 Footmen starts with the **hardened** special trait, allowing them to reduce any damage they receive.
 
 #### Equipment  
-Backpack, Spear (STR 3+1B), metal shield(2 [shield tokens]{.tip}), padded armor (2 [AP]{.tip}), 2d6 silver coins.
+Backpack, Spear (STR 3+1B), metal shield(2 [shield tokens]{.tip}), padded armor (2 [AP]{.tip}), soldier helmet (2 [AP]{.tip}), 2d6 silver coins.
 
 #### Manoeuvers {.block}
-- **Turtle:** 2 actions. Raise your shield, get on one knee and brace for impact. Perform a defend action (adding the appropriate number of [shield tokens]{.tip}) and for this turn you can't receive fatigue for defending.
+- **Turtle**: (2 actions) Raise your shield, get on one knee and brace for impact. Perform a defend action (adding the appropriate number of [shield tokens]{.tip}) and for this turn you can't receive fatigue for defending.
+- **Aegis**: During the enemy turn, you may spend a shield token to swap places and receive an attack in place of an adjacent(including diagonals) ally.
+- **Payback**: After spending a shield token for successfully blocking a melee attack you may add a [stun token]{.tip} to the attacking enemy.
 
 ## Gladiator
 ![](images/warrior-gladiator.png)
@@ -71,20 +81,22 @@ They start with the **battle trance** special trait, allowing them to chain atta
 Bag, Falchion (STR 3+1B), wooden shield(1 [shield token]{.tip}), gladiator armor (1, 1 [AP]{.tip}), cage helmet(1 [AP]{.tip}), 2d6 silver coins.
 
 #### Manoeuvers {.block}
-- **Bash**: (STR 1) Bash with your shield or weapon hilt, on a hit add a [stun token]{.tip} to target.
-- **Disarm**: (-DEX 1) On hit the target drops the wielded weapon **close**.
-- **Glorious finish**: Perform a regular attack. If the gladiator kills the last enemy in the combat with this attack, the whole party recovers one **presence** fatigue or wound. On a failure the gladiator receives on presence fatigue. If the combat was purposely stalled, target is currently immobilized or harmless in any way, this has no effect, this only work when there's real danger involved.
+- **Bash**: (STR 1, 1 action) Bash with your shield or weapon hilt, on a hit add a [stun token]{.tip} to target.
+- **Disarm**: (-DEX 1, 1 action) On hit the target drops the wielded weapon **close**.
+- **Glorious finish**: (1 action) Perform a regular attack. If the gladiator kills the last enemy in the combat with this attack, the whole party recovers one **presence** fatigue or wound. On a failure the gladiator receives 1 presence fatigue. If the combat was purposely stalled, target is currently immobilized or harmless in any way, this has no effect, this only work when there's real danger involved.
 
 ## Barbarian
+What they lack of formal training barbarians compensate in pure brutality. For them, attack is by far the best defense.
+
 Barbarian have the **berserker** special trait that allows them to keep fighting while ignoring fatigue or wounds.
 
 #### Equipment 
-Bag, Battle Axe (STR 4+2B), loincloth, war paint.
+Bag, Battle Axe (STR 4+2B), loincloth, war paint, medical supplies x 2, 1d6 coins.
 
 #### Manoeuvers {.block}
-- **Roar**: (PRE) All enemies nearby. The barbarian must perform a **presence** test for each target. receive a stun marker. Can only be performed once per battle. Only works on enemies with the **living** tag.
-- **Charge**: The barbarian charges target forward moving in a straight line, dragging the target. If charge hits a wall place characters as close as possible at the wall, cause 1 wound and one stun marker to target. Uses regular move speed. Does not work on enemies with the **ghost** tag.
-- **Reckless attack**: Perform an attack that will cause 1 extra wound. Your next defense will have disadvantage.
+- **Roar**: (PRE, 1 action) All enemies nearby. The barbarian must perform a **presence** test for each target. Causes a [stun token]{.tip}. Can only be performed once per battle. Only works on enemies with the **living** tag.
+- **Charge**: (1 action) The barbarian charges target forward moving in a straight line, dragging the target. If charge hits a wall place characters as close as possible at the wall, cause 1 wound and one [stun token]{.tip} to target. Uses regular move speed. Does not work on enemies with the **ghost** tag.
+- **Reckless attack**: (1 action) Perform an attack that will cause 1 extra wound. Your next defense will have disadvantage.
 
 # Thief Background
 
@@ -96,12 +108,12 @@ The stalker start with the trait **dauntless** making critical hits much more li
 Backpack, Ud10 throwing hatchets (DEX 1X+1), animal bones for crafting, Ud4 trapping kit, cloth tunic, 1d6 silver coins.
 
 #### Manoeuvers {.block}
-- **Clean Kill**: Attacks with equipped weapon. Deals double damage if target is immobilized.
-- **Incapacitating strike**: Attacks with equipped weapon, reduce damage to 1 wound. Immobilizes target for one turn.
+- **Clean Kill**: (1 action) Attacks with equipped weapon. Deals double damage if target is immobilized.
+- **Incapacitating strike**: (1 action) Attacks with equipped weapon, reduce damage to 1 wound. Immobilizes target for one turn.
 - **Fast trapping**: (1 action) Quickly arm trow a trapping kit 3 tiles away.
 
 ## Lone Rogue
-![](images/thief-lone.png "Thief")
+![](images/thief-lone.png "Thief"){.left}
 
 Too smart or too dumb to hang out with other thieves, the lone rogue is someone who made living by robbing people on the roads. The lone rogue is constantly on the move chasing opportunities and fleeing from previous mistakes. Often outnumbered, a lone rogue is specialized in getting in and out of combat quickly.
 
@@ -111,9 +123,9 @@ The lone rogue start with the trait **slippery**, allowing the rogue to spend a 
 Bag, 2 short swords (STR 2+1), leather armor (1 [AP]{.tip}), climbing tools, stolen golden icon, 1d6 silver coins.
 
 #### Manoeuvers {.block}
-- **Wing it**: Throws a melee weapon using **-DEX** instead of **STR** with range of 3 tiles. Use the weapon regular damage.
+- **Wing it**: (1 action) Throws a melee weapon using **-DEX** instead of **STR** with range of 3 tiles. Use the weapon regular damage.
 - **Outsmart**: Once per combat you may use **presence** or **intelligence** instead of **dexterity** or **strength**.
-- **Quick thinking**: Test **presence** or **dexterity** on a success add 1 [dodge token]{.tip}.
+- **Quick thinking**: (1 action) Test **presence** or **intelligence** on a success add 1 [dodge token]{.tip}.
 
 ## Hoodlum
 A gang-member, have a wide net of contacts and is used to violence. Hoodlums are specialized in overwhelming enemies that are outnumbered.
@@ -124,9 +136,9 @@ The hoodlum starts with the trait **cold blooded**, allowing them to use **dexte
 Backpack, dagger (STR 1+3P), reinforced hood and vest (1 [AP]{.tip}), lock-picking tools, 2d6 coins. 
 
 #### Manoeuvers {.block}
-- **Dirty tricks**: 2 tiles. Kicks sand in opponent's eyes or any other dirty trick. Any ally attacking this enemy has advantage. Only work on **living** enemies.
+- **Dirty tricks**: (1 action) 2 tiles. Kicks sand in opponent's eyes or any other dirty trick. Any ally attacking this enemy has advantage. Only work on **living** enemies.
 - **Knife in the back**: Once per turn when attacking flanked enemy with a **dagger**, you can perform a free attack. Roll an extra dice for that attack.
-- **Going somewhere?**: During the enemy actions you may block an enemy from moving, add a stun token to yourself. The enemy will still spend an action.
+- **Going somewhere?**: During the enemy actions you may block an enemy from moving, add a [stun tokens]{.tip} to yourself. The enemy will still spend an action.
 
 ## Moon-curser {.draft}
 Specialized in getting in and out of places unnoticed.
@@ -155,9 +167,9 @@ Tales tell that Yadar is a small island, hidden in the black sea, populated only
 
 #### Spells {.block .unlisted}
 
-- **Pain**: (2 actions) Add 3 [stun tokens]{.tip} to a **nearby** *living* or *undead* enemy. Reduce the number of tokens using the enemy resistance.
-- **Command undead**: The wizard may issue a simple command to a undead can follow in for 2 exploration turns. Only works on undead up to level 3. The command may be "renewed" by casting the spell again.
-- **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} haven't set on yet. Causes 2 wound to everyone **close** that can be reduced by armor and resistances.
+- **Pain**: 2 actions during combat. Add 3 [stun tokens]{.tip} to a **nearby** *living* or *undead* enemy. Reduce the number of tokens using the enemy resistance.
+- **Command undead**: The wizard may issue one simple command to an undead. That undead wil try to follow that command for the next 2 exploration turns. Only works on undead up to level 3. The command may be "renewed" by casting the spell again. If cast during a combat it will last through the whole combat and for the next exploration turn. If unable to follow the command for any reason the undead will just stay in place without moving.
+- **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} haven't set on yet. Causes 2 wound to everyone **close** that can be reduced by armor and resistances. Also works on udead under the **Command undead** spell.
 - **Phobia**: The target **nearby** creature gets terrified of a chosen person or object for 1d6 turns.
 - **Black night**: Absolute darkness covers a **nearby** area, anything **close** to that area is engulfed in it and can't see. The wizard can see normally trough the darkness.
 - **Nightmare:** A target **nearby** creatures immediately falls into a restless sleep, having horribles nightmare. The creature will wake up normally if disturbed.
@@ -233,7 +245,7 @@ Most Awakened believe themselves to be cursed, they never studied magic but the 
 
 - **Light**: Illuminates the current room for 2d6 exploration turns.
 - **Haste**: A **nearby** creature has their movement speed doubled until the end of the combat.
-- **Shackles**: The wizard creates magical shackles that hold a **nearby** creature in place, adding 2 stun markers per turn. It lasts as long as the wizard keeps channeling the spell. The wizard can't move or act while channelling.
+- **Shackles**: The wizard creates magical shackles that hold a **nearby** creature in place, adding 2 [stun tokens]{.tip} per turn. It lasts as long as the wizard keeps channeling the spell. The wizard can't move or act while channelling.
 - **Telekinesis**: The wizard may pull or push a **close** object using **intelligence** as **strength**. Or use any weapon with **intelligence** as **strength** for one turn.
 - **Hover**: The wizard can hover one meter above the ground, water or similar. Lasts 1d6 turns.
 - **Nether swap**: Immediately swaps place with a target creature.
@@ -269,9 +281,9 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 - **Mercy**: Immediately kills any creature that would die if received 4 wounds or less.
 - **Seal**: Creates a 3m line that no undead can cross during this expedition.
 - **Borrowed Time**: Target cannot die for the next 2d6 turns. All wounds are placed normally and after the effect is done the target can die again.
-- **Judgment**: All undead **nearby** receive a stun marker and a wound.
+- **Judgment**: All undead **nearby** receive a [stun token]{.tip} and a wound.
 - **Memento mori**: Target undead start takeing 1 wound per turn. Lasts 2d6 turns.
-- **Dirge**: Place a marker on a **nearby** target that lasts 1d6 turns. If that target dies with the marker, all **nearby** living creatures heal 2 wounds.
+- **Dirge**: Place a token on a **nearby** target that lasts 1d6 turns. If that target dies with the token, all **nearby** living creatures heal 2 wounds.
 
 ### Yulak {.big}
 ![](./images/cleric-yulak.png)

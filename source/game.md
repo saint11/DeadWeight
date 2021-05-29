@@ -226,7 +226,7 @@ Recover one **fatigue** point for each **attribute**.
 
 #### Defend (1 action) {.block}
 Requires a shield or something that can be used as a shield. 
-Place the number of [shield tokens]{.tip} noted in your shield on your character.
+Place the number of [shield tokens]{.tip} noted in your equipped shield.
 Characters can't have more than 5 [shield tokens]{.tip} at any time.
 
 #### Dodge (2 actions) {.block}

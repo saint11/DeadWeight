@@ -102,6 +102,13 @@ img {
     width: 100%;
 }
 
+code {
+    border: dotted 1px black;
+    border-radius: 8px;
+    padding: 4px;
+    background: var(--main-selected-color);
+}
+
 /* Anchors in headers */
 
 a.headerlink {

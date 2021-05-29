@@ -12,6 +12,8 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Shield and armor
+- [x] Thief Gangs
 - [x] Warrior Companies
 - [x] Sample dungeon level 2
 - [x] Thief new art
@@ -25,7 +27,8 @@ Last update was <now>
 
 ## Working on now
 - [ ] Interlude (City Phase)
-- [ ] Thief Gangs
+- [ ] Doom tracker on **interlude**
+- [ ] Mortal wounds table
 
 ## Next
 - [ ] World map
@@ -33,14 +36,12 @@ Last update was <now>
 - [ ] Character advancement
 - [ ] Better encumbrance rules
 - [ ] Sample dungeon level 3 (final level)
-- [ ] Better shield rules
-- [ ] Mortal wounds table
-- [ ] Doom tracker on **interlude**
-- [ ] Quick reference guide with lots of tables
+- [ ] Quick reference guide with all the important tables
+- [ ] Improve intro
+- [ ] Better character background descriptions
 
 ## Later
 - [ ] Fix broken links everywhere
-- [ ] Improve intro
 - [ ] Make all life paths roll 3d6 instead of 2d6
 - [ ] Review the print version
 - [ ] List of magic items

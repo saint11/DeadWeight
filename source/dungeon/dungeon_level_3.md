@@ -25,4 +25,4 @@ TODO: Lots of loot from the previous corpses if the adventurers manage to defeat
 Behind the barricade is a big cave. Lots os empty clothes, coffins and loose pieces or armor are scattered around. A huge symbol is drawn on the ground. There's an altar in the middle with a low-relief carving in the shape of a body, empty.
 2 [tomb weavers] are here. These monsters are probably way too strong for the players to deal with, they should consider just sealing them there.
 
-TODO: Lots of loot from the previous corpses if the adventurers manage to defeat the weavers.
+TODO: Lots of loot from the previous corpses if the adventurers manage to defeat the weavers. {.alert}

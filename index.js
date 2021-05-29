@@ -16,6 +16,8 @@ const data = JSON.parse(fs.readFileSync(dataJsonPath, 'utf8'));
 const data_monsters = getSheet(data, "monsters");
 const data_items = getSheet(data, "items");
 const data_weapons = getSheet(data, "weapons");
+const data_armor = getSheet(data, "armor");
+const data_shield = getSheet(data, "shield");
 const data_actions = getSheet(data, "actions");
 
 const { makeMonsterTable, makeTable } = require('./util/tables.js');
@@ -44,13 +46,42 @@ var shortcodes = {
     weaponTable: {
         render: function (attrs, env) {
             const options = {
-                exclude: ["rarity"],
                 bold: [0],
-                filter: el => el["rarity"] == attrs.id,
                 caption: attrs.caption,
                 punctuation: { stats: true },
+                enums: { rarity: ["free", "common", "uncommon", "valuable", "rare", "exotic"] },
+                styles: { stats: "width: 100px;" }
             };
+            console.assert(data_weapons, "Wepons data not found");
             return makeTable(data_weapons, options);
+        }
+    },
+    armorTable: {
+        render: function (attrs, env) {
+            const options = {
+                bold: [0],
+                caption: attrs.caption,
+                punctuation: { stats: true },
+                enums: { rarity: ["free", "common", "uncommon", "valuable", "rare", "exotic"], type: ["Cloth", "Leather", "Heavy"] },
+                styles: { stats: "width: 80px;" }
+            };
+
+            console.assert(data_armor, "Armor data not found");
+            return makeTable(data_armor, options);
+        }
+    },
+    shieldTable: {
+        render: function (attrs, env) {
+            const options = {
+                bold: [0],
+                caption: attrs.caption,
+                punctuation: { stats: true },
+                enums: { rarity: ["free", "common", "uncommon", "valuable", "rare", "exotic"], type: ["Cloth", "Leather", "Heavy"] },
+                styles: { stats: "width: 130px;" }
+            };
+
+            console.assert(data_shield, "shield data not found");
+            return makeTable(data_shield, options);
         }
     },
     break: {

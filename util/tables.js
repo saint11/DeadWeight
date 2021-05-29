@@ -10,6 +10,8 @@ const monsterTags = toBitwise("living,undead,ghost,goblin,voidspawn".split(','))
 
 
 function makeTable(data, options) {
+    console.assert(data, "Can't make table with no data!");
+
     var table = document.createElement('table');
     table.style.width = '100%';
 
@@ -32,6 +34,10 @@ function makeTable(data, options) {
                 if (options.exclude && options.exclude.includes(el[0])) continue;
                 const header = document.createElement('th');
                 header.innerHTML = el[0];
+                
+                if (options.styles) {
+                    header.style = options.styles[el[0].toLowerCase()];
+                }
                 table.appendChild(header);
 
                 if (options.tags && options.tags[el[0].toLowerCase()]) {
