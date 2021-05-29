@@ -88,19 +88,22 @@ Bag, Battle Axe (STR 4+2B), loincloth, war paint.
 
 # Thief Background
 
-Still working on this {.alert}
-
 ## Stalker
 ![](images/thief-stalker.png "Thief")
-The stalker start with the trait **dauntless**.
+The stalker start with the trait **dauntless** making critical hits much more likely.
 
 #### Equipment
 Backpack, Ud10 throwing hatchets (DEX 1X+1), animal bones for crafting, Ud4 trapping kit, cloth tunic, 1d6 silver coins.
 
+#### Manoeuvers {.block}
+- **Clean Kill**: Attacks with equipped weapon. Deals double damage if target is immobilized.
+- **Incapacitating strike**: Attacks with equipped weapon, reduce damage to 1 wound. Immobilizes target for one turn.
+- **Fast trapping**: (1 action) Quickly arm trow a trapping kit 3 tiles away.
+
 ## Lone Rogue
 ![](images/thief-lone.png "Thief")
 
-Too smart or too dumb to hang out with other thieves, the lone rogue is someone who made living by robbing people on the roads. The lone rogue is constantly on the move chasing opportunities and fleeing from previous mistakes.
+Too smart or too dumb to hang out with other thieves, the lone rogue is someone who made living by robbing people on the roads. The lone rogue is constantly on the move chasing opportunities and fleeing from previous mistakes. Often outnumbered, a lone rogue is specialized in getting in and out of combat quickly.
 
 The lone rogue start with the trait **slippery**, allowing the rogue to spend a dodge token during the enemy turn to move.
   
@@ -110,16 +113,22 @@ Bag, 2 short swords (STR 2+1), leather armor (1 [AP]{.tip}), climbing tools, sto
 #### Manoeuvers {.block}
 - **Wing it**: Throws a melee weapon using **-DEX** instead of **STR** with range of 3 tiles. Use the weapon regular damage.
 - **Outsmart**: Once per combat you may use **presence** or **intelligence** instead of **dexterity** or **strength**.
+- **Quick thinking**: Test **presence** or **dexterity** on a success add 1 [dodge token]{.tip}.
 
 ## Hoodlum
-Gang-member, have a wide net of contacts and are used to violence.
+A gang-member, have a wide net of contacts and is used to violence. Hoodlums are specialized in overwhelming enemies that are outnumbered.
 
-The hoodlum starts with the trait **cold blooded**, allowing them to use **dexterity** instead of **strength** with flanking enemies.
+The hoodlum starts with the trait **cold blooded**, allowing them to use **dexterity** instead of **strength** when flanking enemies.
 
 #### Equipment
 Backpack, dagger (STR 1+3P), reinforced hood and vest (1 [AP]{.tip}), lock-picking tools, 2d6 coins. 
 
-## Moon-curser
+#### Manoeuvers {.block}
+- **Dirty tricks**: 2 tiles. Kicks sand in opponent's eyes or any other dirty trick. Any ally attacking this enemy has advantage. Only work on **living** enemies.
+- **Knife in the back**: Once per turn when attacking flanked enemy with a **dagger**, you can perform a free attack. Roll an extra dice for that attack.
+- **Going somewhere?**: During the enemy actions you may block an enemy from moving, add a stun token to yourself. The enemy will still spend an action.
+
+## Moon-curser {.draft}
 Specialized in getting in and out of places unnoticed.
 The moon-curser start with the trait **night-stalker**.
 

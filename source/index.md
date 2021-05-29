@@ -594,7 +594,9 @@ Attributes have two numbers, the **score**, that measure your character enduranc
 - **Dexterity** (DEX) is how fast and precise a character is. It is used mostly in ranged attacks, initiative, dodging and in a variety of tests.
 - **Intelligence** (INT) is how intelligent and wise a character is. It also influences how many **spells** a character can memorize.
 - **Presence** (PRE) is how persuasive and strong-willed a character is. It also influences how many **prayers** a character can memorize.
-  
+
+Attributes can also have **fatigue** and **wounds**. A good way to write those down in your sheet is to make a single line for fatigue and an "X" for a wound. During combats your character will probably receive and recover fatigue often, so using small markers like coins, beans or a dice might be easier, you can write down your fatigue after the conflict is resolved.
+
 ## Skills
 
 Skills mainly give your character extra abilities to use during the **expedition** and **interlude**. But they can also be extremely valuable for gathering information and interacting with the world. With the *loremaster* skill, for example  the *GM* may give you extra information on the dungeon history, or with the *ritualist* skill the *GM* might tell you how remove a curse you got. Skills are a good opportunity for the **GM** and **players** to exercise their creativity well coming up with stories.

@@ -1986,7 +1986,7 @@
 				},
 				{
 					"name": "trapping kit",
-					"description": "For making and disarming simple traps. Can build Ud6 traps",
+					"description": "For making and disarming simple traps. Can build Ud6 traps. Steping on a trap causes 4 wounds and immobilizes the target. Getting free requires 1 turn and a strength test.",
 					"rarity": 2,
 					"tags": 10
 				},
