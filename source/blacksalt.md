@@ -9,7 +9,7 @@ hide-title: false
 print: true
 
 links-title: Books
-links:  Core Rules|index, Playing the Game|game, Bestiary, Blacksalt*
+links:  Core Rules|index, Playing the Game|game, Bestiary, Blacksalt*, Quick Reference|quick-ref
 ---
 
 [This section of the book is still a very early work in progress, more content will come soon!]{.alert}

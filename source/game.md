@@ -9,7 +9,7 @@ hide-title: true
 print: true
 
 links-title: Books
-links:  Core Rules|index, Playing the Game*|game, Bestiary, Blacksalt
+links:  Core Rules|index, Playing the Game*|game, Bestiary, Blacksalt, Quick Reference|quick-ref
 ---
 
 # Expedition
@@ -81,13 +81,16 @@ The **omens tracker** is about the state of the party itself. The omens tracker 
 
 <pagebreak>
 
-### Exploration Actions 
+### Exploration Actions
+Here's a list of common exploration actions. When not sure what action you want, you can always perform a **freeform** action.
 
 #### Move (1 turn) {.block}
 Move to a different location, usually to a different room in the dungeon. The *GM* can ask the players to spend more than one turn if the distances are big enough.
 Moving often lead to combat encounters.
 
 While moving in the **exploration phase** the players don't need to worry about movement speed and may move their miniatures freely, as long it makes sense for the *GM* and to the other players.
+
+The *GM* may consider this a free action if moving to somewhere already explored and that is close to where the party current is.
 
 #### Loot (1 turn) {.block}
 Looting a location does not require a test, the *GM* just lists what they find in that location and the **adventurers** can choose what to pick up. Looting can only be used on a safe location, with no enemies or traps. If the players want to try something riskier, it's a freeform action, and may require a test.
@@ -109,10 +112,10 @@ If the players have the upper hand and the other side is unaware of their presen
 The whole combat only counts as one exploration turn.
 
 #### Catch your breath (1 turn)  {.block .break}
-Like in combat, player can stop for a while and catch their breath, restoring up to one point of **fatigue** for each attribute. Players may also chose to use any items tagged as *quick* too, such as bandages, light torches and drink water.
+Like in combat, the party can stop for a while and catch their breath, restoring up to one point of **fatigue** for each attribute. Players may also chose to use any items tagged as *quick* too, such as bandages, light torches and drink water.
 
 #### Look for traps (1 turn) {.block}
-Looking for traps requires the **infiltration** skill, and explanation on how they look or at least some kind of tool, like a pole. The players may roll an **intelligence** test trying to find a trap. On a critical failure they will trigger any traps they find. On a great success they disarm it for free.
+Looking for traps requires the **infiltration** skill, and explanation on how they look or at least some kind of tool, like a pole. The players may roll an **intelligence** test trying to find a trap. On a critical failure they will trigger any traps they find. On a great success they get to disarm it for free.
 
 Finding a trap allows one player to try to disarm it, it requires a **dexterity** test, failing will trigger the trap.
 
@@ -238,10 +241,10 @@ Choose an available **spell**, **prayer** or **manoeuver** and tests the appropr
 Execute that effect.
 
 #### Use item or change equipment (1 action) {.block}
-Equip, use an item for it's effect.
+Equip and/or use an item for it's effect.
 If changing equipment remember to return that character's previous equipped item to the inventory.
 
-You can instead give or use an item on someone on the same tile if they have inventory space.
+You can also give or use an item on someone on the same tile if they have inventory space.
 Throwing an item to someone up to two units away is also possible, but requires a **dexterity test** for both characters. 
 Receiving an item doesn't cost an action.                                      
 

@@ -12,6 +12,7 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Quick reference guide with all the important tables
 - [x] Interlude (City Phase)
 - [x] Shield and armor
 - [x] Thief Gangs
@@ -38,7 +39,6 @@ Last update was <now>
 - [ ] Sample dungeon level 3 (final level)
 - [ ] Improve intro
 - [ ] Better character background descriptions
-- [ ] Quick reference guide with all the important tables
 
 ## Later
 - [ ] Fix broken links everywhere
@@ -50,3 +50,4 @@ Last update was <now>
 - [ ] More spells and schools of magic
 - [ ] More gods and prayers
 - [ ] Morale system (for interlude, not battle)
+- [ ] Short video explaining basic rules

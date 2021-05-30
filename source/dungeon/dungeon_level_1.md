@@ -224,8 +224,9 @@ A group of goblins is barricaded here. 2 [boggarts]{.m} and 2 [goblin scrappers]
 They really don't want to fight and are terrified of whatever is down the tomb. If the **adventurers** tell them it's safe, and their leaders (the goblins on room 10) are dead, they  will gladly leave.
 
 - In the altar there's a metal cross with 3 beams across. This is no religious symbol that anyone in the group knows about. *This metal cross is actually a key to the last room, so it's important. Explain the players how weird that cross is so they remember it later or pick it up.*
+- The red gem that the statue holds is [valuable]{.tip} but has the Acheron Zul's symbol on it, so it can't be sold on **Trinta**, the nearby fief. *You should tell the players this, so they don't assume that they can.*
 - In the altar there's a religious book, a passage that draws the **adventurers**' attention says that the *"Weavers from the void shall take our loved one and back to the void bring them. We come from the void and back to the void we shall go."*
-
+- There's a barricade to the north corridor. It's not a very good one, but requires 2 **exploration turns** to fully disassemble.
 
 ## 12 Stockroom
 Piles of melted candle wax, brooms and cleaning supplies are in a corner. There's a big table in the middle with a lot of rotten food piled up. A drawer is in surprisingly good condition in the south wall, full of scrolls and inks.
@@ -241,7 +242,7 @@ Piles of melted candle wax, brooms and cleaning supplies are in a corner. There'
 ## 13 Burial Chamber Entrance
 An ornate hall, in the middle of the room two hooded statues frame a stairway going down. The walls are adorned with wooden details. A small red rug is placed near the east wall.
 
-2 [reanimated husks]{.m} are crawling here, one near the stairs and one near the barricade. From the dark bellow, comes a [void demon]{.m}.
+2 [reanimated husks]{.m} are crawling here, one near the stairs and one near the barricade. From the dark bellow, comes a [void demon]{.m}. If you think that the party is currently too strong, you may add a second [void demon]{.m} or a [lesser demon]{.m}.
 
 There's a stairway to the [lower levels](dungeon_level_2.html) here, but it's closed with an iron gate.
 

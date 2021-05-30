@@ -312,7 +312,7 @@
 					"id": "Lesser_Demon",
 					"Name": "Lesser Demon",
 					"Level": 4,
-					"Wounds": 4,
+					"Wounds": 6,
 					"Resistance": 1,
 					"Common Actions": [
 						{
@@ -327,7 +327,14 @@
 					"Armor": 2,
 					"Movement": 6,
 					"Extract": 0,
-					"Tags": 16
+					"Tags": 20,
+					"Actions": [
+						{
+							"Name": "Void Axe",
+							"Check": "-DEX ",
+							"Description": ""
+						}
+					]
 				},
 				{
 					"id": "Void_Demon",
@@ -1221,7 +1228,7 @@
 					"id": "Phase_out",
 					"Name": "Phase out",
 					"Check": "",
-					"Description": "Becomes incorporeal, add 2 dodge tokens"
+					"Description": "Becomes incorporeal, add 2 dodge tokens and move 2 tiles."
 				},
 				{
 					"id": "Infectious_bite",
