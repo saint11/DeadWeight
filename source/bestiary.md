@@ -10,6 +10,9 @@ print: true
 
 links-title: Books
 links:  Core Rules|index, Playing the Game|game, Bestiary*, Blacksalt
+
+header-image: images/header-ornaments.png
+footer-image: images/footer-ornaments.png
 ---
 
 ### Demons {.big}

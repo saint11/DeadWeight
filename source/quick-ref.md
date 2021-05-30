@@ -10,6 +10,9 @@ print: true
 
 links-title: Books
 links:  Core Rules|index, Playing the Game|game, Bestiary, Blacksalt, Quick Reference*|quick-ref
+
+header-image: images/header-ornaments.png
+footer-image: images/footer-ornaments.png
 ---
 
 This is a page that has a simplified version of the tables and lists most commonly used during a session of **Dead Weight**. If you are unsure about a rule, always check the original tables and list, since they might have a more complete explanation.

@@ -1,6 +1,8 @@
+
 document.addEventListener('DOMContentLoaded', function () {
     init();
-})
+    var rellax = new Rellax('.rellax', {horizontal:false});
+});
 
 function init() {
     // console.log('making the toc menu');

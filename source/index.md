@@ -10,25 +10,25 @@ print: true
 
 links-title: Books
 links:  Core Rules*|index, Playing the Game|game, Bestiary, Blacksalt, Quick Reference|quick-ref
----
 
+header-image: images/header-ornaments.png
+footer-image: images/footer-ornaments.png
+---
 version 0.4
 
 ![](images/Dead_Weight_Logo.png "Dead Weight logo")
 
 <pagebreak>
  
-This is still a work in progress, while playable, there's some content missing. Check the [roadmap](roadmap.html) for more information. If you have questions or any kind of feedback, feel free to also join the [discord channel](https://discord.gg/BJfMxEq52R). {.alert .web}
-
 # Welcome
 
 **Dead Weight** takes place in a low-fantasy world, it's very grim and dark but doesn't take itself too seriously. But be advised that **Dead Weight** has some **horror** elements, and may not be suitable for everyone.
 
 The player characters are no heroes; they are *dead weights*, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, struggling not only with the horrors that lurk in there, but also their fatigue, stress, and the gradual decay of the few resources they bring. All to save enough silver to leave *Blacksalt Island* for better days elsewhere.
 
-This system has a strong **structure** to it, it's **roleplay light** focusing heavily on dungeon crawl. **Roleplay light** doesn't mean there's no support for it, quite the contrary, just means that the game should fun even if your group doesn't like to roleplay a lot.
+This system has a strong **structure** to it, it's **roleplay light** focusing heavily on dungeon crawl. **Roleplay light** doesn't mean there's no support for it, quite the contrary, just means that the game system should fun even if your group doesn't like to roleplay a lot.
 
-The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Knave, The Black Hack and Torchbearer.
+This is still a work in progress, while absolutely playable, there's some content missing. Check the [roadmap](roadmap.html) for more information. If you have questions or any kind of feedback, feel free to also join the [discord channel](https://discord.gg/BJfMxEq52R). {.alert .web}
 
 
 ![](images/weaver.png "a knight dying in a dungeon"){.left .print}
@@ -124,7 +124,7 @@ After that the adventure starts! It is recommended to start on the **expedition*
 
 Let's start by creating your character, don't worry too much about the rule system for now, just follow the steps from this chapter and choose what you think sounds more exciting. If you really want to know the rules before doing this, you can skip ahead and come back after you learned the rules.
 
-Every character starts their life with **1 insight point**. **Insight points** can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight. When you complete the last step of your character, you can "move" one **attribute score point** from one of your **highest scores** to another for each insight point you have left. When playing with a group, if your character has the same **life path** as another character in your party, you may, only once, roll again without spending insight.
+Every character starts their life with **1 insight point**. For now **insight points** can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight, later in the game insight will be used to level up your character. When you complete the last step of your character, you can "move" one **attribute score point** from one of your **highest scores** to another for each insight point you have left. When playing with a group, if your character has the same **life path** as another character in your party, you may, only once, roll again without spending insight.
 
 Each step will add and remove **attribute points**, **equipment**, and other things to your character. Place them in the appropriate place in your character sheet. 
 
@@ -709,6 +709,8 @@ Equipped armor and helmet go on the torso slots, wielded items, including torche
 <pagebreak>
 
 # About
+
+The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Knave, The Black Hack and Torchbearer.
 
 This system [open source](https://github.com/saint11/DeadWeight) and is released under [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The **Dead Weight** logo cannot be used without express permission, though.
 

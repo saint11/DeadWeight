@@ -1,6 +1,7 @@
 @import "style.css";
 html {
     overflow-y: auto;
+    overflow-x: hidden;
 
     height: 100%;
     -webkit-text-size-adjust: 100%;
@@ -61,7 +62,8 @@ body {
     background-repeat: repeat;
     margin: 0;
     margin-left: 290px;
-    overflow-y: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 @media print {

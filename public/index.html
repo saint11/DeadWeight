@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/rellax.min.js" type="text/javascript"></script>
     <script src="scripts/nav.js" type="text/javascript"></script>
     <script src="scripts/tables.js" type="text/javascript"></script>
     <script src="scripts/marked.min.js" type="text/javascript"></script>
@@ -12,6 +13,10 @@
 
 
 <body>
+    <div class="parallax rellax" data-rellax-speed="-8">
+        <img src="images/header-ornaments.png" class="big" style="width: 100%;">
+    </div>
+
     <header>
         <div id="menuToggle">
             <input type="checkbox">
@@ -26,17 +31,14 @@
     <div id="main-document">
         <div class="page">
         </div>
-
-
-<p>version 0.4</p>
+    <p>version 0.4</p>
 <p><img src="images/Dead_Weight_Logo.png" alt="" title="Dead Weight logo"></p>
-<p class="alert web">This is still a work in progress, while playable, there's some content missing. Check the <a href="roadmap.html">roadmap</a> for more information. If you have questions or any kind of feedback, feel free to also join the <a href="https://discord.gg/BJfMxEq52R">discord channel</a>.</p>
 <section>
 <h1><a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><i class="fas fa-link"></i></a>Welcome</h1>
 <p><strong>Dead Weight</strong> takes place in a low-fantasy world, it's very grim and dark but doesn't take itself too seriously. But be advised that <strong>Dead Weight</strong> has some <strong>horror</strong> elements, and may not be suitable for everyone.</p>
 <p>The player characters are no heroes; they are <em>dead weights</em>, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, struggling not only with the horrors that lurk in there, but also their fatigue, stress, and the gradual decay of the few resources they bring. All to save enough silver to leave <em>Blacksalt Island</em> for better days elsewhere.</p>
-<p>This system has a strong <strong>structure</strong> to it, it's <strong>roleplay light</strong> focusing heavily on dungeon crawl. <strong>Roleplay light</strong> doesn't mean there's no support for it, quite the contrary, just means that the game should fun even if your group doesn't like to roleplay a lot.</p>
-<p>The goal of <strong>Dead Weight</strong> is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Knave, The Black Hack and Torchbearer.</p>
+<p>This system has a strong <strong>structure</strong> to it, it's <strong>roleplay light</strong> focusing heavily on dungeon crawl. <strong>Roleplay light</strong> doesn't mean there's no support for it, quite the contrary, just means that the game system should fun even if your group doesn't like to roleplay a lot.</p>
+<p class="alert web">This is still a work in progress, while absolutely playable, there's some content missing. Check the <a href="roadmap.html">roadmap</a> for more information. If you have questions or any kind of feedback, feel free to also join the <a href="https://discord.gg/BJfMxEq52R">discord channel</a>.</p>
 <p><img src="images/weaver.png" alt="" title="a knight dying in a dungeon" class="left print"></p>
 <section class="unlisted break">
 <h2 class="unlisted break"><a id="blacksalt-island" class="anchor" href="#blacksalt-island" aria-hidden="true"><i class="fas fa-link"></i></a>Blacksalt Island</h2>
@@ -114,7 +116,7 @@ In the end of this book there's a sample dungeon to help the <strong>GM</strong>
 <h1><a id="character-creation" class="anchor" href="#character-creation" aria-hidden="true"><i class="fas fa-link"></i></a>Character Creation</h1>
 <p><img src="images/boat.png" alt="" title="A boat in a dark sea" class="left"></p>
 <p>Let's start by creating your character, don't worry too much about the rule system for now, just follow the steps from this chapter and choose what you think sounds more exciting. If you really want to know the rules before doing this, you can skip ahead and come back after you learned the rules.</p>
-<p>Every character starts their life with <strong>1 insight point</strong>. <strong>Insight points</strong> can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight. When you complete the last step of your character, you can "move" one <strong>attribute score point</strong> from one of your <strong>highest scores</strong> to another for each insight point you have left. When playing with a group, if your character has the same <strong>life path</strong> as another character in your party, you may, only once, roll again without spending insight.</p>
+<p>Every character starts their life with <strong>1 insight point</strong>. For now <strong>insight points</strong> can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight, later in the game insight will be used to level up your character. When you complete the last step of your character, you can "move" one <strong>attribute score point</strong> from one of your <strong>highest scores</strong> to another for each insight point you have left. When playing with a group, if your character has the same <strong>life path</strong> as another character in your party, you may, only once, roll again without spending insight.</p>
 <p>Each step will add and remove <strong>attribute points</strong>, <strong>equipment</strong>, and other things to your character. Place them in the appropriate place in your character sheet.</p>
 <p>If you get the same skill twice upgrade it instead. Feel free to jump ahead in to the <a href="#skills">skills</a>, <a href="#special-traits">traits</a> and <a href="./blacksalt.html#equipment">equipment</a> section to understand what they do.</p>
 <p>Print a <a href="DeadWeight-sheet.pdf">character sheet</a> or use <a href="https://deaddice.page/">Dead Dice</a> if you want a digital sheet and let's start! Alternatively you can also try the <a href="chargen.html">character generator</a> for an automatic character.</p>
@@ -1024,7 +1026,16 @@ If an <strong>adventurer</strong> would receive an affliction he or she already 
 </section>
 <section>
 <h1><a id="about" class="anchor" href="#about" aria-hidden="true"><i class="fas fa-link"></i></a>About</h1>
+<p>The goal of <strong>Dead Weight</strong> is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Knave, The Black Hack and Torchbearer.</p>
 <p>This system <a href="https://github.com/saint11/DeadWeight">open source</a> and is released under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a>,you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The <strong>Dead Weight</strong> logo cannot be used without express permission, though.</p>
 <p>This game was designed and illustrated by me, <a href="http://www.saint11.org">Pedro Medeiros</a> and if you like what I'm doing, you may consider supporting me on <a href="https://www.patreon.com/saint11">Patreon</a>.</p>
 </section>
-</div></body></html>
+</div>
+
+    <div class="parallax">
+        <img src="images/footer-ornaments.png" class="big" style="margin-top: 8em; width: 100%;">
+    </div>
+
+
+
+</body></html>
