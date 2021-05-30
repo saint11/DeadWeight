@@ -685,7 +685,7 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 \* Not exclusive, always check item descriptions for more ways to remove afflictions.
 
 ## Inventory
-Characters can carry 5 items + 3 items for each **strength score**. Items should be placed in your character sheet in the appropriate slots in the **Trappings** section. While carrying more items is possible the character will be **encumbered**, all movement is reduced by half and must perform a **strength test** every turn, failing means that something was dropped.
+Characters can carry 7 items + 3 items for each **strength score**. Items should be placed in your character sheet in the appropriate slots in the **Trappings** section. While carrying more items is possible the character will be **encumbered**, all movement is reduced by half and must perform a **strength test** every turn, failing means that something was dropped.
 
 At the trappings table, on top of each list there's a label, something like "**Belt/Small pouch**". Circle the one you have on your character, if your character doesn't have any of those, just make a big X on the whole list.
 
