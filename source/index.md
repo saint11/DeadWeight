@@ -30,9 +30,6 @@ This system has a strong **structure** to it, it's **roleplay light** focusing h
 
 The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Knave, The Black Hack and Torchbearer.
 
-This system is released under  [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution.
-
-This game was designed and illustrated by me, [Pedro Medeiros](http://www.saint11.org) and if you like what I'm doing, you may consider supporting me on [Patreon](https://www.patreon.com/saint11).
 
 ![](images/weaver.png "a knight dying in a dungeon"){.left .print}
 
@@ -590,7 +587,7 @@ The *GM* can also create more trackers at any moment, to represent long challeng
 
 <pagebreak>
 
-# The Character
+# Core Concepts
 
 ## Attributes
 
@@ -710,3 +707,9 @@ Caracters may also carry items in their **torso** and **hands** slots.
 Equipped armor and helmet go on the torso slots, wielded items, including torches go on the hands. Unless the player has a really good explanation, a character can only wield one item on each hand, even with 2 slots. For just carrying stuff, carrying 2 items on each hand is fine.
 
 <pagebreak>
+
+# About
+
+This system [open source](https://github.com/saint11/DeadWeight) and is released under [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The **Dead Weight** logo cannot be used without express permission, though.
+
+This game was designed and illustrated by me, [Pedro Medeiros](http://www.saint11.org) and if you like what I'm doing, you may consider supporting me on [Patreon](https://www.patreon.com/saint11).

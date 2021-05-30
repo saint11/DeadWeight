@@ -51,3 +51,4 @@ Last update was <now>
 - [ ] More gods and prayers
 - [ ] Morale system (for interlude, not battle)
 - [ ] Short video explaining basic rules
+- [ ] "Compatible with Dead Weight" logo
