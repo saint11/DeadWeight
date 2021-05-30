@@ -555,6 +555,10 @@ If no attribute that can hold any more **wounds**, meaning that all available di
 
 If the received wounds is reduced to zero or less by armor or other resistances, that character doesn't take any wounds.
 
+### Mortal Wounds {.draft}
+
+### Trauma {.draft}
+
 <pagebreak>
 
 ## Movement & Distance
@@ -573,7 +577,7 @@ When using a grid map, here's how you can convert distances":
 | **Distant** | more than 20m |      12 squares       |
 [Converting distances]
 
-## Trackers {.draft}
+## Trackers
 Also known as a *progress clock* in other systems. A **tracker** is just one or more circles divided into segments that the *GM* uses to track the progression of something. Every time a tracker is advanced one segment must be filled. When the circle is completely filled, the tracker is triggered and something happens. There are 3 main trackers that are always in play:
 
 - **Decay tracker**: Represents the toll that dungeon delving takes on the **adventurers**. Causes hunger, exhaustion and other bad things to the players. Advances every turn.
