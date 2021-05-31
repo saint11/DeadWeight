@@ -105,7 +105,7 @@ In this book we will often say **adventurers** when referring specifically to pl
 This game played in **sessions**, that can last at least one hour and up to 4 hours, it depends on the play style of your group. Each game session is structured in 2 distinct states, the **expedition** and the **interlude**,  which is basically delving into a terrible place or recovering and making plans for the next expedition. The players may choose from a list of actions depending on which phase the game currently is. Depending on how much roleplay your group likes the interlude phase may be simplified or not.
 
 ### Ok, how do I start? {.unlisted}
-First, decide who will be the **game master** and who are going to be the **players**, the game master should ideally read this whole rule book, including the **sample dungeon** in the end. It is recommended that the players read at least the [Core Mechanics](#core-mechanics) after creating the characters, but it's not required. Players should **not** ready the **sample dungeon** or they will spoil the adventure.
+First, decide who will be the **game master** and who are going to be the **players**, the game master should ideally read this whole rule book, including the **sample dungeon** in the end. It is recommended that the players read at least the [Core Mechanics](#core-mechanics) after creating the characters, but it's not required. Players should **not** read the **sample dungeon** or they will spoil the adventure.
 
 Then each player should create a **character**, follow the [Character Creation](#character-creation) chapter for more information.
 
