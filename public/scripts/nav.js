@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     init();
-    var rellax = new Rellax('.rellax', {horizontal:false});
+    var rellax = new Rellax('.rellax', {horizontal:false, wrapper:'body'});
 });
 
 function init() {

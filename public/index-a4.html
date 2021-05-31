@@ -18,7 +18,7 @@
 
 <div class="page undefined">
 <p>version 0.4</p>
-<p><img src="images/Dead_Weight_Logo.png" alt="" title="Dead Weight logo"></p>
+<p><img src="images/Dead_Weight_Logo.png" alt="" title="Dead Weight logo" class="shake"></p>
 </div>
 <div class="page ">
 <section id="welcome">
@@ -48,6 +48,7 @@
 <li><a href="./index.html">Core Rules</a>: This book, cover all the important rules and basic information on how to play and create characters.</li>
 <li><a href="./bestiary.html">Bestiary</a>: A list of monsters and enemies for the <strong>adventurers</strong> and their respective stats and lore.</li>
 <li><a href="./blacksalt.html">Blacksalt</a>: A lore guide about the island and the world of <strong>Blacksalt</strong>, gods, settlements and locations.</li>
+<li><a href="./quick-ref.html">Quick Reference</a>: A compilation of the most used tables. It's useful to have this open on your phone or on a different tab while playing.</li>
 <li><a href="./dungeon/dungeon_level_1.html">Sample Dungeon</a>: <strong>Players should NOT read this</strong>, only the <strong>GM</strong>. A sample dungeon for a first adventure.</li>
 </ul>
 <p class="web">If you never played a tabletop RPG before, check <a href="https://www.youtube.com/watch?v=U_v3vTAEML0">this</a> video, for a basic explanation.</p>
@@ -800,14 +801,55 @@ Manoeuvers requires 1 action and hit targets <strong>close</strong>, unless spec
 <p><strong>Enemies</strong> don't have attributes, so there's no need to choose where to place the wounds when receiving them. Enemies die when receive more wounds than noted in their enemy sheet.</p>
 <p>If the received wounds is reduced to zero or less by armor or other resistances, that character doesn't take any wounds.</p>
 </section>
-<section class="draft" id="mortal-wounds">
-<h3 class="draft">Mortal Wounds</h3>
 </section>
-<section class="draft" id="trauma">
-<h3 class="draft">Trauma</h3>
-</section></section></div>
+<section id="mortal-wounds">
+<h2>Mortal Wounds</h2>
+<p>When a player character is <strong>mortally wounded</strong> the player must roll from the mortally wounded table. For every time during this expedition that the character have received a mortal wound before, add 1 to the dice result.</p>
+<p>When mortally wounded a character is unable to move or perform any actions. The character must be stabilized with a <strong>first aid kit</strong>, <strong>medical supply</strong> or <strong>healing spell</strong> to wake up.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">1d6</th>
+<th style="text-align:left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0-</td>
+<td style="text-align:left">Nothing but a scratch! You stand your ground and do not fall mortally wounded.</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:left">Knocked out, but no lasting consequence.</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:left">This injury won't heal how it should. Get the <strong>chronic pain</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:left">Choose a trauma you don't currently have.</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:left">You bleed internally. Get the <strong>brain damage</strong> trauma.</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:left">You see the other side. Get the <strong>visions</strong> trauma.</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left">On the verge of death! If not stabilized in 1 combat turn, you are dead. No lasting consequences.</td>
+</tr>
+<tr>
+<td style="text-align:center">7+</td>
+<td style="text-align:left">You are are <strong>dead</strong>.</td>
+</tr>
+</tbody>
+</table>
+</section></div>
 <div class="page ">
-
 
 <section id="movement-%26-distance">
 <h2>Movement &amp; Distance</h2>
@@ -945,6 +987,20 @@ There are 4 range bands for measuring distance in <strong>Dead Weight</strong>:<
 <li><strong>Third eye</strong>: You can see the <strong>omens</strong> tracker.</li>
 </ul>
 </section>
+<section id="traumas">
+<h2>Traumas</h2>
+<p>Traumas work similarly to <strong>special traits</strong>, except that they are always very bad to the <strong>adventurers</strong>. Traumas are usually received when the character gets mortally wounded. Most traumas can be recovered or at least downgraded to a more manageable one.</p>
+<p>Receiving the same trauma again has no  effect.</p>
+<ul>
+<li><strong>Broken arm</strong>: Can't use one arm for attacking or carrying items.</li>
+<li><strong>Broken leg</strong>: Movement reduced to 1 tile and costs 2 actions in combat. Moving during expedition must be done with help or some sort of cane.</li>
+<li><strong>Chronic pain</strong>: It just doesn't let you focus. Reduce one point on one attribute <strong>score</strong> that is not already zero.</li>
+<li><strong>Brain damage</strong>: Reduce one <strong>proficiency</strong> point on one attribute that is not already zero.</li>
+<li><strong>Paranoid</strong>: Can't receive help from allies, can't share items other than ration on camp phase. -1 ambush dice on camp phase.</li>
+<li><strong>Fearful</strong>: During combat if you are attacked, you move one tile back. If you are attacked more than once you get 1 (and only 1) <span class="tip">stun token</span>.</li>
+<li><strong>Visions</strong>: When someone casts a spell <strong>nearby</strong> you receive a <span class="tip">stun token</span>.</li>
+</ul>
+</section>
 <section class="wide" id="afflictions">
 <h2 class="wide">Afflictions</h2>
 <p>Each one of the <strong>afflictions</strong> have their own set of rules on how they affect the character and how they are removed.<br>
@@ -1042,13 +1098,14 @@ If an <strong>adventurer</strong> would receive an affliction he or she already 
 <li>Each <strong>hand</strong> has 2 slots.</li>
 </ul>
 <p>Equipped armor and helmet go on the torso slots, wielded items, including torches go on the hands. Unless the player has a really good explanation, a character can only wield one item on each hand, even with 2 slots. For just carrying stuff, carrying 2 items on each hand is fine.</p>
+<p>The character clothes that are not considered armor do not occupy a slot. You can write them down on the notes section.</p>
 </section></div>
 <div class="page ">
 
 
 <section id="about">
 <h1>About</h1>
-<p>The goal of <strong>Dead Weight</strong> is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Knave, The Black Hack and Torchbearer.</p>
+<p>The goal of <strong>Dead Weight</strong> is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Forbidden Lands, Knave, The Black Hack and Torchbearer.</p>
 <p>This system <a href="https://github.com/saint11/DeadWeight">open source</a> and is released under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a>,you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The <strong>Dead Weight</strong> logo cannot be used without express permission, though.</p>
 <p>This game was designed and illustrated by me, <a href="http://www.saint11.org">Pedro Medeiros</a> and if you like what I'm doing, you may consider supporting me on <a href="https://www.patreon.com/saint11">Patreon</a>.</p>
 </section>

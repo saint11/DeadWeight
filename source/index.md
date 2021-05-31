@@ -16,7 +16,7 @@ footer-image: images/footer-ornaments.png
 ---
 version 0.4
 
-![](images/Dead_Weight_Logo.png "Dead Weight logo")
+![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake}
 
 <pagebreak>
  
@@ -59,6 +59,7 @@ For simplicity the rules are broken up in different books:
 - [Core Rules](./index.html): This book, cover all the important rules and basic information on how to play and create characters.
 - [Bestiary](./bestiary.html): A list of monsters and enemies for the **adventurers** and their respective stats and lore.
 - [Blacksalt](./blacksalt.html): A lore guide about the island and the world of **Blacksalt**, gods, settlements and locations.
+- [Quick Reference](./quick-ref.html): A compilation of the most used tables. It's useful to have this open on your phone or on a different tab while playing.
 - [Sample Dungeon](./dungeon/dungeon_level_1.html): **Players should NOT read this**, only the **GM**. A sample dungeon for a first adventure.
 
 If you never played a tabletop RPG before, check [this](https://www.youtube.com/watch?v=U_v3vTAEML0) video, for a basic explanation. {.web}
@@ -552,9 +553,21 @@ If no attribute that can hold any more **wounds**, meaning that all available di
 
 If the received wounds is reduced to zero or less by armor or other resistances, that character doesn't take any wounds.
 
-### Mortal Wounds {.draft}
+## Mortal Wounds
+When a player character is **mortally wounded** the player must roll from the mortally wounded table. For every time during this expedition that the character have received a mortal wound before, add 1 to the dice result.
 
-### Trauma {.draft}
+When mortally wounded a character is unable to move or perform any actions. The character must be stabilized with a **first aid kit**, **medical supply** or **healing spell** to wake up.
+
+|  1d6  | Effect                                                                                            |
+| :---: | :------------------------------------------------------------------------------------------------ |
+|  0-   | Nothing but a scratch! You stand your ground and do not fall mortally wounded.                    |
+|   1   | Knocked out, but no lasting consequence.                                                          |
+|   3   | This injury won't heal how it should. Get the **chronic pain**.                                   |
+|   2   | Choose a trauma you don't currently have.                                                         |
+|   4   | You bleed internally. Get the **brain damage** trauma.                                            |
+|   5   | You see the other side. Get the **visions** trauma.                                               |
+|   6   | On the verge of death! If not stabilized in 1 combat turn, you are dead. No lasting consequences. |
+|  7+   | You are are **dead**.                                                                             |
 
 <pagebreak>
 
@@ -659,6 +672,19 @@ Special traits are similar to skills, but usually add or break a rule to your ch
 - **Dauntless**: When you get a **success** on a test, you may roll **2 extra dice** and add them to this test. *This increases your great success and fatigue chance*.
 - **Third eye**: You can see the **omens** tracker.
 
+## Traumas
+Traumas work similarly to **special traits**, except that they are always very bad to the **adventurers**. Traumas are usually received when the character gets mortally wounded. Most traumas can be recovered or at least downgraded to a more manageable one.
+
+Receiving the same trauma again has no  effect.
+
+- **Broken arm**: Can't use one arm for attacking or carrying items.
+- **Broken leg**: Movement reduced to 1 tile and costs 2 actions in combat. Moving during expedition must be done with help or some sort of cane.
+- **Chronic pain**: It just doesn't let you focus. Reduce one point on one attribute **score** that is not already zero.
+- **Brain damage**: Reduce one **proficiency** point on one attribute that is not already zero.
+- **Paranoid**: Can't receive help from allies, can't share items other than ration on camp phase. -1 ambush dice on camp phase.
+- **Fearful**: During combat if you are attacked, you move one tile back. If you are attacked more than once you get 1 (and only 1) [stun token]{.tip}.
+- **Visions**: When someone casts a spell **nearby** you receive a [stun token]{.tip}.
+
 ## Afflictions {.wide}
 
 Each one of the **afflictions** have their own set of rules on how they affect the character and how they are removed.
@@ -706,11 +732,13 @@ Caracters may also carry items in their **torso** and **hands** slots.
 
 Equipped armor and helmet go on the torso slots, wielded items, including torches go on the hands. Unless the player has a really good explanation, a character can only wield one item on each hand, even with 2 slots. For just carrying stuff, carrying 2 items on each hand is fine.
 
+The character clothes that are not considered armor do not occupy a slot. You can write them down on the notes section.
+
 <pagebreak>
 
 # About
 
-The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Knave, The Black Hack and Torchbearer.
+The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Forbidden Lands, Knave, The Black Hack and Torchbearer.
 
 This system [open source](https://github.com/saint11/DeadWeight) and is released under [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The **Dead Weight** logo cannot be used without express permission, though.
 
