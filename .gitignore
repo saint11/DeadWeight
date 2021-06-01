@@ -117,4 +117,5 @@ dist
 *.clip
 
 output/*
+public/*.html
 copy_to_saint11.bat
