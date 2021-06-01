@@ -12,6 +12,7 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Mortal wounds table
 - [x] Quick reference guide with all the important tables
 - [x] Interlude (City Phase)
 - [x] Shield and armor
@@ -29,20 +30,20 @@ Last update was <now>
 
 ## Working on now
 - [ ] Doom tracker during **interlude**
-- [ ] Mortal wounds table
+- [ ] Sample dungeon level 3 (final level)
 
 ## Next
 - [ ] World map
   - [ ] Settlements
 - [ ] Character advancement
-- [ ] Better encumbrance rules
-- [ ] Sample dungeon level 3 (final level)
 - [ ] Improve intro
 - [ ] Better character background descriptions
 
 ## Later
 - [ ] Fix broken links everywhere
 - [ ] Make all life paths roll 3d6 instead of 2d6
+- [ ] Better encumbrance rules
+- [ ] Re-think usage dice (maybe something more elegant)
 - [ ] Review the print version
 - [ ] List of magic items
 - [ ] Guilds

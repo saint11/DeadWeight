@@ -75,8 +75,9 @@ If you never played a tabletop RPG before, check [this](https://www.youtube.com/
 
 - **You can get a print-optimized version of this page too. We provide in two formats [A4](index-a4.html) and [Letter](index-letter.html).** (work in progress) {.web}
 - Pen and paper for everyone.
-- A copy of the character sheet for each player, digital or printed, to the player preference.
-- As many 6-sided dices as you can. Ideally 5 per player. Can be played with fewer dice, but it slows down the game, alternatively the players may use [Dead Dice](https://deaddice.page/) on their phones or tables for a [digital sheet]{.tip}.
+- A copy of the character sheet for each player, digital or printed, to the player preference. For digital the players may use [Dead Dice](https://deaddice.page/) on their phones.
+- As many 6-sided dices as you can. Ideally 3 per player. Can be played with fewer dice, but it slows down the game, alternatively the players may use [Dead Dice](https://deaddice.page/) on their phones.
+- A set of RPG dice with a d4, d6, d8, d10, d12 and d20. These are not used very often, so a mobile app can do the job if you don't have these.
 - Coins, beans, anything that can be used as tokens. There are 3 types of tokens, **stun**, **shield** and **dodge**.
 - Miniatures or some kind of pawns. Each player will require one and the GM will require some for the enemies. They should be easily identifiable.
 
@@ -631,12 +632,12 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Duelist:** You may perform a **feint** action in combat (1 action). Discard all [shield]{.tip #shield_token} and [dodge tokens]{.tip} from your enemy.
   - **Swashbuckler:**(advanced) If your feint removes a [shield token]{.tip}, your opponent may not attack next turn.
 - **Fearless:** Once per combat you may heal one **presence** wound.
-- **Holy Rites:** You have [advantage]{.tip} when testing for anything that involves religious rituals, including performing prayers.
+- **Holy Rites:** You have an extensive knowledge about the new gods, prayers and the saints. You may make holy water using clean water and 1 exploration turn.
 - **Infiltration:** Allows the **search for traps** action during expeditions and an [advantage]{.tip} when sneaking.
 - **Intimidate:** You may perform an **intimidate** action in combat (2 actions), attacking with **PRE 1N** all **nearby** enemies. Only one intimidate action can be used per combat.
-- **Loremaster:** Get [advantage]{.tip} when testing or checking for anything related to the world lore, ancient languages.
+- **Loremaster:** You have an extensive knowledge about the world history, languages and different cultures.
 - **Pilfer:** You earn 1d6 silver coins at the start of the **interlude**.
-- **Occult Studies:** You have [advantage]{.tip} point for anything that involves magic and the occult, including invoking spells.
+- **Occult Studies:** You have an extensive knowledge about old gods, magic and the occult.
 - **Ritualist**: During **camp** you can spend 1 action to remove one point the **omens tracker** or **doom tracker**.
 - **Shield Expert:** Add 1 extra [shield token]{.tip} when defending.
   - **Shield Master:** (advanced) Add 1 extra [shield token]{.tip} when defending. Moving does not remove shield tokens.

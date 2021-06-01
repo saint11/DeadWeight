@@ -277,6 +277,8 @@ The wall to the south is covered in what appears to be inscribed leather (*it's 
 
 The north wall is barricaded by a big bookshelf.
 
+A character with the **occult studies** skill might know that this is a cult of **Gyrrath**, the ever hungry, an old god.
+
 ## 17 Makeshift Tunnel
 A damp and dirty tunnel, smells of blood. There's a [Bloated Screamer]{.m} on the way.
 

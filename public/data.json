@@ -376,6 +376,112 @@
 					"Tags": 20
 				},
 				{
+					"id": "Vault_Weaver",
+					"Name": "Vault Weaver",
+					"Level": 8,
+					"Wounds": 12,
+					"Armor": 0,
+					"Resistance": 2,
+					"Special": [
+						{
+							"Description": "Fly"
+						},
+						{
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Consume a corpse",
+							"Check": "",
+							"Description": "and bloat, becoming a Red Weaver"
+						},
+						{
+							"Name": "Cry of hunger",
+							"Check": "-DEX 3",
+							"Description": "(2 actions) Vibrates rapidly causing the ground around to shake. Causes a small earthquake, dropping parts of the ceiling on adventurers."
+						},
+						{
+							"Name": "Piercing light",
+							"Check": "INT 2P",
+							"Description": "(2 actions) Flash of light, burns everyone **nearby**, including other enemies."
+						}
+					],
+					"Movement": 3,
+					"Extract": 5,
+					"Tags": 16
+				},
+				{
+					"id": "Red_Weaver",
+					"Name": "Red Weaver",
+					"Level": 10,
+					"Wounds": 14,
+					"Armor": 0,
+					"Resistance": 2,
+					"Special": [
+						{
+							"Description": "Fly"
+						},
+						{
+							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
+						},
+						{
+							"Description": "Unnatural presence, everyone nearby is **Nauseated** while around it. Any ration will spoil and water will become tainted."
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Silver Tentacles",
+							"Check": "STR/INT/DEX 2P",
+							"Description": "Nearby"
+						},
+						{
+							"Name": "Pulse",
+							"Check": "",
+							"Description": "A wave of pain, causing 1 Presence wound to everyone *Close*, including diagonals."
+						},
+						{
+							"Name": "Unblinking Gaze",
+							"Check": "-INT",
+							"Description": "Add 2 stun markers to target nearby"
+						},
+						{
+							"Name": "Piercing red light",
+							"Check": "INT 2P",
+							"Description": "(2 actions) Flash of light, burns everyone **nearby**, including other enemies. Add a stun marker to anyone *close* looking directly at it."
+						}
+					],
+					"Movement": 3,
+					"Extract": 5,
+					"Tags": 16
+				},
+				{
+					"id": "Rotworm_Swarm",
+					"Name": "Rotworm Swarm",
+					"Level": 1,
+					"Wounds": 2,
+					"Armor": 0,
+					"Resistance": 0,
+					"Special": [
+						{
+							"Description": "Too many of them, any damage is reduced to 1 wound"
+						}
+					],
+					"Common Actions": [],
+					"Actions": [
+						{
+							"Name": "Infest",
+							"Check": "PRE 1+1",
+							"Description": "On critical one gets attached to target, causing 1 wound per turn until removed (1 action)"
+						}
+					],
+					"Movement": 3,
+					"Extract": 4,
+					"Tags": 1
+				},
+				{
 					"id": "Plagued_Rat",
 					"Name": "Plagued Rat",
 					"Level": 1,
@@ -471,30 +577,6 @@
 					"Tags": 1
 				},
 				{
-					"id": "Rotworm_Swarm",
-					"Name": "Rotworm Swarm",
-					"Level": 1,
-					"Wounds": 2,
-					"Armor": 0,
-					"Resistance": 0,
-					"Special": [
-						{
-							"Description": "Too many of them, any damage is reduced to 1 wound"
-						}
-					],
-					"Common Actions": [],
-					"Actions": [
-						{
-							"Name": "Infest",
-							"Check": "PRE 1+1",
-							"Description": "On critical one gets attached to target, causing 1 wound per turn until removed (1 action)"
-						}
-					],
-					"Movement": 3,
-					"Extract": 4,
-					"Tags": 1
-				},
-				{
 					"id": "Ectoplasmic_Worm",
 					"Name": "Ectoplasmic Worm",
 					"Level": 3,
@@ -547,88 +629,6 @@
 						}
 					],
 					"Tags": 1
-				},
-				{
-					"id": "Vault_Weaver",
-					"Name": "Vault Weaver",
-					"Level": 8,
-					"Wounds": 5,
-					"Armor": 0,
-					"Resistance": 2,
-					"Special": [
-						{
-							"Description": "Fly"
-						},
-						{
-							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
-						}
-					],
-					"Common Actions": [],
-					"Actions": [
-						{
-							"Name": "Consume a corpse",
-							"Check": "",
-							"Description": "and bloat, becoming a Red Weaver"
-						},
-						{
-							"Name": "Cry of hunger",
-							"Check": "-DEX 3",
-							"Description": "(2 actions) Vibrates rapidly causing the ground around to shake. Causes a small earthquake, dropping parts of the ceiling on adventurers."
-						},
-						{
-							"Name": "Piercing light",
-							"Check": "INT 2P",
-							"Description": "(2 actions) Flash of light, burns everyone **nearby**, including other enemies."
-						}
-					],
-					"Movement": 3,
-					"Extract": 5,
-					"Tags": 16
-				},
-				{
-					"id": "Red_Weaver",
-					"Name": "Red Weaver",
-					"Level": 10,
-					"Wounds": 8,
-					"Armor": 0,
-					"Resistance": 2,
-					"Special": [
-						{
-							"Description": "Fly"
-						},
-						{
-							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
-						},
-						{
-							"Description": "Unnatural presence, everyone nearby is **Nauseated** while around it. Any ration will spoil and water will become tainted."
-						}
-					],
-					"Common Actions": [],
-					"Actions": [
-						{
-							"Name": "Silver Tentacles",
-							"Check": "STR/INT/DEX 2P",
-							"Description": "Nearby"
-						},
-						{
-							"Name": "Pulse",
-							"Check": "",
-							"Description": "A wave of pain, causing 1 Presence wound to everyone *Close*, including diagonals."
-						},
-						{
-							"Name": "Unblinking Gaze",
-							"Check": "-INT",
-							"Description": "Add 2 stun markers to target nearby"
-						},
-						{
-							"Name": "Piercing red light",
-							"Check": "INT 2P",
-							"Description": "(2 actions) Flash of light, burns everyone **nearby**, including other enemies. Add a stun marker to anyone *close* looking directly at it."
-						}
-					],
-					"Movement": 3,
-					"Extract": 5,
-					"Tags": 16
 				},
 				{
 					"id": "giant_leech",
