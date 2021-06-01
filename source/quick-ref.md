@@ -111,8 +111,11 @@ Restore up to one point of **fatigue** for each attribute. Players may also chos
 #### Look for traps (1 turn) {.block}
 Looking for traps requires the **infiltration** skill, and explanation on how they look or at least some kind of tool, like a pole.
 
-#### Use an item (1 turn) {.block}
-Any item that is tagged as [slow]{.tip} can be used for 1 turn. Items tagged as [camp]{.tip} cannot be used.
+#### Use a quick item (free) {.block}
+Any item tagged as [quick]{.tip} can be used without using a turn.
+
+#### Use a slow item (1 turn) {.block}
+Each character can use one item that is tagged as [slow]{.tip}. Items tagged as [camp]{.tip} cannot be used.
 
 #### Cast a spell or prayer (1 turn) {.block}
 Choose an available **spell** or **prayer** and perform the appropriate tests specified in the **spell** or **prayer** description. Execute that spell effect.

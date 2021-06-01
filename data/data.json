@@ -1131,9 +1131,24 @@
 					"Armor": 3,
 					"Resistance": 0,
 					"Movement": 4,
-					"Special": [],
-					"Common Actions": [],
-					"Extract": 5
+					"Special": [
+						{
+							"Description": "Will to live! Add a shield token when receiving an attack that causes more than 2 wounds."
+						}
+					],
+					"Common Actions": [
+						{
+							"Action": "Wooden_Shield"
+						}
+					],
+					"Extract": 5,
+					"Actions": [
+						{
+							"Name": "Short sword",
+							"Check": "STR 2+2",
+							"Description": ""
+						}
+					]
 				}
 			],
 			"separators": [],
@@ -1224,6 +1239,18 @@
 					"Check": "",
 					"id": "Cracked_Shield",
 					"Description": "Add 2 shield tokens, if tokens are used, the shield is gone."
+				},
+				{
+					"id": "Wooden_Shield",
+					"Name": "Wooden shield",
+					"Check": "",
+					"Description": "Add 2 shield tokens."
+				},
+				{
+					"id": "Dodge",
+					"Name": "Dodge",
+					"Check": "",
+					"Description": "(2 actions) Add 2 dodge tokens."
 				},
 				{
 					"id": "Bite",
@@ -1385,6 +1412,22 @@
 				{
 					"id": "great_success",
 					"Description": "Rolling 2 or more 6s in a test"
+				},
+				{
+					"id": "close",
+					"Description": "1 tile, include diagonals."
+				},
+				{
+					"id": "nearby",
+					"Description": "6 tiles"
+				},
+				{
+					"id": "far",
+					"Description": "12 tiles"
+				},
+				{
+					"id": "distant",
+					"Description": "more than 12 tiles"
 				}
 			],
 			"separators": [],
@@ -1945,10 +1988,16 @@
 					"tags": 6
 				},
 				{
-					"name": "torch",
-					"description": "A pack of 2 torches. Lights the way for Ud6 decays.",
+					"name": "torches",
+					"description": "A pack of 2 torches. Lights the way **nearby** for Ud4 decays.",
 					"rarity": 1,
 					"tags": 2
+				},
+				{
+					"name": "candles",
+					"description": "A pack of 6 candles. Lights the way **close** for Ud6 decays.",
+					"tags": 2,
+					"rarity": 1
 				},
 				{
 					"name": "oil",
@@ -2012,7 +2061,7 @@
 				},
 				{
 					"name": "lantern",
-					"description": "Lights the way for Ud8 decays. Uses oil. Quick to light, slow to refuel.",
+					"description": "Lights the way **nearby** for Ud8 decays. Uses oil. Quick to turn on and off, slow to refuel.",
 					"rarity": 2,
 					"tags": 3
 				},

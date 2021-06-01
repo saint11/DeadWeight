@@ -93,6 +93,8 @@ Moving often lead to combat encounters.
 
 While moving in the **exploration phase** the players don't need to worry about movement speed and may move their miniatures freely, as long it makes sense for the *GM* and to the other players.
 
+When opening doors, turning corners or revealing something the *GM* should always ask the players to position their **adventurers** in the map, just in case something wait them on the other side. It's also important to always pay attention to where the character holding the light source is.
+
 The *GM* may consider this a free action if moving to somewhere already explored and that is close to where the party current is.
 
 #### Loot (1 turn) {.block}
@@ -122,8 +124,11 @@ Looking for traps requires the **infiltration** skill, and explanation on how th
 
 Finding a trap allows one player to try to disarm it, it requires a **dexterity** test, failing will trigger the trap.
 
-#### Use an item (1 turn) {.block}
-Any item that is tagged as [slow]{.tip} can be used for 1 turn. Items tagged as [camp]{.tip} cannot be used.
+#### Use a quick item (free) {.block}
+Any item tagged as [quick]{.tip} can be used without using a turn.
+
+#### Use a slow item (1 turn) {.block}
+Each character can use one item that is tagged as [slow]{.tip}. Items tagged as [camp]{.tip} cannot be used.
 
 #### Cast a spell or prayer (1 turn) {.block}
 Choose an available **spell** or **prayer** and perform the appropriate tests specified in the **spell** or **prayer** description.
@@ -153,6 +158,17 @@ Some actions will not trigger a turn.
 
 #### Exit the expedition {.block}
 If the **adventurers** are near an exit and there is nothing blocking their path, they can choose to leave the expedition and return to the [interlude](#interlude). Leaving the dungeon to the interlude will always advance the *doom tracker*.
+
+### Light
+**Adventurers** often explore tombs, dungeons and other dark places. Having some sort of light source is essential. The most common ways to light the way in a dungeon are:
+- **Torches**: Light the way [nearby]{.tip}, for Ud4 decays.
+- **Candles**: Light the way [close]{.tip}, for Ud6 decays.
+- **Lantern**: Lights the way [nearby]{.tip} for Ud8 decays. Uses oil. [Quick]{.tip} to turn on and off, [slow]{.tip} to refuel.
+- **Light spell**: Lights the way [nearby]{.tip}, for 1 decay.
+
+Every time the [decay](#decay) happens, the usage dice of the light sources should be tested. If the usage dice is exhausted the light source will be gone next turn, a new one must be lit next turn or the **adventurers** will be left in the dark.
+
+Ending a turn in the dark causes an **adventurer** to take a **presence** fatigue or the **terrified** affliction, player's choice.
 
 <pagebreak>
 
@@ -469,7 +485,7 @@ When buying an item, the price must be rolled. That item price should be noted s
 Immediately finish the interlude and get back to the **expedition**.
 
 #### Lay low {.block}
-Adventurers usually call a lot of attention to themselves in the settlements of **Blacksalt island**. Laying low for a while may help to calm things down and redirect the attention to something else. Reduce **this settlement's doom tracker** by one.
+Adventurers usually call a lot of attention to themselves in the settlements of **Blacksalt island**. Laying low for a while may help to calm things down and redirect the attention to something else. On a 2d! reduce **this settlement's doom tracker** by one.
 
 ### 2. Blacksalt events
 Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the event table.
@@ -575,8 +591,20 @@ Depending on the current story, your character might have a house in this settle
 | 10-12 | Restore all fatigue, heal 1 wound and remove **sleepy**, **shaken** and **angry**. |
 [Proper accommodation]
 
-## Character Progression
+## Settlement Doom
+Sometimes the **adventurers** will advance the **doom tracker** while they are in the interlude, when that happens create or advance a **doom tracker** for that specific settlement. Different settlements can have different trackers, but bellow there's a default tracker for most settlements. Note that all effects are **cumulative**.
 
+| Doom  | Effect                                                                                   |
+| :---: | :--------------------------------------------------------------------------------------- |
+|   1   | The people here look at your group suspiciously. Increase all item prices by 1 silver.   |
+|   2   | You are not welcome here. The inn charges 1 extra silver per person.                     |
+|   3   | You may only buy common and uncommon items, all item prices are increased by 1 silver.   |
+|   4   | You may not use the inn.                                                                 |
+|   5   | You may only buy common items, all item prices are increased by 1 silver.                |
+|   6   | You may not buy items, go to the surgeon/witch doctor or get entertainment here anymore. |
+|   7   | The locals will start hunting you down. This is no longer a safe place.                  |
+
+## Character Progression
 Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire grievous wounds, curses and mortal enemies. Characters can level up to level 6, after that they will eventually find their untimely death or will finally **retire**.
 
 Retired characters contribute to **The Guild**, allowing players to start new characters with more bonuses and giving them a long term goal.

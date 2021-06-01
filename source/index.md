@@ -572,35 +572,6 @@ When mortally wounded a character is unable to move or perform any actions. The 
 
 <pagebreak>
 
-## Movement & Distance
-Most weapons, skills, spells and items will have a maximum or minimum range to work, to make things simple we can use some abbreviations, instead of listing the numbers every time.
-There are 4 range bands for measuring distance in **Dead Weight**:
-
-**Close**, **Nearby**, **Far** and **Distant**.
-
-When using a grid map, here's how you can convert distances":
-
-| Distance    |    Meters     |        Squares        |
-| :---------- | :-----------: | :-------------------: |
-| **Close**   |     1.5m      | 1 square, no diagonal |
-| **Nearby**  |     7.5m      |       5 squares       |
-| **Far**     |      20m      |      12 squares       |
-| **Distant** | more than 20m |      12 squares       |
-[Converting distances]
-
-## Trackers
-Also known as a *progress clock* in other systems. A **tracker** is just one or more circles divided into segments that the *GM* uses to track the progression of something. Every time a tracker is advanced one segment must be filled. When the circle is completely filled, the tracker is triggered and something happens. There are 3 main trackers that are always in play:
-
-- **Decay tracker**: Represents the toll that dungeon delving takes on the **adventurers**. Causes hunger, exhaustion and other bad things to the players. Advances every turn.
-- **Doom tracker**: There's one for each dungeon, represents the dungeon "waking up" to the **adventurers**' presence and reacting.
-- **Omens tracker**: There's one for the whole campaign. Represents the **adventurers**' terrible luck and their inevitable doom in **Blacksalt island**. Every time it gets completed something really bad happens.
-
-The [Playing the Game book](./game.html) explains in more detail how each of these trackers work, so don't worry about them for now.
-
-The *GM* can also create more trackers at any moment, to represent long challenges, the tide rising, a strong enemy slowly waking up and so on. Trackers can be hidden from the players or fully visible.
-
-<pagebreak>
-
 # Core Concepts
 
 ## Attributes
@@ -734,6 +705,33 @@ Caracters may also carry items in their **torso** and **hands** slots.
 Equipped armor and helmet go on the torso slots, wielded items, including torches go on the hands. Unless the player has a really good explanation, a character can only wield one item on each hand, even with 2 slots. For just carrying stuff, carrying 2 items on each hand is fine.
 
 The character clothes that are not considered armor do not occupy a slot. You can write them down on the notes section.
+
+## Distance
+Most weapons, skills, spells and items will have a maximum or minimum range to work, to make things simple we can use some abbreviations, instead of listing the numbers every time.
+There are 4 range bands for measuring distance in **Dead Weight**:
+
+**Close**, **Nearby**, **Far** and **Distant**.
+
+When using a grid map, here's how you can convert distances":
+
+| Distance    |    Meters     |        Squares        |
+| :---------- | :-----------: | :-------------------: |
+| **Close**   |     1.5m      | 1 square, no diagonal |
+| **Nearby**  |      9m       |       6 squares       |
+| **Far**     |      20m      |      12 squares       |
+| **Distant** | more than 20m |      12 squares       |
+[Converting distances]
+
+## Trackers
+Also known as a *progress clock* in other systems. A **tracker** is just one or more circles divided into segments that the *GM* uses to track the progression of something. Every time a tracker is advanced one segment must be filled. When the circle is completely filled, the tracker is triggered and something happens. There are 3 main trackers that are always in play:
+
+- **Decay tracker**: Represents the toll that dungeon delving takes on the **adventurers**. Causes hunger, exhaustion and other bad things to the players. Advances every turn.
+- **Doom tracker**: There's one for each dungeon, represents the dungeon "waking up" to the **adventurers**' presence and reacting.
+- **Omens tracker**: There's one for the whole campaign. Represents the **adventurers**' terrible luck and their inevitable doom in **Blacksalt island**. Every time it gets completed something really bad happens.
+
+The [Playing the Game book](./game.html) explains in more detail how each of these trackers work, so don't worry about them for now.
+
+The *GM* can also create more trackers at any moment, to represent long challenges, the tide rising, a strong enemy slowly waking up and so on. Trackers can be hidden from the players or fully visible.
 
 <pagebreak>
 

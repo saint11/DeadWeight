@@ -152,3 +152,7 @@ Once human bodies now brought back through the [dead vigil]{.tip}.
 The [dead vigil]{.tip} affects even those that have no corpse left.
 
 <monster id="shadow">
+
+### Humans
+
+<monster id="bounty_hunter">

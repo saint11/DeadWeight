@@ -15,7 +15,7 @@ header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
 
-[This section of the book is still a very early work in progress, more content will come soon!]{.alert}
+[This section of the book is still a work in progress, lots more content will come soon!]{.alert}
 
 # Equipment {.wide}
 ![](images/weapons.png "Weapons"){.left}
@@ -168,11 +168,13 @@ Controlling the dead and the dark forces of the void is the Necromancers of Yada
 
 Tales tell that Yadar is a small island, hidden in the black sea, populated only by the undead, and ruled by three Necromancers. No one knows exactly where is the island, but Yadar disciples are everywhere, spreading the necromancer's teachings to the rest of the world.
 
+While necromancers are not combat focussed their high-utility spells can be used in clever ways to help to solve different problems.
+
 #### Spells {.block .unlisted}
 
 - **Pain**: 2 actions during combat. Add 3 [stun tokens]{.tip} to a **nearby** *living* or *undead* enemy. Reduce the number of tokens using the enemy resistance.
 - **Command undead**: The wizard may issue one simple command to an undead. That undead wil try to follow that command for the next 2 exploration turns. Only works on undead up to level 3. The command may be "renewed" by casting the spell again. If cast during a combat it will last through the whole combat and for the next exploration turn. If unable to follow the command for any reason the undead will just stay in place without moving.
-- **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} haven't set on yet. Causes 2 wound to everyone **close** that can be reduced by armor and resistances. Also works on udead under the **Command undead** spell.
+- **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} haven't set on yet. Causes 2 wound to everyone **close** that can be reduced by armor and resistances. Also works on undead under the **Command undead** spell.
 - **Phobia**: The target **nearby** creature gets terrified of a chosen person or object for 1d6 turns.
 - **Black night**: Absolute darkness covers a **nearby** area, anything **close** to that area is engulfed in it and can't see. The wizard can see normally trough the darkness.
 - **Nightmare:** A target **nearby** creatures immediately falls into a restless sleep, having horribles nightmare. The creature will wake up normally if disturbed.
@@ -210,11 +212,16 @@ To make a potion the wizard can mix any number of extracts available. Add all fr
 
 > A Healing Tonic (2,0) can be made adding water (+1, -1), ether (+1, 0) and rot (0,+1). An alternative would be adding ether (+1,0) twice instead.
 
-- **Healing tonic**: (2,0) Heals one intelligence or dexterity wound. Ud4 uses.
-- **Potion of giants**: (0,3) Heals all strength wounds and fatigue. Ud4 uses.
-- **Explosive potion**: (-2,2) Can be thrown to a **nearby** tile, causing 2 wounds to anyone in that tile and 1 wound to anyone **close**, damage can be reduced.
-- **Tonic of Bravery**: (1,1) Character can't get **terrified** during this expedition.
-- **Anti-poison tonic**: (1,-1) Cures **Nausea**.
+| Potion                |  Yig  | Grai  | Effect                                                                                                                              |
+| :-------------------- | :---: | :---: | :---------------------------------------------------------------------------------------------------------------------------------- |
+| **Healing tonic**     |   2   |   0   | Heals 1 intelligence or dexterity wound. Ud4 uses.                                                                                  |
+| **Potion of giants**  |   0   |   3   | Heals all strength wounds and fatigue. Ud4 uses.                                                                                    |
+| **Explosive potion**  |  -2   |   2   | Can be thrown to a **nearby** tile, causing 2 wounds to anyone in that tile and 1 wound to anyone **close**, damage can be reduced. |
+| **Tonic of bravery**  |   1   |   1   | Character can't get **terrified** during this expedition.                                                                           |
+| **Anti-poison tonic** |   1   |  -1   | Cures **Nausea** and other simple poisons.                                                                                          |
+| **Mercurial tonic**   |   0   |   0   | Get 1 extra combat action for this and the next Ud4 turns (test at the end of the turn).                                            |
+| **Tonic of focus**    |  -1   |  -1   | Cures 2 presence wounds.                                                                                                            |
+| **Purging hot-water** |  +1   |  +1   | Cures 2 strength wounds, causes 1 presence wound. Ud4 uses.                                                                         |
 
 ## Thaumaturgists of Ravenhome
 
@@ -246,7 +253,7 @@ Most Awakened believe themselves to be cursed, they never studied magic but the 
 
 #### Spells {.block .unlisted}
 
-- **Light**: Illuminates the current room for 2d6 exploration turns.
+- **Light**: Illuminates [nearby]{.tip} room for 1 decay.
 - **Haste**: A **nearby** creature has their movement speed doubled until the end of the combat.
 - **Shackles**: The wizard creates magical shackles that hold a **nearby** creature in place, adding 2 [stun tokens]{.tip} per turn. It lasts as long as the wizard keeps channeling the spell. The wizard can't move or act while channelling.
 - **Telekinesis**: The wizard may pull or push a **close** object using **intelligence** as **strength**. Or use any weapon with **intelligence** as **strength** for one turn.
