@@ -1,5 +1,5 @@
 const extracts = "Flame,Water,Smoke,Necro,Rot,Ether".split(',');
-const monsterTags = toBitwise("living,undead,ghost,goblin,voidspawn".split(','));
+const monsterTags = toBitwise("living,undead,ghost,goblin,voidspawn,human".split(','));
 
 document.addEventListener('DOMContentLoaded', function () {
     fetch(getMeta("data_path") + "data.json")

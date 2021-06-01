@@ -8,8 +8,6 @@ toc: true
 print: true
 ---
 
-Still working on this level {.alert}
-
 ## 1 Winding Staircase
 A curved staircase that goes down to the [goblin barricade](#2-goblin-barricade) and back to the [tomb](./dungeon_level_2.html).
 
@@ -28,7 +26,7 @@ A big barricade was built on the south door here made of spears, table legs, and
 
 Returning the corpse to **Trinta** will give the **adventurers** the bounty of 80 silver coins. The soothsayer will perform a very dramatic ritual in the middle of the city with the corpse. The soothsayer will claim that the curse is gone because of his ritual. And a small parade in the honor of the **soothsayer** will be held.
 
-The room must be sealed or the weavers from the next room will eventually break out and start consuming the corpses from the dungeon, keeping the curse alive.
+The **adventurers** must either kill all the weavers in the other room, or seal this one. If that doesn't happen the weavers from the next room will eventually break out and start consuming the all the corpses from the dungeon, keeping the curse alive. If that's the case the Lord of Trinta will hang the **soothsayer** for not dealing with the curse.
 
 - Piles of clothes and coffins are scattered around the room. Some valuables can be found:
   - 2 **short swords**.
@@ -41,6 +39,6 @@ The room must be sealed or the weavers from the next room will eventually break 
 
 ## 3 Weavers Chamber
 Behind the barricade is a big cave. Lots os empty clothes, coffins and loose pieces or armor are scattered around. A huge symbol is drawn on the ground.
-2 [tomb weavers] are here. These monsters are probably way too strong for the players to deal with, they should consider just sealing them there.
+2 [tomb weavers] are here. These monsters are probably way too strong for the players to deal with, they should consider just sealing them there. Killing the weavers will also deal with the curse.
 
 A book of prayers to the old god **Gyrrath** is on the ground. *This can be a hook for the next adventure*.

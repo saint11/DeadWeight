@@ -6,7 +6,7 @@ let { getFromId, getSheet } = require('./data.js');
 var md = require('markdown-it')({ html: true, breaks: true });
 
 const extracts = "Flame,Water,Smoke,Necro,Rot,Ether".split(',');
-const monsterTags = toBitwise("living,undead,ghost,goblin,voidspawn".split(','));
+const monsterTags = toBitwise("living,undead,ghost,goblin,voidspawn,human".split(','));
 
 
 function makeTable(data, options) {

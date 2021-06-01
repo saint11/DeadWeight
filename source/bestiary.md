@@ -37,6 +37,8 @@ When a red weaver dies it will explode, launching all the corpses it ate all ove
 ### The Child-Stealers {.big}
 The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. They are also called the **forest folk**, **goblinfolk** or just **goblins** in general.
 
+![](./images/goblin.png){.right}
+
 They are usually smaller than humans, with white skin covered in bumps and red spots, pointy ears and usually no hair. They have huge mouths with way too many pointy teeth.
 
 They can't speak properly, their mouths are too wide and has no proper lips, they also lack of any social intelligence, but will say a few broken words. They don't talk to each other much, at least not with words, they will secrete some pheromones that will similar to how ants would. They are mostly guided by their instinct to create more goblins and gremlins from human children and to eat meat, including human meat. They do trade with each other, though, using human teeth as currency.
@@ -46,6 +48,8 @@ Goblin nests are rare and extremely well hidden, but tales are told of them. Wit
 Child-stealers will roam in the night since they can see in the dark. They avoid sun light but it won't hurt them.
 
 Most of them worship **Igra**, the god of the woods but a few will workship [Goshkalon](blacksalt.html#goshkalon), the god of laughter. They are not evil, but guided to the instinct to reproduce their kind, and the only way to do it is with human children.
+
+![](./images/gremlin.png){.left}
 
 <monster id="gremlin">
 
@@ -61,7 +65,6 @@ Most of them worship **Igra**, the god of the woods but a few will workship [Gos
 
 <monster id="boggart_sniper">
 
-![](./images/goblin.png){.left}
 
 <monster id="bloodshot_goblin">
 

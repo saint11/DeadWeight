@@ -98,7 +98,27 @@ This looks like an old supply room for some kind of mining operation.
 ## 9 Abandoned Vault
 The entrance to this room is hidden, if someone pushes the wall an audible click can be heard and the wall will open.
 
+A terrified [bounty hunter]{.m} is here, he **really** doesn't want to fight and locked himself in this room to hide from the **goblins** and the **void demon** that was roaming the corridors.
+
 - There is a hydraulic machine here, with a valve. Opening the valve will spill some water and a mechanical noise far away can be heard.
+
+### Irvine ([Bounty hunter]{.m}) {.block .unlisted}
+- **Quirks**: 
+  - Hair on face, black clothes. He never removes the hair from his face and that's very annoying.
+  - Smells like sweat. 
+  - Eyes keep darting left and right, looking for something.
+- **Goal**: To get out of this dungeon alive then flee **Trinta**, since the lord will probably hang him.
+- **Conflict**: Is very afraid of the monsters in the dungeon, since his whole group was killed.
+- **What he knows**:
+  - Goblins are feeding something downstairs.
+  - The thing downstairs is making him feel sick.
+  - Goblins are very afraid of the thing downstairs.
+  - He doesn't think **Acheron Zul**'s corpse has anything to do with this curse.
+- **How he ended up here**:
+  - He was part of the first expedition sent by the Lord of Trinta.
+  - His friends all died or were captured by the goblins, then fed to the thing downstairs.
+- **Can be ally?** He really doesn't want to, but will help if no other choice is presented. Will run away at the first opportunity.
+- **Can be hostile?** Only if attacked, and even so will try to run at the first opportunity.
 
 ## 10 Tainted Shrine
 The room is a foggy with scented vapors coming from the pool in the middle and from 4 brasiers burning around the room. The brasiers are emitting a very soft glow of embers. Stairs lead to an upper area of the room.

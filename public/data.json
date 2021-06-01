@@ -13,7 +13,7 @@
 					"display": null
 				},
 				{
-					"typeStr": "10:living,undead,ghost,goblin,voidspawn",
+					"typeStr": "10:living,undead,ghost,goblin,voidspawn,human",
 					"name": "Tags"
 				},
 				{
@@ -1121,6 +1121,19 @@
 					"Movement": 6,
 					"Extract": 1,
 					"Tags": 1
+				},
+				{
+					"id": "Bounty_hunter",
+					"Name": "Bounty Hunter",
+					"Tags": 33,
+					"Level": 5,
+					"Wounds": 8,
+					"Armor": 3,
+					"Resistance": 0,
+					"Movement": 4,
+					"Special": [],
+					"Common Actions": [],
+					"Extract": 5
 				}
 			],
 			"separators": [],

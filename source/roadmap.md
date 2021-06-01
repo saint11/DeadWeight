@@ -12,6 +12,8 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Sample dungeon level 3 (final level)
+  - [ ] Still need some work but it's playable
 - [x] Mortal wounds table
 - [x] Quick reference guide with all the important tables
 - [x] Interlude (City Phase)
@@ -30,7 +32,6 @@ Last update was <now>
 
 ## Working on now
 - [ ] Doom tracker during **interlude**
-- [ ] Sample dungeon level 3 (final level)
 
 ## Next
 - [ ] World map
