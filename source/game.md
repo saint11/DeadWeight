@@ -605,9 +605,21 @@ Sometimes the **adventurers** will advance the **doom tracker** while they are i
 |   7   | The locals will start hunting you down. This is no longer a safe place.                  |
 
 ## Character Progression
-Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire grievous wounds, curses and mortal enemies. Characters can level up to level 6, after that they will eventually find their untimely death or will finally **retire**.
+Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire traumas, curses and mortal enemies.
+
+During the expedition or character creation **adventurers** may receive **insight** points, during the interlude players may choose to spend those insight points for different things. When you receive an insight point mark it on your character sheet with a slash, when you spend it you can fill in the circle. Once all the 12 circles in your insight bar are filled your character cannot earn more insight and may be retired.
 
 Retired characters contribute to **The Guild**, allowing players to start new characters with more bonuses and giving them a long term goal.
+
+The guild is a feature that will be added in a future update on the rules {.alert}
+
+### Insight points {.block}
+- **Move attribute score (1 insight)**: You can move 1 **attribute score** from the hightest scored attribute to a lower one.
+- **Learn skill (1 insight)**: You may learn one skill.
+- **Heal trauma (1 insight)**: You may remove one trauma.
+- **Increase lowest score (2 insight)**: You can add 1 **attribute score** to your lowest scored attribute.
+- **Increase score (3 insight)**: You can add 1 **attribute score** any attribute.
+- **Increase proficiency (4 insight)**: You can add 1 **attribute proficiency** any attribute.
 
 <pagebreak>
 

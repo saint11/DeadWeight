@@ -12,6 +12,7 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Character advancement
 - [x] Doom tracker during **interlude**
 - [x] Sample dungeon level 3 (final level)
   - [ ] Still need some work but it's playable
@@ -32,7 +33,6 @@ Last update was <now>
 - [x] Gods and prayers
 
 ## Working on now
-- [ ] Character advancement
 
 ## Next
 - [ ] World map
