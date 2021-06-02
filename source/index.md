@@ -322,7 +322,7 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 |           10           | You and everyone **Close** have terrible visions and get the **Terrified** affliction.                 |
 |           11           | Summon a *void demon* **Close** to you.                                                                |
 |           12           | You start bleeding from your eyes, take **1 wound** to each attribute and the **Bleeding** affliction. |
-|           13           | Your conductor is now destroyed.                                                                        |
+|           13           | Your conductor is now destroyed.                                                                       |
 |           14           | You see a giant eye looking at you. Get the **Doomed** affliction.                                     |
 |           15           | Summon a *tormentor demon* **Close** to you.                                                           |
 |           16           | A third eye opens in your forehead, you are now with the **Cursed** affliction.                        |
