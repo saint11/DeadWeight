@@ -98,7 +98,7 @@ tr.selected strong {
     color: var(--main-selected-color) !important;
 }
 tr.selected {
-    background-color: var(--main-dark-color) !important;
+    background-color: #1e553d !important;
     color: var(--main-selected-color) !important;
 }
 

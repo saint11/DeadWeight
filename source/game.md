@@ -55,8 +55,9 @@ If the **adventurers** are in a safe place, outside of a dungeon and with no imm
 |     9     | Hopeless                       |
 |    10     | Angry                          |
 |    11     | Wound (player choose location) |
-|    12     | Equipment breaks/lost          | {.roll meta-dice=2}
+|    12     | Equipment breaks/lost          |
 [Decay]
+{.roll meta-dice=2}
 
 If a character would receive an affliction that they already have keep adding 1 to the result, until a valid result have been reached. After the decay happens the players should also roll the usage dice for any torch, lanterns, etc.
 
