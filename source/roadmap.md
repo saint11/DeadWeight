@@ -33,16 +33,21 @@ Last update was <now>
 - [x] Gods and prayers
 
 ## Working on now
+- [ ] Make all life paths roll 3d6 instead of 2d6
+  - [x] infancy
+  - [ ] career
+  - [ ] tragedy
+  - [ ] burden
+- [ ] Island map
+  - [ ] Settlements
 
 ## Next
 - [ ] World map
-  - [ ] Settlements
 - [ ] Improve intro
 - [ ] Better character background descriptions
 
 ## Later
 - [ ] Fix broken links everywhere
-- [ ] Make all life paths roll 3d6 instead of 2d6
 - [ ] Better encumbrance rules
 - [ ] Re-think usage dice (maybe something more elegant)
 - [ ] Review the print version

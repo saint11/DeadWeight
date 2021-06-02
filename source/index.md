@@ -155,19 +155,24 @@ All **attributes scores** start at 1, all **attribute proficiencies** starts at 
 
 Your infancy will provide a base for your attributes and for your formation.
 
-|  2d6  | Infancy                                                                                        | Effect                                           |
-| :---: | :--------------------------------------------------------------------------------------------- | :----------------------------------------------- |
-|   2   | **Tossed in the Pit:** Rejected by everyone, even by death.                                    | rejected by death (trait), +1 insight            |
-|   3   | **Feral Kid:** Raised by animals in the forest.                                                | +1 STR, +1 DEX, animal affinity (skill)          |
-|   4   | **Born in Exile:** Raised far away from civilization.                                          | +1 STR +1 INT, survivalist (skill)               |
-|   5   | **Battleborn:** Born in a army during a raging war, forged in violence.                        | +2 STR, fearless (skill)                         |
-|   6   | **Street Urchin:** Orphan, raised by other kids.                                               | +1 STR, +1 DEX, street wise (skill)              |
-|   7   | **City Kid:** Grew up amidst the chaos of a big city.                                          | +1 DEX, +1 PRE, +1d4 silver, +1 insight          |
-|   8   | **Caravan Child:** Born in a trading caravan, before walking you learned to haggle.            | +2 PRE, +1d6 silver                              |
-|   9   | **Clergy Bastard:** Born by a sinful union, learned guilt and prayer before walking.           | +1 STR +1 PRE, holy rites (skill)                |
-|  10   | **Occultist’s Apprentice:** Raised by an occultist and trained in the arcane arts since a kid. | +2 INT, +1d6 silver, occult studies (skill)      |
-|  11   | **Blue Blood:** Born in a rich family that eventually lost everything.                         | +1 INT, +1 PRE, +3d6 silver                      |
-|  12   | **Born of a dark prophecy:** No one knows where you came from, only that it's bad.             | +1 of a chosen attribute prof, bad omens (trait) |
+|  3d6  | Infancy                                                                                                       | Effect                                           |
+| :---: | :------------------------------------------------------------------------------------------------------------ | :----------------------------------------------- |
+|   3   | **Tossed in the Pit**: Rejected by everyone, even by death.                                                   | rejected by death (trait), +1 insight            |
+|   4   | **Blacksalt native**: Blacksalt is a terrible place, but you know how it can be good too.                     | +1 DEX, loremaster (skill)                       |
+|   5   | **Occultist’s Apprentice**: Raised by an occultist and trained in the arcane arts since a kid.                | +2 INT, +1d6 silver, occult studies (skill)      |
+|   6   | **Born in Exile**: Raised far away from civilization.                                                         | +1 STR +1 INT, survivalist (skill)               |
+|   7   | **Battleborn**: Born in a army during a raging war, forged in violence.                                       | +2 STR, fearless (skill)                         |
+|   8   | **Street Urchin**: Orphan, raised by other kids.                                                              | +1 STR, +1 DEX, street wise (skill)              |
+|   9   | **Caravan Child**: Born in a trading caravan, before walking you learned to haggle.                           | +2 PRE, +1d6 silver                              |
+|  10   | **Clergy Bastard**: Born by a sinful union, learned guilt and prayer before walking.                          | +1 STR +1 PRE, holy rites (skill)                |
+|  11   | **City Kid**: Grew up amidst the chaos of a big city.                                                         | +1 DEX, +1 PRE, +1d4 silver, +1 insight          |
+|  12   | **Farmer's kid**: Life in a farm isn't easy, but gave you enough to keep going.                               | +1 STR, cooking (skill), animal affinity (skill) |
+|  13   | **Lost family**: You had had to grow up much faster than everyone, your siblings depended on you.             | +1 INT, +DEX, cooking (skill)                    |
+|  14   | **Tomb Dweller**: Grew up underground in an underground tomb-city. Quickly learned to stay hidden to survive. | +2 DEX, 2d4 silver                               |
+|  15   | **Seaborn**: Born on a ship of travelling merchants.                                                          | +1 INT, survivalist (skill), +2d6 silver         |
+|  16   | **Feral Kid**: Raised by animals in the forest.                                                               | +1 STR, +1 DEX, animal affinity (skill)          |
+|  17   | **Blue Blood**: Born in a rich family that eventually lost everything.                                        | +1 INT, +1 PRE, +4d6 silver                      |
+|  18   | **Born of a dark prophecy**: No one knows where you came from, only that it's bad.                            | +1 of a chosen attribute prof, bad omens (trait) |
 
 ## 2. Roll your previous career
 What you did before coming to the **Blacksalt Isle**.
@@ -594,7 +599,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 
 ![](images/crafting.png "Adventurer hammering a nail"){.left}
 
-- **Animal Affinity:** You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals. You have a small pet that follows you around (**weak ally**).
+- **Animal Affinity:** You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals.
   - **Beastmaster:**(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
 - **Banish Undead**: Perform a **presence test**, on a success any undead **nearby** that can see you, level 4 or lower must spend one action moving at least 1 step away from you.
 - **Cooking:** Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
