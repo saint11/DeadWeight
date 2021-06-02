@@ -12,6 +12,7 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Auto dice roller on simple tables
 - [x] Character advancement
 - [x] Doom tracker during **interlude**
 - [x] Sample dungeon level 3 (final level)

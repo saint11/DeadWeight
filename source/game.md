@@ -55,7 +55,7 @@ If the **adventurers** are in a safe place, outside of a dungeon and with no imm
 |     9     | Hopeless                       |
 |    10     | Angry                          |
 |    11     | Wound (player choose location) |
-|    12     | Equipment breaks/lost          |
+|    12     | Equipment breaks/lost          | {.roll meta-dice=2}
 [Decay]
 
 If a character would receive an affliction that they already have keep adding 1 to the result, until a valid result have been reached. After the decay happens the players should also roll the usage dice for any torch, lanterns, etc.
@@ -79,7 +79,7 @@ The **omens tracker** is about the state of the party itself. The omens tracker 
 |   3   | The party must discard 2d4 units of water.                 |
 |   4   | The party must discard 2d4 rations.                        |
 |   5   | The party must discard 2d4 torches.                        |
-|   6   | The party must discard 2d4 magical item or magical scroll. |
+|   6   | The party must discard 2d4 magical item or magical scroll. | {.roll meta-dice=1}
 [Omens]
 
 <pagebreak>
@@ -504,7 +504,7 @@ Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the
 |   3   | Attacked by thugs in a dark alley, receive 3 wounds and pay 2d6 silver, as a group.         |
 |   4   | The sun didn't rise. Everyone takes **terrified** or **hopeless**.                          |
 |   5   | Overcrowded. All prices of rent and housing related items are doubled for 1d6 days.         |
-|   6   | Prosecution. Advance the **this settlement's doom** tracker.                                |
+|   6   | Prosecution. Advance the **this settlement's doom** tracker.                                |{.roll meta-dice=1}
 [Bad events]
 
 |  1d6  | Effect                                                                                          |
@@ -514,7 +514,7 @@ Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the
 |   3   | A naive investor. When selling items get 50% extra silver.                                      |
 |   4   | A calm day. Everyone removes **terrified**, **hopeless** or **Angry**.                          |
 |   5   | Empty streets. Housing prices are halved for today. Stops **Overcrowded** event.                |
-|   6   | Refreshing winds. Everyone removes **angry**, **shaken** or 1 **wound**.                        |
+|   6   | Refreshing winds. Everyone removes **angry**, **shaken** or 1 **wound**.                        |{.roll meta-dice=1}
 [Opportunities]
 
 
@@ -602,7 +602,7 @@ Sometimes the **adventurers** will advance the **doom tracker** while they are i
 |   4   | You may not use the inn.                                                                 |
 |   5   | You may only buy common items, all item prices are increased by 1 silver.                |
 |   6   | You may not buy items, go to the surgeon/witch doctor or get entertainment here anymore. |
-|   7   | The locals will start hunting you down. This is no longer a safe place.                  |
+|   7   | The locals will start hunting you down. This is no longer a safe place.                  | 
 
 ## Character Progression
 Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire traumas, curses and mortal enemies.

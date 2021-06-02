@@ -172,7 +172,7 @@ Your infancy will provide a base for your attributes and for your formation.
 |  15   | **Seaborn**: Born on a ship of travelling merchants.                                                          | +1 INT, survivalist (skill), +2d6 silver         |
 |  16   | **Feral Kid**: Raised by animals in the forest.                                                               | +1 STR, +1 DEX, animal affinity (skill)          |
 |  17   | **Blue Blood**: Born in a rich family that eventually lost everything.                                        | +1 INT, +1 PRE, +4d6 silver                      |
-|  18   | **Born of a dark prophecy**: No one knows where you came from, only that it's bad.                            | +1 of a chosen attribute prof, bad omens (trait) |
+|  18   | **Born of a dark prophecy**: No one knows where you came from, only that it's bad.                            | +1 of a chosen attribute prof, bad omens (trait) | {.roll meta-dice=3} |
 
 ## 2. Roll your previous career
 What you did before coming to the **Blacksalt Isle**.
@@ -189,7 +189,7 @@ What you did before coming to the **Blacksalt Isle**.
 |   9   | **Craftsman:** You hands know how to hammer an iron and how to sew leather without you even thinking. | +1 DEX, +1 DEX prof, crafting (skill)       |
 |  10   | **Cook:** While there is hungry people you will always have a job.                                    | +1 DEX, +1 INT prof, cook (skill)           |
 |  11   | **Occultist:** One that dares to touch the unknown, a magic user.                                     | +1 INT, +1 INT prof, occult studies (skill) |
-|  12   | **False Prophet:** It's hard not to believe in yourself when so many believe in what you say.         | +1 PRE, +1 PRE prof, holy rites (skill)     |
+|  12   | **False Prophet:** It's hard not to believe in yourself when so many believe in what you say.         | +1 PRE, +1 PRE prof, holy rites (skill)     | {.roll meta-dice=2} |
 
 <pagebreak class="simple">
 
@@ -208,7 +208,7 @@ No one chooses raid tombs and the unholy places you delve by choice. Tragedy is 
 |   9   | **Enslaved:** Taken by force and worked endlessly until the day you escaped.                                         | +1 STR prof, -1 DEX            |
 |  10   | **Lost everything in a disaster:** Whatever your family had, now lie in ashes.                                       | +1 STR prof, -1 PRE            |
 |  11   | **Lover's revenge:** Too many lovers and no honesty. One way or another, they made you regret it.                    | +1 PRE prof, -1 DEX            |
-|  12   | **Caged by a powerful wizard:** You witnessed both enlightenment and madness.                                        | +1 INT prof, -1 PRE            |
+|  12   | **Caged by a powerful wizard:** You witnessed both enlightenment and madness.                                        | +1 INT prof, -1 PRE            | {.roll meta-dice=2} |
 
 <pagebreak class="simple">
 
@@ -227,7 +227,7 @@ No one comes to the *Blacksalt Isle* unburdened. This is why you are here and wh
 |   9   | **Zealous Fury:** *Blacksalt* must be cleansed of any diabolical presence, no matter the cost.                      | An exorcism book, holy water                    |
 |  10   | **Amnesia:** You don't know how you got here, you just woke up here one day, now you are searching for the truth.   | A journal in an unknown language, healing tonic |
 |  11   | **An Heir:** Your family is waiting for you, you will come back for them. But first you need to score enough money. | A lock of hair, first aid kit                   |
-|  12   | **A Soul Sold:** You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.      | Living ashes                                    |
+|  12   | **A Soul Sold:** You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.      | Living ashes                                    | {.roll meta-dice=2} |
 
 ## 5. Choose your class
 
@@ -316,7 +316,7 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 - On a **critical failure** roll from the spell mishap table. Keep track of how many mishaps happened during this expedition. Add that number to the dice.
 - On a **great success** you tap into an arcane well. Your next spell will be an automatic success.
 
-| 2d6 + Previous mishaps | Effect                                                                                                 |
+| 3d6 + Previous mishaps | Effect                                                                                                 |
 | :--------------------: | :----------------------------------------------------------------------------------------------------- |
 |           3            | Take 1 fatigue point on **intelligence** and get the **Nauseated** affliction.                         |
 |           4            | A loud noise! Advance the doom tracker.                                                                |
@@ -333,7 +333,7 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 |           15           | Summon a *tormentor demon* **Close** to you.                                                           |
 |           16           | A third eye opens in your forehead, you are now with the **Cursed** affliction.                        |
 |           17           | You quickly teleport to the *void realm* and back, all your equipments and items stay there.           |
-|           18           | Summon a *endless horror* **Nearby**.                                                                  |
+|           18           | Summon a *endless horror* **Nearby**.                                                                  | {.roll meta-dice=3} |
 [ Spell Mishap]
 
 <pagebreak>
@@ -373,7 +373,7 @@ Casting a prayer is not guaranteed to always work, since the gods can be cruel s
 |   3   | **Unexhaust** all prayers.                                                                                                                    |
 |   4   | Cure the one of the following afflictions from you or someone **Nearby**: Hungry, Parched, Bleeding, Nauseated or Cursed.                     |
 |   5   | If you are in combat, all monsters try to flee in fear, if not decrease the doom tracker.                                                     |
-|   6   | If you are in combat all enemies take 1 wound, if not your group will start the next combat with one [shield token]{.tip} on each adventurer. |
+|   6   | If you are in combat all enemies take 1 wound, if not your group will start the next combat with one [shield token]{.tip} on each adventurer. | {.roll meta-dice=1} |
 [Miracles]
 
 Every cleric can choose prayers from the basic prayers and from the prayer list from their god. Check the [gods list](./blacksalt.html#gods) for the prayers of each specific god.
@@ -573,7 +573,7 @@ When mortally wounded a character is unable to move or perform any actions. The 
 |   4   | You bleed internally. Get the **brain damage** trauma.                                            |
 |   5   | You see the other side. Get the **visions** trauma.                                               |
 |   6   | On the verge of death! If not stabilized in 1 combat turn, you are dead. No lasting consequences. |
-|  7+   | You are are **dead**.                                                                             |
+|  7+   | You are are **dead**.                                                                             | {.roll meta-dice=1}
 
 <pagebreak>
 

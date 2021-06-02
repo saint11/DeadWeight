@@ -2,13 +2,11 @@
 html {
     overflow-y: hidden;
     overflow-x: hidden;
-
     height: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     scroll-behavior: smooth;
 }
-
 
 .folder {
     display: inline-block;
@@ -44,6 +42,58 @@ img.big {
         display: table;
         width: 100%;
     }
+}
+
+.dicebox {
+    border: var(--main-dark-color) 2px solid;
+    border-radius: 8px;
+    padding: 0px 15px;
+    display: inline-block;
+    margin: 3px;
+    height: 2.4em;
+    display: inline-block;
+}
+
+.dicebox-result {
+    display: inline;
+    font-size: 1.8em;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 5px 15px;
+    color: var(--main-selected-color);
+    border: 0;
+    font-size: 17px;
+    background-color: var(--main-grey-color);
+    border: var(--main-dark-color) 2px solid;
+    border-bottom: 10px solid var(--main-dark-color);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 8px;
+    display: inline-block;
+    font-weight: bold;
+    user-select: none;
+    height: 1.2em;
+    margin: 3px;
+}
+
+.btn:hover {
+    color: var(--main-grey-color);
+    background-color: var(--main-dark-color);
+}
+
+.btn:active {
+    color: var(--main-dark-color);
+    background-color: var(--main-selected-color);
+}
+
+tr.selected strong {
+    color: var(--main-selected-color) !important;
+}
+tr.selected {
+    background-color: var(--main-dark-color) !important;
+    color: var(--main-selected-color) !important;
 }
 
 img.left {
@@ -143,24 +193,52 @@ h1 a:hover, h1 a:focus-visible, h2 a:hover, h2 a:focus-visible, h3 a:hover, h3 a
     border-radius: 50%;
 }
 
-.shake{
-  animation: shake 1.0s;
-  animation-iteration-count: infinite;
+.shake {
+    animation: shake 1.0s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(0px, -1px) rotate(-.3deg); }
-    15% { transform: translate(-1px, -1px) rotate(-.3deg); }
-    20% { transform: translate(-1px, 0px) rotate(.3deg); }
-    30% { transform: translate(0px, 1px) rotate(0deg); }
-    40% { transform: translate(0px, 1px) rotate(0deg); }
-    50% { transform: translate(-1px, 1px) rotate(-.3deg); }
-    55% { transform: translate(0px, 1px) rotate(-.3deg); }
-    60% { transform: translate(-1px, 0px) rotate(0deg); }
-    60% { transform: translate(-1px, 1px) rotate(0deg); }
-    70% { transform: translate(1px, 1px) rotate(-.3deg); }
-    80% { transform: translate(0px, -1px) rotate(.3deg); }
-    90% { transform: translate(0px, -1px) rotate(.3deg); }
-    100% { transform: translate(1px, 0px) rotate(-.3deg); }
-  }
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(0px, -1px) rotate(-.3deg);
+    }
+    15% {
+        transform: translate(-1px, -1px) rotate(-.3deg);
+    }
+    20% {
+        transform: translate(-1px, 0px) rotate(.3deg);
+    }
+    30% {
+        transform: translate(0px, 1px) rotate(0deg);
+    }
+    40% {
+        transform: translate(0px, 1px) rotate(0deg);
+    }
+    50% {
+        transform: translate(-1px, 1px) rotate(-.3deg);
+    }
+    55% {
+        transform: translate(0px, 1px) rotate(-.3deg);
+    }
+    60% {
+        transform: translate(-1px, 0px) rotate(0deg);
+    }
+    60% {
+        transform: translate(-1px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(1px, 1px) rotate(-.3deg);
+    }
+    80% {
+        transform: translate(0px, -1px) rotate(.3deg);
+    }
+    90% {
+        transform: translate(0px, -1px) rotate(.3deg);
+    }
+    100% {
+        transform: translate(1px, 0px) rotate(-.3deg);
+    }
+}
