@@ -79,8 +79,9 @@ The **omens tracker** is about the state of the party itself. The omens tracker 
 |   3   | The party must discard 2d4 units of water.                 |
 |   4   | The party must discard 2d4 rations.                        |
 |   5   | The party must discard 2d4 torches.                        |
-|   6   | The party must discard 2d4 magical item or magical scroll. | {.roll meta-dice=1}
+|   6   | The party must discard 2d4 magical item or magical scroll. |
 [Omens]
+{.roll meta-dice=1}
 
 <pagebreak>
 
@@ -504,8 +505,9 @@ Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the
 |   3   | Attacked by thugs in a dark alley, receive 3 wounds and pay 2d6 silver, as a group.         |
 |   4   | The sun didn't rise. Everyone takes **terrified** or **hopeless**.                          |
 |   5   | Overcrowded. All prices of rent and housing related items are doubled for 1d6 days.         |
-|   6   | Prosecution. Advance the **this settlement's doom** tracker.                                |{.roll meta-dice=1}
+|   6   | Prosecution. Advance the **this settlement's doom** tracker.                                |
 [Bad events]
+{.roll meta-dice=1}
 
 |  1d6  | Effect                                                                                          |
 | :---: | :---------------------------------------------------------------------------------------------- |
@@ -514,8 +516,9 @@ Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the
 |   3   | A naive investor. When selling items get 50% extra silver.                                      |
 |   4   | A calm day. Everyone removes **terrified**, **hopeless** or **Angry**.                          |
 |   5   | Empty streets. Housing prices are halved for today. Stops **Overcrowded** event.                |
-|   6   | Refreshing winds. Everyone removes **angry**, **shaken** or 1 **wound**.                        |{.roll meta-dice=1}
+|   6   | Refreshing winds. Everyone removes **angry**, **shaken** or 1 **wound**.                        |
 [Opportunities]
+{.roll meta-dice=1}
 
 
 ### 3. Hunger Bites

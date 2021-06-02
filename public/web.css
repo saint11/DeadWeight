@@ -44,18 +44,24 @@ img.big {
     }
 }
 
+.dicebox .dice{
+    top: -0.4em;
+}
+
 .dicebox {
     border: var(--main-dark-color) 2px solid;
     border-radius: 8px;
     padding: 0px 15px;
     display: inline-block;
     margin: 3px;
-    height: 2.4em;
+    height: 2em;
     display: inline-block;
 }
 
 .dicebox-result {
     display: inline;
+    top: -0.2em;
+    position: relative;
     font-size: 1.8em;
 }
 

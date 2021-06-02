@@ -15,7 +15,11 @@ header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
 
-[This section of the book is still a work in progress, lots more content will come soon!]{.alert}
+This section of the book is still a work in progress, lots more content will come soon!{.alert}
+
+This book is about the setting of **Dead Weight**,  **Blacksalt Island**. It's also possible to play **Dead Weight** using other settings if you want, but the rules are not generic, and will work better on dark settings with underpowered and desperate characters.
+
+This book is also full of reference tables including equipment, class backgrounds and more. Ideally the players should have easy access to this.
 
 # Equipment {.wide}
 ![](images/weapons.png "Weapons"){.left}
@@ -351,16 +355,29 @@ Not much is known of them and their worship is strictly forbidden in most cultur
 ### Ngaazh'theg
 **The eye of the sea**.
 
-# History {.draft}
+# History
+
+**Blacksalt** is an ancient island, found more than a thousand years ago by several lost sea travellers. The island apparently had risen from the ocean floor by some volcanic activity and was covered in a tick layer of black salt and algae. Ancient traces of an underwater civilization were found there, intriguing the people from the main continent, but it was the island's rich mineral resources and fertile land that paved the way for a fast colonization.
+
+The island was lawless, and many different groups started settling there. Castles and strongholds were built and conflict between the different settlements began as soon as they would meet. The conflict proved extremely expensive to everyone involved and the **Treaty of Yoros** was created. Dividing Blacksalt between different **kingdoms** that would stay in their territory.
+
+This fleeting peace allowed a big infrastructure to be built and trade routes to be created.
+
+Then suddenly the first antediluvian catacomb was found, changing everything. Down in those caves the kings and queens would cohort with ancient beings giving them extraordinary powers, and they didn't want to share. Aided by the ancient beings magic the war between settlements raged on, devastating the land, creating famine, supernatural plagues and eventually the [dead vigil]{.tip}. No one knows who or what caused it, but suddenly the dead started to come back to life, attacking the living. And in the current state of the island the dead were by far a majority.
+
+Not much was left of the old kingdoms, only small fortified settlements, castles haunted by the undead and isolated hamlets. This caused **Blacksalt** to be pretty much abandoned and forgotten.
+
+Centuries later the hordes of the undead to have dispersed, and most of the tales of Blacksalt kingdoms forgotten. Pirates re-discovered the island and started trading with the few that were still living there. The artifacts they found there put **Blacksalt** back on the map, and the whole world started sending expeditions to find and bring back those. This "gold rush" was intense and fast, several settlements where rebuild in a few months, most notably **Yoros** the biggest port-city of **Blacksalt**.
 
 # Geography {.draft}
 
 ## Blacksalt
 
+
 ### Yoros
 A major city in **Blacksalt**. Famous for it's high quality wine.
 
-## Other Places
+## Other Places {.draft}
 
 ### Golden Ridge
 

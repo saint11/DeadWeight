@@ -14,7 +14,7 @@ links:  Core Rules*|index, Playing the Game|game, Bestiary, Blacksalt, Quick Ref
 header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
-version 0.4
+version 0.5 💀
 
 ![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake}
 
@@ -172,24 +172,32 @@ Your infancy will provide a base for your attributes and for your formation.
 |  15   | **Seaborn**: Born on a ship of travelling merchants.                                                          | +1 INT, survivalist (skill), +2d6 silver         |
 |  16   | **Feral Kid**: Raised by animals in the forest.                                                               | +1 STR, +1 DEX, animal affinity (skill)          |
 |  17   | **Blue Blood**: Born in a rich family that eventually lost everything.                                        | +1 INT, +1 PRE, +4d6 silver                      |
-|  18   | **Born of a dark prophecy**: No one knows where you came from, only that it's bad.                            | +1 of a chosen attribute prof, bad omens (trait) | {.roll meta-dice=3} |
+|  18   | **Born of a dark prophecy**: No one knows where you came from, only that it's bad.                            | +1 of a chosen attribute prof, bad omens (trait) |
+{.roll meta-dice=3}
 
 ## 2. Roll your previous career
 What you did before coming to the **Blacksalt Isle**.
 
-|  2d6  | Career                                                                                                | Effect                                      |
-| :---: | :---------------------------------------------------------------------------------------------------- | :------------------------------------------ |
-|   2   | **Deserter Knight:** To die for honor was never something you aspired to.                             | +1 STR, +1 STR prof, duelist (skill)        |
-|   3   | **Squire:** They said one day you will a a knight. You believed that.                                 | +1 STR, +1 PRE, shield master (skill)       |
-|   4   | **Physician:** Not many people knows how to actually heal someone, you do.                            | +1 INT, +1 DEX, surgeon(skill),             |
-|   5   | **Temple worker:** You worked hard in the temples, body and mind.                                     | +1 INT, +1 STR, holy rites (skill)          |
-|   6   | **Charlatan:** Outsmarting and taking advantage was your specialty.                                   | +1 INT, +1 PRE, 3d6 silver                  |
-|   7   | **Brigand:** Joined a gang that robs people on the mountains and forests.                             | +1 DEX, +1 STR, intimidate (skill)          |
-|   8   | **Common Thief:** Stealing, lying and hiding.                                                         | +1 PRE, +1 DEX, pilfer (skill)              |
-|   9   | **Craftsman:** You hands know how to hammer an iron and how to sew leather without you even thinking. | +1 DEX, +1 DEX prof, crafting (skill)       |
-|  10   | **Cook:** While there is hungry people you will always have a job.                                    | +1 DEX, +1 INT prof, cook (skill)           |
-|  11   | **Occultist:** One that dares to touch the unknown, a magic user.                                     | +1 INT, +1 INT prof, occult studies (skill) |
-|  12   | **False Prophet:** It's hard not to believe in yourself when so many believe in what you say.         | +1 PRE, +1 PRE prof, holy rites (skill)     | {.roll meta-dice=2} |
+|  2d6  | Career                                                                                                    | Effect                                      |
+| :---: | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------ |
+|   2   | **Deserter Knight**: To die for honor was never something you aspired to.                                 | +1 STR, +1 STR prof, duelist (skill)        |
+|   3   | **Squire**: They said one day you will a a knight. You believed that.                                     | +1 STR, +1 PRE, shield master (skill)       |
+|   4   | **Physician**: Not many people knows how to actually heal someone, you do.                                | +1 INT, +1 DEX, surgeon(skill),             |
+|   8   | **Traveling Salesperson**: Convincing people that they need something they didn't was your full time job. | +1 INT, +1 PRE prof, haggle (skill)         |
+|   5   | **Temple worker**: You worked hard in the temples, body and mind.                                         | +1 INT, +1 STR, holy rites (skill)          |
+|   8   |                                                                                                           | +1 PRE, +1 STR prof                         |
+|   8   |                                                                                                           | +1 STR, +1 DEX                              |
+|   6   | **Charlatan**: Outsmarting and taking advantage was your specialty.                                       | +1 INT, +1 PRE, 3d6 silver                  |
+|   7   | **Brigand**: Joined a gang that robs people on the mountains and forests.                                 | +1 DEX, +1 STR, intimidate (skill)          |
+|   8   | **Common Thief**: Stealing, lying and hiding.                                                             | +1 PRE, +1 DEX, pilfer (skill)              |
+|   8   |                                                                                                           | +1 STR, +1 PRE                              |
+|   8   |                                                                                                           | +1 DEX, +1 PRE prof                         |
+|   9   | **Craftsman**: You hands know how to hammer an iron and how to sew leather without you even thinking.     | +1 DEX, +1 DEX prof, crafting (skill)       |
+|   8   | **Builder**: Building is all about meticulous planing and heavy lifting. You had to do both.              | +1 STR, +1 INT prof                         |
+|  10   | **Cook**: While there is hungry people you will always have a job.                                        | +1 DEX, +1 INT prof, cooking (skill)        |
+|  11   | **Occultist**: One that dares to touch the unknown, a magic user.                                         | +1 INT, +1 INT prof, occult studies (skill) |
+|  12   | **False Prophet**: It's hard not to believe in yourself when so many believe in what you say.             | +1 PRE, +1 PRE prof, holy rites (skill)     |
+{.roll meta-dice=2}
 
 <pagebreak class="simple">
 
@@ -208,7 +216,8 @@ No one chooses raid tombs and the unholy places you delve by choice. Tragedy is 
 |   9   | **Enslaved:** Taken by force and worked endlessly until the day you escaped.                                         | +1 STR prof, -1 DEX            |
 |  10   | **Lost everything in a disaster:** Whatever your family had, now lie in ashes.                                       | +1 STR prof, -1 PRE            |
 |  11   | **Lover's revenge:** Too many lovers and no honesty. One way or another, they made you regret it.                    | +1 PRE prof, -1 DEX            |
-|  12   | **Caged by a powerful wizard:** You witnessed both enlightenment and madness.                                        | +1 INT prof, -1 PRE            | {.roll meta-dice=2} |
+|  12   | **Caged by a powerful wizard:** You witnessed both enlightenment and madness.                                        | +1 INT prof, -1 PRE            |
+{.roll meta-dice=2}
 
 <pagebreak class="simple">
 
@@ -227,9 +236,37 @@ No one comes to the *Blacksalt Isle* unburdened. This is why you are here and wh
 |   9   | **Zealous Fury:** *Blacksalt* must be cleansed of any diabolical presence, no matter the cost.                      | An exorcism book, holy water                    |
 |  10   | **Amnesia:** You don't know how you got here, you just woke up here one day, now you are searching for the truth.   | A journal in an unknown language, healing tonic |
 |  11   | **An Heir:** Your family is waiting for you, you will come back for them. But first you need to score enough money. | A lock of hair, first aid kit                   |
-|  12   | **A Soul Sold:** You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.      | Living ashes                                    | {.roll meta-dice=2} |
+|  12   | **A Soul Sold:** You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.      | Living ashes                                    |
+{.roll meta-dice=2}
 
-## 5. Choose your class
+## 5. Roll your features
+
+These are some characteristics that your character have. Besides the advantages and disadvantages that these characteristics will give you, this will help you to roleplay and imagine how your character acts and looks like. These are not the only features of you character, you are encouraged to create more.
+
+You may write this down in the notes section of your character sheet.
+
+|  3d6  | Quirk                                                                                                                                     |
+| :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   3   | Wears unusual glasses (valuable{.tip}). Can't see properly without them.                                                                                     |
+|   4   | Is taller than most people.                                                                                                                                  |
+|   5   | Is always picking their teeth.                                                                                                                               |
+|   6   | Left handed.                                                                                                                                                 |
+|   7   | Irritable, when prompted must always choose the **angry** affliction.                                                                                        |
+|   8   | Has absolutely no sense of humor, and is confused by jokes.                                                                                                  |
+|   9   | Is constantly scratching themselves.                                                                                                                         |
+|  10   | Horrible sense of direction, if left alone **will get lost**.                                                                                                |
+|  11   | Coffee addict. Only recovers **sleepy** with coffee.                                                                                                         |
+|  12   | Loud snore. Add 1 extra ambush dice when sleeping in camp phase or do not recover **sleepy**.                                                                |
+|  13   | Extremely patient. When would get **angry** roll 2d!, if triggered, do not get **angry**.                                                                    |
+|  14   | Bad leg. Limps a bit when distracted, but with no real downside.                                                                                             |
+|  15   | Martyr. Always volunteer for taking risks for the team.                                                                                                      |
+|  16   | Has a huge scar on their face. Get [advantage]{.tip} when intimidating.                                                                                      |
+|  17   | Has a really long hair.                                                                                                                                      |
+|  18   | Deep and murky past. Once during a **camp phase** you may unveil your true past. Reroll your **infancy** an apply the new result instead of the current one. |
+{.roll meta-dice=3}
+
+
+## 6. Choose your class
 
 Classes will give special skills to your character. Choose one and follow the instructions for each class. After that your character is done!
 
@@ -573,7 +610,7 @@ When mortally wounded a character is unable to move or perform any actions. The 
 |   4   | You bleed internally. Get the **brain damage** trauma.                                            |
 |   5   | You see the other side. Get the **visions** trauma.                                               |
 |   6   | On the verge of death! If not stabilized in 1 combat turn, you are dead. No lasting consequences. |
-|  7+   | You are are **dead**.                                                                             | {.roll meta-dice=1}
+|  7+   | You are are **dead**.                                                                             | {.roll meta-dice=1} |
 
 <pagebreak>
 
@@ -599,28 +636,30 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 
 ![](images/crafting.png "Adventurer hammering a nail"){.left}
 
-- **Animal Affinity:** You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals.
-  - **Beastmaster:**(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
+- **Animal Affinity**: You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals.
+  - **Beastmaster**:(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
 - **Banish Undead**: Perform a **presence test**, on a success any undead **nearby** that can see you, level 4 or lower must spend one action moving at least 1 step away from you.
-- **Cooking:** Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
-  - **Master Chef:**(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
-- **Crafting:**  You have [advantage]{.tip} when testing for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
-- **Duelist:** You may perform a **feint** action in combat (1 action). Discard all [shield]{.tip #shield_token} and [dodge tokens]{.tip} from your enemy.
-  - **Swashbuckler:**(advanced) If your feint removes a [shield token]{.tip}, your opponent may not attack next turn.
-- **Fearless:** Once per combat you may heal one **presence** wound.
-- **Holy Rites:** You have an extensive knowledge about the new gods, prayers and the saints. You may make holy water using clean water and 1 exploration turn.
-- **Infiltration:** Allows the **search for traps** action during expeditions and an [advantage]{.tip} when sneaking.
-- **Intimidate:** You may perform an **intimidate** action in combat (2 actions), attacking with **PRE 1N** all **nearby** enemies. Only one intimidate action can be used per combat.
-- **Loremaster:** You have an extensive knowledge about the world history, languages and different cultures.
-- **Pilfer:** You earn 1d6 silver coins at the start of the **interlude**.
-- **Occult Studies:** You have an extensive knowledge about old gods, magic and the occult.
+- **Cooking**: Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
+  - **Master Chef**:(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
+- **Crafting**:  You have [advantage]{.tip} when testing for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
+- **Duelist**: You may perform a **feint** action in combat (1 action). Discard all [shield]{.tip #shield_token} and [dodge tokens]{.tip} from your enemy.
+  - **Swashbuckler**:(advanced) If your feint removes a [shield token]{.tip}, your opponent may not attack next turn.
+- **Fearless**: Once per combat you may heal one **presence** wound.
+- **Haggle**: During the **interlude** you can re-roll the price of an item once. You must use the new result.
+  - **Trade network**: During the **interlude** you can re-roll the price of an item once. You must choose to use the new or old result. You may also reroll the item **availablilty** roll once.
+- **Holy Rites**: You have an extensive knowledge about the new gods, prayers and the saints. You may make holy water using clean water and 1 exploration turn.
+- **Infiltration**: Allows the **search for traps** action during expeditions and an [advantage]{.tip} when sneaking.
+- **Intimidate**: You may perform an **intimidate** action in combat (2 actions), attacking with **PRE 1N** all **nearby** enemies. Only one intimidate action can be used per combat.
+- **Loremaster**: You have an extensive knowledge about the world history, languages and different cultures.
+- **Pilfer**: You earn 1d6 silver coins at the start of the **interlude**.
+- **Occult Studies**: You have an extensive knowledge about old gods, magic and the occult.
 - **Ritualist**: During **camp** you can spend 1 action to remove one point the **omens tracker** or **doom tracker**.
-- **Shield Expert:** Add 1 extra [shield token]{.tip} when defending.
-  - **Shield Master:** (advanced) Add 1 extra [shield token]{.tip} when defending. Moving does not remove shield tokens.
-- **Stalker:** Before combat, if undetected by an enemy you have a free critical hit.
+- **Shield Expert**: Add 1 extra [shield token]{.tip} when defending.
+  - **Shield Master**: (advanced) Add 1 extra [shield token]{.tip} when defending. Moving does not remove shield tokens.
+- **Stalker**: Before combat, if undetected by an enemy you have a free critical hit.
 - **Street Wise**: You do not get robbed in the **interlude** and you have one extra daily action. You may reduce the price of **common** items by 1 silver (to a minimum of 1).
-- **Surgeon:** During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.
-- **Survivalist:** 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
+- **Surgeon**: During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.
+- **Survivalist**: 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
 - **Slippery**: You may spend dodge tokens during the enemy turn to move one tile.
 - **Veteran**: (1 explorer action) Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
 
