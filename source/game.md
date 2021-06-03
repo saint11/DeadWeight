@@ -498,6 +498,7 @@ Every day in Blacksalt is unpredictable, as a group roll a 1d6, on a look at the
 | 4 - 5 | Nothing interesting happens today.     |
 |   6   | Roll from the **opportunities** table. |
 [Blacksalt events]
+{.roll meta-dice=1 meta-values="1,2,3|4,5|6"}
 
 |  1d6  | Effect                                                                                      |
 | :---: | :------------------------------------------------------------------------------------------ |
@@ -545,6 +546,7 @@ Sometimes the streets are the only choice.
 | 9-10  | Restore one fatigue and remove **sleepy** or **shaken**.                       |
 | 11-12 | Restore all fatigue and remove **sleepy** and **shaken**.                      |
 [On the streets - size 4-5]
+{.roll meta-dice=2 meta-values="2,3|4,5|6|7|8|9,10|11,12"}
 
 |  2d6  | Effect                                                                          |
 | :---: | :------------------------------------------------------------------------------ |
@@ -556,6 +558,8 @@ Sometimes the streets are the only choice.
 | 9-10  | Restore one fatigue and remove **sleepy** or **shaken**.                        |
 | 11-12 | Restore all fatigue and remove **sleepy** and **shaken**.                       |
 [On the streets - size 1-3]
+{.roll meta-dice=2 meta-values="2,3|4,5|6|7|8|9,10|11,12"}
+
 
 
 #### Camp (require camping supplies)
@@ -569,6 +573,8 @@ Unlike camping on the dungeon, camping during the interlude will not always spen
 |   7   | Restore all fatigue and remove **sleepy** or **shaken**.             |
 | 8-10  | Restore all fatigue and remove **sleepy** and **shaken**.            |
 | 11-12 | Restore all fatigue and remove **sleepy**, **shaken** and **angry**. |
+[Camping]
+{.roll meta-dice=2 meta-values="2,3|4,5|6|7|8,9,10|11,12"}
 
 #### Inn (1 silver)
 Size 3 or more. Mostly safe and comfortable.
@@ -582,6 +588,7 @@ Size 3 or more. Mostly safe and comfortable.
 | 8-10  | Restore all fatigue and remove **sleepy**, **shaken** and **angry**.               |
 | 11-12 | Restore all fatigue, heal 1 wound and remove **sleepy**, **shaken** and **angry**. |
 [Inn]
+{.roll meta-dice=2 meta-values="2,3|4,5|6|7|8,9,10|11,12"}
 
 
 #### Proper accommodation (special)
@@ -594,6 +601,7 @@ Depending on the current story, your character might have a house in this settle
 |  8-9  | Restore all fatigue and remove **sleepy**, **shaken** and **angry**.               |
 | 10-12 | Restore all fatigue, heal 1 wound and remove **sleepy**, **shaken** and **angry**. |
 [Proper accommodation]
+{.roll meta-dice=2 meta-values="2,3,4,5|6,7|8,9|10,11,12"}
 
 ## Settlement Doom
 Sometimes the **adventurers** will advance the **doom tracker** while they are in the interlude, when that happens create or advance a **doom tracker** for that specific settlement. Different settlements can have different trackers, but bellow there's a default tracker for most settlements. Note that all effects are **cumulative**.

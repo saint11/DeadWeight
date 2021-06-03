@@ -180,19 +180,18 @@ What you did before coming to the **Blacksalt Isle**.
 
 |  3d6  | Career                                                                                                           | Effect                                      |
 | :---: | :--------------------------------------------------------------------------------------------------------------- | :------------------------------------------ |
-|   2   | **Deserter Knight**: To die for honor was never something you aspired to.                                        | +1 STR, +1 STR prof, duelist (skill)        |
-|   3   | **Squire**: They said one day you will a a knight. You believed that.                                            | +1 STR, +1 PRE, shield master (skill)       |
-|   4   | **Physician**: Not many people knows how to actually heal someone, you do.                                       | +1 INT, +1 DEX, surgeon(skill),             |
-|   5   | **Traveling Salesperson**: Convincing people that they need something they didn't was your full time job.        | +1 INT, +1 PRE prof, haggle (skill)         |
-|   6   | **Temple worker**: You worked hard in the temples, body and mind.                                                | +1 INT, +1 STR, holy rites (skill)          |
-|   7   | **Boatman**: Your boat was your home and your work. You lost count of how many people and wares you transported. | +1 PRE, +1 STR prof                         |
-|   8   | **Watchman**: Keeping the streets safe was your job, and it was impossible.                                      | +1 STR, +1 DEX                              |
-|   9   | **Charlatan**: Outsmarting and taking advantage was your specialty.                                              | +1 INT, +1 PRE, 3d6 silver                  |
-|  10   | **Brigand**: Joined a gang that robs people on the mountains and forests.                                        | +1 DEX, +1 STR, intimidate (skill)          |
-|  11   | **Common Thief**: Stealing, lying and hiding.                                                                    | +1 PRE, +1 DEX, pilfer (skill)              |
-|  12   | **Pugilist**: You gave your audience blood and entertainment.                                                    | +1 STR, +1 PRE                              |
-|  13   | **Beggar**: Living on the streets isn't impossible, if you know your way.                                        | +1 DEX, +1 PRE prof, streetwise (skill)     |
-|  14   | **Craftsman**: You hands know how to hammer an iron and how to sew leather without you even thinking.            | +1 DEX, +1 DEX prof, crafting (skill)       |
+|   3   | **Deserter Knight**: To die for honor was never something you aspired to.                                        | +1 STR, +1 STR prof, duelist (skill)        |
+|   4   | **Squire**: They said one day you will a a knight. You believed that.                                            | +1 STR, +1 PRE, shield master (skill)       |
+|   5   | **Physician**: Not many people knows how to actually heal someone, you do.                                       | +1 INT, +1 DEX, surgeon(skill),             |
+|   6   | **Traveling Salesperson**: Convincing people that they need something they didn't was your full time job.        | +1 INT, +1 PRE prof, haggle (skill)         |
+|   7   | **Temple worker**: You worked hard in the temples, body and mind.                                                | +1 INT, +1 STR, holy rites (skill)          |
+|   8   | **Boatman**: Your boat was your home and your work. You lost count of how many people and wares you transported. | +1 PRE, +1 STR prof                         |
+|   9   | **Watchman**: Keeping the streets safe was your job, and it was impossible.                                      | +1 STR, +1 DEX                              |
+|  10   | **Charlatan**: Outsmarting and taking advantage was your specialty.                                              | +1 INT, +1 PRE, 3d6 silver                  |
+|  11   | **Brigand**: Joined a gang that robs people on the mountains and forests.                                        | +1 DEX, +1 STR, intimidate (skill)          |
+|  12   | **Common Thief**: Stealing, lying and hiding.                                                                    | +1 PRE, +1 DEX, pilfer (skill)              |
+|  13   | **Pugilist**: You gave your audience blood and entertainment.                                                    | +1 STR, +1 PRE                              |
+|  14   | **Beggar**: Living on the streets isn't impossible, if you know your way.                                        | +1 DEX, +1 PRE prof, streetwise (skill)     |
 |  15   | **Builder**: Building is all about meticulous planing and heavy lifting. You had to do both.                     | +1 STR, +1 INT prof                         |
 |  16   | **Cook**: While there is hungry people you will always have a job.                                               | +1 DEX, +1 INT prof, cooking (skill)        |
 |  17   | **Occultist**: One that dares to touch the unknown, a magic user.                                                | +1 INT, +1 INT prof, occult studies (skill) |
@@ -610,7 +609,8 @@ When mortally wounded a character is unable to move or perform any actions. The 
 |   4   | You bleed internally. Get the **brain damage** trauma.                                            |
 |   5   | You see the other side. Get the **visions** trauma.                                               |
 |   6   | On the verge of death! If not stabilized in 1 combat turn, you are dead. No lasting consequences. |
-|  7+   | You are are **dead**.                                                                             | {.roll meta-dice=1} |
+|  7+   | You are are **dead**.                                                                             |
+{.roll meta-dice=1}
 
 <pagebreak>
 

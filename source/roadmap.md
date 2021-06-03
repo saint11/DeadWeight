@@ -36,7 +36,7 @@ Last update was <now>
 ## Working on now
 - [ ] Make all life paths roll 3d6 instead of 2d6
   - [x] infancy
-  - [ ] career
+  - [x] career
   - [ ] tragedy
   - [ ] burden
 - [ ] Island map
