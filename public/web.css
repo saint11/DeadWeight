@@ -85,13 +85,16 @@ img.big {
 }
 
 .btn:hover {
-    color: var(--main-grey-color);
-    background-color: var(--main-dark-color);
+    color: var(--main-dark-color);
+    background-color: var(--main-selected-color);
+    transition: border 0.1s ease;
 }
 
 .btn:active {
     color: var(--main-dark-color);
     background-color: var(--main-selected-color);
+    border-top: 10px solid var(--main-dark-color);
+    border-bottom: 2px solid var(--main-dark-color);
 }
 
 tr.selected strong {

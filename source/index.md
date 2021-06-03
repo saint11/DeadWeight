@@ -126,7 +126,9 @@ After that the adventure starts! It is recommended to start on the **expedition*
 
 Let's start by creating your character, don't worry too much about the rule system for now, just follow the steps from this chapter and choose what you think sounds more exciting. If you really want to know the rules before doing this, you can skip ahead and come back after you learned the rules.
 
-Every character starts their life with **1 insight point**. For now **insight points** can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight, later in the game insight will be used to level up your character. When you complete the last step of your character, you can "move" one **attribute score point** from one of your **highest scores** to another for each insight point you have left. When playing with a group, if your character has the same **life path** as another character in your party, you may, only once, roll again without spending insight.
+Every character starts their life with **1 insight point**. For now **insight points** can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight, later in the game insight will be used to level up your character. When playing with a group, if your character has the same **life path** as another character in your party, you may, only once, roll again without spending insight.
+
+When you complete the last step of your character, you can immediately spend any insight you have left, without even placing it in the character sheet. That is recommended, since you can only earn a limited amount of insight during the whole lifetime of your character. You can see how to spend insight in the [playing the game](./game.html#character-progression) book.
 
 Each step will add and remove **attribute points**, **equipment**, and other things to your character. Place them in the appropriate place in your character sheet. 
 
@@ -203,44 +205,51 @@ What you did before coming to the **Blacksalt Isle**.
 ## 3. Roll your tragedy
 No one chooses raid tombs and the unholy places you delve by choice. Tragedy is what forced you into the horrible path of a tomb raider.
 
-|  2d6  | Tragedy                                                                                                              | Effect                  &nbsp; |
-| :---: | :------------------------------------------------------------------------------------------------------------------- | :----------------------------- |
-|   2   | **Forced to work on a circus:** The things you've seen behind the curtains changed you forever.                      | +1 DEX prof, -1 INT            |
-|   3   | **Afflicted by the plague:** You had to resort to treatment many would consider... unnatural.                        | +1 INT prof, -1 STR            |
-|   4   | **A murderous impulse:** Something was wrong with you, but you are better now. Unlike yor victims.                   | +1 DEX prof, -1 PRE            |
-|   5   | **In debt with a loan shark:** You got the money that you needed, but it costed more than you expected.              | +1 PRE prof, -1 STR            |
-|   6   | **Lost to the night pleasures:** One party blended into the next, until the day came and your young years were gone. | +1 PRE prof, -1 INT            |
-|   7   | **Enlisted in a war:** Fought in the losing side of a glorious war.                                                  | +1 STR prof, -1 INT            |
-|   8   | **Went to jail:** By reasons just or unjust, you ended up locked away.                                               | +1 DEX prof, -1 STR            |
-|   9   | **Enslaved:** Taken by force and worked endlessly until the day you escaped.                                         | +1 STR prof, -1 DEX            |
-|  10   | **Lost everything in a disaster:** Whatever your family had, now lie in ashes.                                       | +1 STR prof, -1 PRE            |
-|  11   | **Lover's revenge:** Too many lovers and no honesty. One way or another, they made you regret it.                    | +1 PRE prof, -1 DEX            |
-|  12   | **Caged by a powerful wizard:** You witnessed both enlightenment and madness.                                        | +1 INT prof, -1 PRE            |
-{.roll meta-dice=2}
+|  3d6  | Tragedy                                                                                                     | Effect                  &nbsp;                              |
+| :---: | :---------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------- |
+|   3   | **Forced to work on a circus:** The things you've seen behind the curtains changed you forever.             | +1 DEX prof, -1 INT                                         |
+|   4   | **Afflicted by the plague:** You had to resort to treatment many would consider... unnatural.               | +1 INT prof, -1 STR                                         |
+|   5   | **A murderous impulse:** Something was wrong with you, but you are better now. Unlike yor victims.          | +1 DEX prof, -1 PRE                                         |
+|   6   | **Pointless meditation**: Instead of finding enlightenment you lost time and all your money.                | -1 of any attribute score                                   |
+|   7   | **In debt with a loan shark:** You got the money that you needed, but it costed more than you expected.     | +1 PRE prof, -1 STR                                         |
+|   8   | **Nothing else to lose**:                                                                                   | +1 STR prof, +1 PRE, -2 INT                                 |
+|   9   | **Haunted by visions**: There's no silence, no rest, they are always there.                                 | +1 prof of **lowest** attribute score, -1 PRE               |
+|  10   | **Lost to the night pleasures:** One party blended into the next, until one day your young years were gone. | +1 PRE prof, -1 INT                                         |
+|  11   | **Enlisted in a war:** Fought in the losing side of a glorious war.                                         | +1 STR prof, -1 INT                                         |
+|  12   | **Went to jail:** By reasons just or unjust, you ended up locked away.                                      | +1 DEX prof, -1 STR                                         |
+|  13   | **Enslaved:** Taken by force and worked endlessly until the day you escaped.                                | +1 STR prof, -1 DEX                                         |
+|  14   | **Betrayed by the ones you loved**: Never again.                                                            | +1 prof of any attribute, -2 PRE                            |
+|  15   | **Lost everything in a disaster:** Whatever your family had, now lie in ashes.                              | +1 STR prof, -1 PRE                                         |
+|  16   | **A mid life crisis**: There still time to change, right? There must be.                                    | +1 prof of any attribute, -1 of **highest** attribute score |
+|  17   | **Lover's revenge:** You had too many lovers and no honesty. One way or another, they made you regret it.   | +1 PRE prof, -1 DEX                                         |
+|  18   | **Caged by a powerful wizard:** You witnessed both enlightenment and madness.                               | +1 INT prof, -1 PRE                                         |
+{.roll meta-dice=3}
 
 <pagebreak class="simple">
 
 ## 4. Roll your burden
-No one comes to the *Blacksalt Isle* unburdened. This is why you are here and what do you expect to find. Use this to guide your character's long-term objectives.
+No one comes to the *Blacksalt Isle* unburdened. Your burden guides your character actions, usually causing problems and complications.
 
-|  2d6  | Burden                                                                                                              | Inventory                                       |
-| :---: | :------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------- |
-|   2   | **Lost everything and everyone:** When you have lost everything, *Blacksalt* can be a fresh start or a quick end.   | No starting gold                                |
-|   3   | **Plagued loved one:** Rumors of a panacea, a cure for all diseases, lies in *Blacksalt*.                           | A cursed ring of plague protection              |
-|   4   | **An unexplainable impulse:** Something calls you there, when you sleep you see yourself in *Blacksalt*.            | A golden lantern                                |
-|   5   | **Revenge:** You've been terribly wronged. You will never forgive and never forget.                                 | A list of names, wine                           |
-|   6   | **Fame and riches:** You are destined to great things, at least that's what you believe.                            | cape with your coat of arms(+1 [AP]{.tip})      |
-|   7   | **An impossible quest:** Your lord sent you on a quest to find something in *Blacksalt*, you have no chance.        | compass and drawing tools                       |
-|   8   | **Redemption:** You can no longer live with the things you've done, maybe you can redeem yourself in *Blacksalt*.   | Small pouch, ashes of insight                   |
-|   9   | **Zealous Fury:** *Blacksalt* must be cleansed of any diabolical presence, no matter the cost.                      | An exorcism book, holy water                    |
-|  10   | **Amnesia:** You don't know how you got here, you just woke up here one day, now you are searching for the truth.   | A journal in an unknown language, healing tonic |
-|  11   | **An Heir:** Your family is waiting for you, you will come back for them. But first you need to score enough money. | A lock of hair, first aid kit                   |
-|  12   | **A Soul Sold:** You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.      | Living ashes                                    |
+Once per session you may use your burden to make your character's life harder. Taking a decision that will impact you negatively or when making a test at a crucial point, you can choose to make that test with disadvantage and no proficiency, explaining why your burden made it harder for you, if you do any of these you earn an **insight point**. Read more about insight in the [character progression](./game.html#character-progression) chapter in the [playing the game](./game.html) book.
+
+|  2d6  | Burden                                                                                                            |
+| :---: | :---------------------------------------------------------------------------------------------------------------- |
+|   2   | **Naive dreams of glory**: The world needs a hero. Since no-one ever volunteers, you often do.                    |
+|   3   | **Fear of loss**: You already lost enough and will do what to need stay to keep the few things you have.          |
+|   4   | **Reckless**: *Blacksalt* can be a fresh start or a quick end.                                                    |
+|   5   | **Martyr**: Always volunteer for taking risks for the other.                                                      |
+|   6   | **Fame and riches**: You want out of this life, you want a better life. You need it.                              |
+|   7   | **Restless**: Never wants to stop, always wants to press on.                                                      |
+|   8   | **Redemption:** You can no longer live with the things you've done, maybe you can redeem yourself in *Blacksalt*. |
+|   9   | **Zealous Fury:** *Blacksalt* must be cleansed of any diabolical presence, no matter the cost.                    |
+|  10   | **Amnesia:** You don't know how you got here, you just woke up here one day, you are often confused.              |
+|  11   | **An Heir:** Your family is waiting for you, you will come back for them, they are counting on you.               |
+|  12   | **A Soul Sold:** You are going to hell, and you know it.                                                          |
 {.roll meta-dice=2}
 
 ## 5. Roll your features
 
-These are some characteristics that your character have. Besides the advantages and disadvantages that these characteristics will give you, this will help you to roleplay and imagine how your character acts and looks like. These are not the only features of you character, you are encouraged to create more.
+This is a strong characteristic that your character have. Besides the advantages and disadvantages that these characteristics will give you, this will help you to roleplay and imagine how your character acts and looks like. These are not the only features of you character, you are encouraged to create more.
 
 You may write this down in the notes section of your character sheet.
 
@@ -258,7 +267,7 @@ You may write this down in the notes section of your character sheet.
 |  12   | Loud snore. Add 1 extra ambush dice when sleeping in camp phase or do not recover **sleepy**.                                                                |
 |  13   | Extremely patient. When would get **angry** roll 2d!, if triggered, do not get **angry**.                                                                    |
 |  14   | Bad leg. Limps a bit when distracted, but with no real downside.                                                                                             |
-|  15   | Martyr. Always volunteer for taking risks for the team.                                                                                                      |
+|  15   | Ties hair or facial hair in an unusual way.                                                                                                                  |
 |  16   | Has a huge scar on their face. Get [advantage]{.tip} when intimidating.                                                                                      |
 |  17   | Has a really long hair.                                                                                                                                      |
 |  18   | Deep and murky past. Once during a **camp phase** you may unveil your true past. Reroll your **infancy** an apply the new result instead of the current one. |
@@ -528,12 +537,6 @@ If the player is already going for the **extra effort** rolling 1 and 4 will not
 
 Helping characters can also use the ***extra effort*** rule, rolling two dice instead of one, as long as they announce that before rolling.
 
-### Lessons Learned
-
-Every time a test fails the player can mark one of the circles below the attribute. When in the **interlude** that character can use those points to level up that attribute. Read more about it on the **interlude**.
-
-(This mechanic is not done yet, but it's in the roadmap.) {.alert}
-
 ### Zero Dice?
 
 If you for any reason need to roll zero dice, you roll 2 dice instead and keep the lowest number. Rolling less than zero dice is also possible, just keep adding dice, to roll -2 dice just roll 4 dice and choose the worst. I'm pretty sure that test will fail, though, sorry.
@@ -596,7 +599,7 @@ If no attribute that can hold any more **wounds**, meaning that all available di
 If the received wounds is reduced to zero or less by armor or other resistances, that character doesn't take any wounds.
 
 ## Mortal Wounds
-When a player character is **mortally wounded** the player must roll from the mortally wounded table. For every time during this expedition that the character have received a mortal wound before, add 1 to the dice result.
+When a player character is **mortally wounded** the player must roll from the mortally wounded table. For every time during this expedition that the character have received a mortal wound before, add 1 to the dice result. Other game effects can also add or subtract from that value.
 
 When mortally wounded a character is unable to move or perform any actions. The character must be stabilized with a **first aid kit**, **medical supply** or **healing spell** to wake up.
 
@@ -604,13 +607,14 @@ When mortally wounded a character is unable to move or perform any actions. The 
 | :---: | :------------------------------------------------------------------------------------------------ |
 |  0-   | Nothing but a scratch! You stand your ground and do not fall mortally wounded.                    |
 |   1   | Knocked out, but no lasting consequence.                                                          |
-|   3   | This injury won't heal how it should. Get the **chronic pain**.                                   |
-|   2   | Choose a trauma you don't currently have.                                                         |
+|   2   | This injury won't heal how it should. Get the **chronic pain**.                                   |
+|   3   | Choose a trauma you don't currently have.                                                         |
 |   4   | You bleed internally. Get the **brain damage** trauma.                                            |
 |   5   | You see the other side. Get the **visions** trauma.                                               |
 |   6   | On the verge of death! If not stabilized in 1 combat turn, you are dead. No lasting consequences. |
 |  7+   | You are are **dead**.                                                                             |
-{.roll meta-dice=1}
+[Mortal wounds]
+{.roll meta-dice=1 meta-values="0|1|2|3|4|5|6|7"}
 
 <pagebreak>
 
@@ -706,22 +710,23 @@ Receiving the same trauma again has no  effect.
 Each one of the **afflictions** have their own set of rules on how they affect the character and how they are removed.
 If an **adventurer** would receive an affliction he or she already have, ignore it.
 
-| Afflictions | Getting rid of *                                                    | Effect                                                                DD |
-| ----------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Hungry      | Eating food.                                                        | Wounds do not heal.                                                      |
-| Parched     | Drinking water.                                                     | Cannot recover fatigue.                                                  |
-| Bleeding    | Use bandages or other form of first aid.                            | Receive one fatigue point every turn.                                    |
-| Sleepy      | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                     |
-| Angry       | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                                |
-| Shaken      | Resting in the camp phase.                                          | Can't use the **Catch Breath** action in combat or during exploration.   |
-| Nauseated   | Some potions and tonics. Gets healed during the interlude.          | During combat you have one less action.                                  |
-| Terrified   | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.             |
-| Hopeless    | Escaping alive from the dungeon or survive a challenging fight.     | Rolling 5 or 6 also causes fatigue.                                      |
-| Cursed      | Only removed by magic or miracles.                                  | Wounds do not heal by resting. Can see ghosts.                           |
-| Plagued     | Only removed by magic or miracles.                                  | Coughs constantly. When receiving fatigue receive a wound instead.       |
-| Doomed      | Only removed by magic or miracles.                                  | When the doom tracker moves, it moves one extra point.                   |
+| Afflictions   | Getting rid of *                                                    | Effect                                                                 |
+| ------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Hungry**    | Eating food.                                                        | Wounds do not heal.                                                    |
+| **Parched**   | Drinking water.                                                     | Cannot recover fatigue.                                                |
+| **Bleeding**  | Use bandages or other form of first aid.                            | Receive one fatigue point every turn.                                  |
+| **Sleepy**    | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                   |
+| **Angry**     | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                              |
+| **Shaken**    | Resting in the camp phase.                                          | Can't use the **Catch Breath** action in combat or during exploration. |
+| **Nauseated** | Some potions and tonics. Gets healed during the interlude.          | During combat you have one less action.                                |
+| **Terrified** | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.           |
+| **Hopeless**  | Escaping alive from the dungeon or survive a challenging fight.     | Rolling 5 or 6 also causes fatigue.                                    |
+| **Cursed**    | Only removed by magic or miracles.                                  | Wounds do not heal by resting. Can see ghosts.                         |
+| **Plagued**   | Only removed by magic or miracles.                                  | Coughs constantly. When receiving fatigue receive a wound instead.     |
+| **Doomed**    | Only removed by magic or miracles.                                  | When the doom tracker moves, it moves one extra point.                 |
+[Afflictions]
 
-\* Not exclusive, always check item descriptions for more ways to remove afflictions.
+\* Not exclusive, always check item and spell descriptions for more ways to remove afflictions.
 
 ## Inventory
 Characters can carry 7 items + 3 items for each **strength score**. Items should be placed in your character sheet in the appropriate slots in the **Trappings** section. While carrying more items is possible the character will be **encumbered**, all movement is reduced by half and must perform a **strength test** every turn, failing means that something was dropped.
@@ -741,7 +746,7 @@ When items have a characteristic that makes them awkward or hard to carry, write
 
 Very small items, like chalk, keys or a dice do not occupy any slots, and should be written down in the *notes* section of the character sheet.
 
-Caracters may also carry items in their **torso** and **hands** slots.
+Characters may also carry items in their **torso** and **hands** slots.
 
 - The **torso** has 4 slots.
 - Each **hand** has 2 slots.

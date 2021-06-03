@@ -619,7 +619,9 @@ Sometimes the **adventurers** will advance the **doom tracker** while they are i
 ## Character Progression
 Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire traumas, curses and mortal enemies.
 
-During the expedition or character creation **adventurers** may receive **insight** points, during the interlude players may choose to spend those insight points for different things. When you receive an insight point mark it on your character sheet with a slash, when you spend it you can fill in the circle. Once all the 12 circles in your insight bar are filled your character cannot earn more insight and may be retired.
+During the expedition or character creation **adventurers** may receive **insight** points, the main way to ear **insight** is to take actions that impact your character negatively because of your burden.
+
+During the interlude players may choose to spend those insight points for different things. When you receive an insight point mark it on your character sheet with a slash, when you spend it you can fill in the circle. Once all the 12 circles in your insight bar are filled your character cannot earn more insight and may be retired.
 
 Retired characters contribute to **The Guild**, allowing players to start new characters with more bonuses and giving them a long term goal.
 

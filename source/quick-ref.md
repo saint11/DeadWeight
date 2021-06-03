@@ -19,22 +19,23 @@ This is a page that has a simplified version of the tables and lists most common
 
 # Afflictions
 
-| Afflictions | Getting rid of *                                                    | Effect                                                                DD |
-| ----------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Hungry      | Eating food.                                                        | Wounds do not heal.                                                      |
-| Parched     | Drinking water.                                                     | Cannot recover fatigue.                                                  |
-| Bleeding    | Use bandages or other form of first aid.                            | Receive one fatigue point every turn.                                    |
-| Sleepy      | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                     |
-| Angry       | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                                |
-| Shaken      | Resting in the camp phase.                                          | Can't use the **Catch Breath** action in combat or during exploration.   |
-| Nauseated   | Some potions and tonics. Gets healed during the interlude.          | During combat you have one less action.                                  |
-| Terrified   | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.             |
-| Hopeless    | Escaping alive from the dungeon or survive a challenging fight.     | Rolling 5 or 6 also causes fatigue.                                      |
-| Cursed      | Only removed by magic or miracles.                                  | Wounds do not heal by resting. Can see ghosts.                           |
-| Plagued     | Only removed by magic or miracles.                                  | Coughs constantly. When receiving fatigue receive a wound instead.       |
-| Doomed      | Only removed by magic or miracles.                                  | When the doom tracker moves, it moves one extra point.                   |
+| Afflictions   | Getting rid of *                                                    | Effect                                                                 |
+| ------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Hungry**    | Eating food.                                                        | Wounds do not heal.                                                    |
+| **Parched**   | Drinking water.                                                     | Cannot recover fatigue.                                                |
+| **Bleeding**  | Use bandages or other form of first aid.                            | Receive one fatigue point every turn.                                  |
+| **Sleepy**    | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                   |
+| **Angry**     | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                              |
+| **Shaken**    | Resting in the camp phase.                                          | Can't use the **Catch Breath** action in combat or during exploration. |
+| **Nauseated** | Some potions and tonics. Gets healed during the interlude.          | During combat you have one less action.                                |
+| **Terrified** | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.           |
+| **Hopeless**  | Escaping alive from the dungeon or survive a challenging fight.     | Rolling 5 or 6 also causes fatigue.                                    |
+| **Cursed**    | Only removed by magic or miracles.                                  | Wounds do not heal by resting. Can see ghosts.                         |
+| **Plagued**   | Only removed by magic or miracles.                                  | Coughs constantly. When receiving fatigue receive a wound instead.     |
+| **Doomed**    | Only removed by magic or miracles.                                  | When the doom tracker moves, it moves one extra point.                 |
 [Afflictions]
-\* Not exclusive, always check item descriptions for more ways to remove afflictions.
+
+\* Not exclusive, always check item and spell descriptions for more ways to remove afflictions.
 
 # Attack notation
 

@@ -12,6 +12,11 @@ print: false
 Last update was <now>
 
 ## Done Recently
+- [x] Rework and expand life paths
+  - [x] infancy
+  - [x] career
+  - [x] tragedy
+  - [x] burden
 - [x] Auto dice roller on simple tables
 - [x] Character advancement
 - [x] Doom tracker during **interlude**
@@ -34,11 +39,6 @@ Last update was <now>
 - [x] Gods and prayers
 
 ## Working on now
-- [ ] Make all life paths roll 3d6 instead of 2d6
-  - [x] infancy
-  - [x] career
-  - [ ] tragedy
-  - [ ] burden
 - [ ] Island map
   - [ ] Settlements
 
