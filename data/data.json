@@ -62,7 +62,7 @@
 					"id": "gremlin",
 					"Name": "Gremlin",
 					"Wounds": 2,
-					"Level": 2,
+					"Level": 1,
 					"Armor": 1,
 					"Resistance": 0,
 					"Special": [],
@@ -78,7 +78,7 @@
 				{
 					"id": "goblin_scrapper",
 					"Name": "Goblin Scrapper",
-					"Level": 2,
+					"Level": 1,
 					"Wounds": 3,
 					"Resistance": 0,
 					"Armor": 1,
@@ -99,7 +99,7 @@
 					"id": "goblin_hunter",
 					"Name": "Goblin Hunter",
 					"Tags": 9,
-					"Level": 3,
+					"Level": 2,
 					"Wounds": 3,
 					"Armor": 1,
 					"Resistance": 0,
@@ -122,7 +122,7 @@
 				{
 					"id": "boggart",
 					"Name": "Boggart",
-					"Level": 3,
+					"Level": 2,
 					"Wounds": 4,
 					"Resistance": 0,
 					"Armor": 2,
@@ -148,7 +148,7 @@
 					"id": "Boggart_Sniper",
 					"Name": "Boggart Sniper",
 					"Tags": 9,
-					"Level": 4,
+					"Level": 2,
 					"Wounds": 4,
 					"Armor": 2,
 					"Resistance": 0,
@@ -172,7 +172,7 @@
 				{
 					"id": "bloodshot_goblin",
 					"Name": "Bloodshot Goblin",
-					"Level": 4,
+					"Level": 3,
 					"Wounds": 4,
 					"Resistance": 0,
 					"Special": [
@@ -206,7 +206,7 @@
 				{
 					"id": "hobgoblin",
 					"Name": "Hobgoblin",
-					"Level": 4,
+					"Level": 3,
 					"Wounds": 6,
 					"Resistance": 1,
 					"Special": [],
@@ -235,7 +235,7 @@
 				{
 					"id": "sack_man",
 					"Name": "Sack Man",
-					"Level": 5,
+					"Level": 4,
 					"Wounds": 7,
 					"Resistance": 1,
 					"Special": [],
@@ -259,7 +259,7 @@
 				{
 					"id": "bugbear",
 					"Name": "Bugbear",
-					"Level": 6,
+					"Level": 5,
 					"Wounds": 8,
 					"Armor": 2,
 					"Resistance": 1,
@@ -339,7 +339,7 @@
 				{
 					"id": "Void_Demon",
 					"Name": "Void Demon",
-					"Level": 7,
+					"Level": 6,
 					"Wounds": 9,
 					"Resistance": 1,
 					"Common Actions": [
@@ -378,7 +378,7 @@
 				{
 					"id": "Vault_Weaver",
 					"Name": "Vault Weaver",
-					"Level": 8,
+					"Level": 7,
 					"Wounds": 12,
 					"Armor": 0,
 					"Resistance": 2,
@@ -415,7 +415,7 @@
 				{
 					"id": "Red_Weaver",
 					"Name": "Red Weaver",
-					"Level": 10,
+					"Level": 8,
 					"Wounds": 14,
 					"Armor": 0,
 					"Resistance": 2,
@@ -555,7 +555,7 @@
 				{
 					"id": "Bloated_Plague_Rat",
 					"Name": "Bloated Plague Rat",
-					"Level": 4,
+					"Level": 3,
 					"Wounds": 4,
 					"Armor": 0,
 					"Resistance": 0,
@@ -657,7 +657,7 @@
 				{
 					"id": "Giant_Frog",
 					"Name": "Giant Frog",
-					"Level": 3,
+					"Level": 2,
 					"Wounds": 6,
 					"Armor": 2,
 					"Resistance": 0,
@@ -722,7 +722,7 @@
 					"id": "golden_ridge_maneater",
 					"Name": "Golden Ridge Maneater",
 					"Tags": 1,
-					"Level": 6,
+					"Level": 5,
 					"Wounds": 8,
 					"Armor": 1,
 					"Resistance": 2,
@@ -796,7 +796,7 @@
 				{
 					"id": "Freshly_Risen_Corpse",
 					"Name": "Freshly Risen Corpse",
-					"Level": 3,
+					"Level": 2,
 					"Wounds": 5,
 					"Armor": 1,
 					"Resistance": 0,
@@ -909,7 +909,7 @@
 				{
 					"id": "Bloated_Screamer",
 					"Name": "Bloated Screamer",
-					"Level": 6,
+					"Level": 5,
 					"Wounds": 9,
 					"Armor": 3,
 					"Resistance": 0,
@@ -974,7 +974,7 @@
 					"id": "Head_spider",
 					"Name": "Head Spider",
 					"Tags": 2,
-					"Level": 4,
+					"Level": 3,
 					"Wounds": 4,
 					"Armor": 0,
 					"Resistance": 0,
@@ -1126,7 +1126,7 @@
 					"id": "Bounty_hunter",
 					"Name": "Bounty Hunter",
 					"Tags": 33,
-					"Level": 5,
+					"Level": 4,
 					"Wounds": 8,
 					"Armor": 3,
 					"Resistance": 0,

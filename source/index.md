@@ -265,11 +265,11 @@ You may write this down in the notes section of your character sheet.
 |  10   | Horrible sense of direction, if left alone **will get lost**.                                                                                                |
 |  11   | Coffee addict. Only recovers **sleepy** with coffee.                                                                                                         |
 |  12   | Loud snore. Add 1 extra ambush dice when sleeping in camp phase or do not recover **sleepy**.                                                                |
-|  13   | Extremely patient. When would get **angry** roll 2d!, if triggered, do not get **angry**.                                                                    |
+|  13   | Has a really long hair.                                                                                                                                      |
 |  14   | Bad leg. Limps a bit when distracted, but with no real downside.                                                                                             |
 |  15   | Ties hair or facial hair in an unusual way.                                                                                                                  |
 |  16   | Has a huge scar on their face. Get [advantage]{.tip} when intimidating.                                                                                      |
-|  17   | Has a really long hair.                                                                                                                                      |
+|  17   | Extremely patient. When would get **angry** roll 2d!, if triggered, do not get **angry**.                                                                    |
 |  18   | Deep and murky past. Once during a **camp phase** you may unveil your true past. Reroll your **infancy** an apply the new result instead of the current one. |
 {.roll meta-dice=3}
 
@@ -418,8 +418,9 @@ Casting a prayer is not guaranteed to always work, since the gods can be cruel s
 |   3   | **Unexhaust** all prayers.                                                                                                                    |
 |   4   | Cure the one of the following afflictions from you or someone **Nearby**: Hungry, Parched, Bleeding, Nauseated or Cursed.                     |
 |   5   | If you are in combat, all monsters try to flee in fear, if not decrease the doom tracker.                                                     |
-|   6   | If you are in combat all enemies take 1 wound, if not your group will start the next combat with one [shield token]{.tip} on each adventurer. | {.roll meta-dice=1} |
+|   6   | If you are in combat all enemies take 1 wound, if not your group will start the next combat with one [shield token]{.tip} on each adventurer. |
 [Miracles]
+{.roll meta-dice=1}
 
 Every cleric can choose prayers from the basic prayers and from the prayer list from their god. Check the [gods list](./blacksalt.html#gods) for the prayers of each specific god.
 
@@ -615,6 +616,20 @@ When mortally wounded a character is unable to move or perform any actions. The 
 |  7+   | You are are **dead**.                                                                             |
 [Mortal wounds]
 {.roll meta-dice=1 meta-values="0|1|2|3|4|5|6|7"}
+
+## Special Tests
+There are some particular cases where attribute tests won't work, let's see some solutions to those problemas.
+
+### Player opposing tests
+What happens if there's a player versus player situation? In that situation both players must perform the appropriate attribute test. The attribute is either chosen by the *GM* depending on the situation (a arm wrestling match would require *strength*, a race should use *dexterity*).
+
+If one player succeeds and the other fails, that's easy, the one that succeeded won. If there's a tie, roll again until only one is victorious.
+
+### Player attacking players
+In the rare situation where a player character attacks another, either my mistake or by evil intent, the attacking player must roll a test using the attribute currently notated on the weapon or attack. Alternatively, if the *GM* and players agree, a different attribute that fits the situation better can be rolled, but it's always the attacker that rolls the dice.
+
+### Non-player characters opposing tests and attacks
+When a monster, or any character not directly controlled by the player attacks another, you can also run into problems, since they don't have attributes. To solve this use their level as the attribute score instead.
 
 <pagebreak>
 

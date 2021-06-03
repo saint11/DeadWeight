@@ -29,7 +29,7 @@ function init() {
         var dice = el.getAttribute('meta-dice');
 
         var box = document.createElement('div');
-        box.style = "display: flex;"
+        box.style = "display: flex; height: 2.1em;"
 
         var btn = document.createElement('div');
         btn.className = "btn";
@@ -76,7 +76,7 @@ function init() {
         }
 
         var box = document.createElement('div');
-        box.style = "display: flex;"
+        box.style = "display: flex; height: 2.1em;"
 
         var btn = document.createElement('div');
         btn.className = "btn";
