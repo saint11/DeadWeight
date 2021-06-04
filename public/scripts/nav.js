@@ -1,17 +1,13 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     init();
-    var rellax = new Rellax('.rellax', { horizontal: false, wrapper: 'body' });
 });
 
 function init() {
-    // console.log('making the toc menu');
+    var rellax = new Rellax('.rellax', { horizontal: false, wrapper: 'body' });
 
-    // var nav = document.getElementById('TOC');
-    // console.log(nav);
-
-    var toggler = document.querySelectorAll("nav ul li");
-    Array.from(toggler).forEach(item => {
+    var navList = document.querySelectorAll("nav ul li");
+    navList.forEach(item => {
         if (item.querySelector("li")) {
             // console.log(item);
             var div = document.createElement("div");
@@ -25,11 +21,44 @@ function init() {
         }
     });
 
+    // TOC highlighter
+    const anchors = document.querySelectorAll(".anchor");
+
+    const navListItems = document.querySelectorAll("nav li");
+    document.body.addEventListener('scroll', function (event) {
+        var current = null;
+        anchors.forEach(a => {
+            if (a.parentNode.tagName == "H1") {
+                if (a.offsetTop < document.body.scrollTop + 240)
+                    current = a;
+            }
+        });
+
+        if (current != null) {
+            var found = false;
+
+            navListItems.forEach(li => {
+                if (li.querySelector('a').href == current.href) {
+                    li.classList.add("highlighted");
+                    found = true;
+                }
+                else {
+                    li.classList.remove("highlighted");
+                }
+            })
+
+            if (!found) {
+                console.log("can't find href " + current.href);
+                console.log(navListItems);
+            }
+        }
+    });
+    // Making the roll tables
     document.querySelectorAll('.roll-simple').forEach(el => {
         var dice = el.getAttribute('meta-dice');
 
         var box = document.createElement('div');
-        box.style = "display: flex; height: 2.1em;"
+        box.style = "display: flex; height: 2.4em;"
 
         var btn = document.createElement('div');
         btn.className = "btn";
@@ -76,7 +105,7 @@ function init() {
         }
 
         var box = document.createElement('div');
-        box.style = "display: flex; height: 2.1em;"
+        box.style = "display: flex; height: 2.4em; margin-bottom: 0.2em"
 
         var btn = document.createElement('div');
         btn.className = "btn";

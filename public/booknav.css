@@ -205,12 +205,30 @@ nav h1, nav h2, nav h3 {
     font-size: 0.7em;
     margin-bottom: 1em;
 }
-
+nav li {
+    padding-left: 5px;
+}
 nav ul {
     padding: 0;
     margin: 0 auto;
     list-style: none;
 }
+
+nav li.highlighted{
+    background: #666;
+    border-radius: 2px;
+}
+
+nav li.highlighted a{
+    background: #666;
+    color: #bbb;
+}
+
+
+nav li.highlighted a:hover{
+    color: #FFF;
+}
+
 
 nav a {
     background: #252525;
@@ -242,9 +260,22 @@ nav ul ul {
 nav li.active>ul {
     max-height: 1000px;
     opacity: 1;
-    background-color: #303030;
 }
 
-nav li.active a {
-    background-color: #303030;
+nav li.highlighted .folder{
+    border-left: 1em solid #FFF;
+
+}
+
+.folder {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: -3px;
+    border-top: .4em solid transparent;
+    border-bottom: .4em solid transparent;
+    border-left: 1em solid #646464;
+}
+
+.folder.active {
+    transform: rotate(90deg);
 }
