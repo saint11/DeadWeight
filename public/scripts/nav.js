@@ -1,15 +1,19 @@
 
+
 document.addEventListener('DOMContentLoaded', function () {
     init();
 });
 
 function init() {
+    anchors = document.querySelectorAll(".anchor");
+    navListItems = document.querySelectorAll("nav li");
+
     var rellax = new Rellax('.rellax', { horizontal: false, wrapper: 'body' });
 
     var navList = document.querySelectorAll("nav ul li");
     navList.forEach(item => {
         if (item.querySelector("li")) {
-            // console.log(item);
+
             var div = document.createElement("div");
             div.classList.add("folder");
             div.addEventListener("click", (event) => {
@@ -22,37 +26,24 @@ function init() {
     });
 
     // TOC highlighter
-    const anchors = document.querySelectorAll(".anchor");
+    navListItems.forEach(li => {
+        li.onclick = () => {
+            navListItems.forEach(n => n.classList.remove('highlighted'));
+            li.classList.add('highlighted');
 
-    const navListItems = document.querySelectorAll("nav li");
-    document.body.addEventListener('scroll', function (event) {
-        var current = null;
-        anchors.forEach(a => {
-            if (a.parentNode.tagName == "H1") {
-                if (a.offsetTop < document.body.scrollTop + 240)
-                    current = a;
-            }
-        });
+            anchors.forEach(a => {
+                a.parentNode.parentElement.classList.remove("highlighted");
 
-        if (current != null) {
-            var found = false;
-
-            navListItems.forEach(li => {
-                if (li.querySelector('a').href == current.href) {
-                    li.classList.add("highlighted");
-                    found = true;
+                if (a.parentNode.tagName == "H1" && li.querySelector('a').href == a.href) {
+                    a.parentNode.parentElement.classList.add("highlighted");
                 }
-                else {
-                    li.classList.remove("highlighted");
-                }
-            })
-
-            if (!found) {
-                console.log("can't find href " + current.href);
-                console.log(navListItems);
-            }
-        }
+            });
+        };
     });
+
+    document.body.addEventListener('scroll', updateScroll);
+    updateScroll();
+
     // Making the roll tables
     document.querySelectorAll('.roll-simple').forEach(el => {
         var dice = el.getAttribute('meta-dice');
@@ -143,4 +134,45 @@ function init() {
 function rollDice(max) {
     return 1 + Math.floor(Math.random() * max)
 }
-const rollDice6 = () => rollDice(6)
+const rollDice6 = () => rollDice(6);
+
+function updateScroll() {
+    if (document.body.classList.contains('focus')){
+        return;
+    }
+
+    var current = null;
+
+    anchors.forEach(a => {
+        a.parentNode.parentElement.classList.remove("highlighted");
+
+        if (a.parentNode.tagName == "H1") {
+            if ((a.offsetTop < document.body.scrollTop + 240) || current == null){
+                current = a;
+            }
+        }
+    });
+
+    if (current != null) {
+        var found = false;
+        current.parentNode.parentElement.classList.add("highlighted");
+
+        navListItems.forEach(li => {
+            const a = li.querySelector('a');
+            if (a) {
+                if (a.href == current.href) {
+                    li.classList.add("highlighted");
+                    found = true;
+                }
+                else {
+                    li.classList.remove("highlighted");
+                }
+            }
+        })
+
+        if (!found) {
+            console.log("can't find href " + current.href);
+            console.log(navListItems);
+        }
+    }
+}

@@ -52,6 +52,21 @@ img.big {
     font-size: 1.8em;
 }
 
+.topButton {
+    position: absolute;
+    top: 8px;
+    right: 28px;
+    z-index: 200;
+}
+
+.focus section {
+    display: none;
+}
+
+.focus section.highlighted, .focus section.highlighted section {
+    display: inherit;
+}
+
 .btn {
     cursor: pointer;
     padding: 5px 15px;
@@ -82,6 +97,14 @@ img.big {
     background-color: var(--main-selected-color);
     border-top: 10px solid var(--main-dark-color);
     border-bottom: 2px solid var(--main-dark-color);
+    transition: border 0.03s ease;
+}
+
+.btn.pressed {
+    color: var(--main-dark-color);
+    background-color: var(--main-selected-color);
+    border-top: 7px solid var(--main-dark-color);
+    border-bottom: 5px solid var(--main-dark-color);
     transition: border 0.03s ease;
 }
 

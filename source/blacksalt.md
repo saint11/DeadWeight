@@ -369,13 +369,18 @@ Not much was left of the old kingdoms, only small fortified settlements, castles
 
 Centuries later the hordes of the undead to have dispersed, and most of the tales of Blacksalt kingdoms forgotten. Pirates re-discovered the island and started trading with the few that were still living there. The artifacts they found there put **Blacksalt** back on the map, and the whole world started sending expeditions to find and bring back those. This "gold rush" was intense and fast, several settlements where rebuild in a few months, most notably **Yoros** the biggest port-city of **Blacksalt**.
 
-# Geography {.draft}
+# Geography
 
-## Blacksalt
+## Blacksalt Island
+Very early work in progress of the island map. The final version will be interactive. {.alert}
 
+![](./images/map.png){.big}
 
 ### Yoros
-A major city in **Blacksalt**. Famous for it's high quality wine.
+A major port city in **Blacksalt**. Famous for it's high quality wine.
+
+### Trinta
+A fief rulled by the tyrant lord Ishnar Zul, descendant of a long line of lords from the early days of the exploration of **Blacksalt**. Trinta is a famous stopping point for adventurers since it's near many ancient ruins.
 
 ## Other Places {.draft}
 

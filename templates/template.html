@@ -17,9 +17,13 @@
 
 <body>
     <div class="content">
+
         <div class="parallax rellax" data-rellax-speed="-8">
             <img src="$header-image" class="big" style="width: 100%;" />
         </div>
+
+        <div class="btn topButton" onclick="document.body.classList.toggle('focus'); this.classList.toggle('pressed'); updateScroll();" title="Shows only selected chapters">
+            Focus</div>
 
         <header>
             <div id="menuToggle">
