@@ -263,7 +263,7 @@ You may write this down in the notes section of your character sheet.
 |   8   | Has absolutely no sense of humor, and is confused by jokes.                                                                                                  |
 |   9   | Is constantly scratching themselves.                                                                                                                         |
 |  10   | Horrible sense of direction, if left alone **will get lost**.                                                                                                |
-|  11   | Coffee addict. Only recovers **sleepy** with coffee.                                                                                                         |
+|  11   | Coffee addict. Only recovers **sleepy** if you had coffee at least once this expedition.                                                                                                         |
 |  12   | Loud snore. Add 1 extra ambush dice when sleeping in camp phase or do not recover **sleepy**.                                                                |
 |  13   | Has a really long hair.                                                                                                                                      |
 |  14   | Bad leg. Limps a bit when distracted, but with no real downside.                                                                                             |
