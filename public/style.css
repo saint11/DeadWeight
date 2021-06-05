@@ -95,15 +95,6 @@ section.block {
     clear: both;
 }
 
-.parallax {
-    right: 0;
-    left: 0;
-    height: 0;
-    z-index: -1;
-    opacity: 20%;
-    pointer-events: none;
-}
-
 img {
     width: 100%;
 }

@@ -31,7 +31,7 @@ img.big {
     }
 }
 
-.dicebox .dice{
+.dicebox .dice {
     top: -0.4em;
 }
 
@@ -111,6 +111,7 @@ img.big {
 tr.selected strong {
     color: var(--main-selected-color) !important;
 }
+
 tr.selected {
     background-color: #1e553d !important;
     color: var(--main-selected-color) !important;
@@ -218,6 +219,22 @@ h1 a:hover, h1 a:focus-visible, h2 a:hover, h2 a:focus-visible, h3 a:hover, h3 a
     animation: shake 1.0s;
     animation-iteration-count: infinite;
 }
+
+.parallax {
+    right: 0;
+    left: 0;
+    height: 0;
+    z-index: -10;
+    opacity: 20%;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 900px) {
+    .parallax {
+        opacity: 8%;
+    }
+}
+
 
 @keyframes shake {
     0% {

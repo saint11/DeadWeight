@@ -19,6 +19,8 @@ version 0.5 💀
 ![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake}
 
 <pagebreak>
+
+This is still a work in progress, while absolutely playable, there's some content missing. Check the [roadmap](roadmap.html) for more information. If you have questions or any kind of feedback, feel free to also join the [<i class="fab fa-discord"></i> Discord channel](https://discord.gg/BJfMxEq52R) or the [<i class="fab fa-reddit"></i> Reddit group](https://www.reddit.com/r/DeadWeightRPG/). {.alert .web}
  
 # Welcome
 
@@ -27,8 +29,6 @@ version 0.5 💀
 The player characters are no heroes; they are *dead weights*, outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, struggling not only with the horrors that lurk in there, but also their fatigue, stress, and the gradual decay of the few resources they bring. All to save enough silver to leave *Blacksalt Island* for better days elsewhere.
 
 This system has a strong **structure** to it, it's **roleplay light** focusing heavily on dungeon crawl. **Roleplay light** doesn't mean there's no support for it, quite the contrary, just means that the game system should fun even if your group doesn't like to roleplay a lot.
-
-This is still a work in progress, while absolutely playable, there's some content missing. Check the [roadmap](roadmap.html) for more information. If you have questions or any kind of feedback, feel free to also join the [discord channel](https://discord.gg/BJfMxEq52R). {.alert .web}
 
 
 ![](images/weaver.png "a knight dying in a dungeon"){.left .print}
