@@ -8,7 +8,7 @@ function init() {
     anchors = document.querySelectorAll(".anchor");
     navListItems = document.querySelectorAll("nav li");
 
-    var rellax = new Rellax('.rellax', { horizontal: false, wrapper: 'body' });
+    var relax = new Rellax('.rellax', { horizontal: false, wrapper: 'body' });
 
     var navList = document.querySelectorAll("nav ul li");
     navList.forEach(item => {
@@ -45,6 +45,8 @@ function init() {
     updateScroll();
 
     // Making the roll tables
+    const path = getMeta("data_path")
+
     document.querySelectorAll('.roll-simple').forEach(el => {
         var dice = el.getAttribute('meta-dice');
 
@@ -67,7 +69,7 @@ function init() {
             for (let i = 0; i < dice; i++) {
                 roll = rollDice6();
                 total += roll;
-                diceBox.innerHTML += `<img src="images/dice-${roll}.svg" class="dice"></img>`
+                diceBox.innerHTML += `<img src="${path}images/dice-${roll}.svg" class="dice"></img>`
             }
             diceBox.innerHTML += `<div class="dicebox-result"> = ${total}</div>`
         };
@@ -114,7 +116,7 @@ function init() {
             for (let i = 0; i < dice; i++) {
                 roll = rollDice6();
                 total += roll;
-                diceBox.innerHTML += `<img src="images/dice-${roll}.svg" class="dice"></img>`
+                diceBox.innerHTML += `<img src="${path}images/dice-${roll}.svg" class="dice"></img>`
             }
             diceBox.innerHTML += `<div class="dicebox-result"> = ${total}</div>`
 
@@ -137,7 +139,7 @@ function rollDice(max) {
 const rollDice6 = () => rollDice(6);
 
 function updateScroll() {
-    if (document.body.classList.contains('focus')){
+    if (document.body.classList.contains('focus')) {
         return;
     }
 
@@ -147,7 +149,7 @@ function updateScroll() {
         a.parentNode.parentElement.classList.remove("highlighted");
 
         if (a.parentNode.tagName == "H1") {
-            if ((a.offsetTop < document.body.scrollTop + 240) || current == null){
+            if ((a.offsetTop < document.body.scrollTop + 240) || current == null) {
                 current = a;
             }
         }

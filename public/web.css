@@ -159,6 +159,7 @@ body {
     padding: 1em;
     margin: auto;
     max-width: 42em;
+    margin-top: 2em;
 }
 
 @media screen and (max-width: 900px) {

@@ -6,6 +6,8 @@ dungeon-img-overlay: images/shattered_tomb_of_acheron_zul_1_tokens.png
 template: dungeon
 toc: true
 print: true
+
+header-image: ../images/header-ornaments.png
 ---
 
 You can download the map without the numbers [here](dungeon/shattered_tomb_of_Acheron_Zul_1.png).
@@ -52,6 +54,8 @@ Start by giving each **adventurer** knows a rumor. If an adventurer has 2 or mor
 |  10   | <input type="checkbox" /> Long ago a noble paladin went to the dungeon to seal the undead there, but never returned.                                  |
 |  11   | <input type="checkbox" /> The dungeon is flooded and the water is tainted with dangerous chemicals, that's what caused the bad water in Trinta.       |
 |  12   | <input type="checkbox" /> The soothsayer cannot be trusted, the mummy is actually a very powerful artifact.                                           |
+[Rumors]
+{.roll meta-dice=2}
 
 ### Dungeon History
 > This is some optional history for this dungeon, **if you are in a hurry, feel free to skip this chapter**.
