@@ -74,9 +74,20 @@ The villagers are now sending mercenaries to the tomb, feeding the weavers even 
 ### Entrances
 The tomb is on top of and old hill, covered in moss, grass and vines.
 
-Adventurers may enter through the obvious [tomb entrance](#1-the-tomb-entrance), through the [secret entrance](#9-secret-entrance) or they can climb down through [the pit](#15-sacrificial-pit). The only obvious entrance is the main one, the **adventurers** must figure out the other entrances based on the rumors.
+There are three main points of interest outside, the **abandoned graveyard**, the **sacrificial pit** and the **mausoleum entrance**. You may allow the players to explore freely for a while or just jump right to the  [tomb entrance](#1-the-tomb-entrance).
 
-There's a passage that goes straight to the tomb, bypassing the mausoleum. Halfway through the pit there's a hole, full os spiderweb, it leads straight to [Guhlat's lair]().
+The **abandoned graveyard** has a chained grave, if opened a passage to the [secret entrance](#9-secret-entrance) will be revealed.
+
+The [sacrificial pit](#15-sacrificial-pit) is a big hole on the ground, tales of villagers sacrificing humans there are told about this place. A small opening on the side can be seen.
+
+The [mausoleum entrance](#1-the-tomb-entrance) is a big ornate stone building covered in crying statues. There's a rusty gate, unlocked. There's a trail of blood coming from the mausoleum.
+
+If you allow the players to explore, they will most likely want to use their skills to gather information, so here are some:
+- **Animal affinity**: The place is covered with unnatural spider webs, and there are lots of small spiders all over the place, you've never seen spiders of that species.
+- **Loremaster**: This place dates to the time of when the **dead vigil** first occurred.
+- **Holy rites**: This **graveyard**  has no warding against the dead vigil. The corpses have probably been removed or there would be a lot of movement coming from those graves.
+- **Infiltration**: There are no apparent traps or security measures from the outside anywhere.
+- **Survivalist** or **cooking**: Tea leaves grow on this small hill, you could pick some (*special rations*).
 
 ### Doom Tracker
 Tick a checkbox every time the characters make excessive noise or waste too much time.

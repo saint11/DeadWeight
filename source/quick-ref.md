@@ -186,28 +186,30 @@ Un-exhaust all prayers.
 Add 1 ambush dice.
 
 # Skills
-- **Animal Affinity:** You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals. You have a small pet that follows you around (**weak ally**).
-  - **Beastmaster:**(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
-- **Banish Undead**: Perform a **presence test**, on a success any undead **nearby** that can see you, level 4 or lower must spend one action moving at least 1 step away from you.
-- **Cooking:** Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
-  - **Master Chef:**(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
-- **Crafting:**  You have [advantage]{.tip} when testing for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
-- **Duelist:** You may perform a **feint** action in combat (1 action). Discard all [shield]{.tip #shield_token} and [dodge tokens]{.tip} from your enemy.
-  - **Swashbuckler:**(advanced) If your feint removes a [shield token]{.tip}, your opponent may not attack next turn.
-- **Fearless:** Once per combat you may heal one **presence** wound.
-- **Holy Rites:** You have [advantage]{.tip} when testing for anything that involves religious rituals, including performing prayers.
-- **Infiltration:** Allows the **search for traps** action during expeditions and an [advantage]{.tip} when sneaking.
-- **Intimidate:** You may perform an **intimidate** action in combat (2 actions), attacking with **PRE 1N** all **nearby** enemies. Only one intimidate action can be used per combat.
-- **Loremaster:** Get [advantage]{.tip} when testing or checking for anything related to the world lore, ancient languages.
-- **Pilfer:** You earn 1d6 silver coins at the start of the **interlude**.
-- **Occult Studies:** You have [advantage]{.tip} point for anything that involves magic and the occult, including invoking spells.
+- **Animal Affinity**: You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals.
+  - **Beastmaster**:(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
+- **Ward the dead**: May perform a ritual using 1 exploration turn to ward the [dead vigil]{.tip} from setting inside a circle with 1 meter radius. Does not affect anything that the [dead vigil]{.tip} has already set, only stops it from happening.
+- **Cooking**: Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
+  - **Master Chef**:(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
+- **Crafting**:  You have [advantage]{.tip} when testing for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
+- **Duelist**: You may perform a **feint** action in combat (1 action). Discard all [shield]{.tip #shield_token} and [dodge tokens]{.tip} from your enemy.
+  - **Swashbuckler**:(advanced) If your feint removes a [shield token]{.tip}, your opponent may not attack next turn.
+- **Fearless**: Once per combat you may heal one **presence** wound.
+- **Haggle**: During the **interlude** you can re-roll the price of an item once. You must use the new result.
+  - **Trade network**: During the **interlude** you can re-roll the price of an item once. You must choose to use the new or old result. You may also reroll the item **availablilty** roll once.
+- **Holy Rites**: You have an extensive knowledge about the new gods, prayers and the saints. You may make holy water using clean water and 1 exploration turn.
+- **Infiltration**: Allows the **search for traps** action without proper tools during expeditions and an [advantage]{.tip} when sneaking.
+- **Intimidate**: You may perform an **intimidate** action in combat (2 actions), attacking with **PRE 1N** all **nearby** enemies. Only one intimidate action can be used per combat.
+- **Loremaster**: You have an extensive knowledge about the world history, languages and different cultures.
+- **Pilfer**: You earn 1d6 silver coins at the start of the **interlude**.
+- **Occult Studies**: You have an extensive knowledge about old gods, magic and the occult.
 - **Ritualist**: During **camp** you can spend 1 action to remove one point the **omens tracker** or **doom tracker**.
-- **Shield Expert:** Add 1 extra [shield token]{.tip} when defending.
-  - **Shield Master:** (advanced) Add 1 extra [shield token]{.tip} when defending. Moving does not remove shield tokens.
-- **Stalker:** Before combat, if undetected by an enemy you have a free critical hit.
+- **Shield Expert**: Add 1 extra [shield token]{.tip} when defending.
+  - **Shield Master**: (advanced) Add 1 extra [shield token]{.tip} when defending. Moving does not remove shield tokens.
+- **Stalker**: Before combat, if undetected by an enemy you have a free critical hit.
 - **Street Wise**: You do not get robbed in the **interlude** and you have one extra daily action. You may reduce the price of **common** items by 1 silver (to a minimum of 1).
-- **Surgeon:** During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.
-- **Survivalist:** 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
+- **Surgeon**: During the **camp phase** you may perform an **Intelligence** test to heal one wound of each character in your group.
+- **Survivalist**: 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
 - **Slippery**: You may spend dodge tokens during the enemy turn to move one tile.
 - **Veteran**: (1 explorer action) Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
 

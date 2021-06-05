@@ -291,6 +291,7 @@ Check the **skills** and **traits** section to understand what each of your trai
 Trained in dealing with violence warriors are the first one in a combat and the last ones out. The warriors can use any armor or weapon.
 
 - Add 1 proficiency points to **Strength**.
+- Warriors can use any weapon or armor.
 
 #### Warrior background
 
@@ -310,6 +311,7 @@ Manoeuvers requires 1 action and hit targets **close**, unless specified in its 
 ![](images/thief-stalker.png "Thief")
 
 - Add 1 proficiency points to **Dexterity**.
+- Thieves can use one handed melee weapons, staves, any ranged weapons and medium armor
 
 Thieves can come from different backgrounds, dramatically changing their fighting and living style. For your special trait and equipment, you must choose a [thief background](./blacksalt.html#thief-background):
 - [Stalker](./blacksalt.html#stalker)
@@ -331,6 +333,7 @@ Manoeuvers requires 1 action and hit targets **close**, unless specified in its 
 - Add 1 proficiency points to **Intelligence**.
 - Add the trait **magic user**.
 - Add skill **lore master**.
+- Wizards can use only small one handed weapons, staves and light armor.
 
 #### School of magic
 
@@ -389,7 +392,8 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 
 - Add 1 proficiency points to **Presence**.
 - Add the trait **divine mandate**.
-- Add skill **banish undead**.
+- Add skill **ward the dead**.
+- Clerics can only use one handed weapons, staves, bows, crossbows and medium armor
 
 Choose one of the following as your starting equipment:
 
@@ -657,7 +661,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 
 - **Animal Affinity**: You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals.
   - **Beastmaster**:(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
-- **Banish Undead**: Perform a **presence test**, on a success any undead **nearby** that can see you, level 4 or lower must spend one action moving at least 1 step away from you.
+- **Ward the dead**: May perform a ritual using 1 exploration turn to ward the [dead vigil]{.tip} from setting inside a circle with 1 meter radius. Does not affect anything that the [dead vigil]{.tip} has already set, only stops it from happening.
 - **Cooking**: Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
   - **Master Chef**:(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
 - **Crafting**:  You have [advantage]{.tip} when testing for crafting things. During the **camp phase** you can repair 2 points of armor automatically.
@@ -667,7 +671,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Haggle**: During the **interlude** you can re-roll the price of an item once. You must use the new result.
   - **Trade network**: During the **interlude** you can re-roll the price of an item once. You must choose to use the new or old result. You may also reroll the item **availablilty** roll once.
 - **Holy Rites**: You have an extensive knowledge about the new gods, prayers and the saints. You may make holy water using clean water and 1 exploration turn.
-- **Infiltration**: Allows the **search for traps** action during expeditions and an [advantage]{.tip} when sneaking.
+- **Infiltration**: Allows the **search for traps** action without proper tools during expeditions and an [advantage]{.tip} when sneaking.
 - **Intimidate**: You may perform an **intimidate** action in combat (2 actions), attacking with **PRE 1N** all **nearby** enemies. Only one intimidate action can be used per combat.
 - **Loremaster**: You have an extensive knowledge about the world history, languages and different cultures.
 - **Pilfer**: You earn 1d6 silver coins at the start of the **interlude**.
@@ -681,12 +685,6 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Survivalist**: 1 extra proficiency point for anything that involves surviving in the wilderness. Adds 1 extra camp action.
 - **Slippery**: You may spend dodge tokens during the enemy turn to move one tile.
 - **Veteran**: (1 explorer action) Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
-
-Weapon and armor use depends on the character arsenal skill. Using an equipment without the proper skill all tests you make are made with [disadvantage]{.tip}.
-
-- **Weapon master**: Can use any weapon or armor.
-- **Basic weapon training**: Can use one handed melee weapons, any staves, any ranged weapons and leather armor.
-- **No weapon training**: Can use only small one handed weapons, any staves and no armor.
 
 <pagebreak>
 

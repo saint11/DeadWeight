@@ -379,6 +379,7 @@ Very early work in progress of the island map. The final version will be interac
 ![](./images/map.png){.big}
 
 ### Yoros
+**Settlement size: City (5)**
 A major port city in **Blacksalt**. Famous for it's high quality wine.
 
 ### Trinta
