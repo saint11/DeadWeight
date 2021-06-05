@@ -28,15 +28,17 @@ There are 5 item categories **common**, **uncommon**, **valuable**, **rare** and
 
 Again, if you really like statistics, this is the statistics map of the [possible prices](https://anydice.com/program/222fe).
 
-<itemTable id="0" caption="Common items (1d6 silver, average 3)">
+<itemTable id="0" caption="Free items (free)">
 
-<itemTable id="1" caption="Uncommon items (2 + 2d6 silver, average 9)">
+<itemTable id="1" caption="Common items (1d6 silver, average 3)">
 
-<itemTable id="2" caption="Valuable items (3 x 2d6 silver, average 20)">
+<itemTable id="2" caption="Uncommon items (2 + 2d6 silver, average 9)">
 
-<itemTable id="3" caption="Rare items (5 x 3d6 silver, average 50)">
+<itemTable id="3" caption="Valuable items (3 x 2d6 silver, average 20)">
 
-<itemTable id="4" caption="Exotic items (10 x 4d6 silver, 140)">
+<itemTable id="4" caption="Rare items (5 x 3d6 silver, average 50)">
+
+<itemTable id="5" caption="Exotic items (10 x 4d6 silver, 140)">
 
 # Weapons
 
