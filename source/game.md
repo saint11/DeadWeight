@@ -442,7 +442,7 @@ The sizes are:
 1. **Small Camp**: A small encampment with just a few people stationed.
 2. **Hamlet**: A few houses, usually with no official government.
 3. **Fief**: A small village, some farms and a small castle.
-4. **Village**: A village, with a decent commercial center.
+4. **Stronghold**: A fortified castle, with a decent commercial center.
 5. **City**: A large settlement, with lots of commerce and crime.
 
 ### 1. Interlude actions
@@ -480,7 +480,7 @@ When buying an item, the price must be rolled. That item price should be noted s
 1. **Small Camp**: Common (2d!), Uncommon(1d!), Valuable(unavailable), Rare(unavailable), Exotic(unavailable)
 2. **Hamlet**: Common (3d!), Uncommon(2d!), Valuable(1d!), Rare(unavailable), Exotic(unavailable)
 3. **Fief**: Common (4d!), Uncommon(3d!), Valuable(2d!), Rare(1d!), Exotic(unavailable)
-4. **Village**: Common (always), Uncommon(4d!), Valuable(3d!), Rare(2d!), Exotic(1d!)
+4. **Stronghold**: Common (always), Uncommon(4d!), Valuable(3d!), Rare(2d!), Exotic(1d!)
 5. **City**: Common (always), Uncommon(always), Valuable(4d!), Rare(3d!), Exotic(2d!)
 
 #### Go back to expedition {.block}

@@ -225,7 +225,7 @@ h1 a:hover, h1 a:focus-visible, h2 a:hover, h2 a:focus-visible, h3 a:hover, h3 a
     left: 0;
     height: 0;
     z-index: -10;
-    opacity: 20%;
+    opacity: 16%;
     pointer-events: none;
 }
 

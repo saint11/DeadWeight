@@ -27,18 +27,20 @@ function init() {
 
     // TOC highlighter
     navListItems.forEach(li => {
-        li.onclick = () => {
-            navListItems.forEach(n => n.classList.remove('highlighted'));
-            li.classList.add('highlighted');
+        const link = li.querySelector('a');
+        if (link)
+            link.onclick = () => {
+                navListItems.forEach(n => n.classList.remove('highlighted'));
+                li.classList.add('highlighted');
 
-            anchors.forEach(a => {
-                a.parentNode.parentElement.classList.remove("highlighted");
+                anchors.forEach(a => {
+                    a.parentNode.parentElement.classList.remove("highlighted");
 
-                if (a.parentNode.tagName == "H1" && li.querySelector('a').href == a.href) {
-                    a.parentNode.parentElement.classList.add("highlighted");
-                }
-            });
-        };
+                    if (a.parentNode.tagName == "H1" && link.href == a.href) {
+                        a.parentNode.parentElement.classList.add("highlighted");
+                    }
+                });
+            };
     });
 
     document.body.addEventListener('scroll', updateScroll);

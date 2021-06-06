@@ -249,30 +249,36 @@ Once per session you may use your burden to make your character's life harder. T
 
 ## 5. Roll your features
 
-This is a strong characteristic that your character have. Besides the advantages and disadvantages that these characteristics will give you, this will help you to roleplay and imagine how your character acts and looks like. These are not the only features of you character, you are encouraged to create more.
+This is a strong characteristic that your character have. Besides the advantages and disadvantages that these characteristics will give you, this will help you to roleplay and imagine how your character acts and looks like. These are not the only features of you character, you are encouraged to create more. If you and the *GM* agrees, you can choose this instead of rolling.
 
 You may write this down in the notes section of your character sheet.
 
-|  3d6  | Quirk                                                                                                                                                        |
+|  4d6  | Quirk                                                                                                                                                        |
 | :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   3   | Wears unusual glasses (valuable{.tip}). Can't see properly without them.                                                                                     |
-|   4   | Is taller than most people.                                                                                                                                  |
-|   5   | Is always picking their teeth.                                                                                                                               |
-|   6   | Left handed.                                                                                                                                                 |
-|   7   | Irritable, when prompted must always choose the **angry** affliction.                                                                                        |
-|   8   | Has absolutely no sense of humor, and is confused by jokes.                                                                                                  |
-|   9   | Is constantly scratching themselves.                                                                                                                         |
-|  10   | Horrible sense of direction, if left alone **will get lost**.                                                                                                |
-|  11   | Coffee addict. Only recovers **sleepy** if you had coffee at least once this expedition.                                                                                                         |
-|  12   | Loud snore. Add 1 extra ambush dice when sleeping in camp phase or do not recover **sleepy**.                                                                |
-|  13   | Has a really long hair.                                                                                                                                      |
-|  14   | Bad leg. Limps a bit when distracted, but with no real downside.                                                                                             |
-|  15   | Ties hair or facial hair in an unusual way.                                                                                                                  |
-|  16   | Has a huge scar on their face. Get [advantage]{.tip} when intimidating.                                                                                      |
-|  17   | Extremely patient. When would get **angry** roll 2d!, if triggered, do not get **angry**.                                                                    |
-|  18   | Deep and murky past. Once during a **camp phase** you may unveil your true past. Reroll your **infancy** an apply the new result instead of the current one. |
-{.roll meta-dice=3}
-
+|   3   | You wear unusual glasses (valuable{.tip}). Can't see properly without them.                                                                                  |
+|   4   | Loud snore. Add 1 extra ambush dice when sleeping in camp phase or do not recover **sleepy**.                                                                |
+|   5   | Irritable, when prompted you always must choose the **angry** affliction.                                                                                    |
+|   6   | Coffee addict. You only recover **sleepy** if you had coffee at least once this expedition.                                                                  |
+|   7   | You are much taller than most people.                                                                                                                        |
+|   8   | You are always picking your teeth.                                                                                                                           |
+|   9   | Very entitled.                                                                                                                                               |
+|  10   | You have absolutely no sense of humor.                                                                                                                       |
+|  11   | Your eye color is somewhat unnatural.                                                                                                                        |
+|  12   | You are very clean and tidy. Something most people in Blacksalt aren't.                                                                                      |
+|  13   | You always have an annoying smirk on your face.                                                                                                              |
+|  14   | You are constantly scratching yourself.                                                                                                                      |
+|  15   | You have a really long hair.                                                                                                                                 |
+|  16   | Bad leg. Limps a bit when distracted, but with no real downside.                                                                                             |
+|  17   | Conspiracy theorist.                                                                                                                                         |
+|  18   | You look like you didn't sleep properly. Messy hair and dark circles around your eyes.                                                                       |
+|  19   | Only whispers.                                                                                                                                               |
+|  19   | Very short, smaller than most people.                                                                                                                        |
+|  21   | You have a huge scar on their face. Get [advantage]{.tip} when intimidating.                                                                                 |
+|  22   | Horrible sense of direction, if left alone **will get lost**.                                                                                                |
+|  23   | Extremely patient. When would get **angry** roll 2d!, if triggered, do not get **angry**.                                                                    |
+|  24   | Deep and murky past. Once during a **camp phase** you may unveil your true past. Reroll your **infancy** an apply the new result instead of the current one. |
+[Quirks]
+{.roll meta-dice=4}
 
 ## 6. Choose your class
 

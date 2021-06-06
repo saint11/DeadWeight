@@ -373,6 +373,8 @@ Centuries later the hordes of the undead to have dispersed, and most of the tale
 
 # Geography
 
+Blacksalt is a large island in the south hemisphere of the planet. The climate is warm in the north and gets wet and cold south.
+
 ## Blacksalt Island
 Very early work in progress of the island map. The final version will be interactive. {.alert}
 
@@ -380,10 +382,24 @@ Very early work in progress of the island map. The final version will be interac
 
 ### Yoros
 **Settlement size: City (5)**
+
 A major port city in **Blacksalt**. Famous for it's high quality wine.
 
+### Kumar Port City
+**Settlement size: City (5)**
+
+A big port city that services the Kumar Bay. Formally used to transport large goods to Yoros but also has a huge smuggler network.
+
+### Brutburg
+**Settlement size: Stronghold (4)**
+
+A military stronghold in the cold south.
+
+
 ### Trinta
-A fief rulled by the tyrant lord Ishnar Zul, descendant of a long line of lords from the early days of the exploration of **Blacksalt**. Trinta is a famous stopping point for adventurers since it's near many ancient ruins.
+**Settlement size: Fief (3)**
+
+A fief ruled by the tyrant lord Ishnar Zul, descendant of a long line of lords from the early days of the exploration of **Blacksalt**. Trinta is a famous stopping point for adventurers since it's near many ancient ruins.
 
 ## Other Places {.draft}
 
