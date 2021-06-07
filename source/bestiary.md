@@ -32,7 +32,7 @@ Vault weavers are unnatural beings from the void. They are perfectly round balls
 
 <monster id="red_weaver">
 
-When a red weaver dies it will explode, launching all the corpses it ate all over the place. May cause 1 wound to anyone nearby. The corpses are perfectly preserved. The [dead vigil]{.tip} can't set in on a corpse while inside the weaver. While in this state the weaver will not attack unless provoked.
+When a red weaver dies it will explode, launching all the corpses it ate all over the place. May cause 1 wound to anyone nearby. The corpses are usually a bit shrunk and dried up. The [dead vigil]{.tip} can't set in on a corpse while inside the weaver. While in this state the weaver usually will not attack unless provoked.
 
 ### The Child-Stealers {.big}
 The terror of the villagers in the **Blacksalt** island. They often kidnap babies in the night, turning them into goblins or worse. When angered they will raid villages kidnapping, killing and eating people. They are also called the **forest folk**, **goblinfolk** or just **goblins** in general.

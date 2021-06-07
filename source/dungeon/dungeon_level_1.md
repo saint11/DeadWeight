@@ -94,13 +94,15 @@ If you allow the players to explore, they will most likely want to use their ski
 - **Survivalist** or **cooking**: Tea leaves grow on this small hill, you could pick some (*special rations*).
 
 ### Doom Tracker
-Tick a checkbox every time the characters make excessive noise or waste too much time.
+Tick a checkbox every time the characters make excessive noise, waste too much time or come back from the interlude. If the timing don't work (they just entered the dungeon back from the interlude for example) you may wait a couple turns to trigger the doom event.
 
 - <input type="checkbox" /><input type="checkbox" /> The **Wandering Goblins** show up.
 - <input type="checkbox" /><input type="checkbox" /> The ground shakes, something stirs underground. The water on the [embalming room](#5-flooded-embalming-room) is drained. **4 dire spiders** are now wandering the halls.
 - <input type="checkbox" /><input type="checkbox" /> All the adventurers feel a ghostly chill, the walls glow a faint light then a sudden wind snuff all the torches and lamps. Many ghosts raise through the floor and exit the ceiling. Everyone is **shaken**.
 - <input type="checkbox" /><input type="checkbox" /> The ground shakes and the ceiling starts to fall apart, hitting everyone that doesn't hide under something for (STR 2). Raising a shield should add shield tokens to this check normally.
 - <input type="checkbox" /><input type="checkbox" /> **Guhlat**, the [giant spider]{.m} finds the adventurers! During every turn of the combat, a [spiderling]{.m} joins the fight.
+- <input type="checkbox" /><input type="checkbox" /> 2 [void demons]{.m} and a [lesser demon]{.m} start roaming the dungeon.
+- <input type="checkbox" /><input type="checkbox" /> The curse gets worse, every decay, roll twice.
 
 ### Wandering monsters
 Use them when the adventurers wander too much, feel too safe or if things get a bit boring.

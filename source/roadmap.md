@@ -45,18 +45,16 @@ Last update was <now>
 ## Next
 - [ ] World map
 - [ ] Improve intro
-- [ ] Better character background descriptions
+- [ ] Review the print version
 
 ## Later
+- [ ] Short video explaining basic rules
 - [ ] Fix broken links everywhere
 - [ ] Better encumbrance rules
 - [ ] Re-think usage dice (maybe something more elegant)
-- [ ] Review the print version
 - [ ] List of magic items
 - [ ] Guilds
-- [ ] Player versus player tests
 - [ ] More spells and schools of magic
 - [ ] More gods and prayers
 - [ ] Morale system (for interlude, not battle)
-- [ ] Short video explaining basic rules
 - [ ] "Compatible with Dead Weight" logo

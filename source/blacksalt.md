@@ -359,17 +359,25 @@ Not much is known of them and their worship is strictly forbidden in most cultur
 
 # History
 
+## Origins
+
 **Blacksalt** is an ancient island, found more than a thousand years ago by several lost sea travellers. The island apparently had risen from the ocean floor by some volcanic activity and was covered in a tick layer of black salt and algae. Ancient traces of an underwater civilization were found there, intriguing the people from the main continent, but it was the island's rich mineral resources and fertile land that paved the way for a fast colonization.
 
 The island was lawless, and many different groups started settling there. Castles and strongholds were built and conflict between the different settlements began as soon as they would meet. The conflict proved extremely expensive to everyone involved and the **Treaty of Yoros** was created. Dividing Blacksalt between different **kingdoms** that would stay in their territory.
 
 This fleeting peace allowed a big infrastructure to be built and trade routes to be created.
 
+## The fall
+
 Then suddenly the first antediluvian catacomb was found, changing everything. Down in those caves the kings and queens would cohort with ancient beings giving them extraordinary powers, and they didn't want to share. Aided by the ancient beings magic the war between settlements raged on, devastating the land, creating famine, supernatural plagues and eventually the [dead vigil]{.tip}. No one knows who or what caused it, but suddenly the dead started to come back to life, attacking the living. And in the current state of the island the dead were by far a majority.
 
 Not much was left of the old kingdoms, only small fortified settlements, castles haunted by the undead and isolated hamlets. This caused **Blacksalt** to be pretty much abandoned and forgotten.
 
-Centuries later the hordes of the undead to have dispersed, and most of the tales of Blacksalt kingdoms forgotten. Pirates re-discovered the island and started trading with the few that were still living there. The artifacts they found there put **Blacksalt** back on the map, and the whole world started sending expeditions to find and bring back those. This "gold rush" was intense and fast, several settlements where rebuild in a few months, most notably **Yoros** the biggest port-city of **Blacksalt**.
+## Renascence
+
+Centuries later the hordes of the undead to have dispersed, and most of the tales of Blacksalt kingdoms forgotten. Pirates re-discovered the island and started trading with the few that were still living there. The news of the artifacts found spread fast.
+
+This coincided with a major war happening in the main continent, where a gigantic military and political unity known simply as **The Empire** started dominating every kingdom it could reach. To win this war, magical artifacts were necessary and the Empire financed expeditions to **Blacksalt** and payed high prices for anything found. This "gold rush" was intense and fast, several settlements where rebuild in a few months, most notably **Yoros** the biggest port-city of **Blacksalt**.
 
 # Geography
 
@@ -385,23 +393,60 @@ Very early work in progress of the island map. The final version will be interac
 
 A major port city in **Blacksalt**. Famous for it's high quality wine.
 
+Yoros is bursting with commerce and is the main connection between the main continent and Blacksalt. The Emperor is the official ruler of Yoros, but the empire's influence is very limited in Blacksalt, with the **Guild of Commerce** having all the real power.
+
 ### Kumar Port City
 **Settlement size: City (5)**
 
-A big port city that services the Kumar Bay. Formally used to transport large goods to Yoros but also has a huge smuggler network.
+A big port city that services the Kumar Bay. The official use of this por is to transport large goods to Yoros but actually Kumar is the center of a huge smuggler network, sending magical items to the highest bidder.
+
+The city is in a swamp area rich in natural oil, and since they don't have a lot of available farmland, most of their food comes from ships or from Brutburg.
+
+### Steinsburg
+**Settlement size: Stronghold (4)**
+
+A stronghold that once held the undead march centuries ago, Steinsburg is nowhere near its former glory but still is a sight to behold. The stone stronghold is built on the mountains and its huge walls still impenetrable.
+
+The people there still live under strict military tradition and are always alert for any undead threat.
 
 ### Brutburg
 **Settlement size: Stronghold (4)**
 
-A military stronghold in the cold south.
+A military stronghold in the cold south. Once a noble house that fought valiantly against the undead during the first dead vigil, now decadent and ruined.
 
+Somehow the farmers of Brutburg manage to plant even in the harsh cold, some say the food of Brutburg is grown using abominable rituals.
 
 ### Trinta
 **Settlement size: Fief (3)**
 
-A fief ruled by the tyrant lord Ishnar Zul, descendant of a long line of lords from the early days of the exploration of **Blacksalt**. Trinta is a famous stopping point for adventurers since it's near many ancient ruins.
+A fief ruled by the tyrant lord Ishnar Zul, descendant of a long line of lords from the early days of the exploration of **Blacksalt**. Trinta has huge farmlands and lots of cattle, being responsible for most of the island food production.
+
+The [sample dungeon](./dungeon/dungeon_level_1.html) takes place in Trinta.
+
+### Luna
+**Settlement size: Fief (3)**
+
+A farming fief, isolated from most commercial routes, Luna is a somewhat peaceful settlement in the cold plains. Luna was once a military stronghold, but that fortress is long abandoned.
+
+The people of Luna avoid getting near the stronghold, and local stories tells of people disappearing inside.
+
+Luna is uncomfortably close to Fallen Agnar, but never attacked by the undead from there. Some whisper of a mysterious pact between them.
+
+### Cefit
+**Settlement size: Hamlet (2)**
+
+A small trading post set in the middle of the road between Brutburg and Kumar Port-City. Cefit consists of a small inn, a few farmers and shops. The people that live here are mostly recluses and prefer to stay out of outsider's business.
+
+
+## Fallen Agnar
+
+Agnar was specially hit by the [dead vigil]{.tip} centuries ago, being completely destroyed. It quickly became the central point from where the undead hordes came. Organized undead marched down to Brutburg and Yoros, spawning Tales of a powerful necromancer lich controlling the hordes. Those tales were never confirmed, though.
+
+Today Agnar is the haunted remains for a city, where not even the bravest explorers dare to venture.
 
 ## Other Places {.draft}
+
+### The Capital
 
 ### Golden Ridge
 

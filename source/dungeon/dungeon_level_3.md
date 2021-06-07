@@ -22,7 +22,7 @@ A big barricade was built on the south door here made of spears, table legs, and
 
 1 [vault weaver]{.m} is here, smaller than the others, this one got through the hole in the barricade. It is just finishing to absorb a corpse, extending it's silk around the room. All movement inside the room is reduced by 1 tile. The weaver will finish absorbing the corpse in its first combat turn, spending one action to become a [red weaver]{.m}. As soon as it eats the corpse the **adventurers** feel a wave o nausea, and anxiety, as it was emanating from the orb, all **adventurers** should receive a stun marker from that.
 
-**Killing the weaver will make it explode, trowing around all corpses it consumed before.** This weaver have consumed at least 10 corpses, including the corpse of Acheron Zul, who can be recognized by the tattoo on his face, de corpse is remarkably well preserved. 
+**Killing the weaver will make it explode, trowing around all corpses it consumed before.** This weaver have consumed at least 10 corpses, including the dried up corpse of Acheron Zul, who can be recognized by the tattoo on his face, de corpse is remarkably well preserved. 
 
 Returning the corpse to **Trinta** will give the **adventurers** the bounty of 80 silver coins. The soothsayer will perform a very dramatic ritual in the middle of the city with the corpse. The soothsayer will claim that the curse is gone because of his ritual. And a small parade in the honor of the **soothsayer** will be held.
 
