@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+p, ul, ol, dl, table, pre {
+    margin-bottom: 0px;
+}
+
 .active>a {
     color: white;
 }

@@ -6,7 +6,7 @@ date: 2021-04-21
 toc: true
 toc-title: Dead Weight
 hide-title: true
-print: true
+print: 1
 
 links-title: Books
 links:  Core Rules*|index, Playing the Game|game, Bestiary, Blacksalt, Quick Reference|quick-ref
@@ -16,7 +16,7 @@ footer-image: images/footer-ornaments.png
 ---
 version 0.5 💀
 
-![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake}
+![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake .big}
 
 <pagebreak>
 
@@ -31,9 +31,7 @@ The player characters are no heroes; they are *dead weights*, outcasts and treas
 This system has a strong **structure** to it, it's **roleplay light** focusing heavily on dungeon crawl. **Roleplay light** doesn't mean there's no support for it, quite the contrary, just means that the game system should fun even if your group doesn't like to roleplay a lot.
 
 
-![](images/weaver.png "a knight dying in a dungeon"){.left .print}
-
-## Blacksalt Island {.unlisted .break}
+## Blacksalt Island {.unlisted}
 
 ![](images/weaver.png "a knight dying in a dungeon"){.left .web}
 
@@ -48,6 +46,8 @@ The ruins are filled with the undead, and the newcomers seem to only add to thei
 Unlike many fantasy worlds your character is no hero. Quite on the contrary, you are someone at the end of their line. Maybe your days of glory are long gone and mostly likely they never came. In one way or another, you don't have much to lose - and that's what brings most people to **Blacksalt Island**.
 
 You arrived in the island hoping to find something, maybe treasure, maybe some lost artifact, maybe a glorious death.
+
+![](images/weaver-vertical.png "a knight dying in a dungeon"){.left .print}
 
 <pagebreak>
 
@@ -73,13 +73,23 @@ If you never played a tabletop RPG before, check [this](https://www.youtube.com/
 
 **For playing offline you will need:**
 
-- **You can get a print-optimized version of this page too. We provide in two formats [A4](index-a4.html) and [Letter](index-letter.html).** (work in progress) {.web}
+- **You can get a print-optimized version of this page too. We provide in two formats [A4](book-a4.html) and [Letter](book-letter.html).** (work in progress) {.web}
 - Pen and paper for everyone.
 - A copy of the character sheet for each player, digital or printed, to the player preference. For digital the players may use [Dead Dice](https://deaddice.page/) on their phones.
 - As many 6-sided dices as you can. Ideally 3 per player. Can be played with fewer dice, but it slows down the game, alternatively the players may use [Dead Dice](https://deaddice.page/) on their phones.
 - A set of RPG dice with a d4, d6, d8, d10, d12 and d20. These are not used very often, so a mobile app can do the job if you don't have these.
 - Coins, beans, anything that can be used as tokens. There are 3 types of tokens, **stun**, **shield** and **dodge**.
 - Miniatures or some kind of pawns. Each player will require one and the GM will require some for the enemies. They should be easily identifiable.
+
+
+## About {.print .unlisted .break}
+
+The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Forbidden Lands, Knave, The Black Hack and Torchbearer.
+
+This system open source(https://github.com/saint11/DeadWeight) and is released under the Creative Commons Attribution licence, you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The **Dead Weight** logo cannot be used without express permission, though.
+
+This game was designed and illustrated by me, Pedro Medeiros.
+
 
 <pagebreak>
 
@@ -177,6 +187,8 @@ Your infancy will provide a base for your attributes and for your formation.
 |  18   | **Born of a dark prophecy**: No one knows where you came from, only that it's bad.                            | +1 of a chosen attribute prof, bad omens (trait) |
 {.roll meta-dice=3}
 
+<pagebreak class="simple"> 
+
 ## 2. Roll your previous career
 What you did before coming to the **Blacksalt Isle**.
 
@@ -247,6 +259,8 @@ Once per session you may use your burden to make your character's life harder. T
 |  12   | **A Soul Sold:** You are going to hell, and you know it.                                                          |
 {.roll meta-dice=2}
 
+<pagebreak class="simple"> 
+
 ## 5. Roll your features
 
 This is a strong characteristic that your character have. Besides the advantages and disadvantages that these characteristics will give you, this will help you to roleplay and imagine how your character acts and looks like. These are not the only features of you character, you are encouraged to create more. If you and the *GM* agrees, you can choose this instead of rolling.
@@ -280,6 +294,9 @@ You may write this down in the notes section of your character sheet.
 [Quirks]
 {.roll meta-dice=4}
 
+
+<pagebreak> 
+
 ## 6. Choose your class
 
 Classes will give special skills to your character. Choose one and follow the instructions for each class. After that your character is done!
@@ -292,7 +309,7 @@ Check the **skills** and **traits** section to understand what each of your trai
 
 ### Warrior {.big}
 
-![](images/warrior-footman.png "Warrior with the footman background")
+![](images/warrior-footman.png "Warrior with the footman background"){.wide}
 
 Trained in dealing with violence warriors are the first one in a combat and the last ones out. The warriors can use any armor or weapon.
 
@@ -310,9 +327,7 @@ Warriors can come from different backgrounds, dramatically changing their fighti
 Warriors must choose their combat manoeuvers, they can choose 1 from the manoeuver list in their warrior background. During the combat they may use those manoeuvers freely, as many times as they want, as long they have the required actions for them.
 Manoeuvers requires 1 action and hit targets **close**, unless specified in its description.
 
-<pagebreak>
-
-### Thief {.big}
+### Thief {.big .break}
 
 ![](images/thief-stalker.png "Thief")
 
@@ -387,8 +402,9 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 |           15           | Summon a *tormentor demon* **Close** to you.                                                           |
 |           16           | A third eye opens in your forehead, you are now with the **Cursed** affliction.                        |
 |           17           | You quickly teleport to the *void realm* and back, all your equipments and items stay there.           |
-|           18           | Summon a *endless horror* **Nearby**.                                                                  | {.roll meta-dice=3} |
+|           18           | Summon a *endless horror* **Nearby**.                                                                  |
 [ Spell Mishap]
+ {.roll meta-dice=3}
 
 <pagebreak>
 
@@ -609,6 +625,8 @@ If no attribute that can hold any more **wounds**, meaning that all available di
 
 If the received wounds is reduced to zero or less by armor or other resistances, that character doesn't take any wounds.
 
+<pagebreak>
+
 ## Mortal Wounds
 When a player character is **mortally wounded** the player must roll from the mortally wounded table. For every time during this expedition that the character have received a mortal wound before, add 1 to the dice result. Other game effects can also add or subtract from that value.
 
@@ -627,7 +645,7 @@ When mortally wounded a character is unable to move or perform any actions. The 
 [Mortal wounds]
 {.roll meta-dice=1 meta-values="0|1|2|3|4|5|6|7"}
 
-## Special Tests
+## Special Tests {.break}
 There are some particular cases where attribute tests won't work, let's see some solutions to those problemas.
 
 ### Player opposing tests
@@ -663,10 +681,13 @@ Skills mainly give your character extra abilities to use during the **expedition
 
 Some skills can be upgraded, remove the previous skill before learning the advanced one so it only occupies one slot. They are the ones indented, for clarity. You must always learn the basic skill before the advanced one.
 
-![](images/crafting.png "Adventurer hammering a nail"){.left}
+![](images/crafting.png "Adventurer hammering a nail"){.left .web}
 
 - **Animal Affinity**: You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals.
   - **Beastmaster**:(advanced) You have [advantage]{.tip} for anything that involves fighting, taming, understanding or tracking animals. You have a pet that follows you around (**medium ally**).
+  
+![](images/crafting.png "Adventurer hammering a nail"){.left .print}
+
 - **Ward the dead**: May perform a ritual using 1 exploration turn to ward the [dead vigil]{.tip} from setting inside a circle with 1 meter radius. Does not affect anything that the [dead vigil]{.tip} has already set, only stops it from happening.
 - **Cooking**: Each ration can feed an extra *adventurer* in the camp phase. You get *1 free ration* at the start of the **interlude**.
   - **Master Chef**:(advanced) Each ration can feed two extra *adventurers* in the camp phase. You get *3 free ration* at the start of the **interlude**.
@@ -676,6 +697,9 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Fearless**: Once per combat you may heal one **presence** wound.
 - **Haggle**: During the **interlude** you can re-roll the price of an item once. You must use the new result.
   - **Trade network**: During the **interlude** you can re-roll the price of an item once. You must choose to use the new or old result. You may also reroll the item **availablilty** roll once.
+  
+<pagebreak>
+
 - **Holy Rites**: You have an extensive knowledge about the new gods, prayers and the saints. You may make holy water using clean water and 1 exploration turn.
 - **Infiltration**: Allows the **search for traps** action without proper tools during expeditions and an [advantage]{.tip} when sneaking.
 - **Intimidate**: You may perform an **intimidate** action in combat (2 actions), attacking with **PRE 1N** all **nearby** enemies. Only one intimidate action can be used per combat.
@@ -692,9 +716,7 @@ Some skills can be upgraded, remove the previous skill before learning the advan
 - **Slippery**: You may spend dodge tokens during the enemy turn to move one tile.
 - **Veteran**: (1 explorer action) Test **presence**, on a success you will know how much **doom** this location currently has and how much doom is required to trigger the next step.
 
-<pagebreak>
-
-![](images/hunter.png "Hunter with a bow"){.left}
+![](images/hunter.png "Hunter with a bow"){.left .web}
 
 ## Special Traits
 
@@ -703,6 +725,9 @@ Special traits are similar to skills, but usually add or break a rule to your ch
 - **Berserker**: During combat, ignore **strength** fatigue and wounds when rolling tests. You still take wounds and fatigue normally, and so your character will collapse in exhaustion if your available dices go lower than zero.
 - **Bad omens**: Every time you have a critical fail on a test, advance the **omens** tracker.
 - **Battle trance**: Every time you kill an enemy you get an extra action.
+
+![](images/hunter.png "Hunter with a bow"){.left .print}
+
 - **Cold blood**: You may back-stab enemies that are engaged in combat to another character or distracted, for that you may use **Dexterity** to hit with weapons that would require **Strength**. Enemies can't use **resistance** to reduce your damage and you cause one extra wound.
 - **Divine mandate**: You may cast prayers. You require a holy symbol and to have previously memorized them. Check the [prayers](#prayers) section for more information.
 - **Hardened**: When receiving wounds from an attack, you may test **strength**, on a success, resist **1 wound**. On a [great success]{.tip} resist **2 wounds**.
@@ -710,6 +735,8 @@ Special traits are similar to skills, but usually add or break a rule to your ch
 - **Rejected by death**: If your character would get **mortally wounded**, roll 2d!, if triggered, ignore the mortal wound.
 - **Dauntless**: When you get a **success** on a test, you may roll **2 extra dice** and add them to this test. *This increases your great success and fatigue chance*.
 - **Third eye**: You can see the **omens** tracker.
+
+<pagebreak>
 
 ## Traumas
 Traumas work similarly to **special traits**, except that they are always very bad to the **adventurers**. Traumas are usually received when the character gets mortally wounded. Most traumas can be recovered or at least downgraded to a more manageable one.
@@ -723,6 +750,7 @@ Receiving the same trauma again has no  effect.
 - **Paranoid**: Can't receive help from allies, can't share items other than ration on camp phase. -1 ambush dice on camp phase.
 - **Fearful**: During combat if you are attacked, you move one tile back. If you are attacked more than once you get 1 (and only 1) [stun token]{.tip}.
 - **Visions**: When someone casts a spell **nearby** you receive a [stun token]{.tip}.
+
 
 ## Afflictions {.wide}
 
@@ -746,6 +774,8 @@ If an **adventurer** would receive an affliction he or she already have, ignore 
 [Afflictions]
 
 \* Not exclusive, always check item and spell descriptions for more ways to remove afflictions.
+
+<pagebreak>
 
 ## Inventory
 Characters can carry 7 items + 3 items for each **strength score**. Items should be placed in your character sheet in the appropriate slots in the **Trappings** section. While carrying more items is possible the character will be **encumbered**, all movement is reduced by half and must perform a **strength test** every turn, failing means that something was dropped.
@@ -801,12 +831,23 @@ The [Playing the Game book](./game.html) explains in more detail how each of the
 
 The *GM* can also create more trackers at any moment, to represent long challenges, the tide rising, a strong enemy slowly waking up and so on. Trackers can be hidden from the players or fully visible.
 
+### Light
+**Adventurers** often explore tombs, dungeons and other dark places. Having some sort of light source is essential. The most common ways to light the way in a dungeon are:
+- **Torches**: Light the way [nearby]{.tip}, for Ud4 decays.
+- **Candles**: Light the way [close]{.tip}, for Ud6 decays.
+- **Lantern**: Lights the way [nearby]{.tip} for Ud8 decays. Uses oil. [Quick]{.tip} to turn on and off, [slow]{.tip} to refuel.
+- **Light spell**: Lights the way [nearby]{.tip}, for 1 decay.
+
+Every time the [decay](#decay) happens, the usage dice of the light sources should be tested. If the usage dice is exhausted the light source will be gone next turn, a new one must be lit next turn or the **adventurers** will be left in the dark.
+
+Ending a turn in the dark causes an **adventurer** to take a **presence** fatigue or the **terrified** affliction, player's choice.
+
 <pagebreak>
 
-# About
+# About {.web}
 
 The goal of **Dead Weight** is to capture the classic feeling of dungeon crawling tabletop RPGs and board games. It is inspired by many others, borrowing a lot from Blades in the Dark, HeroQuest (the board game), Forbidden Lands, Knave, The Black Hack and Torchbearer.
 
-This system [open source](https://github.com/saint11/DeadWeight) and is released under [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The **Dead Weight** logo cannot be used without express permission, though.
+This system [open source](https://github.com/saint11/DeadWeight) and is released under [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) licence, you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The **Dead Weight** logo cannot be used without express permission, though.
 
 This game was designed and illustrated by me, [Pedro Medeiros](http://www.saint11.org) and if you like what I'm doing, you may consider supporting me on [Patreon](https://www.patreon.com/saint11).

@@ -6,7 +6,7 @@ date: 2021-04-21
 toc: true
 toc-title: Dead Weight
 hide-title: true
-print: true
+print: 4
 
 links-title: Books
 links:  Core Rules|index, Playing the Game|game, Bestiary*, Blacksalt
@@ -144,15 +144,17 @@ Once human bodies now brought back through the [dead vigil]{.tip}.
 
 <monster id="Unsatiable_Dead">
 
+<pagebreak>
+
 <monster id="rotting_sailor">
 
 <monster id="bloated_screamer">
 
-### Ghosts
+### Ghosts {.big}
 The [dead vigil]{.tip} affects even those that have no corpse left.
 
 <monster id="shadow">
 
-### Humans
+### Humans {.big}
 
 <monster id="bounty_hunter">

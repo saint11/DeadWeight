@@ -6,7 +6,7 @@ date: 2021-04-21
 toc: true
 toc-title: Dead Weight
 hide-title: false
-print: true
+print: 2
 
 links-title: Books
 links:  Core Rules|index, Playing the Game|game, Bestiary, Blacksalt*, Quick Reference|quick-ref
@@ -22,7 +22,7 @@ This book is about the setting of **Dead Weight**,  **Blacksalt Island**. It's a
 This book is also full of reference tables including equipment, class backgrounds and more. Ideally the players should have easy access to this.
 
 # Equipment {.wide}
-![](images/weapons.png "Weapons"){.left}
+![](images/weapons.png "Weapons"){.left .web}
 
 There are 5 item categories **common**, **uncommon**, **valuable**, **rare** and **exotic**. The categories set the item price and how hard is to find it during the **interlude**.
 
@@ -32,11 +32,15 @@ Again, if you really like statistics, this is the statistics map of the [possibl
 
 <itemTable id="1" caption="Common items (1d6 silver, average 3)">
 
+<pagebreak class="simple">
+
 <itemTable id="2" caption="Uncommon items (2 + 2d6 silver, average 9)">
 
 <itemTable id="3" caption="Valuable items (3 x 2d6 silver, average 20)">
 
 <itemTable id="4" caption="Rare items (5 x 3d6 silver, average 50)">
+
+<pagebreak class="simple">
 
 <itemTable id="5" caption="Exotic items (10 x 4d6 silver, 140)">
 
@@ -48,10 +52,10 @@ All weapons can be used with one hand, unless stated otherwise.
 
 <pagebreak>
 
-# Shields
+# Shields {.wide}
 <shieldTable>
 
-# Armor
+# Armor {.wide}
 <armorTable>
 
 <pagebreak>
@@ -65,22 +69,30 @@ Any corpse if left undisturbed will come back to life after 1d6 weeks as a [Fres
 
 The most "elegant" way to dispose of a body is a proper burial ritual, and a coffin with the seal of [Cador](#cador), that will stop the corpse from returning. This is a relatively new technique, during many years people didn't know how to deal with their dead. Different groups of people tried many different rituals and techniques to stop their dead from coming back, most had horrible consequences for them.
 
-# Warrior Background
+<pagebreak>
 
-## Footman
-![](images/warrior-footman.png)
+# Warrior Background
+<pagebreak>
+
+## {.wide .unlisted}
+![](images/warrior-footman.png){.print .wide}
+
+## Footman {.big}
+![](images/warrior-footman.png){.web}
 Trained to fight in an army, footmen are specialized in fighting as a unit, protecting allies and countering enemy attacks.
 Footmen starts with the **hardened** special trait, allowing them to reduce any damage they receive.
 
 #### Equipment  
 Backpack, Spear (STR 3+1B), metal shield(2 [shield tokens]{.tip}), padded armor (2 [AP]{.tip}), soldier helmet (2 [AP]{.tip}), 2d6 silver coins.
 
-#### Manoeuvers {.block}
+#### Manoeuvers {.block .break}
 - **Turtle**: (2 actions) Raise your shield, get on one knee and brace for impact. Perform a defend action (adding the appropriate number of [shield tokens]{.tip}) and for this turn you can't receive fatigue for defending.
 - **Aegis**: During the enemy turn, you may spend a shield token to swap places and receive an attack in place of an adjacent (including diagonals) ally.
 - **Payback**: After spending a shield token for successfully blocking a melee attack you may add a [stun token]{.tip} to the attacking enemy.
 
-## Gladiator
+<pagebreak>
+
+## Gladiator {.big}
 ![](images/warrior-gladiator.png)
 Gladiators are used to gamble their life away for money. To them, the only difference is that **Blacksalt island** pays better.
 
@@ -89,12 +101,14 @@ They start with the **battle trance** special trait, allowing them to chain atta
 #### Equipment 
 Bag, Falchion (STR 3+1B), wooden shield(1 [shield token]{.tip}), gladiator armor (1, 1 [AP]{.tip}), cage helmet(1 [AP]{.tip}), 2d6 silver coins.
 
-#### Manoeuvers {.block}
+#### Manoeuvers {.block .break}
 - **Bash**: (STR 1, 1 action) Bash with your shield or weapon hilt, on a hit add a [stun token]{.tip} to target.
 - **Disarm**: (-DEX 1, 1 action) On hit the target drops the wielded weapon **close**.
 - **Glorious finish**: (1 action) Perform a regular attack. If the gladiator kills the last enemy in the combat with this attack, the whole party recovers one **presence** fatigue or wound. On a failure the gladiator receives 1 presence fatigue. If the combat was purposely stalled, target is currently immobilized or harmless in any way, this has no effect, this only work when there's real danger involved.
 
-## Barbarian
+<pagebreak>
+
+## Barbarian {.big}
 What they lack of formal training barbarians compensate in pure brutality. For them, attack is by far the best defense.
 
 Barbarian have the **berserker** special trait that allows them to keep fighting while ignoring fatigue or wounds.
@@ -107,9 +121,13 @@ Bag, Battle Axe (STR 4+2B), loincloth, war paint, medical supplies x 2, 1d6 coin
 - **Charge**: (1 action) The barbarian charges target forward moving in a straight line, dragging the target. If charge hits a wall place characters as close as possible at the wall, cause 1 wound and one [stun token]{.tip} to target. Uses regular move speed. Does not work on enemies with the **ghost** tag.
 - **Reckless attack**: (1 action) Perform an attack that will cause 1 extra wound. Your next defense will have disadvantage.
 
+<pagebreak>
+
 # Thief Background
 
-## Stalker
+<pagebreak>
+
+## Stalker {.big}
 ![](images/thief-stalker.png "Thief")
 The stalker start with the trait **dauntless** making critical hits much more likely.
 
@@ -121,7 +139,9 @@ Backpack, Ud10 throwing hatchets (DEX 1X+1), animal bones for crafting, Ud4 trap
 - **Incapacitating strike**: (1 action) Attacks with equipped weapon, reduce damage to 1 wound. Immobilizes target for one turn.
 - **Fast trapping**: (1 action) Quickly arm trow a trapping kit 3 tiles away.
 
-## Lone Rogue
+<pagebreak>
+
+## Lone Rogue {.big}
 ![](images/thief-lone.png "Thief"){.left}
 
 Too smart or too dumb to hang out with other thieves, the lone rogue is someone who made living by robbing people on the roads. The lone rogue is constantly on the move chasing opportunities and fleeing from previous mistakes. Often outnumbered, a lone rogue is specialized in getting in and out of combat quickly.
@@ -136,7 +156,9 @@ Bag, 2 short swords (STR 2+1), leather armor (1 [AP]{.tip}), climbing tools, sto
 - **Outsmart**: Once per combat you may use **presence** or **intelligence** instead of **dexterity** or **strength**.
 - **Quick thinking**: (1 action) Test **presence** or **intelligence** on a success add 1 [dodge token]{.tip}.
 
-## Hoodlum
+<pagebreak>
+
+## Hoodlum {.big}
 A gang-member, have a wide net of contacts and is used to violence. Hoodlums are specialized in overwhelming enemies that are outnumbered.
 
 The hoodlum starts with the trait **cold blooded**, allowing them to use **dexterity** instead of **strength** when flanking enemies.
@@ -157,6 +179,8 @@ The moon-curser start with the trait **night-stalker**.
 Backpack, pack mule, Quarterstaff (STR 1+1), black reinforced hood and vest (1 [AP]{.tip}), Ud6 sleeping darts, 3d6 counterfeit coins. 
 
 
+<pagebreak>
+
 # Schools of Magic
 
 ## Time in spell descriptions
@@ -166,7 +190,10 @@ When a spell has a duration that explicitly mentions **exploration turns** it ca
 
 When rolling for duration, unless specified otherwise, the roll is made by the **player** as soon as the spell have been cast.
 
-## Necromancers of Yadar
+
+<pagebreak>
+
+## Necromancers of Yadar {.big}
 
 ![](./images/wizard-necromancer.png){.left}
 
@@ -186,7 +213,9 @@ While necromancers are not combat focussed their high-utility spells can be used
 - **Nightmare:** A target **nearby** creatures immediately falls into a restless sleep, having horribles nightmare. The creature will wake up normally if disturbed.
 - **Bonedance**: Bends the bones of a **nearby** creature in an unnatural way for the duration of the combat. All tests made against that creature are made with advantage. Halves that creature move speed.
 
-## Alchemists of the Golden Ridge
+<pagebreak>
+
+## Alchemists of the Golden Ridge {.big}
 ![](./images/wizard-alchemist.png)
 
 The secret order of the Golden Ridge is focused in transmuting and creating magic potions and artifacts. For centuries they stayed in the Golden Ridge, extracting and transmuting the local fauna and flora, until they the news of Blacksalt reached them. The amount of supernatural elements in Blacksalt is endlessly valuable for them.
@@ -229,7 +258,9 @@ To make a potion the wizard can mix any number of extracts available. Add all fr
 | **Tonic of focus**    |  -1   |  -1   | Cures 2 presence wounds.                                                                                                            |
 | **Purging hot-water** |  +1   |  +1   | Cures 2 strength wounds, causes 1 presence wound. Ud4 uses.                                                                         |
 
-## Thaumaturgists of Ravenhome
+<pagebreak>
+
+## Thaumaturgists of Ravenhome {.big}
 
 Castle Ravenhome is a prestigious institution that offers daily classes, teachers and a title to anyone who completes the program. More than half of students die horribly during the course, though.
 
@@ -242,7 +273,10 @@ Castle Ravenhome is a prestigious institution that offers daily classes, teacher
 - **Pocket reality**: Creates a bag that looks very small on the outside, but has 3 slots. Anything inside do not count towards encumbrance. It lasts until the end of the expedition.
 - **Arcane fire**: Target 2 **nearby** tiles, anything standing in that tile takes 2 wounds per turn, those wounds can be reduced. Lasts until the end of the combat.
 
-## Wandering Mystics
+
+<pagebreak>
+
+## Wandering Mystics {.big}
 Their order is not hierarchical or ordered; rather, they adhere to a strict moral code. They typically select children who are lost as their apprentices. It is common for them not to stay in a place for too long, and they usually share their observations with fellow Wanderers through writing with invisible ink.
 
 #### Spells {.block .unlisted}
@@ -254,7 +288,9 @@ Their order is not hierarchical or ordered; rather, they adhere to a strict mora
 - **Weave fate**: Roll up to the wizard's **available intelligence** dice and keep them around. You may use them to replace any dice result **you** roll in the next 2d6 exploration turns. For every dice you don't use after that, receive one intelligence wound. The *GM* should roll the timer and keep it in secret.
 - **Mystic ink**: Creates an glowing colorful ink that only other wizards with the **mystic ink** spell can see. The wizard's hands can be used to paint with this ink.
 
-## The Awakened
+<pagebreak>
+
+## The Awakened {.big}
 Most Awakened believe themselves to be cursed, they never studied magic but the Void found them. Although they don't fully comprehend their powers, they've learned to use them to survive.
 
 #### Spells {.block .unlisted}
@@ -266,10 +302,14 @@ Most Awakened believe themselves to be cursed, they never studied magic but the 
 - **Hover**: The wizard can hover one meter above the ground, water or similar. Lasts 1d6 turns.
 - **Nether swap**: Immediately swaps place with a target creature.
 
+<pagebreak>
+
 # Gods
 
 ## New Gods
 The new gods are the gods that appeared after the origin of the world. They are the ones worshiped by most humans and other intelligent creatures.
+
+<pagebreak>
 
 ### Goshkalon {.big}
 ![](./images/god_of_laughter.png){.left}
@@ -288,6 +328,8 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 - **Apotheosis**: All **nearby** allies recovers all fatigue, then next turn get it back.
 [Prayers]
 
+<pagebreak>
+
 ### Cador {.big}
 **God of death**, Cador want order to be brought back to the word. Cador is the great enemy of the undead, his zealots hunt them down and seal their corpses so the [dead vigil]{.tip} doesn't set in.
 
@@ -300,6 +342,8 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 - **Judgment**: All undead **nearby** receive a [stun token]{.tip} and a wound.
 - **Memento mori**: Target undead start takeing 1 wound per turn. Lasts 2d6 turns.
 - **Dirge**: Place a token on a **nearby** target that lasts 1d6 turns. If that target dies with the token, all **nearby** living creatures heal 2 wounds.
+
+<pagebreak>
 
 ### Yulak {.big}
 ![](./images/cleric-yulak.png)
@@ -315,6 +359,8 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 - **Martyr**: Cause one wound to the cleric, all nearby allies recover from **bleeding**, **terrified**, **shaken** and **sleepy**.
 - **Purge the filth**: (Nearby) Target gets extremely nauseous, vomiting a black slime and can't act for 2 combat turns or 1 exploration turn. After that the target heals 3 wounds.
 
+<pagebreak>
+
 ### Akhzu {.big}
 ![](images/cleric-akhzu.png "Cleric"){.left}
 
@@ -329,6 +375,8 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 - **Prayer of Spring**: Cures one wound from everyone **Nearby**, including enemies.
 - **Prayer of Winter**: Causes 2 wound to everyone **Nearby**, the cleric and allies receive 1 wound.
 - **Prayer of Autumn**: A weakness takes over everyone **Nearby**, including allies and the cleric. Removes all **shield** and **dodge** tokens.
+
+<pagebreak>
 
 ### Kaal Rafir {.big}
 **The god plague and diseases**, Kaal Rafir is the first of the new gods, originally he was the god of entropy and cold.
@@ -357,6 +405,8 @@ Not much is known of them and their worship is strictly forbidden in most cultur
 ### Ngaazh'theg
 **The eye of the sea**.
 
+<pagebreak>
+
 # History
 
 ## Origins
@@ -379,14 +429,22 @@ Centuries later the hordes of the undead to have dispersed, and most of the tale
 
 This coincided with a major war happening in the main continent, where a gigantic military and political unity known simply as **The Empire** started dominating every kingdom it could reach. To win this war, magical artifacts were necessary and the Empire financed expeditions to **Blacksalt** and payed high prices for anything found. This "gold rush" was intense and fast, several settlements where rebuild in a few months, most notably **Yoros** the biggest port-city of **Blacksalt**.
 
+<pagebreak>
+
 # Geography
 
 Blacksalt is a large island in the south hemisphere of the planet. The climate is warm in the north and gets wet and cold south.
 
-## Blacksalt Island
+
+<pagebreak class="simple">
+
+## Blacksalt Island {.big}
 Very early work in progress of the island map. The final version will be interactive. {.alert}
 
 ![](./images/map.png){.big}
+
+
+<pagebreak>
 
 ### Yoros
 **Settlement size: City (5)**

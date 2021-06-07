@@ -2,18 +2,17 @@
 title: Dead Weight
 author: Pedro Medeiros
 date: 2021-04-21
-
 toc: true
 toc-title: Dead Weight
 hide-title: true
-print: true
-
+print: 3
 links-title: Books
 links:  Core Rules|index, Playing the Game*|game, Bestiary, Blacksalt, Quick Reference|quick-ref
-
 header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
+
+<pagebreak>
 
 # Expedition
 
@@ -118,7 +117,7 @@ If the players have the upper hand and the other side is unaware of their presen
 
 The whole combat only counts as one exploration turn.
 
-#### Catch your breath (1 turn)  {.block .break}
+#### Catch your breath (1 turn)  {.block}
 Like in combat, the party can stop for a while and catch their breath, restoring up to one point of **fatigue** for each attribute. Players may also chose to use any items tagged as *quick* too, such as bandages, light torches and drink water.
 
 #### Look for traps (1 turn) {.block}
@@ -132,6 +131,8 @@ Any item tagged as [quick]{.tip} can be used without using a turn.
 #### Use a slow item (1 turn) {.block}
 Each character can use one item that is tagged as [slow]{.tip}. Items tagged as [camp]{.tip} cannot be used.
 
+<pagebreak>
+
 #### Cast a spell or prayer (1 turn) {.block}
 Choose an available **spell** or **prayer** and perform the appropriate tests specified in the **spell** or **prayer** description.
 Execute that spell effect.
@@ -141,7 +142,6 @@ Even if the spell uses 2 actions in combat, it only uses one exploration turn.
 #### Freeform (1 or more turns) {.block}
 It allows the adventurers to do pretty much anything they want and require some improvisation of the *GM*. Freeform actions usually involve interacting with the ambient, creative thinking and solving puzzles.
 
-<pagebreak>
 
 #### Set up Camp (1 turn) {.block}
 Sooner or later the **adventurers** will need some proper rest, camping will allow them to recover some wounds and afflictions. **Adventurers** can only camp on safe places without any imminent danger. 
@@ -160,17 +160,6 @@ Some actions will not trigger a turn.
 
 #### Exit the expedition {.block}
 If the **adventurers** are near an exit and there is nothing blocking their path, they can choose to leave the expedition and return to the [interlude](#interlude). Leaving the dungeon to the interlude will always advance the *doom tracker*.
-
-### Light
-**Adventurers** often explore tombs, dungeons and other dark places. Having some sort of light source is essential. The most common ways to light the way in a dungeon are:
-- **Torches**: Light the way [nearby]{.tip}, for Ud4 decays.
-- **Candles**: Light the way [close]{.tip}, for Ud6 decays.
-- **Lantern**: Lights the way [nearby]{.tip} for Ud8 decays. Uses oil. [Quick]{.tip} to turn on and off, [slow]{.tip} to refuel.
-- **Light spell**: Lights the way [nearby]{.tip}, for 1 decay.
-
-Every time the [decay](#decay) happens, the usage dice of the light sources should be tested. If the usage dice is exhausted the light source will be gone next turn, a new one must be lit next turn or the **adventurers** will be left in the dark.
-
-Ending a turn in the dark causes an **adventurer** to take a **presence** fatigue or the **terrified** affliction, player's choice.
 
 <pagebreak>
 
@@ -216,8 +205,6 @@ Remove any unused [dodge tokens]{.tip} from all characters. **shield makers** st
 
 If the combat continues, go to [fast players turn](#fast-players-turn) again resuming the combat loop.
 
-<pagebreak>
-
 ### Combat Actions
 
 This is a list of the common combat actions a character can take. Many special abilities and traits will either change how this works limit or expand this list. Players can also take *freeform actions* at the **GM** discretion, the cost of those actions is also decided by the **GM**.
@@ -238,6 +225,8 @@ Check the [taking damage](#taking-damage) on the enemy section to see how enemie
 You may remove one [shield token]{.tip} or [dodge token]{.tip}, if you do so, also recover one **fatigue** point from on a chosen attribute. 
 You may remove one **stunned token** from the character.
 
+<pagebreak>
+
 #### Move (1 action) {.block}
 Move to a new position, the maximum number of tiles is your current number of **dexterity available dices x 2**. Adventurer's **cannot** move diagonally. Moving will remove any unused [shield tokens]{.tip}, but will keep [dodge tokens]{.tip}.
 
@@ -245,7 +234,7 @@ After moving out of a square adjacent to an **enemy** the **adventurer** must im
 
 The character may change their facing after moving.                                                               
 
-#### Catch breath (1 action) {.block .break}
+#### Catch breath (1 action) {.block}
 Recover one **fatigue** point for each **attribute**. 
 
 #### Defend (1 action) {.block}
@@ -293,6 +282,8 @@ To use it the player **test strength**(**STR**), causes 3 wounds on a regular su
 Ranged weapons and attacks have the range specified in the description, if nothing is written, just assume it hits only targets that are **Close**. Here's a ranged weapon example:
 
 > Throwing hatchet (DEX 1+1): Nearby
+
+<pagebreak>
 
 Meaning that a throwing hatchet can be thrown to any target within 5 tiles. At the *GM* discretion line of sight can be enforced and penalties for missing ranged weapons, like hitting other adventurers can also happen. Sometimes the range can be notated in **tiles** too, when a more exact measurement is needed.
 
@@ -358,7 +349,7 @@ Removes the **Shaken** affliction.
 
 Un-exhaust all **prayers**.
 
-#### Use items (free) {.block .break}
+#### Use items (free) {.block}
 **Adventurers** may use as many items tagged as **Slow** or **Quick** as they want.
 
 #### Use camp items (1 action) {.block}
@@ -376,8 +367,6 @@ When using special ration, the ration will not remove the **hungry** affliction,
 - **Tea** or **hot chocolate** removes teh *angry* affliction.
 - **Coffee** removes the *sleepy* affliction.
 
-<pagebreak>
-
 #### Memorize spells and prayers (1 action) {.block}
 **Wizards** and **Clerics** may memorize and forget spells and prayers. 
 
@@ -387,6 +376,8 @@ Recover all fatigue points of the whole party. Removes the **Sleepy** and **Shak
 Un-exhaust all prayers.
 
 Add 1 ambush dice.
+
+<pagebreak>
 
 ### Ambush!
 Camping in a dungeon is always risky. After resolving the actions the *GM* should make an ambush roll. To create a dice poll you should add:
@@ -433,6 +424,8 @@ Every day has the following steps:
 - Sleep
 
 Expeditions counts as a whole day, so when returning from one, skip to the **sleep phase** immediately.
+
+<pagebreak>
 
 ### Settlement Size
 Settlements are places where the adventurers can rest for a few days, tend their wounds and restock before going back the another expedition. Different settlement sizes have different advantages and disadvantages, for example smaller settlements usually have less street violence, but are more exposed to external threats.
@@ -482,6 +475,8 @@ When buying an item, the price must be rolled. That item price should be noted s
 3. **Fief**: Common (4d!), Uncommon(3d!), Valuable(2d!), Rare(1d!), Exotic(unavailable)
 4. **Stronghold**: Common (always), Uncommon(4d!), Valuable(3d!), Rare(2d!), Exotic(1d!)
 5. **City**: Common (always), Uncommon(always), Valuable(4d!), Rare(3d!), Exotic(2d!)
+
+<pagebreak>
 
 #### Go back to expedition {.block}
 Immediately finish the interlude and get back to the **expedition**.
@@ -547,6 +542,8 @@ Sometimes the streets are the only choice.
 | 11-12 | Restore all fatigue and remove **sleepy** and **shaken**.                      |
 [On the streets - size 4-5]
 {.roll meta-dice=2 meta-values="2,3|4,5|6|7|8|9,10|11,12"}
+
+<pagebreak>
 
 |  2d6  | Effect                                                                          |
 | :---: | :------------------------------------------------------------------------------ |
@@ -615,6 +612,8 @@ Sometimes the **adventurers** will advance the **doom tracker** while they are i
 |   5   | You may only buy common items, all item prices are increased by 1 silver.                |
 |   6   | You may not buy items, go to the surgeon/witch doctor or get entertainment here anymore. |
 |   7   | The locals will start hunting you down. This is no longer a safe place.                  | 
+
+<pagebreak>
 
 ## Character Progression
 Unlike most RPG systems the character progression is not always for the better. As the characters goes on adventures they can gain experience, gold and better equipment, but they can also lose their sanity, acquire traumas, curses and mortal enemies.
@@ -686,13 +685,13 @@ When enemies cause wounds to the **adventurers**, the player can decide where to
 
 For more information on how fighting works, check the [combat](#combat) section.
 
+<pagebreak>
+
 ## Taking damage
 
 When an enemy takes damage they will always resist wounds using their **armor**. Enemies armor can break and can't be repaired. Check [receiving wounds](#receiving-wounds) for a full explanation on how **armor** works. After the rolling the **armor test** if the enemy has any **resistance** points, reduce the wound by that number.
 
 **Armor** and **resistance** can reduce the damage to 0, but anything less than 0 is ignored.
 
-<pagebreak>
-
-# Sample Dungeon
+# Sample Dungeon {.web}
 Here's a sample dungeon for the players to delve into. **Only the *GM* should read this section**, so it's on a separate page, follow this [link](dungeon/dungeon_level_1.html) to access it.

@@ -66,7 +66,6 @@ h3.big, h2.big {
     background-image: url(images/ornament1.png);
     background-repeat: repeat;
     clear: both;
-    column-span: all;
 }
 
 h4.block, h3.block, h2.block {

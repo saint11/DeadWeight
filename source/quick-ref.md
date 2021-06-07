@@ -6,7 +6,7 @@ date: 2021-04-21
 toc: true
 toc-title: Quick reference
 hide-title: true
-print: true
+print: 5
 
 links-title: Books
 links:  Core Rules|index, Playing the Game|game, Bestiary, Blacksalt, Quick Reference*|quick-ref
@@ -14,6 +14,7 @@ links:  Core Rules|index, Playing the Game|game, Bestiary, Blacksalt, Quick Refe
 header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
+<pagebreak class="simple">
 
 This is page has a simplified version of the tables and lists most commonly used during a session of **Dead Weight**. If you are unsure about a rule, always check the original tables and list, since they might have a more complete explanation.
 
@@ -47,6 +48,7 @@ This is page has a simplified version of the tables and lists most commonly used
 | **N**  | Non-lethal. Ignore any damage that would kill or mortally wound a character. |
 [Weapon Effects]
 
+<pagebreak class="simple">
 
 # Combat Actions
 If the player has one or more **stunned token** they can only do a [recover action](#recover-1-action) until there are no more tokens left.
@@ -65,7 +67,7 @@ Move to a new position, the maximum number of tiles is your current number of **
 
 After moving out of a square adjacent to an **enemy** the **adventurer** must immediately stop the movement.                                                           
 
-#### Catch breath (1 action) {.block .break}
+#### Catch breath (1 action) {.block}
 Recover one **fatigue** point for each **attribute**. 
 
 #### Defend (1 action) {.block}
@@ -80,6 +82,8 @@ Add another one on a **great success** on your character.
 #### Cast spell, invoke a prayer or perform a combat manoeuver (1 or 2 actions) {.block}
 Choose an available **spell**, **prayer** or **manoeuver** and tests the appropriate **attribute** specified in the **spell**, **prayer** or **manoeuver** description. Unless specified on the description, this costs **1 action** and have **close** range.
 Execute that effect.
+
+<pagebreak class="simple">
 
 #### Use item or change equipment (1 action) {.block}
 Equip and/or use an item for it's effect.
@@ -106,11 +110,13 @@ Talk to someone or something in the dungeon.
 #### Start Combat (1 turn)  {.block}
 Start a combat. The whole combat only counts as one exploration turn.
 
-#### Catch your breath (1 turn)  {.block .break}
+#### Catch your breath (1 turn)  {.block}
 Restore up to one point of **fatigue** for each attribute. Players may also chose to use any items tagged as *quick* too, such as bandages, light torches and drink water.
 
 #### Look for traps (1 turn) {.block}
 Looking for traps requires the **infiltration** skill, and explanation on how they look or at least some kind of tool, like a pole.
+
+<pagebreak class="simple">
 
 #### Use a quick item (free) {.block}
 Any item tagged as [quick]{.tip} can be used without using a turn.
@@ -137,6 +143,8 @@ Some actions will not trigger a turn.
 - Snuffing out torches or other equally simple action.
 - Talk to each other.
 
+<pagebreak class="simple">
+
 # Camp
 ## Setup 
 - Add 1 **actions** if the adventurers are camping in a dry and stable place.
@@ -157,11 +165,13 @@ Removes the **Shaken** affliction.
 
 Un-exhaust all **prayers**.
 
-#### Use items (free) {.block .break}
+#### Use items (free) {.block}
 **Adventurers** may use as many items tagged as **Slow** or **Quick** as they want.
 
 #### Use camp items (1 action) {.block}
 Each **adventurer** can use one item tagged with **Camp** for its effects.
+
+<pagebreak class="simple">
 
 #### Cook some food (1 action) {.block}
 Cooking, different than other items has an special action, and requires a fire and at least one **camping supplies** to have been used during this camp.
@@ -184,6 +194,8 @@ Recover all fatigue points of the whole party. Removes the **Sleepy** and **Shak
 Un-exhaust all prayers.
 
 Add 1 ambush dice.
+
+<pagebreak class="simple">
 
 # Skills
 - **Animal Affinity**: You have [advantage]{.tip} when testing for anything that involves taming, understanding or tracking wild animals.
@@ -218,6 +230,8 @@ Weapon and armor use depends on the character arsenal skill. Using an equipment 
 - **Weapon master**: Can use any weapon or armor.
 - **Basic weapon training**: Can use one handed melee weapons, any staves, any ranged weapons and leather armor.
 - **No weapon training**: Can use only small one handed weapons, any staves and no armor.
+
+<pagebreak class="simple">
 
 # Special Traits
 - **Berserker**: During combat, ignore **strength** fatigue and wounds when rolling tests. You still take wounds and fatigue normally, and so your character will collapse in exhaustion if your available dices go lower than zero.

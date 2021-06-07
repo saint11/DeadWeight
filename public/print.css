@@ -1,4 +1,5 @@
 @import "style.css";
+
 .draft {
     display: none;
     visibility: hidden;
@@ -35,12 +36,31 @@
     background-size: 8cm;
     background-color: #fff;
     position: relative;
+    
+    border: solid #00000022 1pt;
+    border-radius: 3pt;
+
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tooltip, .alert{
+    display: none;
 }
 
 /* 
 p :not(.page) {
     background-color: tomato;
 } */
+
+.page.first {
+    column-count: 1;
+    -webkit-column-count: 1;
+    filter: invert() grayscale();
+}
 
 .page.simple {
     column-count: 1;
@@ -64,6 +84,7 @@ h1, h2, h3, h4 {
 body {
     font-size: .317cm;
     margin: 0;
+    background: none;
 }
 
 .break {
@@ -80,10 +101,10 @@ table {
     right: 1cm;
     position: absolute;
     display: block;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
-.page-number:nth-child(even) {
+.page-number.left {
     left: 1cm;
 }
 
@@ -101,8 +122,13 @@ blockquote {
     -webkit-column-break-inside: avoid;
 }
 
+.monster {
+    -webkit-column-break-inside: avoid;
+}
+
 section.block {
     margin: 0.5cm 0;
+    -webkit-column-break-inside: avoid;
 }
 
 section.block ul {

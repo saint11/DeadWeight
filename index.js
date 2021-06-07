@@ -202,13 +202,36 @@ function processSourcesFolder() {
 
         var files = throughDirectory(sourcePath);
         const renderedFiles = [];
+        var bookMd = [];
+
         files.forEach(file => {
             if (path.extname(file) == ".md") {
                 const fileName = file.substr(0, file.lastIndexOf("."));
-                processMarkDown(fileName);
+                processMarkDown(fileName, bookMd);
                 renderedFiles.push(fileName);
             }
         });
+
+
+        // Make print version
+        var bookRaw = "";
+        bookMd.forEach(el => bookRaw += el + "\n\n");
+
+        var print = getHtmlFromMarkdown(bookRaw, mdPrint, 'print');
+        document = print.dom.window.document;
+
+        // Make print A4 file
+        print.linkElement.setAttribute('href', 'print-a4.css');
+        saveFile(print.dom.serialize(), path.join(publicPath, "book-a4"));
+        saveFile(print.dom.serialize(), path.join(outputPath, "book-a4"));
+
+        // Make print letter file
+        print.linkElement.setAttribute('href', 'print-letter.css');
+        saveFile(print.dom.serialize(), path.join(publicPath, "book-letter"));
+        saveFile(print.dom.serialize(), path.join(outputPath, "book-letter"));
+
+        console.log("Rendered book (A4 and Letter)");
+
 
         // Copy static folder
         fs.copySync(staticPath, publicPath);
@@ -237,7 +260,7 @@ function processSourcesFolder() {
 }
 
 
-function processMarkDown(fileName) {
+function processMarkDown(fileName, mdPrint) {
     const file = fileName.substr(sourcePath.length);
 
     const depth = fileName.split(/\/.+?/g).length;
@@ -259,18 +282,15 @@ function processMarkDown(fileName) {
     saveFile(dom.serialize(), path.join(outputPath, file));
 
     if (mdWeb.meta.print) {
-        var print = getHtmlFromMarkdown(raw, mdPrint, 'print');
-        document = print.dom.window.document;
 
-        // Make print A4 file
-        print.linkElement.setAttribute('href', 'print-a4.css');
-        saveFile(print.dom.serialize(), path.join(publicPath, file + "-a4"));
-        saveFile(print.dom.serialize(), path.join(outputPath, file + "-a4"));
+        var clear = raw;
 
-        // Make print letter file
-        print.linkElement.setAttribute('href', 'print-letter.css');
-        saveFile(print.dom.serialize(), path.join(outputPath, file + "-letter"));
+        if (mdWeb.meta.print > 0) {
+            console.log("*** header found, cleaning ***");
+            clear = raw.substr(nthIndex(raw, "---", 2) + 3);
+        }
 
+        mdPrint[mdWeb.meta.print] = clear;
         console.log("Rendered " + file);
     }
     else
@@ -395,4 +415,13 @@ function getHtmlFromMarkdown(str, strategy, templateSuffix) {
 
 
     return { dom, linkElement };
+}
+
+function nthIndex(str, pat, n) {
+    var L = str.length, i = -1;
+    while (n-- && i++ < L) {
+        i = str.indexOf(pat, i);
+        if (i < 0) break;
+    }
+    return i;
 }
