@@ -120,3 +120,6 @@ output/*
 public/*.html
 public/dungeon/*.html
 copy_to_saint11.bat
+
+# Mac
+.DS_Store

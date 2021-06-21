@@ -16,7 +16,7 @@ footer-image: images/footer-ornaments.png
 ---
 <pagebreak class="simple">
 
-This is page has a simplified version of the tables and lists most commonly used during a session of **Dead Weight**. If you are unsure about a rule, always check the original tables and list, since they might have a more complete explanation.
+This page has a simplified version of the tables and lists most commonly used during a session of **Dead Weight**. If you are unsure about a rule, always check the original tables and list, since they might have a more complete explanation.
 
 # Afflictions
 
@@ -26,13 +26,13 @@ This is page has a simplified version of the tables and lists most commonly used
 | **Parched**   | Drinking water.                                                     | Cannot recover fatigue.                                                |
 | **Bleeding**  | Use bandages or other form of first aid.                            | Receive one fatigue point every turn.                                  |
 | **Sleepy**    | Camping, coffee or receiving a wound in combat.                     | Can't use **extra effort** or help friends on tests.                   |
-| **Angry**     | Drinking a cup of tea or hot chocolate.                             | Can't reroll your dices with proficiency.                              |
+| **Angry**     | Drinking a cup of tea or hot chocolate.                             | Can't reroll your die with proficiency.                                |
 | **Shaken**    | Resting in the camp phase.                                          | Can't use the **Catch Breath** action in combat or during exploration. |
-| **Nauseated** | Some potions and tonics. Gets healed during the interlude.          | During combat you have one less action.                                |
+| **Nauseated** | Some potions and tonics. Gets healed during the interlude.          | During combat, you have one less action.                               |
 | **Terrified** | Drinking wine or other alcoholic drink or defeat a challenging foe. | Rolling 4 on attribute tests doesn't count as a **success**.           |
 | **Hopeless**  | Escaping alive from the dungeon or survive a challenging fight.     | Rolling 5 or 6 also causes fatigue.                                    |
 | **Cursed**    | Only removed by magic or miracles.                                  | Wounds do not heal by resting. Can see ghosts.                         |
-| **Plagued**   | Only removed by magic or miracles.                                  | Coughs constantly. When receiving fatigue receive a wound instead.     |
+| **Plagued**   | Only removed by magic or miracles.                                  | Coughs constantly. When receiving fatigue, receive a wound instead.    |
 | **Doomed**    | Only removed by magic or miracles.                                  | When the doom tracker moves, it moves one extra point.                 |
 [Afflictions]
 
@@ -51,46 +51,46 @@ This is page has a simplified version of the tables and lists most commonly used
 <pagebreak class="simple">
 
 # Combat Actions
-If the player has one or more **stunned token** they can only do a [recover action](#recover-1-action) until there are no more tokens left.
+If the player has one or more **stunned tokens**, they can only do a [recover action](#recover-1-action) until there are no more tokens left.
 
 #### Attack (1 action) {.block}
 Choose a weapon and a target. Read the weapon description for any special rules.                                              
 Test the weapon **attribute** to hit.                                                                                         
-For each [dodge]{.tip #dodge_token} and [shield token]{.tip} the defender spends, they may choose a dice and force the attacker to reroll it. 
+For each [dodge]{.tip #dodge_token} and [shield token]{.tip} the defender spends, they may choose a die and force the attacker to reroll it. 
 
 #### Recover (1 action) {.block}
-You may remove one [shield token]{.tip} or [dodge token]{.tip}, if you do so, also recover one **fatigue** point from on a chosen attribute. 
+You may remove one [shield token]{.tip} or [dodge token]{.tip}. If you do, also recover one **fatigue** point from a chosen attribute. 
 You may remove one **stunned token** from the character.
 
 #### Move (1 action) {.block}
-Move to a new position, the maximum number of tiles is your current number of **dexterity available dices x 2**. Adventurer's **cannot** move diagonally. Moving will remove any unused [shield tokens]{.tip}, but will keep [dodge tokens]{.tip}.
+Move to a new position - the maximum number of tiles is your current number of **dexterity die x2**. Adventurer's **cannot** move diagonally. Moving will remove any unused [shield tokens]{.tip}, but will keep [dodge tokens]{.tip}.
 
-After moving out of a square adjacent to an **enemy** the **adventurer** must immediately stop the movement.                                                           
+After moving out of a square adjacent to an **enemy**, the **adventurer** must immediately stop the movement.                                                           
 
 #### Catch breath (1 action) {.block}
 Recover one **fatigue** point for each **attribute**. 
 
 #### Defend (1 action) {.block}
 Requires a shield or something that can be used as a shield. 
-Place the number of [shield tokens]{.tip} noted in your equipped shield.
+Place the number of [shield tokens]{.tip} noted on your equipped shield.
 Characters can't have more than 5 [shield tokens]{.tip} at any time.
 
 #### Dodge (2 actions) {.block}
 Make a dexterity test, place 2 [dodge token]{.tip} on a success. 
 Add another one on a **great success** on your character.      
 
-#### Cast spell, invoke a prayer or perform a combat manoeuver (1 or 2 actions) {.block}
-Choose an available **spell**, **prayer** or **manoeuver** and tests the appropriate **attribute** specified in the **spell**, **prayer** or **manoeuver** description. Unless specified on the description, this costs **1 action** and have **close** range.
+#### Cast spell, invoke a prayer or perform a combat maneuver (1 or 2 actions) {.block}
+Choose an available **spell**, **prayer** or **maneuver** and tests the appropriate **attribute** specified in the description. Unless specified in the description, this costs **1 action** and has **close** range.
 Execute that effect.
 
 <pagebreak class="simple">
 
 #### Use item or change equipment (1 action) {.block}
-Equip and/or use an item for it's effect.
+Equip and/or use an item for its effect.
 You can also give or use an item on someone on the same tile if they have inventory space.
 
 #### Help another (2 actions) {.block}
-Next turn an ally will receive an extra dice from you in all their actions, can only be used on allies that are on the same or adjacent positions.
+Next turn, an ally will receive an extra dice from you in all their actions; can only be used on allies that are on the same tile, or an adjacent tile.
 Check *Receiving Help* for more information.
 
 
@@ -100,7 +100,7 @@ Check *Receiving Help* for more information.
 Move to a different location inside the dungeon.
 
 #### Loot (1 turn) {.block}
-Looting a location does not require a test, the *GM* just lists what they find in that location and the **adventurers** can choose what to pick up. Looting can only be used on a safe location, with no enemies or traps. If the players want to try something riskier, it's a freeform action, and may require a test.
+Looting a location does not require a test: the *GM* just lists what they find in that location and the **adventurers** can choose what to pick up. Looting can only be used in a safe location, with no enemies or traps. If the players want to try something riskier, it's a freeform action, and may require a test.
 
 If the location has a trap, the **adventurers** may fall for it.
 
@@ -111,10 +111,10 @@ Talk to someone or something in the dungeon.
 Start a combat. The whole combat only counts as one exploration turn.
 
 #### Catch your breath (1 turn)  {.block}
-Restore up to one point of **fatigue** for each attribute. Players may also chose to use any items tagged as *quick* too, such as bandages, light torches and drink water.
+Restore up to one point of **fatigue** for each attribute. Players may also choose to use any items tagged as *quick*, too, such as bandages, light torches and drink water.
 
 #### Look for traps (1 turn) {.block}
-Looking for traps requires the **infiltration** skill, and explanation on how they look or at least some kind of tool, like a pole.
+Looking for traps requires the **infiltration** skill, and an explanation of how they look or at least some kind of tool, like a pole.
 
 <pagebreak class="simple">
 
@@ -140,17 +140,17 @@ Some actions will not trigger a turn.
 
 - Players may rearrange their adventurer's equipment, equipping and un-equipping items.
 - Adventurers may use any item tagged as [quick]{.tip}.
-- Snuffing out torches or other equally simple action.
+- Snuffing out torches or other equally simple actions.
 - Talk to each other.
 
 <pagebreak class="simple">
 
 # Camp
 ## Setup 
-- Add 1 **actions** if the adventurers are camping in a dry and stable place.
+- Add 1 **action** if the adventurers are camping in a dry and stable place.
 - Add 1 **action** for each *camping supply* item used.
 - Add 1 **action** for each **adventurer** with the survivalist skill.
-- Add 1 **action** the the **players** decide to make a fire. It requires *camping supply* or *firewood*.
+- Add 1 **action** if the **players** decide to make a fire. It requires a *camping supply* or *firewood*.
 - Add 2 **actions** and **advance the doom tracker** if  the players decide to take a long rest.
 - Subtract 1 **action** if the location is particularly **filthy** or **unhealthy**. (Cold, flooded, littered with corpses, etc.)
 
@@ -159,7 +159,7 @@ Some actions will not trigger a turn.
 Remove 1 ambush dice.
 
 #### A well deserved rest (1 actions) {.block}
-Recover all fatigue points of the whole party.
+Recover all of the party's fatigue points.
 
 Removes the **Shaken** affliction.
 
