@@ -630,7 +630,7 @@ If the received wounds is reduced to zero or less by armor or other resistances,
 ## Mortal Wounds
 When a player character is **mortally wounded** the player must roll from the mortally wounded table. For every time during this expedition that the character have received a mortal wound before, add 1 to the dice result. Other game effects can also add or subtract from that value.
 
-When mortally wounded a character is unable to move or perform any actions. The character must be stabilized with a **first aid kit**, **medical supply** or **healing spell** to wake up.
+When mortally wounded a character is unable to move or perform any actions. The character must be stabilized with a **first aid kit**, **medical supply** or **healing spell** to wake up. If your character already have the trauma you would receive, ignore it.
 
 |  1d6  | Effect                                                                                            |
 | :---: | :------------------------------------------------------------------------------------------------ |
