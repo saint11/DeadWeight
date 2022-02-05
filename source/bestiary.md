@@ -9,7 +9,7 @@ hide-title: true
 print: 4
 
 links-title: Books
-links:  Core Rules|index, Playing the Game|game, Bestiary*, Blacksalt
+links:  Core Rules|index, Playing the Game|game, Bestiary*, Blacksalt, Quick Reference|quick-ref
 
 header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
@@ -88,7 +88,7 @@ No one knows how a goblin matriarch is made.
 ### Dungeon Scavengers  {.big}
 The dungeon ruins have corpses and rotting things all around. While humans avoid those places, they might just be what some creatures are looking for.
 
-![](images/Zombie%20Rat.png "Plagued rat"){.left}
+![](images/zombie_rat.png "Plagued rat"){.left}
 
 <monster id="plagued_rat">
 

@@ -9,6 +9,8 @@ You may use this repository to make your own hacks of **Dead Weight** or to use 
 # How to build
 You need a [text editor](https://code.visualstudio.com/) that supports markdown and [NPM](https://www.npmjs.com/get-npm) installed.
 
+Run `npm update` to install dependencies.
+
 Open your terminal in this repository location, and run `npm run dev`. This will allow you to access you website on `http://localhost:3000/` while the command is running.
 
 The **public folder** has a "draft" version of your website, that includes all chapters and sections tagged as ".draft". Any `.html` files stored here will be deleted with every export and then replaced with the new ones exported from the `.md` in the **source folder**.

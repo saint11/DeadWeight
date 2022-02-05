@@ -72,10 +72,6 @@ The most "elegant" way to dispose of a body is a proper burial ritual, and a cof
 <pagebreak>
 
 # Warrior Background
-<pagebreak>
-
-## {.wide .unlisted}
-![](images/warrior-footman.png){.print .wide}
 
 ## Footman {.big}
 ![](images/warrior-footman.png){.web}
@@ -109,6 +105,7 @@ Bag, Falchion (STR 3+1B), wooden shield(1 [shield token]{.tip}), gladiator armor
 <pagebreak>
 
 ## Barbarian {.big}
+![](images/warrior-barbarian.png)
 What they lack of formal training barbarians compensate in pure brutality. For them, attack is by far the best defense.
 
 Barbarian have the **berserker** special trait that allows them to keep fighting while ignoring fatigue or wounds.
