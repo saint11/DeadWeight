@@ -139,9 +139,11 @@ Execute that spell effect.
 
 Even if the spell uses 2 actions in combat, it only uses one exploration turn.
 
+#### Concentrate (1 turn) {.block}
+By concentrating into the dream world, a **wizard** may try to refresh their knowledge on one spell they forgot if they succeed an **intelligence** test. If the test fails, roll from the [spell mishap](./index.html#spells) table but do not add previous mishaps or count this as a mishap.
+
 #### Freeform (1 or more turns) {.block}
 It allows the adventurers to do pretty much anything they want and require some improvisation of the *GM*. Freeform actions usually involve interacting with the ambient, creative thinking and solving puzzles.
-
 
 #### Set up Camp (1 turn) {.block}
 Sooner or later the **adventurers** will need some proper rest, camping will allow them to recover some wounds and afflictions. **Adventurers** can only camp on safe places without any imminent danger. 

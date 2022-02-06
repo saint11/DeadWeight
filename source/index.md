@@ -136,7 +136,7 @@ After that the adventure starts! It is recommended to start on the **expedition*
 
 Let's start by creating your character, don't worry too much about the rule system for now, just follow the steps from this chapter and choose what you think sounds more exciting. If you really want to know the rules before doing this, you can skip ahead and come back after you learned the rules.
 
-Every character starts their life with **1 insight point**. For now **insight points** can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight, later in the game insight will be used to level up your character. When playing with a group, if your character has the same **life path** as another character in your party, you may, only once, roll again without spending insight.
+Every character starts their life with **1 insight point** they can be used to re-roll one or both dice of a life path roll, some life paths will give you more insight, later in the game insight will be used to level up your character. When playing with a group, if your character has the same **life path** as another character in your party, you may, only once, roll again without spending insight.
 
 When you complete the last step of your character, you can immediately spend any insight you have left, without even placing it in the character sheet. That is recommended, since you can only earn a limited amount of insight during the whole lifetime of your character. You can see how to spend insight in the [playing the game](./game.html#character-progression) book.
 
@@ -160,6 +160,15 @@ All **attributes scores** start at 1, all **attribute proficiencies** starts at 
 **Attributes scores** can **not** go lower than 0 or higher than 3 at any point of the character creation, ignore any excess points.
 
 **Attribute proficiencies** can **not** go lower than 0 or higher than 2 at any point of the character creation, ignore any excess points.
+
+By default, characters start with a **belt**, **canteen** and a **bag** [[#Inventory]]. You also have a few start [[#Items]]:
+- 1d6 torches
+- 1 ration
+- On 3d! ([[#Risk dice]]), 1 camping supply
+- On 2d!, 1 bandage
+- Your class's start items. See [[#Choose your class]] below.
+
+If no one got a camping supply, someone in the group may receive one.
 
 <pagebreak class="simple"> 
 
@@ -256,7 +265,7 @@ Once per session you may use your burden to make your character's life harder. T
 |   9   | **Zealous Fury:** *Blacksalt* must be cleansed of any diabolical presence, no matter the cost.                    |
 |  10   | **Amnesia:** You don't know how you got here, you just woke up here one day, you are often confused.              |
 |  11   | **An Heir:** Your family is waiting for you, you will come back for them, they are counting on you.               |
-|  12   | **A Soul Sold:** You are going to hell, and you know it.                                                          |
+|  12   | **A Soul Sold:** You are going to hell, and you know it. Do your actions even matter now?                         |
 {.roll meta-dice=2}
 
 <pagebreak class="simple"> 
@@ -403,7 +412,7 @@ Casting a spell is always guaranteed to work, after the spell effects are resolv
 |           16           | A third eye opens in your forehead, you are now with the **Cursed** affliction.                        |
 |           17           | You quickly teleport to the *void realm* and back, all your equipments and items stay there.           |
 |           18           | Summon a *endless horror* **Nearby**.                                                                  |
-[ Spell Mishap]
+[Spell Mishap]
  {.roll meta-dice=3}
 
 <pagebreak>
@@ -440,7 +449,7 @@ Casting a prayer is not guaranteed to always work, since the gods can be cruel s
 |  1d6  | Effect                                                                                                                                        |
 | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------- |
 |   1   | You heal 1d6 wounds of you or someone **Nearby**.                                                                                             |
-|   2   | Get 1d6 points of morale in this combat (or next, if out of combat).                                                                          |
+|   2   | You heal all wounds or fatigue on one attribute of you or someone **Nearby**.                                                                 |
 |   3   | **Unexhaust** all prayers.                                                                                                                    |
 |   4   | Cure the one of the following afflictions from you or someone **Nearby**: Hungry, Parched, Bleeding, Nauseated or Cursed.                     |
 |   5   | If you are in combat, all monsters try to flee in fear, if not decrease the doom tracker.                                                     |
@@ -615,9 +624,9 @@ When receiving **wounds** you must choose one or more attributes to place them. 
 
 Attributes can't hold more wounds than their **score**.
 
-Sometimes a rule will force the player to place the wounds in a specific attribute. If the specified attribute can't hold that many wounds, ignore the excess and the character will immediately collapse and faint. A common example for this is when receiving fatigue on an attribute that's already filled with wounds, this would make the character break down from exhaustion.
+Sometimes a rule will force the player to place the wounds in a specific attribute. If the specified attribute can't hold that many wounds, ignore the excess and the character will immediately collapse and [faint](#fainting). A common example for this is when receiving fatigue on an attribute that's already filled with wounds, this would make the character break down from exhaustion.
 
-If no attribute that can hold any more **wounds**, meaning that all available dice have been reduced to zero, and another wound must be placed, that **character** gets **mortally wounded**. Most wounds are considered **lethal**, but sometimes a character will receive a **non-lethal wound**. When that happens a character will not be mortally wounded when receiving that damage, all excess points will just be discarded.
+If no attribute that can hold any more **wounds**, meaning that all available dice have been reduced to zero, and another wound must be placed, that **character** gets **mortally wounded**. Most wounds are considered **lethal**, but sometimes a character will receive a **non-lethal wound**. When that happens a character will not be mortally wounded when receiving that damage, all excess points will just be discarded and the character just [faints](#fainting).
 
 **Mortally wounded characters** don’t die immediately, they cannot take any actions and must be **stabilized** by someone after the combat. If a mortally wounded character receives any more damage that character will die.
 
@@ -627,19 +636,28 @@ If the received wounds is reduced to zero or less by armor or other resistances,
 
 <pagebreak>
 
-## Mortal Wounds
-When a player character is **mortally wounded** the player must roll from the mortally wounded table. For every time during this expedition that the character have received a mortal wound before, add 1 to the dice result. Other game effects can also add or subtract from that value.
+## Fainting
+When a character would recive a fatigue or would point but it is impossible to place it, they immediately **faint**. Then, the character cannot move or take any actions. Wounds continue to be placed as normal.
 
-When mortally wounded a character is unable to move or perform any actions. The character must be stabilized with a **first aid kit**, **medical supply** or **healing spell** to wake up. If your character already have the trauma you would receive, ignore it.
+Keep track of how many wounds wered discarded when you fainted. You stay fainted for at least that amount of turns (combat or exploration turns). Discard all stun tokens while in this state. After waiting you may roll 1D! to try waking up by yourself.
+
+Outside of combat other characters can stabilize you with a **first aid kit, medical supply or healing spell** and wake you up.
+
+## Mortal Wounds
+When a player character is **mortally wounded** the player must roll from the mortally wounded table.
+- Add 1 to the dice result for each time the character was mortally wounded during this [Expedition](#expedition-phase).
+- Other game effects can also add or subtract from that value.
+
+A mortally wounded character cannot move or perform any actions. The character must be stabilized with a **first aid kit**, **medical supply** or **healing spell** to wake up. If your character already have the trauma you would receive, ignore it.
 
 |  1d6  | Effect                                                                                            |
 | :---: | :------------------------------------------------------------------------------------------------ |
 |  0-   | Nothing but a scratch! You stand your ground and do not fall mortally wounded.                    |
-|   1   | Knocked out, but no lasting consequence.                                                          |
-|   2   | This injury won't heal how it should. Get the **chronic pain**.                                   |
-|   3   | Choose a trauma you don't currently have.                                                         |
-|   4   | You bleed internally. Get the **brain damage** trauma.                                            |
-|   5   | You see the other side. Get the **visions** trauma.                                               |
+|   1   | Knocked out, but no lasting consequence. See [fainting](#fainting).                               |
+|   2   | This injury won't heal how it should. Get the **chronic pain** [trauma](#traumas).                |
+|   3   | Choose a [trauma](#traumas) you don't currently have.                                             |
+|   4   | You bleed internally. Get the **brain damage** [trauma](#traumas).                                |
+|   5   | You see the other side. Get the **visions** [trauma](#traumas).                                   |
 |   6   | On the verge of death! If not stabilized in 1 combat turn, you are dead. No lasting consequences. |
 |  7+   | You are are **dead**.                                                                             |
 [Mortal wounds]

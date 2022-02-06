@@ -11,6 +11,16 @@ print: false
 
 Last update was <now>
 
+## Changelog
+
+### 0.61
+- Removed traces of the unimplemented morale (payer miracles).
+- Added sacrifice for Goshkalon.
+- Added explicit rules for fainting and better mortal wound rules.
+- Added "Concentrate" action for wizards to remember lost spells when in a pinch.
+
+Thanks to **EinBurgbauer** for sending me some amazing feedback and suggestions.
+
 ## Done Recently
 - [x] Rework and expand life paths
   - [x] infancy

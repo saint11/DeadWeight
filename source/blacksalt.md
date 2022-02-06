@@ -284,6 +284,7 @@ Their order is not hierarchical or ordered; rather, they adhere to a strict mora
 - **Mind fog**: A target **close** cannot form memories of the next 1d4 turns. The *GM* should roll the dice in secret.
 - **Weave fate**: Roll up to the wizard's **available intelligence** dice and keep them around. You may use them to replace any dice result **you** roll in the next 2d6 exploration turns. For every dice you don't use after that, receive one intelligence wound. The *GM* should roll the timer and keep it in secret.
 - **Mystic ink**: Creates an glowing colorful ink that only other wizards with the **mystic ink** spell can see. The wizard's hands can be used to paint with this ink.
+- **Morbid touch**: Conjures a see-though hand with a morbid aura toward an **nearby** target. Attacks with (INT 2P), then dissipates.
 
 <pagebreak>
 
@@ -313,6 +314,8 @@ The new gods are the gods that appeared after the origin of the world. They are 
 **The God of Laughter**, Goshkadon is a quite controversial god. His influence is mostly perceived as benign, but he's worshiped by goblins, gnolls and other evil cults. His blessings are never straightforward, usually having some ironic humor to it, never really fixing any real problems, only numbing the symptoms and effects of them.
 
 Often venerated at the sites of great tragedies, gathering followers among the desperate and hopeless. Worshiping **Goshkalon** gives its devotees so much bliss that some will pray so obsessively that often die from hunger, thirst, and exhaustion without even noticing it.
+
+**Sacrifice**: Burn a number of silver coins in a fire, which will boil and disappear. Roll that number of dice (Xd!), if triggered, Goshkalon will be pleased.
 
 <break>
 
