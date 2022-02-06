@@ -13,9 +13,10 @@ Last update was <now>
 
 ## Changelog
 
-### 0.61
+### 0.7
 - Removed traces of the unimplemented morale (payer miracles).
 - Added sacrifice for Goshkalon.
+- Added attack spell for wandering mystic
 - Added explicit rules for fainting and better mortal wound rules.
 - Added "Concentrate" action for wizards to remember lost spells when in a pinch.
 
@@ -55,6 +56,7 @@ Thanks to **EinBurgbauer** for sending me some amazing feedback and suggestions.
 ## Next
 - [ ] World map
 - [ ] Improve intro
+- [ ] Improve interlude
 - [ ] Review the print version
 
 ## Later

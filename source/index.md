@@ -637,9 +637,9 @@ If the received wounds is reduced to zero or less by armor or other resistances,
 <pagebreak>
 
 ## Fainting
-When a character would recive a fatigue or would point but it is impossible to place it, they immediately **faint**. Then, the character cannot move or take any actions. Wounds continue to be placed as normal.
+When a character would receive a fatigue or would point but it is impossible to place it, they immediately **faint**. Then, the character cannot move or take any actions. Wounds continue to be placed as normal.
 
-Keep track of how many wounds wered discarded when you fainted. You stay fainted for at least that amount of turns (combat or exploration turns). Discard all stun tokens while in this state. After waiting you may roll 1D! to try waking up by yourself.
+Keep track of how many wounds were discarded when you fainted. You stay fainted for at least that amount of turns (combat or exploration turns). Discard all stun tokens while in this state. After waiting you may roll 1D! to try waking up by yourself.
 
 Outside of combat other characters can stabilize you with a **first aid kit, medical supply or healing spell** and wake you up.
 
