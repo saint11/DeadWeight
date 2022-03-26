@@ -114,7 +114,7 @@ Barbarian have the **berserker** special trait that allows them to keep fighting
 Bag, Battle Axe (STR 4+2B), loincloth, war paint, medical supplies x 2, 1d6 coins.
 
 #### Manoeuvers {.block}
-- **Roar**: (PRE, 1 action) All enemies nearby. The barbarian must perform a **presence** test for each target. Causes a [stun token]{.tip}. Can only be performed once per battle. Only works on enemies with the **living** tag.
+- **Roar**: (PRE, 1 action) All enemies [nearby]{.tip}. The barbarian must perform a **presence** test for each target. Causes a [stun token]{.tip}. Can only be performed once per battle. Only works on enemies with the **living** tag.
 - **Charge**: (1 action) The barbarian charges target forward moving in a straight line, dragging the target. If charge hits a wall place characters as close as possible at the wall, cause 1 wound and one [stun token]{.tip} to target. Uses regular move speed. Does not work on enemies with the **ghost** tag.
 - **Reckless attack**: (1 action) Perform an attack that will cause 1 extra wound. Your next defense will have disadvantage.
 
@@ -354,39 +354,41 @@ Often venerated at the sites of great tragedies, gathering followers among the d
 
 #### Prayers {.block .unlisted}
 - **Detect Evil**: Everything **nearby** that's evil or undead glows with a green light, lasts for 1d6 turns.
-- **Righteous Fury**: (Close) Target gets **3 extra dice** in the next row and the **angry** affliction. Add one wound to any damage caused by the target in the next row.
-- **Cleansing Flames**: (Close) Holds the target while chanting, burning the target from inside, attacking with **STR 1PR+6**. If the target is an ally cure any affliction, except for **cursed**, **doomed** and **plagued**.
+- **Righteous Fury**: A [close]{.tip} target gets **3 extra dice** in the next row and the **angry** affliction. Add one wound to any damage caused by the target in the next row.
+- **Cleansing Flames**: Holds a [close]{.tip} target while chanting, burning the target from inside, attacking with **STR 1PR+6**. If the target is an ally cure any affliction, except for **cursed**, **doomed** and **plagued**.
 - **Martyr**: Cause one wound to the cleric, all nearby allies recover from **bleeding**, **terrified**, **shaken** and **sleepy**.
-- **Purge the filth**: (Nearby) Target gets extremely nauseous, vomiting a black slime and can't act for 2 combat turns or 1 exploration turn. After that the target heals 3 wounds.
+- **Purge the filth**: A target [nearby]{.tip} gets extremely nauseous, vomiting a black slime and can't act for 2 combat turns or 1 exploration turn. After that the target heals 3 wounds.
 
 <pagebreak>
 
 ### Akhzu {.big}
-![](images/cleric-akhzu.png "Cleric"){.left}
+![](images/cleric-akhzu.png "Cleric")
 
 **God of nature and chimeras**, Akhzu embraces the chaos and the natural flow of the wild.
 
 **Sacrifice**: To pacify Akhzu, the cleric must feed the earth, burring 2 rations.
 
 #### Prayers {.block .unlisted}
-- **Season of changes**: (Nearby ally) You may move any number of **wounds** and **fatigues** from one attribute to another.
+- **Season of changes**: Choose a [nearby]{.tip} ally. That ally may move any number of **wounds** and **fatigues** from one attribute to another.
 - **Eyes of the forest**: Creates a magical eye on a **Distant** tree that you can currently see. You can see though the magical eye during the current expedition. The eye dies if the tree is cut.
-- **Prayer of Summer**: Repair one armor point from everyone **Nearby**, including enemies.
-- **Prayer of Spring**: Cures one wound from everyone **Nearby**, including enemies.
-- **Prayer of Winter**: Causes 2 wound to everyone **Nearby**, the cleric and allies receive 1 wound.
-- **Prayer of Autumn**: A weakness takes over everyone **Nearby**, including allies and the cleric. Removes all **shield** and **dodge** tokens.
+- **Prayer of Summer**: Repair one armor point from everyone [nearby]{.tip}, including enemies.
+- **Prayer of Spring**: Cures one wound from everyone [nearby]{.tip}, including enemies.
+- **Prayer of Winter**: Causes 2 wound to everyone [nearby]{.tip}, the cleric and allies receive 1 wound.
+- **Prayer of Autumn**: A weakness takes over everyone [nearby]{.tip}, including allies and the cleric. Removes all **shield** and **dodge** tokens.
 
 <pagebreak>
 
 ### Kaal Rafir {.big}
-**The god plague and diseases**, Kaal Rafir is the first of the new gods, originally he was the god of entropy and cold.
+**The god plague and diseases**, Kaal Rafir is the first of the new gods. Originally he was one of the old gods, the god of entropy and cold, after siding with the new gods during their uprising he was punished 
 
 **Sacrifice**: Kaal Rafir doesn't require sacrifices, but just praying for him at the camp will restore the cleric's powers. But when angered the whole party takes 2 non-lethal presence fatigue.
 
 #### Prayers {.block .unlisted}
-- **Hold**: (Nearby) Paralyzes target for 1d6 turns, reducing the target's actions to zero.
-- **Silence**: Absolute silence covers a **Nearby** area, no spells may be cast.
+- **Hold**: Paralyzes [nearby]{.tip} target for 1d6 turns, reducing the target's actions to zero.
+- **Silence**: Absolute silence covers a [nearby]{.tip} area, no spells may be cast.
 - **Swarm**: Summons a [swarm of insects]{.m} that can be commanded by the cleric.
+- **Entropy**: Causes everyone [nearby]{.tip}, except the caster, to spend an action or take 2 non-lethal fatigue.
+- **Decay**: A [nearby]{.tip} target is cursed for 5 turns, taking **1 non-lethal** fatigue at the start of the turn.
 
 ## Old Gods {.draft}
 Old gods are the ones that lived before the creation of the current world. Before this world there was another one, and some event caused it to be destroyed and the creation of the current one. These beings are so powerful that they didn't fade when their world god destroyed.

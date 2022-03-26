@@ -2273,7 +2273,7 @@
 				{
 					"Name": "Notched whip",
 					"Stats": "DEX 1R + 2B",
-					"Special Rules": "If the enemy has no armor, add a **stun maker** to the enemy. Can hit diagonally.",
+					"Special Rules": "If the enemy has no armor, add a **stun token** to the enemy. Can hit diagonally.",
 					"rarity": 2
 				},
 				{
