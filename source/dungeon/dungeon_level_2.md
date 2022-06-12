@@ -43,7 +43,7 @@ This room's the lab of Acheron Zul. It's filled with failed experiments. Tall, g
 - The other corpses inside the tubes twitch and look at the **adventurers** when they move around, but are harmless.
 - The green liquid is highly toxic: any contact with it will cause one **intelligence** wound (can't be reduced), and the **nauseated** affliction.
 - 2 **ether** and 2 **fire** extract can be found here.
-- Nn **alchemic kit** is on the table.
+- An **alchemic kit** is on the table.
 - A bottle labeled **wine of Yoros** is on the floor.
 - There's a journal here; the last passage says: 
   >"By absorbing corpses into the void, the weavers can certainly stop the dead vigil from happening. However, whenever they feed, everyone in the tomb feels sick and dizzy, and food rots and spoils. Worryingly, the area of effect is getting larger and larger with every corpse disposed. The question I have is whether there is a limit."
