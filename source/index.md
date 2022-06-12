@@ -843,7 +843,7 @@ Also known as a *progress clock* in other systems, a **tracker** is just one or 
 
 - **Decay tracker**: Represents the toll that dungeon delving takes on the **adventurers**. Causes hunger, exhaustion and other bad things to the players. Advances every turn.
 - **Doom tracker**: There's one for each dungeon, representing the dungeon "waking up" to the **adventurers**' presence and reacting.
-- **Omens tracker**: There's one for the whole campaign. Represents the **adventurers**' terrible luck and their inevitable doom in **Blacksalt island**. Every time it gets completed, something really bad happens. (???? Are these two reversed?)
+- **Bad Omens tracker**: There's one for the whole campaign. Represents the **adventurers**' terrible luck and their inevitable doom in **Blacksalt island**. Every time it gets completed, something really bad happens.
 
 The [Playing the Game book](./game.html) explains in more detail how each of these trackers work, so don't worry about them for now.
 
