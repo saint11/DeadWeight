@@ -321,7 +321,7 @@
 					],
 					"Special": [
 						{
-							"Description": "Small and  fast, add disadvantage to hit"
+							"Description": "Small and fast, add disadvantage to hit"
 						}
 					],
 					"Armor": 2,
@@ -331,7 +331,7 @@
 					"Actions": [
 						{
 							"Name": "Void Axe",
-							"Check": "-DEX",
+							"Check": "-DEX ",
 							"Description": ""
 						}
 					]
@@ -647,7 +647,7 @@
 						{
 							"Name": "Bite",
 							"Check": "STR 2",
-							"Description": "If causes a wound *attach* to **adventurer**. Causes **Sleepy**. Causes **Bleeding** until removed."
+							"Description": "If causes a wound *attach* to **adventurer**. Caused **Sleepy**. Causes **Bleeding** until removed"
 						}
 					],
 					"Movement": 4,
@@ -711,7 +711,7 @@
 						{
 							"Name": "Bash",
 							"Check": "-STR 2",
-							"Description": "On hit moves the player character to an adjacent tile"
+							"Description": "On hit moves the player character to an adjacent tile."
 						}
 					],
 					"Movement": 8,
@@ -843,7 +843,7 @@
 						{
 							"Name": "Feast",
 							"Check": "",
-							"Description": "2 actions. Heal all wounds, consumes a corpse and becomes a **Unsatiable Dead**."
+							"Description": "2 actions. Heal all wounds, consumes a corpse and becomes an **Unsatiable Dead**."
 						}
 					],
 					"Movement": 6,
@@ -1003,7 +1003,7 @@
 						{
 							"Name": "Lunge",
 							"Check": "DEX 2",
-							"Description": "3 tiles. Gets attached on hit, moving with target until hit."
+							"Description": "3 tiles. Gets attatched on hit, moving with target until hit."
 						}
 					]
 				},
@@ -1595,7 +1595,7 @@
 						{
 							"roll": 10,
 							"name": "Cook",
-							"description": "While there is hungry people you will always have a job.",
+							"description": "While there are hungry people, you will always have a job.",
 							"effect": "+DEX,+INTp,$cook",
 							"choose_effect": []
 						},
@@ -1620,7 +1620,7 @@
 					"Step": [
 						{
 							"roll": 2,
-							"name": "Forced to work on a circus",
+							"name": "Forced to work in a circus",
 							"description": "The things you've seen behind the curtains changed you forever.",
 							"effect": "+DEXp,-INT",
 							"choose_effect": []
@@ -1656,7 +1656,7 @@
 						{
 							"roll": 7,
 							"name": "Enlisted in a war",
-							"description": "Fought on the losing side of a glorious war.",
+							"description": "Fought in the losing side of a glorious war.",
 							"effect": "+STRp,-INT",
 							"choose_effect": []
 						},
@@ -1677,7 +1677,7 @@
 						{
 							"roll": 10,
 							"name": "Lost everything in a disaster",
-							"description": "Whatever your family had, now lie in ashes.",
+							"description": "Whatever your family had now lies in ashes.",
 							"effect": "+STRp,-PRE",
 							"choose_effect": []
 						},
@@ -1717,7 +1717,7 @@
 						{
 							"roll": 4,
 							"name": "An unexplainable impulse",
-							"description": "Something calls you there, when you sleep you see yourself in *Blacksalt*.",
+							"description": "Something calls you there; when you sleep, you see yourself in *Blacksalt*.",
 							"effect": "#Small golden lantern",
 							"choose_effect": []
 						},
@@ -1759,7 +1759,7 @@
 						{
 							"roll": 10,
 							"name": "Amnesia",
-							"description": "You don't know how you got here; you just woke up here one day, now you are searching for the truth.",
+							"description": "You don't know how you got here. You just woke up here one day, now you are searching for the truth.",
 							"effect": "#Book with notes in an unknown language",
 							"choose_effect": []
 						},
@@ -1773,7 +1773,7 @@
 						{
 							"roll": 12,
 							"name": "A Soul Sold",
-							"description": "You are going to hell. Some say that in the depths of *Blacksalt*, one can reclaim their soul.",
+							"description": "You are going to hell, but some say that in the depths of *Blacksalt* one can reclaim their soul.",
 							"effect": "#Living ashes (+1 DMG)",
 							"choose_effect": []
 						}
@@ -2290,13 +2290,13 @@
 				},
 				{
 					"Name": "Short sword",
-					"Stats": "STR 2+1 ",
+					"Stats": "STR 2+1",
 					"Special Rules": "If dual wielded, becomes 3+1.",
 					"rarity": 2
 				},
 				{
 					"Name": "War hammer",
-					"Stats": "STR 2P + 3",
+					"Stats": "STR 2P+3",
 					"Special Rules": "If you hit roll a d6, on a 6 add a **stun token** to the enemy.",
 					"rarity": 3
 				},
@@ -2484,7 +2484,7 @@
 					"name": "Small wooden shield",
 					"stats": "1 shield token",
 					"rarity": 1,
-					"special effect": "Breaks on 2d! when using one or more shield tokens"
+					"special effect": "Breaks on 2d! when using one or more shield tokens."
 				},
 				{
 					"name": "Wooden shield",
