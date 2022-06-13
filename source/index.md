@@ -14,7 +14,7 @@ links:  Core Rules*|index, Playing the Game|game, Bestiary, Blacksalt, Quick Ref
 header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
-version 0.6 💀
+version 0.63 💀
 
 ![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake .big}
 
