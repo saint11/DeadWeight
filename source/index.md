@@ -485,7 +485,7 @@ When you see **d4**, **d6**, **d8**, **d10**, **d12** and **d20**, this is refer
 When you see **3d6**, that means roll **three six-sided dice** and add the result.
 
 ### Usage dice (Ud8) {.unlisted}
-Usage dice track consumable use. For instance, **Throwing Daggers (Ud8)** have a d8 usage die. Every time the consumable is used, the usage dice are rolled: if the result is a 1 or 2, that die is downgraded to the (next?) smallest value in the following chain:
+Usage dice track consumable use. For instance, **Throwing Daggers (Ud8)** have a d8 usage die. Every time the consumable is used, the usage dice are rolled: if the result is a 1 or 2, that die is downgraded to the next smallest value in the following chain:
 
 **d20 > d12 > d10 > d8 > d6 > d4**
 
