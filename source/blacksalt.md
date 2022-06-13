@@ -259,7 +259,7 @@ To make a potion the wizard can mix any number of extracts available. Add all fr
 
 ## Thaumaturgists of Ravenhome {.big}
 
-Castle Ravenhome is a prestigious institution that offers daily classes, teachers and a title to anyone who completes the program. More than half of students die horribly during the course, though.
+Castle Ravenhome is a prestigious institution that offers daily classes, teachers and a title to anyone who completes the program. Ravenhome selects children from all over the world by a mysterious process, and invite them to study there. More than half of students die horribly during the course, though.
 
 #### Spells {.block .unlisted}
 
@@ -275,6 +275,8 @@ Castle Ravenhome is a prestigious institution that offers daily classes, teacher
 
 ## Wandering Mystics {.big}
 Their order is not hierarchical or ordered; rather, they adhere to a strict moral code. They typically select children who are lost as their apprentices. It is common for them not to stay in a place for too long, and they usually share their observations with fellow Wanderers through writing with invisible ink.
+
+Most places do not welcome them and see them as tricksters and freeloaders.
 
 #### Spells {.block .unlisted}
 

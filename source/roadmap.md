@@ -13,7 +13,14 @@ Last update was <now>
 
 ## Changelog
 
-### 0.7
+### 0.63
+- **Major** spell check and moderate wording updates (thanks [@KyleTheCoder](https://twitter.com/KyleTheCoder)!)
+- Some extra flavor text for some classes.
+
+### 0.62
+- Added a couple extra spells for the Kaal Rafir Clerics.
+
+### 0.61
 - Removed traces of the unimplemented morale (payer miracles).
 - Added sacrifice for Goshkalon.
 - Added attack spell for wandering mystic

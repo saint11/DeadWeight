@@ -90,6 +90,8 @@ This system open source(https://github.com/saint11/DeadWeight) and is released u
 
 This game was designed and illustrated by me, Pedro Medeiros.
 
+With contributions from:
+- Kyle Szklenski([@KyleTheCoder](https://twitter.com/KyleTheCoder))
 
 <pagebreak>
 
@@ -161,12 +163,12 @@ All **attributes scores** start at 1, all **attribute proficiencies** starts at 
 
 **Attribute proficiencies** can **not** go lower than 0 or higher than 2 at any point of the character creation, ignore any excess points.
 
-By default, characters start with a **belt**, **canteen** and a **bag** [[#Inventory]]. You also have a few start [[#Items]]:
+By default, characters start with a **belt**, **canteen** and a **bag**. You also have a few starting items:
 - 1d6 torches
 - 1 ration
-- On 3d! ([[#Risk dice]]), 1 camping supply
+- On 3d! ([Risk dice](#risk-dice-1d)), 1 camping supply
 - On 2d!, 1 bandage
-- Your class's start items. See [[#Choose your class]] below.
+- Your class's start items. See [Choose your class](#6-choose-your-class) below.
 
 If no one got a camping supply, someone in the group may receive one.
 
