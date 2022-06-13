@@ -575,7 +575,7 @@ Helping characters can also use the ***extra effort*** rule, rolling two dice in
 
 ### Zero Dice?
 
-If for any reason you need to roll zero dice, you roll 2 dice instead and keep the lowest number. Rolling less than zero dice is also possible: add dice to ensure you have 2 total dice being rolled. For instance, to roll -2 dice when you have only 1 dice available, roll 4 dice and choose the worst. I'm pretty sure that test will fail, though, sorry.
+If, for any reason, you need to roll zero dice, you should roll 2 die instead and take the lowest number instead. Rolling less than zero dice is also possible: roll 2 die and add one extra dice for each value below zero. For instance, when rolling -3 die, roll 5 die (2+3) and choose the worst. I'm pretty sure that test will fail, though, sorry.
 
 For simplicity, the *GM* may declare a -2 or lower roll to be an automatic failure.
 
