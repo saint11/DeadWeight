@@ -331,7 +331,7 @@
 					"Actions": [
 						{
 							"Name": "Void Axe",
-							"Check": "-DEX ",
+							"Check": "-DEX",
 							"Description": ""
 						}
 					]
@@ -355,7 +355,7 @@
 							"Description": "Fly"
 						},
 						{
-							"Description": "Incorporeal, can phase trough things, like iron bars"
+							"Description": "Incorporeal, can phase through things, like iron bars"
 						}
 					],
 					"Armor": 0,
@@ -613,7 +613,7 @@
 							"Description": "Fly"
 						},
 						{
-							"Description": "Swarm! Cannoot be harmed by regular weapons, only by fire or spells."
+							"Description": "Swarm! Cannot be harmed by regular weapons, only by fire or spells."
 						},
 						{
 							"Description": "Ignores morale, never flees, never dodges. Immune to PRE attacks."
@@ -647,7 +647,7 @@
 						{
 							"Name": "Bite",
 							"Check": "STR 2",
-							"Description": "If causes a wound *attach* to **adventurer**. Caused **Sleepy**. Causes **Bleeding** until removed"
+							"Description": "If causes a wound *attach* to **adventurer**. Causes **Sleepy**. Causes **Bleeding** until removed."
 						}
 					],
 					"Movement": 4,
@@ -838,7 +838,7 @@
 						{
 							"Name": "Nibble",
 							"Check": "STR 2",
-							"Description": "On a sucessful attack heal 1 wound"
+							"Description": "On a successful attack heal 1 wound"
 						},
 						{
 							"Name": "Feast",
@@ -1003,7 +1003,7 @@
 						{
 							"Name": "Lunge",
 							"Check": "DEX 2",
-							"Description": "3 tiles. Gets attatched on hit, moving with target until hit."
+							"Description": "3 tiles. Gets attached on hit, moving with target until hit."
 						}
 					]
 				},
@@ -1092,7 +1092,7 @@
 					"Resistance": 1,
 					"Special": [
 						{
-							"Description": "Acid blood, ond a !d6 it **ruins** the weapon used to attack this."
+							"Description": "Acid blood, on a !d6 it **ruins** the weapon used to attack this."
 						},
 						{
 							"Description": "Big, but flexible. Occupies 2x2 tiles, but can fit in a 1x1 tile when it wants to."
@@ -1359,7 +1359,7 @@
 				},
 				{
 					"id": "dead_vigil",
-					"Description": "An event that happened a century ago in **Blacksalt** isle that causes all the dead to come back to life when not properly burried."
+					"Description": "An event that happened a century ago in **Blacksalt** isle that causes all the dead to come back to life when not properly buried."
 				},
 				{
 					"id": "round",
@@ -1375,15 +1375,15 @@
 				},
 				{
 					"id": "stun_token",
-					"Description": "A token to be placed on an **aventurer** or **enemy** that forces spending a **recover action** to remove it"
+					"Description": "A token to be placed on an **adventurer** or **enemy** that forces spending a **recover action** to remove it"
 				},
 				{
 					"id": "dodge_token",
-					"Description": "A token to be placed on an **aventurer** or **enemy** that allows the owner to spend it to chose and reroll attack dice when defending"
+					"Description": "A token to be placed on an **adventurer** or **enemy** that allows the owner to spend it to chose and reroll attack dice when defending"
 				},
 				{
 					"id": "shield_token",
-					"Description": "A token to be placed on an **aventurer** or **enemy** that allows the owner to spend it to chose and reroll attack dice when defending"
+					"Description": "A token to be placed on an **adventurer** or **enemy** that allows the owner to spend it to chose and reroll attack dice when defending"
 				},
 				{
 					"id": "yulak",
@@ -1546,14 +1546,14 @@
 						{
 							"roll": 3,
 							"name": "Squire",
-							"description": "They said one day you will a a knight. You believed that.",
+							"description": "They said one day you would be a knight. You believed that.",
 							"effect": "+STR,+PRE,$shield master",
 							"choose_effect": []
 						},
 						{
 							"roll": 4,
 							"name": "Physician",
-							"description": "Not many people knows how to actually heal someone, you do.",
+							"description": "Not many people know how to actually heal someone, you do.",
 							"effect": "+INT,+DEX,$surgeon",
 							"choose_effect": []
 						},
@@ -1588,7 +1588,7 @@
 						{
 							"roll": 9,
 							"name": "Craftsman",
-							"description": "You hands know how to hammer an iron and how to sew leather without you even thinking.",
+							"description": "Your hands know how to hammer an iron and how to sew leather without you even thinking.",
 							"effect": "+DEX,+DEXp,$crafting",
 							"choose_effect": []
 						},
@@ -1635,14 +1635,14 @@
 						{
 							"roll": 4,
 							"name": "A murderous impulse",
-							"description": "Something was wrong with you, but you are better now. Unlike yor victims.",
+							"description": "Something was wrong with you, but you are better now. Unlike your victims.",
 							"effect": "+DEXp,-PRE",
 							"choose_effect": []
 						},
 						{
 							"roll": 5,
 							"name": "In debt with a loan shark",
-							"description": "You got the money that you needed, but it costed more than you expected.",
+							"description": "You got the money that you needed, but it cost more than you expected.",
 							"effect": "+PREp,-STR",
 							"choose_effect": []
 						},
@@ -1656,7 +1656,7 @@
 						{
 							"roll": 7,
 							"name": "Enlisted in a war",
-							"description": "Fought in the losing side of a glorious war.",
+							"description": "Fought on the losing side of a glorious war.",
 							"effect": "+STRp,-INT",
 							"choose_effect": []
 						},
@@ -1759,7 +1759,7 @@
 						{
 							"roll": 10,
 							"name": "Amnesia",
-							"description": "You don't know how you got here, you just woke up here one day, now you are searching for the truth.",
+							"description": "You don't know how you got here; you just woke up here one day, now you are searching for the truth.",
 							"effect": "#Book with notes in an unknown language",
 							"choose_effect": []
 						},
@@ -1773,7 +1773,7 @@
 						{
 							"roll": 12,
 							"name": "A Soul Sold",
-							"description": "You are going to hell, some say that in the depths of *Blacksalt* one can reclaim their soul.",
+							"description": "You are going to hell. Some say that in the depths of *Blacksalt*, one can reclaim their soul.",
 							"effect": "#Living ashes (+1 DMG)",
 							"choose_effect": []
 						}
@@ -2018,7 +2018,7 @@
 					"tags": 4
 				},
 				{
-					"name": "seweing tools",
+					"name": "sewing tools",
 					"description": "Repairs one armor point from any light armor. Ud8 uses.",
 					"tags": 4,
 					"rarity": 1
@@ -2055,7 +2055,7 @@
 				},
 				{
 					"name": "trapping kit",
-					"description": "For making and disarming simple traps. Can build Ud6 traps. Steping on a trap causes 4 wounds and immobilizes the target. Getting free requires 1 turn and a strength test.",
+					"description": "For making and disarming simple traps. Can build Ud6 traps. Stepping on a trap causes 4 wounds and immobilizes the target. Getting free requires 1 turn and a strength test.",
 					"rarity": 2,
 					"tags": 10
 				},
@@ -2066,7 +2066,7 @@
 					"tags": 3
 				},
 				{
-					"name": "first aid kid",
+					"name": "first aid kit",
 					"description": "Heals one STR or DEX wound. Ud6 uses",
 					"rarity": 2,
 					"tags": 4
@@ -2115,7 +2115,7 @@
 				},
 				{
 					"name": "exorcism book",
-					"description": "One extra dice when *banishing undead*.",
+					"description": "One extra die when *banishing undead*.",
 					"tags": 0,
 					"rarity": 2
 				},
@@ -2162,7 +2162,7 @@
 					"rarity": 3
 				},
 				{
-					"name": "fine jewellery",
+					"name": "fine jewelry",
 					"description": "Made of precious materials, not very useful in a dungeon.",
 					"rarity": 4,
 					"tags": 0
@@ -2175,7 +2175,7 @@
 				},
 				{
 					"name": "alchemic kit",
-					"description": "Can be used for modifying, identifying and making potions ",
+					"description": "Can be used for modifying, identifying and making potions",
 					"rarity": 4,
 					"tags": 0
 				},
@@ -2291,7 +2291,7 @@
 				{
 					"Name": "Short sword",
 					"Stats": "STR 2+1 ",
-					"Special Rules": "If dual wielded becomes 3+1.",
+					"Special Rules": "If dual wielded, becomes 3+1.",
 					"rarity": 2
 				},
 				{
@@ -2411,7 +2411,7 @@
 					"type": 2,
 					"rarity": 4,
 					"Stats": "2, 3 AP",
-					"Special Effect": "Occupy 2 slots. Reduces **dexterity** dices by one."
+					"Special Effect": "Occupy 2 slots. Reduces **dexterity** die by one."
 				},
 				{
 					"Name": "Soldier helmet",
@@ -2514,7 +2514,7 @@
 					"name": "Spiked shield",
 					"stats": "2 shield tokens",
 					"rarity": 4,
-					"special effect": "Causes 1 wound when blocking a mellee attack."
+					"special effect": "Causes 1 wound when blocking a melee attack."
 				}
 			],
 			"separators": [],
