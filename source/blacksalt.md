@@ -168,12 +168,17 @@ Backpack, dagger (STR 1+3P), reinforced hood and vest (1 [AP]{.tip}), lock-picki
 - **Knife in the back**: Once per turn, when attacking a flanked enemy with a **dagger**, you can perform a free attack. Roll an extra die for that attack.
 - **Going somewhere?**: During the enemy actions, you may block an enemy from moving. Add a [stun token]{.tip} to yourself. The enemy will still spend an action.
 
-## Moon-curser {.draft}
-Specialized in getting in and out of places unnoticed.
-The moon-curser starts with the trait **night-stalker**.
+## Moon-curser {.big}
+Specialized in getting in and out of places unnoticed. Moon cursers are the masters of contraband, infiltration and deception.
+The moon-curser starts with the trait **night-stalker**, allowing them to ignore any **darkness** penalties.
 
 #### Equipment
-Backpack, pack mule, Quarterstaff (STR 1+1), black reinforced hood and vest (1 [AP]{.tip}), Ud6 sleeping darts, 3d6 counterfeit coins. 
+Backpack, pack mule, short sword(STR 2+1), black reinforced hood and vest (1 [AP]{.tip}), Ud6 sleeping darts, 3d6 counterfeit coins. 
+
+#### Manoeuvers {.block}
+- **Fade into darkness**: (1 action) Immediately hide in the nearby shadows, nearby enemies will not know where you are and will mostly likely change targets. Moving requires a **dexterity** test or be revealed. Cannot be carrying any light sources. Also add 1 [dodge token]{.tip}.
+- **Blades in the dark**: (1 action) Requires the target to be unaware of your presence and a bladed weapon. Attack normally then cause **double** the damage.
+- **Moving Shadows**: Spend one [dodge token]{.tip} to perform an extra action.
 
 
 <pagebreak>
@@ -207,8 +212,11 @@ While necromancers are not combat focused, their high-utility spells can be used
 - **Explode corpse**: Explode any corpse that the [dead vigil]{.tip} hasn't set upon yet. Causes 2 wound to everyone **close**, which can be reduced by armor and resistances. Also works on undead under the **Command undead** spell.
 - **Phobia**: The target **nearby** creature gets terrified of a chosen person or object for 1d6 turns.
 - **Black night**: Absolute darkness covers a **nearby** area; anything **close** to that area is engulfed in it and can't see. The wizard can see normally through the darkness.
-- **Nightmare:** A target **nearby** creature immediately falls into a restless sleep, having horrible nightmares. The creature will wake up normally if disturbed.
+- **Nightmare:** A target **nearby** creature immediately falls into a restless sleep, having horrible nightmares. The creature will wake up normally if disturbed. Only works on creatures that can sleep. The creature can be woken up normaly.
 - **Bonedance**: Bends the bones of a **nearby** creature in an unnatural way for the duration of the combat. All tests made against that creature are made with **advantage**. Halves that creature move speed.
+
+#### Equipment
+Sacrificial dagger (STR 1B+1), chalk, poisonous vials, inscribed skull (grimoire and conductor), cloak with mask, 2d6 silver coins.
 
 <pagebreak>
 
@@ -255,6 +263,9 @@ To make a potion, the wizard can mix any number of extracts available. Add all f
 | **Tonic of focus**    |  -1   |  -1   | Cures 2 presence wounds.                                                                                                            |
 | **Purging hot-water** |  +1   |  +1   | Cures 2 strength wounds, causes 1 presence wound. Ud4 uses.                                                                         |
 
+#### Equipment
+Cane (conductor, STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), 3d6 silver coins, 1 gold coin.
+
 <pagebreak>
 
 ## Thaumaturgists of Ravenhome {.big}
@@ -269,6 +280,9 @@ Castle Ravenhome is a prestigious institution that offers daily classes, teacher
 - **Arcane Seal**: Protects a **nearby** person or object from spells for 1d6 exploration turns.
 - **Pocket reality**: Creates a bag that looks very small on the outside, but has 3 slots. Anything inside does not count towards encumbrance. It lasts until the end of the expedition.
 - **Arcane fire**: Target 2 **nearby** tiles: anything standing in those tiles takes 2 wounds per turn, which can be reduced. Lasts until the end of the combat.
+
+#### Equipment
+Quarterstaff (STR 1+1), ornate garments, crystal ball (conductor), scattered notes (grimoire), cloak, 2d6 silver coins.
 
 
 <pagebreak>
@@ -288,10 +302,13 @@ Most places do not welcome them and see them as tricksters and freeloaders.
 - **Mystic ink**: Creates an glowing colorful ink that only other wizards with the **mystic ink** spell can see. The wizard's hands can be used to paint with this ink.
 - **Morbid touch**: Conjures a see-through hand with a morbid aura toward a **nearby** target. Attacks with (INT 2P), then dissipates.
 
+#### Equipment
+Backpack, wand (conductor), wine, holy water, healing tonic, heavy cloak (AP 1), 2d6 silver coins.
+
 <pagebreak>
 
 ## The Awakened {.big}
-Most Awakened believe themselves to be cursed; they never studied magic, but the Void found them. Although they don't fully comprehend their powers, they've learned to use them to survive.
+Most Awakened believe themselves to be cursed; they never studied magic, but the Void found them. Although they don't fully comprehend their powers, they've learned to use them to survive. The Awakened don't need a grimoire and can meditate to remember spells.
 
 #### Spells {.block .unlisted}
 
@@ -301,6 +318,9 @@ Most Awakened believe themselves to be cursed; they never studied magic, but the
 - **Telekinesis**: The wizard may pull or push a **close** object using **intelligence** as **strength**. Or use any weapon with **intelligence** as **strength** for one turn.
 - **Hover**: The wizard can hover one meter above the ground, water or similar. Lasts 1d6 turns.
 - **Nether swap**: Immediately swaps place with a target creature.
+
+#### Equipment
+Inscribed gauntlet (conductor, STR 2), ashes of insight, ornate clothes, 1d6 silver coins.
 
 <pagebreak>
 
