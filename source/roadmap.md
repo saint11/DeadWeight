@@ -13,6 +13,10 @@ Last update was <now>
 
 ## Changelog
 
+### 0.64
+- Added specific equipment for each cleric specialization.
+- Added the **moon curser** thief class background.
+
 ### 0.63
 - **Major** spell check and moderate wording updates (thanks [@KyleTheCoder](https://twitter.com/KyleTheCoder)!)
 - Some extra flavor text for some classes.

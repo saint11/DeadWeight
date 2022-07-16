@@ -2307,6 +2307,12 @@
 					"rarity": 2
 				},
 				{
+					"Name": "Scythe",
+					"Stats": "DEX 1+2B",
+					"Special Rules": "Ignore shield tokens.",
+					"rarity": 2
+				},
+				{
 					"Name": "Short bow",
 					"Stats": "DEX 2+1R",
 					"Special Rules": "**Nearby**. 2 hands Need arrows.",

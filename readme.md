@@ -4,7 +4,7 @@ You can see the live website here: https://saint11.org/dead_weight/index.html
 
 This is released under [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/),you are free to hack, copy, change and even sell works derivative from this system, as long you give proper attribution. The **Dead Weight** logo cannot be used without express permission, though.
 
-You may use this repository to make your own hacks of **Dead Weight** or to use the Dead Weight website strucute to make your own.
+You may use this repository to make your own hacks of **Dead Weight** or to use the Dead Weight website structure to make your own.
 
 # How to build
 You need a [text editor](https://code.visualstudio.com/) that supports markdown and [NPM](https://www.npmjs.com/get-npm) installed.

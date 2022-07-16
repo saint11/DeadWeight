@@ -111,7 +111,7 @@ What they lack in formal training, barbarians compensate with pure brutality. Fo
 Barbarians have the **berserker** special trait which allows them to keep fighting while ignoring fatigue or wounds.
 
 #### Equipment 
-Bag, Battle Axe (STR 4+2B), loincloth, war paint, medical supplies x 2, 1d6 coins.
+Battle Axe (STR 4+2B), loincloth, war paint, medical supplies x 2, 1d6 coins.
 
 #### Manoeuvers {.block}
 - **Roar**: (PRE, 1 action) All enemies [nearby]{.tip}. The barbarian must perform a **presence** test for each target. Causes a [stun token]{.tip}. Can only be performed once per battle. Only works on enemies with the **living** tag.
@@ -146,7 +146,7 @@ Too smart or too dumb to hang out with other thieves, the lone rogue is someone 
 The lone rogue start with the trait **slippery**, allowing the rogue to spend a dodge token during the enemy turn to move 1 tile.
   
 #### Equipment
-Bag, 2 short swords (STR 2+1), leather armor (1 [AP]{.tip}), climbing tools, stolen golden icon, 1d6 silver coins.
+2 short swords (STR 2+1), leather armor (1 [AP]{.tip}), climbing tools, stolen golden icon, 1d6 silver coins.
 
 #### Manoeuvers {.block}
 - **Wing it**: (1 action) Throws a melee weapon using **-DEX** instead of **STR** with range of 3 tiles. Use the weapon's regular damage.
@@ -339,6 +339,9 @@ Often venerated at the sites of great tragedies, gathering followers are among t
 
 **Sacrifice**: Burn a number of silver coins in a fire, which will boil and disappear. Roll that number of dice (Xd!): if triggered, Goshkalon will be pleased.
 
+#### Equipment
+Scythe(STR 2X+2), clay statue (holy symbol), Gambeson (1 [AP]{.tip}), 3d6 silver coins. 
+
 <break>
 
 #### Prayers {.block .unlisted}
@@ -357,6 +360,9 @@ The **God of death**, Cador, wants order to be brought back to the world. Cador 
 
 **Sacrifice**: To please Cador, the cleric must capture and then kill an undead during the sacrifice ritual.
 
+#### Equipment
+War hammer (STR 1P+3), Ancient talisman (holy symbol), Ud6 flasks of holy water, thick cloak (1 [AP]{.tip}), 3d6 silver coins.
+
 #### Prayers {.block .unlisted}
 - **Mercy**: Immediately kills any creature that would die if it received 4 wounds or less.
 - **Seal**: Creates a 3m line that no undead can cross during this expedition.
@@ -374,6 +380,9 @@ The **God of death**, Cador, wants order to be brought back to the world. Cador 
 
 **Sacrifice**: To please Yulak, the cleric must self-flagellate, causing 2 wounds and bleeding to self.
 
+#### Equipment
+Notched whip (DEX 1R+2B), torture equipment, rope, book of sins (holy symbol), tattered cloak, 1d6 coins.
+
 #### Prayers {.block .unlisted}
 - **Detect Evil**: Everything **nearby** that's evil or undead glows with a green light, lasts for 1d6 turns.
 - **Righteous Fury**: A [close]{.tip} target gets **3 extra dice** in the next row and the **angry** affliction. Add one wound to any damage caused by the target in the next row.
@@ -390,6 +399,9 @@ The **God of death**, Cador, wants order to be brought back to the world. Cador 
 
 **Sacrifice**: To pacify Akhzu, the cleric must feed the earth, burying 2 rations.
 
+#### Equipment
+Flail (STR 2X+2), human skin drum (holy symbol), leather armor (1 [AP]{.tip}), 2d6 silver coins.
+
 #### Prayers {.block .unlisted}
 - **Season of changes**: Choose a [nearby]{.tip} ally. That ally may move any number of **wounds** and **fatigues** from one attribute to another.
 - **Eyes of the forest**: Creates a magical eye on a **Distant** tree that you can currently see. You can see though the magical eye during the current expedition. The eye dies if the tree is cut.
@@ -405,12 +417,18 @@ The **God of death**, Cador, wants order to be brought back to the world. Cador 
 
 **Sacrifice**: Kaal Rafir doesn't require sacrifices, but praying to him at the camp will restore the cleric's powers. But, when angered, the whole party takes 2 non-lethal presence fatigue.
 
+#### Equipment
+Flail (STR 2X+2), forbidden scriptures (holy symbol), leather trench coat (1 [AP]{.tip}), 1d6 silver coins.
+
 #### Prayers {.block .unlisted}
 - **Hold**: Paralyzes [nearby]{.tip} target for 1d6 turns, reducing the target's actions to zero.
 - **Silence**: Absolute silence covers a [nearby]{.tip} area; no spells may be cast.
 - **Swarm**: Summons a [swarm of insects]{.m} that can be commanded by the cleric.
 - **Entropy**: Causes everyone [nearby]{.tip}, except the caster, to spend an action or take 2 non-lethal fatigue.
 - **Decay**: A [nearby]{.tip} target is cursed for 5 turns, taking **1 non-lethal** fatigue at the start of the turn.
+
+#### Equipment
+Flail (STR 2X+2), forbidden scriptures (holy symbol), leather trench coat (1 [AP]{.tip}), 3d6 silver coins. 
 
 ## Old Gods {.draft}
 Old gods are the ones that lived before the creation of the current world. Before this world, there was another one, and some event caused it to be destroyed, while creating the current one. These beings are so powerful that they didn't fade when their world was destroyed.
@@ -435,7 +453,7 @@ Not much is known of them and their worship is strictly forbidden in most cultur
 
 ## Origins
 
-**Blacksalt** is an ancient island, found more than a thousand years ago by several lost sea travellers. The island apparently had risen from the ocean floor by some volcanic activity and was covered in a thick layer of black salt and algae. Ancient traces of an underwater civilization were found there, intriguing the people from the main continent, but it was the island's rich mineral resources and fertile land that paved the way for fast colonization.
+**Blacksalt** is an ancient island, found more than a thousand years ago by several lost sea travelers. The island apparently had risen from the ocean floor by some volcanic activity and was covered in a thick layer of black salt and algae. Ancient traces of an underwater civilization were found there, intriguing the people from the main continent, but it was the island's rich mineral resources and fertile land that paved the way for fast colonization.
 
 The island was lawless, and many different groups started settling there. Castles and strongholds were built and conflict between the different settlements began as soon as they met. The conflict proved extremely expensive to everyone involved and the **Treaty of Yoros** was created, dividing Blacksalt between different **kingdoms** that would stay in their territory.
 

@@ -14,7 +14,7 @@ links:  Core Rules*|index, Playing the Game|game, Bestiary, Blacksalt, Quick Ref
 header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
-version 0.63 💀
+version 0.64 💀
 
 ![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake .big}
 
@@ -190,7 +190,7 @@ Your infancy will provide a base for your attributes and for your formation.
 |  10   | **Clergy Bastard**: Born from a sinful union; learned guilt and prayer before walking.                        | +1 STR +1 PRE, holy rites (skill)                |
 |  11   | **City Kid**: Grew up amidst the chaos of a big city.                                                         | +1 DEX, +1 PRE, +1d4 silver, +1 insight          |
 |  12   | **Farmer's kid**: Life on a farm isn't easy, but gave you enough to keep going.                               | +1 STR, cooking (skill), animal affinity (skill) |
-|  13   | **Lost family**: You had to grow up much faster than everyone - your siblings depended on you.                | +1 INT, +DEX, cooking (skill)                    |
+|  13   | **Lost family**: You had to grow up much faster than everyone - your siblings depended on you.                | +1 INT, +1 DEX, cooking (skill)                    |
 |  14   | **Tomb Dweller**: Grew up underground in an underground tomb-city. Quickly learned to stay hidden to survive. | +2 DEX, 2d4 silver                               |
 |  15   | **Seaborn**: Born on a ship of travelling merchants.                                                          | +1 INT, survivalist (skill), +2d6 silver         |
 |  16   | **Feral Kid**: Raised by animals in the forest.                                                               | +1 STR, +1 DEX, animal affinity (skill)          |
@@ -280,7 +280,7 @@ You may write this down in the notes section of your character sheet.
 
 |  4d6  | Quirk                                                                                                                                                        |
 | :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   3   | You wear unusual glasses (valuable{.tip}). Can't see properly without them.                                                                                  |
+|   3   | You wear unusual glasses ([valuable]{.tip}). Can't see properly without them.                                                                                  |
 |   4   | Loud snore. Add 1 extra ambush dice when sleeping in camp phase or do not recover **sleepy**.                                                                |
 |   5   | Irritable, when prompted you always must choose the **angry** affliction.                                                                                    |
 |   6   | Coffee addict. You only recover **sleepy** if you had coffee at least once this expedition.                                                                  |
@@ -345,6 +345,8 @@ Maneuvers require 1 action and hit **close** targets, unless specified in its de
 - Add 1 proficiency point to **Dexterity**.
 - Thieves can use one-handed melee weapons, staves, any ranged weapons and medium armor
 
+#### Thief background
+
 Thieves can come from different backgrounds, dramatically changing their fighting and living style. For your special trait and equipment, you must choose a [thief background](./blacksalt.html#thief-background):
 - [Stalker](./blacksalt.html#stalker)
 - [Lone Rogue](./blacksalt.html#lone-rogue)
@@ -369,13 +371,13 @@ Maneuvers require 1 action and hit **close** targets, unless specified in its de
 
 #### School of magic
 
-Choose one of the following as your school of magic:
+Choose one of the following as your [school of magic](./blacksalt.html#schools-of-magic):
 
   - [Necromancers of Yadar](./blacksalt.html#necromancers-of-yadar)
-  - [Alchemists of the Golden Ridge](./blacksalt.html#alchemists-of-the-golden-ridge)Cane (conductor, STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), 3d6 silver coins, 1 gold coin.
-  - [Thaumaturgists of Ravenhome](./blacksalt.html#thaumaturgists-of-ravenhome): Quarterstaff (STR 1+1), ornate garments, crystal ball (conductor), scattered notes (grimoire), cloak, 2d6 silver coins.
-  - [Wandering Mystics](./blacksalt.html#wandering-mystics): Backpack, wand (conductor), wine, holy water, healing tonic, heavy cloak (AP 1), 2d6 silver coins.
-  - [The Awakened](./blacksalt.html#the-awakened): Inscribed gauntlet (conductor, STR 2), ashes of insight, ornate clothes, 1d6 silver coins.
+  - [Alchemists of the Golden Ridge](./blacksalt.html#alchemists-of-the-golden-ridge)
+  - [Thaumaturgists of Ravenhome](./blacksalt.html#thaumaturgists-of-ravenhome)
+  - [Wandering Mystics](./blacksalt.html#wandering-mystics)
+  - [The Awakened](./blacksalt.html#the-awakened)
 
 You can choose a different conductor or grimoire, if the *GM* allows it.
 
@@ -428,11 +430,13 @@ Casting a spell is always guaranteed to work: after the spell effects are resolv
 - Add skill **ward the dead**.
 - Clerics can only use one-handed weapons, staves, bows, crossbows and medium armor
 
-Choose one of the following as your starting equipment:
-
-  - **A:** Flail (STR 2X+2), forbidden scriptures (holy symbol), leather trench coat (1 [AP]{.tip}), 3d6 silver coins.
-  - **B:** War hammer (STR 1P+3), Ancient talisman (holy symbol), Ud6 flasks of holy water, thick cloak (1 [AP]{.tip}), 3d6 silver coins.
-  - **C:** Notched whip (DEX 1R+2B), torture equipment, rope, book of sins (holy symbol), tattered cloak, 1d6 coins.
+#### Gods
+Choose one of the following [gods](./blacksalt.html#gods) for you to follow. That will determine your starting equipment and spells:
+- [Goshkalon](./blacksalt.html#goshkalon)
+- [Cador](./blacksalt.html#cador)
+- [Yulak](./blacksalt.html#yulak)
+- [Akhzu](./blacksalt.html#akhzu)
+- [Kaal Rafir](./blacksalt.html#kaal-rafir)
 
 Clerics must choose a god to follow; you can see the list of gods in the [Blacksalt book](./blacksalt.html#gods). Clerics must also choose a number of prayers equal to their **presence score** from the [basic prayers list](#basic-prayers) or from their god's prayers. Write them down in your character sheet under the "spells and prayers" section.
 
