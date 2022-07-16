@@ -240,8 +240,9 @@ function processSourcesFolder() {
         fs.copySync(dataJsonPath, outputPath + "data.json");
 
         // Copy all images to the output folder
-        requireDir(path.join(publicPath, "images/"));
-        fs.copySync(path.join(publicPath, "images/"), path.join(outputPath, "images/"));
+        requireDir(path.join(staticPath, "images/"));
+        fs.copySync(path.join(staticPath, "images/"), path.join(publicPath, "images/"));
+        fs.copySync(path.join(staticPath, "images/"), path.join(outputPath, "images/"));
 
         // Copy all extra files to the output folder
         fs.readdir(publicPath, (err, files) => {

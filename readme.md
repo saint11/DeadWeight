@@ -13,6 +13,8 @@ Run `npm update` to install dependencies.
 
 Open your terminal in this repository location, and run `npm run dev`. This will allow you to access you website on `http://localhost:3000/` while the command is running.
 
+Place any **images** inside `static/images/`, they will be copied to the **public** and **output** folder for you.
+
 The **public folder** has a "draft" version of your website, that includes all chapters and sections tagged as ".draft". Any `.html` files stored here will be deleted with every export and then replaced with the new ones exported from the `.md` in the **source folder**.
 
 The **output folder** has the final version, without any draft. Never store anything in the output folder, because it gets deleted with every export.

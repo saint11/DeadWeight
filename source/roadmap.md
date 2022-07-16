@@ -13,6 +13,9 @@ Last update was <now>
 
 ## Changelog
 
+### 0.65
+- Added new image for **Cador** clerics
+
 ### 0.64
 - Added specific equipment for each cleric specialization.
 - Added the **moon curser** thief class background.

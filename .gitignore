@@ -117,7 +117,7 @@ dist
 *.clip
 
 output/*
-public/*.html
+public/*
 public/dungeon/*.html
 copy_to_saint11.bat
 
