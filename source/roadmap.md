@@ -14,7 +14,9 @@ Last update was <now>
 ## Changelog
 
 ### 0.65
-- Added new image for **Cador** clerics
+- Added new image for **Cador** clerics.
+- Added new image for **Thaumaturgists of Ravenhome** wizards.
+- Clarification on **receiving help** and **extra effort**
 
 ### 0.64
 - Added specific equipment for each cleric specialization.

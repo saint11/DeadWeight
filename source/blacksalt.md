@@ -269,7 +269,7 @@ Cane (conductor, STR 1+1), alchemic tools, tattered trench coat, old tome (grimo
 <pagebreak>
 
 ## Thaumaturgists of Ravenhome {.big}
-
+![](./images/ravenhome.png)
 Castle Ravenhome is a prestigious institution that offers daily classes, teachers and a title to anyone who completes the program. Ravenhome selects children from all over the world by a mysterious process, and invite them to study there. More than half of the students die horribly during the course, though.
 
 #### Spells {.block .unlisted}
@@ -356,6 +356,7 @@ Scythe(STR 2X+2), clay statue (holy symbol), Gambeson (1 [AP]{.tip}), 3d6 silver
 <pagebreak>
 
 ### Cador {.big}
+![](./images/cador.png)
 The **God of death**, Cador, wants order to be brought back to the world. Cador is the great enemy of the undead; his zealots hunt them down and seal their corpses so the [dead vigil]{.tip} doesn't set in.
 
 **Sacrifice**: To please Cador, the cleric must capture and then kill an undead during the sacrifice ritual.
