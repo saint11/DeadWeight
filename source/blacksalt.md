@@ -67,7 +67,7 @@ The cause of the **dead vigil** is uncertain, some blame the old king for trying
 
 Any corpse, if left undisturbed, will come back to life after 1d6 weeks as a [Freshly risen corpse]{.m} or [Reanimated husk]{.m}, depending on the state of conservation and will start looking for other people to attack. If the corpse is too damaged or somehow unsuitable, it may come back as ghost, like a [shadow]{.m}; that's rare though, and ghosts are extremely dangerous, so people avoid destroying corpses.
 
-The most "elegant" way to dispose of a body is a proper burial ritual, and a coffin with the seal of [Cador](#cador), which will stop the corpse from returning. This is a relatively new technique. Over the years, people didn't know how to deal with their dead. Different groups of people tried many different rituals and techniques to stop their dead from coming back, to horrible consequence.
+The most "elegant" way to dispose of a body is a proper burial ritual, and a coffin with the seal of [Cador](#cador), which will stop the corpse from returning. This is a relatively new technique. Over the years, people didn't know how to deal with their dead. Different groups of people tried many different rituals and techniques to stop their dead from coming back, usually with horrible consequences.
 
 <pagebreak>
 
@@ -462,13 +462,13 @@ This fleeting peace allowed major infrastructure to be built and trade routes to
 
 ## The fall
 
-Then suddenly the first antediluvian catacomb was found, changing everything. Down in those caves the kings and queens would cohort with ancient beings giving them extraordinary powers, and they didn't want to share. Aided by the ancient beings' magic, the war between settlements raged on, devastating the land, creating famine, supernatural plagues and eventually the [dead vigil]{.tip}. No one knows who or what caused it, but suddenly the dead started to come back to life, attacking the living. And in the current state of the island the dead were by far a majority.
+Then suddenly the first antediluvian catacomb was found, changing everything. Down in those caves the kings and queens would cohort with ancient beings giving them extraordinary powers, and they didn't want to share. Aided by the ancient beings' magic, the war between settlements raged on, devastating the land, creating famine, supernatural plagues and eventually the infamous [dead vigil]{.tip} would strike. No one knows who or what caused it, but suddenly the dead started to come back to life hunting down the living. In the current state of the island the dead were by far a majority.
 
-Not much was left of the old kingdoms, only small fortified settlements, castles haunted by the undead and isolated hamlets. This caused **Blacksalt** to be pretty much abandoned and forgotten.
+Not much was left of the old kingdoms, only small fortified settlements, castles haunted by the undead and isolated hamlets. This caused **Blacksalt** to be mostly abandoned and forgotten.
 
 ## Renaissance
 
-Centuries later, the hordes of the undead seem to have dispersed, and most of the tales of Blacksalt kingdoms forgotten. Pirates re-discovered the island and started trading with the few that were still living there. The news of the artifacts found spread fast.
+Centuries later, the hordes of the undead had dispersed, and most of the tales of Blacksalt kingdoms forgotten. Pirates re-discovered the island and started trading with the few that were still living there. As soon as the ancient artifacts were found news spread fast.
 
 This coincided with a major war happening in the main continent, where a gigantic military and political unity known simply as **The Empire** started dominating every kingdom it could reach. To win this war, magical artifacts were necessary and the Empire financed expeditions to **Blacksalt** and payed high prices for anything found. This "gold rush" was intense and fast, and several settlements were rebuilt in a few months - most notably **Yoros**, the biggest port-city of **Blacksalt**.
 
@@ -476,8 +476,13 @@ This coincided with a major war happening in the main continent, where a giganti
 
 # Geography
 
-Blacksalt is a large island in the southern hemisphere of the planet. The climate is warm in the north and gets wet and cold south.
+Blacksalt is a large island in the southern hemisphere of the planet. The climate is warm in the north and gets wet and cold in the south.
 
+The terrain is mostly flat and near the sea level in the in the north, while mountainous and rocky in the south.
+
+The northeast part of Blacksalt is colloquially known as Yoros Island, while techinically being part of Blacksalt, Yoros river separates most of it from the rest.
+
+On the east part there are five smaller islands closing the Kumar Bay, with Saint Julien Isle being the biggest and the only one populated.
 
 <pagebreak class="simple">
 
