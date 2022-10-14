@@ -13,6 +13,12 @@ Last update was <now>
 
 ## Changelog
 
+### 0.66
+- Added images for all classes
+- Expanded the gods lore a little bit
+- Changed some starting equipment
+- (!) Character generator outdated and must be fixed soon!
+
 ### 0.65
 - Added new image for **Cador** clerics.
 - Added new image for **Thaumaturgists of Ravenhome** wizards.

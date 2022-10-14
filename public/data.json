@@ -1428,6 +1428,10 @@
 				{
 					"id": "distant",
 					"Description": "more than 12 tiles"
+				},
+				{
+					"id": "risk_dice",
+					"Description": "Roll the indicated number of d6; if any show a 1, the effect is triggered."
 				}
 			],
 			"separators": [],
@@ -2242,8 +2246,14 @@
 				},
 				{
 					"Name": "Dagger",
-					"Stats": "STR 1 + 3P",
+					"Stats": "STR 1+3P",
 					"Special Rules": "",
+					"rarity": 1
+				},
+				{
+					"Name": "Small Knife",
+					"Stats": "STR 1+1P",
+					"Special Rules": "Easy to hide.",
 					"rarity": 1
 				},
 				{
@@ -2260,8 +2270,14 @@
 				},
 				{
 					"Name": "Quarterstaff",
-					"Stats": "STR 1+1",
+					"Stats": "STR 1+2",
 					"Special Rules": "On hit add one [dodge token]{.tip} to the attacker.",
+					"rarity": 1
+				},
+				{
+					"Name": "Cane",
+					"Stats": "STR 1+1",
+					"Special Rules": "Can be used as a conductor.",
 					"rarity": 1
 				},
 				{
@@ -2272,7 +2288,7 @@
 				},
 				{
 					"Name": "Notched whip",
-					"Stats": "DEX 1R + 2B",
+					"Stats": "DEX 1R+2B",
 					"Special Rules": "If the enemy has no armor, add a **stun token** to the enemy. Can hit diagonally.",
 					"rarity": 2
 				},

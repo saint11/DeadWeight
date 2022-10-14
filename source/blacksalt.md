@@ -139,7 +139,7 @@ Backpack, Ud10 throwing hatchets (DEX 1X+1), animal bones for crafting, Ud4 trap
 <pagebreak>
 
 ## Lone Rogue {.big}
-![](images/thief-lone.png "Thief"){.left}
+![](images/lone-rogue.png "Thief")
 
 Too smart or too dumb to hang out with other thieves, the lone rogue is someone who made a living by robbing people on the roads. The lone rogue is constantly on the move, chasing opportunities and fleeing from past mistakes. Often outnumbered, a lone rogue is specialized in getting in and out of combat quickly.
 
@@ -156,12 +156,13 @@ The lone rogue start with the trait **slippery**, allowing the rogue to spend a 
 <pagebreak>
 
 ## Hoodlum {.big}
+![](./images/hoodlum.png)
 A gang-member, has a wide net of contacts and is used to violence. Hoodlums are specialized in overwhelming enemies that are outnumbered.
 
-The hoodlum starts with the trait **cold blooded**, allowing them to use **dexterity** instead of **strength** when flanking enemies.
+The hoodlum starts with the trait **cold blooded**, allowing them to use **dexterity** instead of **strength** when attacking or defending from flanking enemies.
 
 #### Equipment
-Backpack, dagger (STR 1+3P), reinforced hood and vest (1 [AP]{.tip}), lock-picking tools, 2d6 coins. 
+Backpack, dagger (STR 1+3P), reinforced clothes (1 [AP]{.tip}), lock-picking tools, 2d6 stolen coins, [valuable]{.tip} stolen boots.
 
 #### Manoeuvers {.block}
 - **Dirty tricks**: (1 action) 2 tiles. Kick sand in opponent's eyes or any other dirty trick. Any ally attacking this enemy has **advantage**. Only works on **living** enemies.
@@ -169,6 +170,7 @@ Backpack, dagger (STR 1+3P), reinforced hood and vest (1 [AP]{.tip}), lock-picki
 - **Going somewhere?**: During the enemy actions, you may block an enemy from moving. Add a [stun token]{.tip} to yourself. The enemy will still spend an action.
 
 ## Moon-curser {.big}
+![](./images/moon-curser.png)
 Specialized in getting in and out of places unnoticed. Moon cursers are the masters of contraband, infiltration and deception.
 The moon-curser starts with the trait **night-stalker**, allowing them to ignore any **darkness** penalties.
 
@@ -197,7 +199,7 @@ When rolling for duration, unless specified otherwise, the roll is made by the *
 
 ## Necromancers of Yadar {.big}
 
-![](./images/wizard-necromancer.png){.left}
+![](./images/necromancer-of-yadar.png)
 
 Controlling the dead and the dark forces of the void is the Necromancers of Yadar's specialty. Their techniques are strictly forbidden in most places of the world, but in Blacksalt, no one cares - they will take whatever works.
 
@@ -282,12 +284,13 @@ Castle Ravenhome is a prestigious institution that offers daily classes, teacher
 - **Arcane fire**: Target 2 **nearby** tiles: anything standing in those tiles takes 2 wounds per turn, which can be reduced. Lasts until the end of the combat.
 
 #### Equipment
-Quarterstaff (STR 1+1), ornate garments, crystal ball (conductor), scattered notes (grimoire), cloak, 2d6 silver coins.
+Small Knife (STR 1+1P), ornate garments, Wand (conductor), scattered notes (grimoire), cloak, 2d6 silver coins.
 
 
 <pagebreak>
 
 ## Wandering Mystics {.big}
+![](./images/wandering-mystic.png)
 Their order is not hierarchical or ordered; rather, they adhere to a strict moral code. They typically select children who are lost as their apprentices. It is common for them not to stay in a place for too long, and they usually share their observations with fellow Wanderers through writing with invisible ink.
 
 Most places do not welcome them and see them as tricksters and freeloaders.
@@ -303,44 +306,51 @@ Most places do not welcome them and see them as tricksters and freeloaders.
 - **Morbid touch**: Conjures a see-through hand with a morbid aura toward a **nearby** target. Attacks with (INT 2P), then dissipates.
 
 #### Equipment
-Backpack, wand (conductor), wine, holy water, healing tonic, heavy cloak (AP 1), 2d6 silver coins.
+Backpack, Cane (STR 1+1, conductor), wine, holy water, healing tonic, heavy cloak (AP 1), 2d6 silver coins.
 
 <pagebreak>
 
 ## The Awakened {.big}
+![](./images/awakened.png)
 Most Awakened believe themselves to be cursed; they never studied magic, but the Void found them. Although they don't fully comprehend their powers, they've learned to use them to survive. The Awakened don't need a grimoire and can meditate to remember spells.
 
 #### Spells {.block .unlisted}
 
 - **Light**: Illuminates [nearby]{.tip} room for 1 decay.
 - **Haste**: A **nearby** creature has their movement speed doubled until the end of the combat.
-- **Shackles**: The wizard creates magical shackles that hold a **nearby** creature in place, adding 2 [stun tokens]{.tip} per turn. It lasts as long as the wizard keeps channeling the spell. The wizard can't move or act while channelling.
-- **Telekinesis**: The wizard may pull or push a **close** object using **intelligence** as **strength**. Or use any weapon with **intelligence** as **strength** for one turn.
+- **Shackles**: The wizard creates magical shackles that hold a [nearby]{.tip} creature in place, adding 2 [stun tokens]{.tip} per turn. It lasts as long as the wizard keeps channeling the spell. The wizard can't move or act while channeling.
+- **Telekinesis**: The wizard may pull or push a [close]{.tip} object using **intelligence** as **strength**. Or use any weapon with **intelligence** as **strength** for one turn.
 - **Hover**: The wizard can hover one meter above the ground, water or similar. Lasts 1d6 turns.
 - **Nether swap**: Immediately swaps place with a target creature.
+- **Soul punch**: Set your cursed hand aflame and punch a [close]{.tip} target. If attack is successful cause 3 damage instead, that damage cannot be reduced by armor or resistances.
 
 #### Equipment
-Inscribed gauntlet (conductor, STR 2), ashes of insight, ornate clothes, 1d6 silver coins.
+Cursed hand (conductor, STR 2+1P), ashes of insight, ornate clothes, 1d6 silver coins.
 
 <pagebreak>
 
 # Gods
+![](./images/god_of_laughter.png){.left}
+Clerics always follow one god and one god only. Some won't even believe in other gods. While the divine effects of the clerics can easily be felt and seen through the world their actual existence is hard to be actually proven. Some even say that there are no gods in this world, and all clerics are actually just magic users that don't know their own potential.
 
-## New Gods
-The new gods are the gods that appeared after the origin of the world. They are the ones worshipped by most humans and other intelligent creatures.
+The main consensus is that are 2 types of gods in the world, the **old gods** and the **new gods**.
+
+**Old gods** are the ones that lived before the creation of the current world. Before this world, there was another one, and some event caused it to be destroyed, while creating the current one. These beings are so powerful that they didn't fade when their world was destroyed. Not much is known of them and their worship is strictly forbidden in most cultures, but secret cults can be found all over **Blacksalt** island nonetheless.
+
+The **new gods** are the gods that appeared after the origin of the world. They are the ones worshipped by most humans and other intelligent creatures.
 
 <pagebreak>
 
 ### Goshkalon {.big}
-![](./images/god_of_laughter.png){.left}
+![](./images/goshkalon.png)
 **The God of Laughter**, Goshkalon is a quite controversial god. His influence is mostly perceived as benign, but he's worshipped by goblins, gnolls and other evil cults. His blessings are never straightforward, usually having some ironic humor to them, never really fixing any real problems, only numbing the symptoms and effects of them.
 
 Often venerated at the sites of great tragedies, gathering followers are among the desperate and hopeless. Worshipping **Goshkalon** gives its devotees so much bliss that some will pray so obsessively that they often die from hunger, thirst, and exhaustion without even feeling it.
 
-**Sacrifice**: Burn a number of silver coins in a fire, which will boil and disappear. Roll that number of dice (Xd!): if triggered, Goshkalon will be pleased.
+**Sacrifice**: Offer a number of teeth to a fire, which will boil and disappear. For every handful of teeth roll a [risk dice]{.tip} (1d!): if triggered, Goshkalon will be pleased.
 
 #### Equipment
-Scythe(STR 2X+2), clay statue (holy symbol), Gambeson (1 [AP]{.tip}), 3d6 silver coins. 
+Scythe(STR 2X+2), clay statue (holy symbol), improvised armor (1 [AP]{.tip}), a purse full of teeth, 3d6 silver coins. 
 
 <break>
 
@@ -414,12 +424,15 @@ Flail (STR 2X+2), human skin drum (holy symbol), leather armor (1 [AP]{.tip}), 2
 <pagebreak>
 
 ### Kaal Rafir {.big}
+![](./images/kaal-rafir.png)
 **The god of plague and diseases**, Kaal Rafir, is the first of the new gods. Originally, he was one of the old gods, the god of entropy and cold, but after siding with the new gods during their uprising, he was punished.
+
+Kaal Rafir disciples usually have small mice, cockroaches or locusts as companions. Those companions can be ordered around for very simple tasks, but they are not intelligent nor can communicate. A companion has 1hp. If for any reason a companion dies, a new companion will show up during next [camp]{.tip}, the cleric can choose a different animal for the new companion.
 
 **Sacrifice**: Kaal Rafir doesn't require sacrifices, but praying to him at the camp will restore the cleric's powers. But, when angered, the whole party takes 2 non-lethal presence fatigue.
 
 #### Equipment
-Flail (STR 2X+2), forbidden scriptures (holy symbol), leather trench coat (1 [AP]{.tip}), 1d6 silver coins.
+Diseased Staff (STR 2X+2), dead animal (holy symbol), leather trench coat (1 [AP]{.tip}), small animal companion, 1d6 silver coins.
 
 #### Prayers {.block .unlisted}
 - **Hold**: Paralyzes [nearby]{.tip} target for 1d6 turns, reducing the target's actions to zero.
@@ -432,9 +445,6 @@ Flail (STR 2X+2), forbidden scriptures (holy symbol), leather trench coat (1 [AP
 Flail (STR 2X+2), forbidden scriptures (holy symbol), leather trench coat (1 [AP]{.tip}), 3d6 silver coins. 
 
 ## Old Gods {.draft}
-Old gods are the ones that lived before the creation of the current world. Before this world, there was another one, and some event caused it to be destroyed, while creating the current one. These beings are so powerful that they didn't fade when their world was destroyed.
-
-Not much is known of them and their worship is strictly forbidden in most cultures, but secret cults can be found all over **Blacksalt** island nonetheless.
 
 ### Ulass
 **The Never-ending**.

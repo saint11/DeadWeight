@@ -14,7 +14,7 @@ links:  Core Rules*|index, Playing the Game|game, Bestiary, Blacksalt, Quick Ref
 header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
-version 0.65 💀
+version 0.66 💀
 
 ![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake .big}
 
@@ -60,6 +60,7 @@ For simplicity, the rules are broken up in different books:
 - [Bestiary](./bestiary.html): A list of monsters and enemies for the **adventurers** and their respective stats and lore.
 - [Blacksalt](./blacksalt.html): A lore guide about the island and the world of **Blacksalt**, gods, settlements and locations.
 - [Quick Reference](./quick-ref.html): A compilation of the most used tables. It's useful to have this open on your phone or on a different tab while playing.
+![](images/burial-mound-cover.jpg)
 - [Sample Dungeon](./dungeon/dungeon_level_1.html): **Players should NOT read this**, only the **GM**. A sample dungeon for a first adventure.
 
 If you've never played a tabletop RPG before, check [this](https://www.youtube.com/watch?v=U_v3vTAEML0) video for a basic explanation. {.web}

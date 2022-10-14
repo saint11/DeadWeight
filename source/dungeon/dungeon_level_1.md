@@ -10,7 +10,9 @@ print: true
 header-image: ../images/header-ornaments.png
 ---
 
-You can download the map without the numbers [here](dungeon/shattered_tomb_of_Acheron_Zul_1.png).
+![alt](../images/burial-mound.png){.big}
+
+You can download the map without the numbers [here](dungeon/shattered_tomb_of_acheron_zul_1.png).
 
 Acheron Zul is long gone, but his horrible curse afflicted the nearby fief of Trinta. The **adventurers** must now enter his tomb to find his remains, but goblins have raided it first, finding things they weren't expecting.
 
