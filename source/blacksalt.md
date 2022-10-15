@@ -4,7 +4,7 @@ author: Pedro Medeiros
 date: 2021-04-21
 
 toc: true
-toc-title: Dead Weight
+toc-title: Dead Weight - Blacksalt
 hide-title: false
 print: 2
 
@@ -375,7 +375,7 @@ The **God of death**, Cador, wants order to be brought back to the world. Cador 
 War hammer (STR 1P+3), Ancient talisman (holy symbol), Ud6 flasks of holy water, thick cloak (1 [AP]{.tip}), 3d6 silver coins.
 
 #### Prayers {.block .unlisted}
-- **Mercy**: Immediately kills any creature that would die if it received 4 wounds or less.
+- **Mercy**: Immediately kills [close]{.tip} any creature that would die if it received 4 wounds or less.
 - **Seal**: Creates a 3m line that no undead can cross during this expedition.
 - **Borrowed Time**: Target cannot die for the next 2d6 turns. All wounds are placed normally and after the effect is done, the target can die again.
 - **Judgment**: All undead **nearby** receive a [stun token]{.tip} and a wound.

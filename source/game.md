@@ -3,7 +3,7 @@ title: Dead Weight
 author: Pedro Medeiros
 date: 2021-04-21
 toc: true
-toc-title: Dead Weight
+toc-title: Dead Weight - Game
 hide-title: true
 print: 3
 links-title: Books

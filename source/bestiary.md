@@ -4,7 +4,7 @@ author: Pedro Medeiros
 date: 2021-04-21
 
 toc: true
-toc-title: Dead Weight
+toc-title: Dead Weight - Bestiary
 hide-title: true
 print: 4
 
