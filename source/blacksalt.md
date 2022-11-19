@@ -157,14 +157,15 @@ The lone rogue start with the trait **slippery**, allowing the rogue to spend a 
 
 ## Hoodlum {.big}
 ![](./images/hoodlum.png)
-A gang-member, has a wide net of contacts and is used to violence. Hoodlums are specialized in overwhelming enemies that are outnumbered.
+As a result of growing up in dangerous cities of  the Empire, hoodlums are used to violence, and Blacksalt is full of opportunities for those who are capable of it. Hoodlums are specialized in overwhelming enemies that are outnumbered.
 
-The hoodlum starts with the trait **cold blooded**, allowing them to use **dexterity** instead of **strength** when attacking or defending from flanking enemies.
+<!-- The hoodlum starts with the trait **cold blooded**, allowing them to use **dexterity** instead of **strength** when attacking or defending from enemies that are flanked. -->
+The hoodlum starts with the trait **cold blooded**, allowing them to ignore armor when attacking or defending from enemies that are flanked.
 
 #### Equipment
 Backpack, dagger (STR 1+3P), reinforced clothes (1 [AP]{.tip}), lock-picking tools, 2d6 stolen coins, [valuable]{.tip} stolen boots.
 
-#### Manoeuvers {.block}
+#### Maneuvers {.block}
 - **Dirty tricks**: (1 action) 2 tiles. Kick sand in opponent's eyes or any other dirty trick. Any ally attacking this enemy has **advantage**. Only works on **living** enemies.
 - **Knife in the back**: Once per turn, when attacking a flanked enemy with a **dagger**, you can perform a free attack. Roll an extra die for that attack.
 - **Going somewhere?**: During the enemy actions, you may block an enemy from moving. Add a [stun token]{.tip} to yourself. The enemy will still spend an action.

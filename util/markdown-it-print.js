@@ -38,7 +38,7 @@ module.exports = function print_plugin(md) {
             if (token.type == 'html_block') {
 
                 virtualDiv.innerHTML = token.content;
-                if (virtualDiv.firstChild.tagName.toLowerCase() == 'pagebreak') {
+                if (virtualDiv.firstChild.tagName!=null && virtualDiv.firstChild.tagName.toLowerCase() == 'pagebreak') {
                     tokens.push(makePageNumber(pageNumber));
                     tokens.push(endPage());
 

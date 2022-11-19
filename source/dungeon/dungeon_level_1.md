@@ -63,7 +63,7 @@ Start by giving each **adventurer** a rumor. If an adventurer has 2 or more poin
 > This is some optional history for this dungeon, **if you are in a hurry, feel free to skip this chapter**.
 > This information should not be shared directly with the players, this is a guide to the GM, so you will know what's actually going on in this tomb.
 
-As well as being the feudal lord of the fief of Trita, Acheron Zul was a necromancer-priest almost a century ago. As with most necromancer-priests of that time, he was desperately trying to stop the [dead vigil],{.tip}. While he started with good intent, he quickly got obsessed and arranged macabre ceremonies and experiments.
+As well as being the feudal lord of the fief of Trita, Acheron Zul was a necromancer-priest almost a century ago. As with most necromancer-priests of that time, he was desperately trying to stop the [dead vigil]{.tip}. While he started with good intent, he quickly got obsessed and arranged macabre ceremonies and experiments.
 
 His ever increasing demand for corpses would be satisfied by an old custom of Trinta: every month a sacrifice was made to **Guhlat**, a giant spider that lives on a nearby hill. The spider would leave the Trinta alone as long as she was fed live humans. The peasants would often capture and throw unwary travellers in the [sacrificial pit](#15-sacrificial-pit) for that purpose.
 

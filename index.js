@@ -283,19 +283,18 @@ function processMarkDown(fileName, mdPrint) {
     saveFile(dom.serialize(), path.join(outputPath, file));
 
     if (mdWeb.meta.print) {
+        console.log("Rendering " + file + "(print and web)");
 
         var clear = raw;
 
         if (mdWeb.meta.print > 0) {
-            console.log("*** header found, cleaning ***");
             clear = raw.substr(nthIndex(raw, "---", 2) + 3);
         }
 
         mdPrint[mdWeb.meta.print] = clear;
-        console.log("Rendered " + file);
     }
     else
-        console.log("Rendered " + file + " (web only)");
+        console.log("Rendering " + file + " (web only)");
 
 }
 
