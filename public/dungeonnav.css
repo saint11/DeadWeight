@@ -19,7 +19,7 @@ body {
     height: 100%;
     min-height: 100%;
     margin: 0;
-    margin-left: 600px !important;
+    margin-left: 780px !important;
 }
 
 
@@ -161,7 +161,7 @@ html {
 }
 header {
     display: inline-block;
-    width: 600px;
+    width: 780px;
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
