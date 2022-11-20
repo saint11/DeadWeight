@@ -428,7 +428,6 @@ Casting a spell is always guaranteed to work: after the spell effects are resolv
 
 - Add 1 proficiency point to **Presence**.
 - Add the trait **divine mandate**.
-- Add skill **ward the dead**.
 - Clerics can only use one-handed weapons, staves, bows, crossbows and medium armor
 
 #### Gods
@@ -790,10 +789,11 @@ If an **adventurer** would receive an affliction he or she already has, ignore i
 | **Shaken**    | Can't use the **Catch Breath** action in combat or during exploration. | Rest in the camp phase.                                           |
 | **Nauseated** | During combat, you have one less action.                               | Some potions and tonics. Healed in the **interlude** phase.       |
 | **Terrified** | Rolling a 4 on attribute tests doesn't count as a **success**.         | Drink wine or other alcoholic drink, or defeat a challenging foe. |
-| **Hopeless**  | Rolling a 5 or 6 also causes fatigue.                                  | Escaping alive from the dungeon or survive a challenging fight.   |
+| **Hopeless**  | Rolling a 5 also causes fatigue.                                       | Escaping alive from the dungeon or survive a challenging fight.   |
 | **Cursed**    | Wounds do not heal by resting. Can see ghosts.                         | Only removed by magic or miracles.                                |
 | **Plagued**   | Coughs constantly. When receiving fatigue, receive a wound instead.    | Only removed by magic or miracles.                                |
 | **Doomed**    | When the doom tracker moves, it moves one extra point.                 | Only removed by magic or miracles.                                |
+
 [Afflictions]
 
 \* Not exhaustive: always check item and spell descriptions for more ways to remove afflictions.

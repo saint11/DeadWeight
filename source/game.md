@@ -161,7 +161,7 @@ Some actions will not trigger a turn.
 - Talk to each other.
 
 #### Exit the expedition {.block}
-If the **adventurers** are near an exit and there is nothing blocking their path, they can choose to leave the expedition and return to the [interlude](#interlude). Leaving the dungeon to the interlude will always advance the *doom tracker*.
+If the **adventurers** are near an exit and there is nothing blocking their path, they can choose to leave the expedition and return to the [interlude](#interlude). Leaving the dungeon to the interlude will always advance the *doom tracker* 2 steps. When returning, at the *GM*'s discretion unwarded corpses may be brought back as undead (or ghosts), living enemies might have constructed barricades, traps or prepared for the return of the **adventurers**.
 
 <pagebreak>
 
@@ -373,7 +373,7 @@ When using special rations, the ration will not remove the **hungry** affliction
 **Wizards** and **Clerics** may memorize and forget spells and prayers. 
 
 #### Sleep (2 actions) {.block}
-Recover all fatigue points from the whole party. Removes the **Sleepy** and **Shaken** afflictions. Everyone heals 1 **presence** or **intelligence** wound.
+Recover all fatigue points from the whole party. Removes the **Sleepy** and **Shaken** afflictions. Everyone heals 1 wound.
 
 Un-exhaust all prayers.
 

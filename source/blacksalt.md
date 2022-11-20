@@ -195,7 +195,6 @@ When a spell has a duration that explicitly mentions **exploration turns**, it c
 
 When rolling for duration, unless specified otherwise, the roll is made by the **player** as soon as the spell has been cast.
 
-
 <pagebreak>
 
 ## Necromancers of Yadar {.big}
@@ -368,7 +367,7 @@ Scythe(STR 2X+2), clay statue (holy symbol), improvised armor (1 [AP]{.tip}), a 
 
 ### Cador {.big}
 ![](./images/cador.png)
-The **God of death**, Cador, wants order to be brought back to the world. Cador is the great enemy of the undead; his zealots hunt them down and seal their corpses so the [dead vigil]{.tip} doesn't set in.
+The **God of death**, Cador, wants order to be brought back to the world. Cador is the great enemy of the undead; his zealots hunt them down and seal their corpses so the [dead vigil]{.tip} doesn't set in. Cador's clerics start with the skill **ward the dead**.
 
 **Sacrifice**: To please Cador, the cleric must capture and then kill an undead during the sacrifice ritual.
 

@@ -39,9 +39,9 @@ The terror of the villagers in the **Blacksalt** island. They often kidnap babie
 
 ![](./images/goblin.png){.right}
 
-They are usually smaller than humans, with white skin covered in bumps and red spots, pointy ears and usually no hair. They have huge mouths with way too many pointy teeth.
+They are usually smaller than humans, with white skin covered in bumps and red spots, pointy ears and sparse hair. They have huge mouths with way too many pointy teeth.
 
-They can't speak properly. Their mouths are too wide and have no proper lips. They also lack social intelligence, but will say a few broken words. They don't talk to each other much, at least not with words, but will secrete pheromones similar to ants. They are mostly guided by their instinct to create more goblins and gremlins from human children and to eat meat, including human meat. They do trade with each other, though, using human teeth as currency.
+They can't speak properly. Their mouths are too wide and have no proper lips. They also lack social intelligence, but will understand what people are saying and they can say a few broken words. They don't talk to each other much, at least not with words, but will secrete pheromones similar to ants. They are mostly guided by their instinct to create more goblins and gremlins from human children and to eat meat, including human meat. They do trade with each other, though, using human teeth as currency.
 
 Goblin nests are rare and extremely well hidden, but tales are told of them. With their rituals they will turn each human into 6 or even more goblins - with livestock they can make at least 8 gremlins. Every goblin nest has at least one **goblin matriarch**, a special shaman that releases the spores that turn humans and animals into goblins.
 
@@ -52,9 +52,8 @@ Most of them worship **Igra**, the god of the woods but a few will workship [Gos
 ![](./images/gremlin.png){.left}
 
 <monster id="gremlin">
-
-*Gremlins are made from captured livestock, like cows or horses. They have wide mouths and are strangely attracted by machinery and will often eat machine parts, which is actually very unhealthy for them.*
-*If they manage to eat fresh human meat, they will turn into a **bugbear***
+Gremlins are made from captured livestock, like cows or horses. They have wide mouths and are strangely attracted by machinery and will often eat machine parts, which is actually very unhealthy for them.
+If they manage to eat fresh human meat, they will turn into a **bugbear**
 
 
 <monster id="goblin_scrapper">
@@ -62,6 +61,7 @@ Most of them worship **Igra**, the god of the woods but a few will workship [Gos
 <monster id="goblin_hunter">
 
 <monster id="boggart">
+Boggart is a **gremlin** that lived for a few years, growing in size. They become furry and animalistic creatures with huge eyes. When a gremlin turns in to a boggart it can no longer turn into a **bugbear**.
 
 <monster id="boggart_sniper">
 
@@ -74,8 +74,7 @@ Most of them worship **Igra**, the god of the woods but a few will workship [Gos
 A big goblin with a sack on his back and a big pole with a hook. The sack contains meat for the matriarch and sometimes living captured people or animals.
 
 <monster id="bugbear">
-
-A feral gremlin that ate human flesh, oversized and always hungry. Bugbears are so unstable that even the goblins don't like to have them around.
+A feral gremlin that ate fresh human meat, oversized and always hungry. Bugbears are so unstable that even the goblins don't like to have them around and will avoid letting gremlins near human meat.
 
 <monster id="goblin_matriarch">
 
