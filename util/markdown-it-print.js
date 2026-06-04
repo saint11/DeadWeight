@@ -1,6 +1,4 @@
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
-const { document } = (new JSDOM(`...`)).window;
+const cheerio = require("cheerio");
 
 module.exports = function print_plugin(md) {
 
@@ -30,21 +28,17 @@ module.exports = function print_plugin(md) {
         }
 
         tokens.push(startPage("first"));
-        var virtualDiv = document.createElement('div');
 
-        var dummy = document.createElement('div');
         for (var i = 0, l = state.tokens.length; i < l; i++) {
             var token = state.tokens[i];
             if (token.type == 'html_block') {
-
-                virtualDiv.innerHTML = token.content;
-                if (virtualDiv.firstChild.tagName!=null && virtualDiv.firstChild.tagName.toLowerCase() == 'pagebreak') {
+                const $ = cheerio.load(token.content, null, false);
+                const $first = $.root().children().first();
+                const tagName = $first.length ? ($first.prop('tagName') || '').toLowerCase() : null;
+                if (tagName == 'pagebreak') {
                     tokens.push(makePageNumber(pageNumber));
                     tokens.push(endPage());
-
-                    dummy.innerHTML = token.content;
-
-                    tokens.push(startPage(dummy.childNodes[0].className));
+                    tokens.push(startPage($first.attr('class') || ''));
                 }
             }
             tokens.push(token);

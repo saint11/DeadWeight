@@ -1,7 +1,6 @@
 var uslug = require("uslug");
 const moment = require('moment');
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
+const cheerio = require("cheerio");
 const path = require('path');
 const http = require('http');
 const express = require('express');
@@ -218,17 +217,16 @@ function processSourcesFolder() {
         bookMd.forEach(el => bookRaw += el + "\n\n");
 
         var print = getHtmlFromMarkdown(bookRaw, mdPrint, 'print');
-        document = print.dom.window.document;
 
         // Make print A4 file
-        print.linkElement.setAttribute('href', 'print-a4.css');
-        saveFile(print.dom.serialize(), path.join(publicPath, "book-a4"));
-        saveFile(print.dom.serialize(), path.join(outputPath, "book-a4"));
+        print.linkElement.attr('href', 'print-a4.css');
+        saveFile(print.$.html(), path.join(publicPath, "book-a4"));
+        saveFile(print.$.html(), path.join(outputPath, "book-a4"));
 
         // Make print letter file
-        print.linkElement.setAttribute('href', 'print-letter.css');
-        saveFile(print.dom.serialize(), path.join(publicPath, "book-letter"));
-        saveFile(print.dom.serialize(), path.join(outputPath, "book-letter"));
+        print.linkElement.attr('href', 'print-letter.css');
+        saveFile(print.$.html(), path.join(publicPath, "book-letter"));
+        saveFile(print.$.html(), path.join(outputPath, "book-letter"));
 
         console.log("Rendered book (A4 and Letter)");
 
@@ -269,18 +267,17 @@ function processMarkDown(fileName, mdPrint) {
     var raw = readFile(path.join(sourcePath, file + ".md"));
     console.assert(raw, "Couldn't find markdown source");
 
-    var { dom, linkElement } = getHtmlFromMarkdown(raw, mdWeb);
-    var document = dom.window.document;
+    var { $, linkElement } = getHtmlFromMarkdown(raw, mdWeb);
 
     // Make draft file
-    linkElement.setAttribute('href', '../'.repeat(depth) + (mdWeb.meta.css ? mdWeb.meta.css : 'draft.css'));
-    saveFile(dom.serialize(), path.join(publicPath, file));
+    linkElement.attr('href', '../'.repeat(depth) + (mdWeb.meta.css ? mdWeb.meta.css : 'draft.css'));
+    saveFile($.html(), path.join(publicPath, file));
 
     // Let's make the output now!
 
     // Make web file
-    linkElement.setAttribute('href', '../'.repeat(depth - 1) + (mdWeb.meta.css ? mdWeb.meta.css : 'publish.css'));
-    saveFile(dom.serialize(), path.join(outputPath, file));
+    linkElement.attr('href', '../'.repeat(depth - 1) + (mdWeb.meta.css ? mdWeb.meta.css : 'publish.css'));
+    saveFile($.html(), path.join(outputPath, file));
 
     if (mdWeb.meta.print) {
         console.log("Rendering " + file + "(print and web)");
@@ -335,51 +332,44 @@ function getHtmlFromMarkdown(str, strategy, templateSuffix) {
         template = template.replace("$" + attr[0], attr[1]);
     });
 
-    const dom = new JSDOM(template);
-    const document = dom.window.document;
+    const $ = cheerio.load(template);
 
     if (strategy.meta.title) {
-        document.title = strategy.meta.title;
+        $('title').text(strategy.meta.title);
         if (!strategy.meta["hide-title"]) {
-            const title = document.createElement('h1');
-            title.innerHTML = strategy.meta.title;
-            document.getElementById("main-document").append(title);
+            $('#main-document').append(`<h1>${strategy.meta.title}</h1>`);
         }
     }
 
-    const toc = document.getElementById("toc");
-    if (toc) {
+    const $toc = $('#toc');
+    if ($toc.length) {
         if (strategy.meta["toc"]) {
             if (strategy.meta["toc-title"]) {
-                const title = document.createElement('h2');
-                title.innerHTML = strategy.meta["toc-title"];
-                title.id = "toc-title"
-                toc.appendChild(title)
+                $toc.append(`<h2 id="toc-title">${strategy.meta["toc-title"]}</h2>`);
             }
-            toc.innerHTML += strategy.tocBody;
+            $toc.append(strategy.tocBody);
 
             if (strategy.meta["links"]) {
-                const link = document.createElement('div');
-                link.innerHTML += `<h2 style="margin-bottom:2px; margin-top:30px">${strategy.meta["links-title"]}</h2><ul>`;
+                let linksHtml = `<h2 style="margin-bottom:2px; margin-top:30px">${strategy.meta["links-title"]}</h2><ul>`;
                 strategy.meta["links"].split(',').forEach((el) => {
-                    const split = el.split("\|");
+                    const split = el.split("|");
                     if (split[0].endsWith("*")) {
-                        link.innerHTML += `<li class="selected">${split[0].trim().slice(0, -1)}</li>`;
+                        linksHtml += `<li class="selected">${split[0].trim().slice(0, -1)}</li>`;
                     }
                     else {
-                        link.innerHTML += `<li><a href="./${split[1] ?? split[0].trim().toLowerCase()}.html">${split[0].trim()}</a></li>`;
+                        linksHtml += `<li><a href="./${split[1] ?? split[0].trim().toLowerCase()}.html">${split[0].trim()}</a></li>`;
                     }
-                    toc.appendChild(link)
-                })
-                link.innerHTML += `</ul>`;
+                });
+                linksHtml += `</ul>`;
+                $toc.append(`<div>${linksHtml}</div>`);
             }
         }
         else {
-            toc.parentElement.remove();
+            $toc.parent().remove();
         }
     }
 
-    document.getElementById("main-document").innerHTML += result;
+    $('#main-document').append(result);
 
     // Monster tooltips
     // var monster_tooltips = document.querySelectorAll(".m");
@@ -403,18 +393,13 @@ function getHtmlFromMarkdown(str, strategy, templateSuffix) {
     //     monsterSpan.appendChild(tableDiv);
     // });
 
-    var linkElement = document.createElement('link');
-    linkElement.setAttribute('rel', 'stylesheet');
-    linkElement.setAttribute('type', 'text/css');
-    document.head.append(linkElement);
+    $('head').append('<link rel="stylesheet" type="text/css">');
+    const linkElement = $('head link[rel="stylesheet"]').last();
 
-    var faAwesome = document.createElement('script');
-    faAwesome.setAttribute('src', 'https://kit.fontawesome.com/ba93eb1f54.js');
-    faAwesome.setAttribute('crossorigin', 'anonymous');
-    document.head.append(faAwesome);
+    $('head').append('<script src="https://kit.fontawesome.com/ba93eb1f54.js" crossorigin="anonymous"></script>');
 
 
-    return { dom, linkElement };
+    return { $, linkElement };
 }
 
 function nthIndex(str, pat, n) {
