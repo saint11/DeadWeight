@@ -227,7 +227,7 @@ There's a goblin camp here, and they look injured and tired. They were not expec
 - There's a recent human corpse on the floor. She looks like an undead hunter and was carrying:
   - **1d6 Spikes**
   - **1d6 Flasks of holy water**
-  - **Crossbow** with **Ud10 bolts**
+  - **Crossbow** with **1d10 bolts**
 - The north wall is partially demolished, a **sledgehammer** on the ground.
   - Digging through the rubble is possible to open a passage to the [chapel](#chapel).
 - The 4 corpses are each wearing a silvery necklace ( **necklace to bind undead**, 10 silver, 5 corpses), removing it will wake the body which is a [starved cadaver]{.m}.

@@ -2143,7 +2143,7 @@
 				},
 				{
 					"name": "armourer supplies",
-					"description": "Repairs one armor point from any armor. Ud6 uses.",
+					"description": "Repairs one armor point from any armor. Has 4 uses.",
 					"tags": 4,
 					"rarity": 3
 				},

@@ -261,9 +261,9 @@ To make a potion, the wizard can mix any number of extracts available. Add all f
 | **Explosive potion**  |  -2   |   2   | Can be thrown to a **nearby** tile, causing 2 wounds to anyone in that tile and 1 wound to anyone **close**; damage can be reduced. |
 | **Tonic of bravery**  |   1   |   1   | Character can't get **terrified** during this expedition.                                                                           |
 | **Anti-poison tonic** |   1   |  -1   | Cures **Nausea** and simple poisons.                                                                                                |
-| **Mercurial tonic**   |   0   |   0   | Get 1 extra combat action for this and the next Ud4 turns (test at the end of the turn).                                            |
+| **Mercurial tonic**   |   0   |   0   | Get 1 extra combat action for this turn. Then test 2d! if triggered, the event expires.                                            |
 | **Tonic of focus**    |  -1   |  -1   | Cures 2 presence wounds.                                                                                                            |
-| **Purging hot-water** |  +1   |  +1   | Cures 2 strength wounds, causes 1 presence wound. Ud4 uses.                                                                         |
+| **Purging hot-water** |  +1   |  +1   | Cures 2 strength wounds, causes 1 presence wound. Has 4 uses.                                                                         |
 
 #### Equipment
 Cane (conductor, STR 1+1), alchemic tools, tattered trench coat, old tome (grimoire), 3d6 silver coins, 1 gold coin.
