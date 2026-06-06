@@ -1813,10 +1813,10 @@
 									"effect": "#Bag, #2 short swords (STR 2+1), #Leather armor (1 AP),#Climbing tools, #Stolen golden icon, #1d6 silver coins"
 								},
 								{
-									"effect": "#Backpack, #Dagger (STR 1+3P), #Reinforced hood and vest (1 AP), #Lock-picking tools, #Ud6 sleeping darts, #3d6 counterfeit coins"
+									"effect": "#Backpack, #Dagger (STR 1+3P), #Reinforced hood and vest (1 AP), #Lock-picking tools, #1d6 sleeping darts, #3d6 counterfeit coins"
 								},
 								{
-									"effect": "#Backpack, #Ud10 throwing hatchets (DEX 1X+1), #Animal bones for crafting, #Ud4 trapping kit, #Cloth tunic, #1d6 silver coins"
+									"effect": "#Backpack, #1d10 throwing hatchets (DEX 1X+1), #Animal bones for crafting, #1d4 trapping kits, #Cloth tunic, #1d6 silver coins"
 								}
 							]
 						},
@@ -1847,7 +1847,7 @@
 									"effect": "#Flail (STR 2X+2), #Forbidden scriptures (holy symbol), #Leather trench coat (1 AP), #3d6 silver coins"
 								},
 								{
-									"effect": "#War hammer (STR 1P+3), #Ancient talisman (holy symbol), #Ud6 flasks of holy water, #Thick cloak (1 AP), #3d6 silver coins"
+									"effect": "#War hammer (STR 1P+3), #Ancient talisman (holy symbol), #1d6 flasks of holy water, #Thick cloak (1 AP), #3d6 silver coins"
 								},
 								{
 									"effect": "#Notched whip (DEX 1R+2B), #Torture equipment, rope, #Book of sins (holy symbol), #Tattered cloak, #1d6 coins"
@@ -1957,7 +1957,7 @@
 				},
 				{
 					"name": "drawing tools",
-					"description": "Some papers and drawing tools, can be used to draw maps or write scrolls, Ud8",
+					"description": "Some papers and drawing tools, can be used to draw maps or write scrolls.",
 					"rarity": 1,
 					"tags": 0
 				},
@@ -1975,7 +1975,7 @@
 				},
 				{
 					"name": "iron spikes",
-					"description": "For fixing doors open and making sure things stay in place. Ud8",
+					"description": "For fixing doors open and making sure things stay in place. When purchased, comes in sets of 8",
 					"rarity": 1,
 					"tags": 2
 				},
@@ -1993,13 +1993,13 @@
 				},
 				{
 					"name": "torches",
-					"description": "A pack of 2 torches. Lights the way **nearby** for Ud4 decays.",
+					"description": "A pack of 2 torches. Lights the way **nearby** for 3 decays.",
 					"rarity": 1,
 					"tags": 2
 				},
 				{
 					"name": "candles",
-					"description": "A pack of 6 candles. Lights the way **close** for Ud6 decays.",
+					"description": "A pack of 6 candles. Lights the way **close** for 5 decays.",
 					"tags": 2,
 					"rarity": 1
 				},
@@ -2023,7 +2023,7 @@
 				},
 				{
 					"name": "sewing tools",
-					"description": "Repairs one armor point from any light armor. Ud8 uses.",
+					"description": "Repairs one armor point from any light armor. On 1d! the kit is spent.",
 					"tags": 4,
 					"rarity": 1
 				},
@@ -2035,13 +2035,13 @@
 				},
 				{
 					"name": "holy water",
-					"description": "Can be thrown at undead for DEX 2PR, Ud6 uses.",
+					"description": "Can be thrown at undead for DEX 2PR, When purchased, comes in sets of 6.",
 					"tags": 8,
 					"rarity": 1
 				},
 				{
 					"name": "climbing gear",
-					"description": "15m of rope with a hook, spikes and other safety utensils for Ud6 climbs.",
+					"description": "15m of rope with a hook, spikes and other safety utensils.",
 					"rarity": 2,
 					"tags": 2
 				},
@@ -2053,25 +2053,25 @@
 				},
 				{
 					"name": "lockpicking tools",
-					"description": "For opening simple locks. Ud20 uses",
+					"description": "For opening simple locks. On a failed test roll 2d!, if triggered, the tools are broken.",
 					"rarity": 2,
 					"tags": 2
 				},
 				{
 					"name": "trapping kit",
-					"description": "For making and disarming simple traps. Can build Ud6 traps. Stepping on a trap causes 4 wounds and immobilizes the target. Getting free requires 1 turn and a strength test.",
+					"description": "For making and disarming simple traps. Stepping on a trap causes 4 wounds and immobilizes the target. Getting free requires 1 turn and a strength test. Has 6 uses.",
 					"rarity": 2,
 					"tags": 10
 				},
 				{
 					"name": "lantern",
-					"description": "Lights the way **nearby** for Ud8 decays. Uses oil. Quick to turn on and off, slow to refuel.",
+					"description": "Lights the way **nearby** for 5 decays. Uses oil. Quick to turn on and off, slow to refuel.",
 					"rarity": 2,
 					"tags": 3
 				},
 				{
 					"name": "first aid kit",
-					"description": "Heals one STR or DEX wound. Ud6 uses",
+					"description": "Heals one STR or DEX wound. On 1d! the kit is spent.",
 					"rarity": 2,
 					"tags": 4
 				},
@@ -2083,19 +2083,19 @@
 				},
 				{
 					"name": "healing tonic",
-					"description": "Heals one INT or DEX wound. Ud4 uses",
+					"description": "Heals one INT or DEX wound. Has 4 uses",
 					"rarity": 2,
 					"tags": 1
 				},
 				{
 					"name": "wine",
-					"description": "Heals one PRE wound and removes *Parched*. Ud4, causes *Nauseated* if you drink too much.",
+					"description": "Heals one PRE wound and removes *Parched*. Causes *Nauseated* if you drink too much. When bought, comes in packs of 4.",
 					"rarity": 2,
 					"tags": 2
 				},
 				{
 					"name": "leatherworker's toolkit",
-					"description": "Repairs one armor point from any medium or light armor. Ud6 uses.",
+					"description": "Repairs one armor point from any medium or light armor.  On 1d! the kit is spent.",
 					"tags": 4,
 					"rarity": 2
 				},
@@ -2173,7 +2173,7 @@
 				},
 				{
 					"name": "living ashes",
-					"description": "+1 damage to a weapon during expedition, Ud4 uses",
+					"description": "+1 damage to a weapon during expedition, 4 uses",
 					"tags": 1,
 					"rarity": 4
 				},

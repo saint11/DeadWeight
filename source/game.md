@@ -58,7 +58,7 @@ If the **adventurers** are in a safe place, outside of a dungeon and with no imm
 [Decay]
 {.roll meta-dice=2}
 
-If a character would receive an affliction that they already have, keep adding 1 to the result until a valid result has been reached. After decay happens, players should also roll the usage dice for any torch, lanterns, etc.
+If a character would receive an affliction that they already have, keep adding 1 to the result until a valid result has been reached. After decay happens, players should also advance any light timers they have. Check the [light section](./index.html#light) for more information on that.
 
 <pagebreak>
 
@@ -405,7 +405,7 @@ The interlude rules are still untested, so some balancing may be needed. {.alert
 
 Interlude is the time between expeditions; it's when the characters rest, tend their wounds and plan their next job. Most **adventurers** do no want to raid tombs and the horrible places, but they have no other choice. While resting in the interlude, the **adventurers** are actually draining their resources - **Blacksalt** is not a cheap place to live. Also, be aware that characters can **die** during the interlude, especially if they are lacking resources.
 
-Playing the interlude depends on how much detail you and your group wants. You can play it **unabridged** or **abridged** or even mix both methods and choose what you like from each. If you are unsure, I would recommend trying **abridged** first, since it's much faster - if you feel it's too simple, try unabridged next time or even roll back and replay that interlude unabridged.
+Playing the interlude depends on how much detail you and your group wants. You can play it **unabridged** or **abridged** or even mix both methods and choose what you like from each. If you are unsure, I would recommend trying **unabridged** first, so there's more room for roleplay and character development. If you group is looking for something closer to a board game, the **abridged** is probably better.
 
 ## Unabridged Interlude
 The focus is **Dead Weight** in the expedition, but a lot of cool things may happen during the interlude. Playing it unabridged allows new stories to unfold and character development.

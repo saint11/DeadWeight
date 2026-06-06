@@ -175,8 +175,8 @@ tables = {
             skills: ["Stalker"],
             equipment:[
                 ["2 Short swords (STR 2+1)", "Leather armor (1 AP)", "Climbing tools", "Stolen golden icon", rollD6() + " silver coins"],
-                ["Dagger (STR 1+3P)", "Reinforced hood and vest (1 AP)", "Lock-picking tools", "Ud6 Sleeping darts", rollXD6(3) + " counterfeit coins"],
-                ["Ud10 throwing hatchets (DEX 1X+1)", "Animal bones for crafting", "Ud4 trapping kit", "cloth tunic", rollD6() + " silver coins"],
+                ["Dagger (STR 1+3P)", "Reinforced hood and vest (1 AP)", "Lock-picking tools", "1d6 Sleeping darts", rollXD6(3) + " counterfeit coins"],
+                ["1d10 throwing hatchets (DEX 1X+1)", "Animal bones for crafting", "1d4 trapping kit", "cloth tunic", rollD6() + " silver coins"],
             ]
         },
         {
@@ -197,7 +197,7 @@ tables = {
             skills: ["Banish undead"],
             equipment:[
                 ["Flail (STR 2X+2)", "Forbidden scriptures (holy symbol)", "Leather trench coat (1 AP)", rollXD6(3) + " silver coins"],
-                ["War hammer (STR 1+3)", "Ancient talisman (holy symbol)", "Ud6 flasks of holy water", "thick cloak (1AP)", rollXD6(3) + " silver coins"],
+                ["War hammer (STR 1+3)", "Ancient talisman (holy symbol)", "1d6 flasks of holy water", "thick cloak (1AP)", rollXD6(3) + " silver coins"],
                 ["Notched whip (DEX 1E+2B)", "torture equipment", "rope", "book of sins (holy symbol)", "tattered cloak", rollXD6(1) + " silver coins"],
             ]
         },

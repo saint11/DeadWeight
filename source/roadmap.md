@@ -13,6 +13,9 @@ Last update was <now>
 
 ## Changelog
 
+### 0.67
+- Removed usage dice from the rules (too clunky and over complicated)
+
 ### 0.66
 - Added images for all classes
 - Expanded the gods lore a little bit
@@ -45,6 +48,7 @@ Last update was <now>
 Thanks to **EinBurgbauer** for sending me some amazing feedback and suggestions.
 
 ## Done Recently
+- [x] Removed usage dice from the rules
 - [x] Rework and expand life paths
   - [x] infancy
   - [x] career
@@ -85,7 +89,6 @@ Thanks to **EinBurgbauer** for sending me some amazing feedback and suggestions.
 - [ ] Short video explaining basic rules
 - [ ] Fix broken links everywhere
 - [ ] Better encumbrance rules
-- [ ] Re-think usage dice (maybe something more elegant)
 - [ ] List of magic items
 - [ ] Guilds
 - [ ] More spells and schools of magic

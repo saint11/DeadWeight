@@ -47,7 +47,7 @@ Goblin nests are rare and extremely well hidden, but tales are told of them. Wit
 
 Child-stealers will roam in the night since they can see in the dark. They avoid sun light but it won't hurt them.
 
-Most of them worship **Igra**, the god of the woods but a few will workship [Goshkalon](blacksalt.html#goshkalon), the god of laughter. They are not evil, but guided by the instinct to reproduce their kind, and the only way to do it is with human children.
+Most of them worship **Igra**, the god of the woods but a few will workship [Goshkalon](blacksalt.html#goshkalon), the god of laughter. They are not inherently evil, but guided by the instinct to reproduce their kind, and the only way to it is by mutating humans.
 
 ![](./images/gremlin.png){.left}
 

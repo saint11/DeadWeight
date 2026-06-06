@@ -14,7 +14,7 @@ links:  Core Rules*|index, Playing the Game|game, Bestiary, Blacksalt, Quick Ref
 header-image: images/header-ornaments.png
 footer-image: images/footer-ornaments.png
 ---
-version 0.66 💀
+version 0.67 💀
 
 ![](images/Dead_Weight_Logo.png "Dead Weight logo"){.shake .big}
 
@@ -28,7 +28,7 @@ This is still a work in progress! While absolutely playable, there's some conten
 
 The player characters are no heroes; they are *dead weights* - outcasts and treasure hunters with little to lose. They delve deep into long forsaken places, struggling not only with the horrors that lurk there, but also their fatigue, stress, and the gradual decay of the few resources they bring. All in hopes to save enough silver to leave *Blacksalt Island* for better days elsewhere.
 
-This system has a strong **structure** to it - focusing on **light roleplay** and on dungeon crawling. **Light roleplay** doesn't mean there's no support for it - quite the contrary - it's just that the game system should be fun even if your group doesn't like to roleplay a lot.
+**Dead Weight** lies between a tabletop RPG and a board game. This system has a strong **structure** to it - focusing on **light roleplay** and on dungeon crawling. **Light roleplay** doesn't mean there's no support for it - quite the contrary - it's just that the game system should be fun even if your group doesn't like to roleplay a lot.
 
 
 ## Blacksalt Island {.unlisted}
@@ -490,13 +490,6 @@ When you see **d4**, **d6**, **d8**, **d10**, **d12** and **d20**, this is refer
 ### Adding dice (2d6) {.unlisted}
 When you see **3d6**, that means roll **three six-sided dice** and add the result.
 
-### Usage dice (Ud8) {.unlisted}
-Usage dice track consumable use. For instance, **Throwing Daggers (Ud8)** have a d8 usage die. Every time the consumable is used, the usage dice are rolled: if the result is a 1 or 2, that die is downgraded to the next smallest value in the following chain:
-
-**d20 > d12 > d10 > d8 > d6 > d4**
-
-If you roll a 1 or 2 on a **d4**, that item is gone: you just used the last one.
-
 ### Risk dice (1d!) {.unlisted}
 Risk die are usually for checking if something unpredictable will happen. Roll the indicated number of **d6**; if any show a 1, that thing happens.
 
@@ -856,12 +849,17 @@ The *GM* can also create more trackers at any moment, to represent long challeng
 
 ### Light
 **Adventurers** often explore tombs, dungeons and other dark places. Having some sort of light source is essential. The most common ways to light the way in a dungeon are:
-- **Torches**: Lights the way [nearby]{.tip}, for Ud4 decays.
-- **Candles**: Lights the way [close]{.tip}, for Ud6 decays.
-- **Lantern**: Lights the way [nearby]{.tip} for Ud8 decays. Uses oil. [Quick]{.tip} to turn on and off, [slow]{.tip} to refuel.
+- **Torches**: Lights the way [nearby]{.tip}, for 3 decays.
+- **Candles**: Lights the way [close]{.tip}, for 5 decays.
+- **Lantern**: Lights the way [nearby]{.tip} for 7 decays. Uses oil. [Quick]{.tip} to turn on and off, [slow]{.tip} to refuel.
 - **Light spell**: Lights the way [nearby]{.tip}, for 1 decay.
 
-Every time a [decay](#decay) happens, the usage dice of the light sources should be tested. If the usage dice is exhausted, the light source will be gone next turn: a new one must be lit next turn or the **adventurers** will be left in the dark.
+When a light source is lit, start a timer with that many divisions. Every time a [decay](./game.html#decay) happens, advance that timer.
+
+If the timer is complete, not all is lost yet, there's a high chance the light source will be gone next turn: 
+Every decay after the timer is exhausted, roll a [1d!](#risk-dice-1d)), if triggered, the light source will last another decay, otherwise the light is gone. This can be triggered multiple times. Putting out the light source, either by choice or by accident when on the last tick, also causes it to be gone.
+
+When the light is gone, a new one must be lit immediately, or the **adventurers** will be left in the dark.
 
 Ending a turn in the dark causes an **adventurer** to take a **presence** fatigue or the **terrified** affliction, player's choice.
 

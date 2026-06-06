@@ -12,7 +12,7 @@ header-image: ../images/header-ornaments.png
 
 ![alt](../images/burial-mound.png){.big}
 
-You can download the map without the numbers [here](dungeon/shattered_tomb_of_acheron_zul_1.png).
+You can download the map without the numbers [here](images/shattered_tomb_of_acheron_zul_1.png).
 
 Acheron Zul is long gone, but his horrible curse afflicted the nearby fief of Trinta. The **adventurers** must now enter his tomb to find his remains, but goblins have raided it first, finding things they weren't expecting.
 
@@ -162,7 +162,7 @@ The room was originally an embalming room, and has many chemical flasks floating
 - Some of the chemicals are actually tonics and properly labelled:
   - **Anti-poison tonic**: Cures **Nausea**.
   - **Tonic of Bravery**: Character can't get **terrified** during this expedition.
-  - **Potion of giants**: Restore all strength wounds and fatigue. Ud4 uses. 
+  - **Potion of giants**: Restore all strength wounds and fatigue. 2 uses. 
   - **Rot** and **Flame** extracts.
 
 ## 6 Illustrated Vault
@@ -225,8 +225,8 @@ There's a goblin camp here, and they look injured and tired. They were not expec
 
 - The door to the west is locked; the key is in the [sealed sleeping quarters](#sealed-sleeping-quarters). Breaking it is possible, but it is reinforced, so it won't be easy.
 - There's a recent human corpse on the floor. She looks like an undead hunter and was carrying:
-  - **Ud6 Spikes**
-  - **Ud6 Flasks of holy water**
+  - **1d6 Spikes**
+  - **1d6 Flasks of holy water**
   - **Crossbow** with **Ud10 bolts**
 - The north wall is partially demolished, a **sledgehammer** on the ground.
   - Digging through the rubble is possible to open a passage to the [chapel](#chapel).
@@ -250,7 +250,7 @@ They really don't want to fight and are terrified of whatever is down the tomb. 
 ## 12 Stockroom
 Piles of melted candle wax, along with brooms and cleaning supplies are in a corner. There's a big table in the middle with rotten food piled up. A drawer in the south wall is in surprisingly good condition, full of scrolls and inks.
 
-- **Ud8 candles**
+- **1d8 candles**
 - **Scroll of Detect Evil**
 - **Scroll of Flaming Weapon**
 - The new shelf is blocking a door to the [cult room](#cult-room).

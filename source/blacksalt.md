@@ -129,7 +129,7 @@ Battle Axe (STR 4+2B), loincloth, war paint, medical supplies x 2, 1d6 coins.
 The stalker starts with the trait **dauntless**, making critical hits much more likely.
 
 #### Equipment
-Backpack, Ud10 throwing hatchets (DEX 1X+1), animal bones for crafting, Ud4 trapping kit, cloth tunic, 1d6 silver coins.
+Backpack, 1d10 throwing hatchets (DEX 1X+1), animal bones for crafting, 1d4 trapping kits, cloth tunic, 1d6 silver coins.
 
 #### Manoeuvers {.block}
 - **Clean Kill**: (1 action) Attacks with equipped weapon. Deals double damage if target is immobilized.
@@ -176,7 +176,7 @@ Specialized in getting in and out of places unnoticed. Moon cursers are the mast
 The moon-curser starts with the trait **night-stalker**, allowing them to ignore any **darkness** penalties.
 
 #### Equipment
-Backpack, pack mule, short sword(STR 2+1), black reinforced hood and vest (1 [AP]{.tip}), Ud6 sleeping darts, 3d6 counterfeit coins. 
+Backpack, pack mule, short sword(STR 2+1), black reinforced hood and vest (1 [AP]{.tip}), 1d6 sleeping darts, 3d6 counterfeit coins. 
 
 #### Manoeuvers {.block}
 - **Fade into darkness**: (1 action) Immediately hide in the nearby shadows, nearby enemies will not know where you are and will mostly likely change targets. Moving requires a **dexterity** test or be revealed. Cannot be carrying any light sources. Also add 1 [dodge token]{.tip}.
@@ -256,8 +256,8 @@ To make a potion, the wizard can mix any number of extracts available. Add all f
 
 | Potion                |  Yig  | Grai  | Effect                                                                                                                              |
 | :-------------------- | :---: | :---: | :---------------------------------------------------------------------------------------------------------------------------------- |
-| **Healing tonic**     |   2   |   0   | Heals 1 intelligence or dexterity wound. Ud4 uses.                                                                                  |
-| **Potion of giants**  |   0   |   3   | Heals all strength wounds and fatigue. Ud4 uses.                                                                                    |
+| **Healing tonic**     |   2   |   0   | Heals 1 intelligence or dexterity wound. 1d4 uses.                                                                                  |
+| **Potion of giants**  |   0   |   3   | Heals all strength wounds and fatigue. 2 uses.                                                                                      |
 | **Explosive potion**  |  -2   |   2   | Can be thrown to a **nearby** tile, causing 2 wounds to anyone in that tile and 1 wound to anyone **close**; damage can be reduced. |
 | **Tonic of bravery**  |   1   |   1   | Character can't get **terrified** during this expedition.                                                                           |
 | **Anti-poison tonic** |   1   |  -1   | Cures **Nausea** and simple poisons.                                                                                                |
@@ -372,7 +372,7 @@ The **God of death**, Cador, wants order to be brought back to the world. Cador 
 **Sacrifice**: To please Cador, the cleric must capture and then kill an undead during the sacrifice ritual.
 
 #### Equipment
-War hammer (STR 1P+3), Ancient talisman (holy symbol), Ud6 flasks of holy water, thick cloak (1 [AP]{.tip}), 3d6 silver coins.
+War hammer (STR 1P+3), Ancient talisman (holy symbol), 1d6 flasks of holy water, thick cloak (1 [AP]{.tip}), 3d6 silver coins.
 
 #### Prayers {.block .unlisted}
 - **Mercy**: Immediately kills [close]{.tip} any creature that would die if it received 4 wounds or less.
