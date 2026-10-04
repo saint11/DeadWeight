@@ -511,6 +511,10 @@ A major port city in **Blacksalt**. Famous for its high quality wine.
 
 Yoros is bursting with commerce and is the main connection between the main continent and Blacksalt. The Emperor is the official ruler of Yoros, but the empire's influence is very limited in Blacksalt, with the **Guild of Commerce** having all the real power.
 
+#### Ruled by
+The Guild itself is ruled by seven masters, each responsible for both a region and one of the major practices of the city.
+
+
 ### Kumar Port City
 **Settlement size: City (5)**
 

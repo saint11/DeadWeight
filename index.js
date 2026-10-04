@@ -1,27 +1,28 @@
 var uslug = require("uslug");
-const moment = require('moment');
 const cheerio = require("cheerio");
 const path = require('path');
 const http = require('http');
-const express = require('express');
-const app = express();
-const fs = require('fs-extra')
-const chokidar = require('chokidar');
+const fs = require('fs');
+const { serveStatic } = require('./util/static-server.js');
+const { formatTime, formatDateTime } = require('./util/time.js');
 const dataJsonPath = './data/data.json';
 
 const { getFromId, getSheet } = require('./util/data.js');
 
-const data = JSON.parse(fs.readFileSync(dataJsonPath, 'utf8'));
-const data_monsters = getSheet(data, "monsters");
-const data_items = getSheet(data, "items");
-const data_weapons = getSheet(data, "weapons");
-const data_armor = getSheet(data, "armor");
-const data_shield = getSheet(data, "shield");
-const data_actions = getSheet(data, "actions");
+var data_monsters, data_items, data_weapons, data_armor, data_shield, data_actions;
+
+// Re-read every build so edits to data.json show up without restarting
+function loadData() {
+    const data = JSON.parse(fs.readFileSync(dataJsonPath, 'utf8'));
+    data_monsters = getSheet(data, "monsters");
+    data_items = getSheet(data, "items");
+    data_weapons = getSheet(data, "weapons");
+    data_armor = getSheet(data, "armor");
+    data_shield = getSheet(data, "shield");
+    data_actions = getSheet(data, "actions");
+}
 
 const { makeMonsterTable, makeTable } = require('./util/tables.js');
-const { title } = require('process');
-const { SlowBuffer } = require('buffer');
 var shortcodes = {
     monster: {
         render: function (attrs, env) {
@@ -91,7 +92,7 @@ var shortcodes = {
 
     now: {
         render: function (attrs, enc) {
-            return moment().format('h:mm a, Do MMMM YYYY');
+            return formatDateTime(new Date());
         }
     },
 
@@ -127,7 +128,7 @@ mdWeb.use(require("markdown-it-github-headings"), headingOptions);
 mdWeb.use(require("./util/markdown-it-external-toc.js"), toc_options);
 mdWeb.use(require('markdown-it-header-sections'))
 mdWeb.use(require('markdown-it-bracketed-spans'))
-mdWeb.use(require('markdown-it-meta'))
+mdWeb.use(require('./util/markdown-it-meta.js'))
 mdWeb.use(require('markdown-it-multimd-table'))
 mdWeb.use(require('markdown-it-shortcode-tag'), shortcodes);
 
@@ -138,7 +139,7 @@ mdPrint.use(require("markdown-it-anchor"));
 mdPrint.use(require("markdown-it-toc-done-right"));
 mdPrint.use(require('markdown-it-header-sections'))
 mdPrint.use(require('markdown-it-bracketed-spans'))
-mdPrint.use(require('markdown-it-meta'))
+mdPrint.use(require('./util/markdown-it-meta.js'))
 mdPrint.use(require('markdown-it-multimd-table'))
 mdPrint.use(require('./util/markdown-it-print.js'))
 mdPrint.use(require('markdown-it-shortcode-tag'), shortcodes);
@@ -154,18 +155,13 @@ const staticPath = 'static/';
 
 // Start the server for testing
 const PORT = process.env.PORT || 3000;
-const server = http.createServer(app)
-app.use(express.static(path.join(__dirname, publicPath)));
-server.listen(PORT, () => console.log(`======== Server started [${moment().format('h:mm a')}] ========`));
+const server = http.createServer(serveStatic(path.join(__dirname, publicPath)));
+server.listen(PORT, () => console.log(`======== Server started [${formatTime(new Date())}] ========`));
 processSourcesFolder();
 
 var lastProcessedTime = Date.now();
-chokidar.watch(sourcePath).on('all', (event, path) => {
-    processSourcesFolder();
-});
-
-chokidar.watch(dataPath).on('all', (event, path) => {
-    processSourcesFolder();
+[sourcePath, dataPath, staticPath].forEach(dir => {
+    fs.watch(dir, { recursive: true }, () => processSourcesFolder());
 });
 
 
@@ -188,7 +184,9 @@ function processSourcesFolder() {
     if (Date.now() - lastProcessedTime < 8000) return;
     lastProcessedTime = Date.now();
 
-    fs.emptyDirSync(outputPath);
+    loadData();
+    fs.rmSync(outputPath, { recursive: true, force: true });
+    fs.mkdirSync(outputPath, { recursive: true });
 
     console.log("======== updating sources folder ========")
     fs.readdir(publicPath, (err, files) => {
@@ -232,21 +230,21 @@ function processSourcesFolder() {
 
 
         // Copy static folder
-        fs.copySync(staticPath, publicPath);
-        fs.copySync(staticPath, outputPath);
-        fs.copySync(dataJsonPath, publicPath + "data.json");
-        fs.copySync(dataJsonPath, outputPath + "data.json");
+        copySync(staticPath, publicPath);
+        copySync(staticPath, outputPath);
+        copySync(dataJsonPath, publicPath + "data.json");
+        copySync(dataJsonPath, outputPath + "data.json");
 
         // Copy all images to the output folder
         requireDir(path.join(staticPath, "images/"));
-        fs.copySync(path.join(staticPath, "images/"), path.join(publicPath, "images/"));
-        fs.copySync(path.join(staticPath, "images/"), path.join(outputPath, "images/"));
+        copySync(path.join(staticPath, "images/"), path.join(publicPath, "images/"));
+        copySync(path.join(staticPath, "images/"), path.join(outputPath, "images/"));
 
         // Copy all extra files to the output folder
         fs.readdir(publicPath, (err, files) => {
             files.forEach(file => {
                 if (path.extname(file) != ".html") {
-                    fs.copySync(path.join(publicPath, file), path.join(outputPath, file))
+                    copySync(path.join(publicPath, file), path.join(outputPath, file))
                     // console.log(`${path.join(publicPath, file)} to ${path.join(outputPath, file)}`)
                 }
             });
@@ -304,6 +302,10 @@ function saveFile(html, filePath) {
     fs.writeFileSync(fileName, html, err => {
         console.log(err);
     })
+}
+
+function copySync(src, dest) {
+    fs.cpSync(src, dest, { recursive: true });
 }
 
 function requireDir(filePath) {
